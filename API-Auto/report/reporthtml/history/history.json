@@ -1,161 +1,20 @@
 {
-  "2732a4d8c80e0ada91745179de86fa3f" : {
+  "6f43e2a7d069f0d046c81b4816617031" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "839ffdaaa2f5ea3c",
-      "status" : "broken",
-      "statusDetails" : "KeyError: 'test_dream_hotDream'",
+      "uid" : "8e36d131e8d1e583",
+      "status" : "passed",
       "time" : {
-        "start" : 1596075298979,
-        "stop" : 1596075298995,
-        "duration" : 16
-      }
-    } ]
-  },
-  "eb1cde014c774e9f3df3548544101827" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "d5a6b9366e1e39b0",
-      "status" : "broken",
-      "statusDetails" : "KeyError: 'test_rl_add'",
-      "time" : {
-        "start" : 1596075299136,
-        "stop" : 1596075299136,
-        "duration" : 0
-      }
-    } ]
-  },
-  "da0a061eab97b08ec5fa314a20f8ae9b" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "dac1c8c051658ae4",
-      "status" : "broken",
-      "statusDetails" : "KeyError: 'test_dream_dreamInfoList'",
-      "time" : {
-        "start" : 1596075298979,
-        "stop" : 1596075298979,
-        "duration" : 0
-      }
-    } ]
-  },
-  "b0127eb0d87c8a2f6dfe3d7949c21de9" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ea2fce0ea827538b",
-      "status" : "broken",
-      "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='106.12.126.1972222222222222', port=80): Max retries exceeded with url: /?pageCode=calendar (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A79A1F6550>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))",
-      "time" : {
-        "start" : 1596075298995,
-        "stop" : 1596075299010,
-        "duration" : 15
-      }
-    } ]
-  },
-  "fe70187377f853e47d7366efd3ba167d" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "4c656b0384be75dc",
-      "status" : "broken",
-      "statusDetails" : "KeyError: 'test_rl_common'",
-      "time" : {
-        "start" : 1596075299152,
-        "stop" : 1596075299152,
-        "duration" : 0
-      }
-    } ]
-  },
-  "f682984631906f3e04a18d372bbba3af" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "dd321afa9e0e9d2",
-      "status" : "broken",
-      "statusDetails" : "KeyError: 'test_dream_categoryList'",
-      "time" : {
-        "start" : 1596075298948,
-        "stop" : 1596075298948,
-        "duration" : 0
-      }
-    } ]
-  },
-  "cee3fd85d2f7b527404f48b5aa395db7" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "4a6e9f1436667abe",
-      "status" : "broken",
-      "statusDetails" : "KeyError: 'test_dream_dreamInfoContent'",
-      "time" : {
-        "start" : 1596075298963,
-        "stop" : 1596075298963,
-        "duration" : 0
-      }
-    } ]
-  },
-  "53464f97e21e75fcd0336df8988744c0" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1eeb60a2c3966845",
-      "status" : "broken",
-      "statusDetails" : "KeyError: 'test_config_common'",
-      "time" : {
-        "start" : 1596075298854,
-        "stop" : 1596075298854,
-        "duration" : 0
+        "start" : 1596084983499,
+        "stop" : 1596084983530,
+        "duration" : 31
       }
     } ]
   }

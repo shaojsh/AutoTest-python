@@ -37,7 +37,7 @@ def mail():
         msg = MIMEMultipart()
         msg['From'] = my_sender  # 设置发件人
         msg['To'] = my_user  # 设置收件人
-        msg['Subject'] = '诸葛万年历接口测试报告'
+        msg['Subject'] = '接口测试报告'
 
         result_body = Consts.RESULT_LIST
         len_result = len(result_body)

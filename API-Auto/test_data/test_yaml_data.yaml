@@ -3,7 +3,7 @@
 
 # 运营配置位
 test_operation_list:
-  url: '2222222222222'
+  url: '/config/common'
   params: {
     "pageCode": "calendar"
   }

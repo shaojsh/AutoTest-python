@@ -1,2 +1,0 @@
-Thu, 30 Jul 2020 10:06:17-run_all_case.py-test_operation_list.py-[line:35]-INFO-[日志信息]: 开始执行脚本test_operation_list:
-

@@ -213,3 +213,37 @@ Thu, 30 Jul 2020 10:14:59-run_all_case.py-test_rl_add.py-[line:35]-INFO-[日志�
 
 Thu, 30 Jul 2020 10:14:59-run_all_case.py-test_rl_common.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_rl_common:
 
+Thu, 30 Jul 2020 12:48:10-run_all_case.py-run_all_case.py-[line:24]-INFO-[日志信息]: ==================================2020-07-30 12:48:10===================================
+Thu, 30 Jul 2020 12:48:11-run_all_case.py-test_demo.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_config_common:
+
+Thu, 30 Jul 2020 12:48:54-run_all_case.py-run_all_case.py-[line:24]-INFO-[日志信息]: ==================================2020-07-30 12:48:54===================================
+Thu, 30 Jul 2020 12:48:55-run_all_case.py-test_demo.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_config_common:
+
+Thu, 30 Jul 2020 12:49:28-run_all_case.py-run_all_case.py-[line:24]-INFO-[日志信息]: ==================================2020-07-30 12:49:28===================================
+Thu, 30 Jul 2020 12:49:28-run_all_case.py-test_demo.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_config_common:
+
+Thu, 30 Jul 2020 12:49:28-test_config_common-Assert.py-[line:32]-INFO-[日志信息]: statusCode true, expected_code is 10006, statusCode is 10006 
+Thu, 30 Jul 2020 12:49:28-test_config_common-Assert.py-[line:55]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is 执行成功, body_msg is 签名校验失败
+Thu, 30 Jul 2020 12:49:51-run_all_case.py-run_all_case.py-[line:24]-INFO-[日志信息]: ==================================2020-07-30 12:49:51===================================
+Thu, 30 Jul 2020 12:49:52-run_all_case.py-test_demo.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_config_common:
+
+Thu, 30 Jul 2020 12:53:13-run_all_case.py-run_all_case.py-[line:24]-INFO-[日志信息]: ==================================2020-07-30 12:53:13===================================
+Thu, 30 Jul 2020 12:53:13-run_all_case.py-test_demo.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_config_common:
+
+Thu, 30 Jul 2020 12:53:48-run_all_case.py-run_all_case.py-[line:24]-INFO-[日志信息]: ==================================2020-07-30 12:53:48===================================
+Thu, 30 Jul 2020 12:53:48-run_all_case.py-test_demo.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_config_common:
+
+Thu, 30 Jul 2020 12:55:16-run_all_case.py-run_all_case.py-[line:24]-INFO-[日志信息]: ==================================2020-07-30 12:55:16===================================
+Thu, 30 Jul 2020 12:55:16-run_all_case.py-test_demo.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_config_common:
+
+Thu, 30 Jul 2020 12:55:16-test_config_common-Assert.py-[line:32]-INFO-[日志信息]: statusCode true, expected_code is 10006, statusCode is 10006 
+Thu, 30 Jul 2020 12:55:16-test_config_common-Assert.py-[line:55]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is 执行成功, body_msg is 签名校验失败
+Thu, 30 Jul 2020 12:55:32-run_all_case.py-run_all_case.py-[line:24]-INFO-[日志信息]: ==================================2020-07-30 12:55:32===================================
+Thu, 30 Jul 2020 12:55:32-run_all_case.py-test_demo.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_config_common:
+
+Thu, 30 Jul 2020 12:55:33-test_config_common-Assert.py-[line:32]-INFO-[日志信息]: statusCode true, expected_code is 10006, statusCode is 10006 
+Thu, 30 Jul 2020 12:56:23-run_all_case.py-run_all_case.py-[line:24]-INFO-[日志信息]: ==================================2020-07-30 12:56:23===================================
+Thu, 30 Jul 2020 12:56:23-run_all_case.py-test_demo.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_config_common:
+
+Thu, 30 Jul 2020 12:56:23-test_config_common-Assert.py-[line:32]-INFO-[日志信息]: statusCode true, expected_code is 10006, statusCode is 10006 
+Thu, 30 Jul 2020 12:56:23-test_config_common-Assert.py-[line:50]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 签名校验失败, body_msg is 签名校验失败
