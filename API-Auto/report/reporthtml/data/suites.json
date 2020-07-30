@@ -1,0 +1,145 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_case",
+    "children" : [ {
+      "name" : "test_config_common",
+      "children" : [ {
+        "name" : "test_config_common",
+        "uid" : "1eeb60a2c3966845",
+        "parentUid" : "7ae4097c5531a373967e448ec737b52e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596075298854,
+          "stop" : 1596075298854,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7ae4097c5531a373967e448ec737b52e"
+    }, {
+      "name" : "test_dream_categoryList",
+      "children" : [ {
+        "name" : "test_dream_categoryList",
+        "uid" : "dd321afa9e0e9d2",
+        "parentUid" : "a3ea9ca58ce49f3dfa99cf38f41b2376",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596075298948,
+          "stop" : 1596075298948,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a3ea9ca58ce49f3dfa99cf38f41b2376"
+    }, {
+      "name" : "test_dream_dreamInfoContent",
+      "children" : [ {
+        "name" : "test_dream_dreamInfoContent",
+        "uid" : "4a6e9f1436667abe",
+        "parentUid" : "5c49a0e04c31505a20e3f1ee1c359f88",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596075298963,
+          "stop" : 1596075298963,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5c49a0e04c31505a20e3f1ee1c359f88"
+    }, {
+      "name" : "test_dream_hotDream",
+      "children" : [ {
+        "name" : "test_dream_hotDream",
+        "uid" : "839ffdaaa2f5ea3c",
+        "parentUid" : "b7d82196adb9500e125b8f0efe746ff4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596075298979,
+          "stop" : 1596075298995,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b7d82196adb9500e125b8f0efe746ff4"
+    }, {
+      "name" : "test_dream_dreamInfoList",
+      "children" : [ {
+        "name" : "test_dream_dreamInfoList",
+        "uid" : "dac1c8c051658ae4",
+        "parentUid" : "adc3c174e9acd0892b66139852e4cfba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596075298979,
+          "stop" : 1596075298979,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "adc3c174e9acd0892b66139852e4cfba"
+    }, {
+      "name" : "test_operation_list",
+      "children" : [ {
+        "name" : "test_operation_list",
+        "uid" : "ea2fce0ea827538b",
+        "parentUid" : "0668ac6547c33d4a625a510e1a384fb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596075298995,
+          "stop" : 1596075299010,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0668ac6547c33d4a625a510e1a384fb6"
+    }, {
+      "name" : "test_rl_add",
+      "children" : [ {
+        "name" : "test_rl_add",
+        "uid" : "d5a6b9366e1e39b0",
+        "parentUid" : "6bade3bf4c618677ac349012c3ec5b65",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596075299136,
+          "stop" : 1596075299136,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6bade3bf4c618677ac349012c3ec5b65"
+    }, {
+      "name" : "test_rl_common",
+      "children" : [ {
+        "name" : "test_rl_common",
+        "uid" : "4c656b0384be75dc",
+        "parentUid" : "94943eedbee19de8c2278e9de413e8ee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596075299152,
+          "stop" : 1596075299152,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "94943eedbee19de8c2278e9de413e8ee"
+    } ],
+    "uid" : "86abcc46617c603d802c3e378b13740e"
+  } ]
+}

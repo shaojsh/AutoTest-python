@@ -1,0 +1,80 @@
+{
+  "uid" : "f9121795b8083993",
+  "name" : "test_dream_hotDream",
+  "fullName" : "test_case.test_dream_hotDream#test_dream_hotDream",
+  "historyId" : "2732a4d8c80e0ada91745179de86fa3f",
+  "time" : {
+    "start" : 1590406823143,
+    "stop" : 1590406823157,
+    "duration" : 14
+  },
+  "description" : "测试http://calapi.51jirili.com/dream/hotDream?num=10接口",
+  "descriptionHtml" : "<p>测试http://calapi.51jirili.com/dream/hotDream?num=10接口</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试http://calapi.51jirili.com/dream/hotDream?num=10接口",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "17cd351b8bcd024d",
+      "name" : "log",
+      "source" : "17cd351b8bcd024d.txt",
+      "type" : "text/plain",
+      "size" : 318
+    }, {
+      "uid" : "eea611bef6eec9e",
+      "name" : "stderr",
+      "source" : "eea611bef6eec9e.txt",
+      "type" : "text/plain",
+      "size" : 454
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_dream_hotDream"
+  }, {
+    "name" : "host",
+    "value" : "dingrui"
+  }, {
+    "name" : "thread",
+    "value" : "58520-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_dream_hotDream"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "测试用例地址\uD83D\uDC47",
+    "url" : "http://calapi.51jirili.com/dream/hotDream?num=10",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f9121795b8083993.json",
+  "parameterValues" : [ ]
+}
