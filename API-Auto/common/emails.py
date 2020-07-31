@@ -64,7 +64,7 @@ def mail():
         msg.attach(text)
 
         # 下面是各种类型的附件了
-        xlsxpart = MIMEApplication(open('E:\\project\\Xiaoniu_Api_Rili\\report\\reporthtml\\index.html', 'rb').read())
+        xlsxpart = MIMEApplication(open('C:\\Users\\shaojunshuai\\PycharmProjects\\AutoTest-python\\API-Auto\\report\\reporthtml\\index.html', 'rb').read())
         xlsxpart.add_header('Content-Disposition', 'p_w_upload', filename='index.html')
         msg.attach(xlsxpart)
 

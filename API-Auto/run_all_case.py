@@ -10,7 +10,6 @@ from common import Shell
 import allure
 from common.emails import mail
 
-
 if __name__ == "__main__":
     file = os.path.basename(sys.argv[0])
     log = Log(file)
@@ -21,8 +20,10 @@ if __name__ == "__main__":
     # --alluredir=E:\\project\\Xiaoniu_Api_Rili\\allure-results\\ allure generate report -o report\\allure-reports\\
     try:
         print("开始执行脚本")
-        logger.info("==================================" + time.strftime('%Y-%m-%d %H:%M:%S', time.localtime()) + "===================================")
-        pytest.main(['C:\\Users\\shaojunshuai\\PycharmProjects\\AutoTest-python\\API-Auto\\test_case', "--alluredir", "./report/reportallure/"])
+        logger.info("==================================" + time.strftime('%Y-%m-%d %H:%M:%S',
+                                                                         time.localtime()) + "===================================")
+        pytest.main(['C:\\Users\\shaojunshuai\\PycharmProjects\\AutoTest-python\\API-Auto\\test_case', "--alluredir",
+                     "./report/reportallure/"])
         # pytest.main(['E:\\project\\Xiaoniu_Api_Rili\\test_case', '--alluredir',
         # 'E:\\project\\Xiaoniu_Api_Rili\\report\\reportallure'])
         # logger.info("脚本执行完成")
