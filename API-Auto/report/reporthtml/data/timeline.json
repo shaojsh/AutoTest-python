@@ -1,77 +1,25 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
   "children" : [ {
-    "name" : "A02-03-00033",
+    "name" : "LAPTOP-8POSTNBT",
     "children" : [ {
-      "name" : "8348-MainThread",
+      "name" : "13260-MainThread",
       "children" : [ {
         "name" : "test_config_common",
-        "uid" : "4cdb193839edb7b1",
-        "parentUid" : "593401549f0634b9dbed35050fcefc3c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1596084916388,
-          "stop" : 1596084916419,
-          "duration" : 31
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "593401549f0634b9dbed35050fcefc3c"
-    }, {
-      "name" : "5548-MainThread",
-      "children" : [ {
-        "name" : "test_config_common",
-        "uid" : "a166ec3260873314",
-        "parentUid" : "7c1662864a3bb92e93ee89cc9dc58850",
+        "uid" : "7b4cbddcb20393fb",
+        "parentUid" : "f5e35046e955970f8dfaff710398d3f3",
         "status" : "passed",
         "time" : {
-          "start" : 1596099392399,
-          "stop" : 1596099392431,
-          "duration" : 32
+          "start" : 1596362122847,
+          "stop" : 1596362122925,
+          "duration" : 78
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "7c1662864a3bb92e93ee89cc9dc58850"
-    }, {
-      "name" : "272-MainThread",
-      "children" : [ {
-        "name" : "test_config_common",
-        "uid" : "949010fd9c688e5d",
-        "parentUid" : "eba0ff50241e890a76fea982373e08c8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1596084983499,
-          "stop" : 1596084983530,
-          "duration" : 31
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "eba0ff50241e890a76fea982373e08c8"
-    }, {
-      "name" : "9776-MainThread",
-      "children" : [ {
-        "name" : "test_config_common",
-        "uid" : "5027d33a821969c3",
-        "parentUid" : "70574dfcfe5e2fc35b5352ef5780b2ad",
-        "status" : "broken",
-        "time" : {
-          "start" : 1596084828325,
-          "stop" : 1596084828341,
-          "duration" : 16
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "70574dfcfe5e2fc35b5352ef5780b2ad"
+      "uid" : "f5e35046e955970f8dfaff710398d3f3"
     } ],
-    "uid" : "7b174065ccf2b9706f8869cc89d28df3"
-  } ],
-  "name" : "timeline"
+    "uid" : "81561348550ea1b1515f4c34b4f8f487"
+  } ]
 }

@@ -22,7 +22,9 @@ if __name__ == "__main__":
         print("开始执行脚本")
         logger.info("==================================" + time.strftime('%Y-%m-%d %H:%M:%S',
                                                                          time.localtime()) + "===================================")
-        pytest.main(['C:\\Users\\shaojunshuai\\PycharmProjects\\AutoTest-python\\API-Auto\\test_case', "--alluredir",
+        root_dir = os.path.dirname(os.path.abspath('.'))
+        root_dir = os.path.dirname(os.path.abspath('.')) + '\\API-Auto\\test_case'
+        pytest.main([root_dir, "--alluredir",
                      "./report/reportallure/"])
         # pytest.main(['E:\\project\\Xiaoniu_Api_Rili\\test_case', '--alluredir',
         # 'E:\\project\\Xiaoniu_Api_Rili\\report\\reportallure'])
@@ -47,4 +49,4 @@ if __name__ == "__main__":
         raise
 
     time.sleep(5)
-    mail()
+    #mail()
