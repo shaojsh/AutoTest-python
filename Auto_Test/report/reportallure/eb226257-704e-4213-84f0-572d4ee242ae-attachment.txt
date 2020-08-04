@@ -1,0 +1,1 @@
+INFO     run_all_uicase.py:test_uidemo.py:22 成功进入登录页面

@@ -1,0 +1,7 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 _*_
+
+# 运营配置位
+test_path_list:
+  url_api: '/test_case'
+  url_ui: '/test_flow/text_demo'

@@ -1,0 +1,80 @@
+{
+  "uid" : "b3002050127bbf85",
+  "name" : "test_config_common",
+  "fullName" : "test_case.test_demo#test_config_common",
+  "historyId" : "6f43e2a7d069f0d046c81b4816617031",
+  "time" : {
+    "start" : 1596505568188,
+    "stop" : 1596505568251,
+    "duration" : 63
+  },
+  "description" : "测试http://calapi.51jirili.com/config/common接口",
+  "descriptionHtml" : "<p>测试http://calapi.51jirili.com/config/common接口</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试http://calapi.51jirili.com/config/common接口",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d4d77538eeb4ab3",
+      "name" : "log",
+      "source" : "d4d77538eeb4ab3.txt",
+      "type" : "text/plain",
+      "size" : 325
+    }, {
+      "uid" : "fd2da27de0c72ff9",
+      "name" : "stderr",
+      "source" : "fd2da27de0c72ff9.txt",
+      "type" : "text/plain",
+      "size" : 461
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "4108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "测试用例地址 \uD83D\uDC47",
+    "url" : "http://calapi.51jirili.com/config/common",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b3002050127bbf85.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,150 @@
+Tue, 04 Aug 2020 08:24:49-run_all_case.py-run_all_case.py-[line:23]-INFO-[日志信息]: ==================================2020-08-04 08:24:49===================================
+Tue, 04 Aug 2020 08:30:06-run_all_case.py-run_all_case.py-[line:23]-INFO-[日志信息]: ==================================2020-08-04 08:30:06===================================
+Tue, 04 Aug 2020 08:30:07-run_all_case.py-test_demo.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_config_common:
+
+Tue, 04 Aug 2020 08:30:07-test_config_common-Assert.py-[line:32]-INFO-[日志信息]: statusCode true, expected_code is 10006, statusCode is 10006 
+Tue, 04 Aug 2020 08:30:07-test_config_common-Assert.py-[line:50]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 签名校验失败, body_msg is 签名校验失败
+Tue, 04 Aug 2020 08:31:31-run_all_uicase.py-run_all_uicase.py-[line:23]-INFO-[日志信息]: ==================================2020-08-04 08:31:31===================================
+Tue, 04 Aug 2020 08:32:38-run_all_case.py-run_all_case.py-[line:23]-INFO-[日志信息]: ==================================2020-08-04 08:32:38===================================
+Tue, 04 Aug 2020 08:32:39-run_all_case.py-test_demo.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_config_common:
+
+Tue, 04 Aug 2020 08:32:39-test_config_common-Assert.py-[line:32]-INFO-[日志信息]: statusCode true, expected_code is 10006, statusCode is 10006 
+Tue, 04 Aug 2020 08:32:39-test_config_common-Assert.py-[line:50]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 签名校验失败, body_msg is 签名校验失败
+Tue, 04 Aug 2020 08:32:48-run_all_uicase.py-run_all_uicase.py-[line:23]-INFO-[日志信息]: ==================================2020-08-04 08:32:48===================================
+Tue, 04 Aug 2020 08:34:42-run_all_uicase.py-run_all_uicase.py-[line:23]-INFO-[日志信息]: ==================================2020-08-04 08:34:42===================================
+Tue, 04 Aug 2020 08:39:19-run_all_uicase.py-run_all_uicase.py-[line:23]-INFO-[日志信息]: ==================================2020-08-04 08:39:19===================================
+Tue, 04 Aug 2020 08:40:02-run_all_uicase.py-run_all_uicase.py-[line:23]-INFO-[日志信息]: ==================================2020-08-04 08:40:02===================================
+Tue, 04 Aug 2020 08:40:09-run_all_case.py-run_all_case.py-[line:23]-INFO-[日志信息]: ==================================2020-08-04 08:40:09===================================
+Tue, 04 Aug 2020 08:40:09-run_all_case.py-test_demo.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_config_common:
+
+Tue, 04 Aug 2020 08:40:09-test_config_common-Assert.py-[line:32]-INFO-[日志信息]: statusCode true, expected_code is 10006, statusCode is 10006 
+Tue, 04 Aug 2020 08:40:09-test_config_common-Assert.py-[line:50]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 签名校验失败, body_msg is 签名校验失败
+Tue, 04 Aug 2020 08:46:15-run_all_uicase.py-run_all_uicase.py-[line:23]-INFO-[日志信息]: ==================================2020-08-04 08:46:15===================================
+Tue, 04 Aug 2020 08:46:25-run_all_uicase.py-test_uidemo.py-[line:22]-INFO-[日志信息]: 成功进入登录页面
+Tue, 04 Aug 2020 08:50:34-run_all_uicase.py-run_all_uicase.py-[line:23]-INFO-[日志信息]: ==================================2020-08-04 08:50:34===================================
+Tue, 04 Aug 2020 09:11:29-run_all_uicase.py-run_all_uicase.py-[line:23]-INFO-[日志信息]: ==================================2020-08-04 09:11:29===================================
+Tue, 04 Aug 2020 09:17:18-run_all_uicase.py-run_all_uicase.py-[line:23]-INFO-[日志信息]: ==================================2020-08-04 09:17:18===================================
+Tue, 04 Aug 2020 09:17:23-run_all_uicase.py-test_uidemo.py-[line:23]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 09:17:28-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 09:33:03-run_all_uicase.py-run_all_uicase.py-[line:23]-INFO-[日志信息]: ==================================2020-08-04 09:33:03===================================
+Tue, 04 Aug 2020 09:38:35-run_all_uicase.py-run_all_uicase.py-[line:23]-INFO-[日志信息]: ==================================2020-08-04 09:38:35===================================
+Tue, 04 Aug 2020 09:38:41-run_all_uicase.py-test_uidemo.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 09:38:45-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 09:41:31-run_all_uicase.py-run_all_uicase.py-[line:23]-INFO-[日志信息]: ==================================2020-08-04 09:41:31===================================
+Tue, 04 Aug 2020 09:41:43-run_all_uicase.py-test_uidemo.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 09:41:47-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 09:41:47-run_all_uicase.py-test_uidemo.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 09:41:52-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 09:44:20-run_all_uicase.py-run_all_uicase.py-[line:23]-INFO-[日志信息]: ==================================2020-08-04 09:44:20===================================
+Tue, 04 Aug 2020 09:44:32-run_all_uicase.py-test_uidemo.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 09:44:36-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 09:44:36-run_all_uicase.py-test_uidemo.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 09:44:41-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 09:46:07-run_all_case.py-run_all_case.py-[line:23]-INFO-[日志信息]: ==================================2020-08-04 09:46:07===================================
+Tue, 04 Aug 2020 09:46:08-run_all_case.py-test_demo.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_config_common:
+
+Tue, 04 Aug 2020 09:46:08-test_config_common-Assert.py-[line:32]-INFO-[日志信息]: statusCode true, expected_code is 10006, statusCode is 10006 
+Tue, 04 Aug 2020 09:46:08-test_config_common-Assert.py-[line:50]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 签名校验失败, body_msg is 签名校验失败
+Tue, 04 Aug 2020 09:46:08-run_all_case.py-test_demo.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_config_common:
+
+Tue, 04 Aug 2020 09:46:08-test_config_common-Assert.py-[line:32]-INFO-[日志信息]: statusCode true, expected_code is 10006, statusCode is 10006 
+Tue, 04 Aug 2020 09:46:08-test_config_common-Assert.py-[line:50]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 签名校验失败, body_msg is 签名校验失败
+Tue, 04 Aug 2020 10:05:53-run_all_case.py-run_all_case.py-[line:29]-INFO-[日志信息]: ==================================2020-08-04 10:05:53===================================
+Tue, 04 Aug 2020 10:06:20-run_all_case.py-run_all_case.py-[line:29]-INFO-[日志信息]: ==================================2020-08-04 10:06:20===================================
+Tue, 04 Aug 2020 10:06:20-run_all_case.py-test_demo.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_config_common:
+
+Tue, 04 Aug 2020 10:06:20-run_all_case.py-test_demo.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_config_common:
+
+Tue, 04 Aug 2020 10:06:21-test_config_common-Assert.py-[line:32]-INFO-[日志信息]: statusCode true, expected_code is 10006, statusCode is 10006 
+Tue, 04 Aug 2020 10:06:21-test_config_common-Assert.py-[line:50]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 签名校验失败, body_msg is 签名校验失败
+Tue, 04 Aug 2020 10:06:44-run_all_case.py-run_all_case.py-[line:29]-INFO-[日志信息]: ==================================2020-08-04 10:06:44===================================
+Tue, 04 Aug 2020 10:07:54-run_all_case.py-run_all_case.py-[line:29]-INFO-[日志信息]: ==================================2020-08-04 10:07:54===================================
+Tue, 04 Aug 2020 10:07:54-run_all_case.py-test_demo.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_config_common:
+
+Tue, 04 Aug 2020 10:07:54-test_config_common-Assert.py-[line:32]-INFO-[日志信息]: statusCode true, expected_code is 10006, statusCode is 10006 
+Tue, 04 Aug 2020 10:07:54-test_config_common-Assert.py-[line:50]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 签名校验失败, body_msg is 签名校验失败
+Tue, 04 Aug 2020 10:07:54-run_all_case.py-test_demo.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_config_common:
+
+Tue, 04 Aug 2020 10:07:54-test_config_common-Assert.py-[line:32]-INFO-[日志信息]: statusCode true, expected_code is 10006, statusCode is 10006 
+Tue, 04 Aug 2020 10:07:54-test_config_common-Assert.py-[line:50]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 签名校验失败, body_msg is 签名校验失败
+Tue, 04 Aug 2020 10:09:15-run_all_uicase.py-run_all_uicase.py-[line:30]-INFO-[日志信息]: ==================================2020-08-04 10:09:15===================================
+Tue, 04 Aug 2020 10:09:47-run_all_uicase.py-run_all_uicase.py-[line:30]-INFO-[日志信息]: ==================================2020-08-04 10:09:47===================================
+Tue, 04 Aug 2020 10:10:09-run_all_uicase.py-test_demo.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_config_common:
+
+Tue, 04 Aug 2020 10:10:09-test_config_common-Assert.py-[line:32]-INFO-[日志信息]: statusCode true, expected_code is 10006, statusCode is 10006 
+Tue, 04 Aug 2020 10:10:09-test_config_common-Assert.py-[line:50]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 签名校验失败, body_msg is 签名校验失败
+Tue, 04 Aug 2020 10:10:09-run_all_uicase.py-test_demo.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_config_common:
+
+Tue, 04 Aug 2020 10:10:09-test_config_common-Assert.py-[line:32]-INFO-[日志信息]: statusCode true, expected_code is 10006, statusCode is 10006 
+Tue, 04 Aug 2020 10:10:09-test_config_common-Assert.py-[line:50]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 签名校验失败, body_msg is 签名校验失败
+Tue, 04 Aug 2020 10:10:43-run_all_uicase.py-run_all_uicase.py-[line:30]-INFO-[日志信息]: ==================================2020-08-04 10:10:43===================================
+Tue, 04 Aug 2020 10:10:54-run_all_uicase.py-test_uidemo.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 10:10:58-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 10:10:58-run_all_uicase.py-test_uidemo.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 10:11:03-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 10:23:48-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-04 10:23:48===================================
+Tue, 04 Aug 2020 10:23:59-run_all_uicase.py-test_uidemo.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 10:24:03-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 10:24:03-run_all_uicase.py-test_uidemo.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 10:24:08-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 10:25:43-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-04 10:25:43===================================
+Tue, 04 Aug 2020 10:25:48-run_all_uicase.py-test_uidemo.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 10:25:53-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 10:28:09-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-04 10:28:09===================================
+Tue, 04 Aug 2020 10:28:15-run_all_uicase.py-test_uidemo.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 10:28:19-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 10:29:51-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-04 10:29:51===================================
+Tue, 04 Aug 2020 10:30:01-run_all_uicase.py-test_uidemo.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 10:30:06-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 10:30:25-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-04 10:30:25===================================
+Tue, 04 Aug 2020 10:30:31-run_all_uicase.py-test_uidemo.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 10:30:35-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 10:30:50-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-04 10:30:50===================================
+Tue, 04 Aug 2020 10:30:56-run_all_uicase.py-test_uidemo.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 10:31:00-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 10:31:31-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-04 10:31:31===================================
+Tue, 04 Aug 2020 10:31:37-run_all_uicase.py-test_uidemo.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 10:31:41-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 10:32:23-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-04 10:32:23===================================
+Tue, 04 Aug 2020 10:32:28-run_all_uicase.py-test_uidemo.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 10:34:19-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-04 10:34:19===================================
+Tue, 04 Aug 2020 10:34:25-run_all_uicase.py-test_uidemo.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 10:34:30-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 10:36:05-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-04 10:36:05===================================
+Tue, 04 Aug 2020 10:36:11-run_all_uicase.py-test_uidemo.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 10:36:15-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 10:39:59-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-04 10:39:59===================================
+Tue, 04 Aug 2020 10:40:05-run_all_uicase.py-test_uidemo.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 10:40:10-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 10:41:42-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-04 10:41:42===================================
+Tue, 04 Aug 2020 10:41:48-run_all_uicase.py-test_uidemo.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 10:41:53-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 11:01:19-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-04 11:01:19===================================
+Tue, 04 Aug 2020 11:01:25-run_all_uicase.py-test_uidemo.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 11:01:29-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 11:03:22-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-04 11:03:22===================================
+Tue, 04 Aug 2020 11:03:28-run_all_uicase.py-test_uidemo.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+
+Tue, 04 Aug 2020 11:03:32-test_loginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess

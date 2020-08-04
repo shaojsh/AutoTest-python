@@ -1,0 +1,86 @@
+{
+  "uid" : "b59542321e71a494",
+  "name" : "test_loginOn",
+  "fullName" : "test_flow.text_demo.test_uidemo#test_loginOn",
+  "historyId" : "8106da1260c84ffc1c35190ec50b1cd8",
+  "time" : {
+    "start" : 1596508908627,
+    "stop" : 1596508913210,
+    "duration" : 4583
+  },
+  "description" : "测试 http://10.10.128.152:10053/ loginOn",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/ loginOn</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/ loginOn",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "702f217eea1186d",
+      "name" : "log",
+      "source" : "702f217eea1186d.txt",
+      "type" : "text/plain",
+      "size" : 191
+    }, {
+      "uid" : "f988914ee7b8f00e",
+      "name" : "stderr",
+      "source" : "f988914ee7b8f00e.txt",
+      "type" : "text/plain",
+      "size" : 282
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.text_demo"
+  }, {
+    "name" : "suite",
+    "value" : "test_uidemo"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "11212-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.text_demo.test_uidemo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "loginOn \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "b59542321e71a494.json",
+  "parameterValues" : [ ]
+}

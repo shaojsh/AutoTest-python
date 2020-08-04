@@ -1,0 +1,1 @@
+Tue, 04 Aug 2020 08:46:25-run_all_uicase.py-test_uidemo.py-[line:22]-INFO-[日志信息]: 成功进入登录页面

@@ -6,7 +6,7 @@ project_path = os.path.abspath(os.path.join(os.path.dirname(os.path.split(os.pat
 #  cc = 'test02@163.com' + ';' + 'test03@alibaba.com'  # 抄送人邮件列表
 addressee = 'shaojunshuai@chengtay.com'  # 收件人邮箱列表
 cc = '2319898127@qq.com'
-mail_path = project_path+'API-Auto\\report\\reporthtml\\index.html'
+mail_path = project_path+'Auto_Test\\report\\reporthtml\\index.html'
 
 
 class send_email():

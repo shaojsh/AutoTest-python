@@ -1,8 +1,0 @@
-jdk+python环境配置
-简单介绍下allure库的特性：
-@allure.feature # 用于定义被测试的功能，被测产品的需求点
-@allure.story # 用于定义被测功能的用户场景，即子功能点
-@allure.step # 用于定义被测功能的操作步骤
-@allure.attach # 用于向测试报告中输入附加的信息或附件
-@allure.severity # 用于标记测试用例的严重等级
-(PS:后续会根据日常需要不断补充)

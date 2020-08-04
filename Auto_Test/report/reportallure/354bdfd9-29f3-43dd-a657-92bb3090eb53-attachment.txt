@@ -1,0 +1,2 @@
+Tue, 04 Aug 2020 10:32:28-run_all_uicase.py-test_uidemo.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_loginOn:
+

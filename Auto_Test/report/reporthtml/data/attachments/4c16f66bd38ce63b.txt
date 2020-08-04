@@ -1,0 +1,4 @@
+Tue, 04 Aug 2020 10:07:54-run_all_case.py-test_demo.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_config_common:
+
+Tue, 04 Aug 2020 10:07:54-test_config_common-Assert.py-[line:32]-INFO-[日志信息]: statusCode true, expected_code is 10006, statusCode is 10006 
+Tue, 04 Aug 2020 10:07:54-test_config_common-Assert.py-[line:50]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 签名校验失败, body_msg is 签名校验失败

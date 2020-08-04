@@ -1,0 +1,57 @@
+{
+  "uid" : "d882dc4c05d00af9",
+  "name" : "test_loginOn",
+  "fullName" : "test_flow.test_uidemo#test_loginOn",
+  "historyId" : "14f00e96fb6afaa4ee52778de93f1dc6",
+  "time" : {
+    "start" : 1596501287748,
+    "stop" : 1596501292316,
+    "duration" : 4568
+  },
+  "description" : "测试 http://10.10.128.152:10053/ loginOn",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/ loginOn</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_flow"
+  }, {
+    "name" : "suite",
+    "value" : "test_uidemo"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "7824-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_uidemo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "loginOn \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d882dc4c05d00af9.json",
+  "parameterValues" : [ ]
+}
