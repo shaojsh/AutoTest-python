@@ -1,3 +1,0 @@
-INFO     run_all_uicase.py:test_uidemo.py:23 开始执行脚本test_loginOn:
-
-INFO     test_loginOn:Assert.py:123 except_result = actul_result, except_result is sucess, actul_result is sucess

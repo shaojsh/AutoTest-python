@@ -1,29 +1,21 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 _*_
-
-import pytest
-import json
-import sys
 import os
-from common import Shell
+import sys
+
 from common.Request import RequestsHandler
-from common.Logs import Log
-from common.Yaml_Data import HandleYaml
 from Conf.conf import *
 import allure
 from common import Assert
 from common import Consts
 
 from common.Retrun_Response import dict_style
+from common.Yaml_Data import HandleYaml
+from run_all_case import yamldict, logger
 
-handleyaml = HandleYaml()
+API_dir_cnf = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test'
+handleyaml = HandleYaml(API_dir_cnf+'\\test_data\\test_yaml_data.yaml')
 yamldict = handleyaml.get_data()
-
-file = os.path.basename(sys.argv[0])
-log = Log(file)
-logger = log.Logger
-
-
 @allure.description("测试http://calapi.51jirili.com/config/common接口")
 @allure.testcase("http://calapi.51jirili.com/config/common", "测试用例地址 👇")
 def test_config_common():

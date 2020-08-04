@@ -9,88 +9,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f81cc2d004807f09",
+      "uid" : "f983ff20029ee353",
       "status" : "passed",
       "time" : {
-        "start" : 1596507009354,
-        "stop" : 1596507009385,
-        "duration" : 31
-      }
-    } ]
-  },
-  "4a67e2da4b9ab2fd74bff90138ba983b" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "6eaf63a80afbc662",
-      "status" : "passed",
-      "time" : {
-        "start" : 1596507058931,
-        "stop" : 1596507063508,
-        "duration" : 4577
-      }
-    } ]
-  },
-  "14f00e96fb6afaa4ee52778de93f1dc6" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1636cfc6f335d7e6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1596507839235,
-        "stop" : 1596507843834,
-        "duration" : 4599
-      }
-    } ]
-  },
-  "8106da1260c84ffc1c35190ec50b1cd8" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b08f87dac346a3d5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1596510208281,
-        "stop" : 1596510212955,
-        "duration" : 4674
-      }
-    } ]
-  },
-  "6f43e2a7d069f0d046c81b4816617031" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f3467c313f418204",
-      "status" : "passed",
-      "time" : {
-        "start" : 1596507009306,
-        "stop" : 1596507009338,
+        "start" : 1596528371878,
+        "stop" : 1596528371910,
         "duration" : 32
+      }
+    } ]
+  },
+  "273ee2c83df921554f897ecde9fe0f7b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "18710b3f2bb2e3f9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input \"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596528674144,
+        "stop" : 1596528678845,
+        "duration" : 4701
       }
     } ]
   }

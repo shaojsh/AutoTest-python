@@ -1,0 +1,4 @@
+INFO     run_all_case.py:test_demo.py:24 开始执行脚本test_config_common:
+
+INFO     test_config_common:Assert.py:32 statusCode true, expected_code is 10006, statusCode is 10006 
+INFO     test_config_common:Assert.py:50 Response body msg == expected_msg, expected_msg is 签名校验失败, body_msg is 签名校验失败

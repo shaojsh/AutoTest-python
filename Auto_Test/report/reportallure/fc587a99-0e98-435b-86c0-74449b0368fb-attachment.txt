@@ -1,1 +1,0 @@
-INFO     run_all_uicase.py:test_uidemo.py:27 开始执行脚本test_loginOn:

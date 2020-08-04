@@ -3,8 +3,8 @@
 
 # 运营配置位
 test_path_list:
-  url_api: '/test_case'
-  url_ui: '/test_flow/text_demo'
+  url_api: '/test_case/test_companyloginOn'
+  url_ui: '/test_flow/test_login'
 test_db_list:
   host: '10.10.128.128'
   user: 'root'
@@ -13,3 +13,6 @@ test_db_list:
   db: 'chengtay-zcd'
 test_db_sqllist:
     sql0000001: "select * from apply_product_material where id = '0kdemid2h-0173-73b4b6ce-2c918086-006d'"
+test_userlist:
+  company_user: 'shaojunshuai'
+  company_user_pass: 'shuai2019'

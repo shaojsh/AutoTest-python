@@ -1,0 +1,80 @@
+{
+  "uid" : "a3daaa5bdfd4615c",
+  "name" : "test_config_common",
+  "fullName" : "test_case.test_Api_demo.test_demo#test_config_common",
+  "historyId" : "12451970f50aab0ec4d353f609012c2f",
+  "time" : {
+    "start" : 1596528231012,
+    "stop" : 1596528231044,
+    "duration" : 32
+  },
+  "description" : "测试http://calapi.51jirili.com/config/common接口",
+  "descriptionHtml" : "<p>测试http://calapi.51jirili.com/config/common接口</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试http://calapi.51jirili.com/config/common接口",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "69a0b5794a889d25",
+      "name" : "log",
+      "source" : "69a0b5794a889d25.txt",
+      "type" : "text/plain",
+      "size" : 325
+    }, {
+      "uid" : "340eab28721f46ee",
+      "name" : "stderr",
+      "source" : "340eab28721f46ee.txt",
+      "type" : "text/plain",
+      "size" : 461
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case.test_Api_demo"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "11364-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_Api_demo.test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "测试用例地址 \uD83D\uDC47",
+    "url" : "http://calapi.51jirili.com/config/common",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a3daaa5bdfd4615c.json",
+  "parameterValues" : [ ]
+}

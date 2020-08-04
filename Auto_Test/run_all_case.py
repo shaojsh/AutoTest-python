@@ -13,8 +13,13 @@ from common.emails import mail
 
 root_dir = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test'
 handleyaml = HandleYaml(root_dir+'\\test_data\\ConfigGol.yaml')
-
 yamldict = handleyaml.get_data()
+
+file = os.path.basename(sys.argv[0])
+log = Log(file)
+logger = log.Logger
+
+
 if __name__ == "__main__":
     file = os.path.basename(sys.argv[0])
     log = Log(file)
