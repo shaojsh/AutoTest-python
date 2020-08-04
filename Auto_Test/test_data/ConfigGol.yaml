@@ -5,3 +5,11 @@
 test_path_list:
   url_api: '/test_case'
   url_ui: '/test_flow/text_demo'
+test_db_list:
+  host: '10.10.128.128'
+  user: 'root'
+  password: 'chengtay-uat'
+  port: 3306
+  db: 'chengtay-zcd'
+test_db_sqllist:
+    sql0000001: "select * from apply_product_material where id = '0kdemid2h-0173-73b4b6ce-2c918086-006d'"

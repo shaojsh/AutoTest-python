@@ -14,7 +14,7 @@ class send_email():
         olook = win32.Dispatch("outlook.Application")  # 固定写法
         mail = olook.CreateItem(win32.constants.olMailItem)  # 固定写法
         mail.To = addressee  # 收件人
-        mail.CC = cc  # 抄送人
+        # mail.CC = cc  # 抄送人
         # mail.Recipients.Add(addressee)
         mail.Subject = str(datetime.datetime.now())[0:19] + 'XXX反馈报告'  # 邮件主题
         mail.Attachments.Add(mail_path, 1, 1, "myFile")
