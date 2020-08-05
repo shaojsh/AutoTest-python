@@ -1,47 +1,52 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "name" : "suites",
   "children" : [ {
-    "name" : "test_case.test_Api_demo",
-    "children" : [ {
-      "name" : "test_demo",
-      "children" : [ {
-        "name" : "test_config_common",
-        "uid" : "f983ff20029ee353",
-        "parentUid" : "864507e959eb60a56c4938e0de94eae4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1596528371878,
-          "stop" : 1596528371910,
-          "duration" : 32
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "864507e959eb60a56c4938e0de94eae4"
-    } ],
-    "uid" : "0ce1db2e4e07a2ca035050de40f8374c"
-  }, {
-    "name" : "test_flow.test_login",
+    "name" : "test_flow.test_Authentication",
     "children" : [ {
       "name" : "test_login",
       "children" : [ {
-        "name" : "test_companyloginOn",
-        "uid" : "18710b3f2bb2e3f9",
-        "parentUid" : "d19f87bffe68e4212fd5c70f1bdd110c",
-        "status" : "broken",
+        "name" : "test_companyRegister",
+        "uid" : "5aeb9efa840c5403",
+        "parentUid" : "9a7e0e6f3e0f952f8bcc34abd5c95979",
+        "status" : "passed",
         "time" : {
-          "start" : 1596528674144,
-          "stop" : 1596528678845,
-          "duration" : 4701
+          "start" : 1596624509260,
+          "stop" : 1596624544445,
+          "duration" : 35185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_companyPassForget",
+        "uid" : "6b5b28738a9034e2",
+        "parentUid" : "9a7e0e6f3e0f952f8bcc34abd5c95979",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596624544445,
+          "stop" : 1596624581740,
+          "duration" : 37295
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_companyLoginOn",
+        "uid" : "d4eac7ace1149d1c",
+        "parentUid" : "9a7e0e6f3e0f952f8bcc34abd5c95979",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596624581740,
+          "stop" : 1596624592033,
+          "duration" : 10293
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "d19f87bffe68e4212fd5c70f1bdd110c"
+      "uid" : "9a7e0e6f3e0f952f8bcc34abd5c95979"
     } ],
-    "uid" : "0998e401f617bc92343236ea82d881e6"
-  } ]
+    "uid" : "5afa34953581fdbf72cb514527388d22"
+  } ],
+  "name" : "suites"
 }

@@ -1,5 +1,5 @@
 {
-  "12451970f50aab0ec4d353f609012c2f" : {
+  "dd0646a5c1a798e47c4f25747509dea9" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,32 +9,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f983ff20029ee353",
+      "uid" : "5aeb9efa840c5403",
       "status" : "passed",
       "time" : {
-        "start" : 1596528371878,
-        "stop" : 1596528371910,
-        "duration" : 32
+        "start" : 1596624509260,
+        "stop" : 1596624544445,
+        "duration" : 35185
       }
     } ]
   },
-  "273ee2c83df921554f897ecde9fe0f7b" : {
+  "68de281c9c68e708f61f0f8788ed34b7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "18710b3f2bb2e3f9",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input \"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "uid" : "d4eac7ace1149d1c",
+      "status" : "passed",
       "time" : {
-        "start" : 1596528674144,
-        "stop" : 1596528678845,
-        "duration" : 4701
+        "start" : 1596624581740,
+        "stop" : 1596624592033,
+        "duration" : 10293
+      }
+    } ]
+  },
+  "acb9067300dee3cf493bfb42da37b2a5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6b5b28738a9034e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596624544445,
+        "stop" : 1596624581740,
+        "duration" : 37295
       }
     } ]
   }

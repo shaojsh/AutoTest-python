@@ -1,21 +1,31 @@
 [ {
-  "uid" : "f983ff20029ee353",
-  "name" : "test_config_common",
+  "uid" : "d4eac7ace1149d1c",
+  "name" : "test_companyLoginOn",
   "time" : {
-    "start" : 1596528371878,
-    "stop" : 1596528371910,
-    "duration" : 32
+    "start" : 1596624581740,
+    "stop" : 1596624592033,
+    "duration" : 10293
   },
   "status" : "passed",
-  "severity" : "normal"
+  "severity" : "blocker"
 }, {
-  "uid" : "18710b3f2bb2e3f9",
-  "name" : "test_companyloginOn",
+  "uid" : "6b5b28738a9034e2",
+  "name" : "test_companyPassForget",
   "time" : {
-    "start" : 1596528674144,
-    "stop" : 1596528678845,
-    "duration" : 4701
+    "start" : 1596624544445,
+    "stop" : 1596624581740,
+    "duration" : 37295
   },
-  "status" : "broken",
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5aeb9efa840c5403",
+  "name" : "test_companyRegister",
+  "time" : {
+    "start" : 1596624509260,
+    "stop" : 1596624544445,
+    "duration" : 35185
+  },
+  "status" : "passed",
   "severity" : "blocker"
 } ]

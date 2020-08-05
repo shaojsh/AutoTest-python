@@ -215,3 +215,31 @@ Tue, 04 Aug 2020 16:11:08-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[�
 Tue, 04 Aug 2020 16:11:14-run_all_uicase.py-test_login.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_companyloginOn:
 
 Tue, 04 Aug 2020 16:11:18-test_companyloginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is sucess, actul_result is sucess
+Tue, 04 Aug 2020 17:08:18-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-04 17:08:18===================================
+Tue, 04 Aug 2020 17:08:23-run_all_uicase.py-test_login.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_companyloginOn:
+
+Tue, 04 Aug 2020 17:08:28-test_companyloginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Tue, 04 Aug 2020 17:09:11-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-04 17:09:11===================================
+Tue, 04 Aug 2020 17:09:16-run_all_uicase.py-test_login.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_companyloginOn:
+
+Tue, 04 Aug 2020 17:09:21-test_companyloginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Tue, 04 Aug 2020 17:09:37-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-04 17:09:37===================================
+Tue, 04 Aug 2020 17:09:44-run_all_uicase.py-test_login.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_companyloginOn:
+
+Tue, 04 Aug 2020 17:09:49-test_companyloginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Tue, 04 Aug 2020 17:12:30-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-04 17:12:30===================================
+Tue, 04 Aug 2020 17:12:35-run_all_uicase.py-test_login.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_companyloginOn:
+
+Tue, 04 Aug 2020 17:12:40-test_companyloginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Tue, 04 Aug 2020 17:13:01-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-04 17:13:01===================================
+Tue, 04 Aug 2020 17:13:07-run_all_uicase.py-test_login.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_companyloginOn:
+
+Tue, 04 Aug 2020 17:13:11-test_companyloginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Tue, 04 Aug 2020 17:18:06-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-04 17:18:06===================================
+Tue, 04 Aug 2020 17:18:12-run_all_uicase.py-test_login.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_companyloginOn:
+
+Tue, 04 Aug 2020 17:18:16-test_companyloginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Tue, 04 Aug 2020 17:36:57-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-04 17:36:57===================================
+Tue, 04 Aug 2020 17:37:03-run_all_uicase.py-test_login.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_companyloginOn:
+
+Tue, 04 Aug 2020 17:37:08-test_companyloginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台

@@ -1,0 +1,1006 @@
+Wed, 05 Aug 2020 08:31:34-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 08:31:34===================================
+Wed, 05 Aug 2020 08:31:40-run_all_uicase.py-test_login.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 08:31:45-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 08:34:53-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 08:34:53===================================
+Wed, 05 Aug 2020 08:34:59-run_all_uicase.py-test_login.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 08:35:03-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 08:43:27-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 08:43:27===================================
+Wed, 05 Aug 2020 08:43:32-run_all_uicase.py-test_login.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 08:43:37-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 08:45:33-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 08:45:33===================================
+Wed, 05 Aug 2020 08:45:38-run_all_uicase.py-test_login.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 08:45:43-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 08:45:43-test_companyLoginOn-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 首页, actul_result is <selenium.webdriver.remote.webelement.WebElement (session="00427ae0fcd21d9ab980f771a2e95a88", element="0.044402946707187585-5")>
+Wed, 05 Aug 2020 08:46:32-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 08:46:32===================================
+Wed, 05 Aug 2020 08:46:38-run_all_uicase.py-test_login.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 08:46:42-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 08:48:35-test_companyLoginOn-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 首页, actul_result is <selenium.webdriver.remote.webelement.WebElement (session="91db052fb2d9b9d985f67e7452791d7e", element="0.8596911367096163-5")>
+Wed, 05 Aug 2020 08:48:49-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 08:48:49===================================
+Wed, 05 Aug 2020 08:48:55-run_all_uicase.py-test_login.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 08:49:00-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 08:49:03-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 09:00:00-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 09:00:00===================================
+Wed, 05 Aug 2020 09:00:06-run_all_uicase.py-test_login.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 09:00:11-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 09:00:11-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 09:15:49-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 09:15:49===================================
+Wed, 05 Aug 2020 09:15:59-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 09:15:59-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 09:15:59-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 09:15:59-run_all_uicase.py-test_login.py-[line:46]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 09:24:14-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 09:24:14===================================
+Wed, 05 Aug 2020 09:24:25-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 09:24:25-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 09:24:28-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 09:24:28-run_all_uicase.py-test_login.py-[line:46]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 09:32:59-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 09:32:59===================================
+Wed, 05 Aug 2020 09:33:10-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 09:33:10-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 09:33:11-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 09:33:11-run_all_uicase.py-test_login.py-[line:46]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 13:12:30-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:12:30===================================
+Wed, 05 Aug 2020 13:13:18-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:13:18===================================
+Wed, 05 Aug 2020 13:14:31-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:14:31===================================
+Wed, 05 Aug 2020 13:14:49-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:14:49===================================
+Wed, 05 Aug 2020 13:15:46-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:15:46===================================
+Wed, 05 Aug 2020 13:16:01-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:16:01===================================
+Wed, 05 Aug 2020 13:16:29-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:16:29===================================
+Wed, 05 Aug 2020 13:17:28-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:17:28===================================
+Wed, 05 Aug 2020 13:17:38-run_all_uicase.py-test_login.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 13:17:38-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 13:17:38-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 13:17:38-run_all_uicase.py-test_login.py-[line:47]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 13:18:05-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:18:05===================================
+Wed, 05 Aug 2020 13:18:15-run_all_uicase.py-test_login.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 13:18:15-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 13:18:15-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 13:18:15-run_all_uicase.py-test_login.py-[line:47]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 13:18:54-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:18:54===================================
+Wed, 05 Aug 2020 13:19:05-run_all_uicase.py-test_login.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 13:19:05-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 13:19:05-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 13:19:05-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 13:20:00-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:20:00===================================
+Wed, 05 Aug 2020 13:20:11-run_all_uicase.py-test_login.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 13:20:11-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 13:20:11-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 13:20:11-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 13:20:13-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 13:20:13-run_all_uicase.py-test_login.py-[line:62]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 13:21:51-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:21:51===================================
+Wed, 05 Aug 2020 13:22:02-run_all_uicase.py-test_login.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 13:22:02-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 13:22:02-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 13:22:02-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 13:22:04-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 13:23:18-run_all_uicase.py-test_login.py-[line:62]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 13:24:02-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:24:02===================================
+Wed, 05 Aug 2020 13:24:10-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:24:10===================================
+Wed, 05 Aug 2020 13:24:20-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 13:24:20-run_all_uicase.py-test_login.py-[line:62]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 13:24:20-run_all_uicase.py-test_login.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 13:24:20-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 13:24:21-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 13:24:21-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 13:24:35-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:24:35===================================
+Wed, 05 Aug 2020 13:24:46-run_all_uicase.py-test_login.py-[line:59]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 13:24:54-run_all_uicase.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 13:26:53-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:26:53===================================
+Wed, 05 Aug 2020 13:27:02-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:27:02===================================
+Wed, 05 Aug 2020 13:27:12-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 13:27:20-run_all_uicase.py-test_login.py-[line:65]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 13:27:52-run_all_uicase.py-test_login.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 13:27:52-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 13:27:52-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 13:27:52-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 13:28:21-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:28:21===================================
+Wed, 05 Aug 2020 13:28:31-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 13:28:31-run_all_uicase.py-test_login.py-[line:65]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 13:29:16-run_all_uicase.py-test_login.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 13:29:16-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 13:29:16-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 13:29:16-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 13:30:49-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:30:49===================================
+Wed, 05 Aug 2020 13:30:59-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 13:31:00-run_all_uicase.py-test_login.py-[line:65]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 13:31:01-run_all_uicase.py-test_login.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 13:31:01-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 13:31:01-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 13:31:01-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 13:31:25-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:31:25===================================
+Wed, 05 Aug 2020 13:31:35-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 13:31:35-run_all_uicase.py-test_login.py-[line:65]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 13:31:36-run_all_uicase.py-test_login.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 13:31:36-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 13:31:36-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 13:31:36-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 13:32:32-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:32:32===================================
+Wed, 05 Aug 2020 13:32:42-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 13:32:43-run_all_uicase.py-test_login.py-[line:65]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 13:33:25-run_all_uicase.py-test_login.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 13:33:25-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 13:33:25-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 13:33:25-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 13:45:02-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:45:02===================================
+Wed, 05 Aug 2020 13:45:12-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 13:45:13-run_all_uicase.py-test_login.py-[line:65]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 13:45:13-run_all_uicase.py-test_login.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 13:45:13-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 13:45:14-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 13:45:14-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 13:59:18-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 13:59:18===================================
+Wed, 05 Aug 2020 14:00:00-run_all_case.py-run_all_case.py-[line:30]-INFO-[日志信息]: ==================================2020-08-05 14:00:00===================================
+Wed, 05 Aug 2020 14:00:06-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:00:06===================================
+Wed, 05 Aug 2020 14:00:16-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:00:16-run_all_uicase.py-test_login.py-[line:65]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:00:17-run_all_uicase.py-test_login.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 14:00:17-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:00:17-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 14:00:17-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 14:02:13-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:02:13===================================
+Wed, 05 Aug 2020 14:02:23-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:02:23-run_all_uicase.py-test_login.py-[line:65]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:04:10-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:04:10===================================
+Wed, 05 Aug 2020 14:04:20-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:04:35-run_all_uicase.py-test_login.py-[line:65]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:05:09-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:05:09===================================
+Wed, 05 Aug 2020 14:05:19-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:05:19-run_all_uicase.py-test_login.py-[line:65]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:05:20-run_all_uicase.py-test_login.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 14:05:20-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:05:21-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 14:05:21-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 14:07:09-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:07:09===================================
+Wed, 05 Aug 2020 14:07:11-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:07:11===================================
+Wed, 05 Aug 2020 14:07:21-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:07:22-run_all_uicase.py-test_login.py-[line:65]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:07:22-run_all_uicase.py-test_login.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 14:07:22-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:07:23-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 14:07:23-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 14:07:40-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:07:40===================================
+Wed, 05 Aug 2020 14:07:50-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:07:58-run_all_uicase.py-test_login.py-[line:65]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:08:38-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:08:38-run_all_uicase.py-test_login.py-[line:79]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 14:08:49-run_all_uicase.py-test_login.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 14:08:51-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:08:54-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 14:08:54-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 14:10:04-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:10:04===================================
+Wed, 05 Aug 2020 14:10:14-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:10:14-run_all_uicase.py-test_login.py-[line:65]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:10:15-run_all_uicase.py-test_login.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 14:10:15-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:10:16-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 14:10:16-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 14:12:29-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:12:29===================================
+Wed, 05 Aug 2020 14:12:39-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:12:40-run_all_uicase.py-test_login.py-[line:65]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:14:19-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:14:19===================================
+Wed, 05 Aug 2020 14:14:29-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:14:29-run_all_uicase.py-test_login.py-[line:65]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:14:30-run_all_uicase.py-test_login.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 14:14:30-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:14:30-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 14:14:30-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 14:17:29-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:17:29===================================
+Wed, 05 Aug 2020 14:17:39-run_all_uicase.py-test_login.py-[line:59]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:17:39-run_all_uicase.py-test_login.py-[line:64]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:17:40-run_all_uicase.py-test_login.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 14:17:40-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:17:40-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 14:17:40-run_all_uicase.py-test_login.py-[line:47]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 14:19:14-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:19:14===================================
+Wed, 05 Aug 2020 14:19:24-run_all_uicase.py-test_login.py-[line:59]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:19:25-run_all_uicase.py-test_login.py-[line:64]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:19:25-run_all_uicase.py-test_login.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 14:19:25-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:19:26-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 14:19:26-run_all_uicase.py-test_login.py-[line:47]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 14:19:58-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:19:58===================================
+Wed, 05 Aug 2020 14:20:08-run_all_uicase.py-test_login.py-[line:57]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:20:09-run_all_uicase.py-test_login.py-[line:62]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:20:10-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 14:20:10-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:20:10-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 14:20:10-run_all_uicase.py-test_login.py-[line:46]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 14:21:37-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:21:37===================================
+Wed, 05 Aug 2020 14:21:47-run_all_uicase.py-test_login.py-[line:57]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:21:47-run_all_uicase.py-test_login.py-[line:62]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:22:26-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:22:26-run_all_uicase.py-test_login.py-[line:77]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 14:22:26-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 14:22:26-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:22:26-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 14:22:26-run_all_uicase.py-test_login.py-[line:46]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 14:22:45-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:22:45===================================
+Wed, 05 Aug 2020 14:22:55-run_all_uicase.py-test_login.py-[line:57]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:22:55-run_all_uicase.py-test_login.py-[line:62]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:22:56-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 14:22:56-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:22:56-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 14:22:56-run_all_uicase.py-test_login.py-[line:46]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 14:29:14-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:29:14===================================
+Wed, 05 Aug 2020 14:29:24-run_all_uicase.py-test_login.py-[line:57]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:29:24-run_all_uicase.py-test_login.py-[line:62]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:29:25-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 14:29:25-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:29:25-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 14:29:25-run_all_uicase.py-test_login.py-[line:46]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 14:30:36-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:30:36===================================
+Wed, 05 Aug 2020 14:30:46-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:30:47-run_all_uicase.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:30:48-run_all_uicase.py-test_login.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 14:30:48-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:30:48-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 14:30:48-run_all_uicase.py-test_login.py-[line:47]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 14:31:09-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:31:09===================================
+Wed, 05 Aug 2020 14:31:19-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:31:19-run_all_uicase.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:31:20-run_all_uicase.py-test_login.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 14:31:20-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:31:20-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 14:31:20-run_all_uicase.py-test_login.py-[line:47]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 14:37:26-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:37:26===================================
+Wed, 05 Aug 2020 14:37:34-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:37:34===================================
+Wed, 05 Aug 2020 14:38:00-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:38:00===================================
+Wed, 05 Aug 2020 14:38:10-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:38:10-run_all_uicase.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:38:11-run_all_uicase.py-test_login.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 14:38:11-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:38:11-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 14:38:11-run_all_uicase.py-test_login.py-[line:47]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 14:41:14-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:41:14===================================
+Wed, 05 Aug 2020 14:47:55-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:47:55===================================
+Wed, 05 Aug 2020 14:48:05-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:48:06-run_all_uicase.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:48:07-run_all_uicase.py-test_login.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 14:48:07-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:48:07-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 14:48:07-run_all_uicase.py-test_login.py-[line:47]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 14:48:18-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:48:18===================================
+Wed, 05 Aug 2020 14:48:28-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:48:28-run_all_uicase.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:48:36-run_all_uicase.py-test_login.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 14:48:36-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:48:36-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 14:48:36-run_all_uicase.py-test_login.py-[line:47]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 14:49:26-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:49:26===================================
+Wed, 05 Aug 2020 14:49:36-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:49:37-run_all_uicase.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:49:38-run_all_uicase.py-test_login.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 14:49:38-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:49:38-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 14:49:38-run_all_uicase.py-test_login.py-[line:47]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 14:49:52-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:49:52===================================
+Wed, 05 Aug 2020 14:50:02-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:50:02-run_all_uicase.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:50:36-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:50:36-run_all_uicase.py-test_login.py-[line:78]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 14:51:30-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 14:51:30===================================
+Wed, 05 Aug 2020 14:51:39-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 14:51:40-run_all_uicase.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 14:51:41-run_all_uicase.py-test_login.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 14:51:41-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 14:51:41-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 14:51:41-run_all_uicase.py-test_login.py-[line:47]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 15:17:47-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:17:47===================================
+Wed, 05 Aug 2020 15:18:06-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:18:06===================================
+Wed, 05 Aug 2020 15:18:24-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:18:24===================================
+Wed, 05 Aug 2020 15:19:39-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:19:39===================================
+Wed, 05 Aug 2020 15:20:53-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:20:53===================================
+Wed, 05 Aug 2020 15:21:56-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:21:56===================================
+Wed, 05 Aug 2020 15:23:08-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:23:08===================================
+Wed, 05 Aug 2020 15:23:56-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:23:56===================================
+Wed, 05 Aug 2020 15:24:46-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:24:46===================================
+Wed, 05 Aug 2020 15:24:57-run_all_uicase.py-test_login.py-[line:59]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 15:24:58-run_all_uicase.py-test_login.py-[line:64]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 15:26:04-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:26:04===================================
+Wed, 05 Aug 2020 15:27:33-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:27:33===================================
+Wed, 05 Aug 2020 15:30:35-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:30:35===================================
+Wed, 05 Aug 2020 15:36:34-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:36:34===================================
+Wed, 05 Aug 2020 15:37:00-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:37:00===================================
+Wed, 05 Aug 2020 15:37:22-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:37:22===================================
+Wed, 05 Aug 2020 15:39:29-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:39:29===================================
+Wed, 05 Aug 2020 15:39:38-run_all_uicase.py-test_login.py-[line:59]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 15:39:39-run_all_uicase.py-test_login.py-[line:64]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 15:39:40-run_all_uicase.py-test_login.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 15:39:40-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 15:39:40-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 15:39:40-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 15:39:42-run_all_uicase.py-test_login.py-[line:90]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 15:40:22-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:40:22===================================
+Wed, 05 Aug 2020 15:40:33-run_all_uicase.py-test_login.py-[line:90]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 15:49:25-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:49:25===================================
+Wed, 05 Aug 2020 15:49:35-run_all_uicase.py-test_login.py-[line:89]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 15:50:20-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 15:50:48-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:50:48===================================
+Wed, 05 Aug 2020 15:50:58-run_all_uicase.py-test_login.py-[line:89]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 15:51:50-test_companyPassForget-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 密码重置, actul_result is 安全验证
+Wed, 05 Aug 2020 15:51:51-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 15:51:52-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 15:51:52-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 15:51:52-run_all_uicase.py-test_login.py-[line:47]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 15:51:54-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 15:53:30-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:53:30===================================
+Wed, 05 Aug 2020 15:54:31-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:54:31===================================
+Wed, 05 Aug 2020 15:54:41-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 15:54:41-run_all_uicase.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 15:55:02-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 15:55:02-run_all_uicase.py-test_login.py-[line:78]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 15:55:04-run_all_uicase.py-test_login.py-[line:89]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 15:55:12-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 15:57:02-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 15:57:02===================================
+Wed, 05 Aug 2020 15:57:11-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 15:57:12-run_all_uicase.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 15:57:12-run_all_uicase.py-test_login.py-[line:89]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 15:57:43-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 15:57:43-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 15:57:43-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 15:57:43-run_all_uicase.py-test_login.py-[line:47]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 16:04:52-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 16:04:52===================================
+Wed, 05 Aug 2020 16:05:02-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 16:05:03-run_all_uicase.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 16:05:03-run_all_uicase.py-test_login.py-[line:89]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 16:05:34-test_companyPassForget-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 密码重置, actul_result is 安全验证
+Wed, 05 Aug 2020 16:05:34-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 16:05:34-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 16:05:34-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 16:05:34-run_all_uicase.py-test_login.py-[line:47]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 16:08:36-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 16:08:36===================================
+Wed, 05 Aug 2020 16:08:46-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 16:08:47-run_all_uicase.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 16:08:47-run_all_uicase.py-test_login.py-[line:89]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 16:09:06-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 16:09:06===================================
+Wed, 05 Aug 2020 16:09:16-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 16:09:16-run_all_uicase.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 16:10:03-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 16:10:04-run_all_uicase.py-test_login.py-[line:78]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 16:10:35-run_all_uicase.py-test_login.py-[line:89]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 16:11:03-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 16:21:13-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 16:21:13===================================
+Wed, 05 Aug 2020 16:21:23-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 16:21:23-run_all_uicase.py-test_login.py-[line:59]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 16:21:24-run_all_uicase.py-test_login.py-[line:84]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 16:22:52-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 16:22:52===================================
+Wed, 05 Aug 2020 16:23:02-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 16:23:02-run_all_uicase.py-test_login.py-[line:59]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 16:23:03-run_all_uicase.py-test_login.py-[line:84]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 16:23:33-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 16:23:34-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 16:23:34-run_all_uicase.py-test_login.py-[line:44]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 16:26:34-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 16:26:34===================================
+Wed, 05 Aug 2020 16:26:44-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 16:26:45-run_all_uicase.py-test_login.py-[line:59]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 16:27:45-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 16:27:56-run_all_uicase.py-test_login.py-[line:74]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 16:28:01-run_all_uicase.py-test_login.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 16:28:10-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 16:29:54-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 16:29:54===================================
+Wed, 05 Aug 2020 16:30:04-run_all_uicase.py-test_login.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 16:30:51-test_companyPassForget-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 密码重置, actul_result is 重置密码
+Wed, 05 Aug 2020 16:30:54-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 16:30:54-run_all_uicase.py-test_login.py-[line:59]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 16:30:55-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 16:30:55-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 16:30:55-run_all_uicase.py-test_login.py-[line:44]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 16:31:51-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 16:31:51===================================
+Wed, 05 Aug 2020 16:32:01-run_all_uicase.py-test_login.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 16:33:00-test_companyPassForget-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 密码重置, actul_result is 重置密码
+Wed, 05 Aug 2020 16:33:02-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 16:33:03-run_all_uicase.py-test_login.py-[line:59]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 16:33:03-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 16:33:03-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 16:33:03-run_all_uicase.py-test_login.py-[line:44]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 16:33:10-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 16:33:10===================================
+Wed, 05 Aug 2020 16:33:20-run_all_uicase.py-test_login.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 16:34:02-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
+Wed, 05 Aug 2020 16:34:02-run_all_uicase.py-test_login.py-[line:99]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 05 Aug 2020 16:34:21-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 16:34:22-run_all_uicase.py-test_login.py-[line:59]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 16:34:22-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 16:34:23-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 16:34:23-run_all_uicase.py-test_login.py-[line:44]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 16:34:36-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 16:34:36===================================
+Wed, 05 Aug 2020 16:34:46-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 16:34:46===================================
+Wed, 05 Aug 2020 16:34:56-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 16:34:56-run_all_uicase.py-test_login.py-[line:59]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 16:36:24-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 16:36:24-run_all_uicase.py-test_login.py-[line:74]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 16:36:26-run_all_uicase.py-test_login.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 16:36:35-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 16:38:36-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 16:38:36===================================
+Wed, 05 Aug 2020 16:38:46-run_all_uicase.py-test_login.py-[line:55]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 16:38:46-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 16:39:23-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 16:39:23-run_all_uicase.py-test_login.py-[line:75]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 16:39:25-run_all_uicase.py-test_login.py-[line:86]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 16:39:34-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 16:41:42-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 16:41:42===================================
+Wed, 05 Aug 2020 16:41:52-run_all_uicase.py-test_login.py-[line:55]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 16:41:52-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 16:41:53-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 16:41:53-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 16:41:53-run_all_uicase.py-test_login.py-[line:44]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 16:42:36-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 16:42:36===================================
+Wed, 05 Aug 2020 16:42:46-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 16:42:46-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 16:42:46-run_all_uicase.py-test_login.py-[line:44]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 16:45:08-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 16:45:08===================================
+Wed, 05 Aug 2020 16:45:17-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 16:45:18-run_all_uicase.py-test_login.py-[line:59]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 16:45:18-run_all_uicase.py-test_login.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 16:45:49-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 16:45:49-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 16:45:49-run_all_uicase.py-test_login.py-[line:44]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 16:45:58-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 16:45:58===================================
+Wed, 05 Aug 2020 16:46:08-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 16:46:09-run_all_uicase.py-test_login.py-[line:59]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 16:46:39-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 16:46:39-run_all_uicase.py-test_login.py-[line:74]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 16:46:39-run_all_uicase.py-test_login.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 16:46:39-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 16:52:29-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 16:52:29===================================
+Wed, 05 Aug 2020 16:52:39-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 16:52:44-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 16:52:44===================================
+Wed, 05 Aug 2020 16:52:54-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 16:52:54-run_all_uicase.py-test_login.py-[line:84]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 16:53:15-test_companyPassForget-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 重置密码, actul_result is 安全验证
+Wed, 05 Aug 2020 16:53:15-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 16:54:28-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 16:54:28===================================
+Wed, 05 Aug 2020 16:54:28-run_all_uicase.py-test_login.py-[line:55]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 16:54:38-run_all_uicase.py-test_login.py-[line:62]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 16:54:39-run_all_uicase.py-test_login.py-[line:88]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 16:54:52-run_all_uicase.py-test_login.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 16:55:02-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 16:55:02-run_all_uicase.py-test_login.py-[line:45]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 16:56:05-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 16:56:05===================================
+Wed, 05 Aug 2020 16:56:05-run_all_uicase.py-test_login.py-[line:55]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 16:56:16-run_all_uicase.py-test_login.py-[line:62]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 16:56:16-run_all_uicase.py-test_login.py-[line:88]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 16:57:05-test_companyPassForget-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 重置密码, actul_result is 安全验证
+Wed, 05 Aug 2020 16:57:12-run_all_uicase.py-test_login.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 16:57:51-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 16:57:51-run_all_uicase.py-test_login.py-[line:45]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 17:01:37-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 17:01:37===================================
+Wed, 05 Aug 2020 17:01:47-run_all_uicase.py-test_login.py-[line:53]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 17:01:48-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 17:01:55-run_all_uicase.py-test_login.py-[line:82]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 17:01:55-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 17:02:13-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 17:02:13===================================
+Wed, 05 Aug 2020 17:02:23-run_all_uicase.py-test_login.py-[line:53]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 17:02:24-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 17:02:52-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 17:02:52-run_all_uicase.py-test_login.py-[line:73]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 17:02:52-run_all_uicase.py-test_login.py-[line:82]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 17:02:53-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 17:02:53-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 17:02:53-run_all_uicase.py-test_login.py-[line:42]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 17:12:00-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 17:12:00===================================
+Wed, 05 Aug 2020 17:35:23-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 17:35:23===================================
+Wed, 05 Aug 2020 17:35:24-run_all_uicase.py-test_login.py-[line:53]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 17:35:34-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 17:35:55-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 17:35:55-run_all_uicase.py-test_login.py-[line:75]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 17:35:57-run_all_uicase.py-test_login.py-[line:86]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 17:36:07-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 17:36:18-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 17:36:18-run_all_uicase.py-test_login.py-[line:43]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 17:38:14-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 17:38:14===================================
+Wed, 05 Aug 2020 17:38:14-run_all_uicase.py-test_login.py-[line:53]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 17:38:24-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 17:38:25-run_all_uicase.py-test_login.py-[line:86]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 17:38:37-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 17:38:48-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 17:38:48-run_all_uicase.py-test_login.py-[line:43]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 17:46:04-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 17:46:04===================================
+Wed, 05 Aug 2020 17:46:04-run_all_uicase.py-test_login.py-[line:55]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 17:46:14-run_all_uicase.py-test_login.py-[line:62]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 17:46:15-run_all_uicase.py-test_login.py-[line:89]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 17:46:28-run_all_uicase.py-test_login.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 17:46:38-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 17:46:38-run_all_uicase.py-test_login.py-[line:44]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 17:47:41-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 17:47:41===================================
+Wed, 05 Aug 2020 17:47:41-run_all_uicase.py-test_login.py-[line:55]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 17:47:51-run_all_uicase.py-test_login.py-[line:62]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 17:47:51-run_all_uicase.py-test_login.py-[line:89]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 17:48:04-run_all_uicase.py-test_login.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 17:48:43-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 17:48:43===================================
+Wed, 05 Aug 2020 17:48:43-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 17:48:53-run_all_uicase.py-test_login.py-[line:61]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 17:48:54-run_all_uicase.py-test_login.py-[line:88]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 17:49:06-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 17:49:13-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 17:49:13===================================
+Wed, 05 Aug 2020 17:49:13-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 17:49:23-run_all_uicase.py-test_login.py-[line:61]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 17:49:24-run_all_uicase.py-test_login.py-[line:88]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 17:49:34-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 17:49:57-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 17:49:57===================================
+Wed, 05 Aug 2020 17:49:58-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 17:50:08-run_all_uicase.py-test_login.py-[line:61]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 17:50:44-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 17:50:44-run_all_uicase.py-test_login.py-[line:76]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 17:50:48-run_all_uicase.py-test_login.py-[line:88]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 17:50:58-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 17:51:08-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 17:51:08-run_all_uicase.py-test_login.py-[line:43]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 17:53:54-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 17:53:54===================================
+Wed, 05 Aug 2020 17:53:55-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 17:54:04-run_all_uicase.py-test_login.py-[line:61]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 17:54:32-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 17:54:32-run_all_uicase.py-test_login.py-[line:76]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 17:54:34-run_all_uicase.py-test_login.py-[line:88]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 17:54:45-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 17:54:55-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 17:54:55-run_all_uicase.py-test_login.py-[line:43]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 17:55:38-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 17:55:38===================================
+Wed, 05 Aug 2020 17:55:39-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 17:55:49-run_all_uicase.py-test_login.py-[line:61]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 17:56:19-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 17:56:19-run_all_uicase.py-test_login.py-[line:76]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 17:56:23-run_all_uicase.py-test_login.py-[line:88]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 17:56:54-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 17:57:04-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 17:57:04-run_all_uicase.py-test_login.py-[line:43]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 17:58:27-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 17:58:27===================================
+Wed, 05 Aug 2020 17:58:28-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 17:58:38-run_all_uicase.py-test_login.py-[line:61]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 17:59:16-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 17:59:16-run_all_uicase.py-test_login.py-[line:76]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 17:59:20-run_all_uicase.py-test_login.py-[line:88]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:00:05-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 18:00:15-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 18:00:15-run_all_uicase.py-test_login.py-[line:43]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 18:01:01-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:01:01===================================
+Wed, 05 Aug 2020 18:01:01-run_all_uicase.py-test_login.py-[line:87]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:01:43-run_all_uicase.py-test_login.py-[line:53]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:01:53-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:02:30-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 18:02:30-run_all_uicase.py-test_login.py-[line:75]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 18:02:33-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 18:03:33-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:03:33===================================
+Wed, 05 Aug 2020 18:03:34-run_all_uicase.py-test_login.py-[line:88]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:04:28-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
+Wed, 05 Aug 2020 18:04:28-run_all_uicase.py-test_login.py-[line:104]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 05 Aug 2020 18:05:12-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:05:12===================================
+Wed, 05 Aug 2020 18:05:12-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:05:22-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:05:22===================================
+Wed, 05 Aug 2020 18:05:23-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:05:33-run_all_uicase.py-test_login.py-[line:61]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:06:05-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 18:06:05-run_all_uicase.py-test_login.py-[line:76]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 18:06:07-run_all_uicase.py-test_login.py-[line:88]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:06:38-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 18:06:48-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 18:06:48-run_all_uicase.py-test_login.py-[line:43]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 18:08:20-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:08:20===================================
+Wed, 05 Aug 2020 18:08:20-run_all_uicase.py-test_login.py-[line:53]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:08:30-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:08:59-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 18:08:59-run_all_uicase.py-test_login.py-[line:75]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 18:09:03-run_all_uicase.py-test_login.py-[line:86]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:09:49-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 18:09:59-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 18:09:59-run_all_uicase.py-test_login.py-[line:43]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 18:11:52-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:11:52===================================
+Wed, 05 Aug 2020 18:11:53-run_all_uicase.py-test_login.py-[line:53]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:12:03-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:12:34-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 18:12:34-run_all_uicase.py-test_login.py-[line:75]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 18:12:38-run_all_uicase.py-test_login.py-[line:86]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:13:21-test_companyPassForget-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 重置密码, actul_result is 安全验证
+Wed, 05 Aug 2020 18:13:22-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 18:13:32-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 18:13:32-run_all_uicase.py-test_login.py-[line:43]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 18:13:39-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:13:39===================================
+Wed, 05 Aug 2020 18:13:39-run_all_uicase.py-test_login.py-[line:53]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:13:49-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:13:50-run_all_uicase.py-test_login.py-[line:86]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:14:20-test_companyPassForget-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 重置密码, actul_result is 安全验证
+Wed, 05 Aug 2020 18:14:20-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 18:14:30-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 18:14:30-run_all_uicase.py-test_login.py-[line:43]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 18:14:47-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:14:47===================================
+Wed, 05 Aug 2020 18:14:48-run_all_uicase.py-test_login.py-[line:53]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:14:58-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:15:34-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 18:15:34-run_all_uicase.py-test_login.py-[line:75]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 18:15:37-run_all_uicase.py-test_login.py-[line:86]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:16:07-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
+Wed, 05 Aug 2020 18:16:07-run_all_uicase.py-test_login.py-[line:103]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 05 Aug 2020 18:16:08-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 18:16:18-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 18:16:18-run_all_uicase.py-test_login.py-[line:43]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 18:18:14-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:18:14===================================
+Wed, 05 Aug 2020 18:18:14-run_all_uicase.py-test_login.py-[line:53]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:18:24-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:18:45-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:18:45===================================
+Wed, 05 Aug 2020 18:18:45-run_all_uicase.py-test_login.py-[line:53]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:18:55-run_all_uicase.py-test_login.py-[line:60]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:18:55-run_all_uicase.py-test_login.py-[line:86]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:19:26-test_companyPassForget-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 重置密码, actul_result is 安全验证
+Wed, 05 Aug 2020 18:19:26-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 18:21:06-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:21:06===================================
+Wed, 05 Aug 2020 18:21:07-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:21:17-run_all_uicase.py-test_login.py-[line:61]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:21:17-run_all_uicase.py-test_login.py-[line:89]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:21:47-test_companyPassForget-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 重置密码, actul_result is 安全验证
+Wed, 05 Aug 2020 18:21:47-run_all_uicase.py-test_login.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 18:21:58-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 18:21:58-run_all_uicase.py-test_login.py-[line:44]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 18:26:15-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:26:15===================================
+Wed, 05 Aug 2020 18:26:15-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:26:25-run_all_uicase.py-test_login.py-[line:61]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:26:30-run_all_uicase.py-test_login.py-[line:91]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:27:16-run_all_uicase.py-test_login.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 18:27:50-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:27:50===================================
+Wed, 05 Aug 2020 18:27:50-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:28:00-run_all_uicase.py-test_login.py-[line:61]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:28:01-run_all_uicase.py-test_login.py-[line:91]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:28:31-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
+Wed, 05 Aug 2020 18:28:31-run_all_uicase.py-test_login.py-[line:110]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 05 Aug 2020 18:28:33-run_all_uicase.py-test_login.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 18:28:43-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 18:28:43-run_all_uicase.py-test_login.py-[line:44]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 18:30:38-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:30:38===================================
+Wed, 05 Aug 2020 18:30:38-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:30:48-run_all_uicase.py-test_login.py-[line:61]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:30:49-run_all_uicase.py-test_login.py-[line:91]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:31:19-test_companyPassForget-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 重置密码, actul_result is 安全验证
+Wed, 05 Aug 2020 18:31:19-run_all_uicase.py-test_login.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 18:31:29-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 18:31:29-run_all_uicase.py-test_login.py-[line:44]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 18:31:42-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:31:42===================================
+Wed, 05 Aug 2020 18:31:42-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:31:52-run_all_uicase.py-test_login.py-[line:61]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:31:54-run_all_uicase.py-test_login.py-[line:91]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:32:25-test_companyPassForget-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 重置密码, actul_result is 安全验证
+Wed, 05 Aug 2020 18:32:27-run_all_uicase.py-test_login.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 18:32:37-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 18:32:37-run_all_uicase.py-test_login.py-[line:44]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 18:33:24-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:33:24===================================
+Wed, 05 Aug 2020 18:33:25-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:33:35-run_all_uicase.py-test_login.py-[line:61]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:33:58-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 18:33:58-run_all_uicase.py-test_login.py-[line:80]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 18:34:00-run_all_uicase.py-test_login.py-[line:91]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:34:32-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
+Wed, 05 Aug 2020 18:34:32-run_all_uicase.py-test_login.py-[line:111]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 05 Aug 2020 18:34:33-test_companyPassForget-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 完成修改, actul_result is 
+Wed, 05 Aug 2020 18:34:33-run_all_uicase.py-test_login.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 18:34:43-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 18:34:43-run_all_uicase.py-test_login.py-[line:44]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 18:35:18-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:35:18===================================
+Wed, 05 Aug 2020 18:35:18-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:35:28-run_all_uicase.py-test_login.py-[line:61]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:35:50-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 18:35:50-run_all_uicase.py-test_login.py-[line:80]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 18:35:53-run_all_uicase.py-test_login.py-[line:91]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:36:25-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
+Wed, 05 Aug 2020 18:36:25-run_all_uicase.py-test_login.py-[line:111]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 05 Aug 2020 18:36:28-test_companyPassForget-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 完成修改, actul_result is 
+Wed, 05 Aug 2020 18:36:28-run_all_uicase.py-test_login.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 18:36:38-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 18:36:38-run_all_uicase.py-test_login.py-[line:44]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 18:37:27-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:37:27===================================
+Wed, 05 Aug 2020 18:37:27-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:37:37-run_all_uicase.py-test_login.py-[line:61]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:38:00-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 18:38:00-run_all_uicase.py-test_login.py-[line:80]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 18:38:02-run_all_uicase.py-test_login.py-[line:91]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:38:34-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
+Wed, 05 Aug 2020 18:38:34-run_all_uicase.py-test_login.py-[line:111]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 05 Aug 2020 18:38:38-test_companyPassForget-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 完成修改, actul_result is 
+Wed, 05 Aug 2020 18:38:38-run_all_uicase.py-test_login.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 18:38:48-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 18:38:48-run_all_uicase.py-test_login.py-[line:44]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 18:39:20-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:39:20===================================
+Wed, 05 Aug 2020 18:39:21-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:39:31-run_all_uicase.py-test_login.py-[line:61]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:39:53-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 18:39:53-run_all_uicase.py-test_login.py-[line:80]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 18:39:55-run_all_uicase.py-test_login.py-[line:91]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:40:28-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
+Wed, 05 Aug 2020 18:40:28-run_all_uicase.py-test_login.py-[line:111]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 05 Aug 2020 18:41:07-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:41:08===================================
+Wed, 05 Aug 2020 18:41:08-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:41:18-run_all_uicase.py-test_login.py-[line:61]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:41:41-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 18:41:41-run_all_uicase.py-test_login.py-[line:80]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 18:41:43-run_all_uicase.py-test_login.py-[line:91]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:42:15-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
+Wed, 05 Aug 2020 18:42:15-run_all_uicase.py-test_login.py-[line:111]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 05 Aug 2020 18:42:18-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 完成修改, actul_result is 完成修改
+Wed, 05 Aug 2020 18:42:18-run_all_uicase.py-test_login.py-[line:122]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 05 Aug 2020 18:42:18-test_companyPassForget-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 安全登录, actul_result is 完成修改
+Wed, 05 Aug 2020 18:42:18-run_all_uicase.py-test_login.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 18:42:29-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 18:42:29-run_all_uicase.py-test_login.py-[line:44]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 18:43:24-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:43:24===================================
+Wed, 05 Aug 2020 18:43:24-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:43:34-run_all_uicase.py-test_login.py-[line:61]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:43:57-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 18:43:57-run_all_uicase.py-test_login.py-[line:80]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 18:43:59-run_all_uicase.py-test_login.py-[line:91]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:44:32-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
+Wed, 05 Aug 2020 18:44:32-run_all_uicase.py-test_login.py-[line:111]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 05 Aug 2020 18:44:34-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 完成修改, actul_result is 完成修改
+Wed, 05 Aug 2020 18:44:34-run_all_uicase.py-test_login.py-[line:122]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 05 Aug 2020 18:44:35-run_all_uicase.py-test_login.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 18:44:45-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 18:44:45-run_all_uicase.py-test_login.py-[line:44]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 18:45:06-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:45:06===================================
+Wed, 05 Aug 2020 18:45:07-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:45:17-run_all_uicase.py-test_login.py-[line:61]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:45:39-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 18:45:39-run_all_uicase.py-test_login.py-[line:80]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 18:45:41-run_all_uicase.py-test_login.py-[line:91]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:46:14-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
+Wed, 05 Aug 2020 18:46:14-run_all_uicase.py-test_login.py-[line:111]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 05 Aug 2020 18:46:16-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 完成修改, actul_result is 完成修改
+Wed, 05 Aug 2020 18:46:16-run_all_uicase.py-test_login.py-[line:122]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 05 Aug 2020 18:46:19-run_all_uicase.py-test_login.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 18:46:29-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 18:46:29-run_all_uicase.py-test_login.py-[line:44]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Wed, 05 Aug 2020 18:47:13-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:47:13===================================
+Wed, 05 Aug 2020 18:47:13-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:47:23-run_all_uicase.py-test_login.py-[line:61]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:47:46-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 18:47:46-run_all_uicase.py-test_login.py-[line:80]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 18:47:48-run_all_uicase.py-test_login.py-[line:91]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:48:20-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
+Wed, 05 Aug 2020 18:48:20-run_all_uicase.py-test_login.py-[line:111]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 05 Aug 2020 18:48:28-run_all_uicase.py-run_all_uicase.py-[line:25]-INFO-[日志信息]: ==================================2020-08-05 18:48:28===================================
+Wed, 05 Aug 2020 18:48:29-run_all_uicase.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 05 Aug 2020 18:48:39-run_all_uicase.py-test_login.py-[line:61]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 05 Aug 2020 18:49:02-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 05 Aug 2020 18:49:02-run_all_uicase.py-test_login.py-[line:80]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 05 Aug 2020 18:49:04-run_all_uicase.py-test_login.py-[line:91]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Wed, 05 Aug 2020 18:49:36-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
+Wed, 05 Aug 2020 18:49:36-run_all_uicase.py-test_login.py-[line:111]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 05 Aug 2020 18:49:39-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 完成修改, actul_result is 完成修改
+Wed, 05 Aug 2020 18:49:39-run_all_uicase.py-test_login.py-[line:122]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 05 Aug 2020 18:49:41-run_all_uicase.py-test_login.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Wed, 05 Aug 2020 18:49:52-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 05 Aug 2020 18:49:52-run_all_uicase.py-test_login.py-[line:44]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！

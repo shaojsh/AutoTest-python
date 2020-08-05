@@ -1,0 +1,2 @@
+Wed, 05 Aug 2020 16:53:15-run_all_uicase.py-test_login.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+

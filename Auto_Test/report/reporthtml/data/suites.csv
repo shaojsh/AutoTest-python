@@ -1,3 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Tue Aug 04 16:11:14 CST 2020","Tue Aug 04 16:11:18 CST 2020","4701","test_flow.test_login","test_login","","","","test_companyloginOn","测试 http://10.10.128.152:10053/user/login 中小微企业页面登录"
-"passed","Tue Aug 04 16:06:11 CST 2020","Tue Aug 04 16:06:11 CST 2020","32","test_case.test_Api_demo","test_demo","","","","test_config_common","测试http://calapi.51jirili.com/config/common接口"
+"passed","Wed Aug 05 18:49:41 CST 2020","Wed Aug 05 18:49:52 CST 2020","10293","test_flow.test_Authentication","test_login","","","","test_companyLoginOn","测试 http://10.10.128.152:10053/user/login 中小微企业登录流程"
+"passed","Wed Aug 05 18:48:29 CST 2020","Wed Aug 05 18:49:04 CST 2020","35185","test_flow.test_Authentication","test_login","","","","test_companyRegister","测试 http://10.10.128.152:10053/user/register 中小微企业注册流程"
+"passed","Wed Aug 05 18:49:04 CST 2020","Wed Aug 05 18:49:41 CST 2020","37295","test_flow.test_Authentication","test_login","","","","test_companyPassForget","测试 http://10.10.128.152:10053/user/forget 中小微企业密码修改流程"

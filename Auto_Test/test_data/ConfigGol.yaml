@@ -4,15 +4,20 @@
 # 运营配置位
 test_path_list:
   url_api: '/test_case/test_companyloginOn'
-  url_ui: '/test_flow/test_login'
+  url_ui: '/test_flow/test_Authentication'
 test_db_list:
-  host: '10.10.128.128'
+  host: '10.10.128.152'
   user: 'root'
-  password: 'chengtay-uat'
+  password: 'F&oY6vn$cp#ilsdN'
   port: 3306
-  db: 'chengtay-zcd'
+  db1: 'chengtay-zero'
+  db2: 'chengtay-zcd'
 test_db_sqllist:
-    sql0000001: "select * from apply_product_material where id = '0kdemid2h-0173-73b4b6ce-2c918086-006d'"
+    sql0000001: "SET SQL_SAFE_UPDATES = 0;"
+    sql0000002: "DELETE FROM `chengtay-zero`.zero_user where userName = {0};"
+    sql0000003: "DELETE FROM `chengtay-zero`.zero_user_authentication where phoneNo = {0};"
+    sql0000004: "DELETE FROM `chengtay-zcd`.enterprise a left join `chengtay-zcd`.enterprise_account b on a.id = b.enterpriseId where b.phone = {0};"
+    sql0000005: "DELETE FROM `chengtay-zcd`.enterprise_account WHERE  `chengtay-zcd`.enterprise_account.phone = {0};"
 test_userlist:
-  company_user: 'shaojunshuai'
+  company_user: '17621198933'
   company_user_pass: 'shuai2019'

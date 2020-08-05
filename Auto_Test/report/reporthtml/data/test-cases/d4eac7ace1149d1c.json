@@ -1,0 +1,586 @@
+{
+  "uid" : "d4eac7ace1149d1c",
+  "name" : "test_companyLoginOn",
+  "fullName" : "test_flow.test_Authentication.test_login#test_companyLoginOn",
+  "historyId" : "68de281c9c68e708f61f0f8788ed34b7",
+  "time" : {
+    "start" : 1596624581740,
+    "stop" : 1596624592033,
+    "duration" : 10293
+  },
+  "description" : "测试 http://10.10.128.152:10053/user/login 中小微企业登录流程",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/user/login 中小微企业登录流程</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/user/login 中小微企业登录流程",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "46792aeb4baa61",
+      "name" : "log",
+      "source" : "46792aeb4baa61.txt",
+      "type" : "text/plain",
+      "size" : 303
+    }, {
+      "uid" : "d2e6ee8158a9ed49",
+      "name" : "stderr",
+      "source" : "d2e6ee8158a9ed49.txt",
+      "type" : "text/plain",
+      "size" : 439
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "13960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "loginOn \uD83D\uDC47",
+    "url" : "#root > div > div.header___1E4MV > div > div.flex > div > a:nth-child(1)",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "4767228ecad6a9fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596624379034,
+        "stop" : 1596624389473,
+        "duration" : 10439
+      }
+    }, {
+      "uid" : "313ca218ed84c25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596624275092,
+        "stop" : 1596624285372,
+        "duration" : 10280
+      }
+    }, {
+      "uid" : "5d5098d2c0d6997b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596624138683,
+        "stop" : 1596624149048,
+        "duration" : 10365
+      }
+    }, {
+      "uid" : "5ed5c74a7ab765f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596623918476,
+        "stop" : 1596623928807,
+        "duration" : 10331
+      }
+    }, {
+      "uid" : "4ca51bf1253aecb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596623788276,
+        "stop" : 1596623798604,
+        "duration" : 10328
+      }
+    }, {
+      "uid" : "fff73b04bda09bd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596623673523,
+        "stop" : 1596623683804,
+        "duration" : 10281
+      }
+    }, {
+      "uid" : "4811085a191a4916",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596623547188,
+        "stop" : 1596623557532,
+        "duration" : 10344
+      }
+    }, {
+      "uid" : "f5e64d6202155af6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596623479477,
+        "stop" : 1596623489722,
+        "duration" : 10245
+      }
+    }, {
+      "uid" : "94e51cec324ad3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596623313633,
+        "stop" : 1596623323936,
+        "duration" : 10303
+      }
+    }, {
+      "uid" : "b38649143ce14de8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596622907941,
+        "stop" : 1596622918290,
+        "duration" : 10349
+      }
+    }, {
+      "uid" : "ccde38582a395dac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596622568285,
+        "stop" : 1596622578583,
+        "duration" : 10298
+      }
+    }, {
+      "uid" : "57b356df4f83915c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596622460511,
+        "stop" : 1596622470821,
+        "duration" : 10310
+      }
+    }, {
+      "uid" : "d4217913caa6b4cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596622402047,
+        "stop" : 1596622412373,
+        "duration" : 10326
+      }
+    }, {
+      "uid" : "1f973925d9f72cfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596622189514,
+        "stop" : 1596622199772,
+        "duration" : 10258
+      }
+    }, {
+      "uid" : "a03913ad1255689",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596621998414,
+        "stop" : 1596622008692,
+        "duration" : 10278
+      }
+    }, {
+      "uid" : "c8c014cff798a905",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596621753094,
+        "stop" : 1596621770757,
+        "duration" : 17663
+      }
+    }, {
+      "uid" : "66068d53c9545206",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596621605531,
+        "stop" : 1596621615816,
+        "duration" : 10285
+      }
+    }, {
+      "uid" : "604689b20cd8ad80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596621414034,
+        "stop" : 1596621424300,
+        "duration" : 10266
+      }
+    }, {
+      "uid" : "dfc1a3052459532c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596621285436,
+        "stop" : 1596621295683,
+        "duration" : 10247
+      }
+    }, {
+      "uid" : "53f9f3873c1a295d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596621058566,
+        "stop" : 1596621068974,
+        "duration" : 10408
+      }
+    }, {
+      "uid" : "d9042b049c4f5b61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596620788636,
+        "stop" : 1596620798856,
+        "duration" : 10220
+      }
+    }, {
+      "uid" : "8a71350e71aef15a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596620317661,
+        "stop" : 1596620328013,
+        "duration" : 10352
+      }
+    }, {
+      "uid" : "ffda10d224e92c02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596620167823,
+        "stop" : 1596620178126,
+        "duration" : 10303
+      }
+    }, {
+      "uid" : "bf6106d6682c1066",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596618173210,
+        "stop" : 1596618173537,
+        "duration" : 327
+      }
+    }, {
+      "uid" : "46fa2fca578309b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#userName\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596618115625,
+        "stop" : 1596618115641,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "29e447e0ab5239fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596617825612,
+        "stop" : 1596617871262,
+        "duration" : 45650
+      }
+    }, {
+      "uid" : "bfb509d946050ada",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596617692021,
+        "stop" : 1596617702382,
+        "duration" : 10361
+      }
+    }, {
+      "uid" : "e8fe19eac2287b62",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#userName\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596617595520,
+        "stop" : 1596617595561,
+        "duration" : 41
+      }
+    }, {
+      "uid" : "7e23b15d5af7d833",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: invalid session id\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596617199974,
+        "stop" : 1596617199974,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2b31d2cdc41b164a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596617149422,
+        "stop" : 1596617149934,
+        "duration" : 512
+      }
+    }, {
+      "uid" : "e9021dca3d415bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596616966002,
+        "stop" : 1596616968911,
+        "duration" : 2909
+      }
+    }, {
+      "uid" : "593dc554cda5ae83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596616913242,
+        "stop" : 1596616915989,
+        "duration" : 2747
+      }
+    }, {
+      "uid" : "740bdcb9622329ed",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=51934): Max retries exceeded with url: /session/2359f84f3f6a39581c1a19ad5a68de6c/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000217696A3160>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1596616774125,
+        "stop" : 1596616782272,
+        "duration" : 8147
+      }
+    }, {
+      "uid" : "e522f649456c26d5",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=51821): Max retries exceeded with url: /session/334f410ad60bf743fa1c506aed2fec8f/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001353EBD7280>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1596616595635,
+        "stop" : 1596616603657,
+        "duration" : 8022
+      }
+    }, {
+      "uid" : "880d83f79e45df8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596616462652,
+        "stop" : 1596616463043,
+        "duration" : 391
+      }
+    }, {
+      "uid" : "8c61411cba19fbbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596616383395,
+        "stop" : 1596616383793,
+        "duration" : 398
+      }
+    }, {
+      "uid" : "d9f0d72c8e7d3fc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596616255119,
+        "stop" : 1596616255542,
+        "duration" : 423
+      }
+    }, {
+      "uid" : "358604820f876760",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=51476): Max retries exceeded with url: /session/4127c27a1dbb925702bd3ed3c043ae02/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A119B983A0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1596616090264,
+        "stop" : 1596616098385,
+        "duration" : 8121
+      }
+    }, {
+      "uid" : "586a40f478102298",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596615813918,
+        "stop" : 1596615814431,
+        "duration" : 513
+      }
+    }, {
+      "uid" : "794a66d60a73e8cc",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50922): Max retries exceeded with url: /session/13fdb19841c552dd88a7a784b30d1eac/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022B832173D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1596615043922,
+        "stop" : 1596615071483,
+        "duration" : 27561
+      }
+    }, {
+      "uid" : "54346556f52bbf7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596614734340,
+        "stop" : 1596614737090,
+        "duration" : 2750
+      }
+    }, {
+      "uid" : "4234321fb66db0bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596614263390,
+        "stop" : 1596614266115,
+        "duration" : 2725
+      }
+    }, {
+      "uid" : "af968f9736d8807b",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50469): Max retries exceeded with url: /session/68da617d14192cf7d3ba843970f7b703/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000233B8C33640>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1596614112868,
+        "stop" : 1596614121026,
+        "duration" : 8158
+      }
+    }, {
+      "uid" : "4f6c0e60ae955393",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596613911728,
+        "stop" : 1596613914477,
+        "duration" : 2749
+      }
+    }, {
+      "uid" : "169b961c967b1747",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596613180097,
+        "stop" : 1596613182848,
+        "duration" : 2751
+      }
+    }, {
+      "uid" : "b1d59eee5d220901",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596610301020,
+        "stop" : 1596610303734,
+        "duration" : 2714
+      }
+    }, {
+      "uid" : "ef67332e275a1fe8",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=53112): Max retries exceeded with url: /session/9825e4b1ae8e701132a24f0a18cb78dc/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CFDF536610>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1596610238911,
+        "stop" : 1596610247007,
+        "duration" : 8096
+      }
+    }, {
+      "uid" : "e0e330fcdb31ed32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596610178119,
+        "stop" : 1596610180902,
+        "duration" : 2783
+      }
+    }, {
+      "uid" : "4bbe6acadfa9cd20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596610115968,
+        "stop" : 1596610118738,
+        "duration" : 2770
+      }
+    }, {
+      "uid" : "7be208fe18a7016a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596610087086,
+        "stop" : 1596610089823,
+        "duration" : 2737
+      }
+    }, {
+      "uid" : "47ada0a50e207b07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596609491392,
+        "stop" : 1596609494131,
+        "duration" : 2739
+      }
+    }, {
+      "uid" : "f36b127046d0c2db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596609080045,
+        "stop" : 1596609082785,
+        "duration" : 2740
+      }
+    }, {
+      "uid" : "2a2cc51836f1170a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596609047783,
+        "stop" : 1596609050522,
+        "duration" : 2739
+      }
+    }, {
+      "uid" : "e8155f7b449491ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596608965354,
+        "stop" : 1596608968114,
+        "duration" : 2760
+      }
+    }, {
+      "uid" : "4a566ec2a88847e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596608576060,
+        "stop" : 1596608578787,
+        "duration" : 2727
+      }
+    }, {
+      "uid" : "e8136cfa59d419e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596608546305,
+        "stop" : 1596608549111,
+        "duration" : 2806
+      }
+    }, {
+      "uid" : "1dc757c3056c1752",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596608409867,
+        "stop" : 1596608412608,
+        "duration" : 2741
+      }
+    }, {
+      "uid" : "1563fcc3708ce1cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596608365669,
+        "stop" : 1596608368402,
+        "duration" : 2733
+      }
+    }, {
+      "uid" : "67701f745b7bab4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596608260349,
+        "stop" : 1596608263094,
+        "duration" : 2745
+      }
+    }, {
+      "uid" : "3d28775230478042",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596608070224,
+        "stop" : 1596608072983,
+        "duration" : 2759
+      }
+    }, {
+      "uid" : "c4355b9f04fc270f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596607815495,
+        "stop" : 1596607818229,
+        "duration" : 2734
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "d4eac7ace1149d1c.json",
+  "parameterValues" : [ ]
+}
