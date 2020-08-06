@@ -1,0 +1,2 @@
+Thu, 06 Aug 2020 14:18:10-run_all_uicase.py-test_personalInfoReg.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+

@@ -1,0 +1,1 @@
+INFO     run_all_uicase.py:test_personalInfoReg.py:28 开始执行脚本test_infoReg:

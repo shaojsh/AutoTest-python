@@ -8,7 +8,7 @@ from selenium import webdriver
 
 from common import Assert
 from common.BaseFunction import waitUntilDisplay, waitUntilClick
-from common.dbLink import deleteAct
+from common.dbLink import deleteAct, getPhoneMessage
 from flow_path.path_login import loginOn
 from run_all_uicase import yamldict, logger
 
@@ -16,10 +16,10 @@ act = yamldict['test_userlist']['company_user']
 pwd = yamldict['test_userlist']['company_user_pass']
 
 
-@pytest.mark.run(order=1)
+@pytest.mark.run(order=3)
 @allure.severity("blocker")
 @allure.description("测试 http://10.10.128.152:10053/user/login 中小微企业登录流程")
-@allure.testcase("#root > div > div.header___1E4MV > div > div.flex > div > a:nth-child(1)", "loginOn 👇")
+@allure.testcase("http://10.10.128.152:10053/user/login 中小微企业登录流程", "loginOn 👇")
 def test_companyLoginOn():
     def_name = sys._getframe().f_code.co_name
     test_Assert = Assert.Assertions(def_name)
@@ -41,7 +41,7 @@ def test_companyLoginOn():
     driver.quit()
 
 
-@pytest.mark.run(order=2)
+@pytest.mark.run(order=1)
 @allure.severity("blocker")
 @allure.description("测试 http://10.10.128.152:10053/user/register 中小微企业注册流程")
 @allure.testcase("http://10.10.128.152:10053/user/register", "注册 👇")
@@ -59,13 +59,17 @@ def test_companyRegister():
 
     waitUntilClick(driver, loginOn.btn_agree_css.value)
     driver.find_element_by_css_selector(loginOn.btn_agree_css.value).click()
+
+    waitUntilDisplay(driver, loginOn.input_act_css.value)
     driver.find_element_by_css_selector(loginOn.input_act_css.value).send_keys(act)
     driver.find_element_by_css_selector(loginOn.input_pwd_css.value).send_keys(pwd)
     driver.find_element_by_css_selector(loginOn.input_conPwd_css.value).send_keys(pwd)
     waitUntilClick(driver, loginOn.btn_phoneCode_css.value)
+    sleep(2)
     driver.find_element_by_css_selector(loginOn.btn_phoneCode_css.value).click()
-
-    sleep(20)
+    sleep(10)
+    message = getPhoneMessage().get("regMes")
+    driver.find_element_by_css_selector(loginOn.input_phoneCode_css.value).send_keys(message.strip().strip('"'))
 
     driver.find_element_by_css_selector(loginOn.btn_agreeReg.value).click()
 
@@ -89,11 +93,13 @@ def test_companyPassForget():
     driver.get("http://10.10.128.152:10053/user/forget")
 
     driver.find_element_by_css_selector(loginOn.input_actForget_css.value).send_keys(act)
-    driver.find_element_by_css_selector(loginOn.input_codeForget_css.value).send_keys(' ')
+    driver.find_element_by_css_selector(loginOn.input_codeForget_css.value).send_keys(' y')
     waitUntilClick(driver, loginOn.btn_phoneCodeForget_css.value)
+    sleep(2)
     driver.find_element_by_css_selector(loginOn.btn_phoneCodeForget_css.value).click()
-
-    sleep(20)
+    sleep(10)
+    message = getPhoneMessage().get("forgeMes")
+    driver.find_element_by_css_selector(loginOn.input_phoneCodeForget_css.value).send_keys(message.strip().strip('"'))
 
     # 密码重置页面
     waitUntilClick(driver, loginOn.btn_next_css.value)

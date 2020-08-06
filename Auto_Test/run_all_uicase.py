@@ -13,6 +13,8 @@ from common.emails import mail
 
 root_dir = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test'
 handleyaml = HandleYaml(root_dir+'\\test_data\\ConfigGol.yaml')
+# handleyaml = HandleYaml(os.getcwd() + '\\..\\test_data\\ConfigGol.yaml')  # 调试db用
+
 yamldict = handleyaml.get_data()
 
 file = os.path.basename(sys.argv[0])
@@ -24,7 +26,7 @@ if __name__ == "__main__":
         print("开始执行脚本")
         logger.info("==================================" + time.strftime('%Y-%m-%d %H:%M:%S',
                                                                          time.localtime()) + "===================================")
-        root_dir = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test'+yamldict['test_path_list']['url_ui']
+        root_dir = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test' + yamldict['test_path_list']['url_ui']
         pytest.main([root_dir, "--alluredir",
                      "./report/reportallure/"])
         print("脚本执行完成")

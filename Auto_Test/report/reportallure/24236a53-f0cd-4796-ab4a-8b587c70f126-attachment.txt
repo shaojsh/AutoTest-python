@@ -1,0 +1,4 @@
+Thu, 06 Aug 2020 09:35:58-run_all_uicase.py-test_personalInfoReg.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Thu, 06 Aug 2020 09:36:08-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Thu, 06 Aug 2020 09:36:08-run_all_uicase.py-test_personalInfoReg.py-[line:37]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！

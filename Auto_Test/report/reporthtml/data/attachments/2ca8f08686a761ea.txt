@@ -1,0 +1,4 @@
+SET SQL_SAFE_UPDATES = 0;
+DELETE FROM `chengtay-zcd`.enterprise a left join `chengtay-zcd`.enterprise_account b on a.id = b.enterpriseId where b.phone = '17621198933';
+DELETE FROM `chengtay-zcd`.enterprise_account WHERE  `chengtay-zcd`.enterprise_account.phone = '17621198933';
+()

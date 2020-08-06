@@ -13,3 +13,8 @@ def waitUntilDisplay(driver, ByCss):
 # 等待直到元素可点击
 def waitUntilClick(driver, ByCss):
     WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, ByCss)))
+
+
+# 等待直到元素可点击
+def waitUntilClick_xpath(driver, ByXpath):
+    WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, ByXpath)))
