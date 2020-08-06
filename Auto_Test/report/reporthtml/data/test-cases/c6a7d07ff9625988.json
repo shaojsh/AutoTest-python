@@ -1,0 +1,63 @@
+{
+  "uid" : "c6a7d07ff9625988",
+  "name" : "test_companyPassForget",
+  "fullName" : "test_flow.test_Authentication.test_login#test_companyPassForget",
+  "historyId" : "acb9067300dee3cf493bfb42da37b2a5",
+  "time" : {
+    "start" : 1596610180902,
+    "stop" : 1596610180902,
+    "duration" : 0
+  },
+  "description" : "测试 http://10.10.128.152:10053/user/forget 中小微企业密码修改流程",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/user/forget 中小微企业密码修改流程</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "10172-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "密码修改 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/user/forget",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "c6a7d07ff9625988.json",
+  "parameterValues" : [ ]
+}

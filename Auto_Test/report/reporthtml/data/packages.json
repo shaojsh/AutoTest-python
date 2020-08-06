@@ -1,48 +1,48 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
   "children" : [ {
     "name" : "test_flow.test_Authentication.test_login",
     "children" : [ {
       "name" : "test_companyRegister",
-      "uid" : "5aeb9efa840c5403",
+      "uid" : "48493ca450b35e8e",
       "parentUid" : "52f748462e260dd58e76f0876ce6ebf0",
       "status" : "passed",
       "time" : {
-        "start" : 1596624509260,
-        "stop" : 1596624544445,
-        "duration" : 35185
+        "start" : 1596676108712,
+        "stop" : 1596676141800,
+        "duration" : 33088
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "test_companyPassForget",
-      "uid" : "6b5b28738a9034e2",
+      "uid" : "3f1cbf49ddebe691",
       "parentUid" : "52f748462e260dd58e76f0876ce6ebf0",
-      "status" : "passed",
+      "status" : "failed",
       "time" : {
-        "start" : 1596624544445,
-        "stop" : 1596624581740,
-        "duration" : 37295
+        "start" : 1596676141800,
+        "stop" : 1596676172101,
+        "duration" : 30301
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "test_companyLoginOn",
-      "uid" : "d4eac7ace1149d1c",
+      "uid" : "f02365252cff312f",
       "parentUid" : "52f748462e260dd58e76f0876ce6ebf0",
       "status" : "passed",
       "time" : {
-        "start" : 1596624581740,
-        "stop" : 1596624592033,
-        "duration" : 10293
+        "start" : 1596676172210,
+        "stop" : 1596676182594,
+        "duration" : 10384
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
     "uid" : "test_flow.test_Authentication.test_login"
-  } ],
-  "name" : "packages"
+  } ]
 }

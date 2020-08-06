@@ -1,5 +1,4 @@
 import sys
-from datetime import time
 
 from time import sleep
 
@@ -17,7 +16,7 @@ act = yamldict['test_userlist']['company_user']
 pwd = yamldict['test_userlist']['company_user_pass']
 
 
-@pytest.mark.run(order=3)
+@pytest.mark.run(order=1)
 @allure.severity("blocker")
 @allure.description("测试 http://10.10.128.152:10053/user/login 中小微企业登录流程")
 @allure.testcase("#root > div > div.header___1E4MV > div > div.flex > div > a:nth-child(1)", "loginOn 👇")
@@ -31,10 +30,7 @@ def test_companyLoginOn():
     driver.get("http://10.10.128.152:10053/user/login")
 
     # 登陆页面
-    driver.find_element_by_css_selector(loginOn.input_actLogin_css.value).send_keys(act)
-    driver.find_element_by_css_selector(loginOn.input_passLogin_css.value).send_keys(pwd)
-    driver.find_element_by_css_selector(loginOn.input_very_codeLogin_css.value).send_keys(' ')
-    driver.find_element_by_css_selector(loginOn.btn_login_css.value).click()
+    login(driver)
 
     # 首页
     waitUntilDisplay(driver, loginOn.link_home_css.value)
@@ -42,9 +38,10 @@ def test_companyLoginOn():
 
     test_Assert.assert_text_ui(homeText.text, '首页')
     logger.info("中小微企业金融服务聚合平台登录成功！")
+    driver.quit()
 
 
-@pytest.mark.run(order=1)
+@pytest.mark.run(order=2)
 @allure.severity("blocker")
 @allure.description("测试 http://10.10.128.152:10053/user/register 中小微企业注册流程")
 @allure.testcase("http://10.10.128.152:10053/user/register", "注册 👇")
@@ -65,14 +62,11 @@ def test_companyRegister():
     driver.find_element_by_css_selector(loginOn.input_act_css.value).send_keys(act)
     driver.find_element_by_css_selector(loginOn.input_pwd_css.value).send_keys(pwd)
     driver.find_element_by_css_selector(loginOn.input_conPwd_css.value).send_keys(pwd)
-    sleep(2)
     waitUntilClick(driver, loginOn.btn_phoneCode_css.value)
     driver.find_element_by_css_selector(loginOn.btn_phoneCode_css.value).click()
-    # print('============================================================================')
-    # print(time.localtime())
+
     sleep(20)
-    # print(time.localtime())
-    # print('============================================================================')
+
     driver.find_element_by_css_selector(loginOn.btn_agreeReg.value).click()
 
     title = driver.title
@@ -106,7 +100,6 @@ def test_companyPassForget():
     driver.find_element_by_css_selector(loginOn.btn_next_css.value).click()
     waitUntilDisplay(driver, loginOn.txt_pwd_css.value)
     textAct = driver.find_element_by_css_selector(loginOn.txt_pwd_css.value).text
-    sleep(2)
     test_Assert.assert_text_ui(textAct, '重置密码')
     logger.info("成功进入到密码重置页面", )
     driver.find_element_by_css_selector(loginOn.input_pwdForget_css.value).send_keys(pwd)
@@ -121,3 +114,11 @@ def test_companyPassForget():
     test_Assert.assert_text_ui(textPwdChangeOver, '完成修改')
     logger.info("成功进入到密码修改完成页面")
     driver.quit()
+
+
+def login(driver):
+    # 登陆页面
+    driver.find_element_by_css_selector(loginOn.input_actLogin_css.value).send_keys(act)
+    driver.find_element_by_css_selector(loginOn.input_passLogin_css.value).send_keys(pwd)
+    driver.find_element_by_css_selector(loginOn.input_very_codeLogin_css.value).send_keys(' ')
+    driver.find_element_by_css_selector(loginOn.btn_login_css.value).click()
