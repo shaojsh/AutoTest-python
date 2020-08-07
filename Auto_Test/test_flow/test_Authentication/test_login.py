@@ -16,7 +16,7 @@ act = yamldict['test_userlist']['company_user']
 pwd = yamldict['test_userlist']['company_user_pass']
 
 
-@pytest.mark.run(order=3)
+@pytest.mark.run(order=6)
 @allure.severity("blocker")
 @allure.description("测试 http://10.10.128.152:10053/user/login 中小微企业登录流程")
 @allure.testcase("http://10.10.128.152:10053/user/login 中小微企业登录流程", "loginOn 👇")
@@ -56,11 +56,11 @@ def test_companyRegister():
     # db中清除已注册的账户
     deleteAct()
     logger.info("对已注册的账户进行删除操作")
-
+    sleep(1)
     waitUntilClick(driver, loginOn.btn_agree_css.value)
     driver.find_element_by_css_selector(loginOn.btn_agree_css.value).click()
 
-    waitUntilDisplay(driver, loginOn.input_act_css.value)
+    waitUntilDisplay(driver,loginOn.input_act_css.value)
     driver.find_element_by_css_selector(loginOn.input_act_css.value).send_keys(act)
     driver.find_element_by_css_selector(loginOn.input_pwd_css.value).send_keys(pwd)
     driver.find_element_by_css_selector(loginOn.input_conPwd_css.value).send_keys(pwd)
@@ -79,7 +79,7 @@ def test_companyRegister():
     driver.quit()
 
 
-@pytest.mark.run(order=2)
+@pytest.mark.run(order=6)
 @allure.severity("blocker")
 @allure.description("测试 http://10.10.128.152:10053/user/forget 中小微企业密码修改流程")
 @allure.testcase("http://10.10.128.152:10053/user/forget", "密码修改 👇")

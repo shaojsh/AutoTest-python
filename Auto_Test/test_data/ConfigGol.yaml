@@ -4,8 +4,8 @@
 # 运营配置位
 test_path_list:
   url_api: '/test_case/test_companyloginOn/'
-#  url_ui: '/test_flow/test_Authentication'
-  url_ui: '/test_flow/test_Authentication/test_personalInfoReg.py/'
+  url_ui: '/test_flow/test_Authentication/'
+  url_ui1: '/test_flow/test_Authentication/path_businessInfoReg.py/'
 test_db_list:
   host: '10.10.128.152'
   user: 'root'

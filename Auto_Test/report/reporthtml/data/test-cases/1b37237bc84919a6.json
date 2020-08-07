@@ -1,0 +1,92 @@
+{
+  "uid" : "1b37237bc84919a6",
+  "name" : "test_companyPassForget",
+  "fullName" : "test_flow.test_Authentication.test_login#test_companyPassForget",
+  "historyId" : "acb9067300dee3cf493bfb42da37b2a5",
+  "time" : {
+    "start" : 1596763493317,
+    "stop" : 1596763520581,
+    "duration" : 27264
+  },
+  "description" : "测试 http://10.10.128.152:10053/user/forget 中小微企业密码修改流程",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/user/forget 中小微企业密码修改流程</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/user/forget 中小微企业密码修改流程",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "afe5ae6349ea21da",
+      "name" : "log",
+      "source" : "afe5ae6349ea21da.txt",
+      "type" : "text/plain",
+      "size" : 522
+    }, {
+      "uid" : "8303015a7bae596b",
+      "name" : "stdout",
+      "source" : "8303015a7bae596b.txt",
+      "type" : "text/plain",
+      "size" : 72
+    }, {
+      "uid" : "13220e3a9c5efa96",
+      "name" : "stderr",
+      "source" : "13220e3a9c5efa96.txt",
+      "type" : "text/plain",
+      "size" : 748
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "13588-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "密码修改 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/user/forget",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "1b37237bc84919a6.json",
+  "parameterValues" : [ ]
+}

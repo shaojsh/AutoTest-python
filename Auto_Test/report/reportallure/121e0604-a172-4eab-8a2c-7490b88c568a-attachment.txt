@@ -1,0 +1,2 @@
+Fri, 07 Aug 2020 10:30:46-run_all_uicase.py-test_businessInfoReg.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+

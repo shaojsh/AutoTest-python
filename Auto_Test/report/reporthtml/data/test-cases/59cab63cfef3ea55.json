@@ -1,0 +1,86 @@
+{
+  "uid" : "59cab63cfef3ea55",
+  "name" : "test_companyLoginOn",
+  "fullName" : "test_flow.test_Authentication.test_login#test_companyLoginOn",
+  "historyId" : "68de281c9c68e708f61f0f8788ed34b7",
+  "time" : {
+    "start" : 1596708788213,
+    "stop" : 1596708800773,
+    "duration" : 12560
+  },
+  "description" : "测试 http://10.10.128.152:10053/user/login 中小微企业登录流程",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/user/login 中小微企业登录流程</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/user/login 中小微企业登录流程",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8c3bfab4521df281",
+      "name" : "log",
+      "source" : "8c3bfab4521df281.txt",
+      "type" : "text/plain",
+      "size" : 303
+    }, {
+      "uid" : "7004799b36df8170",
+      "name" : "stderr",
+      "source" : "7004799b36df8170.txt",
+      "type" : "text/plain",
+      "size" : 439
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "19932-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "loginOn \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/user/login 中小微企业登录流程",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "59cab63cfef3ea55.json",
+  "parameterValues" : [ ]
+}

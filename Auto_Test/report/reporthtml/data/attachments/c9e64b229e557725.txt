@@ -1,0 +1,3 @@
+INFO     run_all_uicase.py:test_personalInfoReg.py:32 开始执行脚本test_infoReg:
+
+INFO     run_all_uicase.py:test_personalInfoReg.py:36 对个人信息企业信息进行删除操作

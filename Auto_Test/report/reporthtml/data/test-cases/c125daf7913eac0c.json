@@ -1,0 +1,701 @@
+{
+  "uid" : "c125daf7913eac0c",
+  "name" : "test_infoReg",
+  "fullName" : "test_flow.test_Authentication.test_personalInfoReg#test_infoReg",
+  "historyId" : "28dda5313ff182aeade3becf47df4372",
+  "time" : {
+    "start" : 1596786062222,
+    "stop" : 1596786137059,
+    "duration" : 74837
+  },
+  "description" : "测试 http://10.10.128.152:10053/personal/set/certification 个人实名认证",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/personal/set/certification 个人实名认证</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/personal/set/certification 个人实名认证",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4602a4b9e368c5d7",
+      "name" : "log",
+      "source" : "4602a4b9e368c5d7.txt",
+      "type" : "text/plain",
+      "size" : 1627
+    }, {
+      "uid" : "a0e0cfb4d882c6e4",
+      "name" : "stdout",
+      "source" : "a0e0cfb4d882c6e4.txt",
+      "type" : "text/plain",
+      "size" : 407
+    }, {
+      "uid" : "fce675da928b759",
+      "name" : "stderr",
+      "source" : "fce675da928b759.txt",
+      "type" : "text/plain",
+      "size" : 2303
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_personalInfoReg"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "20264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_personalInfoReg"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "个人实名认证 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/personal/set/certification",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "3f3027ce18e8a857",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596785739356,
+        "stop" : 1596785803893,
+        "duration" : 64537
+      }
+    }, {
+      "uid" : "59215704840053c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596785343352,
+        "stop" : 1596785477700,
+        "duration" : 134348
+      }
+    }, {
+      "uid" : "26518e1539349916",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596783891922,
+        "stop" : 1596784016673,
+        "duration" : 124751
+      }
+    }, {
+      "uid" : "8f4b6ddd99bec333",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596783255853,
+        "stop" : 1596783310084,
+        "duration" : 54231
+      }
+    }, {
+      "uid" : "e085f56914101e40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596782491910,
+        "stop" : 1596782556325,
+        "duration" : 64415
+      }
+    }, {
+      "uid" : "158fb86160cd0043",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596782267247,
+        "stop" : 1596782321352,
+        "duration" : 54105
+      }
+    }, {
+      "uid" : "cd343ddf7ef66dc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596782078593,
+        "stop" : 1596782132813,
+        "duration" : 54220
+      }
+    }, {
+      "uid" : "99c05e26189cd34d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1596781731497,
+        "stop" : 1596781762267,
+        "duration" : 30770
+      }
+    }, {
+      "uid" : "a6720645629b28db",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1596781647544,
+        "stop" : 1596781678365,
+        "duration" : 30821
+      }
+    }, {
+      "uid" : "e0f432e7cd2881fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596781427792,
+        "stop" : 1596781494815,
+        "duration" : 67023
+      }
+    }, {
+      "uid" : "b9712f6f1f06f6c4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1596781158385,
+        "stop" : 1596781199077,
+        "duration" : 40692
+      }
+    }, {
+      "uid" : "50dca7f9e93be728",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1596781016291,
+        "stop" : 1596781046667,
+        "duration" : 30376
+      }
+    }, {
+      "uid" : "fe09f16e153f8dc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596780921821,
+        "stop" : 1596780986241,
+        "duration" : 64420
+      }
+    }, {
+      "uid" : "64e9f98c011e4925",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596780622198,
+        "stop" : 1596780696369,
+        "duration" : 74171
+      }
+    }, {
+      "uid" : "f888284da1b9e5b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596780515332,
+        "stop" : 1596780569525,
+        "duration" : 54193
+      }
+    }, {
+      "uid" : "a00dcb1141ef5274",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596780000384,
+        "stop" : 1596780054539,
+        "duration" : 54155
+      }
+    }, {
+      "uid" : "f4da79c83c6dd43c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596779250731,
+        "stop" : 1596779356539,
+        "duration" : 105808
+      }
+    }, {
+      "uid" : "36c71af3d85a441",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1596767358989,
+        "stop" : 1596767392821,
+        "duration" : 33832
+      }
+    }, {
+      "uid" : "da13e81f03b96f8e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596767248816,
+        "stop" : 1596767266416,
+        "duration" : 17600
+      }
+    }, {
+      "uid" : "c5c583e54f994ad8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596763625012,
+        "stop" : 1596763723898,
+        "duration" : 98886
+      }
+    }, {
+      "uid" : "dc92231395a2f63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596763408765,
+        "stop" : 1596763493317,
+        "duration" : 84552
+      }
+    }, {
+      "uid" : "e4273d08074e5cd8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1596763248018,
+        "stop" : 1596763319981,
+        "duration" : 71963
+      }
+    }, {
+      "uid" : "dbef15f66ed6cfbf",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596763157666,
+        "stop" : 1596763187279,
+        "duration" : 29613
+      }
+    }, {
+      "uid" : "2611860f94133d89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596763025146,
+        "stop" : 1596763089537,
+        "duration" : 64391
+      }
+    }, {
+      "uid" : "f5f998c6364898c4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > div.statusWrap___1MekY.success___2iGw_ > p.text___3NufP\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596762939029,
+        "stop" : 1596762961087,
+        "duration" : 22058
+      }
+    }, {
+      "uid" : "c7550108ed7a2640",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596762863216,
+        "stop" : 1596762913166,
+        "duration" : 49950
+      }
+    }, {
+      "uid" : "c88e2bd7dfa6fedf",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596762774604,
+        "stop" : 1596762812970,
+        "duration" : 38366
+      }
+    }, {
+      "uid" : "3a8f3e1fe4bf0dac",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > div.statusWrap___1MekY.success___2iGw_ > p.text___3NufP\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596762642677,
+        "stop" : 1596762664650,
+        "duration" : 21973
+      }
+    }, {
+      "uid" : "53b0c4879ef59e80",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > div.statusWrap___1MekY.success___2iGw_ > p.text___3NufP\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596762272696,
+        "stop" : 1596762295210,
+        "duration" : 22514
+      }
+    }, {
+      "uid" : "f82eeffbbf78174c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > div.statusWrap___1MekY.success___2iGw_ > p.text___3NufP\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596762175152,
+        "stop" : 1596762197268,
+        "duration" : 22116
+      }
+    }, {
+      "uid" : "e0181d7206fe33b0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > div.statusWrap___1MekY.success___2iGw_ > p.text___3NufP\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596761897187,
+        "stop" : 1596761919208,
+        "duration" : 22021
+      }
+    }, {
+      "uid" : "e0ab4a31f324edea",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > div.statusWrap___1MekY.success___2iGw_ > p.text___3NufP\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596761583511,
+        "stop" : 1596761605436,
+        "duration" : 21925
+      }
+    }, {
+      "uid" : "dcdf2d33deebc6d6",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'bytes' object has no attribute 'presence_of_element_located'",
+      "time" : {
+        "start" : 1596761412947,
+        "stop" : 1596761436481,
+        "duration" : 23534
+      }
+    }, {
+      "uid" : "b42ed61f7a17fc38",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: input_phoneNum_css",
+      "time" : {
+        "start" : 1596761347518,
+        "stop" : 1596761368680,
+        "duration" : 21162
+      }
+    }, {
+      "uid" : "a6c4707afc21c5ee",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: input_phoneNum_css",
+      "time" : {
+        "start" : 1596761310597,
+        "stop" : 1596761321746,
+        "duration" : 11149
+      }
+    }, {
+      "uid" : "bbf5401e7821de7d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1596697359323,
+        "stop" : 1596697410594,
+        "duration" : 51271
+      }
+    }, {
+      "uid" : "bc683408d87870ac",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596695824945,
+        "stop" : 1596695886926,
+        "duration" : 61981
+      }
+    }, {
+      "uid" : "c79cc4430cc3eaa1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1596694792490,
+        "stop" : 1596694822897,
+        "duration" : 30407
+      }
+    }, {
+      "uid" : "303e5653379b69f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Sqldata() takes 2 positional arguments but 3 were given",
+      "time" : {
+        "start" : 1596694703132,
+        "stop" : 1596694703136,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "598375e750ff43a0",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Sqldata() takes 2 positional arguments but 3 were given",
+      "time" : {
+        "start" : 1596694690351,
+        "stop" : 1596694690354,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "76cd3b5dd3056a60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596692434076,
+        "stop" : 1596692515497,
+        "duration" : 81421
+      }
+    }, {
+      "uid" : "50f2e148b5350436",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596691144946,
+        "stop" : 1596691156283,
+        "duration" : 11337
+      }
+    }, {
+      "uid" : "d3932011746db2bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596690811596,
+        "stop" : 1596690826825,
+        "duration" : 15229
+      }
+    }, {
+      "uid" : "348a227f420fe86f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1596690708331,
+        "stop" : 1596690760001,
+        "duration" : 51670
+      }
+    }, {
+      "uid" : "93e5e3f4274348a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#idCardFace\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596690637827,
+        "stop" : 1596690671062,
+        "duration" : 33235
+      }
+    }, {
+      "uid" : "bdc6854f6b993706",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1596690270510,
+        "stop" : 1596690302090,
+        "duration" : 31580
+      }
+    }, {
+      "uid" : "108839cf4898a13f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#idCardFace\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596689712959,
+        "stop" : 1596689724027,
+        "duration" : 11068
+      }
+    }, {
+      "uid" : "97966ddfa7d1d0de",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : C:\\Users\\shaojunshuai\\PycharmProjects\\AutoTest-python\\Auto_Test\\test_data\\picture\\id_1\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596689606175,
+        "stop" : 1596689617274,
+        "duration" : 11099
+      }
+    }, {
+      "uid" : "35c1f573c36931ff",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : C:\\Users\\shaojunshuai\\PycharmProjects\\AutoTest-python\\Auto_Test/test_data/picture/id_1\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596689474852,
+        "stop" : 1596689485863,
+        "duration" : 11011
+      }
+    }, {
+      "uid" : "f26bf6565ee43129",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : C:\\Users\\shaojunshuai\\PycharmProjects\\AutoTest-python\\Auto_Test/test_data/picture/id_1\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596689385609,
+        "stop" : 1596689415512,
+        "duration" : 29903
+      }
+    }, {
+      "uid" : "52ba49666e653e93",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : C:\\Users\\shaojunshuai\\PycharmProjects\\AutoTest-python\\Auto_Test/test_flow/test_data/picture/id_1\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596689266848,
+        "stop" : 1596689277955,
+        "duration" : 11107
+      }
+    }, {
+      "uid" : "badd5708cfbe518b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596683606357,
+        "stop" : 1596683784330,
+        "duration" : 177973
+      }
+    }, {
+      "uid" : "572e2b0f1ee6be55",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression #root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > form > div:nth-child(3) > span because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > form > div:nth-child(3) > span' is not a valid XPath expression.\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596683547002,
+        "stop" : 1596683564621,
+        "duration" : 17619
+      }
+    }, {
+      "uid" : "d4ec2bf57a6beeec",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression #root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > form > div:nth-child(3) > span because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > form > div:nth-child(3) > span' is not a valid XPath expression.\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596683485718,
+        "stop" : 1596683496712,
+        "duration" : 10994
+      }
+    }, {
+      "uid" : "93418f35a9cd3303",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'common.BaseFunction' has no attribute 'waitUntilClick_css'",
+      "time" : {
+        "start" : 1596683438810,
+        "stop" : 1596683451401,
+        "duration" : 12591
+      }
+    }, {
+      "uid" : "8b7a7cf10d347e25",
+      "status" : "broken",
+      "statusDetails" : "TypeError: waitUntilClick_xpath() missing 1 required positional argument: 'ByXpath'",
+      "time" : {
+        "start" : 1596683321484,
+        "stop" : 1596683345525,
+        "duration" : 24041
+      }
+    }, {
+      "uid" : "9399ea6895d0ff79",
+      "status" : "broken",
+      "statusDetails" : "TypeError: waitUntilClick_class() missing 1 required positional argument: 'ByXpath'",
+      "time" : {
+        "start" : 1596683109893,
+        "stop" : 1596683125202,
+        "duration" : 15309
+      }
+    }, {
+      "uid" : "d2b65bdb1ace43d8",
+      "status" : "broken",
+      "statusDetails" : "TypeError: waitUntilClick_xpath() missing 1 required positional argument: 'ByXpath'",
+      "time" : {
+        "start" : 1596682952680,
+        "stop" : 1596682969845,
+        "duration" : 17165
+      }
+    }, {
+      "uid" : "13956b3087557656",
+      "status" : "broken",
+      "statusDetails" : "TypeError: waitUntilClick() missing 1 required positional argument: 'ByCss'",
+      "time" : {
+        "start" : 1596682720051,
+        "stop" : 1596682734854,
+        "duration" : 14803
+      }
+    }, {
+      "uid" : "7bc6bff2a25ea7dd",
+      "status" : "broken",
+      "statusDetails" : "TypeError: waitUntilClick() missing 1 required positional argument: 'ByCss'",
+      "time" : {
+        "start" : 1596682593146,
+        "stop" : 1596682604181,
+        "duration" : 11035
+      }
+    }, {
+      "uid" : "2a78b3c630497fa0",
+      "status" : "broken",
+      "statusDetails" : "TypeError: waitUntilClick() missing 1 required positional argument: 'ByCss'",
+      "time" : {
+        "start" : 1596682541196,
+        "stop" : 1596682577130,
+        "duration" : 35934
+      }
+    }, {
+      "uid" : "ffdc09ef0d9e903f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: waitUntilClick() missing 1 required positional argument: 'ByCss'",
+      "time" : {
+        "start" : 1596682401968,
+        "stop" : 1596682438709,
+        "duration" : 36741
+      }
+    }, {
+      "uid" : "d41cc8dda0a815d5",
+      "status" : "broken",
+      "statusDetails" : "TypeError: waitUntilClick() missing 1 required positional argument: 'ByCss'",
+      "time" : {
+        "start" : 1596682312758,
+        "stop" : 1596682343795,
+        "duration" : 31037
+      }
+    }, {
+      "uid" : "3a2905540e351e5c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > h5\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596682265024,
+        "stop" : 1596682275520,
+        "duration" : 10496
+      }
+    }, {
+      "uid" : "f391e51f7f70ec53",
+      "status" : "broken",
+      "statusDetails" : "pymysql.err.ProgrammingError: (1064, \"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a left join `chengtay-zcd`.enterprise_account b on a.id = b.enterpriseId where b' at line 1\")",
+      "time" : {
+        "start" : 1596681212802,
+        "stop" : 1596681290045,
+        "duration" : 77243
+      }
+    }, {
+      "uid" : "39ead5884d8f674",
+      "status" : "broken",
+      "statusDetails" : "pymysql.err.ProgrammingError: (1064, \"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a left join `chengtay-zcd`.enterprise_account b on a.id = b.enterpriseId where b' at line 1\")",
+      "time" : {
+        "start" : 1596681176080,
+        "stop" : 1596681176109,
+        "duration" : 29
+      }
+    }, {
+      "uid" : "a2deaf0ac64f5fac",
+      "status" : "broken",
+      "statusDetails" : "pymysql.err.ProgrammingError: (1064, \"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a left join `chengtay-zcd`.enterprise_account b on a.id = b.enterpriseId where b' at line 1\")",
+      "time" : {
+        "start" : 1596681138963,
+        "stop" : 1596681139000,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "65cb684e6f60b2b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596677955858,
+        "stop" : 1596677966165,
+        "duration" : 10307
+      }
+    }, {
+      "uid" : "b0b4e6dde1e2574d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596677795481,
+        "stop" : 1596677805661,
+        "duration" : 10180
+      }
+    }, {
+      "uid" : "fbc8b0f9d5f4213e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596677758628,
+        "stop" : 1596677768930,
+        "duration" : 10302
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "c125daf7913eac0c.json",
+  "parameterValues" : [ ]
+}

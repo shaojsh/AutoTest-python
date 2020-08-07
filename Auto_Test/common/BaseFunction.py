@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 # 等待直到元素出现
 def waitUntilDisplay(driver, ByCss):
-    WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, ByCss)))
+    WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.CSS_SELECTOR, ByCss)))
 
 
 # 等待直到元素可点击

@@ -3,52 +3,65 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "test_companyRegister",
-    "uid" : "a184836ffe96b73e",
+    "uid" : "8fc5989fc0b055f8",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1596763383843,
-      "stop" : 1596763408734,
-      "duration" : 24891
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test_companyPassForget",
-    "uid" : "5fa0caae006ca156",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1596763493317,
-      "stop" : 1596763520581,
-      "duration" : 27264
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test_companyLoginOn",
-    "uid" : "18529f8bf431a4a7",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1596763520612,
-      "stop" : 1596763533085,
-      "duration" : 12473
+      "start" : 1596786036472,
+      "stop" : 1596786062222,
+      "duration" : 25750
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_infoReg",
-    "uid" : "ae65ebd5d30dc352",
+    "uid" : "c125daf7913eac0c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1596763625012,
-      "stop" : 1596763723898,
-      "duration" : 98886
+      "start" : 1596786062222,
+      "stop" : 1596786137059,
+      "duration" : 74837
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_businessInforReg",
+    "uid" : "4bee53cd5a1c77c1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1596786137074,
+      "stop" : 1596786228447,
+      "duration" : 91373
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_companyLoginOn",
+    "uid" : "8f6f88b8183c2bed",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1596786228456,
+      "stop" : 1596786241306,
+      "duration" : 12850
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_companyPassForget",
+    "uid" : "bc809ac206cb67e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1596786241321,
+      "stop" : 1596786271236,
+      "duration" : 29915
     },
     "flaky" : false,
     "newFailed" : false,

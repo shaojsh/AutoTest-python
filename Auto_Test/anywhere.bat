@@ -1,0 +1,1 @@
+cmd /k "cd /d C:\Users\shaojunshuai\PycharmProjects\AutoTest-python\Auto_Test\report\reporthtml&&anywhere

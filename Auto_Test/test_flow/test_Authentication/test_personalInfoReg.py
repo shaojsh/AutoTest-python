@@ -10,19 +10,18 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from common.BaseFunction import waitUntilDisplay, waitUntilClick
-from common.dbLink import deletePerInforAndComInfor, deleteAct, getPhoneMessage
+from common.dbLink import deletePerInforAndComInfor, getPhoneMessage
 from flow_path.path_login import loginOn
 from flow_path.path_persionInfoReg import path_personalInfoReg
 from run_all_uicase import yamldict, logger
 from common import Assert, BaseFunction
-from test_flow.test_Authentication import test_login
 from test_flow.test_Authentication.test_login import login
 
 act = yamldict['test_userlist']['company_user']
 pwd = yamldict['test_userlist']['company_user_pass']
 
 
-@pytest.mark.run(order=1)
+@pytest.mark.run(order=2)
 @allure.severity("blocker")
 @allure.description("测试 http://10.10.128.152:10053/personal/set/certification 个人实名认证")
 @allure.testcase("http://10.10.128.152:10053/personal/set/certification", "个人实名认证 👇")
@@ -35,8 +34,6 @@ def test_infoReg():
     # 对个人信息企业信息进行删除操作
     deletePerInforAndComInfor()
     logger.info("对个人信息企业信息进行删除操作")
-
-    test_login.test_companyRegister()
 
     driver = webdriver.Chrome()
     driver.maximize_window()
