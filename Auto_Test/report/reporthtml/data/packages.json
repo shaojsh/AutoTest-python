@@ -4,65 +4,65 @@
   "children" : [ {
     "name" : "test_flow.test_Authentication",
     "children" : [ {
-      "name" : "test_personalInfoReg",
-      "children" : [ {
-        "name" : "test_infoReg",
-        "uid" : "bdbd319d9d7e1634",
-        "parentUid" : "27331f685325300f09872e2bd4c8d50e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1596697359323,
-          "stop" : 1596697410594,
-          "duration" : 51271
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "27331f685325300f09872e2bd4c8d50e"
-    }, {
       "name" : "test_login",
       "children" : [ {
         "name" : "test_companyRegister",
-        "uid" : "ada4b0b87a0f9cb3",
+        "uid" : "a184836ffe96b73e",
         "parentUid" : "52f748462e260dd58e76f0876ce6ebf0",
         "status" : "passed",
         "time" : {
-          "start" : 1596708867553,
-          "stop" : 1596708892789,
-          "duration" : 25236
+          "start" : 1596763383843,
+          "stop" : 1596763408734,
+          "duration" : 24891
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_companyPassForget",
-        "uid" : "997e64f32f83101d",
+        "uid" : "5fa0caae006ca156",
         "parentUid" : "52f748462e260dd58e76f0876ce6ebf0",
-        "status" : "failed",
+        "status" : "passed",
         "time" : {
-          "start" : 1596708892805,
-          "stop" : 1596708915077,
-          "duration" : 22272
+          "start" : 1596763493317,
+          "stop" : 1596763520581,
+          "duration" : 27264
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_companyLoginOn",
-        "uid" : "568997e678adf8f2",
+        "uid" : "18529f8bf431a4a7",
         "parentUid" : "52f748462e260dd58e76f0876ce6ebf0",
         "status" : "passed",
         "time" : {
-          "start" : 1596708915187,
-          "stop" : 1596708927646,
-          "duration" : 12459
+          "start" : 1596763520612,
+          "stop" : 1596763533085,
+          "duration" : 12473
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "52f748462e260dd58e76f0876ce6ebf0"
+    }, {
+      "name" : "test_personalInfoReg",
+      "children" : [ {
+        "name" : "test_infoReg",
+        "uid" : "ae65ebd5d30dc352",
+        "parentUid" : "27331f685325300f09872e2bd4c8d50e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596763625012,
+          "stop" : 1596763723898,
+          "duration" : 98886
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "27331f685325300f09872e2bd4c8d50e"
     } ],
     "uid" : "test_flow.test_Authentication"
   } ]

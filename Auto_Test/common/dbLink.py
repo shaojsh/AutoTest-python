@@ -107,10 +107,10 @@ def getPhoneMessage():
         k = bytes.decode(k)
         v = bytes.decode(v)
 
-        if k == 'code:A0002:17621198933':  # 密码修改
-            phoneMessage['forgeMes'] = v
-        if k == 'code:A0003:17621198933':  # 注册
+        if k == 'code:A0002:17621198933':  # 注册
             phoneMessage['regMes'] = v
+        if k == 'code:A0003:17621198933':  # 密码修改
+            phoneMessage['forgeMes'] = v
         if k == 'code:ZCDA0132:17621198933':  # 个人认证
             phoneMessage['auMes'] = v
 

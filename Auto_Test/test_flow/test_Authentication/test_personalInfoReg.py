@@ -1,6 +1,6 @@
 import os
 import sys
-from telnetlib import EC
+
 from time import sleep
 
 import allure
@@ -8,13 +8,14 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
-
+from selenium.webdriver.support import expected_conditions as EC
 from common.BaseFunction import waitUntilDisplay, waitUntilClick
-from common.dbLink import deletePerInforAndComInfor, deleteAct
+from common.dbLink import deletePerInforAndComInfor, deleteAct, getPhoneMessage
 from flow_path.path_login import loginOn
 from flow_path.path_persionInfoReg import path_personalInfoReg
 from run_all_uicase import yamldict, logger
 from common import Assert, BaseFunction
+from test_flow.test_Authentication import test_login
 from test_flow.test_Authentication.test_login import login
 
 act = yamldict['test_userlist']['company_user']
@@ -26,6 +27,7 @@ pwd = yamldict['test_userlist']['company_user_pass']
 @allure.description("测试 http://10.10.128.152:10053/personal/set/certification 个人实名认证")
 @allure.testcase("http://10.10.128.152:10053/personal/set/certification", "个人实名认证 👇")
 def test_infoReg():
+
     def_name = sys._getframe().f_code.co_name
     test_Assert = Assert.Assertions(def_name)
     logger.info("开始执行脚本%s:\n", def_name)
@@ -33,6 +35,8 @@ def test_infoReg():
     # 对个人信息企业信息进行删除操作
     deletePerInforAndComInfor()
     logger.info("对个人信息企业信息进行删除操作")
+
+    test_login.test_companyRegister()
 
     driver = webdriver.Chrome()
     driver.maximize_window()
@@ -60,7 +64,10 @@ def test_infoReg():
     BaseFunction.waitUntilClick(driver, path_personalInfoReg.btn_phoneNum_css.value)
     driver.find_element_by_css_selector(path_personalInfoReg.btn_phoneNum_css.value).click()
 
-    sleep(20)
+    sleep(10)
+    message = getPhoneMessage().get("auMes")
+    driver.find_element_by_css_selector(path_personalInfoReg.input_phoneNum_css.value).send_keys(
+        message.strip().strip('"'))
 
     picture_dir = os.getcwd()
     pcture_dirOne = '\\test_data\\picture\\id_1.jpg'
@@ -87,7 +94,7 @@ def test_infoReg():
     test_Assert.assert_text_ui(txt_idNum_css, idNum)
     test_Assert.assert_text_ui(text_phoneNum_css, act)
 
-    WebDriverWait(driver, 30).until(
+    WebDriverWait(driver, 120).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, path_personalInfoReg.txt_actSucess_css.value)))
     text_actSucess = driver.find_element_by_css_selector(path_personalInfoReg.txt_actSucess_css.value).text
     test_Assert.assert_text_ui(text_actSucess, "认证成功")
@@ -97,3 +104,5 @@ def test_infoReg():
     titleText = driver.find_element_by_css_selector(path_personalInfoReg.txt_aut_css.value)
     test_Assert.assert_text_ui(titleText.text, '实名认证')
     logger.info("点击查看认证信息按钮，跳转到实名认证画面")
+
+    driver.quit()

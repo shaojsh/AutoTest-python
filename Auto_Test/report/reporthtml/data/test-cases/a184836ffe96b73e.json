@@ -1,0 +1,1079 @@
+{
+  "uid" : "a184836ffe96b73e",
+  "name" : "test_companyRegister",
+  "fullName" : "test_flow.test_Authentication.test_login#test_companyRegister",
+  "historyId" : "dd0646a5c1a798e47c4f25747509dea9",
+  "time" : {
+    "start" : 1596763383843,
+    "stop" : 1596763408734,
+    "duration" : 24891
+  },
+  "description" : "测试 http://10.10.128.152:10053/user/register 中小微企业注册流程",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/user/register 中小微企业注册流程</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/user/register 中小微企业注册流程",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c6655d43545bf61b",
+      "name" : "log",
+      "source" : "c6655d43545bf61b.txt",
+      "type" : "text/plain",
+      "size" : 437
+    }, {
+      "uid" : "9eccaa979ddf04fc",
+      "name" : "stdout",
+      "source" : "9eccaa979ddf04fc.txt",
+      "type" : "text/plain",
+      "size" : 261
+    }, {
+      "uid" : "3a295d3297a145de",
+      "name" : "stderr",
+      "source" : "3a295d3297a145de.txt",
+      "type" : "text/plain",
+      "size" : 618
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "13588-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "注册 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/user/register",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "dac05b254ff4e9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596763222581,
+        "stop" : 1596763247987,
+        "duration" : 25406
+      }
+    }, {
+      "uid" : "b26ed8edce8ecca0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596760937440,
+        "stop" : 1596760962300,
+        "duration" : 24860
+      }
+    }, {
+      "uid" : "d20f028c4cd0268c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596760843929,
+        "stop" : 1596760882265,
+        "duration" : 38336
+      }
+    }, {
+      "uid" : "24072ad488800d41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596760716073,
+        "stop" : 1596760767637,
+        "duration" : 51564
+      }
+    }, {
+      "uid" : "cf1cd53fae48a863",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596760420075,
+        "stop" : 1596760446565,
+        "duration" : 26490
+      }
+    }, {
+      "uid" : "4d959d33671bfea1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596760208063,
+        "stop" : 1596760232894,
+        "duration" : 24831
+      }
+    }, {
+      "uid" : "1a57a19452d833de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596759990714,
+        "stop" : 1596760015610,
+        "duration" : 24896
+      }
+    }, {
+      "uid" : "3b464c18f86a356c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596759886023,
+        "stop" : 1596759911434,
+        "duration" : 25411
+      }
+    }, {
+      "uid" : "5499a50e4441f9f",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'strip'",
+      "time" : {
+        "start" : 1596759710397,
+        "stop" : 1596759734078,
+        "duration" : 23681
+      }
+    }, {
+      "uid" : "e235657e68cde8aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596708867553,
+        "stop" : 1596708892789,
+        "duration" : 25236
+      }
+    }, {
+      "uid" : "cd3259c00f7f4206",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596708811072,
+        "stop" : 1596708835933,
+        "duration" : 24861
+      }
+    }, {
+      "uid" : "17b97ae24133ef33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596708740946,
+        "stop" : 1596708765789,
+        "duration" : 24843
+      }
+    }, {
+      "uid" : "9fbcd68cb7d580b0",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'strip'",
+      "time" : {
+        "start" : 1596708517675,
+        "stop" : 1596708540126,
+        "duration" : 22451
+      }
+    }, {
+      "uid" : "801f7a9d87826cfc",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'strip'",
+      "time" : {
+        "start" : 1596708415617,
+        "stop" : 1596708436604,
+        "duration" : 20987
+      }
+    }, {
+      "uid" : "f00308231281a4e4",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'strip'",
+      "time" : {
+        "start" : 1596708328041,
+        "stop" : 1596708347963,
+        "duration" : 19922
+      }
+    }, {
+      "uid" : "7465d3f48e351f46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596708048753,
+        "stop" : 1596708070982,
+        "duration" : 22229
+      }
+    }, {
+      "uid" : "8839c40c06e0a26f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596707876574,
+        "stop" : 1596707887005,
+        "duration" : 10431
+      }
+    }, {
+      "uid" : "471c0fcca22b650f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596707781356,
+        "stop" : 1596707791863,
+        "duration" : 10507
+      }
+    }, {
+      "uid" : "74cabcaeaaf4b888",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596707507602,
+        "stop" : 1596707518062,
+        "duration" : 10460
+      }
+    }, {
+      "uid" : "508c25688601373d",
+      "status" : "broken",
+      "statusDetails" : "TypeError: update expected at most 1 argument, got 2",
+      "time" : {
+        "start" : 1596707256413,
+        "stop" : 1596707282572,
+        "duration" : 26159
+      }
+    }, {
+      "uid" : "9ec42bc2cde96523",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596707217812,
+        "stop" : 1596707228301,
+        "duration" : 10489
+      }
+    }, {
+      "uid" : "f81d1bade5a4aab3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596707195026,
+        "stop" : 1596707205493,
+        "duration" : 10467
+      }
+    }, {
+      "uid" : "95b520df57a93c9d",
+      "status" : "broken",
+      "statusDetails" : "TypeError: update expected at most 1 argument, got 2",
+      "time" : {
+        "start" : 1596707053862,
+        "stop" : 1596707080063,
+        "duration" : 26201
+      }
+    }, {
+      "uid" : "b828727639e0858e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: update expected at most 1 argument, got 2",
+      "time" : {
+        "start" : 1596706964338,
+        "stop" : 1596707014637,
+        "duration" : 50299
+      }
+    }, {
+      "uid" : "cf7bfec8a62de797",
+      "status" : "broken",
+      "statusDetails" : "TypeError: update expected at most 1 argument, got 2",
+      "time" : {
+        "start" : 1596706708762,
+        "stop" : 1596706748329,
+        "duration" : 39567
+      }
+    }, {
+      "uid" : "6276f1be7e2a1f00",
+      "status" : "broken",
+      "statusDetails" : "TypeError: update expected at most 1 argument, got 2",
+      "time" : {
+        "start" : 1596706608798,
+        "stop" : 1596706629280,
+        "duration" : 20482
+      }
+    }, {
+      "uid" : "92bead28942293fc",
+      "status" : "broken",
+      "statusDetails" : "TypeError: update expected at most 1 argument, got 2",
+      "time" : {
+        "start" : 1596706564420,
+        "stop" : 1596706588216,
+        "duration" : 23796
+      }
+    }, {
+      "uid" : "21988af1593db54c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596695668132,
+        "stop" : 1596695701378,
+        "duration" : 33246
+      }
+    }, {
+      "uid" : "e2eefbee494dbd5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596695491791,
+        "stop" : 1596695502285,
+        "duration" : 10494
+      }
+    }, {
+      "uid" : "5e457ce54f2db4c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596695158718,
+        "stop" : 1596695191930,
+        "duration" : 33212
+      }
+    }, {
+      "uid" : "1564ab7f9d7ceaea",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Sqldata() takes 2 positional arguments but 3 were given",
+      "time" : {
+        "start" : 1596694948249,
+        "stop" : 1596694958042,
+        "duration" : 9793
+      }
+    }, {
+      "uid" : "bdef066728711612",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Sqldata() takes 2 positional arguments but 3 were given",
+      "time" : {
+        "start" : 1596694926854,
+        "stop" : 1596694936757,
+        "duration" : 9903
+      }
+    }, {
+      "uid" : "cbe25e9ff0866747",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596677873862,
+        "stop" : 1596677907149,
+        "duration" : 33287
+      }
+    }, {
+      "uid" : "dd2285fab09b59e6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <span style=\"color:#454545\">...</span>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596677784852,
+        "stop" : 1596677795346,
+        "duration" : 10494
+      }
+    }, {
+      "uid" : "9210466f87c9626e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596677613078,
+        "stop" : 1596677623551,
+        "duration" : 10473
+      }
+    }, {
+      "uid" : "42763e3af3b7d1fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596676108712,
+        "stop" : 1596676141800,
+        "duration" : 33088
+      }
+    }, {
+      "uid" : "638abaabc38a47a6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <span style=\"color:#454545\">...</span>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596676081291,
+        "stop" : 1596676091784,
+        "duration" : 10493
+      }
+    }, {
+      "uid" : "cc9df69038e5b66f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596675833272,
+        "stop" : 1596675866460,
+        "duration" : 33188
+      }
+    }, {
+      "uid" : "de086d2e8b49a51a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596675682216,
+        "stop" : 1596675728779,
+        "duration" : 46563
+      }
+    }, {
+      "uid" : "b4e3529f0a3af853",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596675148422,
+        "stop" : 1596675181750,
+        "duration" : 33328
+      }
+    }, {
+      "uid" : "1e10b4d100bfe303",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596675010818,
+        "stop" : 1596675044113,
+        "duration" : 33295
+      }
+    }, {
+      "uid" : "c2c2cf8eca455cd9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <span style=\"color:#454545\">...</span>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596674810105,
+        "stop" : 1596674820625,
+        "duration" : 10520
+      }
+    }, {
+      "uid" : "4476484811f0edae",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596674291931,
+        "stop" : 1596674302317,
+        "duration" : 10386
+      }
+    }, {
+      "uid" : "50424c020ff83716",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596674029444,
+        "stop" : 1596674062650,
+        "duration" : 33206
+      }
+    }, {
+      "uid" : "3b426ee35dd084a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596624509260,
+        "stop" : 1596624544445,
+        "duration" : 35185
+      }
+    }, {
+      "uid" : "f39f4f228b4554a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596624433712,
+        "stop" : 1596624468493,
+        "duration" : 34781
+      }
+    }, {
+      "uid" : "c70bc233d0736f04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596624307119,
+        "stop" : 1596624341894,
+        "duration" : 34775
+      }
+    }, {
+      "uid" : "fb45e0aa7e32226b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596624204672,
+        "stop" : 1596624239884,
+        "duration" : 35212
+      }
+    }, {
+      "uid" : "6fadc65803f75dde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596624068265,
+        "stop" : 1596624103462,
+        "duration" : 35197
+      }
+    }, {
+      "uid" : "94c7e16de8c9d408",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596623961032,
+        "stop" : 1596623995841,
+        "duration" : 34809
+      }
+    }, {
+      "uid" : "f958381f941b0be5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596623847639,
+        "stop" : 1596623882360,
+        "duration" : 34721
+      }
+    }, {
+      "uid" : "c7f49446c98e84cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596623718354,
+        "stop" : 1596623753170,
+        "duration" : 34816
+      }
+    }, {
+      "uid" : "5c678f17d7fccd6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596623605402,
+        "stop" : 1596623640262,
+        "duration" : 34860
+      }
+    }, {
+      "uid" : "1e831e2ffe5bca1a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'datetime.time' has no attribute 'localtime'",
+      "time" : {
+        "start" : 1596623502364,
+        "stop" : 1596623514817,
+        "duration" : 12453
+      }
+    }, {
+      "uid" : "b26ba3570e7fd2b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596623438462,
+        "stop" : 1596623449047,
+        "duration" : 10585
+      }
+    }, {
+      "uid" : "5a8cfecbf035328",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <span style=\"color:#454545\">...</span>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596623270511,
+        "stop" : 1596623280964,
+        "duration" : 10453
+      }
+    }, {
+      "uid" : "891e2ded884b9a15",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <span style=\"color:#262626\">...</span>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596623175785,
+        "stop" : 1596623190310,
+        "duration" : 14525
+      }
+    }, {
+      "uid" : "642e9acb35c37d8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <p>...</p>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596622867073,
+        "stop" : 1596622877507,
+        "duration" : 10434
+      }
+    }, {
+      "uid" : "d8154e85bb1f800e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <p>...</p>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596622725551,
+        "stop" : 1596622735840,
+        "duration" : 10289
+      }
+    }, {
+      "uid" : "156bf24808d394a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596622488271,
+        "stop" : 1596622537600,
+        "duration" : 49329
+      }
+    }, {
+      "uid" : "ff50961508792473",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596622419723,
+        "stop" : 1596622430195,
+        "duration" : 10472
+      }
+    }, {
+      "uid" : "8162f712a0a9fd37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596622313133,
+        "stop" : 1596622358284,
+        "duration" : 45151
+      }
+    }, {
+      "uid" : "51b271f1f8a900bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596622100475,
+        "stop" : 1596622143379,
+        "duration" : 42904
+      }
+    }, {
+      "uid" : "57b5af62df7ae8e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596621923157,
+        "stop" : 1596621967906,
+        "duration" : 44749
+      }
+    }, {
+      "uid" : "e7dc443d865fb3cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596621703497,
+        "stop" : 1596621753063,
+        "duration" : 49566
+      }
+    }, {
+      "uid" : "61cab2a78a7cadf3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596621508281,
+        "stop" : 1596621560045,
+        "duration" : 51764
+      }
+    }, {
+      "uid" : "630ee05242e97a46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596621339163,
+        "stop" : 1596621383494,
+        "duration" : 44331
+      }
+    }, {
+      "uid" : "d5e223062e18b40d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596621235010,
+        "stop" : 1596621274817,
+        "duration" : 39807
+      }
+    }, {
+      "uid" : "1455deb09c29ad3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596620998451,
+        "stop" : 1596621048065,
+        "duration" : 49614
+      }
+    }, {
+      "uid" : "5bb681801692a6ae",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596620953619,
+        "stop" : 1596620964086,
+        "duration" : 10467
+      }
+    }, {
+      "uid" : "3ddae6ea897ca6b5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596620923981,
+        "stop" : 1596620934446,
+        "duration" : 10465
+      }
+    }, {
+      "uid" : "764ef3aa5e47455",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596620861383,
+        "stop" : 1596620871848,
+        "duration" : 10465
+      }
+    }, {
+      "uid" : "a979d42b8d17e1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <p>...</p>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596620764743,
+        "stop" : 1596620775242,
+        "duration" : 10499
+      }
+    }, {
+      "uid" : "210331e4376eea62",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596620294759,
+        "stop" : 1596620305314,
+        "duration" : 10555
+      }
+    }, {
+      "uid" : "4f968137b734e1b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596620124178,
+        "stop" : 1596620157386,
+        "duration" : 33208
+      }
+    }, {
+      "uid" : "5dc92b5816f92cfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596618143741,
+        "stop" : 1596618172921,
+        "duration" : 29180
+      }
+    }, {
+      "uid" : "7f7446aff1303807",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <span style=\"color:#262626\">...</span>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596618107637,
+        "stop" : 1596618115295,
+        "duration" : 7658
+      }
+    }, {
+      "uid" : "5c0bab707b6be5c0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596617765946,
+        "stop" : 1596617776541,
+        "duration" : 10595
+      }
+    }, {
+      "uid" : "ff823d8ba170b939",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596617668486,
+        "stop" : 1596617679030,
+        "duration" : 10544
+      }
+    }, {
+      "uid" : "c8900e56ebe4e341",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div > div:nth-child(3) > div > button\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596617574697,
+        "stop" : 1596617574713,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "82cf057240139de1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596617168562,
+        "stop" : 1596617199598,
+        "duration" : 31036
+      }
+    }, {
+      "uid" : "23697d0d360a488b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596617117825,
+        "stop" : 1596617118768,
+        "duration" : 943
+      }
+    }, {
+      "uid" : "3d39874bbb60cde8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596616965987,
+        "stop" : 1596616965987,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5dfef65e6a70dd14",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596616912176,
+        "stop" : 1596616913110,
+        "duration" : 934
+      }
+    }, {
+      "uid" : "934a00b6de6b2eaf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596616726496,
+        "stop" : 1596616765472,
+        "duration" : 38976
+      }
+    }, {
+      "uid" : "e860fbbd696e647f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596616496359,
+        "stop" : 1596616586924,
+        "duration" : 90565
+      }
+    }, {
+      "uid" : "fa50a6596d265629",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <span style=\"color:#262626\">...</span>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596616461812,
+        "stop" : 1596616462570,
+        "duration" : 758
+      }
+    }, {
+      "uid" : "4ea9829f84343db8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button class=\"btn-primary btnAgreement___zYgU3\">...</button> is not clickable at point (959, 602). Other element would receive the click: <div class=\"ant-modal-body\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596616382865,
+        "stop" : 1596616383294,
+        "duration" : 429
+      }
+    }, {
+      "uid" : "872831a019eff1db",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button class=\"btn-primary btnAgreement___zYgU3\">...</button> is not clickable at point (959, 602). Other element would receive the click: <div class=\"ant-modal-body\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596616254610,
+        "stop" : 1596616255019,
+        "duration" : 409
+      }
+    }, {
+      "uid" : "bf192cd9c088a8fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596616004701,
+        "stop" : 1596616081536,
+        "duration" : 76835
+      }
+    }, {
+      "uid" : "a4a461aca34a2f63",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596615782325,
+        "stop" : 1596615783261,
+        "duration" : 936
+      }
+    }, {
+      "uid" : "52e81098751e5ef1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button class=\"btn-primary btnAgreement___zYgU3\">...</button> is not clickable at point (959, 467). Other element would receive the click: <p>...</p>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596615683393,
+        "stop" : 1596615683985,
+        "duration" : 592
+      }
+    }, {
+      "uid" : "1886d9f3a2c4580e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596614956108,
+        "stop" : 1596615006653,
+        "duration" : 50545
+      }
+    }, {
+      "uid" : "1a6ec12b7300e588",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596614926809,
+        "stop" : 1596614927743,
+        "duration" : 934
+      }
+    }, {
+      "uid" : "1f4c8e0f79ad8b18",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596614702770,
+        "stop" : 1596614703721,
+        "duration" : 951
+      }
+    }, {
+      "uid" : "ae7cd6e0a8d4bb5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596614231821,
+        "stop" : 1596614232798,
+        "duration" : 977
+      }
+    }, {
+      "uid" : "8d3015e0e997dc6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596614081153,
+        "stop" : 1596614104471,
+        "duration" : 23318
+      }
+    }, {
+      "uid" : "c148ee6b4316883e",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=50297): Max retries exceeded with url: /session/07f5403636578268721fac82fbc03ace/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7C9FC4B20>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1596613914506,
+        "stop" : 1596613922537,
+        "duration" : 8031
+      }
+    }, {
+      "uid" : "35f90f4aae10b805",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596613178891,
+        "stop" : 1596613179955,
+        "duration" : 1064
+      }
+    }, {
+      "uid" : "a60100f14a0a2088",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <p>...</p>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596610299982,
+        "stop" : 1596610300883,
+        "duration" : 901
+      }
+    }, {
+      "uid" : "6e82c7557d99474",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596610202559,
+        "stop" : 1596610238896,
+        "duration" : 36337
+      }
+    }, {
+      "uid" : "50926cf8e18749be",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596610176913,
+        "stop" : 1596610177872,
+        "duration" : 959
+      }
+    }, {
+      "uid" : "5b84e7c2f24756fa",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'Thread' has no attribute 'sleep'",
+      "time" : {
+        "start" : 1596610108470,
+        "stop" : 1596610115791,
+        "duration" : 7321
+      }
+    }, {
+      "uid" : "425e553c71be34c4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596610085895,
+        "stop" : 1596610086844,
+        "duration" : 949
+      }
+    }, {
+      "uid" : "ff201dca8a5e4f45",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <span style=\"color:#454545\">...</span>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596609490356,
+        "stop" : 1596609491261,
+        "duration" : 905
+      }
+    }, {
+      "uid" : "e1d875ffb759a41c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <p>...</p>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596609079017,
+        "stop" : 1596609079902,
+        "duration" : 885
+      }
+    }, {
+      "uid" : "6414be3f3af98f27",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <p>...</p>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596609046765,
+        "stop" : 1596609047648,
+        "duration" : 883
+      }
+    }, {
+      "uid" : "67fbd63168561096",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <p>...</p>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596608964341,
+        "stop" : 1596608965218,
+        "duration" : 877
+      }
+    }, {
+      "uid" : "d3a94b606a7c4e14",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <p>...</p>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596608575041,
+        "stop" : 1596608575929,
+        "duration" : 888
+      }
+    }, {
+      "uid" : "c9a003fb64246852",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596608507332,
+        "stop" : 1596608546290,
+        "duration" : 38958
+      }
+    }, {
+      "uid" : "94bb8d86660ba84f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596608408812,
+        "stop" : 1596608409740,
+        "duration" : 928
+      }
+    }, {
+      "uid" : "6b0803df0ae37383",
+      "status" : "broken",
+      "statusDetails" : "TypeError: waitUntilClick() missing 1 required positional argument: 'ByCss'",
+      "time" : {
+        "start" : 1596608364587,
+        "stop" : 1596608365565,
+        "duration" : 978
+      }
+    }, {
+      "uid" : "a74bcccc74760be7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <p>...</p>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596608259303,
+        "stop" : 1596608260218,
+        "duration" : 915
+      }
+    }, {
+      "uid" : "983435f4cf507217",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <p>...</p>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596608069238,
+        "stop" : 1596608070096,
+        "duration" : 858
+      }
+    }, {
+      "uid" : "48592e948292d208",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <p>...</p>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1596607814499,
+        "stop" : 1596607815365,
+        "duration" : 866
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "a184836ffe96b73e.json",
+  "parameterValues" : [ ]
+}

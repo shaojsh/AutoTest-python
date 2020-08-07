@@ -6,7 +6,7 @@ class path_personalInfoReg(Enum):
     txt_aut_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > h5'  # 实名认证title
     input_name_css = '#realName'  # 姓名
     input_idNum_css = '#idCard'  # 身份证号码
-    input_phoneNum_css = '#idCard'  # 手机验证码
+    input_phoneNum_css = '#verifyCode'  # 手机验证码
     btn_phoneNum_css = "#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > form > div:nth-child(3) > span"  # 手机验证码按钮
     file_idPicture1_css = '#idCardFace'  # 身份证正面
     file_idPicture2_css = '#idCardBack'  # 身份证反面
@@ -21,5 +21,5 @@ class path_personalInfoReg(Enum):
     txt_phoneNum_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > ul > li:nth-child(3) > span.value___2qUi_'  # 显示手机号
 
     # 认证成功画面
-    txt_actSucess_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > div.statusWrap___1MekY.success___2iGw_ > p.text___3NufP'  # 显示手机号
-    btn_actInfor_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > button'  # 显示手机号
+    txt_actSucess_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > div.statusWrap___1MekY.success___2iGw_ > p.text___3NufP'  # 认证成功
+    btn_actInfor_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > button'  # 认证详细信息画面

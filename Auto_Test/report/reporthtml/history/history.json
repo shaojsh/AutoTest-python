@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ada4b0b87a0f9cb3",
+      "uid" : "a184836ffe96b73e",
       "status" : "passed",
       "time" : {
-        "start" : 1596708867553,
-        "stop" : 1596708892789,
-        "duration" : 25236
+        "start" : 1596763383843,
+        "stop" : 1596763408734,
+        "duration" : 24891
       }
     } ]
   },
@@ -28,52 +28,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "568997e678adf8f2",
+      "uid" : "18529f8bf431a4a7",
       "status" : "passed",
       "time" : {
-        "start" : 1596708915187,
-        "stop" : 1596708927646,
-        "duration" : 12459
+        "start" : 1596763520612,
+        "stop" : 1596763533085,
+        "duration" : 12473
       }
     } ]
   },
   "28dda5313ff182aeade3becf47df4372" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bdbd319d9d7e1634",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "uid" : "ae65ebd5d30dc352",
+      "status" : "passed",
       "time" : {
-        "start" : 1596697359323,
-        "stop" : 1596697410594,
-        "duration" : 51271
+        "start" : 1596763625012,
+        "stop" : 1596763723898,
+        "duration" : 98886
       }
     } ]
   },
   "acb9067300dee3cf493bfb42da37b2a5" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "997e64f32f83101d",
-      "status" : "failed",
-      "statusDetails" : "AssertionError",
+      "uid" : "5fa0caae006ca156",
+      "status" : "passed",
       "time" : {
-        "start" : 1596708892805,
-        "stop" : 1596708915077,
-        "duration" : 22272
+        "start" : 1596763493317,
+        "stop" : 1596763520581,
+        "duration" : 27264
       }
     } ]
   }

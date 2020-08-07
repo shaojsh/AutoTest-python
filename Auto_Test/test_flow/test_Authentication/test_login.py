@@ -70,7 +70,7 @@ def test_companyRegister():
     sleep(10)
     message = getPhoneMessage().get("regMes")
     driver.find_element_by_css_selector(loginOn.input_phoneCode_css.value).send_keys(message.strip().strip('"'))
-
+    waitUntilClick(driver, loginOn.btn_agreeReg.value)
     driver.find_element_by_css_selector(loginOn.btn_agreeReg.value).click()
 
     title = driver.title
@@ -93,7 +93,7 @@ def test_companyPassForget():
     driver.get("http://10.10.128.152:10053/user/forget")
 
     driver.find_element_by_css_selector(loginOn.input_actForget_css.value).send_keys(act)
-    driver.find_element_by_css_selector(loginOn.input_codeForget_css.value).send_keys(' y')
+    driver.find_element_by_css_selector(loginOn.input_codeForget_css.value).send_keys(' ')
     waitUntilClick(driver, loginOn.btn_phoneCodeForget_css.value)
     sleep(2)
     driver.find_element_by_css_selector(loginOn.btn_phoneCodeForget_css.value).click()

@@ -1,0 +1,21 @@
+INFO     run_all_uicase.py:test_personalInfoReg.py:33 开始执行脚本test_infoReg:
+
+INFO     run_all_uicase.py:test_personalInfoReg.py:37 对个人信息企业信息进行删除操作
+INFO     run_all_uicase.py:test_login.py:51 开始执行脚本test_companyRegister:
+
+INFO     run_all_uicase.py:test_login.py:58 对已注册的账户进行删除操作
+INFO     test_companyRegister:Assert.py:123 except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+INFO     run_all_uicase.py:test_login.py:78 注册成功，返回到登陆页面
+INFO     test_infoReg:Assert.py:123 except_result = actul_result, except_result is 首页, actul_result is 首页
+INFO     run_all_uicase.py:test_personalInfoReg.py:52 进入登陆页面
+INFO     test_infoReg:Assert.py:123 except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+INFO     run_all_uicase.py:test_personalInfoReg.py:57 实名认证画面成功显示
+INFO     test_infoReg:Assert.py:123 except_result = actul_result, except_result is 认证中, actul_result is 认证中
+INFO     run_all_uicase.py:test_personalInfoReg.py:87 实名认证中画面显示
+INFO     test_infoReg:Assert.py:123 except_result = actul_result, except_result is 测试用户, actul_result is 测试用户
+INFO     test_infoReg:Assert.py:123 except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+INFO     test_infoReg:Assert.py:123 except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+INFO     test_infoReg:Assert.py:123 except_result = actul_result, except_result is 认证成功, actul_result is 认证成功
+INFO     run_all_uicase.py:test_personalInfoReg.py:101 实名认证成功画面显示
+INFO     test_infoReg:Assert.py:123 except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+INFO     run_all_uicase.py:test_personalInfoReg.py:106 点击查看认证信息按钮，跳转到实名认证画面
