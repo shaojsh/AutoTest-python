@@ -1,6 +1,0 @@
-Wed, 05 Aug 2020 18:49:04-run_all_uicase.py-test_login.py-[line:91]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
-
-Wed, 05 Aug 2020 18:49:36-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
-Wed, 05 Aug 2020 18:49:36-run_all_uicase.py-test_login.py-[line:111]-INFO-[日志信息]: 成功进入到密码重置页面
-Wed, 05 Aug 2020 18:49:39-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 完成修改, actul_result is 完成修改
-Wed, 05 Aug 2020 18:49:39-run_all_uicase.py-test_login.py-[line:122]-INFO-[日志信息]: 成功进入到密码修改完成页面

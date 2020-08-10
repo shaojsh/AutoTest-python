@@ -1,5 +1,0 @@
-Fri, 07 Aug 2020 09:19:17-run_all_uicase.py-test_personalInfoReg.py-[line:33]-INFO-[日志信息]: 开始执行脚本test_infoReg:
-
-Fri, 07 Aug 2020 09:19:17-run_all_uicase.py-test_personalInfoReg.py-[line:37]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
-Fri, 07 Aug 2020 09:19:28-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
-Fri, 07 Aug 2020 09:19:28-run_all_uicase.py-test_personalInfoReg.py-[line:51]-INFO-[日志信息]: 进入登陆页面

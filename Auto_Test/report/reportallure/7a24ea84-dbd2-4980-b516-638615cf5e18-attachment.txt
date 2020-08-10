@@ -1,1 +1,0 @@
-INFO     run_all_uicase.py:test_login.py:82 开始执行脚本test_companyPassForget:

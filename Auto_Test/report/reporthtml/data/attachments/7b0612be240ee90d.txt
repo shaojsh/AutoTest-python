@@ -1,3 +1,0 @@
-INFO     run_all_uicase.py:test_login.py:86 开始执行脚本test_companyPassForget:
-
-ERROR    test_companyPassForget:Assert.py:126 except_result ！= actul_result, except_result is 重置密码, actul_result is 安全验证

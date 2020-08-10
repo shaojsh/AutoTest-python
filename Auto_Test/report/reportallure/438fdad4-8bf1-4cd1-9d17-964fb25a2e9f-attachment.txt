@@ -1,0 +1,4 @@
+INFO     run_all_uicase.py:test_backStage_authentication.py:26 开始执行脚本test_backStage_authentication:
+
+INFO     test_backStage_authentication:Assert.py:123 except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+INFO     run_all_uicase.py:test_backStage_examine.py:69 成功登录后台系统

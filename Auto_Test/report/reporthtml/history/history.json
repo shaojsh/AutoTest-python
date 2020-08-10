@@ -1,23 +1,4 @@
 {
-  "68de281c9c68e708f61f0f8788ed34b7" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "8f6f88b8183c2bed",
-      "status" : "passed",
-      "time" : {
-        "start" : 1596786228456,
-        "stop" : 1596786241306,
-        "duration" : 12850
-      }
-    } ]
-  },
   "dd0646a5c1a798e47c4f25747509dea9" : {
     "statistic" : {
       "failed" : 0,
@@ -28,31 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8fc5989fc0b055f8",
+      "uid" : "4ceca7fb9fe33ca1",
       "status" : "passed",
       "time" : {
-        "start" : 1596786036472,
-        "stop" : 1596786062222,
-        "duration" : 25750
-      }
-    } ]
-  },
-  "673c6cf796d54f5cbc2e9852ef4f69c7" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "4bee53cd5a1c77c1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1596786137074,
-        "stop" : 1596786228447,
-        "duration" : 91373
+        "start" : 1597047945462,
+        "stop" : 1597047971204,
+        "duration" : 25742
       }
     } ]
   },
@@ -66,31 +28,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c125daf7913eac0c",
+      "uid" : "1b1e36b47d316db",
       "status" : "passed",
       "time" : {
-        "start" : 1596786062222,
-        "stop" : 1596786137059,
-        "duration" : 74837
+        "start" : 1597047971218,
+        "stop" : 1597048055927,
+        "duration" : 84709
       }
     } ]
   },
-  "acb9067300dee3cf493bfb42da37b2a5" : {
+  "0a7cf6322a2f92e01070570b73399db9" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bc809ac206cb67e",
-      "status" : "passed",
+      "uid" : "3a11369f0575b444",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(7) > div > div.ant-modal-wrap.ant-modal-centered > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(3) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > div > div > div\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
       "time" : {
-        "start" : 1596786241321,
-        "stop" : 1596786271236,
-        "duration" : 29915
+        "start" : 1597050302854,
+        "stop" : 1597050326332,
+        "duration" : 23478
       }
     } ]
   }

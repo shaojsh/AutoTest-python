@@ -1,0 +1,932 @@
+Mon, 10 Aug 2020 08:28:36-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 08:28:36===================================
+Mon, 10 Aug 2020 08:28:37-run_all_uicase.py-test_login.py-[line:51]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Mon, 10 Aug 2020 08:28:47-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Mon, 10 Aug 2020 08:29:01-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Mon, 10 Aug 2020 08:29:01-run_all_uicase.py-test_login.py-[line:78]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Mon, 10 Aug 2020 08:29:03-run_all_uicase.py-test_personalInfoReg.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Mon, 10 Aug 2020 08:29:03-run_all_uicase.py-test_personalInfoReg.py-[line:36]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Mon, 10 Aug 2020 08:29:13-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Mon, 10 Aug 2020 08:29:13-run_all_uicase.py-test_personalInfoReg.py-[line:49]-INFO-[日志信息]: 进入登陆页面
+Mon, 10 Aug 2020 08:29:14-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Mon, 10 Aug 2020 08:29:14-run_all_uicase.py-test_personalInfoReg.py-[line:54]-INFO-[日志信息]: 实名认证画面成功显示
+Mon, 10 Aug 2020 08:29:25-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Mon, 10 Aug 2020 08:29:25-run_all_uicase.py-test_personalInfoReg.py-[line:84]-INFO-[日志信息]: 实名认证中画面显示
+Mon, 10 Aug 2020 08:29:25-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 测试用户, actul_result is 测试用户
+Mon, 10 Aug 2020 08:29:25-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Mon, 10 Aug 2020 08:29:25-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+Mon, 10 Aug 2020 08:30:15-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证成功, actul_result is 认证成功
+Mon, 10 Aug 2020 08:30:15-run_all_uicase.py-test_personalInfoReg.py-[line:98]-INFO-[日志信息]: 实名认证成功画面显示
+Mon, 10 Aug 2020 08:30:15-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Mon, 10 Aug 2020 08:30:15-run_all_uicase.py-test_personalInfoReg.py-[line:103]-INFO-[日志信息]: 点击查看认证信息按钮，跳转到实名认证画面
+Mon, 10 Aug 2020 08:30:17-run_all_uicase.py-test_businessInfoReg.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Mon, 10 Aug 2020 08:30:28-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Mon, 10 Aug 2020 08:30:28-run_all_uicase.py-test_businessInfoReg.py-[line:39]-INFO-[日志信息]: 企业基本资料画面正常显示
+Mon, 10 Aug 2020 08:30:33-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 请确认协议内容, actul_result is 请确认协议内容
+Mon, 10 Aug 2020 08:30:33-run_all_uicase.py-test_businessInfoReg.py-[line:94]-INFO-[日志信息]: 协议确认画面正常显示
+Mon, 10 Aug 2020 08:30:36-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Mon, 10 Aug 2020 08:30:36-run_all_uicase.py-test_businessInfoReg.py-[line:103]-INFO-[日志信息]: 企业信息认证中画面正常显示
+Mon, 10 Aug 2020 08:31:09-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 审核中, actul_result is 审核中
+Mon, 10 Aug 2020 08:31:09-run_all_uicase.py-test_businessInfoReg.py-[line:114]-INFO-[日志信息]: 企业信息审核中画面正常显示
+Mon, 10 Aug 2020 08:31:09-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Mon, 10 Aug 2020 08:31:09-run_all_uicase.py-test_businessInfoReg.py-[line:121]-INFO-[日志信息]: 企业基本资料画面正常显示
+Mon, 10 Aug 2020 08:31:11-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Mon, 10 Aug 2020 08:31:22-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Mon, 10 Aug 2020 08:31:22-run_all_uicase.py-test_login.py-[line:40]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Mon, 10 Aug 2020 08:31:24-run_all_uicase.py-test_login.py-[line:89]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Mon, 10 Aug 2020 08:31:47-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
+Mon, 10 Aug 2020 08:31:47-run_all_uicase.py-test_login.py-[line:110]-INFO-[日志信息]: 成功进入到密码重置页面
+Mon, 10 Aug 2020 08:31:49-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 完成修改, actul_result is 完成修改
+Mon, 10 Aug 2020 08:31:49-run_all_uicase.py-test_login.py-[line:121]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Mon, 10 Aug 2020 09:20:56-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 09:20:56===================================
+Mon, 10 Aug 2020 09:20:56-run_all_uicase.py-test_ backstage_examine.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 09:21:07-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 09:21:07-run_all_uicase.py-test_ backstage_examine.py-[line:44]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 09:51:57-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 09:51:57===================================
+Mon, 10 Aug 2020 09:51:57-run_all_uicase.py-test_ backstage_examine.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:12:55-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:12:55===================================
+Mon, 10 Aug 2020 10:12:56-run_all_uicase.py-test_ backstage_examine.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:13:07-test_backstage_examine-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 用户基本信息, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:13:32-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:13:32===================================
+Mon, 10 Aug 2020 10:13:33-run_all_uicase.py-test_ backstage_examine.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:13:44-test_backstage_examine-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 用户基本信息, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:13:56-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:13:56===================================
+Mon, 10 Aug 2020 10:13:57-run_all_uicase.py-test_ backstage_examine.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:14:08-test_backstage_examine-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 用户基本信息, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:17:50-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:17:50===================================
+Mon, 10 Aug 2020 10:17:51-run_all_uicase.py-test_ backstage_examine.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:18:02-test_backstage_examine-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 用户基本信息, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:19:02-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:19:02===================================
+Mon, 10 Aug 2020 10:19:03-run_all_uicase.py-test_ backstage_examine.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:19:14-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:19:14-run_all_uicase.py-test_ backstage_examine.py-[line:63]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:21:02-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:21:02===================================
+Mon, 10 Aug 2020 10:21:02-run_all_uicase.py-test_ backstage_examine.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:21:13-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:21:13-run_all_uicase.py-test_ backstage_examine.py-[line:63]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:22:18-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:22:18===================================
+Mon, 10 Aug 2020 10:22:19-run_all_uicase.py-test_ backstage_examine.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:22:30-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:22:30-run_all_uicase.py-test_ backstage_examine.py-[line:63]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:23:31-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:23:31===================================
+Mon, 10 Aug 2020 10:23:31-run_all_uicase.py-test_ backstage_examine.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:23:42-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:23:42-run_all_uicase.py-test_ backstage_examine.py-[line:63]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:24:47-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:24:47===================================
+Mon, 10 Aug 2020 10:24:48-run_all_uicase.py-test_ backstage_examine.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:24:58-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:24:58-run_all_uicase.py-test_ backstage_examine.py-[line:65]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:27:03-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:27:03===================================
+Mon, 10 Aug 2020 10:27:04-run_all_uicase.py-test_ backstage_examine.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:27:15-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:27:15-run_all_uicase.py-test_ backstage_examine.py-[line:65]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:28:01-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:28:01===================================
+Mon, 10 Aug 2020 10:28:02-run_all_uicase.py-test_ backstage_examine.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:28:12-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:28:12-run_all_uicase.py-test_ backstage_examine.py-[line:65]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:30:07-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:30:07===================================
+Mon, 10 Aug 2020 10:30:08-run_all_uicase.py-test_ backstage_examine.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:30:19-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:30:19-run_all_uicase.py-test_ backstage_examine.py-[line:65]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:31:24-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:31:24===================================
+Mon, 10 Aug 2020 10:31:25-run_all_uicase.py-test_ backstage_examine.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:31:36-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:31:36-run_all_uicase.py-test_ backstage_examine.py-[line:63]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:32:14-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:32:14===================================
+Mon, 10 Aug 2020 10:32:15-run_all_uicase.py-test_ backstage_examine.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:32:26-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:32:26-run_all_uicase.py-test_ backstage_examine.py-[line:64]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:34:46-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:34:46===================================
+Mon, 10 Aug 2020 10:34:46-run_all_uicase.py-test_ backstage_examine.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:34:57-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:34:57-run_all_uicase.py-test_ backstage_examine.py-[line:64]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:35:59-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:35:59===================================
+Mon, 10 Aug 2020 10:36:00-run_all_uicase.py-test_ backstage_examine.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:36:10-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:36:10-run_all_uicase.py-test_ backstage_examine.py-[line:64]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:37:31-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:37:31===================================
+Mon, 10 Aug 2020 10:37:32-run_all_uicase.py-test_ backstage_examine.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:37:42-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:37:42-run_all_uicase.py-test_ backstage_examine.py-[line:66]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:37:57-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:37:57===================================
+Mon, 10 Aug 2020 10:37:57-run_all_uicase.py-test_ backstage_examine.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:38:08-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:38:08-run_all_uicase.py-test_ backstage_examine.py-[line:66]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:38:23-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:38:23===================================
+Mon, 10 Aug 2020 10:38:24-run_all_uicase.py-test_ backstage_examine.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:38:35-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:38:35-run_all_uicase.py-test_ backstage_examine.py-[line:66]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:39:01-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:39:01===================================
+Mon, 10 Aug 2020 10:39:01-run_all_uicase.py-test_ backstage_examine.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:39:12-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:39:12-run_all_uicase.py-test_ backstage_examine.py-[line:65]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:40:49-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:40:49===================================
+Mon, 10 Aug 2020 10:40:49-run_all_uicase.py-test_ backstage_examine.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:41:00-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:41:00-run_all_uicase.py-test_ backstage_examine.py-[line:66]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:42:15-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:42:15===================================
+Mon, 10 Aug 2020 10:42:16-run_all_uicase.py-test_ backstage_examine.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:42:26-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:42:26-run_all_uicase.py-test_ backstage_examine.py-[line:66]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:44:33-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:44:33===================================
+Mon, 10 Aug 2020 10:44:33-run_all_uicase.py-test_ backstage_examine.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:44:44-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:44:44-run_all_uicase.py-test_ backstage_examine.py-[line:66]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:48:47-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:48:47===================================
+Mon, 10 Aug 2020 10:48:47-run_all_uicase.py-test_ backstage_examine.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:48:58-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:48:58-run_all_uicase.py-test_ backstage_examine.py-[line:66]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:50:01-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:50:01===================================
+Mon, 10 Aug 2020 10:50:01-run_all_uicase.py-test_ backstage_examine.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:50:12-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:50:12-run_all_uicase.py-test_ backstage_examine.py-[line:66]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:51:35-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:51:35===================================
+Mon, 10 Aug 2020 10:51:35-run_all_uicase.py-test_ backstage_examine.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:51:46-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:51:46-run_all_uicase.py-test_ backstage_examine.py-[line:66]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:54:48-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:54:48===================================
+Mon, 10 Aug 2020 10:54:49-run_all_uicase.py-test_ backstage_examine.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:55:00-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:55:00-run_all_uicase.py-test_ backstage_examine.py-[line:66]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:57:02-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:57:02===================================
+Mon, 10 Aug 2020 10:57:02-run_all_uicase.py-test_ backstage_examine.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:57:13-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:57:13-run_all_uicase.py-test_ backstage_examine.py-[line:67]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 10:57:45-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 10:57:45===================================
+Mon, 10 Aug 2020 10:57:45-run_all_uicase.py-test_ backstage_examine.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 10:57:56-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 10:57:56-run_all_uicase.py-test_ backstage_examine.py-[line:67]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 11:01:48-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 11:01:48===================================
+Mon, 10 Aug 2020 11:01:49-run_all_uicase.py-test_ backstage_examine.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 11:01:59-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 11:01:59-run_all_uicase.py-test_ backstage_examine.py-[line:66]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 11:03:06-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 11:03:06===================================
+Mon, 10 Aug 2020 11:03:06-run_all_uicase.py-test_ backstage_examine.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 11:03:17-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 11:03:17-run_all_uicase.py-test_ backstage_examine.py-[line:66]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 11:03:58-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 11:03:58===================================
+Mon, 10 Aug 2020 11:03:59-run_all_uicase.py-test_ backstage_examine.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 11:04:10-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 11:04:10-run_all_uicase.py-test_ backstage_examine.py-[line:66]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 11:04:37-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 11:04:37===================================
+Mon, 10 Aug 2020 11:04:37-run_all_uicase.py-test_ backstage_examine.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 11:04:50-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 11:04:50-run_all_uicase.py-test_ backstage_examine.py-[line:66]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 11:06:58-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 11:06:58===================================
+Mon, 10 Aug 2020 11:06:58-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 11:07:52-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 11:07:52===================================
+Mon, 10 Aug 2020 11:07:53-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 11:07:57-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 11:07:57===================================
+Mon, 10 Aug 2020 11:07:57-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 11:08:08-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 11:08:08-run_all_uicase.py-test_ backstage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 11:09:10-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 11:09:10===================================
+Mon, 10 Aug 2020 11:09:11-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 11:09:22-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 11:09:22-run_all_uicase.py-test_ backstage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 11:10:06-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 11:10:06===================================
+Mon, 10 Aug 2020 11:10:07-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 11:10:17-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 11:10:17-run_all_uicase.py-test_ backstage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 12:46:47-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 12:46:47===================================
+Mon, 10 Aug 2020 12:46:48-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 12:47:00-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 12:47:00-run_all_uicase.py-test_ backstage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 12:48:05-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 12:48:05===================================
+Mon, 10 Aug 2020 12:48:06-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 12:48:17-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 12:48:17-run_all_uicase.py-test_ backstage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 12:48:47-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 12:48:47===================================
+Mon, 10 Aug 2020 12:48:47-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 12:48:58-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 12:48:58-run_all_uicase.py-test_ backstage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 12:49:08-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 12:49:08===================================
+Mon, 10 Aug 2020 12:49:09-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 12:49:19-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 12:49:19-run_all_uicase.py-test_ backstage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 12:50:00-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 12:50:00===================================
+Mon, 10 Aug 2020 12:50:01-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 12:50:11-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 12:50:11-run_all_uicase.py-test_ backstage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 12:52:03-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 12:52:03===================================
+Mon, 10 Aug 2020 12:52:04-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 12:52:15-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 12:52:15-run_all_uicase.py-test_ backstage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 12:53:11-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 12:53:11===================================
+Mon, 10 Aug 2020 12:53:11-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 12:53:22-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 12:53:22-run_all_uicase.py-test_ backstage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 12:55:08-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 12:55:08===================================
+Mon, 10 Aug 2020 12:55:09-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 12:55:20-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 12:55:20-run_all_uicase.py-test_ backstage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 12:56:22-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 12:56:22===================================
+Mon, 10 Aug 2020 12:56:23-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 12:56:34-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 12:56:34-run_all_uicase.py-test_ backstage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 12:59:00-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 12:59:00===================================
+Mon, 10 Aug 2020 12:59:00-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 12:59:11-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 12:59:11-run_all_uicase.py-test_ backstage_examine.py-[line:71]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:03:06-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:03:06===================================
+Mon, 10 Aug 2020 13:03:07-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:03:18-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:03:18-run_all_uicase.py-test_ backstage_examine.py-[line:71]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:03:58-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:03:58===================================
+Mon, 10 Aug 2020 13:03:58-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:04:09-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:04:09-run_all_uicase.py-test_ backstage_examine.py-[line:71]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:05:05-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:05:05===================================
+Mon, 10 Aug 2020 13:05:06-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:05:17-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:05:17-run_all_uicase.py-test_ backstage_examine.py-[line:71]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:06:19-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:06:19===================================
+Mon, 10 Aug 2020 13:06:19-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:06:30-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:06:30-run_all_uicase.py-test_ backstage_examine.py-[line:71]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:07:45-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:07:45===================================
+Mon, 10 Aug 2020 13:07:45-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:07:56-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:07:56-run_all_uicase.py-test_ backstage_examine.py-[line:72]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:08:40-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:08:40===================================
+Mon, 10 Aug 2020 13:08:41-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:08:52-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:08:52-run_all_uicase.py-test_ backstage_examine.py-[line:72]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:10:44-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:10:44===================================
+Mon, 10 Aug 2020 13:10:45-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:10:55-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:10:55-run_all_uicase.py-test_ backstage_examine.py-[line:71]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:13:01-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:13:01===================================
+Mon, 10 Aug 2020 13:13:01-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:13:12-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:13:12-run_all_uicase.py-test_ backstage_examine.py-[line:71]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:14:50-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:14:50===================================
+Mon, 10 Aug 2020 13:14:51-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:15:01-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:15:01-run_all_uicase.py-test_ backstage_examine.py-[line:71]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:17:10-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:17:10===================================
+Mon, 10 Aug 2020 13:17:10-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:17:21-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:17:21-run_all_uicase.py-test_ backstage_examine.py-[line:71]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:18:04-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:18:04===================================
+Mon, 10 Aug 2020 13:18:04-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:18:15-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:18:15-run_all_uicase.py-test_ backstage_examine.py-[line:71]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:19:07-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:19:07===================================
+Mon, 10 Aug 2020 13:19:08-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:19:19-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:19:19-run_all_uicase.py-test_ backstage_examine.py-[line:71]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:21:50-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:21:50===================================
+Mon, 10 Aug 2020 13:21:50-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:22:01-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:22:01-run_all_uicase.py-test_ backstage_examine.py-[line:71]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:22:29-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:22:29===================================
+Mon, 10 Aug 2020 13:22:29-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:22:40-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:22:40-run_all_uicase.py-test_ backstage_examine.py-[line:71]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:23:27-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:23:27===================================
+Mon, 10 Aug 2020 13:23:28-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:23:59-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:23:59===================================
+Mon, 10 Aug 2020 13:23:59-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:24:10-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:24:10-run_all_uicase.py-test_ backstage_examine.py-[line:71]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:25:32-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:25:32===================================
+Mon, 10 Aug 2020 13:25:33-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:25:43-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:25:43-run_all_uicase.py-test_ backstage_examine.py-[line:71]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:25:55-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:25:55===================================
+Mon, 10 Aug 2020 13:25:56-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:26:06-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:26:06-run_all_uicase.py-test_ backstage_examine.py-[line:71]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:26:42-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:26:42===================================
+Mon, 10 Aug 2020 13:26:42-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:26:53-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:26:53-run_all_uicase.py-test_ backstage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:27:23-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:27:23===================================
+Mon, 10 Aug 2020 13:27:24-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:27:35-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:27:35-run_all_uicase.py-test_ backstage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:28:49-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:28:49===================================
+Mon, 10 Aug 2020 13:28:50-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:29:01-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:29:01-run_all_uicase.py-test_ backstage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:31:55-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:31:55===================================
+Mon, 10 Aug 2020 13:31:55-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:32:06-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:32:06-run_all_uicase.py-test_ backstage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:33:20-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:33:20===================================
+Mon, 10 Aug 2020 13:33:20-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:33:31-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:33:31-run_all_uicase.py-test_ backstage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:35:12-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:35:12===================================
+Mon, 10 Aug 2020 13:35:13-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:35:24-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:35:24-run_all_uicase.py-test_ backstage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:36:25-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:36:25===================================
+Mon, 10 Aug 2020 13:36:26-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:36:37-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:36:37-run_all_uicase.py-test_ backstage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:36:48-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Mon, 10 Aug 2020 13:36:48-run_all_uicase.py-test_ backstage_examine.py-[line:59]-INFO-[日志信息]: 成功进入企业信息审核画面
+Mon, 10 Aug 2020 13:38:26-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:38:26===================================
+Mon, 10 Aug 2020 13:38:26-run_all_uicase.py-test_ backstage_examine.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:38:42-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:38:42-run_all_uicase.py-test_ backstage_examine.py-[line:76]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:38:46-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Mon, 10 Aug 2020 13:38:46-run_all_uicase.py-test_ backstage_examine.py-[line:59]-INFO-[日志信息]: 成功进入企业信息审核画面
+Mon, 10 Aug 2020 13:41:14-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:41:14===================================
+Mon, 10 Aug 2020 13:41:14-run_all_uicase.py-test_login.py-[line:51]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Mon, 10 Aug 2020 13:41:24-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Mon, 10 Aug 2020 13:41:38-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Mon, 10 Aug 2020 13:41:38-run_all_uicase.py-test_login.py-[line:78]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Mon, 10 Aug 2020 13:41:40-run_all_uicase.py-test_personalInfoReg.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Mon, 10 Aug 2020 13:41:40-run_all_uicase.py-test_personalInfoReg.py-[line:36]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Mon, 10 Aug 2020 13:41:51-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Mon, 10 Aug 2020 13:41:51-run_all_uicase.py-test_personalInfoReg.py-[line:49]-INFO-[日志信息]: 进入登陆页面
+Mon, 10 Aug 2020 13:41:51-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Mon, 10 Aug 2020 13:41:51-run_all_uicase.py-test_personalInfoReg.py-[line:54]-INFO-[日志信息]: 实名认证画面成功显示
+Mon, 10 Aug 2020 13:42:02-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Mon, 10 Aug 2020 13:42:02-run_all_uicase.py-test_personalInfoReg.py-[line:84]-INFO-[日志信息]: 实名认证中画面显示
+Mon, 10 Aug 2020 13:42:02-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 测试用户, actul_result is 测试用户
+Mon, 10 Aug 2020 13:42:02-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Mon, 10 Aug 2020 13:42:02-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+Mon, 10 Aug 2020 13:43:03-run_all_uicase.py-test_businessInfoReg.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Mon, 10 Aug 2020 13:48:59-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:48:59===================================
+Mon, 10 Aug 2020 13:49:00-run_all_uicase.py-test_login.py-[line:51]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Mon, 10 Aug 2020 13:49:10-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Mon, 10 Aug 2020 13:49:23-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Mon, 10 Aug 2020 13:49:23-run_all_uicase.py-test_login.py-[line:78]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Mon, 10 Aug 2020 13:49:25-run_all_uicase.py-test_personalInfoReg.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Mon, 10 Aug 2020 13:49:25-run_all_uicase.py-test_personalInfoReg.py-[line:36]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Mon, 10 Aug 2020 13:49:36-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Mon, 10 Aug 2020 13:49:36-run_all_uicase.py-test_personalInfoReg.py-[line:49]-INFO-[日志信息]: 进入登陆页面
+Mon, 10 Aug 2020 13:49:36-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Mon, 10 Aug 2020 13:49:36-run_all_uicase.py-test_personalInfoReg.py-[line:54]-INFO-[日志信息]: 实名认证画面成功显示
+Mon, 10 Aug 2020 13:49:47-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Mon, 10 Aug 2020 13:49:47-run_all_uicase.py-test_personalInfoReg.py-[line:84]-INFO-[日志信息]: 实名认证中画面显示
+Mon, 10 Aug 2020 13:49:47-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 测试用户, actul_result is 测试用户
+Mon, 10 Aug 2020 13:49:47-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Mon, 10 Aug 2020 13:49:47-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+Mon, 10 Aug 2020 13:50:48-run_all_uicase.py-test_businessInfoReg.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Mon, 10 Aug 2020 13:51:18-run_all_uicase.py-test_ backstage_examine.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:51:29-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:51:29-run_all_uicase.py-test_ backstage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:51:33-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Mon, 10 Aug 2020 13:51:33-run_all_uicase.py-test_ backstage_examine.py-[line:56]-INFO-[日志信息]: 成功进入企业信息审核画面
+Mon, 10 Aug 2020 13:51:37-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Mon, 10 Aug 2020 13:53:27-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:53:27===================================
+Mon, 10 Aug 2020 13:53:28-run_all_uicase.py-test_login.py-[line:51]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Mon, 10 Aug 2020 13:53:31-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 13:53:31===================================
+Mon, 10 Aug 2020 13:53:31-run_all_uicase.py-test_login.py-[line:51]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Mon, 10 Aug 2020 13:53:41-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Mon, 10 Aug 2020 13:53:54-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Mon, 10 Aug 2020 13:53:54-run_all_uicase.py-test_login.py-[line:78]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Mon, 10 Aug 2020 13:53:57-run_all_uicase.py-test_personalInfoReg.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Mon, 10 Aug 2020 13:53:57-run_all_uicase.py-test_personalInfoReg.py-[line:36]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Mon, 10 Aug 2020 13:54:07-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Mon, 10 Aug 2020 13:54:07-run_all_uicase.py-test_personalInfoReg.py-[line:49]-INFO-[日志信息]: 进入登陆页面
+Mon, 10 Aug 2020 13:54:07-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Mon, 10 Aug 2020 13:54:07-run_all_uicase.py-test_personalInfoReg.py-[line:54]-INFO-[日志信息]: 实名认证画面成功显示
+Mon, 10 Aug 2020 13:54:19-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Mon, 10 Aug 2020 13:54:19-run_all_uicase.py-test_personalInfoReg.py-[line:84]-INFO-[日志信息]: 实名认证中画面显示
+Mon, 10 Aug 2020 13:54:19-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 测试用户, actul_result is 测试用户
+Mon, 10 Aug 2020 13:54:19-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Mon, 10 Aug 2020 13:54:19-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+Mon, 10 Aug 2020 13:54:49-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证成功, actul_result is 认证成功
+Mon, 10 Aug 2020 13:54:49-run_all_uicase.py-test_personalInfoReg.py-[line:98]-INFO-[日志信息]: 实名认证成功画面显示
+Mon, 10 Aug 2020 13:54:49-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Mon, 10 Aug 2020 13:54:49-run_all_uicase.py-test_personalInfoReg.py-[line:103]-INFO-[日志信息]: 点击查看认证信息按钮，跳转到实名认证画面
+Mon, 10 Aug 2020 13:54:51-run_all_uicase.py-test_businessInfoReg.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Mon, 10 Aug 2020 13:55:02-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Mon, 10 Aug 2020 13:55:02-run_all_uicase.py-test_businessInfoReg.py-[line:40]-INFO-[日志信息]: 企业基本资料画面正常显示
+Mon, 10 Aug 2020 13:55:07-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 请确认协议内容, actul_result is 请确认协议内容
+Mon, 10 Aug 2020 13:55:07-run_all_uicase.py-test_businessInfoReg.py-[line:95]-INFO-[日志信息]: 协议确认画面正常显示
+Mon, 10 Aug 2020 13:55:10-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Mon, 10 Aug 2020 13:55:10-run_all_uicase.py-test_businessInfoReg.py-[line:104]-INFO-[日志信息]: 企业信息认证中画面正常显示
+Mon, 10 Aug 2020 13:56:12-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 审核中, actul_result is 审核中
+Mon, 10 Aug 2020 13:56:12-run_all_uicase.py-test_businessInfoReg.py-[line:115]-INFO-[日志信息]: 企业信息审核中画面正常显示
+Mon, 10 Aug 2020 13:56:12-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Mon, 10 Aug 2020 13:56:12-run_all_uicase.py-test_businessInfoReg.py-[line:122]-INFO-[日志信息]: 企业基本资料画面正常显示
+Mon, 10 Aug 2020 13:56:14-run_all_uicase.py-test_ backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 13:56:25-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 13:56:25-run_all_uicase.py-test_ backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 13:56:30-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Mon, 10 Aug 2020 13:56:30-run_all_uicase.py-test_ backStage_examine.py-[line:52]-INFO-[日志信息]: 成功进入企业信息审核画面
+Mon, 10 Aug 2020 13:56:30-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Mon, 10 Aug 2020 13:56:40-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Mon, 10 Aug 2020 13:56:40-run_all_uicase.py-test_login.py-[line:40]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Mon, 10 Aug 2020 13:56:42-run_all_uicase.py-test_login.py-[line:89]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Mon, 10 Aug 2020 13:57:05-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
+Mon, 10 Aug 2020 13:57:05-run_all_uicase.py-test_login.py-[line:110]-INFO-[日志信息]: 成功进入到密码重置页面
+Mon, 10 Aug 2020 13:57:08-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 完成修改, actul_result is 完成修改
+Mon, 10 Aug 2020 13:57:08-run_all_uicase.py-test_login.py-[line:121]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Mon, 10 Aug 2020 14:05:23-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 14:05:23===================================
+Mon, 10 Aug 2020 14:05:23-run_all_uicase.py-test_login.py-[line:51]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Mon, 10 Aug 2020 14:05:33-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Mon, 10 Aug 2020 14:05:47-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Mon, 10 Aug 2020 14:05:47-run_all_uicase.py-test_login.py-[line:78]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Mon, 10 Aug 2020 14:05:49-run_all_uicase.py-test_personalInfoReg.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Mon, 10 Aug 2020 14:05:49-run_all_uicase.py-test_personalInfoReg.py-[line:36]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Mon, 10 Aug 2020 14:05:59-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Mon, 10 Aug 2020 14:05:59-run_all_uicase.py-test_personalInfoReg.py-[line:49]-INFO-[日志信息]: 进入登陆页面
+Mon, 10 Aug 2020 14:06:00-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Mon, 10 Aug 2020 14:06:00-run_all_uicase.py-test_personalInfoReg.py-[line:54]-INFO-[日志信息]: 实名认证画面成功显示
+Mon, 10 Aug 2020 14:06:11-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Mon, 10 Aug 2020 14:06:11-run_all_uicase.py-test_personalInfoReg.py-[line:84]-INFO-[日志信息]: 实名认证中画面显示
+Mon, 10 Aug 2020 14:06:11-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 测试用户, actul_result is 测试用户
+Mon, 10 Aug 2020 14:06:11-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Mon, 10 Aug 2020 14:06:11-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+Mon, 10 Aug 2020 14:06:41-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证成功, actul_result is 认证成功
+Mon, 10 Aug 2020 14:06:41-run_all_uicase.py-test_personalInfoReg.py-[line:98]-INFO-[日志信息]: 实名认证成功画面显示
+Mon, 10 Aug 2020 14:06:41-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Mon, 10 Aug 2020 14:06:41-run_all_uicase.py-test_personalInfoReg.py-[line:103]-INFO-[日志信息]: 点击查看认证信息按钮，跳转到实名认证画面
+Mon, 10 Aug 2020 14:06:43-run_all_uicase.py-test_businessInfoReg.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Mon, 10 Aug 2020 14:06:54-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Mon, 10 Aug 2020 14:06:54-run_all_uicase.py-test_businessInfoReg.py-[line:40]-INFO-[日志信息]: 企业基本资料画面正常显示
+Mon, 10 Aug 2020 14:06:59-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 请确认协议内容, actul_result is 请确认协议内容
+Mon, 10 Aug 2020 14:06:59-run_all_uicase.py-test_businessInfoReg.py-[line:95]-INFO-[日志信息]: 协议确认画面正常显示
+Mon, 10 Aug 2020 14:07:02-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Mon, 10 Aug 2020 14:07:02-run_all_uicase.py-test_businessInfoReg.py-[line:104]-INFO-[日志信息]: 企业信息认证中画面正常显示
+Mon, 10 Aug 2020 14:07:34-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 审核中, actul_result is 审核中
+Mon, 10 Aug 2020 14:07:34-run_all_uicase.py-test_businessInfoReg.py-[line:115]-INFO-[日志信息]: 企业信息审核中画面正常显示
+Mon, 10 Aug 2020 14:07:34-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Mon, 10 Aug 2020 14:07:34-run_all_uicase.py-test_businessInfoReg.py-[line:122]-INFO-[日志信息]: 企业基本资料画面正常显示
+Mon, 10 Aug 2020 14:07:36-run_all_uicase.py-test_ backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 14:07:47-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 14:07:47-run_all_uicase.py-test_ backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 14:07:52-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Mon, 10 Aug 2020 14:07:52-run_all_uicase.py-test_ backStage_examine.py-[line:52]-INFO-[日志信息]: 成功进入企业信息审核画面
+Mon, 10 Aug 2020 14:07:52-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Mon, 10 Aug 2020 14:08:02-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Mon, 10 Aug 2020 14:08:02-run_all_uicase.py-test_login.py-[line:40]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Mon, 10 Aug 2020 14:08:04-run_all_uicase.py-test_login.py-[line:89]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Mon, 10 Aug 2020 14:08:27-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
+Mon, 10 Aug 2020 14:08:27-run_all_uicase.py-test_login.py-[line:110]-INFO-[日志信息]: 成功进入到密码重置页面
+Mon, 10 Aug 2020 14:08:30-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 完成修改, actul_result is 完成修改
+Mon, 10 Aug 2020 14:08:30-run_all_uicase.py-test_login.py-[line:121]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Mon, 10 Aug 2020 14:13:57-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 14:13:57===================================
+Mon, 10 Aug 2020 14:13:57-run_all_uicase.py-test_login.py-[line:51]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Mon, 10 Aug 2020 14:14:07-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Mon, 10 Aug 2020 14:14:21-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Mon, 10 Aug 2020 14:14:21-run_all_uicase.py-test_login.py-[line:78]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Mon, 10 Aug 2020 14:14:23-run_all_uicase.py-test_personalInfoReg.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Mon, 10 Aug 2020 14:14:23-run_all_uicase.py-test_personalInfoReg.py-[line:36]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Mon, 10 Aug 2020 14:14:33-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Mon, 10 Aug 2020 14:14:33-run_all_uicase.py-test_personalInfoReg.py-[line:49]-INFO-[日志信息]: 进入登陆页面
+Mon, 10 Aug 2020 14:14:34-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Mon, 10 Aug 2020 14:14:34-run_all_uicase.py-test_personalInfoReg.py-[line:54]-INFO-[日志信息]: 实名认证画面成功显示
+Mon, 10 Aug 2020 14:14:45-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Mon, 10 Aug 2020 14:14:45-run_all_uicase.py-test_personalInfoReg.py-[line:84]-INFO-[日志信息]: 实名认证中画面显示
+Mon, 10 Aug 2020 14:14:45-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 测试用户, actul_result is 测试用户
+Mon, 10 Aug 2020 14:14:45-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Mon, 10 Aug 2020 14:14:45-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+Mon, 10 Aug 2020 14:15:46-run_all_uicase.py-test_businessInfoReg.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Mon, 10 Aug 2020 14:16:08-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 14:16:08===================================
+Mon, 10 Aug 2020 14:16:08-run_all_uicase.py-test_login.py-[line:51]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Mon, 10 Aug 2020 14:16:18-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Mon, 10 Aug 2020 14:16:32-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Mon, 10 Aug 2020 14:16:32-run_all_uicase.py-test_login.py-[line:78]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Mon, 10 Aug 2020 14:16:35-run_all_uicase.py-test_personalInfoReg.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Mon, 10 Aug 2020 14:16:35-run_all_uicase.py-test_personalInfoReg.py-[line:36]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Mon, 10 Aug 2020 14:16:45-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Mon, 10 Aug 2020 14:16:45-run_all_uicase.py-test_personalInfoReg.py-[line:49]-INFO-[日志信息]: 进入登陆页面
+Mon, 10 Aug 2020 14:16:46-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Mon, 10 Aug 2020 14:16:46-run_all_uicase.py-test_personalInfoReg.py-[line:54]-INFO-[日志信息]: 实名认证画面成功显示
+Mon, 10 Aug 2020 14:16:57-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Mon, 10 Aug 2020 14:16:57-run_all_uicase.py-test_personalInfoReg.py-[line:84]-INFO-[日志信息]: 实名认证中画面显示
+Mon, 10 Aug 2020 14:16:57-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 测试用户, actul_result is 测试用户
+Mon, 10 Aug 2020 14:16:57-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Mon, 10 Aug 2020 14:16:57-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+Mon, 10 Aug 2020 14:17:38-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证成功, actul_result is 认证成功
+Mon, 10 Aug 2020 14:17:38-run_all_uicase.py-test_personalInfoReg.py-[line:98]-INFO-[日志信息]: 实名认证成功画面显示
+Mon, 10 Aug 2020 14:17:38-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Mon, 10 Aug 2020 14:17:38-run_all_uicase.py-test_personalInfoReg.py-[line:103]-INFO-[日志信息]: 点击查看认证信息按钮，跳转到实名认证画面
+Mon, 10 Aug 2020 14:17:40-run_all_uicase.py-test_businessInfoReg.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Mon, 10 Aug 2020 14:17:51-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Mon, 10 Aug 2020 14:17:51-run_all_uicase.py-test_businessInfoReg.py-[line:40]-INFO-[日志信息]: 企业基本资料画面正常显示
+Mon, 10 Aug 2020 14:17:56-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 请确认协议内容, actul_result is 请确认协议内容
+Mon, 10 Aug 2020 14:17:56-run_all_uicase.py-test_businessInfoReg.py-[line:95]-INFO-[日志信息]: 协议确认画面正常显示
+Mon, 10 Aug 2020 14:17:59-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Mon, 10 Aug 2020 14:17:59-run_all_uicase.py-test_businessInfoReg.py-[line:104]-INFO-[日志信息]: 企业信息认证中画面正常显示
+Mon, 10 Aug 2020 14:18:59-run_all_uicase.py-test_ backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 14:19:10-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 14:19:10-run_all_uicase.py-test_ backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 14:19:15-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Mon, 10 Aug 2020 14:19:15-run_all_uicase.py-test_ backStage_examine.py-[line:52]-INFO-[日志信息]: 成功进入企业信息审核画面
+Mon, 10 Aug 2020 14:19:17-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Mon, 10 Aug 2020 14:19:27-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Mon, 10 Aug 2020 14:19:27-run_all_uicase.py-test_login.py-[line:40]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Mon, 10 Aug 2020 14:19:29-run_all_uicase.py-test_login.py-[line:89]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Mon, 10 Aug 2020 14:19:52-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
+Mon, 10 Aug 2020 14:19:52-run_all_uicase.py-test_login.py-[line:110]-INFO-[日志信息]: 成功进入到密码重置页面
+Mon, 10 Aug 2020 14:19:55-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 完成修改, actul_result is 完成修改
+Mon, 10 Aug 2020 14:19:55-run_all_uicase.py-test_login.py-[line:121]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Mon, 10 Aug 2020 14:20:47-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 14:20:47===================================
+Mon, 10 Aug 2020 14:20:48-run_all_uicase.py-test_login.py-[line:51]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Mon, 10 Aug 2020 14:20:58-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Mon, 10 Aug 2020 14:21:11-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Mon, 10 Aug 2020 14:21:11-run_all_uicase.py-test_login.py-[line:78]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Mon, 10 Aug 2020 14:21:13-run_all_uicase.py-test_personalInfoReg.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Mon, 10 Aug 2020 14:21:14-run_all_uicase.py-test_personalInfoReg.py-[line:36]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Mon, 10 Aug 2020 14:21:24-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Mon, 10 Aug 2020 14:21:24-run_all_uicase.py-test_personalInfoReg.py-[line:49]-INFO-[日志信息]: 进入登陆页面
+Mon, 10 Aug 2020 14:21:24-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Mon, 10 Aug 2020 14:21:24-run_all_uicase.py-test_personalInfoReg.py-[line:54]-INFO-[日志信息]: 实名认证画面成功显示
+Mon, 10 Aug 2020 14:21:36-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Mon, 10 Aug 2020 14:21:36-run_all_uicase.py-test_personalInfoReg.py-[line:84]-INFO-[日志信息]: 实名认证中画面显示
+Mon, 10 Aug 2020 14:21:36-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 测试用户, actul_result is 测试用户
+Mon, 10 Aug 2020 14:21:36-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Mon, 10 Aug 2020 14:21:36-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+Mon, 10 Aug 2020 14:21:56-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 14:21:56===================================
+Mon, 10 Aug 2020 14:21:57-run_all_uicase.py-test_login.py-[line:51]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Mon, 10 Aug 2020 14:22:07-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Mon, 10 Aug 2020 14:22:20-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Mon, 10 Aug 2020 14:22:20-run_all_uicase.py-test_login.py-[line:78]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Mon, 10 Aug 2020 14:22:23-run_all_uicase.py-test_personalInfoReg.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Mon, 10 Aug 2020 14:22:23-run_all_uicase.py-test_personalInfoReg.py-[line:36]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Mon, 10 Aug 2020 14:22:33-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Mon, 10 Aug 2020 14:22:33-run_all_uicase.py-test_personalInfoReg.py-[line:49]-INFO-[日志信息]: 进入登陆页面
+Mon, 10 Aug 2020 14:22:33-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Mon, 10 Aug 2020 14:22:33-run_all_uicase.py-test_personalInfoReg.py-[line:54]-INFO-[日志信息]: 实名认证画面成功显示
+Mon, 10 Aug 2020 14:22:45-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Mon, 10 Aug 2020 14:22:45-run_all_uicase.py-test_personalInfoReg.py-[line:84]-INFO-[日志信息]: 实名认证中画面显示
+Mon, 10 Aug 2020 14:22:45-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 测试用户, actul_result is 测试用户
+Mon, 10 Aug 2020 14:22:45-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Mon, 10 Aug 2020 14:22:45-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+Mon, 10 Aug 2020 14:23:25-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证成功, actul_result is 认证成功
+Mon, 10 Aug 2020 14:23:25-run_all_uicase.py-test_personalInfoReg.py-[line:98]-INFO-[日志信息]: 实名认证成功画面显示
+Mon, 10 Aug 2020 14:23:25-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Mon, 10 Aug 2020 14:23:25-run_all_uicase.py-test_personalInfoReg.py-[line:103]-INFO-[日志信息]: 点击查看认证信息按钮，跳转到实名认证画面
+Mon, 10 Aug 2020 14:23:27-run_all_uicase.py-test_businessInfoReg.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Mon, 10 Aug 2020 14:23:38-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Mon, 10 Aug 2020 14:23:38-run_all_uicase.py-test_businessInfoReg.py-[line:40]-INFO-[日志信息]: 企业基本资料画面正常显示
+Mon, 10 Aug 2020 14:23:43-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 请确认协议内容, actul_result is 请确认协议内容
+Mon, 10 Aug 2020 14:23:43-run_all_uicase.py-test_businessInfoReg.py-[line:95]-INFO-[日志信息]: 协议确认画面正常显示
+Mon, 10 Aug 2020 14:23:46-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Mon, 10 Aug 2020 14:23:46-run_all_uicase.py-test_businessInfoReg.py-[line:104]-INFO-[日志信息]: 企业信息认证中画面正常显示
+Mon, 10 Aug 2020 14:24:48-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 审核中, actul_result is 审核中
+Mon, 10 Aug 2020 14:24:48-run_all_uicase.py-test_businessInfoReg.py-[line:115]-INFO-[日志信息]: 企业信息审核中画面正常显示
+Mon, 10 Aug 2020 14:24:48-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Mon, 10 Aug 2020 14:24:48-run_all_uicase.py-test_businessInfoReg.py-[line:122]-INFO-[日志信息]: 企业基本资料画面正常显示
+Mon, 10 Aug 2020 14:24:50-run_all_uicase.py-test_ backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 14:25:01-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 14:25:01-run_all_uicase.py-test_ backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 14:25:06-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Mon, 10 Aug 2020 14:25:06-run_all_uicase.py-test_ backStage_examine.py-[line:52]-INFO-[日志信息]: 成功进入企业信息审核画面
+Mon, 10 Aug 2020 14:25:24-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Mon, 10 Aug 2020 14:25:34-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Mon, 10 Aug 2020 14:25:34-run_all_uicase.py-test_login.py-[line:40]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Mon, 10 Aug 2020 14:25:37-run_all_uicase.py-test_login.py-[line:89]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Mon, 10 Aug 2020 14:25:59-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
+Mon, 10 Aug 2020 14:25:59-run_all_uicase.py-test_login.py-[line:110]-INFO-[日志信息]: 成功进入到密码重置页面
+Mon, 10 Aug 2020 14:26:02-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 完成修改, actul_result is 完成修改
+Mon, 10 Aug 2020 14:26:02-run_all_uicase.py-test_login.py-[line:121]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Mon, 10 Aug 2020 14:26:30-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 14:26:30===================================
+Mon, 10 Aug 2020 14:26:30-run_all_uicase.py-test_login.py-[line:51]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Mon, 10 Aug 2020 14:26:40-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Mon, 10 Aug 2020 14:26:54-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Mon, 10 Aug 2020 14:26:54-run_all_uicase.py-test_login.py-[line:78]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Mon, 10 Aug 2020 14:26:56-run_all_uicase.py-test_personalInfoReg.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Mon, 10 Aug 2020 14:26:56-run_all_uicase.py-test_personalInfoReg.py-[line:36]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Mon, 10 Aug 2020 14:27:06-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Mon, 10 Aug 2020 14:27:06-run_all_uicase.py-test_personalInfoReg.py-[line:49]-INFO-[日志信息]: 进入登陆页面
+Mon, 10 Aug 2020 14:27:07-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Mon, 10 Aug 2020 14:27:07-run_all_uicase.py-test_personalInfoReg.py-[line:54]-INFO-[日志信息]: 实名认证画面成功显示
+Mon, 10 Aug 2020 14:27:18-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Mon, 10 Aug 2020 14:27:18-run_all_uicase.py-test_personalInfoReg.py-[line:84]-INFO-[日志信息]: 实名认证中画面显示
+Mon, 10 Aug 2020 14:27:18-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 测试用户, actul_result is 测试用户
+Mon, 10 Aug 2020 14:27:18-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Mon, 10 Aug 2020 14:27:18-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+Mon, 10 Aug 2020 14:27:38-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证成功, actul_result is 认证成功
+Mon, 10 Aug 2020 14:27:38-run_all_uicase.py-test_personalInfoReg.py-[line:98]-INFO-[日志信息]: 实名认证成功画面显示
+Mon, 10 Aug 2020 14:27:38-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Mon, 10 Aug 2020 14:27:38-run_all_uicase.py-test_personalInfoReg.py-[line:103]-INFO-[日志信息]: 点击查看认证信息按钮，跳转到实名认证画面
+Mon, 10 Aug 2020 14:27:41-run_all_uicase.py-test_businessInfoReg.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Mon, 10 Aug 2020 14:27:51-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Mon, 10 Aug 2020 14:27:51-run_all_uicase.py-test_businessInfoReg.py-[line:40]-INFO-[日志信息]: 企业基本资料画面正常显示
+Mon, 10 Aug 2020 14:27:56-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 请确认协议内容, actul_result is 请确认协议内容
+Mon, 10 Aug 2020 14:27:56-run_all_uicase.py-test_businessInfoReg.py-[line:95]-INFO-[日志信息]: 协议确认画面正常显示
+Mon, 10 Aug 2020 14:28:00-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Mon, 10 Aug 2020 14:28:00-run_all_uicase.py-test_businessInfoReg.py-[line:104]-INFO-[日志信息]: 企业信息认证中画面正常显示
+Mon, 10 Aug 2020 14:29:00-run_all_uicase.py-test_ backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 14:29:11-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 14:29:11-run_all_uicase.py-test_ backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 14:29:15-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Mon, 10 Aug 2020 14:29:15-run_all_uicase.py-test_ backStage_examine.py-[line:52]-INFO-[日志信息]: 成功进入企业信息审核画面
+Mon, 10 Aug 2020 14:29:18-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Mon, 10 Aug 2020 14:29:28-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Mon, 10 Aug 2020 14:29:28-run_all_uicase.py-test_login.py-[line:40]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Mon, 10 Aug 2020 14:29:31-run_all_uicase.py-test_login.py-[line:89]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Mon, 10 Aug 2020 14:42:32-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 14:42:32===================================
+Mon, 10 Aug 2020 14:42:32-run_all_uicase.py-test_backStage_authentication.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 14:49:19-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 14:49:19===================================
+Mon, 10 Aug 2020 14:49:19-run_all_uicase.py-test_backStage_authentication.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 14:49:30-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 14:49:30-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 14:51:26-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 14:51:26===================================
+Mon, 10 Aug 2020 14:51:27-run_all_uicase.py-test_backStage_authentication.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 14:51:38-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 14:51:38-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 14:53:07-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 14:53:07===================================
+Mon, 10 Aug 2020 14:53:07-run_all_uicase.py-test_backStage_authentication.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 14:53:18-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 14:53:18-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 14:54:39-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 14:54:39===================================
+Mon, 10 Aug 2020 14:54:40-run_all_uicase.py-test_backStage_authentication.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 14:54:51-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 14:54:51-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 14:55:41-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 14:55:41===================================
+Mon, 10 Aug 2020 14:55:42-run_all_uicase.py-test_backStage_authentication.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 14:55:53-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 14:55:53-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 14:58:12-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 14:58:12===================================
+Mon, 10 Aug 2020 14:58:12-run_all_uicase.py-test_backStage_authentication.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 14:58:23-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 14:58:23-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 15:00:40-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 15:00:40===================================
+Mon, 10 Aug 2020 15:00:40-run_all_uicase.py-test_backStage_authentication.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 15:00:51-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 15:00:51-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 15:05:16-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 15:05:16===================================
+Mon, 10 Aug 2020 15:05:17-run_all_uicase.py-test_backStage_authentication.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 15:05:28-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 15:05:28-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 15:08:58-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 15:08:58===================================
+Mon, 10 Aug 2020 15:08:58-run_all_uicase.py-test_backStage_authentication.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 15:09:09-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 15:09:09-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 15:15:20-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 15:15:20===================================
+Mon, 10 Aug 2020 15:15:20-run_all_uicase.py-test_backStage_authentication.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 15:15:31-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 15:15:31-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 15:24:24-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 15:24:24===================================
+Mon, 10 Aug 2020 15:24:24-run_all_uicase.py-test_backStage_authentication.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 15:24:48-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 15:24:48===================================
+Mon, 10 Aug 2020 15:24:49-run_all_uicase.py-test_backStage_authentication.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 15:25:00-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 15:25:00-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 15:28:46-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 15:28:46===================================
+Mon, 10 Aug 2020 15:28:46-run_all_uicase.py-test_backStage_authentication.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 15:28:57-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 15:28:57-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 15:30:38-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 15:30:38===================================
+Mon, 10 Aug 2020 15:30:38-run_all_uicase.py-test_backStage_authentication.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 15:30:49-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 15:30:49-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 16:19:24-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 16:19:24===================================
+Mon, 10 Aug 2020 16:19:25-run_all_uicase.py-test_login.py-[line:51]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Mon, 10 Aug 2020 16:19:35-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Mon, 10 Aug 2020 16:19:48-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Mon, 10 Aug 2020 16:19:48-run_all_uicase.py-test_login.py-[line:78]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Mon, 10 Aug 2020 16:19:51-run_all_uicase.py-test_personalInfoReg.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Mon, 10 Aug 2020 16:19:51-run_all_uicase.py-test_personalInfoReg.py-[line:36]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Mon, 10 Aug 2020 16:20:01-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Mon, 10 Aug 2020 16:20:01-run_all_uicase.py-test_personalInfoReg.py-[line:49]-INFO-[日志信息]: 进入登陆页面
+Mon, 10 Aug 2020 16:20:01-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Mon, 10 Aug 2020 16:20:01-run_all_uicase.py-test_personalInfoReg.py-[line:54]-INFO-[日志信息]: 实名认证画面成功显示
+Mon, 10 Aug 2020 16:20:13-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Mon, 10 Aug 2020 16:20:13-run_all_uicase.py-test_personalInfoReg.py-[line:84]-INFO-[日志信息]: 实名认证中画面显示
+Mon, 10 Aug 2020 16:20:13-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 测试用户, actul_result is 测试用户
+Mon, 10 Aug 2020 16:20:13-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Mon, 10 Aug 2020 16:20:13-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+Mon, 10 Aug 2020 16:21:13-run_all_uicase.py-test_businessInfoReg.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Mon, 10 Aug 2020 16:21:24-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Mon, 10 Aug 2020 16:21:24-run_all_uicase.py-test_businessInfoReg.py-[line:40]-INFO-[日志信息]: 企业基本资料画面正常显示
+Mon, 10 Aug 2020 16:21:29-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 请确认协议内容, actul_result is 请确认协议内容
+Mon, 10 Aug 2020 16:21:29-run_all_uicase.py-test_businessInfoReg.py-[line:95]-INFO-[日志信息]: 协议确认画面正常显示
+Mon, 10 Aug 2020 16:21:32-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Mon, 10 Aug 2020 16:21:32-run_all_uicase.py-test_businessInfoReg.py-[line:104]-INFO-[日志信息]: 企业信息认证中画面正常显示
+Mon, 10 Aug 2020 16:22:32-run_all_uicase.py-test_backStage_examine.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 10 Aug 2020 16:22:43-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 16:22:43-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 16:22:48-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Mon, 10 Aug 2020 16:22:48-run_all_uicase.py-test_backStage_examine.py-[line:51]-INFO-[日志信息]: 成功进入企业信息审核画面
+Mon, 10 Aug 2020 16:22:52-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
+
+Mon, 10 Aug 2020 16:23:02-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Mon, 10 Aug 2020 16:23:02-run_all_uicase.py-test_login.py-[line:40]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！
+Mon, 10 Aug 2020 16:23:04-run_all_uicase.py-test_login.py-[line:89]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
+
+Mon, 10 Aug 2020 16:23:27-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
+Mon, 10 Aug 2020 16:23:27-run_all_uicase.py-test_login.py-[line:110]-INFO-[日志信息]: 成功进入到密码重置页面
+Mon, 10 Aug 2020 16:23:30-test_companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 完成修改, actul_result is 完成修改
+Mon, 10 Aug 2020 16:23:30-run_all_uicase.py-test_login.py-[line:121]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Mon, 10 Aug 2020 16:25:44-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 16:25:44===================================
+Mon, 10 Aug 2020 16:25:45-run_all_uicase.py-test_login.py-[line:51]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Mon, 10 Aug 2020 16:25:55-run_all_uicase.py-test_login.py-[line:58]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Mon, 10 Aug 2020 16:26:09-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Mon, 10 Aug 2020 16:26:09-run_all_uicase.py-test_login.py-[line:78]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Mon, 10 Aug 2020 16:26:11-run_all_uicase.py-test_personalInfoReg.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Mon, 10 Aug 2020 16:26:11-run_all_uicase.py-test_personalInfoReg.py-[line:36]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Mon, 10 Aug 2020 16:26:21-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Mon, 10 Aug 2020 16:26:21-run_all_uicase.py-test_personalInfoReg.py-[line:49]-INFO-[日志信息]: 进入登陆页面
+Mon, 10 Aug 2020 16:26:21-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Mon, 10 Aug 2020 16:26:21-run_all_uicase.py-test_personalInfoReg.py-[line:54]-INFO-[日志信息]: 实名认证画面成功显示
+Mon, 10 Aug 2020 16:26:33-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Mon, 10 Aug 2020 16:26:33-run_all_uicase.py-test_personalInfoReg.py-[line:84]-INFO-[日志信息]: 实名认证中画面显示
+Mon, 10 Aug 2020 16:26:33-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 测试用户, actul_result is 测试用户
+Mon, 10 Aug 2020 16:26:33-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Mon, 10 Aug 2020 16:26:33-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+Mon, 10 Aug 2020 16:27:33-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证成功, actul_result is 认证成功
+Mon, 10 Aug 2020 16:27:33-run_all_uicase.py-test_personalInfoReg.py-[line:98]-INFO-[日志信息]: 实名认证成功画面显示
+Mon, 10 Aug 2020 16:27:33-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Mon, 10 Aug 2020 16:27:33-run_all_uicase.py-test_personalInfoReg.py-[line:103]-INFO-[日志信息]: 点击查看认证信息按钮，跳转到实名认证画面
+Mon, 10 Aug 2020 16:27:35-run_all_uicase.py-test_businessInfoReg.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Mon, 10 Aug 2020 16:27:46-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Mon, 10 Aug 2020 16:27:46-run_all_uicase.py-test_businessInfoReg.py-[line:40]-INFO-[日志信息]: 企业基本资料画面正常显示
+Mon, 10 Aug 2020 16:27:51-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 请确认协议内容, actul_result is 请确认协议内容
+Mon, 10 Aug 2020 16:27:51-run_all_uicase.py-test_businessInfoReg.py-[line:95]-INFO-[日志信息]: 协议确认画面正常显示
+Mon, 10 Aug 2020 16:27:54-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Mon, 10 Aug 2020 16:27:54-run_all_uicase.py-test_businessInfoReg.py-[line:104]-INFO-[日志信息]: 企业信息认证中画面正常显示
+Mon, 10 Aug 2020 16:30:19-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 16:30:19===================================
+Mon, 10 Aug 2020 16:30:20-run_all_uicase.py-test_backStage_authentication.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 16:30:31-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 16:30:31-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 16:33:02-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 16:33:02===================================
+Mon, 10 Aug 2020 16:33:03-run_all_uicase.py-test_backStage_authentication.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 16:33:14-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 16:33:14-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 16:33:49-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 16:33:49===================================
+Mon, 10 Aug 2020 16:33:49-run_all_uicase.py-test_backStage_authentication.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 16:34:00-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 16:34:00-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 16:34:18-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 16:34:18===================================
+Mon, 10 Aug 2020 16:34:18-run_all_uicase.py-test_backStage_authentication.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 16:34:29-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 16:34:29-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 16:36:10-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 16:36:10===================================
+Mon, 10 Aug 2020 16:36:11-run_all_uicase.py-test_backStage_authentication.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 16:36:21-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 16:36:21-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 16:48:19-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 16:48:19===================================
+Mon, 10 Aug 2020 16:48:19-run_all_uicase.py-test_backStage_authentication.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 16:48:30-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 16:48:30-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 16:48:54-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 16:48:54===================================
+Mon, 10 Aug 2020 16:48:55-run_all_uicase.py-test_backStage_authentication.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 16:49:05-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 16:49:06-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 17:01:36-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 17:01:36===================================
+Mon, 10 Aug 2020 17:03:10-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 17:03:10===================================
+Mon, 10 Aug 2020 17:03:10-run_all_uicase.py-test_backStage_authentication.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 17:03:21-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 17:03:21-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
+Mon, 10 Aug 2020 17:05:02-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-08-10 17:05:02===================================
+Mon, 10 Aug 2020 17:05:02-run_all_uicase.py-test_backStage_authentication.py-[line:27]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 10 Aug 2020 17:05:13-test_backStage_authentication-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
+Mon, 10 Aug 2020 17:05:13-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统

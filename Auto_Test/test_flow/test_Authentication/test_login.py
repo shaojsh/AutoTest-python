@@ -16,7 +16,7 @@ act = yamldict['test_userlist']['company_user']
 pwd = yamldict['test_userlist']['company_user_pass']
 
 
-@pytest.mark.run(order=6)
+@pytest.mark.run(order=-1)
 @allure.severity("blocker")
 @allure.description("测试 http://10.10.128.152:10053/user/login 中小微企业登录流程")
 @allure.testcase("http://10.10.128.152:10053/user/login 中小微企业登录流程", "loginOn 👇")
@@ -79,7 +79,7 @@ def test_companyRegister():
     driver.quit()
 
 
-@pytest.mark.run(order=6)
+@pytest.mark.run(order=-1)
 @allure.severity("blocker")
 @allure.description("测试 http://10.10.128.152:10053/user/forget 中小微企业密码修改流程")
 @allure.testcase("http://10.10.128.152:10053/user/forget", "密码修改 👇")

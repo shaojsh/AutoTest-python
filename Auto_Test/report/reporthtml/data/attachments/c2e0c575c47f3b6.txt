@@ -1,5 +1,0 @@
-INFO     run_all_uicase.py:test_login.py:29 开始执行脚本test_companyLoginOn:
-
-INFO     test_companyLoginOn:Assert.py:123 except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
-INFO     test_companyLoginOn:Assert.py:123 except_result = actul_result, except_result is 首页, actul_result is 首页
-INFO     run_all_uicase.py:test_login.py:47 中小微企业金融服务聚合平台登录成功！

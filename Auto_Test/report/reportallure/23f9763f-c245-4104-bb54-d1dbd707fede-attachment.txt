@@ -1,7 +1,0 @@
-INFO     run_all_uicase.py:test_login.py:91 开始执行脚本test_companyPassForget:
-
-INFO     test_companyPassForget:Assert.py:123 except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
-INFO     run_all_uicase.py:test_login.py:111 成功进入到密码重置页面
-INFO     test_companyPassForget:Assert.py:123 except_result = actul_result, except_result is 完成修改, actul_result is 完成修改
-INFO     run_all_uicase.py:test_login.py:122 成功进入到密码修改完成页面
-ERROR    test_companyPassForget:Assert.py:126 except_result ！= actul_result, except_result is 安全登录, actul_result is 完成修改

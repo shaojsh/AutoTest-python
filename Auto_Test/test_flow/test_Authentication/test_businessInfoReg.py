@@ -16,6 +16,7 @@ from test_flow.test_Authentication.test_login import login
 
 act = yamldict['test_userlist']['company_user']
 pwd = yamldict['test_userlist']['company_user_pass']
+businessName = yamldict['test_backStageUserList']['company_name']
 
 
 @pytest.mark.run(order=3)
@@ -39,7 +40,7 @@ def test_businessInforReg():
     logger.info("企业基本资料画面正常显示")
 
     # 企业证件
-    driver.find_element_by_css_selector(path_businessInfoReg.input_companyName_css.value).send_keys("诚泰科技-test")
+    driver.find_element_by_css_selector(path_businessInfoReg.input_companyName_css.value).send_keys(businessName)
     driver.find_element_by_css_selector(path_businessInfoReg.input_companyCode_css.value).send_keys(
         "92520628MA6FK07055")
     driver.find_element_by_css_selector(path_businessInfoReg.input_legalPersonName_css.value).send_keys("黄小明")
@@ -120,5 +121,3 @@ def test_businessInforReg():
     test_Assert.assert_text_ui(txt_auTitle, '企业基本资料')
     logger.info("企业基本资料画面正常显示")
     driver.quit()
-
-

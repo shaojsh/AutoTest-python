@@ -1,3 +1,0 @@
-SET SQL_SAFE_UPDATES = 0;
-DELETE FROM `chengtay-zero`.zero_user where userName = '17621198933';
-DELETE FROM `chengtay-zero`.zero_user_authentication where phoneNo = '17621198933';

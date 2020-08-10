@@ -1,3 +1,0 @@
-Wed, 05 Aug 2020 16:52:54-run_all_uicase.py-test_login.py-[line:84]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
-
-Wed, 05 Aug 2020 16:53:15-test_companyPassForget-Assert.py-[line:126]-ERROR-[日志信息]: except_result ！= actul_result, except_result is 重置密码, actul_result is 安全验证

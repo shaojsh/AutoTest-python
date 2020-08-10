@@ -1,3 +1,0 @@
-Wed, 05 Aug 2020 17:59:20-run_all_uicase.py-test_login.py-[line:88]-INFO-[日志信息]: 开始执行脚本test_companyPassForget:
-
-pydev debugger: warning: trying to add breakpoint to file that does not exist: c:\python console (will have no effect)

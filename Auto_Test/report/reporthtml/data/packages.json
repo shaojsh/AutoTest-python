@@ -2,85 +2,63 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "test_flow.test_Authentication",
+    "name" : "test_flow",
     "children" : [ {
-      "name" : "test_login",
+      "name" : "test_Authentication",
       "children" : [ {
-        "name" : "test_companyRegister",
-        "uid" : "8fc5989fc0b055f8",
-        "parentUid" : "52f748462e260dd58e76f0876ce6ebf0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1596786036472,
-          "stop" : 1596786062222,
-          "duration" : 25750
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
+        "name" : "test_login",
+        "children" : [ {
+          "name" : "test_companyRegister",
+          "uid" : "4ceca7fb9fe33ca1",
+          "parentUid" : "52f748462e260dd58e76f0876ce6ebf0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1597047945462,
+            "stop" : 1597047971204,
+            "duration" : 25742
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "52f748462e260dd58e76f0876ce6ebf0"
       }, {
-        "name" : "test_companyLoginOn",
-        "uid" : "8f6f88b8183c2bed",
-        "parentUid" : "52f748462e260dd58e76f0876ce6ebf0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1596786228456,
-          "stop" : 1596786241306,
-          "duration" : 12850
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_companyPassForget",
-        "uid" : "bc809ac206cb67e",
-        "parentUid" : "52f748462e260dd58e76f0876ce6ebf0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1596786241321,
-          "stop" : 1596786271236,
-          "duration" : 29915
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
+        "name" : "test_personalInfoReg",
+        "children" : [ {
+          "name" : "test_infoReg",
+          "uid" : "1b1e36b47d316db",
+          "parentUid" : "27331f685325300f09872e2bd4c8d50e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1597047971218,
+            "stop" : 1597048055927,
+            "duration" : 84709
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "27331f685325300f09872e2bd4c8d50e"
       } ],
-      "uid" : "52f748462e260dd58e76f0876ce6ebf0"
+      "uid" : "06c1cf1595a2ad8a54ad425096e174ab"
     }, {
-      "name" : "test_personalInfoReg",
+      "name" : "test_backStage_Authentication.test_backStage_authentication",
       "children" : [ {
-        "name" : "test_infoReg",
-        "uid" : "c125daf7913eac0c",
-        "parentUid" : "27331f685325300f09872e2bd4c8d50e",
-        "status" : "passed",
+        "name" : "test_backStage_authentication",
+        "uid" : "3a11369f0575b444",
+        "parentUid" : "8d132802b76053769a1663dffe792e56",
+        "status" : "broken",
         "time" : {
-          "start" : 1596786062222,
-          "stop" : 1596786137059,
-          "duration" : 74837
+          "start" : 1597050302854,
+          "stop" : 1597050326332,
+          "duration" : 23478
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "27331f685325300f09872e2bd4c8d50e"
-    }, {
-      "name" : "test_businessInfoReg",
-      "children" : [ {
-        "name" : "test_businessInforReg",
-        "uid" : "4bee53cd5a1c77c1",
-        "parentUid" : "ae2bb0a936914ac34c2dc8b4a1bf9d3c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1596786137074,
-          "stop" : 1596786228447,
-          "duration" : 91373
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "ae2bb0a936914ac34c2dc8b4a1bf9d3c"
+      "uid" : "test_backStage_Authentication.test_backStage_authentication"
     } ],
-    "uid" : "test_flow.test_Authentication"
+    "uid" : "abbe29e1f773e7075f029850699092c3"
   } ]
 }

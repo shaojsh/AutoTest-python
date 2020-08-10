@@ -13,5 +13,5 @@ CRITICAL = 'critical'　严重缺陷
 NORMAL = 'normal'　　  一般缺陷
 MINOR = 'minor'　　    次要缺陷
 TRIVIAL = 'trivial'　　轻微缺陷　
-MeterSphere 开源持续测试平台 https://github.com/metersphere/metersphere
+MeterSphere 开源持续测试平台 https://github.com/metersphere/metersphere    https://github.com/lixiaofeng1993/EasyTest
 下载nodejs，下载anywhere 配置启动命令（bat文件做git成每天开机启动 taskschd.msc）：cmd /k "cd /d C:\Users\shaojunshuai\PycharmProjects\AutoTest-python\Auto_Test\report\reporthtml&&anywhere
