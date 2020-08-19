@@ -1,0 +1,1 @@
+INFO     run_all_uicase.py:test_businessInfoReg.py:29 开始执行脚本test_businessInforReg:

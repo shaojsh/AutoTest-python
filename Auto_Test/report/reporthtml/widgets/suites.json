@@ -1,6 +1,17 @@
 {
   "total" : 2,
   "items" : [ {
+    "uid" : "5afa34953581fdbf72cb514527388d22",
+    "name" : "test_flow.test_Authentication",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
     "uid" : "2a113c6792bcc8c4c339eb0151a0125f",
     "name" : "test_flow.test_backStage_Authentication",
     "statistic" : {
@@ -10,17 +21,6 @@
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
-    }
-  }, {
-    "uid" : "5afa34953581fdbf72cb514527388d22",
-    "name" : "test_flow.test_Authentication",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
     }
   } ]
 }

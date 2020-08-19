@@ -1,0 +1,214 @@
+{
+  "uid" : "5059ae321d22f199",
+  "name" : "test_companyLoginOn",
+  "fullName" : "test_flow.test_Authentication.test_login#test_companyLoginOn",
+  "historyId" : "68de281c9c68e708f61f0f8788ed34b7",
+  "time" : {
+    "start" : 1597451916542,
+    "stop" : 1597451928852,
+    "duration" : 12310
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7271bb570f2739be",
+      "name" : "log",
+      "source" : "7271bb570f2739be.txt",
+      "type" : "text/plain",
+      "size" : 303
+    }, {
+      "uid" : "5cb73cd5808cfc85",
+      "name" : "stderr",
+      "source" : "5cb73cd5808cfc85.txt",
+      "type" : "text/plain",
+      "size" : 439
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "8720-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "81e0e92d57e76be2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597396728696,
+        "stop" : 1597396741145,
+        "duration" : 12449
+      }
+    }, {
+      "uid" : "9292450f02984d73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597391822324,
+        "stop" : 1597391834759,
+        "duration" : 12435
+      }
+    }, {
+      "uid" : "b267df3d110811ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597327240999,
+        "stop" : 1597327253524,
+        "duration" : 12525
+      }
+    }, {
+      "uid" : "d87f014d74554187",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597326025020,
+        "stop" : 1597326037534,
+        "duration" : 12514
+      }
+    }, {
+      "uid" : "1ad25b144b848dcd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597325448753,
+        "stop" : 1597325466644,
+        "duration" : 17891
+      }
+    }, {
+      "uid" : "aead5c10cd808eba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597324697296,
+        "stop" : 1597324709847,
+        "duration" : 12551
+      }
+    }, {
+      "uid" : "ef948cdc26c821b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597318771193,
+        "stop" : 1597318783542,
+        "duration" : 12349
+      }
+    }, {
+      "uid" : "3805ac9907d721f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597317039806,
+        "stop" : 1597317052153,
+        "duration" : 12347
+      }
+    }, {
+      "uid" : "48d796031ebf7554",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597313632120,
+        "stop" : 1597313650044,
+        "duration" : 17924
+      }
+    }, {
+      "uid" : "f89bb3f3594edba4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597305229807,
+        "stop" : 1597305247350,
+        "duration" : 17543
+      }
+    }, {
+      "uid" : "f4fd148e5cb9ba65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597303427414,
+        "stop" : 1597303439834,
+        "duration" : 12420
+      }
+    }, {
+      "uid" : "399b6883b1f009c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597303281629,
+        "stop" : 1597303294017,
+        "duration" : 12388
+      }
+    }, {
+      "uid" : "bcdadfff87375adc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597216834122,
+        "stop" : 1597216846496,
+        "duration" : 12374
+      }
+    }, {
+      "uid" : "903743c9ec1a410e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597216407832,
+        "stop" : 1597216420300,
+        "duration" : 12468
+      }
+    }, {
+      "uid" : "6c2f0a33b9bd4f90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597115582400,
+        "stop" : 1597115597967,
+        "duration" : 15567
+      }
+    }, {
+      "uid" : "309dd2626d09ee38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597115357241,
+        "stop" : 1597115369631,
+        "duration" : 12390
+      }
+    }, {
+      "uid" : "5e89bf341f40dbac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597115079557,
+        "stop" : 1597115091914,
+        "duration" : 12357
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5059ae321d22f199.json",
+  "parameterValues" : [ ]
+}
