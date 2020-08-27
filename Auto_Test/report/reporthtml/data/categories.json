@@ -1,13 +1,12 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
       "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(7) > div > div.ant-modal-wrap.ant-modal-centered > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(3) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > div > div > div\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
       "children" : [ {
         "name" : "test_backStage_authentication",
-        "uid" : "16ff5b34d6aa9770",
+        "uid" : "b1983d8a7344e4af",
         "parentUid" : "e14ce48c0e7527f456fe28416c33da5b",
         "status" : "broken",
         "time" : {
@@ -21,40 +20,24 @@
       } ],
       "uid" : "e14ce48c0e7527f456fe28416c33da5b"
     }, {
-      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-modal-wrap.ant-modal-centered > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(1) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
       "children" : [ {
-        "name" : "test_infoReg",
-        "uid" : "20ec5901c71d27db",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "name" : "test_backStage_authentication",
+        "uid" : "5a377ac15bb8fae7",
+        "parentUid" : "ce2a1a0d91dd37111c5ba200d0eb09e3",
         "status" : "broken",
         "time" : {
-          "start" : 1597451717251,
-          "stop" : 1597451853375,
-          "duration" : 136124
+          "start" : 1598518409157,
+          "stop" : 1598518423360,
+          "duration" : 14203
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
-    }, {
-      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
-      "children" : [ {
-        "name" : "test_backstage_examine",
-        "uid" : "20919763db179a39",
-        "parentUid" : "89590c53dc0bbf2199cfaed938e51b58",
-        "status" : "broken",
-        "time" : {
-          "start" : 1597451906602,
-          "stop" : 1597451916495,
-          "duration" : 9893
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "89590c53dc0bbf2199cfaed938e51b58"
+      "uid" : "ce2a1a0d91dd37111c5ba200d0eb09e3"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  } ],
+  "name" : "categories"
 }

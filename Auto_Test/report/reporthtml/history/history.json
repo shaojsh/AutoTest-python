@@ -2,26 +2,6 @@
   "fa363551da3b313dda3c470cf52ad218" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "20919763db179a39",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
-      "time" : {
-        "start" : 1597451906602,
-        "stop" : 1597451916495,
-        "duration" : 9893
-      }
-    } ]
-  },
-  "68de281c9c68e708f61f0f8788ed34b7" : {
-    "statistic" : {
-      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
@@ -29,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5059ae321d22f199",
+      "uid" : "891e691c10b2c4b8",
       "status" : "passed",
       "time" : {
-        "start" : 1597451916542,
-        "stop" : 1597451928852,
-        "duration" : 12310
+        "start" : 1598518360998,
+        "stop" : 1598518376260,
+        "duration" : 15262
       }
     } ]
   },
@@ -48,12 +28,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9399bfcc258cd615",
+      "uid" : "d2670e72dfea71d5",
       "status" : "passed",
       "time" : {
-        "start" : 1597451700393,
-        "stop" : 1597451717212,
-        "duration" : 16819
+        "start" : 1598518254824,
+        "stop" : 1598518270546,
+        "duration" : 15722
+      }
+    } ]
+  },
+  "68de281c9c68e708f61f0f8788ed34b7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b376e412c0630e28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598518376269,
+        "stop" : 1598518390809,
+        "duration" : 14540
       }
     } ]
   },
@@ -67,52 +66,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cdec8092de82c2a5",
+      "uid" : "ed7f150e07a10d43",
       "status" : "passed",
       "time" : {
-        "start" : 1597451853499,
-        "stop" : 1597451906593,
-        "duration" : 53094
+        "start" : 1598518305487,
+        "stop" : 1598518360998,
+        "duration" : 55511
       }
     } ]
   },
   "28dda5313ff182aeade3becf47df4372" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "20ec5901c71d27db",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "uid" : "fa2b141ce1888daf",
+      "status" : "passed",
       "time" : {
-        "start" : 1597451717251,
-        "stop" : 1597451853375,
-        "duration" : 136124
-      }
-    } ]
-  },
-  "0a7cf6322a2f92e01070570b73399db9" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "16ff5b34d6aa9770",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(7) > div > div.ant-modal-wrap.ant-modal-centered > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(3) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > div > div > div\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
-      "time" : {
-        "start" : 1597050302854,
-        "stop" : 1597050326332,
-        "duration" : 23478
+        "start" : 1598518270577,
+        "stop" : 1598518305471,
+        "duration" : 34894
       }
     } ]
   },
@@ -126,12 +104,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "24391d7cefc5fd78",
+      "uid" : "570497024203c6f4",
       "status" : "passed",
       "time" : {
-        "start" : 1597451928875,
-        "stop" : 1597451947056,
-        "duration" : 18181
+        "start" : 1598518390809,
+        "stop" : 1598518409142,
+        "duration" : 18333
+      }
+    } ]
+  },
+  "0a7cf6322a2f92e01070570b73399db9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b1983d8a7344e4af",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(7) > div > div.ant-modal-wrap.ant-modal-centered > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(3) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > div > div > div\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597050302854,
+        "stop" : 1597050326332,
+        "duration" : 23478
+      }
+    } ]
+  },
+  "a55d1468f36f1b2cdddeddca0f290d7d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a377ac15bb8fae7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-modal-wrap.ant-modal-centered > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(1) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598518409157,
+        "stop" : 1598518423360,
+        "duration" : 14203
       }
     } ]
   }

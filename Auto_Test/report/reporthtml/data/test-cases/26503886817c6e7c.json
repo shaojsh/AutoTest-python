@@ -1,0 +1,96 @@
+{
+  "uid" : "26503886817c6e7c",
+  "name" : "test_companyRegister",
+  "fullName" : "test_flow.test_Authentication.test_login#test_companyRegister",
+  "historyId" : "dd0646a5c1a798e47c4f25747509dea9",
+  "time" : {
+    "start" : 1597216307168,
+    "stop" : 1597216334199,
+    "duration" : 27031
+  },
+  "description" : "测试 http://10.10.128.152:10053/user/register 中小微企业注册流程",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/user/register 中小微企业注册流程</p>\n",
+  "status" : "broken",
+  "statusMessage" : "redis.exceptions.ResponseError: invalid DB index",
+  "statusTrace" : "@pytest.mark.run(order=1)\n    @allure.severity(\"blocker\")\n    @allure.description(\"测试 http://10.10.128.152:10053/user/register 中小微企业注册流程\")\n    @allure.testcase(\"http://10.10.128.152:10053/user/register\", \"注册 \uD83D\uDC47\")\n    def test_companyRegister():\n        def_name = sys._getframe().f_code.co_name\n        test_Assert = Assert.Assertions(def_name)\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        driver = webdriver.Chrome()\n        driver.maximize_window()\n        driver.get(\"http://10.10.128.152:10053/user/register\")\n        # db中清除已注册的账户\n        deleteAct()\n        logger.info(\"对已注册的账户进行删除操作\")\n        sleep(1)\n        waitUntilClick(driver, loginOn.btn_agree_css.value)\n        driver.find_element_by_css_selector(loginOn.btn_agree_css.value).click()\n    \n        waitUntilDisplay(driver, loginOn.input_act_css.value)\n        driver.find_element_by_css_selector(loginOn.input_act_css.value).send_keys(act)\n        driver.find_element_by_css_selector(loginOn.input_pwd_css.value).send_keys(pwd)\n        driver.find_element_by_css_selector(loginOn.input_conPwd_css.value).send_keys(pwd)\n        waitUntilClick(driver, loginOn.btn_phoneCode_css.value)\n        sleep(2)\n        driver.find_element_by_css_selector(loginOn.btn_phoneCode_css.value).click()\n        sleep(10)\n>       message = getPhoneMessage().get(\"regMes\")\n\ntest_flow\\test_Authentication\\test_login.py:71: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ncommon\\dbLink.py:89: in getPhoneMessage\n    keys = r.keys()\n..\\venv\\lib\\site-packages\\redis\\client.py:1661: in keys\n    return self.execute_command('KEYS', pattern)\n..\\venv\\lib\\site-packages\\redis\\client.py:898: in execute_command\n    conn = self.connection or pool.get_connection(command_name, **options)\n..\\venv\\lib\\site-packages\\redis\\connection.py:1192: in get_connection\n    connection.connect()\n..\\venv\\lib\\site-packages\\redis\\connection.py:567: in connect\n    self.on_connect()\n..\\venv\\lib\\site-packages\\redis\\connection.py:664: in on_connect\n    if nativestr(self.read_response()) != 'OK':\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = Connection<host=10.10.128.128,port=6739,db=db2>\n\n    def read_response(self):\n        \"Read the response from a previously sent command\"\n        try:\n            response = self._parser.read_response()\n        except socket.timeout:\n            self.disconnect()\n            raise TimeoutError(\"Timeout reading from %s:%s\" %\n                               (self.host, self.port))\n        except socket.error as e:\n            self.disconnect()\n            raise ConnectionError(\"Error while reading from %s:%s : %s\" %\n                                  (self.host, self.port, e.args))\n        except BaseException:\n            self.disconnect()\n            raise\n    \n        if self.health_check_interval:\n            self.next_health_check = time() + self.health_check_interval\n    \n        if isinstance(response, ResponseError):\n>           raise response\nE           redis.exceptions.ResponseError: invalid DB index\n\n..\\venv\\lib\\site-packages\\redis\\connection.py:756: ResponseError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/user/register 中小微企业注册流程",
+    "status" : "broken",
+    "statusMessage" : "redis.exceptions.ResponseError: invalid DB index",
+    "statusTrace" : "@pytest.mark.run(order=1)\n    @allure.severity(\"blocker\")\n    @allure.description(\"测试 http://10.10.128.152:10053/user/register 中小微企业注册流程\")\n    @allure.testcase(\"http://10.10.128.152:10053/user/register\", \"注册 \uD83D\uDC47\")\n    def test_companyRegister():\n        def_name = sys._getframe().f_code.co_name\n        test_Assert = Assert.Assertions(def_name)\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        driver = webdriver.Chrome()\n        driver.maximize_window()\n        driver.get(\"http://10.10.128.152:10053/user/register\")\n        # db中清除已注册的账户\n        deleteAct()\n        logger.info(\"对已注册的账户进行删除操作\")\n        sleep(1)\n        waitUntilClick(driver, loginOn.btn_agree_css.value)\n        driver.find_element_by_css_selector(loginOn.btn_agree_css.value).click()\n    \n        waitUntilDisplay(driver, loginOn.input_act_css.value)\n        driver.find_element_by_css_selector(loginOn.input_act_css.value).send_keys(act)\n        driver.find_element_by_css_selector(loginOn.input_pwd_css.value).send_keys(pwd)\n        driver.find_element_by_css_selector(loginOn.input_conPwd_css.value).send_keys(pwd)\n        waitUntilClick(driver, loginOn.btn_phoneCode_css.value)\n        sleep(2)\n        driver.find_element_by_css_selector(loginOn.btn_phoneCode_css.value).click()\n        sleep(10)\n>       message = getPhoneMessage().get(\"regMes\")\n\ntest_flow\\test_Authentication\\test_login.py:71: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ncommon\\dbLink.py:89: in getPhoneMessage\n    keys = r.keys()\n..\\venv\\lib\\site-packages\\redis\\client.py:1661: in keys\n    return self.execute_command('KEYS', pattern)\n..\\venv\\lib\\site-packages\\redis\\client.py:898: in execute_command\n    conn = self.connection or pool.get_connection(command_name, **options)\n..\\venv\\lib\\site-packages\\redis\\connection.py:1192: in get_connection\n    connection.connect()\n..\\venv\\lib\\site-packages\\redis\\connection.py:567: in connect\n    self.on_connect()\n..\\venv\\lib\\site-packages\\redis\\connection.py:664: in on_connect\n    if nativestr(self.read_response()) != 'OK':\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = Connection<host=10.10.128.128,port=6739,db=db2>\n\n    def read_response(self):\n        \"Read the response from a previously sent command\"\n        try:\n            response = self._parser.read_response()\n        except socket.timeout:\n            self.disconnect()\n            raise TimeoutError(\"Timeout reading from %s:%s\" %\n                               (self.host, self.port))\n        except socket.error as e:\n            self.disconnect()\n            raise ConnectionError(\"Error while reading from %s:%s : %s\" %\n                                  (self.host, self.port, e.args))\n        except BaseException:\n            self.disconnect()\n            raise\n    \n        if self.health_check_interval:\n            self.next_health_check = time() + self.health_check_interval\n    \n        if isinstance(response, ResponseError):\n>           raise response\nE           redis.exceptions.ResponseError: invalid DB index\n\n..\\venv\\lib\\site-packages\\redis\\connection.py:756: ResponseError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2b0bd3563f0855ac",
+      "name" : "log",
+      "source" : "2b0bd3563f0855ac.txt",
+      "type" : "text/plain",
+      "size" : 168
+    }, {
+      "uid" : "721f5be97a98cb1e",
+      "name" : "stdout",
+      "source" : "721f5be97a98cb1e.txt",
+      "type" : "text/plain",
+      "size" : 189
+    }, {
+      "uid" : "1d4c546d75e5e1bf",
+      "name" : "stderr",
+      "source" : "1d4c546d75e5e1bf.txt",
+      "type" : "text/plain",
+      "size" : 259
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "5480-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "注册 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/user/register",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "26503886817c6e7c.json",
+  "parameterValues" : [ ]
+}

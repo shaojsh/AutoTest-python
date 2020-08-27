@@ -1,0 +1,79 @@
+{
+  "uid" : "7e7073a28b1de4b2",
+  "name" : "test_companyPassForget",
+  "fullName" : "test_flow.test_Authentication.test_login#test_companyPassForget",
+  "historyId" : "acb9067300dee3cf493bfb42da37b2a5",
+  "time" : {
+    "start" : 1597826929396,
+    "stop" : 1597826947580,
+    "duration" : 18184
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d21645386d7f41ea",
+      "name" : "log",
+      "source" : "d21645386d7f41ea.txt",
+      "type" : "text/plain",
+      "size" : 522
+    }, {
+      "uid" : "721735ed889dad55",
+      "name" : "stdout",
+      "source" : "721735ed889dad55.txt",
+      "type" : "text/plain",
+      "size" : 144
+    }, {
+      "uid" : "6be9adc5234b7766",
+      "name" : "stderr",
+      "source" : "6be9adc5234b7766.txt",
+      "type" : "text/plain",
+      "size" : 748
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "10540-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7e7073a28b1de4b2.json",
+  "parameterValues" : [ ]
+}

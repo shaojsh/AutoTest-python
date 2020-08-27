@@ -5,11 +5,11 @@
     "name" : "test_flow.test_Authentication",
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     }
   }, {
     "uid" : "2a113c6792bcc8c4c339eb0151a0125f",
