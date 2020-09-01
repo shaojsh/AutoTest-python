@@ -1,0 +1,4 @@
+Fri, 28 Aug 2020 16:56:59-run_all_uicase.py-test_Tripartite_interaction.py-[line:38]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Fri, 28 Aug 2020 16:57:09-run_all_uicase.py-test_Tripartite_interaction.py-[line:44]-INFO-[日志信息]: 前端账户登录授信申请
+Fri, 28 Aug 2020 16:57:09-run_all_uicase.py-test_Tripartite_interaction.py-[line:190]-INFO-[日志信息]: 进入借款检索一览画面

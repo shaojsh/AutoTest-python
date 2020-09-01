@@ -1,0 +1,13 @@
+INFO     run_all_uicase.py:test_Tripartite_interaction.py:36 开始执行脚本test_Tripartite_interaction:
+
+INFO     run_all_uicase.py:test_Tripartite_interaction.py:42 前端账户登录授信申请
+INFO     run_all_uicase.py:test_Tripartite_interaction.py:49 银行授信审核
+INFO     run_all_uicase.py:test_backStage_examine.py:70 成功登录后台系统
+INFO     run_all_uicase.py:test_Tripartite_interaction.py:126 银行授信审核首页
+INFO     run_all_uicase.py:test_Tripartite_interaction.py:131 银行待审批授信页面
+INFO     run_all_uicase.py:test_Tripartite_interaction.py:135 审批授信评分卡页面
+INFO     run_all_uicase.py:test_Tripartite_interaction.py:139 审批授信审核页面
+INFO     run_all_uicase.py:test_Tripartite_interaction.py:56 担保公司审核
+INFO     run_all_uicase.py:test_backStage_examine.py:70 成功登录后台系统
+INFO     run_all_uicase.py:test_Tripartite_interaction.py:161 担保公司授信审核首页
+INFO     run_all_uicase.py:test_Tripartite_interaction.py:166 银行待审批授信页面

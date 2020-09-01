@@ -1,0 +1,1398 @@
+{
+  "uid" : "b91adedd14818ff7",
+  "name" : "test_Tripartite_interaction",
+  "fullName" : "test_flow.test_Tripartite_interaction.test_Tripartite_interaction#test_Tripartite_interaction",
+  "historyId" : "d91e7b4392163e0b46289a9f8b97b16c",
+  "time" : {
+    "start" : 1598952378758,
+    "stop" : 1598952397590,
+    "duration" : 18832
+  },
+  "description" : "测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "74599f7746777f66",
+      "name" : "log",
+      "source" : "74599f7746777f66.txt",
+      "type" : "text/plain",
+      "size" : 526
+    }, {
+      "uid" : "16682f1d9b069755",
+      "name" : "stderr",
+      "source" : "16682f1d9b069755.txt",
+      "type" : "text/plain",
+      "size" : 797
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=5)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Tripartite_interaction"
+  }, {
+    "name" : "suite",
+    "value" : "test_Tripartite_interaction"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "4612-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Tripartite_interaction.test_Tripartite_interaction"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "三方（企业，银行，前端）交互 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/account/login",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "83a4543ec4fb074e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(7) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > div > div > button.ant-btn.ant-btn-primary\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598952270944,
+        "stop" : 1598952299713,
+        "duration" : 28769
+      }
+    }, {
+      "uid" : "c2c3aed1b7dd56f1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li class=\"ant-menu-item ant-menu-item-selected\" role=\"menuitem\" style=\"padding-left: 24px;\">...</li> is not clickable at point (92, 84). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598952191365,
+        "stop" : 1598952202066,
+        "duration" : 10701
+      }
+    }, {
+      "uid" : "a05d0b0c704a1545",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(7) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > form > div:nth-child(10) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > textarea\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598952131492,
+        "stop" : 1598952162972,
+        "duration" : 31480
+      }
+    }, {
+      "uid" : "d5bba1e4fac2318a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <i class=\"input___1JWZB\"></i> is not clickable at point (727, 830). Other element would receive the click: <span class=\"click-content___ABaLA\"></span>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598950718606,
+        "stop" : 1598950740782,
+        "duration" : 22176
+      }
+    }, {
+      "uid" : "2d220bf724b74780",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <i class=\"input___1JWZB\"></i> is not clickable at point (727, 830). Other element would receive the click: <span class=\"click-content___ABaLA\"></span>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598950658747,
+        "stop" : 1598950675582,
+        "duration" : 16835
+      }
+    }, {
+      "uid" : "94217b122a81dd67",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <i class=\"input___1JWZB\"></i> is not clickable at point (727, 750). Other element would receive the click: <span class=\"click-content___ABaLA\"></span>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598950577421,
+        "stop" : 1598950605317,
+        "duration" : 27896
+      }
+    }, {
+      "uid" : "c9f26a778c112785",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(7) > div > div > div > div:nth-child(2) > div > div\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598950538935,
+        "stop" : 1598950552281,
+        "duration" : 13346
+      }
+    }, {
+      "uid" : "c5f712f2c0ede9ce",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm > div > div.container___1ylnx > ul > li:nth-child(4) > a\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598950499854,
+        "stop" : 1598950512093,
+        "duration" : 12239
+      }
+    }, {
+      "uid" : "a56c17845e30eb29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598949490994,
+        "stop" : 1598949509894,
+        "duration" : 18900
+      }
+    }, {
+      "uid" : "7b3e178a650897f3",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Object of type path_Tripartite_interaction is not JSON serializable",
+      "time" : {
+        "start" : 1598949152702,
+        "stop" : 1598949178092,
+        "duration" : 25390
+      }
+    }, {
+      "uid" : "34888289e3e837e4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598949094101,
+        "stop" : 1598949109049,
+        "duration" : 14948
+      }
+    }, {
+      "uid" : "e6f67239e5486713",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li class=\"ant-menu-item ant-menu-item-selected\" role=\"menuitem\" style=\"padding-left: 24px;\">...</li> is not clickable at point (92, 84). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598949002249,
+        "stop" : 1598949013029,
+        "duration" : 10780
+      }
+    }, {
+      "uid" : "61fc1337621b3eb2",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Object of type path_Tripartite_interaction is not JSON serializable",
+      "time" : {
+        "start" : 1598948952908,
+        "stop" : 1598948974627,
+        "duration" : 21719
+      }
+    }, {
+      "uid" : "d9a023c20ede548b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(7) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div:nth-child(2) > form > div:nth-child(4) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > span > div > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598948659515,
+        "stop" : 1598948736648,
+        "duration" : 77133
+      }
+    }, {
+      "uid" : "5f6687c03d694e7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598867273825,
+        "stop" : 1598867289535,
+        "duration" : 15710
+      }
+    }, {
+      "uid" : "e877221f087034ed",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span>...</span> is not clickable at point (76, 441). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598867249050,
+        "stop" : 1598867260839,
+        "duration" : 11789
+      }
+    }, {
+      "uid" : "f77e564f4f472b68",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span>...</span> is not clickable at point (76, 441). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598867159135,
+        "stop" : 1598867170361,
+        "duration" : 11226
+      }
+    }, {
+      "uid" : "1ed26b5dce8ad23c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span>...</span> is not clickable at point (76, 441). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598867063419,
+        "stop" : 1598867075145,
+        "duration" : 11726
+      }
+    }, {
+      "uid" : "8619b2cb8ef2e9a1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span>...</span> is not clickable at point (76, 441). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598867035113,
+        "stop" : 1598867045810,
+        "duration" : 10697
+      }
+    }, {
+      "uid" : "260b8a86788d6a63",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#sMenu_0kaz00te8-0172-72744068-8a8a0018-000b\\$Menu > li.ant-menu-item.ant-menu-item-selected > a\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598866834872,
+        "stop" : 1598866865803,
+        "duration" : 30931
+      }
+    }, {
+      "uid" : "b6c9444a8ee7c083",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1598863770804,
+        "stop" : 1598864326718,
+        "duration" : 555914
+      }
+    }, {
+      "uid" : "4a7aebbd5c15a4a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598862640883,
+        "stop" : 1598862669828,
+        "duration" : 28945
+      }
+    }, {
+      "uid" : "e1eba0dca2beacc0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div:nth-child(2) > div > div > div > div > div > div > a\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598862325743,
+        "stop" : 1598862340746,
+        "duration" : 15003
+      }
+    }, {
+      "uid" : "dab25bfc5d24d298",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > div > div > button.ant-btn.ant-btn-primary\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598862199931,
+        "stop" : 1598862234625,
+        "duration" : 34694
+      }
+    }, {
+      "uid" : "1638ec116dadc0e7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div:nth-child(2) > div > div > div > div > div > div > a\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598862158380,
+        "stop" : 1598862175909,
+        "duration" : 17529
+      }
+    }, {
+      "uid" : "7619566dbb1227f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598861065408,
+        "stop" : 1598861087937,
+        "duration" : 22529
+      }
+    }, {
+      "uid" : "ee74af77a0138019",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > div > form > div:nth-child(7) > div > div > div.ant-col.ant-col-18.ant-form-item-control-wrapper > div > span > textarea\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598860932067,
+        "stop" : 1598860957393,
+        "duration" : 25326
+      }
+    }, {
+      "uid" : "c4a693f29df1bad",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > div > form > div:nth-child(7) > div > div > div.ant-col.ant-col-18.ant-form-item-control-wrapper > div > span > textarea\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598860848356,
+        "stop" : 1598860867729,
+        "duration" : 19373
+      }
+    }, {
+      "uid" : "a8de757a9e1af6f8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > div > form > div:nth-child(7) > div > div > div.ant-col.ant-col-18.ant-form-item-control-wrapper > div > span > textarea\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598860794912,
+        "stop" : 1598860814684,
+        "duration" : 19772
+      }
+    }, {
+      "uid" : "6eeb222684f52763",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598860710221,
+        "stop" : 1598860737777,
+        "duration" : 27556
+      }
+    }, {
+      "uid" : "1cc7d96814bc1648",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(8) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > div > form > div:nth-child(7) > div > div > div.ant-col.ant-col-18.ant-form-item-control-wrapper > div > span > textarea\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598860582999,
+        "stop" : 1598860605358,
+        "duration" : 22359
+      }
+    }, {
+      "uid" : "ef36bdd65888f26e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(8) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > div > form > div:nth-child(7) > div > div > div.ant-col.ant-col-18.ant-form-item-control-wrapper > div > span > textarea\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598860528363,
+        "stop" : 1598860545114,
+        "duration" : 16751
+      }
+    }, {
+      "uid" : "667885e1546b7a96",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li class=\"ant-menu-item ant-menu-item-selected\" role=\"menuitem\" style=\"padding-left: 24px;\">...</li> is not clickable at point (92, 84). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598860499284,
+        "stop" : 1598860510936,
+        "duration" : 11652
+      }
+    }, {
+      "uid" : "b7361cbdda4f2aa7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li class=\"ant-menu-item ant-menu-item-selected\" role=\"menuitem\" style=\"padding-left: 24px;\">...</li> is not clickable at point (92, 84). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598860475915,
+        "stop" : 1598860486652,
+        "duration" : 10737
+      }
+    }, {
+      "uid" : "974e88946fbc164c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li class=\"ant-menu-item ant-menu-item-selected\" role=\"menuitem\" style=\"padding-left: 24px;\">...</li> is not clickable at point (92, 84). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598860439325,
+        "stop" : 1598860450076,
+        "duration" : 10751
+      }
+    }, {
+      "uid" : "63e768f8a7985f2a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > div > form > div:nth-child(8) > div > div > div.ant-col.ant-col-18.ant-form-item-control-wrapper > div > span > textarea\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598860337199,
+        "stop" : 1598860356368,
+        "duration" : 19169
+      }
+    }, {
+      "uid" : "cb6b27ef647e4c93",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > div > form > div:nth-child(8) > div > div > div.ant-col.ant-col-18.ant-form-item-control-wrapper > div > span > textarea\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598860135655,
+        "stop" : 1598860202528,
+        "duration" : 66873
+      }
+    }, {
+      "uid" : "7b5a877283115ed6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > div > form > div:nth-child(8) > div > div > div.ant-col.ant-col-18.ant-form-item-control-wrapper > div > span > textarea\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598859806933,
+        "stop" : 1598859895694,
+        "duration" : 88761
+      }
+    }, {
+      "uid" : "dd2fb2df823bc24b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <i aria-label=\"图标: home\" class=\"anticon anticon-home menuIcon___3ePOX\">...</i> is not clickable at point (31, 83). Other element would receive the click: <a href=\"#!\" class=\"parentMenu___r9M-m\">...</a>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598859447984,
+        "stop" : 1598859535326,
+        "duration" : 87342
+      }
+    }, {
+      "uid" : "68c109177dffda17",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <i aria-label=\"图标: home\" class=\"anticon anticon-home menuIcon___3ePOX\">...</i> is not clickable at point (31, 83). Other element would receive the click: <a href=\"#!\" class=\"parentMenu___r9M-m\">...</a>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598859188738,
+        "stop" : 1598859252632,
+        "duration" : 63894
+      }
+    }, {
+      "uid" : "95c5d0c44f18987c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1598858966916,
+        "stop" : 1598859009134,
+        "duration" : 42218
+      }
+    }, {
+      "uid" : "1d557c02c19bf671",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > section > div.sider___ER6Fg > aside > div > div > ul > li.ant-menu-item.ant-menu-item-selected > a > span\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598858674024,
+        "stop" : 1598858736808,
+        "duration" : 62784
+      }
+    }, {
+      "uid" : "30cff8b3e397d320",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1598858163977,
+        "stop" : 1598858257851,
+        "duration" : 93874
+      }
+    }, {
+      "uid" : "9ef3263a20db78ac",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'list' object has no attribute 'click'",
+      "time" : {
+        "start" : 1598857870390,
+        "stop" : 1598857933218,
+        "duration" : 62828
+      }
+    }, {
+      "uid" : "b8c482d9c3d49163",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598857635117,
+        "stop" : 1598857676389,
+        "duration" : 41272
+      }
+    }, {
+      "uid" : "ccb32d7874e8a334",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'list' object has no attribute 'click'",
+      "time" : {
+        "start" : 1598857408219,
+        "stop" : 1598857430145,
+        "duration" : 21926
+      }
+    }, {
+      "uid" : "ec3651a8d2b441f5",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'bytes' object has no attribute 'element_to_be_clickable'",
+      "time" : {
+        "start" : 1598857330514,
+        "stop" : 1598857346136,
+        "duration" : 15622
+      }
+    }, {
+      "uid" : "dbd0574ca8728b7e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#enterpriseBankId\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598857260513,
+        "stop" : 1598857278083,
+        "duration" : 17570
+      }
+    }, {
+      "uid" : "1e3e414d085b1c3e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#enterpriseBankId\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598857212553,
+        "stop" : 1598857230227,
+        "duration" : 17674
+      }
+    }, {
+      "uid" : "5d538fa5d8d3ed2e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm > div > div.container___1ylnx > ul > li:nth-child(4) > a\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598857154597,
+        "stop" : 1598857165771,
+        "duration" : 11174
+      }
+    }, {
+      "uid" : "45b3ef4cc4a27047",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#enterpriseBankId\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598857108495,
+        "stop" : 1598857124049,
+        "duration" : 15554
+      }
+    }, {
+      "uid" : "3d1eae08b5f5bdcd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm > div > div.container___1ylnx > ul > li:nth-child(4) > a\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598857058117,
+        "stop" : 1598857069024,
+        "duration" : 10907
+      }
+    }, {
+      "uid" : "ff965f33e7b6412c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm > div > div.container___1ylnx > ul > li:nth-child(4) > a\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598857038921,
+        "stop" : 1598857049884,
+        "duration" : 10963
+      }
+    }, {
+      "uid" : "78c50760402148fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598856960783,
+        "stop" : 1598856976176,
+        "duration" : 15393
+      }
+    }, {
+      "uid" : "fc801e84ffce19a5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598856915207,
+        "stop" : 1598856929917,
+        "duration" : 14710
+      }
+    }, {
+      "uid" : "fb147d15c1804da0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > form > div:nth-child(3) > div > div > div.ant-col.ant-col-17.ant-form-item-control-wrapper > div > span > textarea\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598856716205,
+        "stop" : 1598856764396,
+        "duration" : 48191
+      }
+    }, {
+      "uid" : "c0fa0092e43b7891",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598855940560,
+        "stop" : 1598855994121,
+        "duration" : 53561
+      }
+    }, {
+      "uid" : "4b818e236c9fb0ee",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598855629266,
+        "stop" : 1598855683185,
+        "duration" : 53919
+      }
+    }, {
+      "uid" : "a4a0037c478455fc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"#!\" class=\"btn___3OHHg\">...</a> is not clickable at point (332, 530). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598855432767,
+        "stop" : 1598855461441,
+        "duration" : 28674
+      }
+    }, {
+      "uid" : "9af2893ff157232f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#userName\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598855087886,
+        "stop" : 1598855144765,
+        "duration" : 56879
+      }
+    }, {
+      "uid" : "48a505daab9f2f20",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > form > div:nth-child(1) > div:nth-child(1) > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > div > div > div.ant-input-number-input-wrap > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598854707169,
+        "stop" : 1598854738753,
+        "duration" : 31584
+      }
+    }, {
+      "uid" : "720cceab168be5ed",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1598854313548,
+        "stop" : 1598854389845,
+        "duration" : 76297
+      }
+    }, {
+      "uid" : "f46785bcc607d6fa",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598853420033,
+        "stop" : 1598853437401,
+        "duration" : 17368
+      }
+    }, {
+      "uid" : "4abfa509225a4732",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > div > form > div:nth-child(7) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > div > div > div.ant-input-number-input-wrap > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598853022898,
+        "stop" : 1598853036681,
+        "duration" : 13783
+      }
+    }, {
+      "uid" : "edf138b16dc918bd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > div > form > div:nth-child(7) > div > div > div.ant-col.ant-col-18.ant-form-item-control-wrapper > div > span > textarea\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598852939762,
+        "stop" : 1598852964868,
+        "duration" : 25106
+      }
+    }, {
+      "uid" : "4739a059ff0916f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > div > form > div:nth-child(7) > div > div > div.ant-col.ant-col-18.ant-form-item-control-wrapper > div > span > textarea\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598852675297,
+        "stop" : 1598852706517,
+        "duration" : 31220
+      }
+    }, {
+      "uid" : "f36c272e7edc5486",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > div > form > div:nth-child(7) > div > div > div.ant-col.ant-col-18.ant-form-item-control-wrapper > div > span > textarea\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598852602895,
+        "stop" : 1598852630088,
+        "duration" : 27193
+      }
+    }, {
+      "uid" : "80329c71427c4469",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > div > form > div:nth-child(7) > div > div > div.ant-col.ant-col-18.ant-form-item-control-wrapper > div > span > textarea\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598852273369,
+        "stop" : 1598852320693,
+        "duration" : 47324
+      }
+    }, {
+      "uid" : "986cb4798abe3e0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598843400775,
+        "stop" : 1598843428386,
+        "duration" : 27611
+      }
+    }, {
+      "uid" : "86e0dd3f37052b4e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"#!\" class=\"btn___3OHHg\">...</a> is not clickable at point (622, 530). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598843319986,
+        "stop" : 1598843330865,
+        "duration" : 10879
+      }
+    }, {
+      "uid" : "a3915e9cabc4b3ce",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"#!\" class=\"btn___3OHHg\">...</a> is not clickable at point (622, 530). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598843139020,
+        "stop" : 1598843150794,
+        "duration" : 11774
+      }
+    }, {
+      "uid" : "7263daff48f63361",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"#!\" class=\"btn___3OHHg\">...</a> is not clickable at point (622, 530). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598842996311,
+        "stop" : 1598843007564,
+        "duration" : 11253
+      }
+    }, {
+      "uid" : "dc11fc50a94e9e3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"#!\" class=\"btn___3OHHg\">...</a> is not clickable at point (622, 530). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598842579558,
+        "stop" : 1598842591188,
+        "duration" : 11630
+      }
+    }, {
+      "uid" : "82305274183834aa",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"#!\" class=\"btn___3OHHg\">...</a> is not clickable at point (622, 530). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598842510943,
+        "stop" : 1598842522526,
+        "duration" : 11583
+      }
+    }, {
+      "uid" : "5ef7f288b90d6167",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"#!\" class=\"btn___3OHHg\">...</a> is not clickable at point (622, 530). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598842430348,
+        "stop" : 1598842441082,
+        "duration" : 10734
+      }
+    }, {
+      "uid" : "ac4676e48681e302",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1598842175174,
+        "stop" : 1598842216122,
+        "duration" : 40948
+      }
+    }, {
+      "uid" : "6509cc1c3bc657ed",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1598842000204,
+        "stop" : 1598842040361,
+        "duration" : 40157
+      }
+    }, {
+      "uid" : "3ddce5b53675fd66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598841135833,
+        "stop" : 1598841166372,
+        "duration" : 30539
+      }
+    }, {
+      "uid" : "c83bcf8c0767a30f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1598840753042,
+        "stop" : 1598840800366,
+        "duration" : 47324
+      }
+    }, {
+      "uid" : "d87912da47a6adc6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598840641565,
+        "stop" : 1598840696768,
+        "duration" : 55203
+      }
+    }, {
+      "uid" : "f88b8b5afe138da0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1598840493214,
+        "stop" : 1598840537622,
+        "duration" : 44408
+      }
+    }, {
+      "uid" : "85d546113ce6a7ad",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598840371699,
+        "stop" : 1598840421524,
+        "duration" : 49825
+      }
+    }, {
+      "uid" : "4167399cff3088d7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598840160497,
+        "stop" : 1598840184611,
+        "duration" : 24114
+      }
+    }, {
+      "uid" : "1dd2143d46e4d57a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#code\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598839666385,
+        "stop" : 1598839680527,
+        "duration" : 14142
+      }
+    }, {
+      "uid" : "febba2188016ea5e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div:nth-child(2) > div > div > div > div > div > div > a:nth-child(2)\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598839321419,
+        "stop" : 1598839352437,
+        "duration" : 31018
+      }
+    }, {
+      "uid" : "8671d2b493e9132d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598837547936,
+        "stop" : 1598837565313,
+        "duration" : 17377
+      }
+    }, {
+      "uid" : "73e7f6add97c046d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598837504135,
+        "stop" : 1598837515561,
+        "duration" : 11426
+      }
+    }, {
+      "uid" : "d8e9264a173a6e9a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598837445871,
+        "stop" : 1598837475707,
+        "duration" : 29836
+      }
+    }, {
+      "uid" : "56e6dbdcbc6a45b5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text() = 'Auto_Test（专用）']\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598837125523,
+        "stop" : 1598837155261,
+        "duration" : 29738
+      }
+    }, {
+      "uid" : "941cc8a67588801a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text() = 'Auto_Test（专用）']\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598837079917,
+        "stop" : 1598837099902,
+        "duration" : 19985
+      }
+    }, {
+      "uid" : "fa62134d8a50e9b6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text() = 'Auto_Test（专用）']\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598837044949,
+        "stop" : 1598837070944,
+        "duration" : 25995
+      }
+    }, {
+      "uid" : "6f3d5c41c087ef94",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'execut_script'",
+      "time" : {
+        "start" : 1598836843382,
+        "stop" : 1598836866652,
+        "duration" : 23270
+      }
+    }, {
+      "uid" : "9b13f4020ff32cb8",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'execut_script'",
+      "time" : {
+        "start" : 1598836779346,
+        "stop" : 1598836799534,
+        "duration" : 20188
+      }
+    }, {
+      "uid" : "4c3dc20f8ae8aef9",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'execut_script'",
+      "time" : {
+        "start" : 1598836680846,
+        "stop" : 1598836709045,
+        "duration" : 28199
+      }
+    }, {
+      "uid" : "e62d5558932094f3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598836288497,
+        "stop" : 1598836304110,
+        "duration" : 15613
+      }
+    }, {
+      "uid" : "89dfdd99c36b61e",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'execut_script'",
+      "time" : {
+        "start" : 1598835970000,
+        "stop" : 1598835990331,
+        "duration" : 20331
+      }
+    }, {
+      "uid" : "eda1290a3e342610",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text() = 'Auto_Test（专用）']\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598835921800,
+        "stop" : 1598835946052,
+        "duration" : 24252
+      }
+    }, {
+      "uid" : "aa3f7322473fe5f4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text() = 'Auto_Test（专用）']\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598834116131,
+        "stop" : 1598834127530,
+        "duration" : 11399
+      }
+    }, {
+      "uid" : "8d2c42a1237ca991",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text() = 'Auto_Test（专用）']\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598833986537,
+        "stop" : 1598834002035,
+        "duration" : 15498
+      }
+    }, {
+      "uid" : "a6babf328eb49561",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598605019103,
+        "stop" : 1598605037361,
+        "duration" : 18258
+      }
+    }, {
+      "uid" : "c47d01c65b186199",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598604648333,
+        "stop" : 1598604673375,
+        "duration" : 25042
+      }
+    }, {
+      "uid" : "cab2ede3f178aef5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text() = 'Auto_Test（专用）']\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598604437410,
+        "stop" : 1598604456658,
+        "duration" : 19248
+      }
+    }, {
+      "uid" : "d234bb3e53ef147",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div:nth-child(2) > div > div > div > div > div > div > a:nth-child(2)\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598604309667,
+        "stop" : 1598604322103,
+        "duration" : 12436
+      }
+    }, {
+      "uid" : "7c98486861f9f578",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div:nth-child(2) > div > div > div > div > div > div > a:nth-child(2)\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598604243396,
+        "stop" : 1598604264504,
+        "duration" : 21108
+      }
+    }, {
+      "uid" : "d54a5d77ad69bff0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.UnexpectedTagNameException: Message: Select only works on <select> elements, not on <span>",
+      "time" : {
+        "start" : 1598604054329,
+        "stop" : 1598604070744,
+        "duration" : 16415
+      }
+    }, {
+      "uid" : "7f282b36c6a1e897",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598603742035,
+        "stop" : 1598603769497,
+        "duration" : 27462
+      }
+    }, {
+      "uid" : "c442f8fdcf1cda0e",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1598602766593,
+        "stop" : 1598602783652,
+        "duration" : 17059
+      }
+    }, {
+      "uid" : "fc7643c9abc726c3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div.searchBar___PNjiu > div:nth-child(1) > div > div > span.ant-select-selection-item\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598602637512,
+        "stop" : 1598602648326,
+        "duration" : 10814
+      }
+    }, {
+      "uid" : "4ac59df029dbe5e3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text() = 'Auto_Test（专用）']\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598602548973,
+        "stop" : 1598602577444,
+        "duration" : 28471
+      }
+    }, {
+      "uid" : "e6d77716ebf0eb0b",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1598602507296,
+        "stop" : 1598602521900,
+        "duration" : 14604
+      }
+    }, {
+      "uid" : "8b371eaa54bae4e2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div.searchBar___PNjiu > div:nth-child(1) > div > div > span.ant-select-selection-item\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598602368751,
+        "stop" : 1598602416881,
+        "duration" : 48130
+      }
+    }, {
+      "uid" : "b03d3848d4ac138e",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1598602187782,
+        "stop" : 1598602202433,
+        "duration" : 14651
+      }
+    }, {
+      "uid" : "ff611b8b2082bd0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#userName\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598602089340,
+        "stop" : 1598602140531,
+        "duration" : 51191
+      }
+    }, {
+      "uid" : "11dd697ac3dc2858",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1598601946760,
+        "stop" : 1598601988883,
+        "duration" : 42123
+      }
+    }, {
+      "uid" : "b8aa2117709fc2eb",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1598601427500,
+        "stop" : 1598601469661,
+        "duration" : 42161
+      }
+    }, {
+      "uid" : "922b247133fecfc7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1598601049932,
+        "stop" : 1598601092794,
+        "duration" : 42862
+      }
+    }, {
+      "uid" : "b19c39ea26906292",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button class=\"btn-primary debt-btn___R2Z6c\">...</button> is not clickable at point (1423, 189). Other element would receive the click: <div class=\"ant-spin ant-spin-spinning\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598600819610,
+        "stop" : 1598600831394,
+        "duration" : 11784
+      }
+    }, {
+      "uid" : "db1cbea3646e04f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598597079729,
+        "stop" : 1598597127883,
+        "duration" : 48154
+      }
+    }, {
+      "uid" : "53a7fcc543021627",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598595809163,
+        "stop" : 1598595875068,
+        "duration" : 65905
+      }
+    }, {
+      "uid" : "5199aeb75a3dc276",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598595584602,
+        "stop" : 1598595627601,
+        "duration" : 42999
+      }
+    }, {
+      "uid" : "74986aaf3543d84b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598594897112,
+        "stop" : 1598594922565,
+        "duration" : 25453
+      }
+    }, {
+      "uid" : "c179e90518c9e080",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598594794823,
+        "stop" : 1598594818924,
+        "duration" : 24101
+      }
+    }, {
+      "uid" : "8c5671041081d7ca",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div role=\"tab\" aria-disabled=\"false\" aria-selected=\"false\" class=\" ant-tabs-tab\">...</div> is not clickable at point (1754, 475). Other element would receive the click: <div class=\"ant-tabs-nav-scroll\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598594484166,
+        "stop" : 1598594514652,
+        "duration" : 30486
+      }
+    }, {
+      "uid" : "f178cec1f6b16b79",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"#!\" class=\"btn___3OHHg\">...</a> is not clickable at point (332, 530). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598594361210,
+        "stop" : 1598594382883,
+        "duration" : 21673
+      }
+    }, {
+      "uid" : "4352f3c3231aaa1f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"#!\" class=\"btn___3OHHg\">...</a> is not clickable at point (332, 530). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598594291062,
+        "stop" : 1598594311747,
+        "duration" : 20685
+      }
+    }, {
+      "uid" : "514d8e4517037d67",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"#!\" class=\"btn___3OHHg\">...</a> is not clickable at point (332, 530). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598594023970,
+        "stop" : 1598594048140,
+        "duration" : 24170
+      }
+    }, {
+      "uid" : "90b82d3b455cfe8b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(7) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > form > div:nth-child(3) > div > div > div.ant-col.ant-col-17.ant-form-item-control-wrapper > div > span > textarea\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598593876186,
+        "stop" : 1598593913775,
+        "duration" : 37589
+      }
+    }, {
+      "uid" : "edd8b2b587f28d1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(7) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > form > div:nth-child(3) > div > div > div.ant-col.ant-col-17.ant-form-item-control-wrapper > div > span > textarea\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598593776637,
+        "stop" : 1598593831760,
+        "duration" : 55123
+      }
+    }, {
+      "uid" : "47ab1ed692d7bac0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(7) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > form > div:nth-child(3) > div > div > div.ant-col.ant-col-17.ant-form-item-control-wrapper > div > span > textarea\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598593695344,
+        "stop" : 1598593747333,
+        "duration" : 51989
+      }
+    }, {
+      "uid" : "d8c4f08bf4e5d07a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598593553444,
+        "stop" : 1598593631228,
+        "duration" : 77784
+      }
+    }, {
+      "uid" : "a5346e771650cef",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'clear'",
+      "time" : {
+        "start" : 1598593037168,
+        "stop" : 1598593085926,
+        "duration" : 48758
+      }
+    }, {
+      "uid" : "7103d3a967ae7680",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"#!\" class=\"btn___3OHHg\">...</a> is not clickable at point (332, 530). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598592742037,
+        "stop" : 1598592768424,
+        "duration" : 26387
+      }
+    }, {
+      "uid" : "d38c84504767f651",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598590195325,
+        "stop" : 1598590212320,
+        "duration" : 16995
+      }
+    }, {
+      "uid" : "75e44c01e5a3ae04",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1598584195864,
+        "stop" : 1598584241403,
+        "duration" : 45539
+      }
+    }, {
+      "uid" : "340c63976cce64a7",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1598583184926,
+        "stop" : 1598583206612,
+        "duration" : 21686
+      }
+    }, {
+      "uid" : "950acd6cdc077d25",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1598582904440,
+        "stop" : 1598582945156,
+        "duration" : 40716
+      }
+    }, {
+      "uid" : "a7189368b2c08ba6",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Object of type path_Tripartite_interaction is not JSON serializable",
+      "time" : {
+        "start" : 1598582607306,
+        "stop" : 1598582629846,
+        "duration" : 22540
+      }
+    }, {
+      "uid" : "e51944d37bb18bc8",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Object of type path_Tripartite_interaction is not JSON serializable",
+      "time" : {
+        "start" : 1598582521629,
+        "stop" : 1598582544097,
+        "duration" : 22468
+      }
+    }, {
+      "uid" : "be13799813856dd7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598582461984,
+        "stop" : 1598582500344,
+        "duration" : 38360
+      }
+    }, {
+      "uid" : "d60c799b2a781976",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Object of type path_Tripartite_interaction is not JSON serializable",
+      "time" : {
+        "start" : 1598582335899,
+        "stop" : 1598582350849,
+        "duration" : 14950
+      }
+    }, {
+      "uid" : "b6933f4e580f8553",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1598582151285,
+        "stop" : 1598582182232,
+        "duration" : 30947
+      }
+    }, {
+      "uid" : "37da8a624ae70c8e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Object of type path_Tripartite_interaction is not JSON serializable",
+      "time" : {
+        "start" : 1598582013335,
+        "stop" : 1598582123952,
+        "duration" : 110617
+      }
+    }, {
+      "uid" : "c9528f73584d5397",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Object of type path_Tripartite_interaction is not JSON serializable",
+      "time" : {
+        "start" : 1598581829903,
+        "stop" : 1598581840172,
+        "duration" : 10269
+      }
+    }, {
+      "uid" : "c7dc2259cfde3b5",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Object of type path_Tripartite_interaction is not JSON serializable",
+      "time" : {
+        "start" : 1598581690273,
+        "stop" : 1598581706431,
+        "duration" : 16158
+      }
+    }, {
+      "uid" : "9ede2ca499d645d",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Object of type path_Tripartite_interaction is not JSON serializable",
+      "time" : {
+        "start" : 1598581543383,
+        "stop" : 1598581553619,
+        "duration" : 10236
+      }
+    }, {
+      "uid" : "b3229a43e33af083",
+      "status" : "broken",
+      "statusDetails" : "TypeError: waitUntilClick() missing 1 required positional argument: 'ByCss'",
+      "time" : {
+        "start" : 1598581318001,
+        "stop" : 1598581328323,
+        "duration" : 10322
+      }
+    }, {
+      "uid" : "b3742f328fe5a000",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Object of type path_Tripartite_interaction is not JSON serializable",
+      "time" : {
+        "start" : 1598581063284,
+        "stop" : 1598581085520,
+        "duration" : 22236
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=5)" ]
+  },
+  "source" : "b91adedd14818ff7.json",
+  "parameterValues" : [ ]
+}

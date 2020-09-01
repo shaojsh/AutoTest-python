@@ -1,0 +1,92 @@
+{
+  "uid" : "259d55aa8bfd665e",
+  "name" : "test_companyRegister",
+  "fullName" : "test_flow.test_Authentication.test_login#test_companyRegister",
+  "historyId" : "dd0646a5c1a798e47c4f25747509dea9",
+  "time" : {
+    "start" : 1598590063463,
+    "stop" : 1598590079645,
+    "duration" : 16182
+  },
+  "description" : "测试 http://10.10.128.152:10053/user/register 中小微企业注册流程",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/user/register 中小微企业注册流程</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/user/register 中小微企业注册流程",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "836f818999e67cfc",
+      "name" : "log",
+      "source" : "836f818999e67cfc.txt",
+      "type" : "text/plain",
+      "size" : 437
+    }, {
+      "uid" : "c70c9ecb34619889",
+      "name" : "stdout",
+      "source" : "c70c9ecb34619889.txt",
+      "type" : "text/plain",
+      "size" : 333
+    }, {
+      "uid" : "a4598aab00ea8a8c",
+      "name" : "stderr",
+      "source" : "a4598aab00ea8a8c.txt",
+      "type" : "text/plain",
+      "size" : 618
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "11724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "注册 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/user/register",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "259d55aa8bfd665e.json",
+  "parameterValues" : [ ]
+}

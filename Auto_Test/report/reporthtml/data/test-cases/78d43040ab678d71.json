@@ -1,0 +1,90 @@
+{
+  "uid" : "78d43040ab678d71",
+  "name" : "test_backStage_authentication",
+  "fullName" : "test_flow.test_backStage_Authentication.test_backStage_authentication#test_backStage_authentication",
+  "historyId" : "0a7cf6322a2f92e01070570b73399db9",
+  "time" : {
+    "start" : 1597048383380,
+    "stop" : 1597048401200,
+    "duration" : 17820
+  },
+  "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台认证",
+  "descriptionHtml" : "<p>http://10.10.128.152:10052/#/authority/mechanism 后台认证</p>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'WebDriver' object has no attribute 'ActionChains'",
+  "statusTrace" : ">   ???\n\ntest_flow\\test_backStage_Authentication\\test_backStage_authentication.py:39: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"706942db555a8c68c166833751c8f6e6\")>\nelement = <selenium.webdriver.remote.webelement.WebElement (session=\"706942db555a8c68c166833751c8f6e6\", element=\"0.636581715306382-3\")>\n\n    def actionChainsClick(driver, element):\n>       driver.ActionChains(driver).move_to_element(element).click(element).perform()\nE       AttributeError: 'WebDriver' object has no attribute 'ActionChains'\n\ncommon\\BaseFunction.py:30: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台认证",
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'WebDriver' object has no attribute 'ActionChains'",
+    "statusTrace" : ">   ???\n\ntest_flow\\test_backStage_Authentication\\test_backStage_authentication.py:39: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"706942db555a8c68c166833751c8f6e6\")>\nelement = <selenium.webdriver.remote.webelement.WebElement (session=\"706942db555a8c68c166833751c8f6e6\", element=\"0.636581715306382-3\")>\n\n    def actionChainsClick(driver, element):\n>       driver.ActionChains(driver).move_to_element(element).click(element).perform()\nE       AttributeError: 'WebDriver' object has no attribute 'ActionChains'\n\ncommon\\BaseFunction.py:30: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "99a97f118638791",
+      "name" : "log",
+      "source" : "99a97f118638791.txt",
+      "type" : "text/plain",
+      "size" : 378
+    }, {
+      "uid" : "922fc41200a27eb2",
+      "name" : "stderr",
+      "source" : "922fc41200a27eb2.txt",
+      "type" : "text/plain",
+      "size" : 514
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=-1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_backStage_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_backStage_authentication"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "11864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_backStage_Authentication.test_backStage_authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "后台认证 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/authority/mechanism",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=-1)" ]
+  },
+  "source" : "78d43040ab678d71.json",
+  "parameterValues" : [ ]
+}

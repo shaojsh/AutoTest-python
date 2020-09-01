@@ -1,0 +1,92 @@
+{
+  "uid" : "5776d5aff14bd88e",
+  "name" : "test_infoReg",
+  "fullName" : "test_flow.test_Authentication.test_personalInfoReg#test_infoReg",
+  "historyId" : "28dda5313ff182aeade3becf47df4372",
+  "time" : {
+    "start" : 1597392501874,
+    "stop" : 1597392544661,
+    "duration" : 42787
+  },
+  "description" : "测试 http://10.10.128.152:10053/personal/set/certification 个人实名认证",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/personal/set/certification 个人实名认证</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/personal/set/certification 个人实名认证",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fa40240754ef79ec",
+      "name" : "log",
+      "source" : "fa40240754ef79ec.txt",
+      "type" : "text/plain",
+      "size" : 1628
+    }, {
+      "uid" : "e4a384f40f49510",
+      "name" : "stdout",
+      "source" : "e4a384f40f49510.txt",
+      "type" : "text/plain",
+      "size" : 479
+    }, {
+      "uid" : "fef7ba19654ded1e",
+      "name" : "stderr",
+      "source" : "fef7ba19654ded1e.txt",
+      "type" : "text/plain",
+      "size" : 2304
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_personalInfoReg"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "9224-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_personalInfoReg"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "个人实名认证 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/personal/set/certification",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "5776d5aff14bd88e.json",
+  "parameterValues" : [ ]
+}

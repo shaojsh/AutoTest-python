@@ -1,0 +1,8 @@
+SET SQL_SAFE_UPDATES = 0;
+DELETE FROM `chengtay-zcd`.enterprise where enterprise.id = ( select b.enterpriseId FROM `chengtay-zcd`.enterprise_account b where b.phone = '17621199938');
+DELETE `chengtay-zcd`.enterprise_account FROM `chengtay-zcd`.enterprise_account WHERE `chengtay-zcd`.enterprise_account.phone = '17621199938';
+()
+()
+()
+Pipeline<ConnectionPool<Connection<host=10.10.128.128,port=6739,db=2>>>
+Pipeline<ConnectionPool<Connection<host=10.10.128.128,port=6739,db=2>>>

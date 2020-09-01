@@ -1,0 +1,643 @@
+{
+  "uid" : "90bb318fa9456281",
+  "name" : "test_backstage_examine",
+  "fullName" : "test_flow.test_Authentication.test_backStage_examine#test_backstage_examine",
+  "historyId" : "fa363551da3b313dda3c470cf52ad218",
+  "time" : {
+    "start" : 1598860116834,
+    "stop" : 1598860135626,
+    "duration" : 18792
+  },
+  "description" : "http://10.10.128.152:10052/#/enterprise/list 企业审核",
+  "descriptionHtml" : "<p>http://10.10.128.152:10052/#/enterprise/list 企业审核</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "http://10.10.128.152:10052/#/enterprise/list 企业审核",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b029af3cb45e0f83",
+      "name" : "log",
+      "source" : "b029af3cb45e0f83.txt",
+      "type" : "text/plain",
+      "size" : 495
+    }, {
+      "uid" : "1f0a15fc4bf3bfc",
+      "name" : "stderr",
+      "source" : "1f0a15fc4bf3bfc.txt",
+      "type" : "text/plain",
+      "size" : 721
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_backStage_examine"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "6600-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_backStage_examine"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "企业审核 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/enterprise/list",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "1689770790d563a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598859788120,
+        "stop" : 1598859806922,
+        "duration" : 18802
+      }
+    }, {
+      "uid" : "d1da58948791017a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598859429207,
+        "stop" : 1598859447972,
+        "duration" : 18765
+      }
+    }, {
+      "uid" : "f0290972bece41ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598859169939,
+        "stop" : 1598859188713,
+        "duration" : 18774
+      }
+    }, {
+      "uid" : "1465c770411af59b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598858948106,
+        "stop" : 1598858966887,
+        "duration" : 18781
+      }
+    }, {
+      "uid" : "9b7c3645973148ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598858655227,
+        "stop" : 1598858674015,
+        "duration" : 18788
+      }
+    }, {
+      "uid" : "13c73eddee19eb0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598858145182,
+        "stop" : 1598858163948,
+        "duration" : 18766
+      }
+    }, {
+      "uid" : "c3e5479b014c6a6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598857851545,
+        "stop" : 1598857870381,
+        "duration" : 18836
+      }
+    }, {
+      "uid" : "acfe601ecd39cad5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598857616305,
+        "stop" : 1598857635087,
+        "duration" : 18782
+      }
+    }, {
+      "uid" : "16a48417de92f9d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598856697379,
+        "stop" : 1598856716182,
+        "duration" : 18803
+      }
+    }, {
+      "uid" : "2daebcf988078bb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598856191173,
+        "stop" : 1598856210128,
+        "duration" : 18955
+      }
+    }, {
+      "uid" : "d27c75774f621f75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598855921715,
+        "stop" : 1598855940550,
+        "duration" : 18835
+      }
+    }, {
+      "uid" : "58a68255ec5f9f0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598855610424,
+        "stop" : 1598855629236,
+        "duration" : 18812
+      }
+    }, {
+      "uid" : "40ab689164c13f8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598855413962,
+        "stop" : 1598855432758,
+        "duration" : 18796
+      }
+    }, {
+      "uid" : "775733361313b356",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598855069018,
+        "stop" : 1598855087860,
+        "duration" : 18842
+      }
+    }, {
+      "uid" : "726b8f04e0d2dc68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598854688379,
+        "stop" : 1598854707156,
+        "duration" : 18777
+      }
+    }, {
+      "uid" : "586b8a7028b28ba4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598854294649,
+        "stop" : 1598854313518,
+        "duration" : 18869
+      }
+    }, {
+      "uid" : "473ef4dd51c5f86a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598602349948,
+        "stop" : 1598602368717,
+        "duration" : 18769
+      }
+    }, {
+      "uid" : "2ac6ada5e54f583c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598601848150,
+        "stop" : 1598601866961,
+        "duration" : 18811
+      }
+    }, {
+      "uid" : "2f263a9187d4deeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598601032114,
+        "stop" : 1598601049903,
+        "duration" : 17789
+      }
+    }, {
+      "uid" : "99bb31586c598c2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598600801722,
+        "stop" : 1598600819581,
+        "duration" : 17859
+      }
+    }, {
+      "uid" : "b96cf2040d3c5028",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598600566669,
+        "stop" : 1598600591271,
+        "duration" : 24602
+      }
+    }, {
+      "uid" : "fc12fba7b7892f08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598596987105,
+        "stop" : 1598597079716,
+        "duration" : 92611
+      }
+    }, {
+      "uid" : "716746413ddba1f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598596649946,
+        "stop" : 1598596667357,
+        "duration" : 17411
+      }
+    }, {
+      "uid" : "56c3fa0253dc89bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598595791802,
+        "stop" : 1598595809134,
+        "duration" : 17332
+      }
+    }, {
+      "uid" : "2fc1bee05790136d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598595569375,
+        "stop" : 1598595584593,
+        "duration" : 15218
+      }
+    }, {
+      "uid" : "a2fc39f29ec05ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598590180059,
+        "stop" : 1598590195313,
+        "duration" : 15254
+      }
+    }, {
+      "uid" : "75a1874795a45210",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598584180521,
+        "stop" : 1598584195854,
+        "duration" : 15333
+      }
+    }, {
+      "uid" : "8fd9cbb6a3b2e5bc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598525820450,
+        "stop" : 1598525835638,
+        "duration" : 15188
+      }
+    }, {
+      "uid" : "ffc52fbfc94dc912",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598525466031,
+        "stop" : 1598525481296,
+        "duration" : 15265
+      }
+    }, {
+      "uid" : "9eefbdf12cda3b61",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598525137915,
+        "stop" : 1598525153005,
+        "duration" : 15090
+      }
+    }, {
+      "uid" : "2654619d9006c344",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598518360998,
+        "stop" : 1598518376260,
+        "duration" : 15262
+      }
+    }, {
+      "uid" : "9bf778fa093f101",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598517777938,
+        "stop" : 1598517795499,
+        "duration" : 17561
+      }
+    }, {
+      "uid" : "14576cf6db626f77",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598515141445,
+        "stop" : 1598515156743,
+        "duration" : 15298
+      }
+    }, {
+      "uid" : "3a0d3a21873b58cb",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597827130282,
+        "stop" : 1597827147975,
+        "duration" : 17693
+      }
+    }, {
+      "uid" : "94077bc211c6bda6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1597826886861,
+        "stop" : 1597826917037,
+        "duration" : 30176
+      }
+    }, {
+      "uid" : "7fb2af4e6c2bf729",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597646739739,
+        "stop" : 1597646757252,
+        "duration" : 17513
+      }
+    }, {
+      "uid" : "175b345bc08e56f7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597451906602,
+        "stop" : 1597451916495,
+        "duration" : 9893
+      }
+    }, {
+      "uid" : "21cb3435f2205c7b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597396718532,
+        "stop" : 1597396728560,
+        "duration" : 10028
+      }
+    }, {
+      "uid" : "d0050bb8a3bad2e5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597391812311,
+        "stop" : 1597391822210,
+        "duration" : 9899
+      }
+    }, {
+      "uid" : "2b0ea8d2ef91cd72",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597327228930,
+        "stop" : 1597327238900,
+        "duration" : 9970
+      }
+    }, {
+      "uid" : "87920f92d6029f2c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597326007200,
+        "stop" : 1597326024926,
+        "duration" : 17726
+      }
+    }, {
+      "uid" : "40a35f549f1a85a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597325917513,
+        "stop" : 1597325927491,
+        "duration" : 9978
+      }
+    }, {
+      "uid" : "6a4661d3f67b5d69",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597325431023,
+        "stop" : 1597325448660,
+        "duration" : 17637
+      }
+    }, {
+      "uid" : "b33e9abc94d4bd6b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597324687281,
+        "stop" : 1597324697185,
+        "duration" : 9904
+      }
+    }, {
+      "uid" : "6f4e3cdd92aaba24",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597324403948,
+        "stop" : 1597324413926,
+        "duration" : 9978
+      }
+    }, {
+      "uid" : "72dd83623546b707",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597318991212,
+        "stop" : 1597319001103,
+        "duration" : 9891
+      }
+    }, {
+      "uid" : "e17cff8ff9508f7f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597318759004,
+        "stop" : 1597318768998,
+        "duration" : 9994
+      }
+    }, {
+      "uid" : "1d42bf671bbde697",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597317022140,
+        "stop" : 1597317039703,
+        "duration" : 17563
+      }
+    }, {
+      "uid" : "fe8997dcc479b218",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597313614549,
+        "stop" : 1597313632071,
+        "duration" : 17522
+      }
+    }, {
+      "uid" : "c1d18ca9a87a6b2d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597312855809,
+        "stop" : 1597312873288,
+        "duration" : 17479
+      }
+    }, {
+      "uid" : "d38b38096792e19a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597305208885,
+        "stop" : 1597305226683,
+        "duration" : 17798
+      }
+    }, {
+      "uid" : "b05f03ab7fd616d0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597304639866,
+        "stop" : 1597304649785,
+        "duration" : 9919
+      }
+    }, {
+      "uid" : "179acece7dc3bfbe",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597304388209,
+        "stop" : 1597304431638,
+        "duration" : 43429
+      }
+    }, {
+      "uid" : "c3d831e327a54644",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597304158034,
+        "stop" : 1597304167902,
+        "duration" : 9868
+      }
+    }, {
+      "uid" : "8667508622a68231",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597303417407,
+        "stop" : 1597303427367,
+        "duration" : 9960
+      }
+    }, {
+      "uid" : "e21e1504fe297d99",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597303267604,
+        "stop" : 1597303277524,
+        "duration" : 9920
+      }
+    }, {
+      "uid" : "a24d94bd9df3ea65",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597303127684,
+        "stop" : 1597303145176,
+        "duration" : 17492
+      }
+    }, {
+      "uid" : "ab091808f3206479",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597302918823,
+        "stop" : 1597302928752,
+        "duration" : 9929
+      }
+    }, {
+      "uid" : "b53bfd2ef48f201a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597297958984,
+        "stop" : 1597297969035,
+        "duration" : 10051
+      }
+    }, {
+      "uid" : "ce9fe055576f3b37",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597217434412,
+        "stop" : 1597217444407,
+        "duration" : 9995
+      }
+    }, {
+      "uid" : "d4b8c344327f18e9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597216819102,
+        "stop" : 1597216828966,
+        "duration" : 9864
+      }
+    }, {
+      "uid" : "d884cb0a5a6757f2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597216395754,
+        "stop" : 1597216405666,
+        "duration" : 9912
+      }
+    }, {
+      "uid" : "c12bc5bd4a1bc333",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597115567061,
+        "stop" : 1597115582392,
+        "duration" : 15331
+      }
+    }, {
+      "uid" : "77f669f3d17fc485",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597115337202,
+        "stop" : 1597115355147,
+        "duration" : 17945
+      }
+    }, {
+      "uid" : "684ac722627fafbe",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597115059968,
+        "stop" : 1597115077443,
+        "duration" : 17475
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=4)" ]
+  },
+  "source" : "90bb318fa9456281.json",
+  "parameterValues" : [ ]
+}

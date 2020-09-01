@@ -1,0 +1,4 @@
+Mon, 31 Aug 2020 17:45:59-run_all_uicase.py-test_Tripartite_interaction.py-[line:59]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Mon, 31 Aug 2020 17:46:09-run_all_uicase.py-test_Tripartite_interaction.py-[line:81]-INFO-[日志信息]: 担保公司审核
+Mon, 31 Aug 2020 17:46:09-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
