@@ -1,45 +1,25 @@
 [ {
-  "uid" : "d1a948fb491c56b3",
-  "name" : "test_businessInforReg",
+  "uid" : "b9d66646e077f6d3",
+  "name" : "test_Tripartite_interaction",
   "time" : {
-    "start" : 1598942992917,
-    "stop" : 1598943042639,
-    "duration" : 49722
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "7b7bb3dc52534bd6",
-  "name" : "test_companyRegister",
-  "time" : {
-    "start" : 1598944950283,
-    "stop" : 1598944965933,
-    "duration" : 15650
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "90bb318fa9456281",
-  "name" : "test_backstage_examine",
-  "time" : {
-    "start" : 1598860116834,
-    "stop" : 1598860135626,
-    "duration" : 18792
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "daf9d2f886c299d8",
-  "name" : "test_backStage_authentication",
-  "time" : {
-    "start" : 1597050302854,
-    "stop" : 1597050326332,
-    "duration" : 23478
+    "start" : 1598953138601,
+    "stop" : 1598953204521,
+    "duration" : 65920
   },
   "status" : "broken",
   "severity" : "blocker"
 }, {
-  "uid" : "44b73acfa9cc3ccb",
+  "uid" : "36a0cf9722f0e798",
+  "name" : "test_infoReg",
+  "time" : {
+    "start" : 1598953025919,
+    "stop" : 1598953071036,
+    "duration" : 45117
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "4218b09e550a8c61",
   "name" : "test_backStage_authentication",
   "time" : {
     "start" : 1598525481305,
@@ -49,27 +29,47 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "4ac9aa0fcfaf1c1d",
-  "name" : "test_infoReg",
+  "uid" : "d279a18784db02d7",
+  "name" : "test_backstage_examine",
   "time" : {
-    "start" : 1598942930809,
-    "stop" : 1598942992907,
-    "duration" : 62098
+    "start" : 1598953119718,
+    "stop" : 1598953138591,
+    "duration" : 18873
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "b91adedd14818ff7",
-  "name" : "test_Tripartite_interaction",
+  "uid" : "c909526b66d54c2a",
+  "name" : "test_companyRegister",
   "time" : {
-    "start" : 1598952378758,
-    "stop" : 1598952397590,
-    "duration" : 18832
+    "start" : 1598953010193,
+    "stop" : 1598953025909,
+    "duration" : 15716
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "2b6c7bf19baf3e6",
+  "uid" : "dfae8a8adbd36f66",
+  "name" : "test_backStage_authentication",
+  "time" : {
+    "start" : 1597050302854,
+    "stop" : 1597050326332,
+    "duration" : 23478
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "cc3a073a978aef25",
+  "name" : "test_companyPassForget",
+  "time" : {
+    "start" : 1598525510002,
+    "stop" : 1598525528223,
+    "duration" : 18221
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d535ac12ee048b1",
   "name" : "test_companyLoginOn",
   "time" : {
     "start" : 1598525497574,
@@ -79,13 +79,13 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c12afb935abcf1ff",
-  "name" : "test_companyPassForget",
+  "uid" : "b1d3fb3aa68eac52",
+  "name" : "test_businessInforReg",
   "time" : {
-    "start" : 1598525510002,
-    "stop" : 1598525528223,
-    "duration" : 18221
+    "start" : 1598953071070,
+    "stop" : 1598953119690,
+    "duration" : 48620
   },
   "status" : "passed",
-  "severity" : "normal"
+  "severity" : "blocker"
 } ]

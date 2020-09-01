@@ -1,0 +1,86 @@
+{
+  "uid" : "82284d44ada1c914",
+  "name" : "test_backStage_authentication",
+  "fullName" : "test_flow.test_backStage_Authentication.test_backStage_authentication#test_backStage_authentication",
+  "historyId" : "0a7cf6322a2f92e01070570b73399db9",
+  "time" : {
+    "start" : 1597048571233,
+    "stop" : 1597048596942,
+    "duration" : 25709
+  },
+  "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台认证",
+  "descriptionHtml" : "<p>http://10.10.128.152:10052/#/authority/mechanism 后台认证</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台认证",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "11b7adc3d67f515c",
+      "name" : "log",
+      "source" : "11b7adc3d67f515c.txt",
+      "type" : "text/plain",
+      "size" : 378
+    }, {
+      "uid" : "adfde0291189f50",
+      "name" : "stderr",
+      "source" : "adfde0291189f50.txt",
+      "type" : "text/plain",
+      "size" : 514
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=-1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_backStage_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_backStage_authentication"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "23232-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_backStage_Authentication.test_backStage_authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "后台认证 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/authority/mechanism",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=-1)" ]
+  },
+  "source" : "82284d44ada1c914.json",
+  "parameterValues" : [ ]
+}

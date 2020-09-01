@@ -1,0 +1,73 @@
+{
+  "uid" : "371eb7528f5b45ef",
+  "name" : "test_companyLoginOn",
+  "fullName" : "test_flow.test_Authentication.test_login#test_companyLoginOn",
+  "historyId" : "68de281c9c68e708f61f0f8788ed34b7",
+  "time" : {
+    "start" : 1597451916542,
+    "stop" : 1597451928852,
+    "duration" : 12310
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2bdf60d512ae68db",
+      "name" : "log",
+      "source" : "2bdf60d512ae68db.txt",
+      "type" : "text/plain",
+      "size" : 303
+    }, {
+      "uid" : "318f2659ab78ef22",
+      "name" : "stderr",
+      "source" : "318f2659ab78ef22.txt",
+      "type" : "text/plain",
+      "size" : 439
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "8720-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "371eb7528f5b45ef.json",
+  "parameterValues" : [ ]
+}

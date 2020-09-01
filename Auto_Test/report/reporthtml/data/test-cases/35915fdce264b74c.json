@@ -1,0 +1,86 @@
+{
+  "uid" : "35915fdce264b74c",
+  "name" : "test_companyLoginOn",
+  "fullName" : "test_flow.test_Authentication.test_login#test_companyLoginOn",
+  "historyId" : "68de281c9c68e708f61f0f8788ed34b7",
+  "time" : {
+    "start" : 1597317039806,
+    "stop" : 1597317052153,
+    "duration" : 12347
+  },
+  "description" : "测试 http://10.10.128.152:10053/user/login 中小微企业登录流程",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/user/login 中小微企业登录流程</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/user/login 中小微企业登录流程",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9b20f5469096c1f5",
+      "name" : "log",
+      "source" : "9b20f5469096c1f5.txt",
+      "type" : "text/plain",
+      "size" : 303
+    }, {
+      "uid" : "425fd21da4268bfe",
+      "name" : "stderr",
+      "source" : "425fd21da4268bfe.txt",
+      "type" : "text/plain",
+      "size" : 439
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=-1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "17336-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "loginOn \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/user/login 中小微企业登录流程",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=-1)" ]
+  },
+  "source" : "35915fdce264b74c.json",
+  "parameterValues" : [ ]
+}

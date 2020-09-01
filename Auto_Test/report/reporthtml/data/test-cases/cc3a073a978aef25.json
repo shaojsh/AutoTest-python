@@ -1,0 +1,197 @@
+{
+  "uid" : "cc3a073a978aef25",
+  "name" : "test_companyPassForget",
+  "fullName" : "test_flow.test_Authentication.test_login#test_companyPassForget",
+  "historyId" : "acb9067300dee3cf493bfb42da37b2a5",
+  "time" : {
+    "start" : 1598525510002,
+    "stop" : 1598525528223,
+    "duration" : 18221
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a1ac993fcb37a170",
+      "name" : "log",
+      "source" : "a1ac993fcb37a170.txt",
+      "type" : "text/plain",
+      "size" : 522
+    }, {
+      "uid" : "cf95e97bdab8157d",
+      "name" : "stdout",
+      "source" : "cf95e97bdab8157d.txt",
+      "type" : "text/plain",
+      "size" : 144
+    }, {
+      "uid" : "68af3a28df57f09",
+      "name" : "stderr",
+      "source" : "68af3a28df57f09.txt",
+      "type" : "text/plain",
+      "size" : 748
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "8236-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d7ef1ac3dc14bf5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598518390809,
+        "stop" : 1598518409142,
+        "duration" : 18333
+      }
+    }, {
+      "uid" : "646838f160b97223",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1598517813470,
+        "stop" : 1598517831113,
+        "duration" : 17643
+      }
+    }, {
+      "uid" : "fb18c05e628553ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597826929396,
+        "stop" : 1597826947580,
+        "duration" : 18184
+      }
+    }, {
+      "uid" : "b6978b824a96e2db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597451928875,
+        "stop" : 1597451947056,
+        "duration" : 18181
+      }
+    }, {
+      "uid" : "475929ac1dacbd29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597391834770,
+        "stop" : 1597391852528,
+        "duration" : 17758
+      }
+    }, {
+      "uid" : "22f7180dd588dbe7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597327253540,
+        "stop" : 1597327271848,
+        "duration" : 18308
+      }
+    }, {
+      "uid" : "9b1338f9bc058ce9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597325466738,
+        "stop" : 1597325484963,
+        "duration" : 18225
+      }
+    }, {
+      "uid" : "4b4ccb1f1f2bbf4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597324709859,
+        "stop" : 1597324728162,
+        "duration" : 18303
+      }
+    }, {
+      "uid" : "12cbac6c9c91ef15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597318783557,
+        "stop" : 1597318801858,
+        "duration" : 18301
+      }
+    }, {
+      "uid" : "280f5640f16c3005",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1597313650083,
+        "stop" : 1597313693489,
+        "duration" : 43406
+      }
+    }, {
+      "uid" : "760a1fda49f2354f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1597216846521,
+        "stop" : 1597216889543,
+        "duration" : 43022
+      }
+    }, {
+      "uid" : "e917a43de8362d8",
+      "status" : "broken",
+      "statusDetails" : "redis.exceptions.ResponseError: invalid DB index",
+      "time" : {
+        "start" : 1597216420312,
+        "stop" : 1597216442458,
+        "duration" : 22146
+      }
+    }, {
+      "uid" : "44736e799099ec1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597115597983,
+        "stop" : 1597115625927,
+        "duration" : 27944
+      }
+    }, {
+      "uid" : "535b7ebb792b8cbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597115369639,
+        "stop" : 1597115397421,
+        "duration" : 27782
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc3a073a978aef25.json",
+  "parameterValues" : [ ]
+}
