@@ -1,7 +1,0 @@
-Tue, 01 Sep 2020 17:22:11-run_all_uicase.py-test_Tripartite_interaction.py-[line:125]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
-
-Tue, 01 Sep 2020 17:22:21-run_all_uicase.py-test_Tripartite_interaction.py-[line:139]-INFO-[日志信息]: 银行授信审核
-Tue, 01 Sep 2020 17:22:26-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
-Tue, 01 Sep 2020 17:22:26-run_all_uicase.py-test_Tripartite_interaction.py-[line:104]-INFO-[日志信息]: 银行还款审核首页
-Tue, 01 Sep 2020 17:22:39-run_all_uicase.py-test_Tripartite_interaction.py-[line:109]-INFO-[日志信息]: 银行还款审核列表
-Tue, 01 Sep 2020 17:22:42-run_all_uicase.py-test_Tripartite_interaction.py-[line:113]-INFO-[日志信息]: 银行还款审核

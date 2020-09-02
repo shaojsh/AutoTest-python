@@ -1,7 +1,0 @@
-INFO     run_all_uicase.py:test_Tripartite_interaction.py:43 开始执行脚本test_Tripartite_interaction:
-
-INFO     run_all_uicase.py:test_Tripartite_interaction.py:64 担保公司审核
-INFO     run_all_uicase.py:test_backStage_examine.py:70 成功登录后台系统
-INFO     run_all_uicase.py:test_Tripartite_interaction.py:277 担保公司借款审核首页
-INFO     run_all_uicase.py:test_Tripartite_interaction.py:283 担保公司借款审核列表首页
-INFO     run_all_uicase.py:test_Tripartite_interaction.py:287 担保公司审核页面

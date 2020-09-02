@@ -1,4 +1,0 @@
-INFO     run_all_uicase.py:test_Tripartite_interaction.py:58 开始执行脚本test_Tripartite_interaction:
-
-INFO     run_all_uicase.py:test_Tripartite_interaction.py:80 担保公司审核
-INFO     run_all_uicase.py:test_backStage_examine.py:70 成功登录后台系统

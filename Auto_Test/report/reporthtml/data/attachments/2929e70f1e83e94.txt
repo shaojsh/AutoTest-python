@@ -1,3 +1,0 @@
-INFO     run_all_uicase.py:test_Tripartite_interaction.py:36 开始执行脚本test_Tripartite_interaction:
-
-INFO     run_all_uicase.py:test_Tripartite_interaction.py:42 前端账户登录授信申请

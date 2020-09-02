@@ -1,4 +1,0 @@
-Tue, 11 Aug 2020 11:13:02-run_all_uicase.py-test_login.py-[line:26]-INFO-[日志信息]: 开始执行脚本test_companyLoginOn:
-
-Tue, 11 Aug 2020 11:13:15-test_companyLoginOn-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
-Tue, 11 Aug 2020 11:13:15-run_all_uicase.py-test_login.py-[line:40]-INFO-[日志信息]: 中小微企业金融服务聚合平台登录成功！

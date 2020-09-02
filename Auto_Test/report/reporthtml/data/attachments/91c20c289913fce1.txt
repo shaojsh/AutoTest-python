@@ -1,7 +1,0 @@
-Fri, 28 Aug 2020 11:09:40-run_all_uicase.py-test_backStage_examine.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
-
-Fri, 28 Aug 2020 11:09:51-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 财金通企业后台管理系统, actul_result is 财金通企业后台管理系统
-Fri, 28 Aug 2020 11:09:51-run_all_uicase.py-test_backStage_examine.py-[line:69]-INFO-[日志信息]: 成功登录后台系统
-Fri, 28 Aug 2020 11:09:55-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
-Fri, 28 Aug 2020 11:09:55-run_all_uicase.py-test_backStage_examine.py-[line:51]-INFO-[日志信息]: 成功进入企业信息审核画面
-Fri, 28 Aug 2020 11:09:55-run_all_uicase.py-test_backStage_examine.py-[line:57]-INFO-[日志信息]: 企业认证通过

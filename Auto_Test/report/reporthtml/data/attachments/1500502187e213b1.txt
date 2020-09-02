@@ -1,6 +1,0 @@
-INFO     run_all_uicase.py:test_Tripartite_interaction.py:35 开始执行脚本test_Tripartite_interaction:
-
-INFO     run_all_uicase.py:test_Tripartite_interaction.py:41 前端账户登录授信申请
-INFO     run_all_uicase.py:test_Tripartite_interaction.py:48 银行授信审核
-INFO     run_all_uicase.py:test_backStage_examine.py:69 成功登录后台系统
-INFO     run_all_uicase.py:test_Tripartite_interaction.py:118 银行授信审核首页

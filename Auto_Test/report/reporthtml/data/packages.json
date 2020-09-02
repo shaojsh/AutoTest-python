@@ -4,78 +4,18 @@
   "children" : [ {
     "name" : "test_flow",
     "children" : [ {
-      "name" : "test_backStage_Authentication.test_backStage_authentication",
-      "children" : [ {
-        "name" : "test_backStage_authentication",
-        "uid" : "dfae8a8adbd36f66",
-        "parentUid" : "8d132802b76053769a1663dffe792e56",
-        "status" : "broken",
-        "time" : {
-          "start" : 1597050302854,
-          "stop" : 1597050326332,
-          "duration" : 23478
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "test_backStage_Authentication.test_backStage_authentication"
-    }, {
       "name" : "test_Authentication",
       "children" : [ {
-        "name" : "test_backStage_authentication",
-        "children" : [ {
-          "name" : "test_backStage_authentication",
-          "uid" : "4218b09e550a8c61",
-          "parentUid" : "c163f10019ac41b74314d1d8c5868921",
-          "status" : "broken",
-          "time" : {
-            "start" : 1598525481305,
-            "stop" : 1598525497437,
-            "duration" : 16132
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "c163f10019ac41b74314d1d8c5868921"
-      }, {
         "name" : "test_login",
         "children" : [ {
-          "name" : "test_companyLoginOn",
-          "uid" : "9d535ac12ee048b1",
-          "parentUid" : "52f748462e260dd58e76f0876ce6ebf0",
-          "status" : "passed",
-          "time" : {
-            "start" : 1598525497574,
-            "stop" : 1598525509973,
-            "duration" : 12399
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_companyPassForget",
-          "uid" : "cc3a073a978aef25",
-          "parentUid" : "52f748462e260dd58e76f0876ce6ebf0",
-          "status" : "passed",
-          "time" : {
-            "start" : 1598525510002,
-            "stop" : 1598525528223,
-            "duration" : 18221
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
           "name" : "test_companyRegister",
-          "uid" : "c909526b66d54c2a",
+          "uid" : "c61a700301a448f4",
           "parentUid" : "52f748462e260dd58e76f0876ce6ebf0",
           "status" : "passed",
           "time" : {
-            "start" : 1598953010193,
-            "stop" : 1598953025909,
-            "duration" : 15716
+            "start" : 1599036347120,
+            "stop" : 1599036362905,
+            "duration" : 15785
           },
           "flaky" : false,
           "newFailed" : false,
@@ -86,13 +26,13 @@
         "name" : "test_personalInfoReg",
         "children" : [ {
           "name" : "test_infoReg",
-          "uid" : "36a0cf9722f0e798",
+          "uid" : "5bcc6b117b51761",
           "parentUid" : "27331f685325300f09872e2bd4c8d50e",
           "status" : "passed",
           "time" : {
-            "start" : 1598953025919,
-            "stop" : 1598953071036,
-            "duration" : 45117
+            "start" : 1599036362936,
+            "stop" : 1599036408709,
+            "duration" : 45773
           },
           "flaky" : false,
           "newFailed" : false,
@@ -103,13 +43,13 @@
         "name" : "test_businessInfoReg",
         "children" : [ {
           "name" : "test_businessInforReg",
-          "uid" : "b1d3fb3aa68eac52",
+          "uid" : "83fe3c505a1ad072",
           "parentUid" : "ae2bb0a936914ac34c2dc8b4a1bf9d3c",
           "status" : "passed",
           "time" : {
-            "start" : 1598953071070,
-            "stop" : 1598953119690,
-            "duration" : 48620
+            "start" : 1599036408709,
+            "stop" : 1599036454395,
+            "duration" : 45686
           },
           "flaky" : false,
           "newFailed" : false,
@@ -120,13 +60,13 @@
         "name" : "test_backStage_examine",
         "children" : [ {
           "name" : "test_backstage_examine",
-          "uid" : "d279a18784db02d7",
+          "uid" : "4f72913df8e2a89b",
           "parentUid" : "4b9d4eeb8dd63340170e27b6a8fb3bec",
           "status" : "passed",
           "time" : {
-            "start" : 1598953119718,
-            "stop" : 1598953138591,
-            "duration" : 18873
+            "start" : 1599036454412,
+            "stop" : 1599036473316,
+            "duration" : 18904
           },
           "flaky" : false,
           "newFailed" : false,
@@ -139,13 +79,13 @@
       "name" : "test_Tripartite_interaction.test_Tripartite_interaction",
       "children" : [ {
         "name" : "test_Tripartite_interaction",
-        "uid" : "b9d66646e077f6d3",
+        "uid" : "a456d7bc1a5a09fa",
         "parentUid" : "4c419258d555f598b82e44e80e3b608c",
-        "status" : "broken",
+        "status" : "passed",
         "time" : {
-          "start" : 1598953138601,
-          "stop" : 1598953204521,
-          "duration" : 65920
+          "start" : 1599036473316,
+          "stop" : 1599036585407,
+          "duration" : 112091
         },
         "flaky" : false,
         "newFailed" : false,

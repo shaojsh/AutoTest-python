@@ -1,1 +1,0 @@
-INFO     run_all_uicase.py:test_login.py:48 开始执行脚本test_companyRegister:

@@ -1,0 +1,5 @@
+INFO     run_all_uicase.py:test_backStage_examine.py:23 开始执行脚本test_backstage_examine:
+
+INFO     run_all_uicase.py:test_backStage_examine.py:71 成功登录后台系统
+INFO     test_backstage_examine:Assert.py:123 except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+INFO     run_all_uicase.py:test_backStage_examine.py:53 成功进入企业信息审核画面

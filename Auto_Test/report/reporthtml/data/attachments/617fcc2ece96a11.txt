@@ -1,8 +1,0 @@
-INFO     run_all_uicase.py:test_Tripartite_interaction.py:38 开始执行脚本test_Tripartite_interaction:
-
-INFO     run_all_uicase.py:test_Tripartite_interaction.py:44 前端账户登录授信申请
-INFO     run_all_uicase.py:test_Tripartite_interaction.py:71 进入到前端首页
-INFO     run_all_uicase.py:test_Tripartite_interaction.py:74 进入到前端进入产品选择首页
-INFO     run_all_uicase.py:test_Tripartite_interaction.py:78 进入到前端进入产品详情页
-INFO     run_all_uicase.py:test_Tripartite_interaction.py:82 进入到前端进入产品借款页
-INFO     run_all_uicase.py:test_Tripartite_interaction.py:87 进入授信采购信息页面
