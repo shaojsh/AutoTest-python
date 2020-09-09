@@ -8,7 +8,6 @@ addressee = 'shaojunshuai@chengtay.com'  # 收件人邮箱列表
 cc = '2319898127@qq.com'
 mail_path = project_path+'Auto_Test\\report\\reporthtml\\index.html'
 
-
 class send_email():
     def outlook(self):
         olook = win32.Dispatch("outlook.Application")  # 固定写法

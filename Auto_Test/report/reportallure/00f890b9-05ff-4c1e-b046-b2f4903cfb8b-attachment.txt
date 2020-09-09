@@ -1,0 +1,10 @@
+Thu, 03 Sep 2020 13:13:15-run_all_uicase.py-test_backStage_authentication.py-[line:71]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Thu, 03 Sep 2020 13:13:25-run_all_uicase.py-test_login.py-[line:93]-INFO-[日志信息]: 开始执行脚本companyPassForget:
+
+Thu, 03 Sep 2020 13:13:38-companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 重置密码, actul_result is 重置密码
+Thu, 03 Sep 2020 13:13:38-run_all_uicase.py-test_login.py-[line:122]-INFO-[日志信息]: 成功进入到密码重置页面
+Thu, 03 Sep 2020 13:13:41-companyPassForget-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 完成修改, actul_result is 完成修改
+Thu, 03 Sep 2020 13:13:41-run_all_uicase.py-test_login.py-[line:133]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Thu, 03 Sep 2020 13:13:43-run_all_uicase.py-test_login.py-[line:93]-INFO-[日志信息]: 开始执行脚本companyPassForget:
+

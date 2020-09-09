@@ -5,29 +5,31 @@ from time import sleep
 import allure
 import pytest
 from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
 
 from common import Assert
 from common.BaseFunction import waitUntilDisplay, waitUntilClick
 from common.dbLink import deleteAct, getPhoneMessage
+from flow_path.path_backStage_authentication import path_backStage_authentication
 from flow_path.path_login import loginOn
 from run_all_uicase import yamldict, logger
 
 act = yamldict['test_userlist']['company_user']
 pwd = yamldict['test_userlist']['company_user_pass']
+url_forward = yamldict['test_path_list']['url_ui_forward']
+url_ui_register = yamldict['test_path_list']['url_ui_register']
+url_ui_forget = yamldict['test_path_list']['url_ui_forget']
 
 
-@pytest.mark.run(order=-1)
-@allure.severity("blocker")
-@allure.description("测试 http://10.10.128.152:10053/user/login 中小微企业登录流程")
-@allure.testcase("http://10.10.128.152:10053/user/login 中小微企业登录流程", "loginOn 👇")
-def test_companyLoginOn():
+# 登录
+def companyLoginOn():
     def_name = sys._getframe().f_code.co_name
     test_Assert = Assert.Assertions(def_name)
     logger.info("开始执行脚本%s:\n", def_name)
 
     driver = webdriver.Chrome()
     driver.maximize_window()
-    driver.get("http://10.10.128.152:10053/user/login")
+    driver.get(url_forward)
 
     # 登陆页面
     login(driver)
@@ -52,7 +54,7 @@ def test_companyRegister():
 
     driver = webdriver.Chrome()
     driver.maximize_window()
-    driver.get("http://10.10.128.152:10053/user/register")
+    driver.get(url_ui_register)
     # db中清除已注册的账户
     deleteAct()
     logger.info("对已注册的账户进行删除操作")
@@ -60,15 +62,22 @@ def test_companyRegister():
     waitUntilClick(driver, loginOn.btn_agree_css.value)
     driver.find_element_by_css_selector(loginOn.btn_agree_css.value).click()
 
-    waitUntilDisplay(driver,loginOn.input_act_css.value)
+    waitUntilDisplay(driver, loginOn.input_act_css.value)
     driver.find_element_by_css_selector(loginOn.input_act_css.value).send_keys(act)
     driver.find_element_by_css_selector(loginOn.input_pwd_css.value).send_keys(pwd)
     driver.find_element_by_css_selector(loginOn.input_conPwd_css.value).send_keys(pwd)
     waitUntilClick(driver, loginOn.btn_phoneCode_css.value)
     sleep(2)
     driver.find_element_by_css_selector(loginOn.btn_phoneCode_css.value).click()
-    sleep(10)
-    message = getPhoneMessage().get("regMes")
+
+    while 1:
+        message = getPhoneMessage().get("regMes")
+        if message is None:
+            sleep(0.5)
+            continue
+        else:
+            break
+
     driver.find_element_by_css_selector(loginOn.input_phoneCode_css.value).send_keys(message.strip().strip('"'))
     waitUntilClick(driver, loginOn.btn_agreeReg.value)
     driver.find_element_by_css_selector(loginOn.btn_agreeReg.value).click()
@@ -79,47 +88,46 @@ def test_companyRegister():
     driver.quit()
 
 
-@pytest.mark.run(order=-1)
-@allure.severity("blocker")
-@allure.description("测试 http://10.10.128.152:10053/user/forget 中小微企业密码修改流程")
-@allure.testcase("http://10.10.128.152:10053/user/forget", "密码修改 👇")
-def test_companyPassForget():
-    def_name = sys._getframe().f_code.co_name
-    test_Assert = Assert.Assertions(def_name)
-    logger.info("开始执行脚本%s:\n", def_name)
-
-    driver = webdriver.Chrome()
-    driver.maximize_window()
-    driver.get("http://10.10.128.152:10053/user/forget")
-
-    driver.find_element_by_css_selector(loginOn.input_actForget_css.value).send_keys(act)
+# 修改密码
+def companyPassForget(driver, Act, Type):
+    waitUntilClick(driver, path_backStage_authentication.btn_forPass_css.value)
+    sleep(1)
+    driver.find_element_by_css_selector(path_backStage_authentication.btn_forPass_css.value).click()
+    waitUntilClick(driver, loginOn.btn_next_css.value)
+    sleep(0.5)
+    driver.find_element_by_css_selector(loginOn.input_actForget_css.value).send_keys(Act)
     driver.find_element_by_css_selector(loginOn.input_codeForget_css.value).send_keys(' ')
     waitUntilClick(driver, loginOn.btn_phoneCodeForget_css.value)
-    sleep(2)
+    sleep(0.5)
     driver.find_element_by_css_selector(loginOn.btn_phoneCodeForget_css.value).click()
-    sleep(10)
-    message = getPhoneMessage().get("forgeMes")
-    driver.find_element_by_css_selector(loginOn.input_phoneCodeForget_css.value).send_keys(message.strip().strip('"'))
-
+    while 1:
+        if Type == 1:
+            message = getPhoneMessage().get("actBank")
+        else:
+            message = getPhoneMessage().get("actRisk")
+        if message is None:
+            sleep(1)
+            continue
+        else:
+            break
+    message = message.strip().strip('"')
+    el = driver.find_element_by_css_selector(loginOn.input_phoneCodeForget_css.value)
+    el.send_keys(Keys.LEFT)
+    el.send_keys(message)
+    el.send_keys(Keys.DELETE)
     # 密码重置页面
     waitUntilClick(driver, loginOn.btn_next_css.value)
+    sleep(0.5)
     driver.find_element_by_css_selector(loginOn.btn_next_css.value).click()
-    waitUntilDisplay(driver, loginOn.txt_pwd_css.value)
-    textAct = driver.find_element_by_css_selector(loginOn.txt_pwd_css.value).text
-    test_Assert.assert_text_ui(textAct, '重置密码')
-    logger.info("成功进入到密码重置页面", )
-    driver.find_element_by_css_selector(loginOn.input_pwdForget_css.value).send_keys(pwd)
-    driver.find_element_by_css_selector(loginOn.input_pwdConfirm_css.value).send_keys(pwd)
-    waitUntilClick(driver, loginOn.btn_nextPwd_css.value)
+    waitUntilDisplay(driver, loginOn.btn_nextPwd_css.value)
+    logger.info("成功进入到密码重置页面")
+    sleep(0.5)
+    driver.find_element_by_css_selector(loginOn.input_pwdForget_css.value).send_keys('123456')
+    driver.find_element_by_css_selector(loginOn.input_pwdConfirm_css.value).send_keys('123456')
     driver.find_element_by_css_selector(loginOn.btn_nextPwd_css.value).click()
-
     # 修改完成画面
-    waitUntilDisplay(driver, loginOn.txt_changeOver_css.value)
-    textPwdChangeOver = driver.find_element_by_css_selector(loginOn.txt_changeOver_css.value).text
     sleep(2)
-    test_Assert.assert_text_ui(textPwdChangeOver, '完成修改')
     logger.info("成功进入到密码修改完成页面")
-    driver.quit()
 
 
 def login(driver):

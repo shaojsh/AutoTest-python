@@ -1,0 +1,5 @@
+INFO     run_all_uicase.py:test_backStage_authentication.py:71 开始执行脚本test_backStage_authentication:
+
+INFO     run_all_uicase.py:test_backStage_authentication.py:74 开始执行脚本test_backStage_authentication:
+
+INFO     run_all_uicase.py:test_login.py:123 成功进入到密码重置页面

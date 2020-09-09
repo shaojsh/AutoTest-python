@@ -1,0 +1,15 @@
+INFO     run_all_uicase.py:test_backStage_authentication.py:216 开始执行脚本test_backStage_authentication:
+
+INFO     run_all_uicase.py:test_backStage_authentication.py:219 开始执行脚本test_backStage_authentication:
+
+INFO     run_all_uicase.py:test_login.py:123 成功进入到密码重置页面
+INFO     run_all_uicase.py:test_login.py:130 成功进入到密码修改完成页面
+INFO     run_all_uicase.py:test_login.py:123 成功进入到密码重置页面
+INFO     run_all_uicase.py:test_login.py:130 成功进入到密码修改完成页面
+INFO     run_all_uicase.py:test_backStage_examine.py:73 成功登录后台系统
+INFO     run_all_uicase.py:test_backStage_authentication.py:180 企业信息认证
+INFO     run_all_uicase.py:test_backStage_authentication.py:197 协议内容确认页面
+INFO     run_all_uicase.py:test_backStage_authentication.py:204 二维码认证页面
+WARNING  urllib3.connectionpool:connectionpool.py:751 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000271B5B0FEE0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/28c7db8a803d61ae4ad4d10b7104ea83/element
+WARNING  urllib3.connectionpool:connectionpool.py:751 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000271B5B0F760>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/28c7db8a803d61ae4ad4d10b7104ea83/element
+WARNING  urllib3.connectionpool:connectionpool.py:751 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000271B5B0F250>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/28c7db8a803d61ae4ad4d10b7104ea83/element

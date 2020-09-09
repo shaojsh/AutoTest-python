@@ -19,6 +19,7 @@ from test_flow.test_Authentication.test_login import login
 
 act = yamldict['test_userlist']['company_user']
 pwd = yamldict['test_userlist']['company_user_pass']
+url_forward = yamldict['test_path_list']['url_ui_forward']
 
 
 @pytest.mark.run(order=2)
@@ -26,7 +27,6 @@ pwd = yamldict['test_userlist']['company_user_pass']
 @allure.description("测试 http://10.10.128.152:10053/personal/set/certification 个人实名认证")
 @allure.testcase("http://10.10.128.152:10053/personal/set/certification", "个人实名认证 👇")
 def test_infoReg():
-
     def_name = sys._getframe().f_code.co_name
     test_Assert = Assert.Assertions(def_name)
     logger.info("开始执行脚本%s:\n", def_name)
@@ -37,12 +37,13 @@ def test_infoReg():
 
     driver = webdriver.Chrome()
     driver.maximize_window()
-    driver.get("http://10.10.128.152:10053/user/login")
+    driver.get(url_forward)
 
     # 登陆页面
     login(driver)
 
     waitUntilDisplay(driver, loginOn.link_home_css.value)
+    sleep(1)
     homeText = driver.find_element_by_css_selector(loginOn.link_home_css.value)
 
     test_Assert.assert_text_ui(homeText.text, '首页')
@@ -61,8 +62,13 @@ def test_infoReg():
     BaseFunction.waitUntilClick(driver, path_personalInfoReg.btn_phoneNum_css.value)
     driver.find_element_by_css_selector(path_personalInfoReg.btn_phoneNum_css.value).click()
 
-    sleep(10)
-    message = getPhoneMessage().get("auMes")
+    while 1:
+        message = getPhoneMessage().get("auMes")
+        if message is None:
+            sleep(0.5)
+            continue
+        else:
+            break
     driver.find_element_by_css_selector(path_personalInfoReg.input_phoneNum_css.value).send_keys(
         message.strip().strip('"'))
 
@@ -76,6 +82,7 @@ def test_infoReg():
         picture_dir + pcture_dirTwo)
     BaseFunction.waitUntilDisplay(driver, path_personalInfoReg.btn_uplaodPicture2_css.value)
     waitUntilClick(driver, path_personalInfoReg.btn_aut_css.value)
+    sleep(1)
     driver.find_element_by_css_selector(path_personalInfoReg.btn_aut_css.value).click()
 
     BaseFunction.waitUntilDisplay(driver, path_personalInfoReg.txt_auting_css.value)

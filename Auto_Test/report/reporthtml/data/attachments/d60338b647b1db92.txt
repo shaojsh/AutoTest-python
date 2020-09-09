@@ -1,0 +1,3 @@
+INFO     run_all_uicase.py:test_backStage_authentication.py:34 开始执行脚本test_backStage_authentication:
+
+INFO     run_all_uicase.py:test_backStage_examine.py:71 成功登录后台系统

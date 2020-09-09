@@ -1,0 +1,4 @@
+Thu, 03 Sep 2020 14:50:14-run_all_uicase.py-test_backStage_authentication.py-[line:35]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Thu, 03 Sep 2020 14:50:25-run_all_uicase.py-test_backStage_examine.py-[line:71]-INFO-[日志信息]: 成功登录后台系统
+Thu, 03 Sep 2020 14:50:39-run_all_uicase.py-test_backStage_authentication.py-[line:112]-INFO-[日志信息]: 进入银行账户创建页面

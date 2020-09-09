@@ -1,0 +1,86 @@
+{
+  "uid" : "3f7c28585f0ffa76",
+  "name" : "test_businessInforReg",
+  "fullName" : "test_flow.test_Authentication.test_businessInfoReg#test_businessInforReg",
+  "historyId" : "673c6cf796d54f5cbc2e9852ef4f69c7",
+  "time" : {
+    "start" : 1599035070535,
+    "stop" : 1599035129195,
+    "duration" : 58660
+  },
+  "description" : "测试 http://10.10.128.152:10053/personal/baseinfo 企业认证",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/personal/baseinfo 企业认证</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/personal/baseinfo 企业认证",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c9febec3aa31f76f",
+      "name" : "log",
+      "source" : "c9febec3aa31f76f.txt",
+      "type" : "text/plain",
+      "size" : 1258
+    }, {
+      "uid" : "9a0bb9459cb2e5b8",
+      "name" : "stderr",
+      "source" : "9a0bb9459cb2e5b8.txt",
+      "type" : "text/plain",
+      "size" : 1754
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_businessInfoReg"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "28536-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_businessInfoReg"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "企业认证 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/personal/baseinfo",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "3f7c28585f0ffa76.json",
+  "parameterValues" : [ ]
+}

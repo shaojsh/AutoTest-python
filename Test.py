@@ -12,7 +12,7 @@ mail_path = os.path.join(r'C:\Users\shaojunshuai\PycharmProjects\AutoTest-python
 class send_email():
     def outlook(self):
         olook = win32.Dispatch("outlook.Application")  # 固定写法
-        mail = olook.CreateItem(win32.constants.olMailItem)  # 固定写法
+        mail = olook.CreateItem(0)  # 固定写法
         mail.To = addressee  # 收件人
         mail.CC = cc  # 抄送人
         # mail.Recipients.Add(addressee)

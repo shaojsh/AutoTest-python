@@ -1,25 +1,55 @@
 [ {
-  "uid" : "83fe3c505a1ad072",
+  "uid" : "31e9a042d674f577",
+  "name" : "test_backstage_examine",
+  "time" : {
+    "start" : 1599641191429,
+    "stop" : 1599641210384,
+    "duration" : 18955
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5540447572c7616a",
   "name" : "test_businessInforReg",
   "time" : {
-    "start" : 1599036408709,
-    "stop" : 1599036454395,
-    "duration" : 45686
+    "start" : 1599641131944,
+    "stop" : 1599641191413,
+    "duration" : 59469
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "5bcc6b117b51761",
+  "uid" : "da83e5b71c1df7b",
+  "name" : "test_companyRegister",
+  "time" : {
+    "start" : 1599641068876,
+    "stop" : 1599641085464,
+    "duration" : 16588
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c3de796d71c45f41",
   "name" : "test_infoReg",
   "time" : {
-    "start" : 1599036362936,
-    "stop" : 1599036408709,
-    "duration" : 45773
+    "start" : 1599641085495,
+    "stop" : 1599641131913,
+    "duration" : 46418
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "a456d7bc1a5a09fa",
+  "uid" : "b32ea6fd448024cb",
+  "name" : "test_backStage_authentication",
+  "time" : {
+    "start" : 1599641241897,
+    "stop" : 1599641351976,
+    "duration" : 110079
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "32a62b8ba70a26e3",
   "name" : "test_Tripartite_interaction",
   "time" : {
     "start" : 1599036473316,
@@ -29,22 +59,12 @@
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "c61a700301a448f4",
-  "name" : "test_companyRegister",
+  "uid" : "a8e8ae9bf783f920",
+  "name" : "test_backStageActCreate",
   "time" : {
-    "start" : 1599036347120,
-    "stop" : 1599036362905,
-    "duration" : 15785
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "4f72913df8e2a89b",
-  "name" : "test_backstage_examine",
-  "time" : {
-    "start" : 1599036454412,
-    "stop" : 1599036473316,
-    "duration" : 18904
+    "start" : 1599641210384,
+    "stop" : 1599641241880,
+    "duration" : 31496
   },
   "status" : "passed",
   "severity" : "blocker"

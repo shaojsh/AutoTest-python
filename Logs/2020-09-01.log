@@ -1,0 +1,451 @@
+Tue, 01 Sep 2020 08:41:46-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 08:41:46===================================
+Tue, 01 Sep 2020 08:41:47-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 01 Sep 2020 08:41:57-run_all_uicase.py-test_login.py-[line:55]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Tue, 01 Sep 2020 08:42:01-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Tue, 01 Sep 2020 08:42:01-run_all_uicase.py-test_login.py-[line:82]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Tue, 01 Sep 2020 08:42:04-run_all_uicase.py-test_personalInfoReg.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Tue, 01 Sep 2020 08:42:04-run_all_uicase.py-test_personalInfoReg.py-[line:36]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Tue, 01 Sep 2020 14:48:34-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 14:48:34===================================
+Tue, 01 Sep 2020 14:48:34-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 01 Sep 2020 14:48:45-run_all_uicase.py-test_login.py-[line:55]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Tue, 01 Sep 2020 14:48:48-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Tue, 01 Sep 2020 14:48:48-run_all_uicase.py-test_login.py-[line:82]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Tue, 01 Sep 2020 14:48:50-run_all_uicase.py-test_personalInfoReg.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Tue, 01 Sep 2020 14:48:50-run_all_uicase.py-test_personalInfoReg.py-[line:36]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Tue, 01 Sep 2020 14:49:01-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Tue, 01 Sep 2020 14:49:01-run_all_uicase.py-test_personalInfoReg.py-[line:49]-INFO-[日志信息]: 进入登陆页面
+Tue, 01 Sep 2020 14:49:06-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Tue, 01 Sep 2020 14:49:06-run_all_uicase.py-test_personalInfoReg.py-[line:54]-INFO-[日志信息]: 实名认证画面成功显示
+Tue, 01 Sep 2020 14:49:10-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Tue, 01 Sep 2020 14:49:10-run_all_uicase.py-test_personalInfoReg.py-[line:90]-INFO-[日志信息]: 实名认证中画面显示
+Tue, 01 Sep 2020 14:49:10-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 测试用户, actul_result is 测试用户
+Tue, 01 Sep 2020 14:49:10-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Tue, 01 Sep 2020 14:49:10-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 17621199938, actul_result is 17621199938
+Tue, 01 Sep 2020 14:49:50-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证成功, actul_result is 认证成功
+Tue, 01 Sep 2020 14:49:50-run_all_uicase.py-test_personalInfoReg.py-[line:104]-INFO-[日志信息]: 实名认证成功画面显示
+Tue, 01 Sep 2020 14:49:50-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Tue, 01 Sep 2020 14:49:50-run_all_uicase.py-test_personalInfoReg.py-[line:109]-INFO-[日志信息]: 点击查看认证信息按钮，跳转到实名认证画面
+Tue, 01 Sep 2020 14:49:52-run_all_uicase.py-test_businessInfoReg.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Tue, 01 Sep 2020 14:50:03-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Tue, 01 Sep 2020 14:50:03-run_all_uicase.py-test_businessInfoReg.py-[line:40]-INFO-[日志信息]: 企业基本资料画面正常显示
+Tue, 01 Sep 2020 14:50:10-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 请确认协议内容, actul_result is 请确认协议内容
+Tue, 01 Sep 2020 14:50:10-run_all_uicase.py-test_businessInfoReg.py-[line:98]-INFO-[日志信息]: 协议确认画面正常显示
+Tue, 01 Sep 2020 14:50:16-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Tue, 01 Sep 2020 14:50:16-run_all_uicase.py-test_businessInfoReg.py-[line:108]-INFO-[日志信息]: 企业信息认证中画面正常显示
+Tue, 01 Sep 2020 14:50:40-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 审核中, actul_result is 审核中
+Tue, 01 Sep 2020 14:50:40-run_all_uicase.py-test_businessInfoReg.py-[line:119]-INFO-[日志信息]: 企业信息审核中画面正常显示
+Tue, 01 Sep 2020 14:50:40-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Tue, 01 Sep 2020 14:50:40-run_all_uicase.py-test_businessInfoReg.py-[line:126]-INFO-[日志信息]: 企业基本资料画面正常显示
+Tue, 01 Sep 2020 14:50:42-run_all_uicase.py-test_backStage_examine.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Tue, 01 Sep 2020 14:50:53-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 14:50:58-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Tue, 01 Sep 2020 14:50:58-run_all_uicase.py-test_backStage_examine.py-[line:52]-INFO-[日志信息]: 成功进入企业信息审核画面
+Tue, 01 Sep 2020 14:50:59-run_all_uicase.py-test_backStage_examine.py-[line:58]-INFO-[日志信息]: 企业认证通过
+Tue, 01 Sep 2020 15:22:29-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 15:22:29===================================
+Tue, 01 Sep 2020 15:22:30-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 01 Sep 2020 15:22:40-run_all_uicase.py-test_login.py-[line:55]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Tue, 01 Sep 2020 15:22:43-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Tue, 01 Sep 2020 15:22:43-run_all_uicase.py-test_login.py-[line:82]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Tue, 01 Sep 2020 15:22:45-run_all_uicase.py-test_personalInfoReg.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Tue, 01 Sep 2020 15:22:45-run_all_uicase.py-test_personalInfoReg.py-[line:36]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Tue, 01 Sep 2020 16:03:53-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 16:03:53===================================
+Tue, 01 Sep 2020 16:03:54-run_all_uicase.py-test_Tripartite_interaction.py-[line:65]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 16:04:04-run_all_uicase.py-test_Tripartite_interaction.py-[line:79]-INFO-[日志信息]: 银行授信审核
+Tue, 01 Sep 2020 16:04:04-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 16:04:04-run_all_uicase.py-test_Tripartite_interaction.py-[line:55]-INFO-[日志信息]: 银行放款审核首页
+Tue, 01 Sep 2020 16:22:20-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 16:22:20===================================
+Tue, 01 Sep 2020 16:22:21-run_all_uicase.py-test_Tripartite_interaction.py-[line:87]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 16:22:31-run_all_uicase.py-test_Tripartite_interaction.py-[line:101]-INFO-[日志信息]: 银行授信审核
+Tue, 01 Sep 2020 16:22:36-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 16:22:36-run_all_uicase.py-test_Tripartite_interaction.py-[line:55]-INFO-[日志信息]: 银行放款审核首页
+Tue, 01 Sep 2020 16:23:30-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 16:23:30===================================
+Tue, 01 Sep 2020 16:23:31-run_all_uicase.py-test_Tripartite_interaction.py-[line:87]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 16:23:40-run_all_uicase.py-test_Tripartite_interaction.py-[line:101]-INFO-[日志信息]: 银行授信审核
+Tue, 01 Sep 2020 16:23:41-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 16:23:41-run_all_uicase.py-test_Tripartite_interaction.py-[line:55]-INFO-[日志信息]: 银行放款审核首页
+Tue, 01 Sep 2020 16:24:19-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 16:24:19===================================
+Tue, 01 Sep 2020 16:24:19-run_all_uicase.py-test_Tripartite_interaction.py-[line:87]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 16:24:29-run_all_uicase.py-test_Tripartite_interaction.py-[line:101]-INFO-[日志信息]: 银行授信审核
+Tue, 01 Sep 2020 16:24:30-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 16:24:30-run_all_uicase.py-test_Tripartite_interaction.py-[line:55]-INFO-[日志信息]: 银行放款审核首页
+Tue, 01 Sep 2020 16:25:14-run_all_uicase.py-test_Tripartite_interaction.py-[line:60]-INFO-[日志信息]: 银行放款审核列表
+Tue, 01 Sep 2020 16:25:19-run_all_uicase.py-test_Tripartite_interaction.py-[line:64]-INFO-[日志信息]: 银行放款审核页面
+Tue, 01 Sep 2020 16:28:12-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 16:28:12===================================
+Tue, 01 Sep 2020 16:28:13-run_all_uicase.py-test_Tripartite_interaction.py-[line:86]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 16:28:23-run_all_uicase.py-test_Tripartite_interaction.py-[line:100]-INFO-[日志信息]: 银行授信审核
+Tue, 01 Sep 2020 16:28:24-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 16:28:24-run_all_uicase.py-test_Tripartite_interaction.py-[line:55]-INFO-[日志信息]: 银行放款审核首页
+Tue, 01 Sep 2020 16:28:39-run_all_uicase.py-test_Tripartite_interaction.py-[line:60]-INFO-[日志信息]: 银行放款审核列表
+Tue, 01 Sep 2020 16:28:42-run_all_uicase.py-test_Tripartite_interaction.py-[line:64]-INFO-[日志信息]: 银行放款审核页面
+Tue, 01 Sep 2020 16:29:12-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 16:29:12===================================
+Tue, 01 Sep 2020 16:29:12-run_all_uicase.py-test_Tripartite_interaction.py-[line:86]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 16:29:22-run_all_uicase.py-test_Tripartite_interaction.py-[line:100]-INFO-[日志信息]: 银行授信审核
+Tue, 01 Sep 2020 16:29:23-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 16:29:23-run_all_uicase.py-test_Tripartite_interaction.py-[line:55]-INFO-[日志信息]: 银行放款审核首页
+Tue, 01 Sep 2020 16:29:28-run_all_uicase.py-test_Tripartite_interaction.py-[line:60]-INFO-[日志信息]: 银行放款审核列表
+Tue, 01 Sep 2020 16:29:30-run_all_uicase.py-test_Tripartite_interaction.py-[line:64]-INFO-[日志信息]: 银行放款审核页面
+Tue, 01 Sep 2020 16:30:01-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 16:30:01===================================
+Tue, 01 Sep 2020 16:30:02-run_all_uicase.py-test_Tripartite_interaction.py-[line:86]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 16:30:12-run_all_uicase.py-test_Tripartite_interaction.py-[line:100]-INFO-[日志信息]: 银行授信审核
+Tue, 01 Sep 2020 16:30:12-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 16:30:12-run_all_uicase.py-test_Tripartite_interaction.py-[line:55]-INFO-[日志信息]: 银行放款审核首页
+Tue, 01 Sep 2020 16:30:23-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 16:30:23===================================
+Tue, 01 Sep 2020 16:30:23-run_all_uicase.py-test_Tripartite_interaction.py-[line:86]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 16:30:33-run_all_uicase.py-test_Tripartite_interaction.py-[line:100]-INFO-[日志信息]: 银行授信审核
+Tue, 01 Sep 2020 16:30:34-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 16:30:34-run_all_uicase.py-test_Tripartite_interaction.py-[line:55]-INFO-[日志信息]: 银行放款审核首页
+Tue, 01 Sep 2020 16:30:37-run_all_uicase.py-test_Tripartite_interaction.py-[line:60]-INFO-[日志信息]: 银行放款审核列表
+Tue, 01 Sep 2020 16:30:37-run_all_uicase.py-test_Tripartite_interaction.py-[line:64]-INFO-[日志信息]: 银行放款审核页面
+Tue, 01 Sep 2020 16:31:33-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 16:31:33===================================
+Tue, 01 Sep 2020 16:31:34-run_all_uicase.py-test_Tripartite_interaction.py-[line:86]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 16:31:44-run_all_uicase.py-test_Tripartite_interaction.py-[line:100]-INFO-[日志信息]: 银行授信审核
+Tue, 01 Sep 2020 16:31:44-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 16:31:44-run_all_uicase.py-test_Tripartite_interaction.py-[line:55]-INFO-[日志信息]: 银行放款审核首页
+Tue, 01 Sep 2020 16:31:48-run_all_uicase.py-test_Tripartite_interaction.py-[line:60]-INFO-[日志信息]: 银行放款审核列表
+Tue, 01 Sep 2020 16:31:48-run_all_uicase.py-test_Tripartite_interaction.py-[line:64]-INFO-[日志信息]: 银行放款审核页面
+Tue, 01 Sep 2020 16:32:31-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 16:32:31===================================
+Tue, 01 Sep 2020 16:32:32-run_all_uicase.py-test_Tripartite_interaction.py-[line:86]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 16:32:42-run_all_uicase.py-test_Tripartite_interaction.py-[line:100]-INFO-[日志信息]: 银行授信审核
+Tue, 01 Sep 2020 16:32:43-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 16:32:43-run_all_uicase.py-test_Tripartite_interaction.py-[line:55]-INFO-[日志信息]: 银行放款审核首页
+Tue, 01 Sep 2020 16:32:47-run_all_uicase.py-test_Tripartite_interaction.py-[line:60]-INFO-[日志信息]: 银行放款审核列表
+Tue, 01 Sep 2020 16:32:48-run_all_uicase.py-test_Tripartite_interaction.py-[line:64]-INFO-[日志信息]: 银行放款审核页面
+Tue, 01 Sep 2020 16:34:22-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 16:34:22===================================
+Tue, 01 Sep 2020 16:34:23-run_all_uicase.py-test_Tripartite_interaction.py-[line:84]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 16:34:33-run_all_uicase.py-test_Tripartite_interaction.py-[line:98]-INFO-[日志信息]: 银行授信审核
+Tue, 01 Sep 2020 16:34:34-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 16:34:34-run_all_uicase.py-test_Tripartite_interaction.py-[line:55]-INFO-[日志信息]: 银行放款审核首页
+Tue, 01 Sep 2020 16:34:36-run_all_uicase.py-test_Tripartite_interaction.py-[line:60]-INFO-[日志信息]: 银行放款审核列表
+Tue, 01 Sep 2020 16:34:37-run_all_uicase.py-test_Tripartite_interaction.py-[line:64]-INFO-[日志信息]: 银行放款审核页面
+Tue, 01 Sep 2020 16:37:26-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 16:37:26===================================
+Tue, 01 Sep 2020 16:37:26-run_all_uicase.py-test_Tripartite_interaction.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 16:37:36-run_all_uicase.py-test_Tripartite_interaction.py-[line:99]-INFO-[日志信息]: 银行授信审核
+Tue, 01 Sep 2020 16:37:41-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 16:37:41-run_all_uicase.py-test_Tripartite_interaction.py-[line:55]-INFO-[日志信息]: 银行放款审核首页
+Tue, 01 Sep 2020 16:37:48-run_all_uicase.py-test_Tripartite_interaction.py-[line:60]-INFO-[日志信息]: 银行放款审核列表
+Tue, 01 Sep 2020 16:37:49-run_all_uicase.py-test_Tripartite_interaction.py-[line:64]-INFO-[日志信息]: 银行放款审核页面
+Tue, 01 Sep 2020 16:38:10-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 16:38:10===================================
+Tue, 01 Sep 2020 16:38:10-run_all_uicase.py-test_Tripartite_interaction.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 16:38:20-run_all_uicase.py-test_Tripartite_interaction.py-[line:99]-INFO-[日志信息]: 银行授信审核
+Tue, 01 Sep 2020 16:38:21-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 16:38:21-run_all_uicase.py-test_Tripartite_interaction.py-[line:55]-INFO-[日志信息]: 银行放款审核首页
+Tue, 01 Sep 2020 16:38:24-run_all_uicase.py-test_Tripartite_interaction.py-[line:60]-INFO-[日志信息]: 银行放款审核列表
+Tue, 01 Sep 2020 16:38:25-run_all_uicase.py-test_Tripartite_interaction.py-[line:64]-INFO-[日志信息]: 银行放款审核页面
+Tue, 01 Sep 2020 16:54:59-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 16:54:59===================================
+Tue, 01 Sep 2020 16:54:59-run_all_uicase.py-test_Tripartite_interaction.py-[line:103]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 16:55:09-run_all_uicase.py-test_Tripartite_interaction.py-[line:109]-INFO-[日志信息]: 前端账户登录授信申请
+Tue, 01 Sep 2020 16:55:38-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 16:55:38===================================
+Tue, 01 Sep 2020 16:55:38-run_all_uicase.py-test_Tripartite_interaction.py-[line:103]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 16:55:48-run_all_uicase.py-test_Tripartite_interaction.py-[line:109]-INFO-[日志信息]: 前端账户登录授信申请
+Tue, 01 Sep 2020 16:55:51-run_all_uicase.py-test_Tripartite_interaction.py-[line:386]-INFO-[日志信息]: 进入借款检索一览画面
+Tue, 01 Sep 2020 16:56:16-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 16:56:16===================================
+Tue, 01 Sep 2020 16:56:17-run_all_uicase.py-test_Tripartite_interaction.py-[line:103]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 16:56:27-run_all_uicase.py-test_Tripartite_interaction.py-[line:109]-INFO-[日志信息]: 前端账户登录授信申请
+Tue, 01 Sep 2020 16:56:29-run_all_uicase.py-test_Tripartite_interaction.py-[line:386]-INFO-[日志信息]: 进入借款检索一览画面
+Tue, 01 Sep 2020 16:56:40-run_all_uicase.py-test_Tripartite_interaction.py-[line:83]-INFO-[日志信息]: 还款申请页面
+Tue, 01 Sep 2020 16:57:37-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 16:57:37===================================
+Tue, 01 Sep 2020 16:57:38-run_all_uicase.py-test_Tripartite_interaction.py-[line:104]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 16:57:48-run_all_uicase.py-test_Tripartite_interaction.py-[line:110]-INFO-[日志信息]: 前端账户登录授信申请
+Tue, 01 Sep 2020 16:57:50-run_all_uicase.py-test_Tripartite_interaction.py-[line:387]-INFO-[日志信息]: 进入借款检索一览画面
+Tue, 01 Sep 2020 16:57:54-run_all_uicase.py-test_Tripartite_interaction.py-[line:83]-INFO-[日志信息]: 还款申请页面
+Tue, 01 Sep 2020 16:58:24-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 16:58:24===================================
+Tue, 01 Sep 2020 16:58:25-run_all_uicase.py-test_Tripartite_interaction.py-[line:104]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 16:58:35-run_all_uicase.py-test_Tripartite_interaction.py-[line:110]-INFO-[日志信息]: 前端账户登录授信申请
+Tue, 01 Sep 2020 16:58:38-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 16:58:38===================================
+Tue, 01 Sep 2020 16:58:38-run_all_uicase.py-test_Tripartite_interaction.py-[line:104]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 16:58:48-run_all_uicase.py-test_Tripartite_interaction.py-[line:110]-INFO-[日志信息]: 前端账户登录授信申请
+Tue, 01 Sep 2020 16:58:49-run_all_uicase.py-test_Tripartite_interaction.py-[line:387]-INFO-[日志信息]: 进入借款检索一览画面
+Tue, 01 Sep 2020 16:58:53-run_all_uicase.py-test_Tripartite_interaction.py-[line:83]-INFO-[日志信息]: 还款申请页面
+Tue, 01 Sep 2020 16:59:24-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 16:59:24===================================
+Tue, 01 Sep 2020 16:59:25-run_all_uicase.py-test_Tripartite_interaction.py-[line:104]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 16:59:35-run_all_uicase.py-test_Tripartite_interaction.py-[line:110]-INFO-[日志信息]: 前端账户登录授信申请
+Tue, 01 Sep 2020 16:59:36-run_all_uicase.py-test_Tripartite_interaction.py-[line:387]-INFO-[日志信息]: 进入借款检索一览画面
+Tue, 01 Sep 2020 16:59:39-run_all_uicase.py-test_Tripartite_interaction.py-[line:83]-INFO-[日志信息]: 还款申请页面
+Tue, 01 Sep 2020 17:00:37-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 17:00:37===================================
+Tue, 01 Sep 2020 17:00:37-run_all_uicase.py-test_Tripartite_interaction.py-[line:104]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 17:00:49-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 17:00:49===================================
+Tue, 01 Sep 2020 17:00:50-run_all_uicase.py-test_Tripartite_interaction.py-[line:104]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 17:01:00-run_all_uicase.py-test_Tripartite_interaction.py-[line:110]-INFO-[日志信息]: 前端账户登录授信申请
+Tue, 01 Sep 2020 17:01:01-run_all_uicase.py-test_Tripartite_interaction.py-[line:387]-INFO-[日志信息]: 进入借款检索一览画面
+Tue, 01 Sep 2020 17:01:04-run_all_uicase.py-test_Tripartite_interaction.py-[line:83]-INFO-[日志信息]: 还款申请页面
+Tue, 01 Sep 2020 17:22:10-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 17:22:10===================================
+Tue, 01 Sep 2020 17:22:11-run_all_uicase.py-test_Tripartite_interaction.py-[line:125]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 17:22:21-run_all_uicase.py-test_Tripartite_interaction.py-[line:139]-INFO-[日志信息]: 银行授信审核
+Tue, 01 Sep 2020 17:22:26-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 17:22:26-run_all_uicase.py-test_Tripartite_interaction.py-[line:104]-INFO-[日志信息]: 银行还款审核首页
+Tue, 01 Sep 2020 17:22:39-run_all_uicase.py-test_Tripartite_interaction.py-[line:109]-INFO-[日志信息]: 银行还款审核列表
+Tue, 01 Sep 2020 17:22:42-run_all_uicase.py-test_Tripartite_interaction.py-[line:113]-INFO-[日志信息]: 银行还款审核
+Tue, 01 Sep 2020 17:23:10-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 17:23:10===================================
+Tue, 01 Sep 2020 17:23:11-run_all_uicase.py-test_Tripartite_interaction.py-[line:125]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 17:23:21-run_all_uicase.py-test_Tripartite_interaction.py-[line:139]-INFO-[日志信息]: 银行授信审核
+Tue, 01 Sep 2020 17:23:22-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 17:23:22-run_all_uicase.py-test_Tripartite_interaction.py-[line:104]-INFO-[日志信息]: 银行还款审核首页
+Tue, 01 Sep 2020 17:23:36-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 17:23:36===================================
+Tue, 01 Sep 2020 17:23:37-run_all_uicase.py-test_Tripartite_interaction.py-[line:125]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 17:23:47-run_all_uicase.py-test_Tripartite_interaction.py-[line:139]-INFO-[日志信息]: 银行授信审核
+Tue, 01 Sep 2020 17:23:47-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 17:23:47-run_all_uicase.py-test_Tripartite_interaction.py-[line:104]-INFO-[日志信息]: 银行还款审核首页
+Tue, 01 Sep 2020 17:23:53-run_all_uicase.py-test_Tripartite_interaction.py-[line:109]-INFO-[日志信息]: 银行还款审核列表
+Tue, 01 Sep 2020 17:23:53-run_all_uicase.py-test_Tripartite_interaction.py-[line:113]-INFO-[日志信息]: 银行还款审核
+Tue, 01 Sep 2020 17:24:30-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 17:24:30===================================
+Tue, 01 Sep 2020 17:24:30-run_all_uicase.py-test_Tripartite_interaction.py-[line:125]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 17:24:40-run_all_uicase.py-test_Tripartite_interaction.py-[line:139]-INFO-[日志信息]: 银行授信审核
+Tue, 01 Sep 2020 17:24:41-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 17:24:41-run_all_uicase.py-test_Tripartite_interaction.py-[line:104]-INFO-[日志信息]: 银行还款审核首页
+Tue, 01 Sep 2020 17:24:48-run_all_uicase.py-test_Tripartite_interaction.py-[line:109]-INFO-[日志信息]: 银行还款审核列表
+Tue, 01 Sep 2020 17:24:48-run_all_uicase.py-test_Tripartite_interaction.py-[line:113]-INFO-[日志信息]: 银行还款审核
+Tue, 01 Sep 2020 17:25:25-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 17:25:25===================================
+Tue, 01 Sep 2020 17:25:26-run_all_uicase.py-test_Tripartite_interaction.py-[line:125]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 17:25:36-run_all_uicase.py-test_Tripartite_interaction.py-[line:139]-INFO-[日志信息]: 银行授信审核
+Tue, 01 Sep 2020 17:25:37-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 17:25:37-run_all_uicase.py-test_Tripartite_interaction.py-[line:104]-INFO-[日志信息]: 银行还款审核首页
+Tue, 01 Sep 2020 17:25:40-run_all_uicase.py-test_Tripartite_interaction.py-[line:109]-INFO-[日志信息]: 银行还款审核列表
+Tue, 01 Sep 2020 17:25:41-run_all_uicase.py-test_Tripartite_interaction.py-[line:113]-INFO-[日志信息]: 银行还款审核
+Tue, 01 Sep 2020 17:26:18-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 17:26:18===================================
+Tue, 01 Sep 2020 17:26:18-run_all_uicase.py-test_Tripartite_interaction.py-[line:125]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 17:26:28-run_all_uicase.py-test_Tripartite_interaction.py-[line:139]-INFO-[日志信息]: 银行授信审核
+Tue, 01 Sep 2020 17:26:29-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 17:26:29-run_all_uicase.py-test_Tripartite_interaction.py-[line:104]-INFO-[日志信息]: 银行还款审核首页
+Tue, 01 Sep 2020 17:26:32-run_all_uicase.py-test_Tripartite_interaction.py-[line:109]-INFO-[日志信息]: 银行还款审核列表
+Tue, 01 Sep 2020 17:26:32-run_all_uicase.py-test_Tripartite_interaction.py-[line:113]-INFO-[日志信息]: 银行还款审核
+Tue, 01 Sep 2020 17:33:32-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 17:33:32===================================
+Tue, 01 Sep 2020 17:33:32-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 01 Sep 2020 17:33:42-run_all_uicase.py-test_login.py-[line:55]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Tue, 01 Sep 2020 17:33:46-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Tue, 01 Sep 2020 17:33:46-run_all_uicase.py-test_login.py-[line:82]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Tue, 01 Sep 2020 17:33:48-run_all_uicase.py-test_personalInfoReg.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Tue, 01 Sep 2020 17:33:48-run_all_uicase.py-test_personalInfoReg.py-[line:36]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Tue, 01 Sep 2020 17:33:59-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Tue, 01 Sep 2020 17:33:59-run_all_uicase.py-test_personalInfoReg.py-[line:49]-INFO-[日志信息]: 进入登陆页面
+Tue, 01 Sep 2020 17:33:59-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Tue, 01 Sep 2020 17:33:59-run_all_uicase.py-test_personalInfoReg.py-[line:54]-INFO-[日志信息]: 实名认证画面成功显示
+Tue, 01 Sep 2020 17:34:02-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Tue, 01 Sep 2020 17:34:02-run_all_uicase.py-test_personalInfoReg.py-[line:90]-INFO-[日志信息]: 实名认证中画面显示
+Tue, 01 Sep 2020 17:34:02-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 测试用户, actul_result is 测试用户
+Tue, 01 Sep 2020 17:34:02-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Tue, 01 Sep 2020 17:34:02-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+Tue, 01 Sep 2020 17:34:52-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证成功, actul_result is 认证成功
+Tue, 01 Sep 2020 17:34:52-run_all_uicase.py-test_personalInfoReg.py-[line:104]-INFO-[日志信息]: 实名认证成功画面显示
+Tue, 01 Sep 2020 17:34:52-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Tue, 01 Sep 2020 17:34:52-run_all_uicase.py-test_personalInfoReg.py-[line:109]-INFO-[日志信息]: 点击查看认证信息按钮，跳转到实名认证画面
+Tue, 01 Sep 2020 17:34:55-run_all_uicase.py-test_businessInfoReg.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Tue, 01 Sep 2020 17:35:05-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Tue, 01 Sep 2020 17:35:05-run_all_uicase.py-test_businessInfoReg.py-[line:40]-INFO-[日志信息]: 企业基本资料画面正常显示
+Tue, 01 Sep 2020 17:35:12-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 请确认协议内容, actul_result is 请确认协议内容
+Tue, 01 Sep 2020 17:35:12-run_all_uicase.py-test_businessInfoReg.py-[line:98]-INFO-[日志信息]: 协议确认画面正常显示
+Tue, 01 Sep 2020 17:35:16-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Tue, 01 Sep 2020 17:35:16-run_all_uicase.py-test_businessInfoReg.py-[line:108]-INFO-[日志信息]: 企业信息认证中画面正常显示
+Tue, 01 Sep 2020 17:35:38-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 审核中, actul_result is 审核中
+Tue, 01 Sep 2020 17:35:38-run_all_uicase.py-test_businessInfoReg.py-[line:119]-INFO-[日志信息]: 企业信息审核中画面正常显示
+Tue, 01 Sep 2020 17:35:38-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Tue, 01 Sep 2020 17:35:38-run_all_uicase.py-test_businessInfoReg.py-[line:126]-INFO-[日志信息]: 企业基本资料画面正常显示
+Tue, 01 Sep 2020 17:35:40-run_all_uicase.py-test_backStage_examine.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Tue, 01 Sep 2020 17:35:51-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 17:35:56-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Tue, 01 Sep 2020 17:35:56-run_all_uicase.py-test_backStage_examine.py-[line:52]-INFO-[日志信息]: 成功进入企业信息审核画面
+Tue, 01 Sep 2020 17:35:57-run_all_uicase.py-test_backStage_examine.py-[line:58]-INFO-[日志信息]: 企业认证通过
+Tue, 01 Sep 2020 17:35:59-run_all_uicase.py-test_Tripartite_interaction.py-[line:119]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 17:36:09-run_all_uicase.py-test_Tripartite_interaction.py-[line:125]-INFO-[日志信息]: 前端账户登录授信申请
+Tue, 01 Sep 2020 17:36:11-run_all_uicase.py-test_Tripartite_interaction.py-[line:169]-INFO-[日志信息]: 进入到前端首页
+Tue, 01 Sep 2020 17:36:11-run_all_uicase.py-test_Tripartite_interaction.py-[line:172]-INFO-[日志信息]: 进入到前端进入产品选择首页
+Tue, 01 Sep 2020 17:36:11-run_all_uicase.py-test_Tripartite_interaction.py-[line:176]-INFO-[日志信息]: 进入到前端进入产品详情页
+Tue, 01 Sep 2020 17:36:11-run_all_uicase.py-test_Tripartite_interaction.py-[line:180]-INFO-[日志信息]: 进入到前端进入产品借款页
+Tue, 01 Sep 2020 17:36:49-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 17:36:49===================================
+Tue, 01 Sep 2020 17:36:50-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 01 Sep 2020 17:37:00-run_all_uicase.py-test_login.py-[line:55]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Tue, 01 Sep 2020 17:37:03-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Tue, 01 Sep 2020 17:37:03-run_all_uicase.py-test_login.py-[line:82]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Tue, 01 Sep 2020 17:37:05-run_all_uicase.py-test_personalInfoReg.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Tue, 01 Sep 2020 17:37:05-run_all_uicase.py-test_personalInfoReg.py-[line:36]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Tue, 01 Sep 2020 17:37:16-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Tue, 01 Sep 2020 17:37:16-run_all_uicase.py-test_personalInfoReg.py-[line:49]-INFO-[日志信息]: 进入登陆页面
+Tue, 01 Sep 2020 17:37:16-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Tue, 01 Sep 2020 17:37:16-run_all_uicase.py-test_personalInfoReg.py-[line:54]-INFO-[日志信息]: 实名认证画面成功显示
+Tue, 01 Sep 2020 17:37:18-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Tue, 01 Sep 2020 17:37:18-run_all_uicase.py-test_personalInfoReg.py-[line:90]-INFO-[日志信息]: 实名认证中画面显示
+Tue, 01 Sep 2020 17:37:18-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 测试用户, actul_result is 测试用户
+Tue, 01 Sep 2020 17:37:18-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Tue, 01 Sep 2020 17:37:18-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+Tue, 01 Sep 2020 17:37:48-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证成功, actul_result is 认证成功
+Tue, 01 Sep 2020 17:37:48-run_all_uicase.py-test_personalInfoReg.py-[line:104]-INFO-[日志信息]: 实名认证成功画面显示
+Tue, 01 Sep 2020 17:37:48-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Tue, 01 Sep 2020 17:37:48-run_all_uicase.py-test_personalInfoReg.py-[line:109]-INFO-[日志信息]: 点击查看认证信息按钮，跳转到实名认证画面
+Tue, 01 Sep 2020 17:37:51-run_all_uicase.py-test_businessInfoReg.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Tue, 01 Sep 2020 17:38:05-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Tue, 01 Sep 2020 17:38:05-run_all_uicase.py-test_businessInfoReg.py-[line:40]-INFO-[日志信息]: 企业基本资料画面正常显示
+Tue, 01 Sep 2020 17:38:11-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 请确认协议内容, actul_result is 请确认协议内容
+Tue, 01 Sep 2020 17:38:11-run_all_uicase.py-test_businessInfoReg.py-[line:98]-INFO-[日志信息]: 协议确认画面正常显示
+Tue, 01 Sep 2020 17:38:15-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Tue, 01 Sep 2020 17:38:15-run_all_uicase.py-test_businessInfoReg.py-[line:108]-INFO-[日志信息]: 企业信息认证中画面正常显示
+Tue, 01 Sep 2020 17:38:37-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 审核中, actul_result is 审核中
+Tue, 01 Sep 2020 17:38:37-run_all_uicase.py-test_businessInfoReg.py-[line:119]-INFO-[日志信息]: 企业信息审核中画面正常显示
+Tue, 01 Sep 2020 17:38:37-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Tue, 01 Sep 2020 17:38:37-run_all_uicase.py-test_businessInfoReg.py-[line:126]-INFO-[日志信息]: 企业基本资料画面正常显示
+Tue, 01 Sep 2020 17:38:39-run_all_uicase.py-test_backStage_examine.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Tue, 01 Sep 2020 17:38:50-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 17:38:55-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Tue, 01 Sep 2020 17:38:55-run_all_uicase.py-test_backStage_examine.py-[line:52]-INFO-[日志信息]: 成功进入企业信息审核画面
+Tue, 01 Sep 2020 17:38:56-run_all_uicase.py-test_backStage_examine.py-[line:58]-INFO-[日志信息]: 企业认证通过
+Tue, 01 Sep 2020 17:38:58-run_all_uicase.py-test_Tripartite_interaction.py-[line:119]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 17:39:08-run_all_uicase.py-test_Tripartite_interaction.py-[line:125]-INFO-[日志信息]: 前端账户登录授信申请
+Tue, 01 Sep 2020 17:39:09-run_all_uicase.py-test_Tripartite_interaction.py-[line:169]-INFO-[日志信息]: 进入到前端首页
+Tue, 01 Sep 2020 17:39:09-run_all_uicase.py-test_Tripartite_interaction.py-[line:172]-INFO-[日志信息]: 进入到前端进入产品选择首页
+Tue, 01 Sep 2020 17:39:09-run_all_uicase.py-test_Tripartite_interaction.py-[line:176]-INFO-[日志信息]: 进入到前端进入产品详情页
+Tue, 01 Sep 2020 17:39:10-run_all_uicase.py-test_Tripartite_interaction.py-[line:180]-INFO-[日志信息]: 进入到前端进入产品借款页
+Tue, 01 Sep 2020 17:39:12-run_all_uicase.py-test_Tripartite_interaction.py-[line:186]-INFO-[日志信息]: 进入授信采购信息页面
+Tue, 01 Sep 2020 17:39:15-run_all_uicase.py-test_Tripartite_interaction.py-[line:209]-INFO-[日志信息]: 进入授信基本资料页面
+Tue, 01 Sep 2020 17:39:15-run_all_uicase.py-test_Tripartite_interaction.py-[line:214]-INFO-[日志信息]: 授信资料完善页面
+Tue, 01 Sep 2020 17:39:16-run_all_uicase.py-test_Tripartite_interaction.py-[line:220]-INFO-[日志信息]: 授信完成页面
+Tue, 01 Sep 2020 17:39:27-run_all_uicase.py-test_Tripartite_interaction.py-[line:133]-INFO-[日志信息]: 银行授信审核
+Tue, 01 Sep 2020 17:39:27-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 17:39:27-run_all_uicase.py-test_Tripartite_interaction.py-[line:227]-INFO-[日志信息]: 银行授信审核首页
+Tue, 01 Sep 2020 17:39:29-run_all_uicase.py-test_Tripartite_interaction.py-[line:232]-INFO-[日志信息]: 银行待审批授信页面
+Tue, 01 Sep 2020 17:39:30-run_all_uicase.py-test_Tripartite_interaction.py-[line:236]-INFO-[日志信息]: 审批授信评分卡页面
+Tue, 01 Sep 2020 17:39:33-run_all_uicase.py-test_Tripartite_interaction.py-[line:242]-INFO-[日志信息]: 审批授信审核页面
+Tue, 01 Sep 2020 17:39:43-run_all_uicase.py-test_Tripartite_interaction.py-[line:141]-INFO-[日志信息]: 担保公司审核
+Tue, 01 Sep 2020 17:39:44-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 17:39:44-run_all_uicase.py-test_Tripartite_interaction.py-[line:262]-INFO-[日志信息]: 担保公司授信审核首页
+Tue, 01 Sep 2020 17:39:46-run_all_uicase.py-test_Tripartite_interaction.py-[line:267]-INFO-[日志信息]: 银行待审批授信页面
+Tue, 01 Sep 2020 17:39:47-run_all_uicase.py-test_Tripartite_interaction.py-[line:271]-INFO-[日志信息]: 审批授信评分卡页面
+Tue, 01 Sep 2020 17:39:48-run_all_uicase.py-test_Tripartite_interaction.py-[line:275]-INFO-[日志信息]: 审批授信审核页面
+Tue, 01 Sep 2020 17:39:51-run_all_uicase.py-test_Tripartite_interaction.py-[line:406]-INFO-[日志信息]: 进入借款检索一览画面
+Tue, 01 Sep 2020 17:39:54-run_all_uicase.py-test_Tripartite_interaction.py-[line:291]-INFO-[日志信息]: 进入收款账户管理画面
+Tue, 01 Sep 2020 17:39:56-run_all_uicase.py-test_Tripartite_interaction.py-[line:312]-INFO-[日志信息]: 银行卡已经添加
+Tue, 01 Sep 2020 17:39:56-run_all_uicase.py-test_Tripartite_interaction.py-[line:314]-INFO-[日志信息]: 进入借款申请画面
+Tue, 01 Sep 2020 17:40:01-run_all_uicase.py-test_Tripartite_interaction.py-[line:340]-INFO-[日志信息]: 银行借款审核首页
+Tue, 01 Sep 2020 17:40:03-run_all_uicase.py-test_Tripartite_interaction.py-[line:346]-INFO-[日志信息]: 银行借款审核列表首页
+Tue, 01 Sep 2020 17:40:04-run_all_uicase.py-test_Tripartite_interaction.py-[line:350]-INFO-[日志信息]: 银行审核页面
+Tue, 01 Sep 2020 17:42:13-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 17:42:13===================================
+Tue, 01 Sep 2020 17:42:14-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 01 Sep 2020 17:42:24-run_all_uicase.py-test_login.py-[line:55]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Tue, 01 Sep 2020 17:42:27-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Tue, 01 Sep 2020 17:42:27-run_all_uicase.py-test_login.py-[line:82]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Tue, 01 Sep 2020 17:42:29-run_all_uicase.py-test_personalInfoReg.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Tue, 01 Sep 2020 17:42:29-run_all_uicase.py-test_personalInfoReg.py-[line:36]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Tue, 01 Sep 2020 17:42:40-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Tue, 01 Sep 2020 17:42:40-run_all_uicase.py-test_personalInfoReg.py-[line:49]-INFO-[日志信息]: 进入登陆页面
+Tue, 01 Sep 2020 17:42:40-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Tue, 01 Sep 2020 17:42:40-run_all_uicase.py-test_personalInfoReg.py-[line:54]-INFO-[日志信息]: 实名认证画面成功显示
+Tue, 01 Sep 2020 17:42:42-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Tue, 01 Sep 2020 17:42:42-run_all_uicase.py-test_personalInfoReg.py-[line:90]-INFO-[日志信息]: 实名认证中画面显示
+Tue, 01 Sep 2020 17:42:42-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 测试用户, actul_result is 测试用户
+Tue, 01 Sep 2020 17:42:42-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Tue, 01 Sep 2020 17:42:42-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+Tue, 01 Sep 2020 17:43:32-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证成功, actul_result is 认证成功
+Tue, 01 Sep 2020 17:43:32-run_all_uicase.py-test_personalInfoReg.py-[line:104]-INFO-[日志信息]: 实名认证成功画面显示
+Tue, 01 Sep 2020 17:43:32-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Tue, 01 Sep 2020 17:43:32-run_all_uicase.py-test_personalInfoReg.py-[line:109]-INFO-[日志信息]: 点击查看认证信息按钮，跳转到实名认证画面
+Tue, 01 Sep 2020 17:43:35-run_all_uicase.py-test_businessInfoReg.py-[line:29]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Tue, 01 Sep 2020 17:43:45-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Tue, 01 Sep 2020 17:43:45-run_all_uicase.py-test_businessInfoReg.py-[line:40]-INFO-[日志信息]: 企业基本资料画面正常显示
+Tue, 01 Sep 2020 17:43:52-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 请确认协议内容, actul_result is 请确认协议内容
+Tue, 01 Sep 2020 17:43:52-run_all_uicase.py-test_businessInfoReg.py-[line:98]-INFO-[日志信息]: 协议确认画面正常显示
+Tue, 01 Sep 2020 17:43:55-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Tue, 01 Sep 2020 17:43:55-run_all_uicase.py-test_businessInfoReg.py-[line:108]-INFO-[日志信息]: 企业信息认证中画面正常显示
+Tue, 01 Sep 2020 17:44:27-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 审核中, actul_result is 审核中
+Tue, 01 Sep 2020 17:44:27-run_all_uicase.py-test_businessInfoReg.py-[line:119]-INFO-[日志信息]: 企业信息审核中画面正常显示
+Tue, 01 Sep 2020 17:44:27-test_businessInforReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Tue, 01 Sep 2020 17:44:27-run_all_uicase.py-test_businessInfoReg.py-[line:126]-INFO-[日志信息]: 企业基本资料画面正常显示
+Tue, 01 Sep 2020 17:44:29-run_all_uicase.py-test_backStage_examine.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Tue, 01 Sep 2020 17:44:40-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 17:44:45-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Tue, 01 Sep 2020 17:44:45-run_all_uicase.py-test_backStage_examine.py-[line:52]-INFO-[日志信息]: 成功进入企业信息审核画面
+Tue, 01 Sep 2020 17:44:46-run_all_uicase.py-test_backStage_examine.py-[line:58]-INFO-[日志信息]: 企业认证通过
+Tue, 01 Sep 2020 17:44:48-run_all_uicase.py-test_Tripartite_interaction.py-[line:119]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 01 Sep 2020 17:44:58-run_all_uicase.py-test_Tripartite_interaction.py-[line:125]-INFO-[日志信息]: 前端账户登录授信申请
+Tue, 01 Sep 2020 17:44:59-run_all_uicase.py-test_Tripartite_interaction.py-[line:169]-INFO-[日志信息]: 进入到前端首页
+Tue, 01 Sep 2020 17:44:59-run_all_uicase.py-test_Tripartite_interaction.py-[line:172]-INFO-[日志信息]: 进入到前端进入产品选择首页
+Tue, 01 Sep 2020 17:44:59-run_all_uicase.py-test_Tripartite_interaction.py-[line:176]-INFO-[日志信息]: 进入到前端进入产品详情页
+Tue, 01 Sep 2020 17:45:00-run_all_uicase.py-test_Tripartite_interaction.py-[line:180]-INFO-[日志信息]: 进入到前端进入产品借款页
+Tue, 01 Sep 2020 17:45:02-run_all_uicase.py-test_Tripartite_interaction.py-[line:186]-INFO-[日志信息]: 进入授信采购信息页面
+Tue, 01 Sep 2020 17:45:04-run_all_uicase.py-test_Tripartite_interaction.py-[line:209]-INFO-[日志信息]: 进入授信基本资料页面
+Tue, 01 Sep 2020 17:45:05-run_all_uicase.py-test_Tripartite_interaction.py-[line:214]-INFO-[日志信息]: 授信资料完善页面
+Tue, 01 Sep 2020 17:45:06-run_all_uicase.py-test_Tripartite_interaction.py-[line:220]-INFO-[日志信息]: 授信完成页面
+Tue, 01 Sep 2020 17:45:16-run_all_uicase.py-test_Tripartite_interaction.py-[line:133]-INFO-[日志信息]: 银行授信审核
+Tue, 01 Sep 2020 17:45:17-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 17:45:17-run_all_uicase.py-test_Tripartite_interaction.py-[line:227]-INFO-[日志信息]: 银行授信审核首页
+Tue, 01 Sep 2020 17:45:19-run_all_uicase.py-test_Tripartite_interaction.py-[line:232]-INFO-[日志信息]: 银行待审批授信页面
+Tue, 01 Sep 2020 17:45:20-run_all_uicase.py-test_Tripartite_interaction.py-[line:236]-INFO-[日志信息]: 审批授信评分卡页面
+Tue, 01 Sep 2020 17:45:22-run_all_uicase.py-test_Tripartite_interaction.py-[line:242]-INFO-[日志信息]: 审批授信审核页面
+Tue, 01 Sep 2020 17:45:33-run_all_uicase.py-test_Tripartite_interaction.py-[line:141]-INFO-[日志信息]: 担保公司审核
+Tue, 01 Sep 2020 17:45:34-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
+Tue, 01 Sep 2020 17:45:34-run_all_uicase.py-test_Tripartite_interaction.py-[line:262]-INFO-[日志信息]: 担保公司授信审核首页
+Tue, 01 Sep 2020 17:45:36-run_all_uicase.py-test_Tripartite_interaction.py-[line:267]-INFO-[日志信息]: 银行待审批授信页面
+Tue, 01 Sep 2020 17:45:36-run_all_uicase.py-test_Tripartite_interaction.py-[line:271]-INFO-[日志信息]: 审批授信评分卡页面
+Tue, 01 Sep 2020 17:45:38-run_all_uicase.py-test_Tripartite_interaction.py-[line:275]-INFO-[日志信息]: 审批授信审核页面
+Tue, 01 Sep 2020 17:45:41-run_all_uicase.py-test_Tripartite_interaction.py-[line:406]-INFO-[日志信息]: 进入借款检索一览画面
+Tue, 01 Sep 2020 17:45:44-run_all_uicase.py-test_Tripartite_interaction.py-[line:291]-INFO-[日志信息]: 进入收款账户管理画面
+Tue, 01 Sep 2020 17:45:46-run_all_uicase.py-test_Tripartite_interaction.py-[line:312]-INFO-[日志信息]: 银行卡已经添加
+Tue, 01 Sep 2020 17:45:46-run_all_uicase.py-test_Tripartite_interaction.py-[line:314]-INFO-[日志信息]: 进入借款申请画面
+Tue, 01 Sep 2020 17:45:51-run_all_uicase.py-test_Tripartite_interaction.py-[line:340]-INFO-[日志信息]: 银行借款审核首页
+Tue, 01 Sep 2020 17:45:53-run_all_uicase.py-test_Tripartite_interaction.py-[line:346]-INFO-[日志信息]: 银行借款审核列表首页
+Tue, 01 Sep 2020 17:45:54-run_all_uicase.py-test_Tripartite_interaction.py-[line:350]-INFO-[日志信息]: 银行审核页面
+Tue, 01 Sep 2020 17:47:05-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-01 17:47:05===================================
+Tue, 01 Sep 2020 17:47:05-run_all_uicase.py-test_login.py-[line:48]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 01 Sep 2020 17:47:15-run_all_uicase.py-test_login.py-[line:55]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Tue, 01 Sep 2020 17:47:19-test_companyRegister-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Tue, 01 Sep 2020 17:47:19-run_all_uicase.py-test_login.py-[line:82]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Tue, 01 Sep 2020 17:47:21-run_all_uicase.py-test_personalInfoReg.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Tue, 01 Sep 2020 17:47:21-run_all_uicase.py-test_personalInfoReg.py-[line:36]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Tue, 01 Sep 2020 17:47:31-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Tue, 01 Sep 2020 17:47:31-run_all_uicase.py-test_personalInfoReg.py-[line:49]-INFO-[日志信息]: 进入登陆页面
+Tue, 01 Sep 2020 17:47:32-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Tue, 01 Sep 2020 17:47:32-run_all_uicase.py-test_personalInfoReg.py-[line:54]-INFO-[日志信息]: 实名认证画面成功显示
+Tue, 01 Sep 2020 17:47:34-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Tue, 01 Sep 2020 17:47:34-run_all_uicase.py-test_personalInfoReg.py-[line:90]-INFO-[日志信息]: 实名认证中画面显示
+Tue, 01 Sep 2020 17:47:34-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 测试用户, actul_result is 测试用户
+Tue, 01 Sep 2020 17:47:34-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Tue, 01 Sep 2020 17:47:34-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933

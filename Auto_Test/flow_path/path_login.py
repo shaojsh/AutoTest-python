@@ -23,17 +23,16 @@ class loginOn(Enum):
     btn_agreeReg = '#root > div > div > div > button'  # 注册按钮
 
     # 密码修改
-    input_actForget_css = '#phoneNo'  # 账号输入
-    input_codeForget_css = '#imgVerifiCode'  # 验证码
-    input_phoneCodeForget_css = '#verifyCode'  # 验证码
-    btn_phoneCodeForget_css = '#root > div > div > div:nth-child(3) > div > form > div:nth-child(3) > span'  # 验证码按钮
-    btn_next_css = '#root > div > div > div:nth-child(3) > div > button'  # 下一步
+    input_actForget_css = '#forget_tel'  # 账号输入
+    input_codeForget_css = '#forget_code'  # 验证码
+    input_phoneCodeForget_css = '#forget_code'  # 验证码
+    btn_phoneCodeForget_css = '#root > div > div > div > form > div:nth-child(2) > div.ant-col.ant-form-item-control-wrapper > div > span > div > span.btnCode___16EUy'  # 验证码按钮
+    btn_next_css = '#root > div > div > div > button'  # 下一步
 
-    txt_pwd_css = '#root > div > div > div:nth-child(3) > div > h5'  # 密码重置文本
-    input_pwdForget_css = '#password'  # 密码
-    input_pwdConfirm_css = '#confirmPassword'  # 确认密码
-    btn_nextPwd_css = '#root > div > div > div:nth-child(3) > div > form > button'  # 下一步
+    input_pwdForget_css = '#forget_password'  # 密码
+    input_pwdConfirm_css = '#forget_confirmPassword'  # 确认密码
+    btn_nextPwd_css = '#root > div > div > div > button'  # 下一步
 
     # 修改完成画面
     txt_changeOver_css = '#root > div > div > div:nth-child(3) > div > h6'  # 修改完成文本
-    btn_loginNow_css = '#root > div > div > div:nth-child(3) > div > button' # 立即登录按钮
+    btn_loginNow_css = '#root > div > div > div:nth-child(3) > div > button'  # 立即登录按钮

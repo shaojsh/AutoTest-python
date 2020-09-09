@@ -1,7 +1,7 @@
 import os
 import sys
 from time import sleep
-
+import random
 import allure
 import pytest
 from selenium import webdriver
@@ -13,10 +13,12 @@ from flow_path.path_businessInfoReg import path_businessInfoReg
 from run_all_uicase import yamldict, logger
 from common import Assert
 from test_flow.test_Authentication.test_login import login
+from selenium.webdriver.common.keys import Keys
 
 act = yamldict['test_userlist']['company_user']
 pwd = yamldict['test_userlist']['company_user_pass']
 businessName = yamldict['test_backStageUserList']['company_name']
+url_forward = yamldict['test_path_list']['url_ui_forward']
 
 
 @pytest.mark.run(order=3)
@@ -30,7 +32,7 @@ def test_businessInforReg():
 
     driver = webdriver.Chrome()
     driver.maximize_window()
-    driver.get("http://10.10.128.152:10053/user/login")
+    driver.get(url_forward)
 
     # 登陆页面
     login(driver)
@@ -40,30 +42,37 @@ def test_businessInforReg():
     logger.info("企业基本资料画面正常显示")
 
     # 企业证件
-    driver.find_element_by_css_selector(path_businessInfoReg.input_companyName_css.value).send_keys(businessName)
-    driver.find_element_by_css_selector(path_businessInfoReg.input_companyCode_css.value).send_keys(
-        "92520628MA6FK07055")
-    driver.find_element_by_css_selector(path_businessInfoReg.input_legalPersonName_css.value).send_keys("黄小明")
+    el = driver.find_element_by_css_selector(path_businessInfoReg.input_companyName_css.value)
+    el.send_keys(businessName)
+    sleep(3)
+    el.send_keys(Keys.ENTER)
+    sleep(1)
+    # driver.find_element_by_css_selector(path_businessInfoReg.input_companyCode_css.value).send_keys(
+    #     "92520628MA6FK07055")
+    # driver.find_element_by_css_selector(path_businessInfoReg.input_legalPersonName_css.value).send_keys("黄小明")
     driver.find_element_by_css_selector(path_businessInfoReg.input_legalPersonCardNo_css.value).send_keys(
         "110101199003077096")
-    driver.find_element_by_css_selector(path_businessInfoReg.input_legalPersonAddress_css.value).send_keys(
-        "上海市浦东新区陆家嘴金砖大厦")
+    # driver.find_element_by_css_selector(path_businessInfoReg.input_legalPersonAddress_css.value).send_keys(
+    #     "上海市浦东新区陆家嘴金砖大厦")
     driver.find_element_by_css_selector(path_businessInfoReg.input_legalPersonPostCode_css.value).send_keys("200120")
-    driver.find_element_by_css_selector(path_businessInfoReg.input_legalPersonIndustry_css.value).send_keys("金融")
+    # driver.find_element_by_css_selector(path_businessInfoReg.input_legalPersonIndustry_css.value).send_keys("金融")
 
     picture_dir = os.getcwd() + '\\test_data\\picture\\id_3.jpg'
     driver.find_element_by_css_selector(path_businessInfoReg.upload_legalPersonCertificate_css.value).send_keys(
         picture_dir)
-
+    # 生成随机银行号码
+    bankNO = random.randint(0, 99999999999999)
     driver.find_element_by_css_selector(path_businessInfoReg.upload_legalPersonBankNo_css.value).send_keys(
-        "6217996620000156427")
+        str(bankNO))
 
     driver.find_element_by_css_selector(path_businessInfoReg.sel_bankName_css.value).click()
+    sleep(1)
     driver.find_elements_by_xpath("//*[text() = '中国邮政储蓄银行']")[0].click()
 
     sleep(1)
     # 法定代表人信息
     driver.find_element_by_css_selector(path_businessInfoReg.sel_country_css.value).click()
+    sleep(1)
     driver.find_elements_by_xpath("//*[text() = '中国境内']")[0].click()
 
     picture_dir2 = os.getcwd() + '\\test_data\\picture\\id_1.jpg'
@@ -94,8 +103,9 @@ def test_businessInforReg():
     test_Assert.assert_text_ui(txt_startAuTitle, '请确认协议内容')
     logger.info("协议确认画面正常显示")
     waitUntilClick_xpath(driver, path_businessInfoReg.checkBox_agree_xpath.value)
-    driver.find_element_by_xpath(path_businessInfoReg.checkBox_agree_xpath.value).click()
     sleep(1)
+    driver.find_element_by_xpath(path_businessInfoReg.checkBox_agree_xpath.value).click()
+    waitUntilClick(driver, path_businessInfoReg.btn_Certification_css.value)
     driver.find_element_by_css_selector(path_businessInfoReg.btn_Certification_css.value).click()
 
     waitUntilDisplay(driver, path_businessInfoReg.text_atMid_css.value)
@@ -108,7 +118,7 @@ def test_businessInforReg():
 
     driver.find_element_by_css_selector(path_businessInfoReg.input_moneyNum_css.value).send_keys('0.5')
     driver.find_element_by_css_selector(path_businessInfoReg.btn_middleCnf_css.value).click()
-
+    sleep(3)
     waitUntilDisplay(driver, path_businessInfoReg.txt_examine_css.value)
     txt_examineAuTitle = driver.find_element_by_css_selector(path_businessInfoReg.txt_examine_css.value).text
     test_Assert.assert_text_ui(txt_examineAuTitle, '审核中')

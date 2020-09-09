@@ -1,0 +1,90 @@
+{
+  "uid" : "9ef4a7126630ca0c",
+  "name" : "test_backStage_authentication",
+  "fullName" : "test_flow.test_Authentication.test_backStage_authentication#test_backStage_authentication",
+  "historyId" : "a55d1468f36f1b2cdddeddca0f290d7d",
+  "time" : {
+    "start" : 1599117799799,
+    "stop" : 1599117827077,
+    "duration" : 27278
+  },
+  "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台账户认证",
+  "descriptionHtml" : "<p>http://10.10.128.152:10052/#/authority/mechanism 后台账户认证</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: waitUntilClick() missing 1 required positional argument: 'ByCss'",
+  "statusTrace" : ">   ???\n\ntest_flow\\test_Authentication\\test_backStage_authentication.py:114: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"fed2c372ac93f4c033b142e5425ff77c\")>\nType = 1\n\n    def authentication_Bank(driver, Type):\n        if Type == 1:\n            backStageLogin(driver, company_bank, company_bank_pass, 1)\n        else:\n            backStageLogin(driver, company_Guarantee, company_Guarantee_pass, 1)\n    \n>       waitUntilClick(path_backStage_authentication.btn_submitAu_css.value)\nE       TypeError: waitUntilClick() missing 1 required positional argument: 'ByCss'\n\ntest_flow\\test_Authentication\\test_backStage_authentication.py:73: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台账户认证",
+    "status" : "broken",
+    "statusMessage" : "TypeError: waitUntilClick() missing 1 required positional argument: 'ByCss'",
+    "statusTrace" : ">   ???\n\ntest_flow\\test_Authentication\\test_backStage_authentication.py:114: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"fed2c372ac93f4c033b142e5425ff77c\")>\nType = 1\n\n    def authentication_Bank(driver, Type):\n        if Type == 1:\n            backStageLogin(driver, company_bank, company_bank_pass, 1)\n        else:\n            backStageLogin(driver, company_Guarantee, company_Guarantee_pass, 1)\n    \n>       waitUntilClick(path_backStage_authentication.btn_submitAu_css.value)\nE       TypeError: waitUntilClick() missing 1 required positional argument: 'ByCss'\n\ntest_flow\\test_Authentication\\test_backStage_authentication.py:73: TypeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "682286576566fb2d",
+      "name" : "log",
+      "source" : "682286576566fb2d.txt",
+      "type" : "text/plain",
+      "size" : 308
+    }, {
+      "uid" : "bc477b4f62eb124a",
+      "name" : "stderr",
+      "source" : "bc477b4f62eb124a.txt",
+      "type" : "text/plain",
+      "size" : 444
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_backStage_authentication"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "10768-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_backStage_authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "后台账户认证 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/authority/mechanism",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "9ef4a7126630ca0c.json",
+  "parameterValues" : [ ]
+}

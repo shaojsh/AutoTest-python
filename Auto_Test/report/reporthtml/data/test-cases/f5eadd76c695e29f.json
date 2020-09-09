@@ -1,0 +1,90 @@
+{
+  "uid" : "f5eadd76c695e29f",
+  "name" : "test_backStage_authentication",
+  "fullName" : "test_flow.test_Authentication.test_backStage_authentication#test_backStage_authentication",
+  "historyId" : "a55d1468f36f1b2cdddeddca0f290d7d",
+  "time" : {
+    "start" : 1599101154837,
+    "stop" : 1599101168897,
+    "duration" : 14060
+  },
+  "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台认证",
+  "descriptionHtml" : "<p>http://10.10.128.152:10052/#/authority/mechanism 后台认证</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: waitUntilDisplay() missing 1 required positional argument: 'ByCss'",
+  "statusTrace" : "@pytest.mark.run(order=5)\n    @allure.severity(\"blocker\")\n    @allure.description(\"http://10.10.128.152:10052/#/authority/mechanism 后台认证\")\n    @allure.testcase(\"http://10.10.128.152:10052/#/authority/mechanism\", \"后台认证 \uD83D\uDC47\")\n    def test_backStage_authentication():\n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        driver = webdriver.Chrome()\n        driver.maximize_window()\n        driver.get(url_back)\n    \n        # 登陆页面\n        backStageLogin(driver, act, pwd)\n    \n        sleep(2)\n        driver.find_element_by_xpath(path_backStage_authentication.btn_jurisdiction_xpath.value).click()\n        sleep(1)\n        el = driver.find_element_by_xpath(path_backStage_authentication.btn_mechanism_xpath.value)\n        actionChainsClick(driver, el)\n    \n        waitUntilClick(driver, path_backStage_authentication.btn_addMechanism_css.value)\n    \n        # # 创建银行机构\n        # createInstitutions(driver, autoTest_BankName, 1)\n        # # 创建担保公司机构\n        # createInstitutions(driver, autoTest_RiskName, 0)\n    \n        # 创建银行账号\n>       createAct(driver, company_bank, autoTest_BankName, 1)\n\ntest_flow\\test_Authentication\\test_backStage_authentication.py:57: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"c94ecf6a5566fb838af5a566a97fe980\")>\naccount = '16621198901', name = 'AutoTest_Bank', enterpriseType = 1\n\n    def createAct(driver, account, name, enterpriseType):\n        xpath = \"//*[@id='root']/section/section/main/div/div/div/div[2]/table/tbody//*[text() = \\'\" + name + \"\\']/..//*[text()= '创建账号']\"\n        driver.find_element_by_xpath(xpath).click()\n>       waitUntilDisplay(path_backStage_authentication.btn_ActConfirm_css.value)\nE       TypeError: waitUntilDisplay() missing 1 required positional argument: 'ByCss'\n\ntest_flow\\test_Authentication\\test_backStage_authentication.py:88: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台认证",
+    "status" : "broken",
+    "statusMessage" : "TypeError: waitUntilDisplay() missing 1 required positional argument: 'ByCss'",
+    "statusTrace" : "@pytest.mark.run(order=5)\n    @allure.severity(\"blocker\")\n    @allure.description(\"http://10.10.128.152:10052/#/authority/mechanism 后台认证\")\n    @allure.testcase(\"http://10.10.128.152:10052/#/authority/mechanism\", \"后台认证 \uD83D\uDC47\")\n    def test_backStage_authentication():\n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        driver = webdriver.Chrome()\n        driver.maximize_window()\n        driver.get(url_back)\n    \n        # 登陆页面\n        backStageLogin(driver, act, pwd)\n    \n        sleep(2)\n        driver.find_element_by_xpath(path_backStage_authentication.btn_jurisdiction_xpath.value).click()\n        sleep(1)\n        el = driver.find_element_by_xpath(path_backStage_authentication.btn_mechanism_xpath.value)\n        actionChainsClick(driver, el)\n    \n        waitUntilClick(driver, path_backStage_authentication.btn_addMechanism_css.value)\n    \n        # # 创建银行机构\n        # createInstitutions(driver, autoTest_BankName, 1)\n        # # 创建担保公司机构\n        # createInstitutions(driver, autoTest_RiskName, 0)\n    \n        # 创建银行账号\n>       createAct(driver, company_bank, autoTest_BankName, 1)\n\ntest_flow\\test_Authentication\\test_backStage_authentication.py:57: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"c94ecf6a5566fb838af5a566a97fe980\")>\naccount = '16621198901', name = 'AutoTest_Bank', enterpriseType = 1\n\n    def createAct(driver, account, name, enterpriseType):\n        xpath = \"//*[@id='root']/section/section/main/div/div/div/div[2]/table/tbody//*[text() = \\'\" + name + \"\\']/..//*[text()= '创建账号']\"\n        driver.find_element_by_xpath(xpath).click()\n>       waitUntilDisplay(path_backStage_authentication.btn_ActConfirm_css.value)\nE       TypeError: waitUntilDisplay() missing 1 required positional argument: 'ByCss'\n\ntest_flow\\test_Authentication\\test_backStage_authentication.py:88: TypeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "33fdbd799d5132b4",
+      "name" : "log",
+      "source" : "33fdbd799d5132b4.txt",
+      "type" : "text/plain",
+      "size" : 193
+    }, {
+      "uid" : "440fcf918d166e97",
+      "name" : "stderr",
+      "source" : "440fcf918d166e97.txt",
+      "type" : "text/plain",
+      "size" : 284
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=5)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_backStage_authentication"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "1316-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_backStage_authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "后台认证 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/authority/mechanism",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=5)" ]
+  },
+  "source" : "f5eadd76c695e29f.json",
+  "parameterValues" : [ ]
+}

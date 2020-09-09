@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a456d7bc1a5a09fa",
+      "uid" : "32a62b8ba70a26e3",
       "status" : "passed",
       "time" : {
         "start" : 1599036473316,
@@ -28,12 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4f72913df8e2a89b",
+      "uid" : "31e9a042d674f577",
       "status" : "passed",
       "time" : {
-        "start" : 1599036454412,
-        "stop" : 1599036473316,
-        "duration" : 18904
+        "start" : 1599641191429,
+        "stop" : 1599641210384,
+        "duration" : 18955
       }
     } ]
   },
@@ -47,12 +47,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c61a700301a448f4",
+      "uid" : "da83e5b71c1df7b",
       "status" : "passed",
       "time" : {
-        "start" : 1599036347120,
-        "stop" : 1599036362905,
-        "duration" : 15785
+        "start" : 1599641068876,
+        "stop" : 1599641085464,
+        "duration" : 16588
       }
     } ]
   },
@@ -66,12 +66,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "83fe3c505a1ad072",
+      "uid" : "5540447572c7616a",
       "status" : "passed",
       "time" : {
-        "start" : 1599036408709,
-        "stop" : 1599036454395,
-        "duration" : 45686
+        "start" : 1599641131944,
+        "stop" : 1599641191413,
+        "duration" : 59469
       }
     } ]
   },
@@ -85,12 +85,51 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5bcc6b117b51761",
+      "uid" : "c3de796d71c45f41",
       "status" : "passed",
       "time" : {
-        "start" : 1599036362936,
-        "stop" : 1599036408709,
-        "duration" : 45773
+        "start" : 1599641085495,
+        "stop" : 1599641131913,
+        "duration" : 46418
+      }
+    } ]
+  },
+  "d85ebd52118862a52004a5c4faaac530" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a8e8ae9bf783f920",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599641210384,
+        "stop" : 1599641241880,
+        "duration" : 31496
+      }
+    } ]
+  },
+  "a55d1468f36f1b2cdddeddca0f290d7d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b32ea6fd448024cb",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > section > div.sider___ER6Fg > aside > div > div > ul > li.ant-menu-submenu.ant-menu-submenu-inline.ant-menu-submenu-selected > div > div > span\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1599641241897,
+        "stop" : 1599641351976,
+        "duration" : 110079
       }
     } ]
   }
