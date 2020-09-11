@@ -21,7 +21,6 @@ yamldict = handleyaml.get_data()
 file = os.path.basename(sys.argv[0])
 log = Log(file)
 logger = log.Logger
-i = 0
 if __name__ == "__main__":
     try:
         print("开始执行脚本")
@@ -32,9 +31,9 @@ if __name__ == "__main__":
                      "./report/reportallure/"])
         print("脚本执行完成")
     except Exception as e:
-        i = i + 1
-        im = ImageGrab.grab()  # 可以添加一个坐标元组进去
-        im.save(os.getcwd() + '\\test_data\\error_pic\\' + i + '.jpg')
+        # i = i + 1
+        # im = ImageGrab.grab()  # 可以添加一个坐标元组进去
+        # im.save(os.getcwd() + '\\test_data\\error_pic\\' + i + '.jpg')
         logger.error("脚本批量执行失败！", e)
         print("脚本批量执行失败！", e)
 
