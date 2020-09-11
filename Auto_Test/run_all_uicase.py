@@ -9,10 +9,11 @@ import pytest
 from common import Shell
 
 from common.Yaml_Data import HandleYaml
-from common.emails import mail
+
+from PIL import ImageGrab
 
 root_dir = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test'
-handleyaml = HandleYaml(root_dir+'\\test_data\\ConfigGol.yaml')
+handleyaml = HandleYaml(root_dir + '\\test_data\\ConfigGol.yaml')
 # handleyaml = HandleYaml(os.getcwd() + '\\..\\test_data\\ConfigGol.yaml')  # 调试db用
 
 yamldict = handleyaml.get_data()
@@ -20,7 +21,7 @@ yamldict = handleyaml.get_data()
 file = os.path.basename(sys.argv[0])
 log = Log(file)
 logger = log.Logger
-
+i = 0
 if __name__ == "__main__":
     try:
         print("开始执行脚本")
@@ -31,6 +32,9 @@ if __name__ == "__main__":
                      "./report/reportallure/"])
         print("脚本执行完成")
     except Exception as e:
+        i = i + 1
+        im = ImageGrab.grab()  # 可以添加一个坐标元组进去
+        im.save(os.getcwd() + '\\test_data\\error_pic\\' + i + '.jpg')
         logger.error("脚本批量执行失败！", e)
         print("脚本批量执行失败！", e)
 

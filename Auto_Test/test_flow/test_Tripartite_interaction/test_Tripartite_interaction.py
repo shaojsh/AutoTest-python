@@ -29,6 +29,9 @@ company_bank_pass = yamldict['test_backStageUserList']['company_bank_pass']
 company_Guarantee = yamldict['test_backStageUserList']['company_Guarantee']
 company_Guarantee_pass = yamldict['test_backStageUserList']['company_Guarantee_pass']
 
+# 产品名称
+product_name = yamldict['test_backStageUserList']['product_name']
+
 
 # 担保费审核
 def costAudit(driver_risk):
@@ -51,9 +54,11 @@ def costAudit(driver_risk):
 
 # 银行放款审核
 def loanReview(driver_bank):
+    sleep(2)
     logger.info('银行放款审核首页')
     driver_bank.find_element_by_css_selector(path_Tripartite_interaction.btn_homeBackStage_css.value).click()
     waitUntilClick(driver_bank, path_Tripartite_interaction.btn_loanReview_css.value)
+    sleep(1)
     driver_bank.find_element_by_css_selector(path_Tripartite_interaction.btn_loanReview_css.value).click()
 
     logger.info('银行放款审核列表')
@@ -123,7 +128,7 @@ def replayCheck_Bank(driver_bank):
     driver_bank.quit()
 
 
-@pytest.mark.run(order=5)
+@pytest.mark.run(order=-1)
 @allure.severity("blocker")
 @allure.description("测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互")
 @allure.testcase("http://10.10.128.152:10052/#/account/login", "三方（企业，银行，前端）交互 👇")
@@ -159,7 +164,6 @@ def test_Tripartite_interaction():
     loanApply(driver_forward)
     loanCheck_bank(driver_bank)
     loanCheck_Risk(driver_risk)
-
     # 去缴费
     goToPay(driver_forward)
     # 担保费审核
@@ -183,18 +187,19 @@ def creditExtension(driver_forward):
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_home_css.value).click()
 
     logger.info('进入到前端进入产品选择首页')
+    sleep(0.5)
     waitUntilClick(driver_forward, path_Tripartite_interaction.btn_apply_css.value)
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_apply_css.value).click()
-
+    sleep(0.5)
     logger.info('进入到前端进入产品详情页')
-    waitUntilClick_xpath(driver_forward, path_Tripartite_interaction.btn_detail_xpath.value)
-    driver_forward.find_element_by_xpath(path_Tripartite_interaction.btn_detail_xpath.value).click()
-
+    path = "//*[text() = \'" + product_name + "\']/../../a/button"  # 查看详情按钮
+    waitUntilClick_xpath(driver_forward, path)
+    driver_forward.find_element_by_xpath(path).click()
     logger.info('进入到前端进入产品借款页')
     waitUntilClick(driver_forward, path_Tripartite_interaction.btn_rent_css.value)
-    sleep(1)
+    sleep(0.5)
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_rent_css.value).click()
-    sleep(1)
+    sleep(2)
     # 授信采购信息页面
     logger.info('进入授信采购信息页面')
     waitUntilClick(driver_forward, path_Tripartite_interaction.input_bankNum_css.value)
@@ -211,10 +216,10 @@ def creditExtension(driver_forward):
 
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.input_branchBank_css.value).send_keys(
         "太原文博支行")
-
-    driver_forward.find_element_by_css_selector(path_Tripartite_interaction.select_branchBank_css.value).click()
+    el = driver_forward.find_element_by_css_selector(path_Tripartite_interaction.select_branchBank_css.value)
+    el.click()
     sleep(0.5)
-    driver_forward.find_elements_by_xpath("//*[text() = '潍坊市公安局交通警察支队计算机网络及信息化系统维保项目']")[1].click()
+    el.send_keys(Keys.ENTER)
     sleep(0.5)
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_next1_css.value).click()
 
@@ -427,5 +432,5 @@ def productChoose(driver_forward):
     el.click()
     sleep(1)
     el2 = driver_forward.find_element_by_css_selector(path_Tripartite_interaction.select_productNameList_css.value)
-    scrollText(driver_forward, el2, 'Auto_Test（专用）')
+    scrollText(driver_forward, el2, product_name)
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.select_productQuery_css.value).click()

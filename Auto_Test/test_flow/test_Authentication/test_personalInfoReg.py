@@ -98,7 +98,7 @@ def test_infoReg():
     test_Assert.assert_text_ui(txt_idNum_css, idNum)
     test_Assert.assert_text_ui(text_phoneNum_css, act)
 
-    WebDriverWait(driver, 120).until(
+    WebDriverWait(driver, 1200).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, path_personalInfoReg.txt_actSucess_css.value)))
     text_actSucess = driver.find_element_by_css_selector(path_personalInfoReg.txt_actSucess_css.value).text
     test_Assert.assert_text_ui(text_actSucess, "认证成功")

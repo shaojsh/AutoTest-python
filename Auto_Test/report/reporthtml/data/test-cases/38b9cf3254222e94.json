@@ -1,0 +1,92 @@
+{
+  "uid" : "38b9cf3254222e94",
+  "name" : "test_Tripartite_interaction",
+  "fullName" : "test_flow.test_Tripartite_interaction.test_Tripartite_interaction#test_Tripartite_interaction",
+  "historyId" : "d91e7b4392163e0b46289a9f8b97b16c",
+  "time" : {
+    "start" : 1599806953965,
+    "stop" : 1599807066617,
+    "duration" : 112652
+  },
+  "description" : "测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "36d563f762523409",
+      "name" : "log",
+      "source" : "36d563f762523409.txt",
+      "type" : "text/plain",
+      "size" : 3735
+    }, {
+      "uid" : "f61f44ebf0461c6",
+      "name" : "stdout",
+      "source" : "f61f44ebf0461c6.txt",
+      "type" : "text/plain",
+      "size" : 144
+    }, {
+      "uid" : "b48643ab4d70b24",
+      "name" : "stderr",
+      "source" : "b48643ab4d70b24.txt",
+      "type" : "text/plain",
+      "size" : 5626
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=-1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Tripartite_interaction"
+  }, {
+    "name" : "suite",
+    "value" : "test_Tripartite_interaction"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "3884-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Tripartite_interaction.test_Tripartite_interaction"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "三方（企业，银行，前端）交互 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/account/login",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=-1)" ]
+  },
+  "source" : "38b9cf3254222e94.json",
+  "parameterValues" : [ ]
+}

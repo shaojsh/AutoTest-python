@@ -1,0 +1,21 @@
+Fri, 11 Sep 2020 13:55:09-run_all_uicase.py-test_backStage_authentication.py-[line:251]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Fri, 11 Sep 2020 13:55:09-run_all_uicase.py-test_backStage_authentication.py-[line:254]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Fri, 11 Sep 2020 13:55:23-run_all_uicase.py-test_login.py-[line:123]-INFO-[日志信息]: 成功进入到密码重置页面
+Fri, 11 Sep 2020 13:55:25-run_all_uicase.py-test_login.py-[line:130]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Fri, 11 Sep 2020 13:55:29-run_all_uicase.py-test_login.py-[line:123]-INFO-[日志信息]: 成功进入到密码重置页面
+Fri, 11 Sep 2020 13:55:32-run_all_uicase.py-test_login.py-[line:130]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Fri, 11 Sep 2020 13:55:33-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Fri, 11 Sep 2020 13:55:37-run_all_uicase.py-test_backStage_authentication.py-[line:214]-INFO-[日志信息]: 企业信息认证
+Fri, 11 Sep 2020 13:55:40-run_all_uicase.py-test_backStage_authentication.py-[line:231]-INFO-[日志信息]: 协议内容确认页面
+Fri, 11 Sep 2020 13:55:43-run_all_uicase.py-test_backStage_authentication.py-[line:238]-INFO-[日志信息]: 二维码认证页面
+Fri, 11 Sep 2020 13:56:21-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Fri, 11 Sep 2020 13:56:25-run_all_uicase.py-test_backStage_authentication.py-[line:214]-INFO-[日志信息]: 企业信息认证
+Fri, 11 Sep 2020 13:56:28-run_all_uicase.py-test_backStage_authentication.py-[line:231]-INFO-[日志信息]: 协议内容确认页面
+Fri, 11 Sep 2020 13:56:30-run_all_uicase.py-test_backStage_authentication.py-[line:238]-INFO-[日志信息]: 二维码认证页面
+Fri, 11 Sep 2020 13:56:48-run_all_uicase.py-test_backStage_authentication.py-[line:41]-INFO-[日志信息]: 首页
+Fri, 11 Sep 2020 13:56:50-run_all_uicase.py-test_backStage_authentication.py-[line:45]-INFO-[日志信息]: 产品基本信息
+Fri, 11 Sep 2020 13:56:57-run_all_uicase.py-test_backStage_authentication.py-[line:121]-INFO-[日志信息]: 产品特性
+Fri, 11 Sep 2020 13:56:59-run_all_uicase.py-test_backStage_authentication.py-[line:136]-INFO-[日志信息]: 计分卡
+Fri, 11 Sep 2020 13:57:01-run_all_uicase.py-test_backStage_authentication.py-[line:143]-INFO-[日志信息]: 进件信息

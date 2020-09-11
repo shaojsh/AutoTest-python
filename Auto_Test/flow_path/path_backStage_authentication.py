@@ -48,8 +48,8 @@ class path_backStage_authentication(Enum):
     text_au_css = '#root > section > section > main > div > div > div.statusWrap___1PwQP.success___1mF-h > p.text___9dO6n'  # 认证成功
 
     # 银行创建产品
-    btn_goodMan_css = '#root > section > div.sider___ER6Fg > aside > div > div > ul > li.ant-menu-submenu.ant-menu-submenu-inline.ant-menu-submenu-selected > div > div > span'  # 产品管理
-    btn_goodList_css = '#sMenu_0kaz0g8xh-0172-72744068-8a8a0018-0013\$Menu > li > a > span'  # 产品列表
+    btn_goodMan_xpath = "//*[text() = '产品管理']"  # 产品管理
+    btn_goodList_xpath = "//*[text() = '产品列表']"  # 产品列表
     btn_goodAdd_css = '#root > section > section > main > div > div > div > div.bird_header___1Vckx > div:nth-child(2) > div:nth-child(2) > div.ant-col.ant-col-14 > div > div > button:nth-child(1)'  # 新增按钮
     choose_goodType_css = '#root > section > section > main > div > div:nth-child(2) > form > div:nth-child(1) > div:nth-child(1) > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > div > div > div'  # 产品类型
     input_goodName_css = '#root > section > section > main > div > div:nth-child(2) > form > div:nth-child(1) > div:nth-child(2) > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > input'  # 产品名称
@@ -71,4 +71,19 @@ class path_backStage_authentication(Enum):
     choose_risk_css = '#root > section > section > main > div > div:nth-child(2) > form > div:nth-child(6) > div:nth-child(3) > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > div > div > div'  # 担保方
     input_area_css = '#root > section > section > main > div > div:nth-child(2) > form > div:nth-child(7) > div > div > div.ant-col.ant-col-18.ant-form-item-control-wrapper > div > span > textarea'  # 产品简介
     btn_next1_css = '#root > section > section > main > div > div:nth-child(2) > div > div > button'  # 下一步
+
+    # 产品特性
+    btn_add_css = '#root > section > section > main > div > div > div.ant-spin-nested-loading > div > div.bird_header___1Vckx > div:nth-child(2) > div > div > div > div > button:nth-child(1)'  # 新增按钮
+    input_characteristicName_css = 'body > div:nth-child(9) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(1) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > input'  # 产品特点名称
+    input_characteristicDes_css = 'body > div:nth-child(9) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(2) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > input'  # 产品特点描述
+    btn_save_css = 'body > div:nth-child(9) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > div > div > button'  # 保存按钮
+    btn_next2_xpath = '//*[@id="root"]/section/section/main/div/div/div[3]/div/button[2]'  # 下一步
+
+    # 计分卡
+    btn_next3_xpath = '//*[@id="root"]/section/section/main/div/div[3]/div/button[2]'  # 下一步
+
+    # 进件信息
+    check_content_css = '#root > section > section > main > div > div > div > div:nth-child(2) > div:nth-child(1) > ul > li > span.ant-tree-checkbox > span'  # 进件资料
+    btn_submit_css = '#root > section > section > main > div > div > div > div:nth-child(2) > div:nth-child(2) > div > button:nth-child(2)'  # 提交
+
 

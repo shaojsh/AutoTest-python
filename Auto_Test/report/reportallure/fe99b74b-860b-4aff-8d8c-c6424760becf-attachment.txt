@@ -1,5 +1,0 @@
-INFO     run_all_uicase.py:test_backStage_authentication.py:34 开始执行脚本test_backStage_authentication:
-
-INFO     run_all_uicase.py:test_backStage_examine.py:71 成功登录后台系统
-INFO     run_all_uicase.py:test_backStage_authentication.py:90 进入银行账户创建页面
-INFO     run_all_uicase.py:test_backStage_authentication.py:92 进入担保公司创建页面

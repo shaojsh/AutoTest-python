@@ -1,0 +1,218 @@
+{
+  "uid" : "1532c7ed8272265c",
+  "name" : "test_businessInforReg",
+  "fullName" : "test_flow.test_Authentication.test_businessInfoReg#test_businessInforReg",
+  "historyId" : "673c6cf796d54f5cbc2e9852ef4f69c7",
+  "time" : {
+    "start" : 1599813903037,
+    "stop" : 1599813968613,
+    "duration" : 65576
+  },
+  "description" : "测试 http://10.10.128.152:10053/personal/baseinfo 企业认证",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/personal/baseinfo 企业认证</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/personal/baseinfo 企业认证",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6401e52c1465b205",
+      "name" : "log",
+      "source" : "6401e52c1465b205.txt",
+      "type" : "text/plain",
+      "size" : 1259
+    }, {
+      "uid" : "7ec424a8e4eec90e",
+      "name" : "stderr",
+      "source" : "7ec424a8e4eec90e.txt",
+      "type" : "text/plain",
+      "size" : 1755
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_businessInfoReg"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "12420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_businessInfoReg"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "企业认证 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/personal/baseinfo",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "1095660cd7c9d543",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1599813625159,
+        "stop" : 1599813655545,
+        "duration" : 30386
+      }
+    }, {
+      "uid" : "fd94f4d2b9391b01",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"ant-select-selection-item\" title=\"\"></span> is not clickable at point (937, 508). Other element would receive the click: <div class=\"ant-select-item-option-content\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1599813161172,
+        "stop" : 1599813178897,
+        "duration" : 17725
+      }
+    }, {
+      "uid" : "8384e5187fe0108a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599811689002,
+        "stop" : 1599811749170,
+        "duration" : 60168
+      }
+    }, {
+      "uid" : "d80fe8754fc3018e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599811212848,
+        "stop" : 1599811268142,
+        "duration" : 55294
+      }
+    }, {
+      "uid" : "83a3084fc9cdfa1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599808240594,
+        "stop" : 1599808290453,
+        "duration" : 49859
+      }
+    }, {
+      "uid" : "94d43e014d83403b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599807657070,
+        "stop" : 1599807728719,
+        "duration" : 71649
+      }
+    }, {
+      "uid" : "9640a8ef529c9749",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599806723885,
+        "stop" : 1599806773264,
+        "duration" : 49379
+      }
+    }, {
+      "uid" : "cce921896fb6766a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599806124657,
+        "stop" : 1599806189701,
+        "duration" : 65044
+      }
+    }, {
+      "uid" : "82d50891e1c04db1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599805196511,
+        "stop" : 1599805255492,
+        "duration" : 58981
+      }
+    }, {
+      "uid" : "747b4d8330b8bbd5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599804500547,
+        "stop" : 1599804549741,
+        "duration" : 49194
+      }
+    }, {
+      "uid" : "7f4742ca2af3ddf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599803608916,
+        "stop" : 1599803658429,
+        "duration" : 49513
+      }
+    }, {
+      "uid" : "2ffe05c06646c95e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599802630577,
+        "stop" : 1599802688896,
+        "duration" : 58319
+      }
+    }, {
+      "uid" : "4b33048f827646b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599802098642,
+        "stop" : 1599802157575,
+        "duration" : 58933
+      }
+    }, {
+      "uid" : "a9b99d44e90efecc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599801648609,
+        "stop" : 1599801717490,
+        "duration" : 68881
+      }
+    }, {
+      "uid" : "daf23019b5801a7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599800986036,
+        "stop" : 1599801035169,
+        "duration" : 49133
+      }
+    }, {
+      "uid" : "a8852740579688a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599800335709,
+        "stop" : 1599800434519,
+        "duration" : 98810
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "1532c7ed8272265c.json",
+  "parameterValues" : [ ]
+}

@@ -916,3 +916,284 @@ Wed, 09 Sep 2020 16:48:34-run_all_uicase.py-test_backStage_authentication.py-[li
 Wed, 09 Sep 2020 16:48:37-run_all_uicase.py-test_backStage_authentication.py-[line:196]-INFO-[日志信息]: 协议内容确认页面
 Wed, 09 Sep 2020 16:48:39-run_all_uicase.py-test_backStage_authentication.py-[line:203]-INFO-[日志信息]: 二维码认证页面
 Wed, 09 Sep 2020 16:49:11-run_all_uicase.py-test_backStage_authentication.py-[line:41]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 16:56:41-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 16:56:41===================================
+Wed, 09 Sep 2020 16:57:25-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 16:57:25===================================
+Wed, 09 Sep 2020 16:57:25-run_all_uicase.py-test_backStage_authentication.py-[line:216]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 16:57:25-run_all_uicase.py-test_backStage_authentication.py-[line:219]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 16:58:06-run_all_uicase.py-test_backStage_authentication.py-[line:120]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 16:58:24-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 16:58:24===================================
+Wed, 09 Sep 2020 16:58:25-run_all_uicase.py-test_backStage_authentication.py-[line:216]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 16:58:25-run_all_uicase.py-test_backStage_authentication.py-[line:219]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 16:59:23-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 16:59:23===================================
+Wed, 09 Sep 2020 16:59:24-run_all_uicase.py-test_backStage_authentication.py-[line:216]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 16:59:24-run_all_uicase.py-test_backStage_authentication.py-[line:219]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 16:59:35-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 16:59:42-run_all_uicase.py-test_backStage_authentication.py-[line:41]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 16:59:49-run_all_uicase.py-test_backStage_authentication.py-[line:120]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 17:00:31-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:00:31===================================
+Wed, 09 Sep 2020 17:00:32-run_all_uicase.py-test_backStage_authentication.py-[line:216]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:00:32-run_all_uicase.py-test_backStage_authentication.py-[line:219]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:00:43-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:00:54-run_all_uicase.py-test_backStage_authentication.py-[line:41]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 17:03:30-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:03:30===================================
+Wed, 09 Sep 2020 17:03:30-run_all_uicase.py-test_backStage_authentication.py-[line:217]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:03:30-run_all_uicase.py-test_backStage_authentication.py-[line:220]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:03:41-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:03:48-run_all_uicase.py-test_backStage_authentication.py-[line:41]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 17:04:11-run_all_uicase.py-test_backStage_authentication.py-[line:121]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 17:04:46-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:04:46===================================
+Wed, 09 Sep 2020 17:04:47-run_all_uicase.py-test_backStage_authentication.py-[line:217]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:04:47-run_all_uicase.py-test_backStage_authentication.py-[line:220]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:04:57-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:05:06-run_all_uicase.py-test_backStage_authentication.py-[line:41]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 17:05:12-run_all_uicase.py-test_backStage_authentication.py-[line:121]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 17:05:47-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:05:47===================================
+Wed, 09 Sep 2020 17:05:48-run_all_uicase.py-test_backStage_authentication.py-[line:217]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:05:48-run_all_uicase.py-test_backStage_authentication.py-[line:220]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:05:58-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:06:07-run_all_uicase.py-test_backStage_authentication.py-[line:41]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 17:06:10-run_all_uicase.py-test_backStage_authentication.py-[line:121]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 17:06:21-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:07:09-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:07:09===================================
+Wed, 09 Sep 2020 17:07:09-run_all_uicase.py-test_backStage_authentication.py-[line:217]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:07:09-run_all_uicase.py-test_backStage_authentication.py-[line:220]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:07:20-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:07:30-run_all_uicase.py-test_backStage_authentication.py-[line:41]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 17:08:28-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:08:28===================================
+Wed, 09 Sep 2020 17:08:29-run_all_uicase.py-test_backStage_authentication.py-[line:217]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:08:29-run_all_uicase.py-test_backStage_authentication.py-[line:220]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:08:34-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:08:34===================================
+Wed, 09 Sep 2020 17:08:35-run_all_uicase.py-test_backStage_authentication.py-[line:217]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:08:35-run_all_uicase.py-test_backStage_authentication.py-[line:220]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:08:46-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:08:46-run_all_uicase.py-test_backStage_authentication.py-[line:121]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 17:09:13-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:09:13===================================
+Wed, 09 Sep 2020 17:09:13-run_all_uicase.py-test_backStage_authentication.py-[line:216]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:09:13-run_all_uicase.py-test_backStage_authentication.py-[line:219]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:09:24-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:09:24-run_all_uicase.py-test_backStage_authentication.py-[line:120]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 17:09:35-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:11:14-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:11:14===================================
+Wed, 09 Sep 2020 17:11:14-run_all_uicase.py-test_backStage_authentication.py-[line:218]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:11:14-run_all_uicase.py-test_backStage_authentication.py-[line:221]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:11:25-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:11:25-run_all_uicase.py-test_backStage_authentication.py-[line:122]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 17:11:38-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:11:38===================================
+Wed, 09 Sep 2020 17:11:38-run_all_uicase.py-test_backStage_authentication.py-[line:219]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:11:38-run_all_uicase.py-test_backStage_authentication.py-[line:222]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:11:49-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:11:49-run_all_uicase.py-test_backStage_authentication.py-[line:123]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 17:12:02-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:12:02===================================
+Wed, 09 Sep 2020 17:12:02-run_all_uicase.py-test_backStage_authentication.py-[line:219]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:12:02-run_all_uicase.py-test_backStage_authentication.py-[line:222]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:12:13-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:12:13-run_all_uicase.py-test_backStage_authentication.py-[line:123]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 17:12:18-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:12:18===================================
+Wed, 09 Sep 2020 17:12:19-run_all_uicase.py-test_backStage_authentication.py-[line:219]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:12:19-run_all_uicase.py-test_backStage_authentication.py-[line:222]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:12:29-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:12:34-run_all_uicase.py-test_backStage_authentication.py-[line:43]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 17:12:45-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:12:45===================================
+Wed, 09 Sep 2020 17:12:46-run_all_uicase.py-test_backStage_authentication.py-[line:219]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:12:46-run_all_uicase.py-test_backStage_authentication.py-[line:222]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:13:00-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:13:01-run_all_uicase.py-test_backStage_authentication.py-[line:123]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 17:13:15-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:13:15===================================
+Wed, 09 Sep 2020 17:13:15-run_all_uicase.py-test_backStage_authentication.py-[line:219]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:13:15-run_all_uicase.py-test_backStage_authentication.py-[line:222]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:13:26-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:13:30-run_all_uicase.py-test_backStage_authentication.py-[line:43]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 17:14:18-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:14:18===================================
+Wed, 09 Sep 2020 17:14:18-run_all_uicase.py-test_backStage_authentication.py-[line:219]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:14:18-run_all_uicase.py-test_backStage_authentication.py-[line:222]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:14:29-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:14:33-run_all_uicase.py-test_backStage_authentication.py-[line:43]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 17:14:34-run_all_uicase.py-test_backStage_authentication.py-[line:123]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 17:14:56-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:14:56===================================
+Wed, 09 Sep 2020 17:14:57-run_all_uicase.py-test_backStage_authentication.py-[line:220]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:14:57-run_all_uicase.py-test_backStage_authentication.py-[line:223]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:15:07-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:15:12-run_all_uicase.py-test_backStage_authentication.py-[line:43]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 17:15:13-run_all_uicase.py-test_backStage_authentication.py-[line:124]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 17:15:38-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:15:38===================================
+Wed, 09 Sep 2020 17:15:39-run_all_uicase.py-test_backStage_authentication.py-[line:220]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:15:39-run_all_uicase.py-test_backStage_authentication.py-[line:223]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:15:49-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:15:49===================================
+Wed, 09 Sep 2020 17:15:50-run_all_uicase.py-test_backStage_authentication.py-[line:220]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:15:50-run_all_uicase.py-test_backStage_authentication.py-[line:223]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:16:00-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:16:04-run_all_uicase.py-test_backStage_authentication.py-[line:43]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 17:16:04-run_all_uicase.py-test_backStage_authentication.py-[line:124]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 17:16:22-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:16:22===================================
+Wed, 09 Sep 2020 17:16:22-run_all_uicase.py-test_backStage_authentication.py-[line:220]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:16:22-run_all_uicase.py-test_backStage_authentication.py-[line:223]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:16:33-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:16:37-run_all_uicase.py-test_backStage_authentication.py-[line:43]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 17:16:47-run_all_uicase.py-test_backStage_authentication.py-[line:124]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 17:17:56-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:17:56===================================
+Wed, 09 Sep 2020 17:17:57-run_all_uicase.py-test_backStage_authentication.py-[line:220]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:17:57-run_all_uicase.py-test_backStage_authentication.py-[line:223]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:18:07-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:18:12-run_all_uicase.py-test_backStage_authentication.py-[line:44]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 17:18:19-run_all_uicase.py-test_backStage_authentication.py-[line:124]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 17:20:12-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:20:12===================================
+Wed, 09 Sep 2020 17:20:13-run_all_uicase.py-test_backStage_authentication.py-[line:217]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:20:13-run_all_uicase.py-test_backStage_authentication.py-[line:220]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:20:24-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:20:26-run_all_uicase.py-test_backStage_authentication.py-[line:41]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 17:20:31-run_all_uicase.py-test_backStage_authentication.py-[line:121]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 17:21:16-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:21:16===================================
+Wed, 09 Sep 2020 17:21:16-run_all_uicase.py-test_backStage_authentication.py-[line:218]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:21:16-run_all_uicase.py-test_backStage_authentication.py-[line:221]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:21:27-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:21:29-run_all_uicase.py-test_backStage_authentication.py-[line:41]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 17:21:29-run_all_uicase.py-test_backStage_authentication.py-[line:122]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 17:21:53-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:21:53===================================
+Wed, 09 Sep 2020 17:21:54-run_all_uicase.py-test_backStage_authentication.py-[line:217]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:21:54-run_all_uicase.py-test_backStage_authentication.py-[line:220]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:22:04-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:22:07-run_all_uicase.py-test_backStage_authentication.py-[line:41]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 17:23:18-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:23:18===================================
+Wed, 09 Sep 2020 17:23:18-run_all_uicase.py-test_backStage_authentication.py-[line:217]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:23:18-run_all_uicase.py-test_backStage_authentication.py-[line:220]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:23:29-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:23:31-run_all_uicase.py-test_backStage_authentication.py-[line:41]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 17:25:01-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:25:01===================================
+Wed, 09 Sep 2020 17:25:01-run_all_uicase.py-test_backStage_authentication.py-[line:217]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:25:01-run_all_uicase.py-test_backStage_authentication.py-[line:220]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:25:12-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:25:14-run_all_uicase.py-test_backStage_authentication.py-[line:41]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 17:25:15-run_all_uicase.py-test_backStage_authentication.py-[line:121]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 17:25:28-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:25:28===================================
+Wed, 09 Sep 2020 17:25:29-run_all_uicase.py-test_backStage_authentication.py-[line:217]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:25:29-run_all_uicase.py-test_backStage_authentication.py-[line:220]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:25:38-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:25:38===================================
+Wed, 09 Sep 2020 17:25:38-run_all_uicase.py-test_backStage_authentication.py-[line:217]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:25:38-run_all_uicase.py-test_backStage_authentication.py-[line:220]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:25:49-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:25:51-run_all_uicase.py-test_backStage_authentication.py-[line:41]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 17:25:59-run_all_uicase.py-test_backStage_authentication.py-[line:121]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 17:26:43-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:26:43===================================
+Wed, 09 Sep 2020 17:26:44-run_all_uicase.py-test_backStage_authentication.py-[line:217]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:26:44-run_all_uicase.py-test_backStage_authentication.py-[line:220]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:26:54-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:26:57-run_all_uicase.py-test_backStage_authentication.py-[line:41]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 17:28:04-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:28:04===================================
+Wed, 09 Sep 2020 17:28:04-run_all_uicase.py-test_backStage_authentication.py-[line:216]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:28:04-run_all_uicase.py-test_backStage_authentication.py-[line:219]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:28:18-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:28:20-run_all_uicase.py-test_backStage_authentication.py-[line:120]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 17:29:07-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:29:07===================================
+Wed, 09 Sep 2020 17:29:07-run_all_uicase.py-test_backStage_authentication.py-[line:216]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:29:07-run_all_uicase.py-test_backStage_authentication.py-[line:219]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:29:18-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:29:19-run_all_uicase.py-test_backStage_authentication.py-[line:120]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 09 Sep 2020 17:29:32-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:29:32===================================
+Wed, 09 Sep 2020 17:29:33-run_all_uicase.py-test_backStage_authentication.py-[line:216]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:29:33-run_all_uicase.py-test_backStage_authentication.py-[line:219]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:29:44-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:29:53-run_all_uicase.py-test_backStage_authentication.py-[line:41]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 17:30:39-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:30:39===================================
+Wed, 09 Sep 2020 17:30:39-run_all_uicase.py-test_backStage_authentication.py-[line:216]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:30:39-run_all_uicase.py-test_backStage_authentication.py-[line:219]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:30:50-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:30:52-run_all_uicase.py-test_backStage_authentication.py-[line:41]-INFO-[日志信息]: 首页
+Wed, 09 Sep 2020 17:31:12-run_all_uicase.py-run_all_uicase.py-[line:27]-INFO-[日志信息]: ==================================2020-09-09 17:31:12===================================
+Wed, 09 Sep 2020 17:31:12-run_all_uicase.py-test_backStage_authentication.py-[line:216]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:31:12-run_all_uicase.py-test_backStage_authentication.py-[line:219]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 09 Sep 2020 17:31:23-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 09 Sep 2020 17:31:25-run_all_uicase.py-test_backStage_authentication.py-[line:41]-INFO-[日志信息]: 首页

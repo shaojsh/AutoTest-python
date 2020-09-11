@@ -113,7 +113,7 @@ def test_businessInforReg():
     test_Assert.assert_text_ui(txt_middleAuTitle, '认证中')
     logger.info("企业信息认证中画面正常显示")
 
-    WebDriverWait(driver, 120).until(
+    WebDriverWait(driver, 1200).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, path_businessInfoReg.text_bank_css.value)))
 
     driver.find_element_by_css_selector(path_businessInfoReg.input_moneyNum_css.value).send_keys('0.5')

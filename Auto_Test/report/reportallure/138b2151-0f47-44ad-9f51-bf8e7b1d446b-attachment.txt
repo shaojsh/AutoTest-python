@@ -1,1 +1,0 @@
-INFO     run_all_uicase.py:test_backStage_authentication.py:36 开始执行脚本test_backStageActCreate:

@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 
-from common.BaseFunction import actionChainsClick, waitUntilClick, scrollText
+from common.BaseFunction import actionChainsClick, waitUntilClick, scrollText, waitUntilClick_xpath
 from common.dbLink import getPhoneMessage
 from flow_path.path_Tripartite_interaction import path_Tripartite_interaction
 from flow_path.path_backStage_authentication import path_backStage_authentication
@@ -35,15 +35,18 @@ url_back = yamldict['test_path_list']['url_ui_back']
 
 # 创建金融产品
 def createProduct(driver):
-    driver.find_element_by_css_selector(path_Tripartite_interaction.btn_homeBackStage_css.value).click()
-
+    waitUntilClick(driver, path_Tripartite_interaction.btn_homeBackStage_css.value)
     sleep(2)
+    driver.find_element_by_css_selector(path_Tripartite_interaction.btn_homeBackStage_css.value).click()
     logger.info('首页')
-    driver.find_element_by_css_selector(path_backStage_authentication.btn_goodMan_css.value).click()
-    waitUntilClick(driver, path_backStage_authentication.btn_goodList_css.value)
-    sleep(0.5)
+    sleep(1)
+    driver.find_elements_by_xpath(path_backStage_authentication.btn_goodList_xpath.value)[0].click()
+    sleep(1)
+    logger.info('产品基本信息')
     driver.find_element_by_css_selector(path_backStage_authentication.btn_goodAdd_css.value).click()
     waitUntilClick(driver, path_backStage_authentication.choose_goodType_css.value)
+
+    driver.find_element_by_css_selector(path_backStage_authentication.choose_goodType_css.value).click()
     el1 = driver.find_element_by_css_selector(path_backStage_authentication.choose_goodType_css.value)
     scrollText(driver, el1, '财金通')
 
@@ -51,9 +54,9 @@ def createProduct(driver):
 
     driver.find_element_by_css_selector(path_backStage_authentication.cal_okTime.value).click()
     el2 = driver.find_element_by_css_selector(path_backStage_authentication.input_cal_css.value)
-    sleep(0.5)
     el2.send_keys(Keys.ENTER)
 
+    driver.find_element_by_css_selector(path_backStage_authentication.choose_goodStatus_css.value).click()
     el3 = driver.find_element_by_css_selector(path_backStage_authentication.choose_goodStatus_css.value)
     scrollText(driver, el3, '启用')
 
@@ -67,15 +70,19 @@ def createProduct(driver):
     el5.send_keys(Keys.DELETE)
     el5.send_keys('1000000')
 
+    driver.find_element_by_css_selector(path_backStage_authentication.choose_loanGetWay_css.value).click()
     el6 = driver.find_element_by_css_selector(path_backStage_authentication.choose_loanGetWay_css.value)
     scrollText(driver, el6, '先交费后放款')
 
+    driver.find_element_by_css_selector(path_backStage_authentication.choose_rendItem_css.value).click()
     el7 = driver.find_element_by_css_selector(path_backStage_authentication.choose_rendItem_css.value)
     scrollText(driver, el7, '按日')
 
+    driver.find_element_by_css_selector(path_backStage_authentication.choose_rendDay_css.value).click()
     el8 = driver.find_element_by_css_selector(path_backStage_authentication.choose_rendDay_css.value)
     scrollText(driver, el8, '360天')
 
+    driver.find_element_by_css_selector(path_backStage_authentication.choose_rendWay_css.value).click()
     el9 = driver.find_element_by_css_selector(path_backStage_authentication.choose_rendWay_css.value)
     scrollText(driver, el9, '算头算尾')
 
@@ -84,6 +91,7 @@ def createProduct(driver):
     el10.send_keys(Keys.DELETE)
     el10.send_keys('13')
 
+    driver.find_element_by_css_selector(path_backStage_authentication.choose_giveMoneyWay_css.value).click()
     el11 = driver.find_element_by_css_selector(path_backStage_authentication.choose_giveMoneyWay_css.value)
     scrollText(driver, el11, '随借随还')
 
@@ -104,11 +112,38 @@ def createProduct(driver):
     driver.find_element_by_css_selector(path_backStage_authentication.upload_pic5_css.value).send_keys(
         picture_dir2)
 
+    driver.find_element_by_css_selector(path_backStage_authentication.choose_risk_css.value).click()
     el14 = driver.find_element_by_css_selector(path_backStage_authentication.choose_risk_css.value)
-    scrollText(driver, el14, 'autoTest_RiskName')
+    scrollText(driver, el14, autoTest_RiskName)
 
     driver.find_element_by_css_selector(path_backStage_authentication.input_area_css.value).send_keys('该产品价格实惠公道')
     driver.find_element_by_css_selector(path_backStage_authentication.btn_next1_css.value).click()
+    logger.info('产品特性')
+    waitUntilClick(driver, path_backStage_authentication.btn_add_css.value)
+    sleep(0.5)
+    driver.find_element_by_css_selector(path_backStage_authentication.btn_add_css.value).click()
+    sleep(0.5)
+    driver.find_element_by_css_selector(path_backStage_authentication.input_characteristicName_css.value).send_keys(
+        '利率低')
+    driver.find_element_by_css_selector(path_backStage_authentication.input_characteristicDes_css.value).send_keys(
+        '利率低,很nice的产品')
+
+    driver.find_element_by_css_selector(path_backStage_authentication.btn_save_css.value).click()
+    waitUntilClick_xpath(driver, path_backStage_authentication.btn_next2_xpath.value)
+    sleep(0.5)
+    driver.find_element_by_xpath(path_backStage_authentication.btn_next2_xpath.value).click()
+
+    logger.info('计分卡')
+    waitUntilClick_xpath(driver, path_backStage_authentication.btn_next3_xpath.value)
+    sleep(0.5)
+    driver.find_element_by_xpath(path_backStage_authentication.btn_next3_xpath.value).click()
+
+    waitUntilClick(driver, path_backStage_authentication.check_content_css.value)
+    sleep(0.5)
+    logger.info('进件信息')
+    driver.find_element_by_css_selector(path_backStage_authentication.check_content_css.value).click()
+    driver.find_element_by_css_selector(path_backStage_authentication.btn_submit_css.value).click()
+    sleep(1)
 
 
 @pytest.mark.run(order=5)
@@ -201,7 +236,7 @@ def authentication(driver, Type):
     driver.find_element_by_css_selector(path_backStage_authentication.btn_startAu_css.value).click()
 
     logger.info('二维码认证页面')
-    WebDriverWait(driver, 120).until(
+    WebDriverWait(driver, 1200).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, path_backStage_authentication.text_au_css.value)))
     if Type == 0:
         driver.quit()
@@ -234,6 +269,9 @@ def test_backStage_authentication():
     authentication(driver_bank, 1)
     # 创建产品
     createProduct(driver_bank)
+    # backStageLogin(driver, company_bank, company_bank_pass, 0)
+    # createProduct(driver)
+    driver_bank.quit()
 
 
 # 创建机构

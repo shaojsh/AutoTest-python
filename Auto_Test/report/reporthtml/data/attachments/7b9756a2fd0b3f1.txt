@@ -1,6 +1,0 @@
-Wed, 02 Sep 2020 16:25:29-run_all_uicase.py-test_backStage_examine.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
-
-Wed, 02 Sep 2020 16:25:39-run_all_uicase.py-test_backStage_examine.py-[line:70]-INFO-[日志信息]: 成功登录后台系统
-Wed, 02 Sep 2020 16:25:44-test_backstage_examine-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
-Wed, 02 Sep 2020 16:25:44-run_all_uicase.py-test_backStage_examine.py-[line:52]-INFO-[日志信息]: 成功进入企业信息审核画面
-Wed, 02 Sep 2020 16:25:45-run_all_uicase.py-test_backStage_examine.py-[line:58]-INFO-[日志信息]: 企业认证通过
