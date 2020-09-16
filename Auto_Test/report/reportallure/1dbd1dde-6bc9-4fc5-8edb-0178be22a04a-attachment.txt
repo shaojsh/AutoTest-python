@@ -1,0 +1,7 @@
+SET SQL_SAFE_UPDATES = 0;
+update `chengtay-zcd`.enterprise set name = 'oldcompanyname' where name in ('潍坊市市政工程设计研究院有限公司','山东艺轩建筑装饰工程有限公司','山东欣立得光电科技有限公司');
+()
+()
+token为：3d25e296-598b-426e-88df-3b175b2e4dd0
+Pipeline<ConnectionPool<Connection<host=10.10.128.128,port=6739,db=2>>>
+{"@class":"com.bird.web.sso.ticket.ServerTicket","userId":"0kf3pnsfd-0174-748fb578-8a8a0018-020f","tenantId":"chengtay-tech","userName":"17621198955","realName":null,"creationTime":["java.util.Date",1600159530358],"lastRefreshTime":["java.util.Date",1600159530358],"expireTime":["java.util.Date",1600181130358],"appClaims":{"@class":"java.util.HashMap"}}

@@ -5,11 +5,11 @@ import allure
 import pytest
 from selenium import webdriver
 
-from common.dbLink import getPhoneMessage
+from common.dbLink import getPhoneMessage, flushDb
 from flow_path.path_Tripartite_interaction import path_Tripartite_interaction
 from run_all_uicase import yamldict, logger
 from common.BaseFunction import waitUntilDisplay, waitUntilClick, waitUntilClick_xpath, scrollText, \
-    waitUntilDisplay_xpath
+    waitUntilDisplay_xpath, is_not_visible
 from test_flow.test_Authentication.test_backStage_examine import backStageLogin
 from test_flow.test_Authentication.test_login import login
 from selenium.webdriver.common.keys import Keys
@@ -314,6 +314,7 @@ def loanApply(driver_forward):
         '12222221222222')
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.input_bankPhone_css.value).send_keys(
         '17621198456')
+    flushDb()
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_veryCod_css.value).click()
     while 1:
         message = getPhoneMessage().get("loanMes")
@@ -398,12 +399,13 @@ def loanCheck_Risk(driver_risk):
         "担保公司借款审核通过")
     sleep(0.5)
     driver_risk.find_element_by_css_selector(path_Tripartite_interaction.btn_checkOkBank_css.value).click()
-    waitUntilDisplay(driver_risk, path_Tripartite_interaction.txt_tag_css.value)
+    is_not_visible(driver_risk, path_Tripartite_interaction.btn_CheckOkReasonRisk_css.value)
     sleep(2)
 
 
 # 去缴费
 def goToPay(driver_forward):
+    sleep(2)
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_loanApply_css.value).click()
     waitUntilClick(driver_forward, path_Tripartite_interaction.select_productQuery_css.value)
     sleep(1)

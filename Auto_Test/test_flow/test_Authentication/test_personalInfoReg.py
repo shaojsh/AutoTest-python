@@ -10,7 +10,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from common.BaseFunction import waitUntilDisplay, waitUntilClick
-from common.dbLink import deletePerInforAndComInfor, getPhoneMessage
+from common.dbLink import deletePerInforAndComInfor, getPhoneMessage, getVerification, flushDb
 from flow_path.path_login import loginOn
 from flow_path.path_persionInfoReg import path_personalInfoReg
 from run_all_uicase import yamldict, logger
@@ -19,6 +19,7 @@ from test_flow.test_Authentication.test_login import login
 
 act = yamldict['test_userlist']['company_user']
 pwd = yamldict['test_userlist']['company_user_pass']
+RequestURL = yamldict['test_redisdb_list']['RequestURL']
 url_forward = yamldict['test_path_list']['url_ui_forward']
 
 
@@ -50,16 +51,17 @@ def test_infoReg():
     logger.info("进入登陆页面")
 
     waitUntilDisplay(driver, path_personalInfoReg.txt_aut_css.value)
+    sleep(1)
     titleText = driver.find_element_by_css_selector(path_personalInfoReg.txt_aut_css.value)
     test_Assert.assert_text_ui(titleText.text, '实名认证')
     logger.info("实名认证画面成功显示")
-
     name = yamldict['test_personalInfoRegList']['name']
     idNum = yamldict['test_personalInfoRegList']['id_card']
 
     driver.find_element_by_css_selector(path_personalInfoReg.input_name_css.value).send_keys(name)
     driver.find_element_by_css_selector(path_personalInfoReg.input_idNum_css.value).send_keys(idNum)
     BaseFunction.waitUntilClick(driver, path_personalInfoReg.btn_phoneNum_css.value)
+    flushDb()
     driver.find_element_by_css_selector(path_personalInfoReg.btn_phoneNum_css.value).click()
 
     while 1:
@@ -84,6 +86,8 @@ def test_infoReg():
     waitUntilClick(driver, path_personalInfoReg.btn_aut_css.value)
     sleep(1)
     driver.find_element_by_css_selector(path_personalInfoReg.btn_aut_css.value).click()
+
+    getVerification(RequestURL, act)
 
     BaseFunction.waitUntilDisplay(driver, path_personalInfoReg.txt_auting_css.value)
     text_auting = driver.find_element_by_css_selector(path_personalInfoReg.txt_auting_css.value).text

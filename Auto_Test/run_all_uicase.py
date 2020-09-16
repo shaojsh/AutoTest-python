@@ -10,7 +10,6 @@ from common import Shell
 
 from common.Yaml_Data import HandleYaml
 
-from PIL import ImageGrab
 
 root_dir = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test'
 handleyaml = HandleYaml(root_dir + '\\test_data\\ConfigGol.yaml')
@@ -49,3 +48,35 @@ if __name__ == "__main__":
 
     time.sleep(5)
     # mail()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

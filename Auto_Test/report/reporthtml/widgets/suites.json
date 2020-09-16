@@ -1,6 +1,17 @@
 {
   "total" : 2,
   "items" : [ {
+    "uid" : "af777a3d193f800fcd4be8051aef459c",
+    "name" : "test_flow.test_Tripartite_interaction",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "5afa34953581fdbf72cb514527388d22",
     "name" : "test_flow.test_Authentication",
     "statistic" : {
@@ -10,17 +21,6 @@
       "passed" : 6,
       "unknown" : 0,
       "total" : 6
-    }
-  }, {
-    "uid" : "af777a3d193f800fcd4be8051aef459c",
-    "name" : "test_flow.test_Tripartite_interaction",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
     }
   } ]
 }

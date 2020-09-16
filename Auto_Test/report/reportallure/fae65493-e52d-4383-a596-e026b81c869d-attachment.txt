@@ -1,0 +1,3 @@
+Wed, 16 Sep 2020 11:06:12-run_all_uicase.py-test_personalInfoReg.py-[line:33]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Wed, 16 Sep 2020 11:06:12-run_all_uicase.py-test_personalInfoReg.py-[line:37]-INFO-[日志信息]: 对个人信息企业信息进行删除操作

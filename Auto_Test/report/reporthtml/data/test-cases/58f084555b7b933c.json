@@ -1,0 +1,86 @@
+{
+  "uid" : "58f084555b7b933c",
+  "name" : "test_backstage_examine",
+  "fullName" : "test_flow.test_Authentication.test_backStage_examine#test_backstage_examine",
+  "historyId" : "fa363551da3b313dda3c470cf52ad218",
+  "time" : {
+    "start" : 1600145917010,
+    "stop" : 1600145935781,
+    "duration" : 18771
+  },
+  "description" : "http://10.10.128.152:10052/#/enterprise/list 企业审核",
+  "descriptionHtml" : "<p>http://10.10.128.152:10052/#/enterprise/list 企业审核</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "http://10.10.128.152:10052/#/enterprise/list 企业审核",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1e2e42d23fb5e05",
+      "name" : "log",
+      "source" : "1e2e42d23fb5e05.txt",
+      "type" : "text/plain",
+      "size" : 495
+    }, {
+      "uid" : "b0234354b2ac3d49",
+      "name" : "stderr",
+      "source" : "b0234354b2ac3d49.txt",
+      "type" : "text/plain",
+      "size" : 721
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_backStage_examine"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "17624-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_backStage_examine"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "企业审核 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/enterprise/list",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=4)" ]
+  },
+  "source" : "58f084555b7b933c.json",
+  "parameterValues" : [ ]
+}

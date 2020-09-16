@@ -1,0 +1,21 @@
+INFO     run_all_uicase.py:test_backStage_authentication.py:259 开始执行脚本test_backStage_authentication:
+
+INFO     run_all_uicase.py:test_backStage_authentication.py:262 开始执行脚本test_backStage_authentication:
+
+INFO     run_all_uicase.py:test_login.py:126 成功进入到密码重置页面
+INFO     run_all_uicase.py:test_login.py:133 成功进入到密码修改完成页面
+INFO     run_all_uicase.py:test_login.py:126 成功进入到密码重置页面
+INFO     run_all_uicase.py:test_login.py:133 成功进入到密码修改完成页面
+INFO     run_all_uicase.py:test_backStage_examine.py:73 成功登录后台系统
+INFO     run_all_uicase.py:test_backStage_authentication.py:217 企业信息认证
+INFO     run_all_uicase.py:test_backStage_authentication.py:234 协议内容确认页面
+INFO     run_all_uicase.py:test_backStage_authentication.py:246 二维码认证页面
+INFO     run_all_uicase.py:test_backStage_examine.py:73 成功登录后台系统
+INFO     run_all_uicase.py:test_backStage_authentication.py:217 企业信息认证
+INFO     run_all_uicase.py:test_backStage_authentication.py:234 协议内容确认页面
+INFO     run_all_uicase.py:test_backStage_authentication.py:246 二维码认证页面
+INFO     run_all_uicase.py:test_backStage_authentication.py:41 首页
+INFO     run_all_uicase.py:test_backStage_authentication.py:45 产品基本信息
+INFO     run_all_uicase.py:test_backStage_authentication.py:121 产品特性
+INFO     run_all_uicase.py:test_backStage_authentication.py:136 计分卡
+INFO     run_all_uicase.py:test_backStage_authentication.py:143 进件信息

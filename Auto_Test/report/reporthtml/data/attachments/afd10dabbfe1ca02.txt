@@ -1,0 +1,11 @@
+Wed, 16 Sep 2020 13:38:49-run_all_uicase.py-test_backStage_authentication.py-[line:259]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 16 Sep 2020 13:38:49-run_all_uicase.py-test_backStage_authentication.py-[line:262]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 16 Sep 2020 13:39:03-run_all_uicase.py-test_login.py-[line:125]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 16 Sep 2020 13:39:06-run_all_uicase.py-test_login.py-[line:132]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 16 Sep 2020 13:39:10-run_all_uicase.py-test_login.py-[line:125]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 16 Sep 2020 13:39:12-run_all_uicase.py-test_login.py-[line:132]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 16 Sep 2020 13:39:13-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Wed, 16 Sep 2020 13:39:17-run_all_uicase.py-test_backStage_authentication.py-[line:217]-INFO-[日志信息]: 企业信息认证
+Wed, 16 Sep 2020 13:39:21-run_all_uicase.py-test_backStage_authentication.py-[line:234]-INFO-[日志信息]: 协议内容确认页面

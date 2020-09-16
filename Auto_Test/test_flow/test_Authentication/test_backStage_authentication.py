@@ -8,9 +8,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
-
 from common.BaseFunction import actionChainsClick, waitUntilClick, scrollText, waitUntilClick_xpath
-from common.dbLink import getPhoneMessage
+from common.dbLink import getPhoneMessage, deleteOrgInfor, getVerification, flushDb
 from flow_path.path_Tripartite_interaction import path_Tripartite_interaction
 from flow_path.path_backStage_authentication import path_backStage_authentication
 from run_all_uicase import yamldict, logger
@@ -20,7 +19,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 act = yamldict['test_backStageUserList']['company_user']
 pwd = yamldict['test_backStageUserList']['company_user_pass']
-
+delete_flag = yamldict['test_path_list']['delete_flag']
 # 银行
 autoTest_BankName = yamldict['test_backStageUserList']['autoTest_BankName']
 company_bank = yamldict['test_backStageUserList']['company_bank']
@@ -31,6 +30,10 @@ autoTest_RiskName = yamldict['test_backStageUserList']['autoTest_RiskName']
 company_Guarantee = yamldict['test_backStageUserList']['company_Guarantee']
 company_Guarantee_pass = yamldict['test_backStageUserList']['company_Guarantee_pass']
 url_back = yamldict['test_path_list']['url_ui_back']
+RequestURL = yamldict['test_redisdb_list']['RequestURL']
+# 产品属性
+rend_rule = yamldict['test_backStageUserList']['rend_rule']
+rend_day = yamldict['test_backStageUserList']['rend_day']
 
 
 # 创建金融产品
@@ -78,13 +81,24 @@ def createProduct(driver):
     el7 = driver.find_element_by_css_selector(path_backStage_authentication.choose_rendItem_css.value)
     scrollText(driver, el7, '按日')
 
+    if rend_rule == 1:
+        rule = '算头算尾'
+    elif rend_rule == 2:
+        rule = '算头不算尾'
+    elif rend_rule == 3:
+        rule = '算尾不算头'
+    if rend_day == 1:
+        day = '360天'
+    elif rend_day == 2:
+        day = '365天'
+
     driver.find_element_by_css_selector(path_backStage_authentication.choose_rendDay_css.value).click()
     el8 = driver.find_element_by_css_selector(path_backStage_authentication.choose_rendDay_css.value)
-    scrollText(driver, el8, '360天')
+    scrollText(driver, el8, day)
 
     driver.find_element_by_css_selector(path_backStage_authentication.choose_rendWay_css.value).click()
     el9 = driver.find_element_by_css_selector(path_backStage_authentication.choose_rendWay_css.value)
-    scrollText(driver, el9, '算头算尾')
+    scrollText(driver, el9, rule)
 
     el10 = driver.find_element_by_css_selector(path_backStage_authentication.input_productMon_css.value)
     el10.send_keys(Keys.CONTROL + 'a')
@@ -160,7 +174,9 @@ def test_backStageActCreate():
 
     # 登陆页面
     backStageLogin(driver, act, pwd, 0)
-
+    if delete_flag == 0:
+        deleteOrgInfor()
+        logger.info('机构信息DB删除')
     sleep(2)
     driver.find_element_by_xpath(path_backStage_authentication.btn_jurisdiction_xpath.value).click()
     sleep(1)
@@ -187,6 +203,7 @@ def authentication(driver, Type):
     else:
         backStageLogin(driver, company_Guarantee, company_Guarantee_pass, 1)
     sleep(3)
+    flushDb()
     driver.find_element_by_css_selector(path_backStage_authentication.btn_codeAu_css.value).click()
     while 1:
         if Type == 1:
@@ -230,11 +247,16 @@ def authentication(driver, Type):
 
     logger.info('协议内容确认页面')
     waitUntilClick(driver, path_backStage_authentication.checkBox_agree_css.value)
-    sleep(1)
+    sleep(1.5)
     driver.find_element_by_css_selector(path_backStage_authentication.checkBox_agree_css.value).click()
     sleep(0.5)
     driver.find_element_by_css_selector(path_backStage_authentication.btn_startAu_css.value).click()
-
+    if Type == 0:
+        # 活体认证欺诈性校验(担保公司)
+        getVerification(RequestURL, company_Guarantee)
+    else:
+        # 活体认证欺诈性校验（银行）
+        getVerification(RequestURL, company_bank)
     logger.info('二维码认证页面')
     WebDriverWait(driver, 1200).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, path_backStage_authentication.text_au_css.value)))
@@ -308,9 +330,9 @@ def createAct(driver, account, name, enterpriseType):
     driver.find_element_by_css_selector(path_backStage_authentication.input_ActName_css.value).send_keys(name)
     driver.find_element_by_css_selector(path_backStage_authentication.input_PhoneNum_css.value).send_keys(account)
     driver.find_element_by_css_selector(path_backStage_authentication.input_Email_css.value).send_keys(
-        "342343243243@qq.com")
+        "110101199003078371")
     # IdCard = random.randint(0, 99999999999999)
-    driver.find_element_by_css_selector(path_backStage_authentication.input_Id_Card_css.value).send_keys(
-        '110101199003078371')
+    # driver.find_element_by_css_selector(path_backStage_authentication.input_Id_Card_css.value).send_keys(
+    #     '110101199003078371')
     driver.find_element_by_css_selector(path_backStage_authentication.btn_ActConfirm_css.value).click()
     sleep(1)

@@ -9,6 +9,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from common.BaseFunction import waitUntilDisplay, waitUntilClick, waitUntilClick_xpath
+from common.dbLink import getVerification
 from flow_path.path_businessInfoReg import path_businessInfoReg
 from run_all_uicase import yamldict, logger
 from common import Assert
@@ -19,6 +20,7 @@ act = yamldict['test_userlist']['company_user']
 pwd = yamldict['test_userlist']['company_user_pass']
 businessName = yamldict['test_backStageUserList']['company_name']
 url_forward = yamldict['test_path_list']['url_ui_forward']
+RequestURL = yamldict['test_redisdb_list']['RequestURL']
 
 
 @pytest.mark.run(order=3)
@@ -112,6 +114,9 @@ def test_businessInforReg():
     txt_middleAuTitle = driver.find_element_by_css_selector(path_businessInfoReg.text_atMid_css.value).text
     test_Assert.assert_text_ui(txt_middleAuTitle, '认证中')
     logger.info("企业信息认证中画面正常显示")
+
+    # 活体认证欺诈性校验
+    getVerification(RequestURL, act)
 
     WebDriverWait(driver, 1200).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, path_businessInfoReg.text_bank_css.value)))

@@ -9,7 +9,7 @@ from selenium.webdriver.common.keys import Keys
 
 from common import Assert
 from common.BaseFunction import waitUntilDisplay, waitUntilClick
-from common.dbLink import deleteAct, getPhoneMessage
+from common.dbLink import deleteAct, getPhoneMessage, flushDb
 from flow_path.path_backStage_authentication import path_backStage_authentication
 from flow_path.path_login import loginOn
 from run_all_uicase import yamldict, logger
@@ -68,6 +68,7 @@ def test_companyRegister():
     driver.find_element_by_css_selector(loginOn.input_conPwd_css.value).send_keys(pwd)
     waitUntilClick(driver, loginOn.btn_phoneCode_css.value)
     sleep(2)
+    flushDb()
     driver.find_element_by_css_selector(loginOn.btn_phoneCode_css.value).click()
 
     while 1:
@@ -85,6 +86,7 @@ def test_companyRegister():
     title = driver.title
     test_Assert.assert_text_ui(title, '中小微企业金融服务聚合平台')
     logger.info("注册成功，返回到登陆页面")
+    sleep(1)
     driver.quit()
 
 
@@ -99,6 +101,7 @@ def companyPassForget(driver, Act, Type):
     driver.find_element_by_css_selector(loginOn.input_codeForget_css.value).send_keys(' ')
     waitUntilClick(driver, loginOn.btn_phoneCodeForget_css.value)
     sleep(0.5)
+    flushDb()
     driver.find_element_by_css_selector(loginOn.btn_phoneCodeForget_css.value).click()
     while 1:
         if Type == 1:

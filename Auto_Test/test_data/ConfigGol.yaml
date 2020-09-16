@@ -4,13 +4,30 @@
 # 运营配置位
 test_path_list:
   url_api: '/test_case/test_companyloginOn/test_backStage_authentication.py'
-  url_ui1: '/test_flow/test_Authentication/test_backStage_authentication.py'
+  url_ui1: '/test_flow/test_Tripartite_interaction'
   url_ui: '/test_flow/'
-  url_ui2: '/test_flow/test_Authentication'
+  url_ui2: '/test_flow/test_Authentication/test_backStage_authentication.py'
   url_ui_forward: 'http://10.10.128.152:10053/user/login'
   url_ui_back: 'http://10.10.128.152:10052/#/account/login'
   url_ui_register: 'http://10.10.128.152:10053/user/register'
   url_ui_forget: 'http://10.10.128.152:10053/user/forget'
+  delete_flag: 0
+test_backStageUserList:
+  company_user: '13816391517'
+  company_user_pass: '123456'
+  company_bank_pass: '123456'
+  company_Guarantee_pass: '123456'
+  company_name: '潍坊市市政工程设计研究院有限公司'
+  autoTest_BankName: 'AutoTest_Bank0053'
+  company_bank: '19721000075'
+  autoTest_RiskName: 'AutoTest_Risk0053'
+  company_Guarantee: '19621000075'
+  product_name: '0024号金融产品'
+  rend_rule: 2
+  rend_day: 2
+test_userlist:
+  company_user: '18621198965'
+  company_user_pass: '123456'
 test_db_list:
   host: '10.10.128.152'
   user: 'root'
@@ -18,31 +35,27 @@ test_db_list:
   port: 3306
   db1: 'chengtay-zero'
   db2: 'chengtay-zcd'
+  db3: 'chengtay-zcd-copy'
 test_redisdb_list:
   host: '10.10.128.128'
   password: 'ctredis6739'
   port: 6739
   db3: '2'
+  RequestURL: 'http://10.10.128.152:10000/v1/account/login'
 test_db_sqllist:
     sql0000001: "SET SQL_SAFE_UPDATES = 0;"
     sql0000002: "DELETE FROM `chengtay-zero`.zero_user where userName = {0};"
     sql0000003: "DELETE FROM `chengtay-zero`.zero_user_authentication where phoneNo = {0};"
     sql0000004: "SET SQL_SAFE_UPDATES = 0;"
-    sql0000005: "update `chengtay-zcd-copy`.enterprise set name = 'oldcompanyname' where name in ('潍坊市市政工程设计研究院有限公司','山东艺轩建筑装饰工程有限公司','山东欣立得光电科技有限公司');"
+    sql0000005: "update `chengtay-zcd`.enterprise set name = 'oldcompanyname' where name in ('潍坊市市政工程设计研究院有限公司','山东艺轩建筑装饰工程有限公司','山东欣立得光电科技有限公司');"
+    sql0000006: "Delete From `chengtay-zero`.zero_user where phoneNo in {0};"
+    sql0000007: "Delete From `chengtay-zcd`.product_material where productid in (select id FROM `chengtay-zcd-copy`.product where provide = {0});"
+    sql0000008: "Delete FROM `chengtay-zcd`.product where provide = {0};"
+    sql0000009: "Delete FROM `chengtay-zcd`.mechanism where id in (select mechanismId FROM `chengtay-zcd-copy`.enterprise_account  where phone in {0});"
+    sql0000010: "Delete  FROM `chengtay-zcd`.enterprise where mechanismId in (select mechanismId FROM `chengtay-zcd-copy`.enterprise_account where phone in {0});"
+    sql0000011: "Delete  FROM `chengtay-zcd`.enterprise_account where phone in {0};"
+    sql0000012: "DELETE FROM `chengtay-zcd`.enterprise where name IN {0};"
+    sql0000013: "DELETE FROM `chengtay-zcd`.mechanism where name IN {0};"
 test_personalInfoRegList:
-  name: '大佬'
+  name: '马化腾'
   id_card: '11010119900307475X'
-test_backStageUserList:
-  company_user: '13816391517'
-  company_user_pass: '123456'
-  company_bank_pass: '123456'
-  company_Guarantee_pass: '123456'
-  company_name: '潍坊市市政工程设计研究院有限公司'
-  autoTest_BankName: 'AutoTest_Bank0051'
-  company_bank: '19721000069'
-  autoTest_RiskName: 'AutoTest_Risk0051'
-  company_Guarantee: '19621000069'
-  product_name: '0020号金融产品'
-test_userlist:
-  company_user: '17621198935'
-  company_user_pass: '123456'

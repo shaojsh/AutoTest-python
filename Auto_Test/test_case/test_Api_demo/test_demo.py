@@ -23,7 +23,7 @@ def test_config_common():
     test_Assert = Assert.Assertions(def_name)
     logger.info("开始执行脚本%s:\n", def_name)
     opera_url = server_ip('realse') + yamldict['test_operation_list']['url']
-    opera_result = RequestsHandler().get_Req(url=opera_url, params='')
+    opera_result = RequestsHandler().post_Req(url=opera_url, params='')
     sting_response = opera_result.content.decode()
     json_response = dict_style(sting_response)
     test_Assert.assert_code(json_response['code'], 10006)
