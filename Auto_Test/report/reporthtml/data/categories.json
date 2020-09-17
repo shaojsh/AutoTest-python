@@ -4,27 +4,10 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message:",
-      "children" : [ {
-        "name" : "test_Tripartite_interaction",
-        "uid" : "152378a3b4a3ef56",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1600248330222,
-          "stop" : 1600248378356,
-          "duration" : 48134
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
-    }, {
       "name" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='calapi.51jirili.comhttp', port=80): Max retries exceeded with url: //calapi.51jirili.com/config/common (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B1A6976E80>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))",
       "children" : [ {
         "name" : "test_config_common",
-        "uid" : "d8e1657ccf0138c8",
+        "uid" : "f7c7f2d61624dd4a",
         "parentUid" : "23b7fed1ad71a0a6f8062bb053621eba",
         "status" : "broken",
         "time" : {

@@ -13,6 +13,9 @@ class path_backStage_authentication(Enum):
     select_RiskType_xpath = "/html/body/div[3]/div/div//*[text() = '担保公司']"  # 机构类型:担保公司
     select_MechanismStatue_css = 'body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(4) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > div > div > div'  # 机构状态
     select_StatueType_xpath = "/html/body/div[4]/div/div//*[text() = '启用']"  # 启用
+    select_bankAct_css = "body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(5) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > div > div > div"  # 银行账户
+    select_bankAct_xpath = "/html/body/div[5]/div/div//*[text() = '中国邮政储蓄银行']"  # 银行账户
+
     btn_confirm_css = 'body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > div > button'  # 确认按钮
 
     # 创建账号

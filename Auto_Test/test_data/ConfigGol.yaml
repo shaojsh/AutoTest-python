@@ -17,9 +17,9 @@ test_backStageUserList:
   company_bank_pass: '123456'
   company_Guarantee_pass: '123456'
   company_name: '潍坊市市政工程设计研究院有限公司'
-  autoTest_BankName: 'AutoTest_Bank0053'
+  autoTest_BankName: 'AutoTest_Bank0054'
   company_bank: '19721000075'
-  autoTest_RiskName: 'AutoTest_Risk0053'
+  autoTest_RiskName: 'AutoTest_Risk0054'
   company_Guarantee: '19621000075'
   product_name: '0024号金融产品'
   rend_rule: 2

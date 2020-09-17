@@ -1,0 +1,16 @@
+Thu, 17 Sep 2020 14:31:24-run_all_uicase.py-test_personalInfoReg.py-[line:33]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Thu, 17 Sep 2020 14:31:24-run_all_uicase.py-test_personalInfoReg.py-[line:37]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Thu, 17 Sep 2020 14:31:35-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Thu, 17 Sep 2020 14:31:35-run_all_uicase.py-test_personalInfoReg.py-[line:51]-INFO-[日志信息]: 进入登陆页面
+Thu, 17 Sep 2020 14:31:39-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Thu, 17 Sep 2020 14:31:39-run_all_uicase.py-test_personalInfoReg.py-[line:57]-INFO-[日志信息]: 实名认证画面成功显示
+Thu, 17 Sep 2020 14:31:53-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Thu, 17 Sep 2020 14:31:53-run_all_uicase.py-test_personalInfoReg.py-[line:95]-INFO-[日志信息]: 实名认证中画面显示
+Thu, 17 Sep 2020 14:31:54-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 马化腾, actul_result is 马化腾
+Thu, 17 Sep 2020 14:31:54-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Thu, 17 Sep 2020 14:31:54-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 18621198965, actul_result is 18621198965
+Thu, 17 Sep 2020 14:32:03-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 认证成功, actul_result is 认证成功
+Thu, 17 Sep 2020 14:32:03-run_all_uicase.py-test_personalInfoReg.py-[line:109]-INFO-[日志信息]: 实名认证成功画面显示
+Thu, 17 Sep 2020 14:32:03-test_infoReg-Assert.py-[line:123]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Thu, 17 Sep 2020 14:32:03-run_all_uicase.py-test_personalInfoReg.py-[line:114]-INFO-[日志信息]: 点击查看认证信息按钮，跳转到实名认证画面

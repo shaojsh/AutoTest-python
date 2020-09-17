@@ -1,0 +1,740 @@
+{
+  "uid" : "7731b00a1b607d49",
+  "name" : "test_backStageActCreate",
+  "fullName" : "test_flow.test_Authentication.test_backStage_authentication#test_backStageActCreate",
+  "historyId" : "d85ebd52118862a52004a5c4faaac530",
+  "time" : {
+    "start" : 1600333491630,
+    "stop" : 1600333528468,
+    "duration" : 36838
+  },
+  "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台机构创建",
+  "descriptionHtml" : "<p>http://10.10.128.152:10052/#/authority/mechanism 后台机构创建</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台机构创建",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "87bb541045e0b5c4",
+      "name" : "log",
+      "source" : "87bb541045e0b5c4.txt",
+      "type" : "text/plain",
+      "size" : 463
+    }, {
+      "uid" : "50eafb8777179b2e",
+      "name" : "stdout",
+      "source" : "50eafb8777179b2e.txt",
+      "type" : "text/plain",
+      "size" : 975
+    }, {
+      "uid" : "727774c13619e7e9",
+      "name" : "stderr",
+      "source" : "727774c13619e7e9.txt",
+      "type" : "text/plain",
+      "size" : 689
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=5)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_backStage_authentication"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "22576-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_backStage_authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "后台机构创建 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/authority/mechanism",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "db606154570a354c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > div > button\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600332891460,
+        "stop" : 1600332927365,
+        "duration" : 35905
+      }
+    }, {
+      "uid" : "a04966582ae32994",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"path_backStage_authentication.select_bankAct_css.value\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600332579833,
+        "stop" : 1600332605113,
+        "duration" : 25280
+      }
+    }, {
+      "uid" : "50235e827bbf093f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600332392764,
+        "stop" : 1600332417941,
+        "duration" : 25177
+      }
+    }, {
+      "uid" : "79cced3d33a4b08a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600332169729,
+        "stop" : 1600332216261,
+        "duration" : 46532
+      }
+    }, {
+      "uid" : "95077766de40ca9c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"button\" class=\"ant-btn ant-btn-primary\">...</button> is not clickable at point (1828, 100). Other element would receive the click: <div class=\"ant-spin ant-spin-spinning ant-spin-show-text\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600332026773,
+        "stop" : 1600332041140,
+        "duration" : 14367
+      }
+    }, {
+      "uid" : "989d431ad61a107",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"button\" class=\"ant-btn ant-btn-primary\">...</button> is not clickable at point (1828, 100). Other element would receive the click: <div class=\"ant-spin ant-spin-spinning ant-spin-show-text\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600331909817,
+        "stop" : 1600331924358,
+        "duration" : 14541
+      }
+    }, {
+      "uid" : "82ec072d81511641",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600319895743,
+        "stop" : 1600319929152,
+        "duration" : 33409
+      }
+    }, {
+      "uid" : "337bcd1ec113d2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600305342233,
+        "stop" : 1600305375429,
+        "duration" : 33196
+      }
+    }, {
+      "uid" : "4824aa4d6e43c44c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='root']/section/section/main/div/div/div/div[2]/table/tbody//*[text() = 'AutoTest_Bank0054']/..//*[text()= '创建账号']\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600305052195,
+        "stop" : 1600305078661,
+        "duration" : 26466
+      }
+    }, {
+      "uid" : "fa01fc87f3c3ea0b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"button\" class=\"ant-btn ant-btn-primary\">...</button> is not clickable at point (1828, 100). Other element would receive the click: <div class=\"ant-spin ant-spin-spinning ant-spin-show-text\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600304851348,
+        "stop" : 1600304866565,
+        "duration" : 15217
+      }
+    }, {
+      "uid" : "7b69b53e1361543",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"button\" class=\"ant-btn ant-btn-primary\">...</button> is not clickable at point (1828, 100). Other element would receive the click: <div class=\"ant-spin ant-spin-spinning ant-spin-show-text\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600304675499,
+        "stop" : 1600304690164,
+        "duration" : 14665
+      }
+    }, {
+      "uid" : "ef1e4a7acc2ab154",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600248188377,
+        "stop" : 1600248219424,
+        "duration" : 31047
+      }
+    }, {
+      "uid" : "fe73b8652fca41ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600247489314,
+        "stop" : 1600247520222,
+        "duration" : 30908
+      }
+    }, {
+      "uid" : "8d3be224e550c35b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600247090530,
+        "stop" : 1600247121413,
+        "duration" : 30883
+      }
+    }, {
+      "uid" : "2684cbb38ceacee3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600246295433,
+        "stop" : 1600246326246,
+        "duration" : 30813
+      }
+    }, {
+      "uid" : "1d9dbc2ca5bb5647",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600245929284,
+        "stop" : 1600245960119,
+        "duration" : 30835
+      }
+    }, {
+      "uid" : "e2f17f12986e4add",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600245629925,
+        "stop" : 1600245660914,
+        "duration" : 30989
+      }
+    }, {
+      "uid" : "78cd2ae908513930",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600245149177,
+        "stop" : 1600245180054,
+        "duration" : 30877
+      }
+    }, {
+      "uid" : "8d062e2292e97da4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600244848647,
+        "stop" : 1600244879522,
+        "duration" : 30875
+      }
+    }, {
+      "uid" : "bc95bd764ceca4b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600243551171,
+        "stop" : 1600243581911,
+        "duration" : 30740
+      }
+    }, {
+      "uid" : "1db6b31e4d877c50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600242449145,
+        "stop" : 1600242480057,
+        "duration" : 30912
+      }
+    }, {
+      "uid" : "fdb91a14e1bfc2a9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600241218832,
+        "stop" : 1600241236309,
+        "duration" : 17477
+      }
+    }, {
+      "uid" : "9d3a7554d700a66e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600240449712,
+        "stop" : 1600240480651,
+        "duration" : 30939
+      }
+    }, {
+      "uid" : "6ed8a81f73a66233",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600240016168,
+        "stop" : 1600240047128,
+        "duration" : 30960
+      }
+    }, {
+      "uid" : "8abeadd0e9d97a37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600237430629,
+        "stop" : 1600237461556,
+        "duration" : 30927
+      }
+    }, {
+      "uid" : "1db9ca9521e447ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600236839652,
+        "stop" : 1600236870676,
+        "duration" : 31024
+      }
+    }, {
+      "uid" : "fafffb3b326d8773",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600236529917,
+        "stop" : 1600236560860,
+        "duration" : 30943
+      }
+    }, {
+      "uid" : "881ebcd868a62852",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600236346411,
+        "stop" : 1600236377565,
+        "duration" : 31154
+      }
+    }, {
+      "uid" : "8646763e71a5f41e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600234868100,
+        "stop" : 1600234898990,
+        "duration" : 30890
+      }
+    }, {
+      "uid" : "dcdbafd19b317a53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600234698629,
+        "stop" : 1600234729475,
+        "duration" : 30846
+      }
+    }, {
+      "uid" : "470ee604c431037a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='root']/section/section/main/div/div/div/div[2]/table/tbody//*[text() = 'AutoTest_Bank0053']/..//*[text()= '创建账号']\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600234650824,
+        "stop" : 1600234677072,
+        "duration" : 26248
+      }
+    }, {
+      "uid" : "499c47f47291876d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600233672881,
+        "stop" : 1600233703877,
+        "duration" : 30996
+      }
+    }, {
+      "uid" : "de9d2dc80e77b8da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600233552865,
+        "stop" : 1600233583801,
+        "duration" : 30936
+      }
+    }, {
+      "uid" : "d7ec775f31bb30cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600232899209,
+        "stop" : 1600232929995,
+        "duration" : 30786
+      }
+    }, {
+      "uid" : "a0052f5497c22674",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600232792821,
+        "stop" : 1600232823617,
+        "duration" : 30796
+      }
+    }, {
+      "uid" : "faaa810c67c59a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600232483857,
+        "stop" : 1600232514735,
+        "duration" : 30878
+      }
+    }, {
+      "uid" : "dd81071f58075a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600232319962,
+        "stop" : 1600232350979,
+        "duration" : 31017
+      }
+    }, {
+      "uid" : "f099f27c74e00aa6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600232173647,
+        "stop" : 1600232204517,
+        "duration" : 30870
+      }
+    }, {
+      "uid" : "2340851124ef3de0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600232094576,
+        "stop" : 1600232125460,
+        "duration" : 30884
+      }
+    }, {
+      "uid" : "6d3cecdd0b051318",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600231803669,
+        "stop" : 1600231834531,
+        "duration" : 30862
+      }
+    }, {
+      "uid" : "8b5365c280195f9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600225099391,
+        "stop" : 1600225130305,
+        "duration" : 30914
+      }
+    }, {
+      "uid" : "70937d0a71918a15",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"button\" class=\"ant-btn ant-btn-primary\" ant-click-animating-without-extra-node=\"false\">...</button> is not clickable at point (1829, 100). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600224568185,
+        "stop" : 1600224587190,
+        "duration" : 19005
+      }
+    }, {
+      "uid" : "fd199fcd1a4a8908",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"button\" class=\"ant-btn ant-btn-primary\" ant-click-animating-without-extra-node=\"false\">...</button> is not clickable at point (1829, 100). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600223882715,
+        "stop" : 1600223901735,
+        "duration" : 19020
+      }
+    }, {
+      "uid" : "b0ef8bd33f4c1d3b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"button\" class=\"ant-btn ant-btn-primary\">...</button> is not clickable at point (1828, 100). Other element would receive the click: <div class=\"ant-spin ant-spin-spinning ant-spin-show-text\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600223650832,
+        "stop" : 1600223665137,
+        "duration" : 14305
+      }
+    }, {
+      "uid" : "e812198c7bccb8f7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"button\" class=\"ant-btn ant-btn-primary\" ant-click-animating-without-extra-node=\"false\">...</button> is not clickable at point (1829, 100). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600222822596,
+        "stop" : 1600222845149,
+        "duration" : 22553
+      }
+    }, {
+      "uid" : "53d18ffe6ffed3d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600222082131,
+        "stop" : 1600222113081,
+        "duration" : 30950
+      }
+    }, {
+      "uid" : "d1ed4db644313de1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600220647228,
+        "stop" : 1600220674032,
+        "duration" : 26804
+      }
+    }, {
+      "uid" : "2fff56382a6331cb",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600159090967,
+        "stop" : 1600159108556,
+        "duration" : 17589
+      }
+    }, {
+      "uid" : "7548c116cc8b3856",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600147583130,
+        "stop" : 1600147613941,
+        "duration" : 30811
+      }
+    }, {
+      "uid" : "519a6e034907fa82",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='root']/section/section/main/div/div/div/div[2]/table/tbody//*[text() = 'AutoTest_Bank0051']/..//*[text()= '创建账号']\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600147315953,
+        "stop" : 1600147342245,
+        "duration" : 26292
+      }
+    }, {
+      "uid" : "b1e57d0c56ee4679",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"button\" class=\"ant-btn ant-btn-primary\" ant-click-animating-without-extra-node=\"false\">...</button> is not clickable at point (1829, 100). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600146877690,
+        "stop" : 1600146896721,
+        "duration" : 19031
+      }
+    }, {
+      "uid" : "440e1dbc9bd84b62",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='root']/section/section/main/div/div/div/div[2]/table/tbody//*[text() = 'AutoTest_Bank0051']/..//*[text()= '创建账号']\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600145935808,
+        "stop" : 1600145962091,
+        "duration" : 26283
+      }
+    }, {
+      "uid" : "281f1c73319368f5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"button\" class=\"ant-btn ant-btn-primary\" ant-click-animating-without-extra-node=\"false\">...</button> is not clickable at point (1829, 100). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600145682368,
+        "stop" : 1600145701402,
+        "duration" : 19034
+      }
+    }, {
+      "uid" : "70e2bdbbf02de154",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600139464353,
+        "stop" : 1600139489654,
+        "duration" : 25301
+      }
+    }, {
+      "uid" : "ba636a637da24dfd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"button\" class=\"ant-btn ant-btn-primary\" ant-click-animating-without-extra-node=\"false\">...</button> is not clickable at point (1829, 100). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600138309309,
+        "stop" : 1600138332346,
+        "duration" : 23037
+      }
+    }, {
+      "uid" : "c1a6e1894297529f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600137710358,
+        "stop" : 1600137735506,
+        "duration" : 25148
+      }
+    }, {
+      "uid" : "d32ed7cb83340c0f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600135653591,
+        "stop" : 1600135693726,
+        "duration" : 40135
+      }
+    }, {
+      "uid" : "ec5794ecbbcddc6a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600066195236,
+        "stop" : 1600066235728,
+        "duration" : 40492
+      }
+    }, {
+      "uid" : "2e16b0ccded11bfa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600045685239,
+        "stop" : 1600045716570,
+        "duration" : 31331
+      }
+    }, {
+      "uid" : "9380bb4d2075cd6a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li role=\"option\" unselectable=\"on\" class=\"ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active\" aria-disabled=\"false\" aria-selected=\"false\" style=\"user-select: none;\">...</li> is not clickable at point (1011, 431). Other element would receive the click: <div class=\"ant-col ant-col-24\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1599816543157,
+        "stop" : 1599816560433,
+        "duration" : 17276
+      }
+    }, {
+      "uid" : "7de285a12f080af9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599813987446,
+        "stop" : 1599814018831,
+        "duration" : 31385
+      }
+    }, {
+      "uid" : "6d00b0d874fca264",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1599813673601,
+        "stop" : 1599813704943,
+        "duration" : 31342
+      }
+    }, {
+      "uid" : "324bcaf5f22625a8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"button\" class=\"ant-btn ant-btn-primary\" ant-click-animating-without-extra-node=\"false\">...</button> is not clickable at point (1829, 100). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1599813194920,
+        "stop" : 1599813213846,
+        "duration" : 18926
+      }
+    }, {
+      "uid" : "25c51d331baa95fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599811768048,
+        "stop" : 1599811799393,
+        "duration" : 31345
+      }
+    }, {
+      "uid" : "7508842cf20fc46a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599811287051,
+        "stop" : 1599811318446,
+        "duration" : 31395
+      }
+    }, {
+      "uid" : "dcbd626cc40e4c9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599808309306,
+        "stop" : 1599808340893,
+        "duration" : 31587
+      }
+    }, {
+      "uid" : "72a3a17414749659",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599807747649,
+        "stop" : 1599807779194,
+        "duration" : 31545
+      }
+    }, {
+      "uid" : "a4151a708ad0d2f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599806792164,
+        "stop" : 1599806823725,
+        "duration" : 31561
+      }
+    }, {
+      "uid" : "60e7bf17558cf56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599806208399,
+        "stop" : 1599806239524,
+        "duration" : 31125
+      }
+    }, {
+      "uid" : "c94603a0474cc99a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599805274323,
+        "stop" : 1599805305604,
+        "duration" : 31281
+      }
+    }, {
+      "uid" : "f6dcd97c088e5579",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599804568631,
+        "stop" : 1599804599869,
+        "duration" : 31238
+      }
+    }, {
+      "uid" : "3bc31a167cbf883c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599803677533,
+        "stop" : 1599803709156,
+        "duration" : 31623
+      }
+    }, {
+      "uid" : "1c2755027bdb4c17",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1599802707769,
+        "stop" : 1599802730069,
+        "duration" : 22300
+      }
+    }, {
+      "uid" : "2140021036db4e2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599802179733,
+        "stop" : 1599802211175,
+        "duration" : 31442
+      }
+    }, {
+      "uid" : "bcf05eef95cfa732",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599801736426,
+        "stop" : 1599801767742,
+        "duration" : 31316
+      }
+    }, {
+      "uid" : "3634773875c6ae8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599801054008,
+        "stop" : 1599801085222,
+        "duration" : 31214
+      }
+    }, {
+      "uid" : "3db4322baa987270",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599800453483,
+        "stop" : 1599800484734,
+        "duration" : 31251
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=5)" ]
+  },
+  "source" : "7731b00a1b607d49.json",
+  "parameterValues" : [ ]
+}

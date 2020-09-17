@@ -2,133 +2,10 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "test_flow",
-    "children" : [ {
-      "name" : "test_Authentication",
-      "children" : [ {
-        "name" : "test_personalInfoReg",
-        "children" : [ {
-          "name" : "test_infoReg",
-          "uid" : "fa8019f081223729",
-          "parentUid" : "27331f685325300f09872e2bd4c8d50e",
-          "status" : "passed",
-          "time" : {
-            "start" : 1600248081623,
-            "stop" : 1600248118504,
-            "duration" : 36881
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "27331f685325300f09872e2bd4c8d50e"
-      }, {
-        "name" : "test_businessInfoReg",
-        "children" : [ {
-          "name" : "test_businessInforReg",
-          "uid" : "a604bc8468a5b690",
-          "parentUid" : "ae2bb0a936914ac34c2dc8b4a1bf9d3c",
-          "status" : "passed",
-          "time" : {
-            "start" : 1600248118514,
-            "stop" : 1600248169491,
-            "duration" : 50977
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "ae2bb0a936914ac34c2dc8b4a1bf9d3c"
-      }, {
-        "name" : "test_backStage_examine",
-        "children" : [ {
-          "name" : "test_backstage_examine",
-          "uid" : "a984d262e3ca73eb",
-          "parentUid" : "4b9d4eeb8dd63340170e27b6a8fb3bec",
-          "status" : "passed",
-          "time" : {
-            "start" : 1600248169523,
-            "stop" : 1600248188351,
-            "duration" : 18828
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "4b9d4eeb8dd63340170e27b6a8fb3bec"
-      }, {
-        "name" : "test_backStage_authentication",
-        "children" : [ {
-          "name" : "test_backStageActCreate",
-          "uid" : "524ceb02ce5c5ef4",
-          "parentUid" : "c163f10019ac41b74314d1d8c5868921",
-          "status" : "passed",
-          "time" : {
-            "start" : 1600248188377,
-            "stop" : 1600248219424,
-            "duration" : 31047
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_backStage_authentication",
-          "uid" : "b1f6d1b488a8f3bf",
-          "parentUid" : "c163f10019ac41b74314d1d8c5868921",
-          "status" : "passed",
-          "time" : {
-            "start" : 1600248219459,
-            "stop" : 1600248330191,
-            "duration" : 110732
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "c163f10019ac41b74314d1d8c5868921"
-      }, {
-        "name" : "test_login",
-        "children" : [ {
-          "name" : "test_companyRegister",
-          "uid" : "d03e1704705427c5",
-          "parentUid" : "52f748462e260dd58e76f0876ce6ebf0",
-          "status" : "passed",
-          "time" : {
-            "start" : 1600303119177,
-            "stop" : 1600303136581,
-            "duration" : 17404
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "52f748462e260dd58e76f0876ce6ebf0"
-      } ],
-      "uid" : "06c1cf1595a2ad8a54ad425096e174ab"
-    }, {
-      "name" : "test_Tripartite_interaction.test_Tripartite_interaction",
-      "children" : [ {
-        "name" : "test_Tripartite_interaction",
-        "uid" : "152378a3b4a3ef56",
-        "parentUid" : "4c419258d555f598b82e44e80e3b608c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1600248330222,
-          "stop" : 1600248378356,
-          "duration" : 48134
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "test_Tripartite_interaction.test_Tripartite_interaction"
-    } ],
-    "uid" : "abbe29e1f773e7075f029850699092c3"
-  }, {
     "name" : "test_case.test_Api_demo.test_demo",
     "children" : [ {
       "name" : "test_config_common",
-      "uid" : "d8e1657ccf0138c8",
+      "uid" : "f7c7f2d61624dd4a",
       "parentUid" : "1adde1963c9e626a079d26b563132185",
       "status" : "broken",
       "time" : {
@@ -141,5 +18,128 @@
       "parameters" : [ ]
     } ],
     "uid" : "test_case.test_Api_demo.test_demo"
+  }, {
+    "name" : "test_flow",
+    "children" : [ {
+      "name" : "test_Authentication",
+      "children" : [ {
+        "name" : "test_login",
+        "children" : [ {
+          "name" : "test_companyRegister",
+          "uid" : "403b62438929a37a",
+          "parentUid" : "52f748462e260dd58e76f0876ce6ebf0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1600333362552,
+            "stop" : 1600333379792,
+            "duration" : 17240
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "52f748462e260dd58e76f0876ce6ebf0"
+      }, {
+        "name" : "test_personalInfoReg",
+        "children" : [ {
+          "name" : "test_infoReg",
+          "uid" : "b578463cd0bff241",
+          "parentUid" : "27331f685325300f09872e2bd4c8d50e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1600333379827,
+            "stop" : 1600333418020,
+            "duration" : 38193
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "27331f685325300f09872e2bd4c8d50e"
+      }, {
+        "name" : "test_businessInfoReg",
+        "children" : [ {
+          "name" : "test_businessInforReg",
+          "uid" : "1f2f5c674f110997",
+          "parentUid" : "ae2bb0a936914ac34c2dc8b4a1bf9d3c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1600333418055,
+            "stop" : 1600333472766,
+            "duration" : 54711
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ae2bb0a936914ac34c2dc8b4a1bf9d3c"
+      }, {
+        "name" : "test_backStage_examine",
+        "children" : [ {
+          "name" : "test_backstage_examine",
+          "uid" : "463aeb1298b4c486",
+          "parentUid" : "4b9d4eeb8dd63340170e27b6a8fb3bec",
+          "status" : "passed",
+          "time" : {
+            "start" : 1600333472800,
+            "stop" : 1600333491603,
+            "duration" : 18803
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4b9d4eeb8dd63340170e27b6a8fb3bec"
+      }, {
+        "name" : "test_backStage_authentication",
+        "children" : [ {
+          "name" : "test_backStageActCreate",
+          "uid" : "7731b00a1b607d49",
+          "parentUid" : "c163f10019ac41b74314d1d8c5868921",
+          "status" : "passed",
+          "time" : {
+            "start" : 1600333491630,
+            "stop" : 1600333528468,
+            "duration" : 36838
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_backStage_authentication",
+          "uid" : "a80ecb3186df69a4",
+          "parentUid" : "c163f10019ac41b74314d1d8c5868921",
+          "status" : "passed",
+          "time" : {
+            "start" : 1600333528492,
+            "stop" : 1600333625911,
+            "duration" : 97419
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c163f10019ac41b74314d1d8c5868921"
+      } ],
+      "uid" : "06c1cf1595a2ad8a54ad425096e174ab"
+    }, {
+      "name" : "test_Tripartite_interaction.test_Tripartite_interaction",
+      "children" : [ {
+        "name" : "test_Tripartite_interaction",
+        "uid" : "17af90f203c77dd9",
+        "parentUid" : "4c419258d555f598b82e44e80e3b608c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600333625923,
+          "stop" : 1600333758841,
+          "duration" : 132918
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "test_Tripartite_interaction.test_Tripartite_interaction"
+    } ],
+    "uid" : "abbe29e1f773e7075f029850699092c3"
   } ]
 }

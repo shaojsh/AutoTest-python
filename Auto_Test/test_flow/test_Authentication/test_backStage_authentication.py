@@ -226,6 +226,7 @@ def authentication(driver, Type):
         picture_dir2)
 
     driver.find_element_by_css_selector(path_backStage_authentication.btn_submitAu_css.value).click()
+    sleep(1)
 
     # 企业信息认证
     logger.info('企业信息认证')
@@ -298,6 +299,7 @@ def test_backStage_authentication():
 
 # 创建机构
 def createInstitutions(driver, name, enterpriseType):
+    sleep(1)
     driver.find_element_by_css_selector(path_backStage_authentication.btn_addMechanism_css.value).click()
     driver.find_element_by_css_selector(path_backStage_authentication.input_MechanismName_css.value).send_keys(
         name)
@@ -314,6 +316,12 @@ def createInstitutions(driver, name, enterpriseType):
     sleep(1)
     driver.find_element_by_xpath(path_backStage_authentication.select_StatueType_xpath.value).click()
     sleep(0.5)
+    if enterpriseType == 1:
+        # 添加银行账户
+        driver.find_element_by_css_selector(path_backStage_authentication.select_bankAct_css.value).click()
+        sleep(1)
+        driver.find_element_by_xpath(path_backStage_authentication.select_bankAct_xpath.value).click()
+        sleep(0.5)
     driver.find_element_by_css_selector(path_backStage_authentication.btn_confirm_css.value).click()
     sleep(1)
 
@@ -335,4 +343,4 @@ def createAct(driver, account, name, enterpriseType):
     # driver.find_element_by_css_selector(path_backStage_authentication.input_Id_Card_css.value).send_keys(
     #     '110101199003078371')
     driver.find_element_by_css_selector(path_backStage_authentication.btn_ActConfirm_css.value).click()
-    sleep(1)
+    sleep(2)

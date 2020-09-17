@@ -46,7 +46,7 @@ def test_businessInforReg():
     # 企业证件
     el = driver.find_element_by_css_selector(path_businessInfoReg.input_companyName_css.value)
     el.send_keys(businessName)
-    sleep(3)
+    sleep(4)
     el.send_keys(Keys.ENTER)
     sleep(1)
     # driver.find_element_by_css_selector(path_businessInfoReg.input_companyCode_css.value).send_keys(

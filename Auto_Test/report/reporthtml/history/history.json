@@ -2,20 +2,19 @@
   "d91e7b4392163e0b46289a9f8b97b16c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "152378a3b4a3ef56",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "uid" : "17af90f203c77dd9",
+      "status" : "passed",
       "time" : {
-        "start" : 1600248330222,
-        "stop" : 1600248378356,
-        "duration" : 48134
+        "start" : 1600333625923,
+        "stop" : 1600333758841,
+        "duration" : 132918
       }
     } ]
   },
@@ -29,12 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a984d262e3ca73eb",
+      "uid" : "463aeb1298b4c486",
       "status" : "passed",
       "time" : {
-        "start" : 1600248169523,
-        "stop" : 1600248188351,
-        "duration" : 18828
+        "start" : 1600333472800,
+        "stop" : 1600333491603,
+        "duration" : 18803
       }
     } ]
   },
@@ -48,7 +47,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d8e1657ccf0138c8",
+      "uid" : "f7c7f2d61624dd4a",
       "status" : "broken",
       "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='calapi.51jirili.comhttp', port=80): Max retries exceeded with url: //calapi.51jirili.com/config/common (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B1A6976E80>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))",
       "time" : {
@@ -68,12 +67,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d03e1704705427c5",
+      "uid" : "403b62438929a37a",
       "status" : "passed",
       "time" : {
-        "start" : 1600303119177,
-        "stop" : 1600303136581,
-        "duration" : 17404
+        "start" : 1600333362552,
+        "stop" : 1600333379792,
+        "duration" : 17240
       }
     } ]
   },
@@ -87,12 +86,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a604bc8468a5b690",
+      "uid" : "1f2f5c674f110997",
       "status" : "passed",
       "time" : {
-        "start" : 1600248118514,
-        "stop" : 1600248169491,
-        "duration" : 50977
+        "start" : 1600333418055,
+        "stop" : 1600333472766,
+        "duration" : 54711
       }
     } ]
   },
@@ -106,12 +105,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fa8019f081223729",
+      "uid" : "b578463cd0bff241",
       "status" : "passed",
       "time" : {
-        "start" : 1600248081623,
-        "stop" : 1600248118504,
-        "duration" : 36881
+        "start" : 1600333379827,
+        "stop" : 1600333418020,
+        "duration" : 38193
       }
     } ]
   },
@@ -125,12 +124,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "524ceb02ce5c5ef4",
+      "uid" : "7731b00a1b607d49",
       "status" : "passed",
       "time" : {
-        "start" : 1600248188377,
-        "stop" : 1600248219424,
-        "duration" : 31047
+        "start" : 1600333491630,
+        "stop" : 1600333528468,
+        "duration" : 36838
       }
     } ]
   },
@@ -144,12 +143,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b1f6d1b488a8f3bf",
+      "uid" : "a80ecb3186df69a4",
       "status" : "passed",
       "time" : {
-        "start" : 1600248219459,
-        "stop" : 1600248330191,
-        "duration" : 110732
+        "start" : 1600333528492,
+        "stop" : 1600333625911,
+        "duration" : 97419
       }
     } ]
   }

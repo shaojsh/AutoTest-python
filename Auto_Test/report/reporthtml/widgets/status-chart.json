@@ -1,25 +1,35 @@
 [ {
-  "uid" : "b1f6d1b488a8f3bf",
-  "name" : "test_backStage_authentication",
-  "time" : {
-    "start" : 1600248219459,
-    "stop" : 1600248330191,
-    "duration" : 110732
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "524ceb02ce5c5ef4",
+  "uid" : "7731b00a1b607d49",
   "name" : "test_backStageActCreate",
   "time" : {
-    "start" : 1600248188377,
-    "stop" : 1600248219424,
-    "duration" : 31047
+    "start" : 1600333491630,
+    "stop" : 1600333528468,
+    "duration" : 36838
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "d8e1657ccf0138c8",
+  "uid" : "463aeb1298b4c486",
+  "name" : "test_backstage_examine",
+  "time" : {
+    "start" : 1600333472800,
+    "stop" : 1600333491603,
+    "duration" : 18803
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b578463cd0bff241",
+  "name" : "test_infoReg",
+  "time" : {
+    "start" : 1600333379827,
+    "stop" : 1600333418020,
+    "duration" : 38193
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f7c7f2d61624dd4a",
   "name" : "test_config_common",
   "time" : {
     "start" : 1600304444079,
@@ -29,52 +39,42 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "a604bc8468a5b690",
-  "name" : "test_businessInforReg",
-  "time" : {
-    "start" : 1600248118514,
-    "stop" : 1600248169491,
-    "duration" : 50977
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "fa8019f081223729",
-  "name" : "test_infoReg",
-  "time" : {
-    "start" : 1600248081623,
-    "stop" : 1600248118504,
-    "duration" : 36881
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "d03e1704705427c5",
+  "uid" : "403b62438929a37a",
   "name" : "test_companyRegister",
   "time" : {
-    "start" : 1600303119177,
-    "stop" : 1600303136581,
-    "duration" : 17404
+    "start" : 1600333362552,
+    "stop" : 1600333379792,
+    "duration" : 17240
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "152378a3b4a3ef56",
-  "name" : "test_Tripartite_interaction",
+  "uid" : "a80ecb3186df69a4",
+  "name" : "test_backStage_authentication",
   "time" : {
-    "start" : 1600248330222,
-    "stop" : 1600248378356,
-    "duration" : 48134
+    "start" : 1600333528492,
+    "stop" : 1600333625911,
+    "duration" : 97419
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "a984d262e3ca73eb",
-  "name" : "test_backstage_examine",
+  "uid" : "1f2f5c674f110997",
+  "name" : "test_businessInforReg",
   "time" : {
-    "start" : 1600248169523,
-    "stop" : 1600248188351,
-    "duration" : 18828
+    "start" : 1600333418055,
+    "stop" : 1600333472766,
+    "duration" : 54711
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "17af90f203c77dd9",
+  "name" : "test_Tripartite_interaction",
+  "time" : {
+    "start" : 1600333625923,
+    "stop" : 1600333758841,
+    "duration" : 132918
   },
   "status" : "passed",
   "severity" : "blocker"
