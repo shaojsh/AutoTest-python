@@ -3,7 +3,6 @@
 
 # 运营配置位
 test_path_list:
-  url_api: '/test_case/test_companyloginOn/test_backStage_authentication.py'
   url_ui1: '/test_flow/test_Tripartite_interaction'
   url_ui: '/test_flow/'
   url_ui2: '/test_flow/test_Authentication/test_backStage_authentication.py'

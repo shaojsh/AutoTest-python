@@ -3,7 +3,7 @@
 
 # 运营配置位
 test_operation_list:
-  url: '/config/common_ui'
+  url: 'http://calapi.51jirili.com/config/common'
   params: {
     "pageCode": "calendar"
   }
