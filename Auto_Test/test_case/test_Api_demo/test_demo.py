@@ -3,6 +3,8 @@
 import os
 import sys
 
+import pytest
+
 from common.Request import RequestsHandler
 from Conf.conf import *
 import allure
@@ -11,13 +13,15 @@ from common import Consts
 from common.Retrun_Response import dict_style
 
 from common.Yaml_Data import HandleYaml
-from run_all_apicase import logger
+from run_all_case import logger
 
 API_dir_cnf = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test'
 handleyaml = HandleYaml(API_dir_cnf + '\\test_data\\test_yaml_data.yaml')
 yamldict = handleyaml.get_data()
 
 
+@pytest.mark.run(order=1)
+@allure.severity("blocker")
 @allure.description("测试http://calapi.51jirili.com/config/common接口")
 @allure.testcase("http://calapi.51jirili.com/config/common", "测试用例地址 👇")
 def test_config_common():

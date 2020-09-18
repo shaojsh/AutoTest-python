@@ -1,4 +1,0 @@
-Thu, 17 Sep 2020 16:46:58-run_all_uicase.py-test_backStage_authentication.py-[line:274]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
-
-Thu, 17 Sep 2020 16:46:58-run_all_uicase.py-test_backStage_authentication.py-[line:277]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
-

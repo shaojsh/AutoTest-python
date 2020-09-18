@@ -11,7 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from common.BaseFunction import waitUntilDisplay, waitUntilClick, waitUntilClick_xpath
 from common.dbLink import getVerification
 from flow_path.path_businessInfoReg import path_businessInfoReg
-from run_all_uicase import yamldict, logger
+from run_all_case import yamldict, logger
 from common import Assert
 from test_flow.test_Authentication.test_login import login
 from selenium.webdriver.common.keys import Keys

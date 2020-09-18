@@ -1,0 +1,2 @@
+Fri, 18 Sep 2020 15:08:47-run_all_case.py-test_demo.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_config_common:
+

@@ -4,22 +4,56 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='calapi.51jirili.comhttp', port=80): Max retries exceeded with url: //calapi.51jirili.com/config/common (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B1A6976E80>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))",
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"button\" class=\"ant-btn ant-btn-danger\">...</button> is not clickable at point (1083, 387). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
       "children" : [ {
-        "name" : "test_config_common",
-        "uid" : "f7c7f2d61624dd4a",
-        "parentUid" : "23b7fed1ad71a0a6f8062bb053621eba",
+        "name" : "test_backStage_authentication",
+        "uid" : "ad17d0e359989196",
+        "parentUid" : "ab82555917b60e8ab84f9c87ad665d27",
         "status" : "broken",
         "time" : {
-          "start" : 1600304444079,
-          "stop" : 1600304444094,
-          "duration" : 15
+          "start" : 1600407352245,
+          "stop" : 1600407446512,
+          "duration" : 94267
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "23b7fed1ad71a0a6f8062bb053621eba"
+      "uid" : "ab82555917b60e8ab84f9c87ad665d27"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_Tripartite_interaction",
+        "uid" : "8307456b601c1eb",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1600407446841,
+          "stop" : 1600407489134,
+          "duration" : 42293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "NameError: name 'opera_url' is not defined",
+      "children" : [ {
+        "name" : "test_config_common",
+        "uid" : "f4aa87fc90ef7b3f",
+        "parentUid" : "da4e6a78000537bda1044d942ea1bf90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1600412876536,
+          "stop" : 1600412876540,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da4e6a78000537bda1044d942ea1bf90"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

@@ -7,7 +7,7 @@ from selenium import webdriver
 from common.BaseFunction import waitUntilDisplay
 from flow_path.path_backStage_authentication import path_backStage_authentication
 from flow_path.path_backstage_examine import path_backstage_examine
-from run_all_uicase import yamldict, logger
+from run_all_case import yamldict, logger
 from common import Assert
 
 businessName = yamldict['test_backStageUserList']['company_name']

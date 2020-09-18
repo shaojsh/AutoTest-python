@@ -7,7 +7,7 @@ from selenium import webdriver
 
 from common.dbLink import getPhoneMessage, flushDb
 from flow_path.path_Tripartite_interaction import path_Tripartite_interaction
-from run_all_uicase import yamldict, logger
+from run_all_case import yamldict, logger
 from common.BaseFunction import waitUntilDisplay, waitUntilClick, waitUntilClick_xpath, scrollText, \
     waitUntilDisplay_xpath, is_not_visible
 from test_flow.test_Authentication.test_backStage_examine import backStageLogin

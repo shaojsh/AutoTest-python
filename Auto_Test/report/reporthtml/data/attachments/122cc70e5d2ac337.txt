@@ -1,6 +1,0 @@
-Wed, 16 Sep 2020 10:50:34-run_all_uicase.py-test_Tripartite_interaction.py-[line:137]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
-
-Wed, 16 Sep 2020 10:50:44-run_all_uicase.py-test_Tripartite_interaction.py-[line:143]-INFO-[日志信息]: 前端账户登录授信申请
-Wed, 16 Sep 2020 10:50:45-run_all_uicase.py-test_Tripartite_interaction.py-[line:186]-INFO-[日志信息]: 进入到前端首页
-Wed, 16 Sep 2020 10:50:45-run_all_uicase.py-test_Tripartite_interaction.py-[line:189]-INFO-[日志信息]: 进入到前端进入产品选择首页
-Wed, 16 Sep 2020 10:50:46-run_all_uicase.py-test_Tripartite_interaction.py-[line:194]-INFO-[日志信息]: 进入到前端进入产品详情页

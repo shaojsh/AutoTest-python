@@ -6,7 +6,7 @@ import redis
 from common.Request import RequestsHandler
 from common.Retrun_Response import dict_style
 # db数据操作
-from run_all_uicase import yamldict
+from run_all_case import yamldict
 
 
 def Sqldata(sqlStr, flag):

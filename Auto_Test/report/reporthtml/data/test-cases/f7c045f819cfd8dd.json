@@ -1,0 +1,1040 @@
+{
+  "uid" : "f7c045f819cfd8dd",
+  "name" : "test_infoReg",
+  "fullName" : "test_flow.test_Authentication.test_personalInfoReg#test_infoReg",
+  "historyId" : "28dda5313ff182aeade3becf47df4372",
+  "time" : {
+    "start" : 1600409339047,
+    "stop" : 1600409379497,
+    "duration" : 40450
+  },
+  "description" : "测试 http://10.10.128.152:10053/personal/set/certification 个人实名认证",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/personal/set/certification 个人实名认证</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/personal/set/certification 个人实名认证",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "735b5eb78cdc55a3",
+      "name" : "log",
+      "source" : "735b5eb78cdc55a3.txt",
+      "type" : "text/plain",
+      "size" : 1622
+    }, {
+      "uid" : "304bab6cd2f98134",
+      "name" : "stdout",
+      "source" : "304bab6cd2f98134.txt",
+      "type" : "text/plain",
+      "size" : 579
+    }, {
+      "uid" : "9d645ddd8c0998ad",
+      "name" : "stderr",
+      "source" : "9d645ddd8c0998ad.txt",
+      "type" : "text/plain",
+      "size" : 2298
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_personalInfoReg"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "14264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_personalInfoReg"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "个人实名认证 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/personal/set/certification",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "506e90570ac710ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600407207977,
+        "stop" : 1600407245391,
+        "duration" : 37414
+      }
+    }, {
+      "uid" : "a153beb49a8d2739",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600405611310,
+        "stop" : 1600405648650,
+        "duration" : 37340
+      }
+    }, {
+      "uid" : "c371a5e133f76500",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600394706155,
+        "stop" : 1600394743646,
+        "duration" : 37491
+      }
+    }, {
+      "uid" : "32f5fcee66a4237c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600393872424,
+        "stop" : 1600393910104,
+        "duration" : 37680
+      }
+    }, {
+      "uid" : "56f0ec8a5e8df2c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600393449577,
+        "stop" : 1600393487229,
+        "duration" : 37652
+      }
+    }, {
+      "uid" : "ceef3dcd1f30a165",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600392595749,
+        "stop" : 1600392633153,
+        "duration" : 37404
+      }
+    }, {
+      "uid" : "87834a25ae39025d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600333379827,
+        "stop" : 1600333418020,
+        "duration" : 38193
+      }
+    }, {
+      "uid" : "e25358899411a20b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600333115205,
+        "stop" : 1600333152827,
+        "duration" : 37622
+      }
+    }, {
+      "uid" : "22333aadc9578d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600331784249,
+        "stop" : 1600331825968,
+        "duration" : 41719
+      }
+    }, {
+      "uid" : "f6e74b3073712374",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600330865494,
+        "stop" : 1600330905678,
+        "duration" : 40184
+      }
+    }, {
+      "uid" : "8b79dd6b69e07340",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600330747744,
+        "stop" : 1600330785018,
+        "duration" : 37274
+      }
+    }, {
+      "uid" : "6aa64b141c5a5e77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600330640851,
+        "stop" : 1600330681169,
+        "duration" : 40318
+      }
+    }, {
+      "uid" : "84f6934cff578981",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600324284310,
+        "stop" : 1600324325631,
+        "duration" : 41321
+      }
+    }, {
+      "uid" : "f595eb470928cb45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600319778332,
+        "stop" : 1600319817015,
+        "duration" : 38683
+      }
+    }, {
+      "uid" : "96c7559d5803d6f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600319694126,
+        "stop" : 1600319735752,
+        "duration" : 41626
+      }
+    }, {
+      "uid" : "7b8f4f8e3ed43900",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600305235771,
+        "stop" : 1600305272984,
+        "duration" : 37213
+      }
+    }, {
+      "uid" : "75828b929298b1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600304939761,
+        "stop" : 1600304976985,
+        "duration" : 37224
+      }
+    }, {
+      "uid" : "1b8c21553cb05b5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600304744809,
+        "stop" : 1600304782006,
+        "duration" : 37197
+      }
+    }, {
+      "uid" : "a3fccd9ca92a38eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600304560294,
+        "stop" : 1600304601293,
+        "duration" : 40999
+      }
+    }, {
+      "uid" : "6d2a2047782a5495",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600248081623,
+        "stop" : 1600248118504,
+        "duration" : 36881
+      }
+    }, {
+      "uid" : "e21b906c05c3f206",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600247367861,
+        "stop" : 1600247407447,
+        "duration" : 39586
+      }
+    }, {
+      "uid" : "eb18a59e2411a9bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600246978105,
+        "stop" : 1600247015640,
+        "duration" : 37535
+      }
+    }, {
+      "uid" : "4f4153a2c9adab38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600246705435,
+        "stop" : 1600246741975,
+        "duration" : 36540
+      }
+    }, {
+      "uid" : "3b2ab4bd9b7e0f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600246600573,
+        "stop" : 1600246638208,
+        "duration" : 37635
+      }
+    }, {
+      "uid" : "55f227dff3bb6934",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600246500536,
+        "stop" : 1600246537599,
+        "duration" : 37063
+      }
+    }, {
+      "uid" : "311c37ee89461088",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600246189162,
+        "stop" : 1600246226693,
+        "duration" : 37531
+      }
+    }, {
+      "uid" : "4caec6b80abb10f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600246104558,
+        "stop" : 1600246140941,
+        "duration" : 36383
+      }
+    }, {
+      "uid" : "7ee9c5bf60a9bbdf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600245809609,
+        "stop" : 1600245848902,
+        "duration" : 39293
+      }
+    }, {
+      "uid" : "f69d384c4faa759c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600245515139,
+        "stop" : 1600245552184,
+        "duration" : 37045
+      }
+    }, {
+      "uid" : "ced536c0c2718c5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600245040429,
+        "stop" : 1600245077333,
+        "duration" : 36904
+      }
+    }, {
+      "uid" : "fe5579891c56ffa7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600244730334,
+        "stop" : 1600244768718,
+        "duration" : 38384
+      }
+    }, {
+      "uid" : "615cf1a224889f17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600244540039,
+        "stop" : 1600244579745,
+        "duration" : 39706
+      }
+    }, {
+      "uid" : "133f345e072b938b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600243435284,
+        "stop" : 1600243475477,
+        "duration" : 40193
+      }
+    }, {
+      "uid" : "9be6c4e9b556eadc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600242339463,
+        "stop" : 1600242380357,
+        "duration" : 40894
+      }
+    }, {
+      "uid" : "1667fca020219600",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600241138929,
+        "stop" : 1600241176274,
+        "duration" : 37345
+      }
+    }, {
+      "uid" : "e3a53a34ebd9891e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600240340176,
+        "stop" : 1600240380791,
+        "duration" : 40615
+      }
+    }, {
+      "uid" : "f96beb5c1d8cfd7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600239909304,
+        "stop" : 1600239946807,
+        "duration" : 37503
+      }
+    }, {
+      "uid" : "869e20a7adae0175",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600237903434,
+        "stop" : 1600237968218,
+        "duration" : 64784
+      }
+    }, {
+      "uid" : "a236cbd103b257da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600237747722,
+        "stop" : 1600237820682,
+        "duration" : 72960
+      }
+    }, {
+      "uid" : "56670a5932c2a3c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600237323164,
+        "stop" : 1600237360220,
+        "duration" : 37056
+      }
+    }, {
+      "uid" : "e983a8b4fa4a2452",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600236731044,
+        "stop" : 1600236770766,
+        "duration" : 39722
+      }
+    }, {
+      "uid" : "4c3f31ffe3662ed4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600236397495,
+        "stop" : 1600236452756,
+        "duration" : 55261
+      }
+    }, {
+      "uid" : "349f24315b565a35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600236240837,
+        "stop" : 1600236282302,
+        "duration" : 41465
+      }
+    }, {
+      "uid" : "eedff684dade5a66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600235866451,
+        "stop" : 1600235958889,
+        "duration" : 92438
+      }
+    }, {
+      "uid" : "452fcf7275c7eaac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600235586981,
+        "stop" : 1600235644166,
+        "duration" : 57185
+      }
+    }, {
+      "uid" : "6db5c12e0884fb5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600235494953,
+        "stop" : 1600235535825,
+        "duration" : 40872
+      }
+    }, {
+      "uid" : "6efc548131ee07a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600235370633,
+        "stop" : 1600235454063,
+        "duration" : 83430
+      }
+    }, {
+      "uid" : "bbffd1e01bfe817f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600231682647,
+        "stop" : 1600231727190,
+        "duration" : 44543
+      }
+    }, {
+      "uid" : "b32cd1fea6421775",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600225572862,
+        "stop" : 1600225590360,
+        "duration" : 17498
+      }
+    }, {
+      "uid" : "1585a6b57333f0ee",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600225486076,
+        "stop" : 1600225503667,
+        "duration" : 17591
+      }
+    }, {
+      "uid" : "27d567311d606f13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600224990346,
+        "stop" : 1600225030480,
+        "duration" : 40134
+      }
+    }, {
+      "uid" : "43bc097acdbb90a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600224458103,
+        "stop" : 1600224495220,
+        "duration" : 37117
+      }
+    }, {
+      "uid" : "f775e431671aa0f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600223773409,
+        "stop" : 1600223813815,
+        "duration" : 40406
+      }
+    }, {
+      "uid" : "94e997371683658a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600221965249,
+        "stop" : 1600222004407,
+        "duration" : 39158
+      }
+    }, {
+      "uid" : "42043d75e81488a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600221334416,
+        "stop" : 1600221370957,
+        "duration" : 36541
+      }
+    }, {
+      "uid" : "a69467c50517801f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600220536169,
+        "stop" : 1600220576808,
+        "duration" : 40639
+      }
+    }, {
+      "uid" : "2df9992759e105dd",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Redis' object has no attribute 'content'",
+      "time" : {
+        "start" : 1600217639685,
+        "stop" : 1600217674676,
+        "duration" : 34991
+      }
+    }, {
+      "uid" : "9258fbaaabff4838",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600216717209,
+        "stop" : 1600216774725,
+        "duration" : 57516
+      }
+    }, {
+      "uid" : "b2725a7caa56bd62",
+      "status" : "broken",
+      "statusDetails" : "TypeError: descriptor 'decode' for 'bytes' objects doesn't apply to a 'NoneType' object",
+      "time" : {
+        "start" : 1600161910206,
+        "stop" : 1600161927867,
+        "duration" : 17661
+      }
+    }, {
+      "uid" : "a92a7a87d6f6af05",
+      "status" : "broken",
+      "statusDetails" : "TypeError: descriptor 'decode' for 'bytes' objects doesn't apply to a 'NoneType' object",
+      "time" : {
+        "start" : 1600160641739,
+        "stop" : 1600160681605,
+        "duration" : 39866
+      }
+    }, {
+      "uid" : "74b532f75ae5ac23",
+      "status" : "broken",
+      "statusDetails" : "TypeError: find() takes at least 1 argument (0 given)",
+      "time" : {
+        "start" : 1600160593866,
+        "stop" : 1600160610004,
+        "duration" : 16138
+      }
+    }, {
+      "uid" : "e345c25ea508bede",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'ok' is not defined",
+      "time" : {
+        "start" : 1600159997172,
+        "stop" : 1600160027622,
+        "duration" : 30450
+      }
+    }, {
+      "uid" : "56bd1e914184c229",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'ok' is not defined",
+      "time" : {
+        "start" : 1600159573833,
+        "stop" : 1600159635102,
+        "duration" : 61269
+      }
+    }, {
+      "uid" : "950f5d6d913d399d",
+      "status" : "broken",
+      "statusDetails" : "  File \"<string>\", line 1\n    {\"@class\":\"com.bird.web.sso.ticket.ServerTicket\",\"userId\":\"0kf3pnsfd-0174-748fb578-8a8a0018-020f\",\"tenantId\":\"chengtay-tech\",\"userName\":\"17621198955\",\"realName\": ,\"creationTime\":[\"java.util.Date\",1600159530358],\"lastRefreshTime\":[\"java.util.Date\",1600159530358],\"expireTime\":[\"java.util.Date\",1600181130358],\"appClaims\":{\"@class\":\"java.util.HashMap\"}}\n                                                                                                                                                                      ^\nSyntaxError: invalid syntax",
+      "time" : {
+        "start" : 1600159421751,
+        "stop" : 1600159485131,
+        "duration" : 63380
+      }
+    }, {
+      "uid" : "bd951803663f9716",
+      "status" : "broken",
+      "statusDetails" : "  File \"<string>\", line 1\n    {\"@class\":\"com.bird.web.sso.ticket.ServerTicket\",\"userId\":\"0kf3plmsh-0174-748fb578-8a8a0018-020c\",\"tenantId\":\"chengtay-tech\",\"userName\":\"17621198955\",\"realName\": ,\"creationTime\":[\"java.util.Date\",1600159433450],\"lastRefreshTime\":[\"java.util.Date\",1600159433450],\"expireTime\":[\"java.util.Date\",1600181033450],\"appClaims\":{\"@class\":\"java.util.HashMap\"}}\n                                                                                                                                                                      ^\nSyntaxError: invalid syntax",
+      "time" : {
+        "start" : 1600159321172,
+        "stop" : 1600159342852,
+        "duration" : 21680
+      }
+    }, {
+      "uid" : "84a71906428a9864",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'null' is not defined",
+      "time" : {
+        "start" : 1600158944743,
+        "stop" : 1600159030343,
+        "duration" : 85600
+      }
+    }, {
+      "uid" : "2d8e73e195406cdc",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'null' is not defined",
+      "time" : {
+        "start" : 1600158694615,
+        "stop" : 1600158727512,
+        "duration" : 32897
+      }
+    }, {
+      "uid" : "5daaee3a9eaa0f5e",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'null' is not defined",
+      "time" : {
+        "start" : 1600158557367,
+        "stop" : 1600158610942,
+        "duration" : 53575
+      }
+    }, {
+      "uid" : "1c25865a0b48073b",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'null' is not defined",
+      "time" : {
+        "start" : 1600158389773,
+        "stop" : 1600158428659,
+        "duration" : 38886
+      }
+    }, {
+      "uid" : "90c2477fe3675545",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'null' is not defined",
+      "time" : {
+        "start" : 1600158299471,
+        "stop" : 1600158315186,
+        "duration" : 15715
+      }
+    }, {
+      "uid" : "b724388f55ba7412",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600155789461,
+        "stop" : 1600155831202,
+        "duration" : 41741
+      }
+    }, {
+      "uid" : "bce136f7ea7d392d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600147454705,
+        "stop" : 1600147514810,
+        "duration" : 60105
+      }
+    }, {
+      "uid" : "1b5fe5c96f6e1c35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600147200436,
+        "stop" : 1600147247518,
+        "duration" : 47082
+      }
+    }, {
+      "uid" : "ef992dbd85b25414",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600146944744,
+        "stop" : 1600146989023,
+        "duration" : 44279
+      }
+    }, {
+      "uid" : "921f3306a5519c5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600146735087,
+        "stop" : 1600146804494,
+        "duration" : 69407
+      }
+    }, {
+      "uid" : "dff5b73ebc3f483b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600145820889,
+        "stop" : 1600145857651,
+        "duration" : 36762
+      }
+    }, {
+      "uid" : "16c404c8dc77b6e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600145565653,
+        "stop" : 1600145613804,
+        "duration" : 48151
+      }
+    }, {
+      "uid" : "62c9d9bd597fedf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600145371854,
+        "stop" : 1600145432295,
+        "duration" : 60441
+      }
+    }, {
+      "uid" : "46b15e02a255b2f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600139321278,
+        "stop" : 1600139385931,
+        "duration" : 64653
+      }
+    }, {
+      "uid" : "3d9136d6dfb1266d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600138477908,
+        "stop" : 1600138524381,
+        "duration" : 46473
+      }
+    }, {
+      "uid" : "8307f61a1410bf03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600138133871,
+        "stop" : 1600138221264,
+        "duration" : 87393
+      }
+    }, {
+      "uid" : "609f380c0b895c35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600137386035,
+        "stop" : 1600137446675,
+        "duration" : 60640
+      }
+    }, {
+      "uid" : "da556a02b7f6d79c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600135489131,
+        "stop" : 1600135536301,
+        "duration" : 47170
+      }
+    }, {
+      "uid" : "f6b95f29e033d747",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600133481535,
+        "stop" : 1600133529911,
+        "duration" : 48376
+      }
+    }, {
+      "uid" : "c44ef7d18edb9d2a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600130624347,
+        "stop" : 1600130688844,
+        "duration" : 64497
+      }
+    }, {
+      "uid" : "989c629130be199",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600130444342,
+        "stop" : 1600130491597,
+        "duration" : 47255
+      }
+    }, {
+      "uid" : "6bd47d95c9e7f91a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600069515234,
+        "stop" : 1600069548218,
+        "duration" : 32984
+      }
+    }, {
+      "uid" : "d4d021b84f4f580d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600066068759,
+        "stop" : 1600066105168,
+        "duration" : 36409
+      }
+    }, {
+      "uid" : "abbed15fcd78abe4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600065606167,
+        "stop" : 1600065662747,
+        "duration" : 56580
+      }
+    }, {
+      "uid" : "97b59341a3e3450b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600065376249,
+        "stop" : 1600065439226,
+        "duration" : 62977
+      }
+    }, {
+      "uid" : "24f3b55c3963520a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600058931022,
+        "stop" : 1600058991435,
+        "duration" : 60413
+      }
+    }, {
+      "uid" : "64a5259fa987bc78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600045570801,
+        "stop" : 1600045616668,
+        "duration" : 45867
+      }
+    }, {
+      "uid" : "258accb8b46b4192",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600045432948,
+        "stop" : 1600045478423,
+        "duration" : 45475
+      }
+    }, {
+      "uid" : "f3eb39176bd489e2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600045336964,
+        "stop" : 1600045354478,
+        "duration" : 17514
+      }
+    }, {
+      "uid" : "698d8bb72ca5f0f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599816385939,
+        "stop" : 1599816464764,
+        "duration" : 78825
+      }
+    }, {
+      "uid" : "a10cfaa5da654ee9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599813857475,
+        "stop" : 1599813903009,
+        "duration" : 45534
+      }
+    }, {
+      "uid" : "6bd5fb3addac87c6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1599813607190,
+        "stop" : 1599813625062,
+        "duration" : 17872
+      }
+    }, {
+      "uid" : "45a607ae5403e783",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599813110839,
+        "stop" : 1599813161140,
+        "duration" : 50301
+      }
+    }, {
+      "uid" : "1c6b56071b1ce599",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599811642823,
+        "stop" : 1599811688968,
+        "duration" : 46145
+      }
+    }, {
+      "uid" : "72987afdb69d8667",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599811146756,
+        "stop" : 1599811212837,
+        "duration" : 66081
+      }
+    }, {
+      "uid" : "e9aefb71a6ea5514",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1599810867494,
+        "stop" : 1599810910735,
+        "duration" : 43241
+      }
+    }, {
+      "uid" : "6dd83a6d134a64d3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1599810743932,
+        "stop" : 1599810778575,
+        "duration" : 34643
+      }
+    }, {
+      "uid" : "baaa681804a32194",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599808204502,
+        "stop" : 1599808240581,
+        "duration" : 36079
+      }
+    }, {
+      "uid" : "c8ba216206df8d56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599807607784,
+        "stop" : 1599807657057,
+        "duration" : 49273
+      }
+    }, {
+      "uid" : "219f7c2bb755c882",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599806677657,
+        "stop" : 1599806723872,
+        "duration" : 46215
+      }
+    }, {
+      "uid" : "e97a4233fc07520e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599806037594,
+        "stop" : 1599806124630,
+        "duration" : 87036
+      }
+    }, {
+      "uid" : "e7f951b58ca6365c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599805149641,
+        "stop" : 1599805196475,
+        "duration" : 46834
+      }
+    }, {
+      "uid" : "5df3aaec63e6b04c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599804454195,
+        "stop" : 1599804500533,
+        "duration" : 46338
+      }
+    }, {
+      "uid" : "1441a2c9aedd46df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599804306997,
+        "stop" : 1599804363179,
+        "duration" : 56182
+      }
+    }, {
+      "uid" : "a9865a1a33425bd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599803570237,
+        "stop" : 1599803608903,
+        "duration" : 38666
+      }
+    }, {
+      "uid" : "8fbaeee518a6c5b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599802593821,
+        "stop" : 1599802630567,
+        "duration" : 36746
+      }
+    }, {
+      "uid" : "b57b41e481b8975",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599802052208,
+        "stop" : 1599802098606,
+        "duration" : 46398
+      }
+    }, {
+      "uid" : "b09e7498a1f5fe0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599801612053,
+        "stop" : 1599801648575,
+        "duration" : 36522
+      }
+    }, {
+      "uid" : "4b364da67ab723a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599800939771,
+        "stop" : 1599800986023,
+        "duration" : 46252
+      }
+    }, {
+      "uid" : "d0b9e944929abde3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599800285800,
+        "stop" : 1599800335676,
+        "duration" : 49876
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "f7c045f819cfd8dd.json",
+  "parameterValues" : [ ]
+}

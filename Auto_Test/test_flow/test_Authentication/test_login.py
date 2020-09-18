@@ -12,7 +12,7 @@ from common.BaseFunction import waitUntilDisplay, waitUntilClick
 from common.dbLink import deleteAct, getPhoneMessage, flushDb
 from flow_path.path_backStage_authentication import path_backStage_authentication
 from flow_path.path_login import loginOn
-from run_all_uicase import yamldict, logger
+from run_all_case import yamldict, logger
 
 act = yamldict['test_userlist']['company_user']
 pwd = yamldict['test_userlist']['company_user_pass']
