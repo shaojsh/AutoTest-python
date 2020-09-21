@@ -1,0 +1,10 @@
+SET SQL_SAFE_UPDATES = 0;
+update `chengtay-zcd`.enterprise set name = 'oldcompanyname' where name in ('潍坊市市政工程设计研究院有限公司','山东艺轩建筑装饰工程有限公司','山东欣立得光电科技有限公司');
+()
+()
+Pipeline<ConnectionPool<Connection<host=10.10.128.128,port=6739,db=2>>>
+Pipeline<ConnectionPool<Connection<host=10.10.128.128,port=6739,db=2>>>
+token为：dbd981a5-cb60-4867-a417-d2ce42cda04b
+Pipeline<ConnectionPool<Connection<host=10.10.128.128,port=6739,db=2>>>
+userId为：0kf7ugdth-0174-749b1e04-8a8a0018-058c
+<Response [200]>

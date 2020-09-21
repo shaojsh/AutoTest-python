@@ -8,7 +8,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from common.BaseFunction import waitUntilDisplay, waitUntilClick, waitUntilClick_xpath
+from common.BaseFunction import waitUntilDisplay, waitUntilClick, waitUntilClick_xpath, waitUntilDisplay_xpath
 from common.dbLink import getVerification
 from flow_path.path_businessInfoReg import path_businessInfoReg
 from run_all_case import yamldict, logger
@@ -46,7 +46,7 @@ def test_businessInforReg():
     # 企业证件
     el = driver.find_element_by_css_selector(path_businessInfoReg.input_companyName_css.value)
     el.send_keys(businessName)
-    sleep(4)
+    waitUntilDisplay_xpath(driver, path_businessInfoReg.display_name_xpath.value)
     el.send_keys(Keys.ENTER)
     sleep(1)
     # driver.find_element_by_css_selector(path_businessInfoReg.input_companyCode_css.value).send_keys(

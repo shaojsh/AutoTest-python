@@ -4,33 +4,33 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"button\" class=\"ant-btn ant-btn-danger\">...</button> is not clickable at point (1083, 387). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "name" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='calapi.51jirili.comhttp', port=80): Max retries exceeded with url: //calapi.51jirili.com/config/common (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027B71720B50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))",
       "children" : [ {
-        "name" : "test_backStage_authentication",
-        "uid" : "ad17d0e359989196",
-        "parentUid" : "ab82555917b60e8ab84f9c87ad665d27",
+        "name" : "test_config_common",
+        "uid" : "d65386758407ff0e",
+        "parentUid" : "72cccda7627553cdbb8808602d4031ca",
         "status" : "broken",
         "time" : {
-          "start" : 1600407352245,
-          "stop" : 1600407446512,
-          "duration" : 94267
+          "start" : 1600414476516,
+          "stop" : 1600414476566,
+          "duration" : 50
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ab82555917b60e8ab84f9c87ad665d27"
+      "uid" : "72cccda7627553cdbb8808602d4031ca"
     }, {
       "name" : "selenium.common.exceptions.TimeoutException: Message:",
       "children" : [ {
         "name" : "test_Tripartite_interaction",
-        "uid" : "8307456b601c1eb",
+        "uid" : "c8d28dc6dc792d6d",
         "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1600407446841,
-          "stop" : 1600407489134,
-          "duration" : 42293
+          "start" : 1600420574901,
+          "stop" : 1600420617349,
+          "duration" : 42448
         },
         "flaky" : false,
         "newFailed" : false,
@@ -38,22 +38,39 @@
       } ],
       "uid" : "31bb78a6a95ede3f78b260ed048910d8"
     }, {
-      "name" : "NameError: name 'opera_url' is not defined",
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(1) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
       "children" : [ {
-        "name" : "test_config_common",
-        "uid" : "f4aa87fc90ef7b3f",
-        "parentUid" : "da4e6a78000537bda1044d942ea1bf90",
+        "name" : "test_backStageActCreate",
+        "uid" : "701a8bffd7f44ef3",
+        "parentUid" : "48e87969759dfff2b794cda603ad92d5",
         "status" : "broken",
         "time" : {
-          "start" : 1600412876536,
-          "stop" : 1600412876540,
-          "duration" : 4
+          "start" : 1600656352400,
+          "stop" : 1600656367611,
+          "duration" : 15211
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "da4e6a78000537bda1044d942ea1bf90"
+      "uid" : "48e87969759dfff2b794cda603ad92d5"
+    }, {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "children" : [ {
+        "name" : "test_backStage_authentication",
+        "uid" : "aadff1b073f70377",
+        "parentUid" : "39d00b8a30d603bd5391c2552e9aabbb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1600656367797,
+          "stop" : 1600656407615,
+          "duration" : 39818
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "39d00b8a30d603bd5391c2552e9aabbb"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

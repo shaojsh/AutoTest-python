@@ -190,7 +190,7 @@ def creditExtension(driver_forward):
     sleep(0.5)
     waitUntilClick(driver_forward, path_Tripartite_interaction.btn_apply_css.value)
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_apply_css.value).click()
-    sleep(0.5)
+    sleep(1.5)
     logger.info('进入到前端进入产品详情页')
     path = "//*[text() = \'" + product_name + "\']/../../a/button"  # 查看详情按钮
     waitUntilClick_xpath(driver_forward, path)
@@ -405,7 +405,7 @@ def loanCheck_Risk(driver_risk):
 
 # 去缴费
 def goToPay(driver_forward):
-    sleep(2)
+    sleep(3)
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_loanApply_css.value).click()
     waitUntilClick(driver_forward, path_Tripartite_interaction.select_productQuery_css.value)
     sleep(1)

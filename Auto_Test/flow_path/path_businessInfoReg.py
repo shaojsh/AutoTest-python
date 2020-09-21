@@ -7,6 +7,7 @@ class path_businessInfoReg(Enum):
     # 企业证件
     txt_aut_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > div > h5'  # 企业基本资料
     input_companyName_css = '#name'  # 企业名称
+    display_name_xpath = '/html/body/div[2]/div/div/div/div[2]/div/div/div[1]/div/span/em'  # 企业名字显示
     input_companyCode_css = '#socialUniformCode'  # 社会信用代码（注册号）
     input_legalPersonName_css = '#legalName'  # 法人姓名
     input_legalPersonCardNo_css = '#idCardNo'  # 法人身份证号

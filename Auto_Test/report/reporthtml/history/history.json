@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8307456b601c1eb",
+      "uid" : "c8d28dc6dc792d6d",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1600407446841,
-        "stop" : 1600407489134,
-        "duration" : 42293
+        "start" : 1600420574901,
+        "stop" : 1600420617349,
+        "duration" : 42448
       }
     } ]
   },
@@ -29,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "21a36ad1a90c6998",
+      "uid" : "5ca256933ec67e7",
       "status" : "passed",
       "time" : {
-        "start" : 1600409432602,
-        "stop" : 1600409451559,
-        "duration" : 18957
+        "start" : 1600656333365,
+        "stop" : 1600656352373,
+        "duration" : 19008
       }
     } ]
   },
@@ -48,13 +48,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f4aa87fc90ef7b3f",
+      "uid" : "d65386758407ff0e",
       "status" : "broken",
-      "statusDetails" : "NameError: name 'opera_url' is not defined",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='calapi.51jirili.comhttp', port=80): Max retries exceeded with url: //calapi.51jirili.com/config/common (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027B71720B50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))",
       "time" : {
-        "start" : 1600412876536,
-        "stop" : 1600412876540,
-        "duration" : 4
+        "start" : 1600414476516,
+        "stop" : 1600414476566,
+        "duration" : 50
       }
     } ]
   },
@@ -68,12 +68,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a36905b6cdfe27ec",
+      "uid" : "73bd88f681fbaa2f",
       "status" : "passed",
       "time" : {
-        "start" : 1600409322073,
-        "stop" : 1600409339047,
-        "duration" : 16974
+        "start" : 1600656212877,
+        "stop" : 1600656230279,
+        "duration" : 17402
       }
     } ]
   },
@@ -87,12 +87,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e3a96c1fe917596f",
+      "uid" : "80843a1c3c713529",
       "status" : "passed",
       "time" : {
-        "start" : 1600409379497,
-        "stop" : 1600409432571,
-        "duration" : 53074
+        "start" : 1600656271092,
+        "stop" : 1600656333352,
+        "duration" : 62260
       }
     } ]
   },
@@ -106,31 +106,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f7c045f819cfd8dd",
+      "uid" : "6a5b384b61244eda",
       "status" : "passed",
       "time" : {
-        "start" : 1600409339047,
-        "stop" : 1600409379497,
-        "duration" : 40450
+        "start" : 1600656230304,
+        "stop" : 1600656271081,
+        "duration" : 40777
       }
     } ]
   },
   "d85ebd52118862a52004a5c4faaac530" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7e1c2d8e316a6b84",
-      "status" : "passed",
+      "uid" : "701a8bffd7f44ef3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(1) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
       "time" : {
-        "start" : 1600409451559,
-        "stop" : 1600409488837,
-        "duration" : 37278
+        "start" : 1600656352400,
+        "stop" : 1600656367611,
+        "duration" : 15211
       }
     } ]
   },
@@ -144,13 +145,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ad17d0e359989196",
+      "uid" : "aadff1b073f70377",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"button\" class=\"ant-btn ant-btn-danger\">...</button> is not clickable at point (1083, 387). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
       "time" : {
-        "start" : 1600407352245,
-        "stop" : 1600407446512,
-        "duration" : 94267
+        "start" : 1600656367797,
+        "stop" : 1600656407615,
+        "duration" : 39818
       }
     } ]
   }

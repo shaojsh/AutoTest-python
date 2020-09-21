@@ -1,0 +1,5 @@
+Thu, 17 Sep 2020 09:10:52-run_all_uicase.py-test_backStage_authentication.py-[line:169]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Thu, 17 Sep 2020 09:11:02-run_all_uicase.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Thu, 17 Sep 2020 09:11:03-run_all_uicase.py-test_backStage_authentication.py-[line:179]-INFO-[日志信息]: 机构信息DB删除
+Thu, 17 Sep 2020 09:11:17-run_all_uicase.py-test_backStage_authentication.py-[line:329]-INFO-[日志信息]: 进入担保公司创建页面

@@ -1,0 +1,6 @@
+Thu, 17 Sep 2020 09:04:50-run_all_uicase.py-test_backStage_authentication.py-[line:273]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Thu, 17 Sep 2020 09:04:50-run_all_uicase.py-test_backStage_authentication.py-[line:276]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Thu, 17 Sep 2020 09:05:04-run_all_uicase.py-test_login.py-[line:126]-INFO-[日志信息]: 成功进入到密码重置页面
+Thu, 17 Sep 2020 09:05:07-run_all_uicase.py-test_login.py-[line:133]-INFO-[日志信息]: 成功进入到密码修改完成页面

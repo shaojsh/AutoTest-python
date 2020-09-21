@@ -1,0 +1,637 @@
+{
+  "uid" : "aadff1b073f70377",
+  "name" : "test_backStage_authentication",
+  "fullName" : "test_flow.test_Authentication.test_backStage_authentication#test_backStage_authentication",
+  "historyId" : "a55d1468f36f1b2cdddeddca0f290d7d",
+  "time" : {
+    "start" : 1600656367797,
+    "stop" : 1600656407615,
+    "duration" : 39818
+  },
+  "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台账户认证",
+  "descriptionHtml" : "<p>http://10.10.128.152:10052/#/authority/mechanism 后台账户认证</p>\n",
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+  "statusTrace" : "@pytest.mark.run(order=6)\n    @allure.severity(\"blocker\")\n    @allure.description(\"http://10.10.128.152:10052/#/authority/mechanism 后台账户认证\")\n    @allure.testcase(\"http://10.10.128.152:10052/#/authority/mechanism\", \"后台账户认证 \uD83D\uDC47\")\n    def test_backStage_authentication():\n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        driver = webdriver.Chrome()\n        driver.maximize_window()\n        driver.get(url_back)\n        # 银行密码修改\n        companyPassForget(driver, company_bank, 1)\n        # 担保公司密码修改\n>       companyPassForget(driver, company_Guarantee, 0)\n\ntest_flow\\test_Authentication\\test_backStage_authentication.py:285: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntest_flow\\test_Authentication\\test_login.py:95: in companyPassForget\n    waitUntilClick(driver, path_backStage_authentication.btn_forPass_css.value)\ncommon\\BaseFunction.py:24: in waitUntilClick\n    WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, ByCss)))\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:71: in until\n    value = method(self._driver)\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py:297: in __call__\n    element = visibility_of_element_located(self.locator)(driver)\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py:128: in __call__\n    return _element_if_visible(_find_element(driver, self.locator))\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py:415: in _find_element\n    raise e\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py:411: in _find_element\n    return driver.find_element(*by)\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:976: in find_element\n    return self.execute(Command.FIND_ELEMENT, {\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:321: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000013B4CD4C580>\nresponse = {'sessionId': 'b3f3fee4c26cfc57ae407e91b4b648f5', 'status': 100, 'value': {'message': 'chrome not reachable\\n  (Sessio...729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)'}}\n\n    def check_response(self, response):\n        \"\"\"\n        Checks that a JSON response from the WebDriver does not have an error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get('status', None)\n        if status is None or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get('value', None)\n            if value_json and isinstance(value_json, basestring):\n                import json\n                try:\n                    value = json.loads(value_json)\n                    if len(value.keys()) == 1:\n                        value = value['value']\n                    status = value.get('error', None)\n                    if status is None:\n                        status = value[\"status\"]\n                        message = value[\"value\"]\n                        if not isinstance(message, basestring):\n                            value = message\n                            message = message.get('message')\n                    else:\n                        message = value.get('message', None)\n                except ValueError:\n                    pass\n    \n        exception_class = ErrorInResponseException\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif status in ErrorCode.INVALID_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if value == '' or value is None:\n            value = response['value']\n        if isinstance(value, basestring):\n            if exception_class == ErrorInResponseException:\n                raise exception_class(response, value)\n            raise exception_class(value)\n        if message == \"\" and 'message' in value:\n            message = value['message']\n    \n        screen = None\n        if 'screen' in value:\n            screen = value['screen']\n    \n        stacktrace = None\n        if 'stackTrace' in value and value['stackTrace']:\n            stacktrace = []\n            try:\n                for frame in value['stackTrace']:\n                    line = self._value_or_default(frame, 'lineNumber', '')\n                    file = self._value_or_default(frame, 'fileName', '<anonymous>')\n                    if line:\n                        file = \"%s:%s\" % (file, line)\n                    meth = self._value_or_default(frame, 'methodName', '<anonymous>')\n                    if 'className' in frame:\n                        meth = \"%s.%s\" % (frame['className'], meth)\n                    msg = \"    at %s (%s)\"\n                    msg = msg % (meth, file)\n                    stacktrace.append(msg)\n            except TypeError:\n                pass\n        if exception_class == ErrorInResponseException:\n            raise exception_class(response, message)\n        elif exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if 'data' in value:\n                alert_text = value['data'].get('text')\n            elif 'alert' in value:\n                alert_text = value['alert'].get('text')\n            raise exception_class(message, screen, stacktrace, alert_text)\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.WebDriverException: Message: chrome not reachable\nE         (Session info: chrome=74.0.3729.108)\nE         (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)\n\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:242: WebDriverException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台账户认证",
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+    "statusTrace" : "@pytest.mark.run(order=6)\n    @allure.severity(\"blocker\")\n    @allure.description(\"http://10.10.128.152:10052/#/authority/mechanism 后台账户认证\")\n    @allure.testcase(\"http://10.10.128.152:10052/#/authority/mechanism\", \"后台账户认证 \uD83D\uDC47\")\n    def test_backStage_authentication():\n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        driver = webdriver.Chrome()\n        driver.maximize_window()\n        driver.get(url_back)\n        # 银行密码修改\n        companyPassForget(driver, company_bank, 1)\n        # 担保公司密码修改\n>       companyPassForget(driver, company_Guarantee, 0)\n\ntest_flow\\test_Authentication\\test_backStage_authentication.py:285: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntest_flow\\test_Authentication\\test_login.py:95: in companyPassForget\n    waitUntilClick(driver, path_backStage_authentication.btn_forPass_css.value)\ncommon\\BaseFunction.py:24: in waitUntilClick\n    WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, ByCss)))\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:71: in until\n    value = method(self._driver)\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py:297: in __call__\n    element = visibility_of_element_located(self.locator)(driver)\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py:128: in __call__\n    return _element_if_visible(_find_element(driver, self.locator))\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py:415: in _find_element\n    raise e\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py:411: in _find_element\n    return driver.find_element(*by)\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:976: in find_element\n    return self.execute(Command.FIND_ELEMENT, {\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:321: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000013B4CD4C580>\nresponse = {'sessionId': 'b3f3fee4c26cfc57ae407e91b4b648f5', 'status': 100, 'value': {'message': 'chrome not reachable\\n  (Sessio...729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)'}}\n\n    def check_response(self, response):\n        \"\"\"\n        Checks that a JSON response from the WebDriver does not have an error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get('status', None)\n        if status is None or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get('value', None)\n            if value_json and isinstance(value_json, basestring):\n                import json\n                try:\n                    value = json.loads(value_json)\n                    if len(value.keys()) == 1:\n                        value = value['value']\n                    status = value.get('error', None)\n                    if status is None:\n                        status = value[\"status\"]\n                        message = value[\"value\"]\n                        if not isinstance(message, basestring):\n                            value = message\n                            message = message.get('message')\n                    else:\n                        message = value.get('message', None)\n                except ValueError:\n                    pass\n    \n        exception_class = ErrorInResponseException\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif status in ErrorCode.INVALID_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if value == '' or value is None:\n            value = response['value']\n        if isinstance(value, basestring):\n            if exception_class == ErrorInResponseException:\n                raise exception_class(response, value)\n            raise exception_class(value)\n        if message == \"\" and 'message' in value:\n            message = value['message']\n    \n        screen = None\n        if 'screen' in value:\n            screen = value['screen']\n    \n        stacktrace = None\n        if 'stackTrace' in value and value['stackTrace']:\n            stacktrace = []\n            try:\n                for frame in value['stackTrace']:\n                    line = self._value_or_default(frame, 'lineNumber', '')\n                    file = self._value_or_default(frame, 'fileName', '<anonymous>')\n                    if line:\n                        file = \"%s:%s\" % (file, line)\n                    meth = self._value_or_default(frame, 'methodName', '<anonymous>')\n                    if 'className' in frame:\n                        meth = \"%s.%s\" % (frame['className'], meth)\n                    msg = \"    at %s (%s)\"\n                    msg = msg % (meth, file)\n                    stacktrace.append(msg)\n            except TypeError:\n                pass\n        if exception_class == ErrorInResponseException:\n            raise exception_class(response, message)\n        elif exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if 'data' in value:\n                alert_text = value['data'].get('text')\n            elif 'alert' in value:\n                alert_text = value['alert'].get('text')\n            raise exception_class(message, screen, stacktrace, alert_text)\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.WebDriverException: Message: chrome not reachable\nE         (Session info: chrome=74.0.3729.108)\nE         (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)\n\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:242: WebDriverException",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a5ce16771f87149a",
+      "name" : "log",
+      "source" : "a5ce16771f87149a.txt",
+      "type" : "text/plain",
+      "size" : 383
+    }, {
+      "uid" : "35578703b56d7cdb",
+      "name" : "stdout",
+      "source" : "35578703b56d7cdb.txt",
+      "type" : "text/plain",
+      "size" : 144
+    }, {
+      "uid" : "76743b3c7ab699db",
+      "name" : "stderr",
+      "source" : "76743b3c7ab699db.txt",
+      "type" : "text/plain",
+      "size" : 564
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=6)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_backStage_authentication"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "4176-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_backStage_authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "后台账户认证 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/authority/mechanism",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "96a02c6a98201a61",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600420527929,
+        "stop" : 1600420574876,
+        "duration" : 46947
+      }
+    }, {
+      "uid" : "c8a2b616a31ff8ce",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600418986030,
+        "stop" : 1600419030497,
+        "duration" : 44467
+      }
+    }, {
+      "uid" : "d1c2410437fcd3a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600415707004,
+        "stop" : 1600415809729,
+        "duration" : 102725
+      }
+    }, {
+      "uid" : "44ebfd45d0352e0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600415228415,
+        "stop" : 1600415331328,
+        "duration" : 102913
+      }
+    }, {
+      "uid" : "1b04315c6f0fb19b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"button\" class=\"ant-btn ant-btn-danger\">...</button> is not clickable at point (1083, 387). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600407352245,
+        "stop" : 1600407446512,
+        "duration" : 94267
+      }
+    }, {
+      "uid" : "f3537052b96c00ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600405755954,
+        "stop" : 1600405863496,
+        "duration" : 107542
+      }
+    }, {
+      "uid" : "14fb050af6698f50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600393595443,
+        "stop" : 1600393691959,
+        "duration" : 96516
+      }
+    }, {
+      "uid" : "41a1b52488608af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600333528492,
+        "stop" : 1600333625911,
+        "duration" : 97419
+      }
+    }, {
+      "uid" : "acaf7a41b0fc1421",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600332927541,
+        "stop" : 1600332945085,
+        "duration" : 17544
+      }
+    }, {
+      "uid" : "5cbbc735b5e7f572",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600332605437,
+        "stop" : 1600332623050,
+        "duration" : 17613
+      }
+    }, {
+      "uid" : "b74ce8c42a0449e9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600332418113,
+        "stop" : 1600332461550,
+        "duration" : 43437
+      }
+    }, {
+      "uid" : "521bde406a66d181",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600332041320,
+        "stop" : 1600332084707,
+        "duration" : 43387
+      }
+    }, {
+      "uid" : "fc993d521d2e9e7a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600331924691,
+        "stop" : 1600331971760,
+        "duration" : 47069
+      }
+    }, {
+      "uid" : "bf2211d99ae9d9cb",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"button\" class=\"ant-btn ant-btn-primary\">...</button> is not clickable at point (1829, 100). Other element would receive the click: <div class=\"ant-menu-submenu ant-menu-submenu-popup ant-menu-light ant-menu-submenu-placement-bottomLeft  ant-menu-submenu-hidden\" style=\"left: 1540px; top: 71px;\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600319929164,
+        "stop" : 1600320035009,
+        "duration" : 105845
+      }
+    }, {
+      "uid" : "b26e6e7b0aa91b7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600305375460,
+        "stop" : 1600305472032,
+        "duration" : 96572
+      }
+    }, {
+      "uid" : "e00430d77ca299c9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600305078850,
+        "stop" : 1600305106167,
+        "duration" : 27317
+      }
+    }, {
+      "uid" : "229baf826b0592fa",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600304690358,
+        "stop" : 1600304722563,
+        "duration" : 32205
+      }
+    }, {
+      "uid" : "163aab0590493851",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600248219459,
+        "stop" : 1600248330191,
+        "duration" : 110732
+      }
+    }, {
+      "uid" : "d2309d15988f8146",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600247520257,
+        "stop" : 1600247581889,
+        "duration" : 61632
+      }
+    }, {
+      "uid" : "97ee3ea7146203c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600246326260,
+        "stop" : 1600246428132,
+        "duration" : 101872
+      }
+    }, {
+      "uid" : "79cfa12fc35e3275",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600245960153,
+        "stop" : 1600246055818,
+        "duration" : 95665
+      }
+    }, {
+      "uid" : "c73ca5801d5a28b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600245660925,
+        "stop" : 1600245757375,
+        "duration" : 96450
+      }
+    }, {
+      "uid" : "89bbc325e8514dda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600245180067,
+        "stop" : 1600245276737,
+        "duration" : 96670
+      }
+    }, {
+      "uid" : "42ec0cd971d5f79",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'day' referenced before assignment",
+      "time" : {
+        "start" : 1600244879533,
+        "stop" : 1600244964940,
+        "duration" : 85407
+      }
+    }, {
+      "uid" : "91e741d797356ef6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600243581945,
+        "stop" : 1600243684313,
+        "duration" : 102368
+      }
+    }, {
+      "uid" : "70eea2e167caf820",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600242480070,
+        "stop" : 1600242576041,
+        "duration" : 95971
+      }
+    }, {
+      "uid" : "73f73dd8d0aac3c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600240480680,
+        "stop" : 1600240587681,
+        "duration" : 107001
+      }
+    }, {
+      "uid" : "b77b687ac0451dae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600240047143,
+        "stop" : 1600240143297,
+        "duration" : 96154
+      }
+    }, {
+      "uid" : "8a1f67ae759b7172",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600237461589,
+        "stop" : 1600237564140,
+        "duration" : 102551
+      }
+    }, {
+      "uid" : "a48064e59957a109",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600236870712,
+        "stop" : 1600236967493,
+        "duration" : 96781
+      }
+    }, {
+      "uid" : "10744a5959a35467",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <label class=\"ant-checkbox-wrapper\">...</label> is not clickable at point (1049, 327). Other element would receive the click: <div class=\"ant-spin ant-spin-spinning\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600236560871,
+        "stop" : 1600236627411,
+        "duration" : 66540
+      }
+    }, {
+      "uid" : "1c3abe20a486d76c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600234899009,
+        "stop" : 1600235009788,
+        "duration" : 110779
+      }
+    }, {
+      "uid" : "284884ea1d309af3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <label class=\"ant-checkbox-wrapper\">...</label> is not clickable at point (1049, 315). Other element would receive the click: <div class=\"ant-spin ant-spin-spinning\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600234729509,
+        "stop" : 1600234762647,
+        "duration" : 33138
+      }
+    }, {
+      "uid" : "8a0a538e31398e64",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600232930005,
+        "stop" : 1600233014576,
+        "duration" : 84571
+      }
+    }, {
+      "uid" : "25a1dd714fb22bb0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#forget_password\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600225130340,
+        "stop" : 1600225143717,
+        "duration" : 13377
+      }
+    }, {
+      "uid" : "e5af0250ea4602dd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600224587363,
+        "stop" : 1600224634393,
+        "duration" : 47030
+      }
+    }, {
+      "uid" : "7af10e69dd96e69d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600223665330,
+        "stop" : 1600223711982,
+        "duration" : 46652
+      }
+    }, {
+      "uid" : "51ed221731cf35dc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600222845328,
+        "stop" : 1600222892118,
+        "duration" : 46790
+      }
+    }, {
+      "uid" : "5a8ed8c0392dbc6e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600159108664,
+        "stop" : 1600159126134,
+        "duration" : 17470
+      }
+    }, {
+      "uid" : "8798393c65850f68",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600147613974,
+        "stop" : 1600148538506,
+        "duration" : 924532
+      }
+    }, {
+      "uid" : "fb5671596efedc23",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600146896869,
+        "stop" : 1600146921775,
+        "duration" : 24906
+      }
+    }, {
+      "uid" : "34d9db06872065b2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600145962242,
+        "stop" : 1600146009968,
+        "duration" : 47726
+      }
+    }, {
+      "uid" : "31bcc49899ebd1b3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600139489800,
+        "stop" : 1600139536652,
+        "duration" : 46852
+      }
+    }, {
+      "uid" : "1ca1d1831f6b02e4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600138332502,
+        "stop" : 1600138358034,
+        "duration" : 25532
+      }
+    }, {
+      "uid" : "5a70b865c6b85efe",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600137735656,
+        "stop" : 1600137782688,
+        "duration" : 47032
+      }
+    }, {
+      "uid" : "6a9e5fd49ae83c3d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600135693749,
+        "stop" : 1600135711270,
+        "duration" : 17521
+      }
+    }, {
+      "uid" : "b7b89cc081ea651",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599814018856,
+        "stop" : 1599814168395,
+        "duration" : 149539
+      }
+    }, {
+      "uid" : "245b60cd4516f9d0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#forget_password\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1599813705062,
+        "stop" : 1599813718519,
+        "duration" : 13457
+      }
+    }, {
+      "uid" : "1a379b5744875b76",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1599813213884,
+        "stop" : 1599813267478,
+        "duration" : 53594
+      }
+    }, {
+      "uid" : "e936b047ccf50fd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599811799418,
+        "stop" : 1599811910632,
+        "duration" : 111214
+      }
+    }, {
+      "uid" : "a57a6ac3a25086c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599811318472,
+        "stop" : 1599811453290,
+        "duration" : 134818
+      }
+    }, {
+      "uid" : "e17d961c89838538",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599808340901,
+        "stop" : 1599808451364,
+        "duration" : 110463
+      }
+    }, {
+      "uid" : "14c0817c1819c664",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599807779203,
+        "stop" : 1599807895517,
+        "duration" : 116314
+      }
+    }, {
+      "uid" : "6fb65b6fdd489ef5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599806823733,
+        "stop" : 1599806953954,
+        "duration" : 130221
+      }
+    }, {
+      "uid" : "41440cc1533dbbe6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599806239533,
+        "stop" : 1599806349932,
+        "duration" : 110399
+      }
+    }, {
+      "uid" : "3277e8475b1be088",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599805305629,
+        "stop" : 1599805426537,
+        "duration" : 120908
+      }
+    }, {
+      "uid" : "82bbc0fafb6db839",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599804599880,
+        "stop" : 1599804715364,
+        "duration" : 115484
+      }
+    }, {
+      "uid" : "e11618fe1a8ca60b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599803709163,
+        "stop" : 1599803824819,
+        "duration" : 115656
+      }
+    }, {
+      "uid" : "79a21ce2d7183610",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1599802730231,
+        "stop" : 1599802747919,
+        "duration" : 17688
+      }
+    }, {
+      "uid" : "23c1d32f9ca99949",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599802211200,
+        "stop" : 1599802331358,
+        "duration" : 120158
+      }
+    }, {
+      "uid" : "a43e63d2d93ad391",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599801767767,
+        "stop" : 1599801888623,
+        "duration" : 120856
+      }
+    }, {
+      "uid" : "9467963fb8bab56e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599801085229,
+        "stop" : 1599801211901,
+        "duration" : 126672
+      }
+    }, {
+      "uid" : "d9430d189e72a3ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599800484759,
+        "stop" : 1599800631607,
+        "duration" : 146848
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=6)" ]
+  },
+  "source" : "aadff1b073f70377.json",
+  "parameterValues" : [ ]
+}
