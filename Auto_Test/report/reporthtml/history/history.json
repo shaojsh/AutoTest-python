@@ -9,32 +9,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c8d28dc6dc792d6d",
+      "uid" : "978d312832f09a32",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1600420574901,
-        "stop" : 1600420617349,
-        "duration" : 42448
+        "start" : 1600829638343,
+        "stop" : 1600829686938,
+        "duration" : 48595
       }
     } ]
   },
   "fa363551da3b313dda3c470cf52ad218" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5ca256933ec67e7",
-      "status" : "passed",
+      "uid" : "914826c5743f3a8a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
       "time" : {
-        "start" : 1600656333365,
-        "stop" : 1600656352373,
-        "duration" : 19008
+        "start" : 1600829548793,
+        "stop" : 1600829566613,
+        "duration" : 17820
       }
     } ]
   },
@@ -48,7 +49,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d65386758407ff0e",
+      "uid" : "ef339ea587fe131c",
       "status" : "broken",
       "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='calapi.51jirili.comhttp', port=80): Max retries exceeded with url: //calapi.51jirili.com/config/common (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027B71720B50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))",
       "time" : {
@@ -68,50 +69,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "73bd88f681fbaa2f",
+      "uid" : "bc700395360a7466",
       "status" : "passed",
       "time" : {
-        "start" : 1600656212877,
-        "stop" : 1600656230279,
-        "duration" : 17402
+        "start" : 1600829449483,
+        "stop" : 1600829467019,
+        "duration" : 17536
       }
     } ]
   },
   "673c6cf796d54f5cbc2e9852ef4f69c7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "80843a1c3c713529",
-      "status" : "passed",
+      "uid" : "cf4c5dc3f74308a0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1600656271092,
-        "stop" : 1600656333352,
-        "duration" : 62260
+        "start" : 1600829508455,
+        "stop" : 1600829548771,
+        "duration" : 40316
       }
     } ]
   },
   "28dda5313ff182aeade3becf47df4372" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6a5b384b61244eda",
-      "status" : "passed",
+      "uid" : "30241595a9196108",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1600656230304,
-        "stop" : 1600656271081,
-        "duration" : 40777
+        "start" : 1600829467030,
+        "stop" : 1600829508395,
+        "duration" : 41365
       }
     } ]
   },
@@ -125,13 +128,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "701a8bffd7f44ef3",
+      "uid" : "1126647f052b8ddd",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(1) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text() ='权限管理']\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
       "time" : {
-        "start" : 1600656352400,
-        "stop" : 1600656367611,
-        "duration" : 15211
+        "start" : 1600829570723,
+        "stop" : 1600829584764,
+        "duration" : 14041
       }
     } ]
   },
@@ -145,13 +148,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "aadff1b073f70377",
+      "uid" : "368f28a30de863ad",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1600656367797,
-        "stop" : 1600656407615,
-        "duration" : 39818
+        "start" : 1600829584809,
+        "stop" : 1600829638316,
+        "duration" : 53507
       }
     } ]
   }

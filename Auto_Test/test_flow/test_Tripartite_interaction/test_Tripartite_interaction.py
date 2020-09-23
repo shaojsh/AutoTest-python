@@ -213,7 +213,6 @@ def creditExtension(driver_forward):
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.select_city_css.value).click()
     sleep(0.5)
     driver_forward.find_elements_by_xpath("//*[text() = '太原市']")[0].click()
-
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.input_branchBank_css.value).send_keys(
         "太原文博支行")
     el = driver_forward.find_element_by_css_selector(path_Tripartite_interaction.select_branchBank_css.value)

@@ -1,0 +1,21 @@
+Mon, 21 Sep 2020 14:08:48-run_all_case.py-test_backStage_authentication.py-[line:274]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 21 Sep 2020 14:08:48-run_all_case.py-test_backStage_authentication.py-[line:277]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 21 Sep 2020 14:09:02-run_all_case.py-test_login.py-[line:126]-INFO-[日志信息]: 成功进入到密码重置页面
+Mon, 21 Sep 2020 14:09:05-run_all_case.py-test_login.py-[line:133]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Mon, 21 Sep 2020 14:09:09-run_all_case.py-test_login.py-[line:126]-INFO-[日志信息]: 成功进入到密码重置页面
+Mon, 21 Sep 2020 14:09:11-run_all_case.py-test_login.py-[line:133]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Mon, 21 Sep 2020 14:09:12-run_all_case.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Mon, 21 Sep 2020 14:09:17-run_all_case.py-test_backStage_authentication.py-[line:232]-INFO-[日志信息]: 企业信息认证
+Mon, 21 Sep 2020 14:09:19-run_all_case.py-test_backStage_authentication.py-[line:249]-INFO-[日志信息]: 协议内容确认页面
+Mon, 21 Sep 2020 14:09:29-run_all_case.py-test_backStage_authentication.py-[line:261]-INFO-[日志信息]: 二维码认证页面
+Mon, 21 Sep 2020 14:09:45-run_all_case.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Mon, 21 Sep 2020 14:09:51-run_all_case.py-test_backStage_authentication.py-[line:232]-INFO-[日志信息]: 企业信息认证
+Mon, 21 Sep 2020 14:09:53-run_all_case.py-test_backStage_authentication.py-[line:249]-INFO-[日志信息]: 协议内容确认页面
+Mon, 21 Sep 2020 14:10:09-run_all_case.py-test_backStage_authentication.py-[line:261]-INFO-[日志信息]: 二维码认证页面
+Mon, 21 Sep 2020 14:10:13-run_all_case.py-test_backStage_authentication.py-[line:44]-INFO-[日志信息]: 首页
+Mon, 21 Sep 2020 14:10:15-run_all_case.py-test_backStage_authentication.py-[line:48]-INFO-[日志信息]: 产品基本信息
+Mon, 21 Sep 2020 14:10:22-run_all_case.py-test_backStage_authentication.py-[line:135]-INFO-[日志信息]: 产品特性
+Mon, 21 Sep 2020 14:10:24-run_all_case.py-test_backStage_authentication.py-[line:150]-INFO-[日志信息]: 计分卡
+Mon, 21 Sep 2020 14:10:26-run_all_case.py-test_backStage_authentication.py-[line:157]-INFO-[日志信息]: 进件信息

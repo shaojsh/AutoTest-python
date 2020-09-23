@@ -41,9 +41,9 @@ pytest-ordering==0.6
 python-dateutil==2.8.1
 python-gitlab==1.8.0
 pywin32==228
-PyYAML==3.13
+PyYAML~=5.3.1
 redis==3.5.3
-requests==2.20.1
+requests~=2.24.0
 selenium==3.141.0
 six==1.15.0
 smmap==3.0.4
@@ -54,3 +54,5 @@ toml==0.10.1
 urllib3==1.24.3
 websocket-client==0.57.0
 wrapt==1.12.1
+
+airtest~=1.1.4

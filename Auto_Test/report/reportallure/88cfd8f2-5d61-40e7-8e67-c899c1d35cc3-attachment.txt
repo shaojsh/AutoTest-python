@@ -1,0 +1,15 @@
+Mon, 21 Sep 2020 14:49:49-run_all_case.py-test_Tripartite_interaction.py-[line:137]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Mon, 21 Sep 2020 14:49:59-run_all_case.py-test_Tripartite_interaction.py-[line:143]-INFO-[日志信息]: 前端账户登录授信申请
+Mon, 21 Sep 2020 14:50:00-run_all_case.py-test_Tripartite_interaction.py-[line:186]-INFO-[日志信息]: 进入到前端首页
+Mon, 21 Sep 2020 14:50:01-run_all_case.py-test_Tripartite_interaction.py-[line:189]-INFO-[日志信息]: 进入到前端进入产品选择首页
+Mon, 21 Sep 2020 14:50:03-run_all_case.py-test_Tripartite_interaction.py-[line:194]-INFO-[日志信息]: 进入到前端进入产品详情页
+Mon, 21 Sep 2020 14:50:03-run_all_case.py-test_Tripartite_interaction.py-[line:198]-INFO-[日志信息]: 进入到前端进入产品借款页
+Mon, 21 Sep 2020 14:50:05-run_all_case.py-test_Tripartite_interaction.py-[line:204]-INFO-[日志信息]: 进入授信采购信息页面
+Mon, 21 Sep 2020 14:50:08-run_all_case.py-test_Tripartite_interaction.py-[line:227]-INFO-[日志信息]: 进入授信基本资料页面
+Mon, 21 Sep 2020 14:50:08-run_all_case.py-test_Tripartite_interaction.py-[line:232]-INFO-[日志信息]: 授信资料完善页面
+Mon, 21 Sep 2020 14:50:09-run_all_case.py-test_Tripartite_interaction.py-[line:238]-INFO-[日志信息]: 授信完成页面
+Mon, 21 Sep 2020 14:50:20-run_all_case.py-test_Tripartite_interaction.py-[line:151]-INFO-[日志信息]: 银行授信审核
+Mon, 21 Sep 2020 14:50:20-run_all_case.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Mon, 21 Sep 2020 14:50:20-run_all_case.py-test_Tripartite_interaction.py-[line:245]-INFO-[日志信息]: 银行授信审核首页
+Mon, 21 Sep 2020 14:50:22-run_all_case.py-test_Tripartite_interaction.py-[line:250]-INFO-[日志信息]: 银行待审批授信页面

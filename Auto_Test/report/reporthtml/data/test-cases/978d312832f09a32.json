@@ -1,0 +1,479 @@
+{
+  "uid" : "978d312832f09a32",
+  "name" : "test_Tripartite_interaction",
+  "fullName" : "test_flow.test_Tripartite_interaction.test_Tripartite_interaction#test_Tripartite_interaction",
+  "historyId" : "d91e7b4392163e0b46289a9f8b97b16c",
+  "time" : {
+    "start" : 1600829638343,
+    "stop" : 1600829686938,
+    "duration" : 48595
+  },
+  "description" : "测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互</p>\n",
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "@pytest.mark.run(order=-1)\n    @allure.severity(\"blocker\")\n    @allure.description(\"测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互\")\n    @allure.testcase(\"http://10.10.128.152:10052/#/account/login\", \"三方（企业，银行，前端）交互 \uD83D\uDC47\")\n    def test_Tripartite_interaction():\n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        # # 前端账户授信申请\n        driver_forward = webdriver.Chrome()\n        driver_forward.maximize_window()\n        driver_forward.get(url_forward)\n        logger.info('前端账户登录授信申请')\n        login(driver_forward)\n>       creditExtension(driver_forward)\n\ntest_flow\\test_Tripartite_interaction\\test_Tripartite_interaction.py:145: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntest_flow\\test_Tripartite_interaction\\test_Tripartite_interaction.py:227: in creditExtension\n    waitUntilClick(driver_forward, path_Tripartite_interaction.btn_next2_css.value)\ncommon\\BaseFunction.py:24: in waitUntilClick\n    WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, ByCss)))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"e4aa0fc69c7b5f9d3b7ebd6ecb9135f2\")>\nmethod = <selenium.webdriver.support.expected_conditions.element_to_be_clickable object at 0x00000299FE7829B0>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互",
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "@pytest.mark.run(order=-1)\n    @allure.severity(\"blocker\")\n    @allure.description(\"测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互\")\n    @allure.testcase(\"http://10.10.128.152:10052/#/account/login\", \"三方（企业，银行，前端）交互 \uD83D\uDC47\")\n    def test_Tripartite_interaction():\n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        # # 前端账户授信申请\n        driver_forward = webdriver.Chrome()\n        driver_forward.maximize_window()\n        driver_forward.get(url_forward)\n        logger.info('前端账户登录授信申请')\n        login(driver_forward)\n>       creditExtension(driver_forward)\n\ntest_flow\\test_Tripartite_interaction\\test_Tripartite_interaction.py:145: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntest_flow\\test_Tripartite_interaction\\test_Tripartite_interaction.py:227: in creditExtension\n    waitUntilClick(driver_forward, path_Tripartite_interaction.btn_next2_css.value)\ncommon\\BaseFunction.py:24: in waitUntilClick\n    WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, ByCss)))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"e4aa0fc69c7b5f9d3b7ebd6ecb9135f2\")>\nmethod = <selenium.webdriver.support.expected_conditions.element_to_be_clickable object at 0x00000299FE7829B0>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "50cdce292cd0efc9",
+      "name" : "log",
+      "source" : "50cdce292cd0efc9.txt",
+      "type" : "text/plain",
+      "size" : 756
+    }, {
+      "uid" : "3a68b4df76e43ec6",
+      "name" : "stderr",
+      "source" : "3a68b4df76e43ec6.txt",
+      "type" : "text/plain",
+      "size" : 1117
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=-1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Tripartite_interaction"
+  }, {
+    "name" : "suite",
+    "value" : "test_Tripartite_interaction"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "7656-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Tripartite_interaction.test_Tripartite_interaction"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "三方（企业，银行，前端）交互 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/account/login",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "4632b96237374b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600766432757,
+        "stop" : 1600766562211,
+        "duration" : 129454
+      }
+    }, {
+      "uid" : "5a207e1bc5e7060b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600756169946,
+        "stop" : 1600756301515,
+        "duration" : 131569
+      }
+    }, {
+      "uid" : "834c54d31be28ae4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600755847786,
+        "stop" : 1600755891584,
+        "duration" : 43798
+      }
+    }, {
+      "uid" : "256c60c10d61e8c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600755065145,
+        "stop" : 1600755193897,
+        "duration" : 128752
+      }
+    }, {
+      "uid" : "47e9903e20040f99",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input id=\"purchase.name\" autocomplete=\"off\" class=\"ant-select-selection-search-input\" role=\"combobox\" aria-haspopup=\"listbox\" aria-owns=\"purchase.name_list\" aria-autocomplete=\"list\" aria-controls=\"purchase.name_list\" aria-activedescendant=\"purchase.name_list_0\" readonly=\"\" unselectable=\"on\" value=\"\" style=\"opacity: 0;\"> is not clickable at point (736, 622). Other element would receive the click: <div aria-selected=\"false\" class=\"ant-select-item ant-select-item-option\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600754703605,
+        "stop" : 1600754721006,
+        "duration" : 17401
+      }
+    }, {
+      "uid" : "6a5fd040e554125",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600671603513,
+        "stop" : 1600671732540,
+        "duration" : 129027
+      }
+    }, {
+      "uid" : "5a19c3a592e3421",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600670989784,
+        "stop" : 1600671053416,
+        "duration" : 63632
+      }
+    }, {
+      "uid" : "c4f06c574bd45a46",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(8) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > div > form > div:nth-child(7) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > div > div > div.ant-input-number-input-wrap > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600670012146,
+        "stop" : 1600670089795,
+        "duration" : 77649
+      }
+    }, {
+      "uid" : "2a42f8e16c9e67d9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600668630040,
+        "stop" : 1600668679753,
+        "duration" : 49713
+      }
+    }, {
+      "uid" : "89870ee9d6944e38",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600420574901,
+        "stop" : 1600420617349,
+        "duration" : 42448
+      }
+    }, {
+      "uid" : "a160c8eb29f8ef25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600415809729,
+        "stop" : 1600415938792,
+        "duration" : 129063
+      }
+    }, {
+      "uid" : "fa0835866550b877",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600415331353,
+        "stop" : 1600415481179,
+        "duration" : 149826
+      }
+    }, {
+      "uid" : "c996d2d1f11218cf",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600407446841,
+        "stop" : 1600407489134,
+        "duration" : 42293
+      }
+    }, {
+      "uid" : "e416f3451d8e8583",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600393691990,
+        "stop" : 1600393820067,
+        "duration" : 128077
+      }
+    }, {
+      "uid" : "da5da92a96981fad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600333625923,
+        "stop" : 1600333758841,
+        "duration" : 132918
+      }
+    }, {
+      "uid" : "fd618df9ce834ea1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600248330222,
+        "stop" : 1600248378356,
+        "duration" : 48134
+      }
+    }, {
+      "uid" : "8441a5b87d9c668",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600247582037,
+        "stop" : 1600247624921,
+        "duration" : 42884
+      }
+    }, {
+      "uid" : "53f88a07e0230a6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600245276749,
+        "stop" : 1600245324787,
+        "duration" : 48038
+      }
+    }, {
+      "uid" : "b6cff5e1e8ab1a11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600243684324,
+        "stop" : 1600243809236,
+        "duration" : 124912
+      }
+    }, {
+      "uid" : "79a227d5a8b5147a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600240587696,
+        "stop" : 1600240764989,
+        "duration" : 177293
+      }
+    }, {
+      "uid" : "509742ab87403faa",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600240143313,
+        "stop" : 1600240182609,
+        "duration" : 39296
+      }
+    }, {
+      "uid" : "55f24b9e349602c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600237564176,
+        "stop" : 1600237692477,
+        "duration" : 128301
+      }
+    }, {
+      "uid" : "f15cc74ee200fdbc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600236967506,
+        "stop" : 1600237081241,
+        "duration" : 113735
+      }
+    }, {
+      "uid" : "5e7835252cc293d1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600236627592,
+        "stop" : 1600236660562,
+        "duration" : 32970
+      }
+    }, {
+      "uid" : "c1abdab02ee31a49",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600224634421,
+        "stop" : 1600224662490,
+        "duration" : 28069
+      }
+    }, {
+      "uid" : "561eedaf97340ed8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600159126263,
+        "stop" : 1600159157238,
+        "duration" : 30975
+      }
+    }, {
+      "uid" : "3883aad7b4e065e1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600139536677,
+        "stop" : 1600139554432,
+        "duration" : 17755
+      }
+    }, {
+      "uid" : "f89aae8894dc53ff",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600138420974,
+        "stop" : 1600138451357,
+        "duration" : 30383
+      }
+    }, {
+      "uid" : "b9e012c05f00b199",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1600138380713,
+        "stop" : 1600138413742,
+        "duration" : 33029
+      }
+    }, {
+      "uid" : "5cb5760bc6f4e30d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1600137782712,
+        "stop" : 1600137825464,
+        "duration" : 42752
+      }
+    }, {
+      "uid" : "f8214038e85f80dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599814168418,
+        "stop" : 1599814299916,
+        "duration" : 131498
+      }
+    }, {
+      "uid" : "3e3912c5bb7decc7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1599813718640,
+        "stop" : 1599813747697,
+        "duration" : 29057
+      }
+    }, {
+      "uid" : "24b8fb9d49db3ba2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1599813267505,
+        "stop" : 1599813299150,
+        "duration" : 31645
+      }
+    }, {
+      "uid" : "3b46bfde3a742dc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599811910644,
+        "stop" : 1599812023945,
+        "duration" : 113301
+      }
+    }, {
+      "uid" : "fb8cb58842e870a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599811453302,
+        "stop" : 1599811566955,
+        "duration" : 113653
+      }
+    }, {
+      "uid" : "ab3f643dcb623e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599808451379,
+        "stop" : 1599808563825,
+        "duration" : 112446
+      }
+    }, {
+      "uid" : "4e0bbbf3d6fae772",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599807895528,
+        "stop" : 1599808017589,
+        "duration" : 122061
+      }
+    }, {
+      "uid" : "b6cc5f610f9f883",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599806953965,
+        "stop" : 1599807066617,
+        "duration" : 112652
+      }
+    }, {
+      "uid" : "98893e6aff94f27c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm > div > div > div > div > div.section___207eM.feature___Y1g27 > div.feature-main___3NXLZ > button\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1599806349954,
+        "stop" : 1599806363488,
+        "duration" : 13534
+      }
+    }, {
+      "uid" : "4a56b65c168dd7e0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1599804715379,
+        "stop" : 1599804845704,
+        "duration" : 130325
+      }
+    }, {
+      "uid" : "9673291a58b15349",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599803824861,
+        "stop" : 1599803976263,
+        "duration" : 151402
+      }
+    }, {
+      "uid" : "63aa86596092a1a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599802331371,
+        "stop" : 1599802442589,
+        "duration" : 111218
+      }
+    }, {
+      "uid" : "b8153af720e3cc05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599801888648,
+        "stop" : 1599802000985,
+        "duration" : 112337
+      }
+    }, {
+      "uid" : "2b058c0312ff8523",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599801211941,
+        "stop" : 1599801363623,
+        "duration" : 151682
+      }
+    }, {
+      "uid" : "7763d487360d996a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599800631632,
+        "stop" : 1599800765317,
+        "duration" : 133685
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=-1)" ]
+  },
+  "source" : "978d312832f09a32.json",
+  "parameterValues" : [ ]
+}

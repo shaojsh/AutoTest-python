@@ -1,0 +1,12 @@
+INFO     run_all_case.py:test_personalInfoReg.py:33 开始执行脚本test_infoReg:
+
+INFO     run_all_case.py:test_personalInfoReg.py:37 对个人信息企业信息进行删除操作
+INFO     test_infoReg:Assert.py:124 except_result = actul_result, except_result is 首页, actul_result is 首页
+INFO     run_all_case.py:test_personalInfoReg.py:51 进入登陆页面
+INFO     test_infoReg:Assert.py:124 except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+INFO     run_all_case.py:test_personalInfoReg.py:57 实名认证画面成功显示
+INFO     test_infoReg:Assert.py:124 except_result = actul_result, except_result is 认证中, actul_result is 认证中
+INFO     run_all_case.py:test_personalInfoReg.py:95 实名认证中画面显示
+INFO     test_infoReg:Assert.py:124 except_result = actul_result, except_result is 马化腾, actul_result is 马化腾
+INFO     test_infoReg:Assert.py:124 except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+INFO     test_infoReg:Assert.py:124 except_result = actul_result, except_result is 18621198976, actul_result is 18621198976

@@ -1,0 +1,2 @@
+Wed, 23 Sep 2020 10:51:48-run_all_case.py-test_businessInfoReg.py-[line:33]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
