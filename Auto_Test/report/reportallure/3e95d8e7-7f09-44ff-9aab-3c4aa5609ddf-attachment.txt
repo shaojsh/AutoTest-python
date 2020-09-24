@@ -1,5 +1,0 @@
-Wed, 23 Sep 2020 11:00:30-run_all_case.py-test_personalInfoReg.py-[line:33]-INFO-[日志信息]: 开始执行脚本test_infoReg:
-
-Wed, 23 Sep 2020 11:00:31-run_all_case.py-test_personalInfoReg.py-[line:37]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
-Wed, 23 Sep 2020 11:00:42-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
-Wed, 23 Sep 2020 11:00:42-run_all_case.py-test_personalInfoReg.py-[line:51]-INFO-[日志信息]: 进入登陆页面

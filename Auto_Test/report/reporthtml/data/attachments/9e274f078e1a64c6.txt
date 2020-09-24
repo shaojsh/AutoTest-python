@@ -1,6 +1,0 @@
-INFO     run_all_uicase.py:test_backStage_authentication.py:169 开始执行脚本test_backStageActCreate:
-
-INFO     run_all_uicase.py:test_backStage_examine.py:73 成功登录后台系统
-INFO     run_all_uicase.py:test_backStage_authentication.py:179 机构信息DB删除
-INFO     run_all_uicase.py:test_backStage_authentication.py:337 进入担保公司创建页面
-INFO     run_all_uicase.py:test_backStage_authentication.py:335 进入银行账户创建页面

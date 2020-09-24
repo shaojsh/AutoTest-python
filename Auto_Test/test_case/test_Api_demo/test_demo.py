@@ -1,38 +1,45 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 _*_
 import os
-import sys
-
-import pytest
 
 from common.Request import RequestsHandler
-from Conf.conf import *
-import allure
-from common import Assert
-from common import Consts
 from common.Retrun_Response import dict_style
+import hashlib
+import time
 
-from common.Yaml_Data import HandleYaml
-from run_all_case import logger
-
-API_dir_cnf = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test'
-handleyaml = HandleYaml(API_dir_cnf + '\\test_data\\test_yaml_data.yaml')
-yamldict = handleyaml.get_data()
+allCnt = 0
+sucessCnt = 0
+f = open(r'C:\Users\shaojunshuai\Desktop\log.txt', 'a+')
 
 
-@pytest.mark.run(order=1)
-@allure.severity("blocker")
-@allure.description("测试http://calapi.51jirili.com/config/common接口")
-@allure.testcase("http://calapi.51jirili.com/config/common", "测试用例地址 👇")
-def test_config_common():
-    def_name = sys._getframe().f_code.co_name
-    test_Assert = Assert.Assertions(def_name)
-    logger.info("开始执行脚本%s:\n", def_name)
-    opera_url = server_ip('realse') + yamldict['test_operation_list']['url']
+def test_loopApiAccuracy():
+    # 优化格式化化版本
+    timeNow = str(time.strftime('%Y%m%d%H%M%S', time.localtime(time.time())))
+    appid = 'cjt'
+    checkcode = 'cjt' + timeNow + 'e14b7c06-f127-4f7c-86f0-eec9bbcdc8d6'
+    m = hashlib.md5()
+    m.update(checkcode.encode('utf-8'))
+
+    opera_url = "http://123.133.28.226:60011/gpl/webservice/security/getToken?appid=" + appid + "&timestamp=" + timeNow + "&checkcode=" + m.hexdigest()
     opera_result = RequestsHandler().post_Req(url=opera_url, params='')
     sting_response = opera_result.content.decode()
     json_response = dict_style(sting_response)
-    test_Assert.assert_code(json_response['code'], 10006)
+    token = json_response.get("token")
+    f.write(str(json_response) + os.linesep)
+    print(json_response)
+    if token is None:
+        pass
+    else:
+        return 'sucess'
 
-    test_Assert.assert_body(json_response, 'msg', '签名校验失败')
-    Consts.RESULT_LIST.append('pass')
+
+if __name__ == "__main__":
+    while allCnt < 86400:
+        time.sleep(1)
+        allCnt = allCnt + 1
+        result = test_loopApiAccuracy()
+        if result == 'sucess':
+            sucessCnt = sucessCnt + 1
+        per = (sucessCnt / allCnt)
+    result = '共执行' + str(allCnt) + '次' ',其中成功次数为' + str(sucessCnt), '成功率为' + str(per)
+    f.write(str(result) + os.linesep)

@@ -1,1 +1,0 @@
-INFO     run_all_uicase.py:test_Tripartite_interaction.py:137 开始执行脚本test_Tripartite_interaction:

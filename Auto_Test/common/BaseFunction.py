@@ -1,6 +1,7 @@
 # 等待元素出现
 from time import sleep
-
+import threading
+import time
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
@@ -54,3 +55,17 @@ def scrollText(driver, element, text):
         except:
             driver.execute_script("arguments[0].scrollIntoView(false);", element)
             continue
+
+
+# n秒内持续调用某方法（每秒调用一次）
+def fun_timer():
+    global timer
+    timer = threading.Timer(5.5, fun_timer)
+    timer.start()
+
+
+timer = threading.Timer(1, fun_timer)
+timer.start()
+
+time.sleep(15)  # 15秒后停止定时器
+timer.cancel()

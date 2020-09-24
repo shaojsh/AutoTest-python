@@ -127,3 +127,18 @@ class Assertions:
                 "except_result ！= actul_result, except_result is %s, actul_result is %s" % (
                     except_result, actul_result))
             raise
+
+    def assert_Is_None(self, actul_result):
+        """
+        验证UI自动化实际值和期待值是否相同
+        :param except_result:
+        :param actul_result:
+        """
+        try:
+            assert actul_result is None
+            self.logger.info(
+                 "actul_result is %s" % None)
+        except:
+            self.logger.error(
+                "actul_result is %s" % actul_result)
+            raise

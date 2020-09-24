@@ -20,6 +20,11 @@ print(poco.adb_client.get_device_info())  # 获取设备信息
 def startWeinxin():
     # 打开微信
     start_app("com.tencent.mm")
+    poco("com.tencent.mm:id/czk").offspring("com.tencent.mm:id/czl").child("android.widget.LinearLayout").child(
+        "android.widget.RelativeLayout")[0].child("com.tencent.mm:id/cn_").offspring("com.tencent.mm:id/cnh").click()  # 点击【微信】按钮
+    poco("com.tencent.mm:id/f8y").click()
+    poco(text="小程序").click()
+    text("财金通")
 
 
 def getDevices():

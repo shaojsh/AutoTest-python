@@ -1,4 +1,0 @@
-token为：ed3c72ac-6587-405f-b6d1-fc753ae4f767
-Pipeline<ConnectionPool<Connection<host=10.10.128.128,port=6739,db=2>>>
-userId为：0kfc5ts40-0174-74ae7740-8a8a0018-01fb
-<Response [200]>

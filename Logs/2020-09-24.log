@@ -1,0 +1,208 @@
+Thu, 24 Sep 2020 09:19:57-run_all_case.py-run_all_case.py-[line:27]-INFO-[日志信息]: ==================================2020-09-24 09:19:57===================================
+Thu, 24 Sep 2020 09:19:58-run_all_case.py-test_login.py-[line:53]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Thu, 24 Sep 2020 09:20:07-run_all_case.py-test_login.py-[line:60]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Thu, 24 Sep 2020 09:20:12-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Thu, 24 Sep 2020 09:20:12-run_all_case.py-test_login.py-[line:88]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Thu, 24 Sep 2020 09:40:39-run_all_case.py-run_all_case.py-[line:27]-INFO-[日志信息]: ==================================2020-09-24 09:40:39===================================
+Thu, 24 Sep 2020 09:40:40-run_all_case.py-test_login.py-[line:53]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Thu, 24 Sep 2020 09:40:50-run_all_case.py-test_login.py-[line:60]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Thu, 24 Sep 2020 09:40:54-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Thu, 24 Sep 2020 09:40:54-run_all_case.py-test_login.py-[line:88]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Thu, 24 Sep 2020 09:40:57-run_all_case.py-test_personalInfoReg.py-[line:33]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Thu, 24 Sep 2020 09:40:57-run_all_case.py-test_personalInfoReg.py-[line:37]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Thu, 24 Sep 2020 10:34:25-run_all_case.py-run_all_case.py-[line:27]-INFO-[日志信息]: ==================================2020-09-24 10:34:25===================================
+Thu, 24 Sep 2020 10:34:25-run_all_case.py-test_login.py-[line:53]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Thu, 24 Sep 2020 10:34:35-run_all_case.py-test_login.py-[line:60]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Thu, 24 Sep 2020 10:34:39-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Thu, 24 Sep 2020 10:34:39-run_all_case.py-test_login.py-[line:88]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Thu, 24 Sep 2020 10:34:43-run_all_case.py-test_personalInfoReg.py-[line:33]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Thu, 24 Sep 2020 10:34:43-run_all_case.py-test_personalInfoReg.py-[line:37]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Thu, 24 Sep 2020 11:00:48-run_all_case.py-run_all_case.py-[line:27]-INFO-[日志信息]: ==================================2020-09-24 11:00:48===================================
+Thu, 24 Sep 2020 11:00:49-run_all_case.py-test_login.py-[line:53]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Thu, 24 Sep 2020 11:00:59-run_all_case.py-test_login.py-[line:60]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Thu, 24 Sep 2020 11:01:03-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Thu, 24 Sep 2020 11:01:03-run_all_case.py-test_login.py-[line:88]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Thu, 24 Sep 2020 11:01:06-run_all_case.py-test_personalInfoReg.py-[line:33]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Thu, 24 Sep 2020 11:01:06-run_all_case.py-test_personalInfoReg.py-[line:37]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Thu, 24 Sep 2020 11:01:18-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Thu, 24 Sep 2020 11:01:18-run_all_case.py-test_personalInfoReg.py-[line:51]-INFO-[日志信息]: 进入登陆页面
+Thu, 24 Sep 2020 11:01:21-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Thu, 24 Sep 2020 11:01:21-run_all_case.py-test_personalInfoReg.py-[line:57]-INFO-[日志信息]: 实名认证画面成功显示
+Thu, 24 Sep 2020 11:39:55-run_all_case.py-run_all_case.py-[line:27]-INFO-[日志信息]: ==================================2020-09-24 11:39:55===================================
+Thu, 24 Sep 2020 11:39:55-run_all_case.py-test_login.py-[line:53]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Thu, 24 Sep 2020 15:48:54-run_all_case.py-run_all_case.py-[line:27]-INFO-[日志信息]: ==================================2020-09-24 15:48:54===================================
+Thu, 24 Sep 2020 15:49:10-run_all_case.py-test_login.py-[line:53]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Thu, 24 Sep 2020 15:49:48-run_all_case.py-run_all_case.py-[line:27]-INFO-[日志信息]: ==================================2020-09-24 15:49:48===================================
+Thu, 24 Sep 2020 15:49:48-run_all_case.py-test_api_per.py-[line:32]-INFO-[日志信息]: 开始执行脚本<module>:
+
+Thu, 24 Sep 2020 15:49:50-run_all_case.py-test_api_per.py-[line:56]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '066C24E57BB58C1769EFEF1EE30B1733', 'expires': '1800'}
+Thu, 24 Sep 2020 15:51:39-run_all_case.py-run_all_case.py-[line:27]-INFO-[日志信息]: ==================================2020-09-24 15:51:39===================================
+Thu, 24 Sep 2020 15:51:40-run_all_case.py-test_api_per.py-[line:32]-INFO-[日志信息]: 开始执行脚本<module>:
+
+Thu, 24 Sep 2020 15:51:43-run_all_case.py-test_api_per.py-[line:56]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '172C306282E86C079CE43978B7C60159', 'expires': '1800'}
+Thu, 24 Sep 2020 16:07:14-run_all_case.py-run_all_case.py-[line:27]-INFO-[日志信息]: ==================================2020-09-24 16:07:14===================================
+Thu, 24 Sep 2020 16:07:15-run_all_case.py-test_api_per.py-[line:32]-INFO-[日志信息]: 开始执行脚本<module>:
+
+Thu, 24 Sep 2020 16:10:36-run_all_case.py-run_all_case.py-[line:27]-INFO-[日志信息]: ==================================2020-09-24 16:10:36===================================
+Thu, 24 Sep 2020 16:10:37-run_all_case.py-test_api_per.py-[line:32]-INFO-[日志信息]: 开始执行脚本<module>:
+
+Thu, 24 Sep 2020 16:10:43-run_all_case.py-test_api_per.py-[line:56]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'A52AE0C20A44981BE834E44C89D3EA60', 'expires': '1800'}
+Thu, 24 Sep 2020 16:10:54-run_all_case.py-run_all_case.py-[line:27]-INFO-[日志信息]: ==================================2020-09-24 16:10:54===================================
+Thu, 24 Sep 2020 16:10:54-run_all_case.py-test_api_per.py-[line:32]-INFO-[日志信息]: 开始执行脚本<module>:
+
+Thu, 24 Sep 2020 16:11:11-run_all_case.py-test_api_per.py-[line:56]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '5B7667C389E52B5C5070115D5532D0AD', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:32-run_all_case.py-run_all_case.py-[line:27]-INFO-[日志信息]: ==================================2020-09-24 16:29:32===================================
+Thu, 24 Sep 2020 16:29:32-run_all_case.py-test_api_per.py-[line:32]-INFO-[日志信息]: 开始执行脚本<module>:
+
+Thu, 24 Sep 2020 16:29:33-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '3CDC1C726667D20FFBA0B40342598938', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:34-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'BC518F0D544A6B6290860DF27742B233', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:35-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '4CE8C03F68D7511338EA7952845DDFDF', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:36-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '6F3F11A418C42FF204495445DD4DDF77', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:37-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '97D0FB0452C6A7118AB23419B51D7E18', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:38-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'E6451898520A913DE84F7D428A08A4A7', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:39-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '32B5CAA07302AB24BD3CA0C675EA4AD9', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:41-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'F29F24A06D09687513AD23EB7C77D25C', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:42-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'F17ECB7C695B0615992CF5F93826148F', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:43-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '16806E7BC85DCAFDDE67A525D2D28496', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:44-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '1BA4086B1E6872255CD8999D1F2BB40B', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:45-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'ABBD3CAD0D6255C8E399BD9617F5FC2D', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:46-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '52281512DBF4CB060974D9376F1465D2', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:47-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'CCF3E004B8E5843F19001A144FE980BA', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:48-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '652442F401921E897662141AC32E79BA', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:49-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '7790B3DE357C08951D16DC12E44995C3', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:50-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '5569C67C513724F8BE0267C88B82CBC1', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:51-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '1E056AC599695460DFFC3990B27F1973', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:52-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '40E6B83D186475A2E68660B9704309CA', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:53-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '6ADAE653AB181744AB89C3D7FA7E8C5C', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:54-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '08C4C3E5AF63E3E29C76C988E742C7C0', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:55-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '1A8ABF94F7C8A3CB37F08C8526AB0FB1', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:56-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'BE87D8FD5B9BDFEB3A88F7187C946861', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:58-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '7F463F2B2CBB3AF52811297C75047B3B', 'expires': '1800'}
+Thu, 24 Sep 2020 16:29:59-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '969C6BB5C7DA026A186C8555B3F9959E', 'expires': '1800'}
+Thu, 24 Sep 2020 16:30:00-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'D28645FF0B8D384E34F5A35726261ED5', 'expires': '1800'}
+Thu, 24 Sep 2020 16:30:01-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '5FE2D5A2CA9A52CF52C0601704A28272', 'expires': '1800'}
+Thu, 24 Sep 2020 16:30:02-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '0418A541DD863F80BCD1DD40227D649D', 'expires': '1800'}
+Thu, 24 Sep 2020 16:30:03-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '4BCCE7B44117BD8C8BB6B6EDA7ABB8CB', 'expires': '1800'}
+Thu, 24 Sep 2020 16:30:04-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '6846BE4962170096D3498495B5E75F86', 'expires': '1800'}
+Thu, 24 Sep 2020 16:30:05-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '3233F96C70E70A73093A20E3142C1685', 'expires': '1800'}
+Thu, 24 Sep 2020 16:30:06-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '9032C37668DBC63B294B95929E04C8AC', 'expires': '1800'}
+Thu, 24 Sep 2020 16:30:07-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'DACEBD83D08CCFB450C50325F46F7577', 'expires': '1800'}
+Thu, 24 Sep 2020 16:30:08-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '0D5BC78A0F1480AE50763D219A8591DF', 'expires': '1800'}
+Thu, 24 Sep 2020 16:30:09-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'D2220767E381C096321D359227FB7C06', 'expires': '1800'}
+Thu, 24 Sep 2020 16:30:10-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '11327A320ADD22F848BC8D6A1E416A2D', 'expires': '1800'}
+Thu, 24 Sep 2020 16:30:11-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'E91A918961B0BDD9ACC9222A8B8390C8', 'expires': '1800'}
+Thu, 24 Sep 2020 16:30:12-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'C26996C5D32E4BB09EBEE54C5D691583', 'expires': '1800'}
+Thu, 24 Sep 2020 16:30:13-run_all_case.py-test_api_per.py-[line:57]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'F7A70E60EE3402C5FD01F8BBB57E0C6B', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:18-run_all_case.py-run_all_case.py-[line:27]-INFO-[日志信息]: ==================================2020-09-24 16:31:18===================================
+Thu, 24 Sep 2020 16:31:18-run_all_case.py-test_api_per.py-[line:32]-INFO-[日志信息]: 开始执行脚本<module>:
+
+Thu, 24 Sep 2020 16:31:19-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '8813B803B242A02ECDC40A054EF7B57C', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:21-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '5B9F09FA4C410FF01CB0A6CFB007F722', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:22-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'EE19FD27EBA8EA171D46032F58C564D5', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:23-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'C6A6C3182C5DEED8B764E29ECB4AE2CC', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:24-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '4FBC14753F673222467A04CC6CF05833', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:25-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '924668D38672B6E7CEB6831638695A8A', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:26-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '8773DB6F374C7CD28F1693AC54604B71', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:27-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '785EE61C226706B63DBF22BD3DE29646', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:28-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '91271B8DD976ADA987D56A2541955A6C', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:29-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '1B43FBBE5395554E5F4C4E92769DFE7C', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:30-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '95EE64771E299B5FCE184A49A0BB9E77', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:31-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'EB9C9AB6FAAF7D12923348C1846E08B3', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:32-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '3F663A0806A8A8910413B669491E9956', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:33-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '1E190E0C28458F5BEF931F4338BCC2B0', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:34-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'CE4276408606DEC55DE1B411B31D4801', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:35-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'DF4377D5FBC9119BE27DE39A5E0DF8D3', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:36-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '50E5A796616875C1F587C66E306CB97D', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:37-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '9F9CFD99E2B5EBFE89AAD0279B9F424E', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:39-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'F5B350AFB6EBE05B83EF265DEC28C8C7', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:40-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '6E4EC6DAA33E195BCA7C5B2E0B3F0F94', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:41-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'D716D62752E25A11D8233A480FEFB544', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:42-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '59B6E76BE25FD1871C4253490D723F8B', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:43-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '42E831EE3341F64F8D10E5725A1EB78E', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:44-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '93F34E51A254064547E3142FAE57AC95', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:45-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '1B8548B4F70E423362DEC6F62D681D9B', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:46-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '6F52B262CD80898955A42C223B8EA617', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:47-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'BEA231C5A7B91BEF4E861B75B81355F1', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:48-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '32D8B6F70ADBFDB2576899BDA289A1E8', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:49-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '12FA9C424C33D107D71173E1A06650BA', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:50-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '8D334EE6718E0686F6D34B91440D7322', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:51-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'D108D9704D1F08303732571803414748', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:53-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '91E59ADE29E7BF6F70F3F787A7AFFE52', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:54-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'A9AD4B33CF65B844DE8766F0665F483E', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:55-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '56D65280F5742D31D7E74B47BE250B9A', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:56-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '32BC62F5A083018EA6B08AAE3451BA27', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:57-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '4BDCB35D548126F2FBB1AD6CA0FC6956', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:58-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '982BEB5AC0338AD53C6C553B545E3B89', 'expires': '1800'}
+Thu, 24 Sep 2020 16:31:59-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '226F3A7EF536B1C0232436401A0C81A1', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:00-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'A490ABA5370FBCAC26E88A96EBBECF0E', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:01-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '7FD1B09FA0B9B98311707DD8CF6F76D1', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:02-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'A99016ED95B623F96BED2974F662FF50', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:03-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'BE1D40C82A021F8C12C02CC1A61AB49A', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:04-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '6CFAE2788A5D50ED716F6DB718C79633', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:05-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '594509822191A9856483713DC1DAE7AB', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:06-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '6E5D2B6B0A81BBCE18A5998E9E1CE468', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:07-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '243A1D2C3CAC0F07BCA5D64D81D1116D', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:08-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '31534BE5DF554CB73A4E6F8A64BF2A3C', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:09-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '6CCECAE837866E06B88B8E41D230FC38', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:11-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '1D02686EA6AC9DBC7221BB78D49AA671', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:12-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '7E00BBD2DE2503CE6E66CCEA721412E0', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:13-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'E4E08A09413D6958301CF8DBC14ABE81', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:14-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '473DBCE4BA9F89F462C3904D836059F1', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:15-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '21C6F8989284912D32E90EC2275DB672', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:16-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '7A966D3B9EFD997EA4660DE3B6AEFC71', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:17-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'BF94335FC7D7222B590E11C065FB3402', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:18-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '80D3DA53B5A6F6E9B1E2BA136D71E5EB', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:19-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '028CFB8A4B67CD2C8DC0C9412B3E946B', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:20-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'E80AEE8B2E03F3AB381E3A8AE3269CBF', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:21-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'C2ADE6A0F239A2BD83D9B5D1CA0501E0', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:22-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'B3258EF493A4FECAE4AA20985F03EAF1', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:23-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '066DDD8FE567D33E8BD8830D32404BCD', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:24-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '8F5547516925153077A668FE3CDF2604', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:25-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '52BF4B7F095A043FDA07BB1885BB1D18', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:26-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'BE94512AD1F391191C0DFA3C57B73615', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:27-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '8CAF0D838A66EA5EC2442AC4F62D6AAB', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:29-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'AB02224C545683BD44989D2D0C1B1F57', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:30-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'ABB2BCDCF4CF1A64F9FC47807FBE99B0', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:31-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '80470F726955FEAA2BE506609C7D9D7A', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:32-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '1CC673BF45FC7FC99ED10327504982DD', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:33-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'E5F9600186C49EC08CC5CD86F523919C', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:34-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '954ABF8581B49A66AB7485F3D2241CD3', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:35-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '79BF8985C5C1D99CA8FBDC7E25FB204B', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:36-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'E594501E0808E8A0CF177AA8D627F02A', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:37-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '78CE5AC7473AD400CFBD043B1FFBAFC0', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:38-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'C7F60127C40684DC95D3A9E8D436D2AC', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:39-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '28E4939FE451C2D31E683CADDDD61181', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:40-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'A78495E2479CCC399439AFC2B75D379B', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:41-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '0B2AADCB7D536AAF585D0E6C1BE987EB', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:43-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '5B24C28214733EB31C11BEE812A628B4', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:44-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '230AB101E632F6A76F399B8EE999539C', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:45-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'A0BF13BC5F74C522B05B16B616867982', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:46-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '18925B57A6E6238625EA3AA648A6BA2F', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:47-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '2B9F9B25A79918AA12624C9D886BB524', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:48-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '52AA0F46EAA9C346F03BEA8975A31741', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:49-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': '666ED77F6B66BBBEC6194DAA01448949', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:50-run_all_case.py-test_api_per.py-[line:55]-INFO-[日志信息]: {'rtnCode': '0000', 'rtnMsg': '本次请求成功!', 'token': 'A7C190B60CE0BDF8F563B85267099D2E', 'expires': '1800'}
+Thu, 24 Sep 2020 16:32:52-run_all_case.py-run_all_case.py-[line:27]-INFO-[日志信息]: ==================================2020-09-24 16:32:52===================================
+Thu, 24 Sep 2020 16:32:52-run_all_case.py-test_api_per.py-[line:32]-INFO-[日志信息]: 开始执行脚本<module>:
+
+Thu, 24 Sep 2020 16:37:31-run_all_case.py-run_all_case.py-[line:27]-INFO-[日志信息]: ==================================2020-09-24 16:37:31===================================
+Thu, 24 Sep 2020 16:37:31-run_all_case.py-test_api_per.py-[line:32]-INFO-[日志信息]: 开始执行脚本<module>:
+
+Thu, 24 Sep 2020 16:37:48-run_all_case.py-run_all_case.py-[line:27]-INFO-[日志信息]: ==================================2020-09-24 16:37:48===================================
+Thu, 24 Sep 2020 16:37:48-run_all_case.py-test_api_per.py-[line:32]-INFO-[日志信息]: 开始执行脚本<module>:
+
+Thu, 24 Sep 2020 16:59:59-run_all_case.py-run_all_case.py-[line:27]-INFO-[日志信息]: ==================================2020-09-24 16:59:59===================================
+Thu, 24 Sep 2020 16:59:59-run_all_case.py-test_api_per.py-[line:30]-INFO-[日志信息]: 开始执行脚本<module>:
+
+Thu, 24 Sep 2020 17:01:27-run_all_case.py-run_all_case.py-[line:27]-INFO-[日志信息]: ==================================2020-09-24 17:01:27===================================
+Thu, 24 Sep 2020 17:01:28-run_all_case.py-test_api_per.py-[line:30]-INFO-[日志信息]: 开始执行脚本<module>:
+

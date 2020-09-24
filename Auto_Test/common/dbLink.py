@@ -160,7 +160,7 @@ def getPhoneMessage():
     for (k, v) in zip(key_list, pipe.execute()):
         k = bytes.decode(k)
         v = bytes.decode(v)
-
+        print(v)
         if k == 'code:A0002:' + act:  # 注册
             phoneMessage['regMes'] = v
         if k == 'code:A0003:' + act:  # 密码修改
@@ -247,4 +247,4 @@ def flushDb():
 
 
 if __name__ == '__main__':
-    deleteOrgInfor()
+    getPhoneMessage()

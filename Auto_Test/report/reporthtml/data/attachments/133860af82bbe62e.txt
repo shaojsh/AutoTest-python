@@ -1,2 +1,0 @@
-Fri, 11 Sep 2020 16:39:49-run_all_uicase.py-test_login.py-[line:53]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
-

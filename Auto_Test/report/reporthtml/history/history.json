@@ -1,65 +1,5 @@
 {
-  "d91e7b4392163e0b46289a9f8b97b16c" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "978d312832f09a32",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
-      "time" : {
-        "start" : 1600829638343,
-        "stop" : 1600829686938,
-        "duration" : 48595
-      }
-    } ]
-  },
-  "fa363551da3b313dda3c470cf52ad218" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "914826c5743f3a8a",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
-      "time" : {
-        "start" : 1600829548793,
-        "stop" : 1600829566613,
-        "duration" : 17820
-      }
-    } ]
-  },
-  "12451970f50aab0ec4d353f609012c2f" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ef339ea587fe131c",
-      "status" : "broken",
-      "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='calapi.51jirili.comhttp', port=80): Max retries exceeded with url: //calapi.51jirili.com/config/common (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027B71720B50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))",
-      "time" : {
-        "start" : 1600414476516,
-        "stop" : 1600414476566,
-        "duration" : 50
-      }
-    } ]
-  },
-  "dd0646a5c1a798e47c4f25747509dea9" : {
+  "9691ac6aee44b45918982a7ef3d6c630" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -69,92 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bc700395360a7466",
+      "uid" : "7c4a5d98c30474ae",
       "status" : "passed",
       "time" : {
-        "start" : 1600829449483,
-        "stop" : 1600829467019,
-        "duration" : 17536
-      }
-    } ]
-  },
-  "673c6cf796d54f5cbc2e9852ef4f69c7" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "cf4c5dc3f74308a0",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
-      "time" : {
-        "start" : 1600829508455,
-        "stop" : 1600829548771,
-        "duration" : 40316
-      }
-    } ]
-  },
-  "28dda5313ff182aeade3becf47df4372" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "30241595a9196108",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
-      "time" : {
-        "start" : 1600829467030,
-        "stop" : 1600829508395,
-        "duration" : 41365
-      }
-    } ]
-  },
-  "d85ebd52118862a52004a5c4faaac530" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1126647f052b8ddd",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text() ='权限管理']\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
-      "time" : {
-        "start" : 1600829570723,
-        "stop" : 1600829584764,
-        "duration" : 14041
-      }
-    } ]
-  },
-  "a55d1468f36f1b2cdddeddca0f290d7d" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "368f28a30de863ad",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
-      "time" : {
-        "start" : 1600829584809,
-        "stop" : 1600829638316,
-        "duration" : 53507
+        "start" : 1600938088161,
+        "stop" : 1600938118164,
+        "duration" : 30003
       }
     } ]
   }

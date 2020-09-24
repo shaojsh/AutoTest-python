@@ -1,2 +1,0 @@
-Tue, 15 Sep 2020 11:12:16-run_all_uicase.py-test_Tripartite_interaction.py-[line:137]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
-
