@@ -1,10 +1,40 @@
 [ {
-  "uid" : "7c4a5d98c30474ae",
+  "uid" : "2e1c6c763ec88857",
+  "name" : "test_infoReg",
+  "time" : {
+    "start" : 1601191967286,
+    "stop" : 1601192004979,
+    "duration" : 37693
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "704a9e6d435cf69a",
+  "name" : "test_companyRegister",
+  "time" : {
+    "start" : 1601370937706,
+    "stop" : 1601370955673,
+    "duration" : 17967
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "73025efde997774d",
   "name" : "test_api_per",
   "time" : {
     "start" : 1600938088161,
     "stop" : 1600938118164,
     "duration" : 30003
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "3d661fa086e790fb",
+  "name" : "test_businessInforReg",
+  "time" : {
+    "start" : 1601191602089,
+    "stop" : 1601191657535,
+    "duration" : 55446
   },
   "status" : "passed",
   "severity" : "blocker"

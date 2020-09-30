@@ -56,3 +56,4 @@ websocket-client==0.57.0
 wrapt==1.12.1
 
 airtest~=1.1.4
+pytesseract~=0.3.6

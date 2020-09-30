@@ -1,12 +1,12 @@
 {
-  "uid" : "7c4a5d98c30474ae",
+  "uid" : "8bf9935b00d56c42",
   "name" : "test_api_per",
   "fullName" : "test_case.test_Api_demo.test_api_per#test_api_per",
   "historyId" : "9691ac6aee44b45918982a7ef3d6c630",
   "time" : {
-    "start" : 1600938088161,
-    "stop" : 1600938118164,
-    "duration" : 30003
+    "start" : 1600937999314,
+    "stop" : 1600938029316,
+    "duration" : 30002
   },
   "description" : "测试http://123.133.28.226:60011接口",
   "descriptionHtml" : "<p>测试http://123.133.28.226:60011接口</p>\n",
@@ -19,29 +19,23 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "b3e84a0e0bcdde00",
+      "uid" : "5e2a2f2d4bd7a2b9",
       "name" : "log",
-      "source" : "b3e84a0e0bcdde00.txt",
+      "source" : "5e2a2f2d4bd7a2b9.txt",
       "type" : "text/plain",
       "size" : 71
     }, {
-      "uid" : "c2f03080bf5b37d3",
-      "name" : "stdout",
-      "source" : "c2f03080bf5b37d3.txt",
-      "type" : "text/plain",
-      "size" : 3159
-    }, {
-      "uid" : "b6778273e326493c",
+      "uid" : "37fad8f23bcf9cac",
       "name" : "stderr",
-      "source" : "b6778273e326493c.txt",
+      "source" : "37fad8f23bcf9cac.txt",
       "type" : "text/plain",
-      "size" : 118
+      "size" : 5586
     } ],
     "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : true,
-    "attachmentsCount" : 3,
-    "shouldDisplayMessage" : false
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -61,7 +55,7 @@
     "value" : "A02-03-00033"
   }, {
     "name" : "thread",
-    "value" : "12024-MainThread"
+    "value" : "2448-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -81,30 +75,12 @@
     "url" : "http://123.133.28.226:60011",
     "type" : "test_case"
   } ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "blocker",
-    "retries" : [ {
-      "uid" : "16ed06ac1619e92c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1600937999314,
-        "stop" : 1600938029316,
-        "duration" : 30002
-      }
-    }, {
-      "uid" : "d9e159e23a726bf0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1600936668591,
-        "stop" : 1600936698595,
-        "duration" : 30004
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ "run(order=1)" ]
   },
-  "source" : "7c4a5d98c30474ae.json",
+  "source" : "8bf9935b00d56c42.json",
   "parameterValues" : [ ]
 }

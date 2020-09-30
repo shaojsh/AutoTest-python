@@ -4,6 +4,8 @@
 import time
 import os
 import sys
+
+import androidBaseFlow
 from common.Logs import Log
 import pytest
 from common import Shell
@@ -14,9 +16,11 @@ from common.Yaml_Data import HandleYaml
 root_dir = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test'
 handleyaml = HandleYaml(root_dir + '\\test_data\\ConfigGol.yaml')
 # handleyaml = HandleYaml(os.getcwd() + '\\..\\test_data\\ConfigGol.yaml')  # 调试db用
-
 yamldict = handleyaml.get_data()
-
+runMode = yamldict['test_path_list']['runMode']
+mobileDriver = ''
+if runMode != 'UI':
+    mobileDriver = androidBaseFlow.poco
 file = os.path.basename(sys.argv[0])
 log = Log(file)
 logger = log.Logger

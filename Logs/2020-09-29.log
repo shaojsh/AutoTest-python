@@ -1,0 +1,127 @@
+Tue, 29 Sep 2020 14:05:54-run_all_case.py-run_all_case.py-[line:26]-INFO-[日志信息]: ==================================2020-09-29 14:05:54===================================
+Tue, 29 Sep 2020 14:06:22-run_all_case.py-test_login.py-[line:55]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 29 Sep 2020 14:07:05-run_all_case.py-run_all_case.py-[line:26]-INFO-[日志信息]: ==================================2020-09-29 14:07:05===================================
+Tue, 29 Sep 2020 14:07:33-run_all_case.py-test_login.py-[line:55]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 29 Sep 2020 14:07:51-run_all_case.py-test_personalInfoReg.py-[line:33]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Tue, 29 Sep 2020 14:07:51-run_all_case.py-test_personalInfoReg.py-[line:37]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Tue, 29 Sep 2020 14:09:33-run_all_case.py-run_all_case.py-[line:26]-INFO-[日志信息]: ==================================2020-09-29 14:09:33===================================
+Tue, 29 Sep 2020 14:10:22-run_all_case.py-test_login.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 29 Sep 2020 14:10:32-run_all_case.py-test_login.py-[line:71]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Tue, 29 Sep 2020 14:12:09-run_all_case.py-run_all_case.py-[line:26]-INFO-[日志信息]: ==================================2020-09-29 14:12:09===================================
+Tue, 29 Sep 2020 14:12:36-run_all_case.py-test_login.py-[line:55]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 29 Sep 2020 14:12:46-run_all_case.py-test_login.py-[line:62]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Tue, 29 Sep 2020 14:13:04-run_all_case.py-run_all_case.py-[line:26]-INFO-[日志信息]: ==================================2020-09-29 14:13:04===================================
+Tue, 29 Sep 2020 14:13:32-run_all_case.py-test_login.py-[line:55]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 29 Sep 2020 14:13:42-run_all_case.py-test_login.py-[line:62]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Tue, 29 Sep 2020 14:13:46-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Tue, 29 Sep 2020 14:13:46-run_all_case.py-test_login.py-[line:90]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Tue, 29 Sep 2020 14:15:54-run_all_case.py-run_all_case.py-[line:26]-INFO-[日志信息]: ==================================2020-09-29 14:15:54===================================
+Tue, 29 Sep 2020 14:16:21-run_all_case.py-test_login.py-[line:55]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 29 Sep 2020 14:16:31-run_all_case.py-test_login.py-[line:62]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Tue, 29 Sep 2020 14:16:52-run_all_case.py-run_all_case.py-[line:26]-INFO-[日志信息]: ==================================2020-09-29 14:16:52===================================
+Tue, 29 Sep 2020 14:17:19-run_all_case.py-test_login.py-[line:55]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 29 Sep 2020 14:17:29-run_all_case.py-test_login.py-[line:62]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Tue, 29 Sep 2020 14:17:33-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Tue, 29 Sep 2020 14:17:33-run_all_case.py-test_login.py-[line:90]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Tue, 29 Sep 2020 14:18:12-run_all_case.py-run_all_case.py-[line:26]-INFO-[日志信息]: ==================================2020-09-29 14:18:12===================================
+Tue, 29 Sep 2020 14:21:41-run_all_case.py-run_all_case.py-[line:26]-INFO-[日志信息]: ==================================2020-09-29 14:21:41===================================
+Tue, 29 Sep 2020 14:36:28-run_all_case.py-run_all_case.py-[line:26]-INFO-[日志信息]: ==================================2020-09-29 14:36:28===================================
+Tue, 29 Sep 2020 14:36:48-run_all_case.py-run_all_case.py-[line:26]-INFO-[日志信息]: ==================================2020-09-29 14:36:48===================================
+Tue, 29 Sep 2020 14:38:01-run_all_case.py-run_all_case.py-[line:26]-INFO-[日志信息]: ==================================2020-09-29 14:38:01===================================
+Tue, 29 Sep 2020 14:43:39-run_all_case.py-run_all_case.py-[line:26]-INFO-[日志信息]: ==================================2020-09-29 14:43:39===================================
+Tue, 29 Sep 2020 14:45:35-run_all_case.py-run_all_case.py-[line:26]-INFO-[日志信息]: ==================================2020-09-29 14:45:35===================================
+Tue, 29 Sep 2020 14:46:38-run_all_case.py-run_all_case.py-[line:26]-INFO-[日志信息]: ==================================2020-09-29 14:46:38===================================
+Tue, 29 Sep 2020 14:47:42-run_all_case.py-run_all_case.py-[line:26]-INFO-[日志信息]: ==================================2020-09-29 14:47:42===================================
+Tue, 29 Sep 2020 14:49:25-run_all_case.py-run_all_case.py-[line:29]-INFO-[日志信息]: ==================================2020-09-29 14:49:25===================================
+Tue, 29 Sep 2020 15:07:33-run_all_case.py-run_all_case.py-[line:29]-INFO-[日志信息]: ==================================2020-09-29 15:07:34===================================
+Tue, 29 Sep 2020 15:09:11-run_all_case.py-run_all_case.py-[line:29]-INFO-[日志信息]: ==================================2020-09-29 15:09:11===================================
+Tue, 29 Sep 2020 15:11:48-run_all_case.py-run_all_case.py-[line:29]-INFO-[日志信息]: ==================================2020-09-29 15:11:48===================================
+Tue, 29 Sep 2020 15:13:49-run_all_case.py-run_all_case.py-[line:29]-INFO-[日志信息]: ==================================2020-09-29 15:13:49===================================
+Tue, 29 Sep 2020 15:36:35-run_all_case.py-run_all_case.py-[line:29]-INFO-[日志信息]: ==================================2020-09-29 15:36:35===================================
+Tue, 29 Sep 2020 15:51:52-run_all_case.py-run_all_case.py-[line:29]-INFO-[日志信息]: ==================================2020-09-29 15:51:52===================================
+Tue, 29 Sep 2020 15:52:28-run_all_case.py-test_login.py-[line:101]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 29 Sep 2020 16:09:54-run_all_case.py-run_all_case.py-[line:29]-INFO-[日志信息]: ==================================2020-09-29 16:09:54===================================
+Tue, 29 Sep 2020 16:10:31-run_all_case.py-test_login.py-[line:101]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 29 Sep 2020 16:18:19-run_all_case.py-run_all_case.py-[line:29]-INFO-[日志信息]: ==================================2020-09-29 16:18:19===================================
+Tue, 29 Sep 2020 16:18:52-run_all_case.py-test_login.py-[line:101]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 29 Sep 2020 16:21:43-run_all_case.py-run_all_case.py-[line:29]-INFO-[日志信息]: ==================================2020-09-29 16:21:43===================================
+Tue, 29 Sep 2020 16:23:05-run_all_case.py-run_all_case.py-[line:29]-INFO-[日志信息]: ==================================2020-09-29 16:23:05===================================
+Tue, 29 Sep 2020 16:23:39-run_all_case.py-test_login.py-[line:101]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 29 Sep 2020 16:26:25-run_all_case.py-run_all_case.py-[line:29]-INFO-[日志信息]: ==================================2020-09-29 16:26:25===================================
+Tue, 29 Sep 2020 16:27:01-run_all_case.py-test_login.py-[line:101]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 29 Sep 2020 16:36:10-run_all_case.py-run_all_case.py-[line:29]-INFO-[日志信息]: ==================================2020-09-29 16:36:10===================================
+Tue, 29 Sep 2020 16:36:43-run_all_case.py-test_login.py-[line:101]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 29 Sep 2020 17:04:48-run_all_case.py-run_all_case.py-[line:30]-INFO-[日志信息]: ==================================2020-09-29 17:04:48===================================
+Tue, 29 Sep 2020 17:05:43-run_all_case.py-run_all_case.py-[line:31]-INFO-[日志信息]: ==================================2020-09-29 17:05:43===================================
+Tue, 29 Sep 2020 17:05:59-run_all_case.py-test_login.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 29 Sep 2020 17:07:56-run_all_case.py-run_all_case.py-[line:31]-INFO-[日志信息]: ==================================2020-09-29 17:07:56===================================
+Tue, 29 Sep 2020 17:08:11-run_all_case.py-test_login.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 29 Sep 2020 17:15:22-run_all_case.py-run_all_case.py-[line:31]-INFO-[日志信息]: ==================================2020-09-29 17:15:22===================================
+Tue, 29 Sep 2020 17:15:37-run_all_case.py-test_login.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 29 Sep 2020 17:15:48-run_all_case.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Tue, 29 Sep 2020 17:15:52-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Tue, 29 Sep 2020 17:15:52-run_all_case.py-test_login.py-[line:91]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Tue, 29 Sep 2020 17:17:35-run_all_case.py-run_all_case.py-[line:31]-INFO-[日志信息]: ==================================2020-09-29 17:17:35===================================
+Tue, 29 Sep 2020 17:17:50-run_all_case.py-test_login.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 29 Sep 2020 17:18:01-run_all_case.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Tue, 29 Sep 2020 17:18:05-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Tue, 29 Sep 2020 17:18:05-run_all_case.py-test_login.py-[line:91]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Tue, 29 Sep 2020 17:18:08-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Tue, 29 Sep 2020 17:18:08-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Tue, 29 Sep 2020 17:18:19-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Tue, 29 Sep 2020 17:18:19-run_all_case.py-test_personalInfoReg.py-[line:52]-INFO-[日志信息]: 进入登陆页面
+Tue, 29 Sep 2020 17:18:20-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Tue, 29 Sep 2020 17:18:20-run_all_case.py-test_personalInfoReg.py-[line:58]-INFO-[日志信息]: 实名认证画面成功显示
+Tue, 29 Sep 2020 17:19:45-run_all_case.py-run_all_case.py-[line:31]-INFO-[日志信息]: ==================================2020-09-29 17:19:45===================================
+Tue, 29 Sep 2020 17:19:57-run_all_case.py-run_all_case.py-[line:31]-INFO-[日志信息]: ==================================2020-09-29 17:19:57===================================
+Tue, 29 Sep 2020 17:20:12-run_all_case.py-test_login.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 29 Sep 2020 17:20:22-run_all_case.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Tue, 29 Sep 2020 17:20:27-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Tue, 29 Sep 2020 17:20:27-run_all_case.py-test_login.py-[line:91]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Tue, 29 Sep 2020 17:20:30-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Tue, 29 Sep 2020 17:20:30-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Tue, 29 Sep 2020 17:20:42-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Tue, 29 Sep 2020 17:20:42-run_all_case.py-test_personalInfoReg.py-[line:52]-INFO-[日志信息]: 进入登陆页面
+Tue, 29 Sep 2020 17:20:43-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Tue, 29 Sep 2020 17:20:43-run_all_case.py-test_personalInfoReg.py-[line:58]-INFO-[日志信息]: 实名认证画面成功显示
+Tue, 29 Sep 2020 17:22:59-run_all_case.py-run_all_case.py-[line:31]-INFO-[日志信息]: ==================================2020-09-29 17:22:59===================================
+Tue, 29 Sep 2020 17:23:15-run_all_case.py-test_login.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 29 Sep 2020 17:23:25-run_all_case.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Tue, 29 Sep 2020 17:23:29-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Tue, 29 Sep 2020 17:23:29-run_all_case.py-test_login.py-[line:91]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Tue, 29 Sep 2020 17:23:32-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Tue, 29 Sep 2020 17:23:33-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Tue, 29 Sep 2020 17:23:44-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Tue, 29 Sep 2020 17:23:44-run_all_case.py-test_personalInfoReg.py-[line:52]-INFO-[日志信息]: 进入登陆页面
+Tue, 29 Sep 2020 17:23:45-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Tue, 29 Sep 2020 17:23:45-run_all_case.py-test_personalInfoReg.py-[line:58]-INFO-[日志信息]: 实名认证画面成功显示
+Tue, 29 Sep 2020 17:36:05-run_all_case.py-run_all_case.py-[line:31]-INFO-[日志信息]: ==================================2020-09-29 17:36:05===================================
+Tue, 29 Sep 2020 17:36:20-run_all_case.py-test_login.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 29 Sep 2020 17:36:31-run_all_case.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Tue, 29 Sep 2020 17:36:34-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Tue, 29 Sep 2020 17:36:34-run_all_case.py-test_login.py-[line:91]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Tue, 29 Sep 2020 17:36:38-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Tue, 29 Sep 2020 17:36:38-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Tue, 29 Sep 2020 17:36:49-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Tue, 29 Sep 2020 17:36:49-run_all_case.py-test_personalInfoReg.py-[line:52]-INFO-[日志信息]: 进入登陆页面
+Tue, 29 Sep 2020 17:36:53-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Tue, 29 Sep 2020 17:36:53-run_all_case.py-test_personalInfoReg.py-[line:58]-INFO-[日志信息]: 实名认证画面成功显示

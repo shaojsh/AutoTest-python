@@ -1,0 +1,2 @@
+Tue, 29 Sep 2020 17:08:11-run_all_case.py-test_login.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+

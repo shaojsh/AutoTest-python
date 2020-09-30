@@ -1,0 +1,24 @@
+[03:52:07][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell monkey -p com.tencent.mm -c android.intent.category.LAUNCHER 1
+[03:52:10][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell ls /data/local/tmp/minicap
+[03:52:10][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell ls /data/local/tmp/minicap.so
+[03:52:10][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -v 2>&1
+[03:52:10][DEBUG]<airtest.core.android.minicap> version:6
+[03:52:10][DEBUG]<airtest.core.android.minicap> skip install minicap
+[03:52:10][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -i
+[03:52:10][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell dumpsys window displays
+[03:52:11][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell getprop ro.product.cpu.abi
+[03:52:11][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell getprop ro.build.version.sdk
+[03:52:11][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell ls /data/local/tmp/minitouch
+[03:52:11][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell stat -c %s /data/local/tmp/minitouch
+[03:52:11][DEBUG]<airtest.core.android.touch_methods.minitouch> install_minitouch skipped
+[03:52:11][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -i
+[03:52:11][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell dumpsys window displays
+[03:52:11][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 forward --no-rebind tcp:11548 localabstract:minitouch_11548
+[03:52:12][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell /data/local/tmp/minitouch -n 'minitouch_11548' 2>&1
+[03:52:12][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Note: device /dev/input/mouse0 is not supported by libevdev'
+[03:52:12][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Note: device /dev/input/mice is not supported by libevdev'
+[03:52:12][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Type B touch device goodix-ts (720x1280 with 16 contacts) detected on /dev/input/event2 (score 21975)'
+[03:52:12][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Note: hard-limiting maximum number of contacts to 10'
+[03:52:12][DEBUG]<airtest.core.android.touch_methods.minitouch> minitouch header:b'v 1\n^ 10 720 1280 1023\n$ 11717\n'
+[03:52:12][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Connection established'
+Tue, 29 Sep 2020 15:52:28-run_all_case.py-test_login.py-[line:101]-INFO-[日志信息]: 小程序个人实名认证页面

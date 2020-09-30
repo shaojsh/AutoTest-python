@@ -8,6 +8,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 import selenium.webdriver.support.ui as ui
 from selenium.webdriver.support.ui import WebDriverWait
+from PIL import Image
+import pytesseract
 
 
 # 等待直到元素出现
@@ -57,15 +59,26 @@ def scrollText(driver, element, text):
             continue
 
 
-# n秒内持续调用某方法（每秒调用一次）
-def fun_timer():
-    global timer
-    timer = threading.Timer(5.5, fun_timer)
-    timer.start()
+# n秒内持续调用某方法（每秒调用一次 :回调函数）
+# def fun_timer():
+#     global timer
+#     timer = threading.Timer(5.5, fun_timer)
+#     timer.start()
+#
+#
+# timer = threading.Timer(1, fun_timer)
+# timer.start()
+#
+# time.sleep(15)  # 15秒后停止定时器
+# timer.cancel()
+
+# 验证码识别（爬虫/UI自动化用 OCR识别，需要自己下载语言包支持）
+def getVerCode(imagePath):
+    captcha = Image.open(imagePath)
+    code = pytesseract.image_to_string(captcha)
+    print(code)
+    return code
 
 
-timer = threading.Timer(1, fun_timer)
-timer.start()
-
-time.sleep(15)  # 15秒后停止定时器
-timer.cancel()
+if __name__ == '__main__':
+    getVerCode(r'C:\Users\shaojunshuai\PycharmProjects\AutoTest-python\Auto_Test\test_data\picture\code.png')

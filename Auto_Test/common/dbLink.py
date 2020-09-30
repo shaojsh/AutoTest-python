@@ -1,6 +1,3 @@
-import base64
-from time import sleep
-
 import pymysql
 import redis
 from common.Request import RequestsHandler
@@ -9,6 +6,7 @@ from common.Retrun_Response import dict_style
 from run_all_case import yamldict
 
 
+# db链接（mysql）
 def Sqldata(sqlStr, flag):
     db = yamldict['test_db_list']['db1']
     if flag == 2:
@@ -17,9 +15,11 @@ def Sqldata(sqlStr, flag):
         db = yamldict['test_db_list']['db3']
     # 连接数据库
     connect = pymysql.connect(
-        host=yamldict['test_db_list']['host'],
+        host=yamldict['test_db_list']['host_uat'],
+        # host=yamldict['test_db_list']['host'],
         user=yamldict['test_db_list']['user'],
-        password=yamldict['test_db_list']['password'],
+        # password=yamldict['test_db_list']['password'],
+        password=yamldict['test_db_list']['password_uat'],
         port=yamldict['test_db_list']['port'],
         db=db
     )
@@ -38,6 +38,7 @@ def Sqldata(sqlStr, flag):
     connect.close()
 
 
+# db链接（redis）
 def RedisSqldata():
     pool = redis.ConnectionPool(
         host=yamldict['test_redisdb_list']['host'],
@@ -85,6 +86,39 @@ def deletePerInforAndComInfor():
     Sqldata(sqlStr4, 2)
     Sqldata(sqlStr5, 2)
     # Sqldata(sqlStr6, 2)
+
+
+# 删除个人信息(移动端)
+def deleteInforMobile():
+    act = yamldict['test_userlist']['company_user']
+    sqlStr4 = yamldict['test_db_sqllist']['sql0000004']
+    sqlStr14 = yamldict['test_db_sqllist']['sql0000014']
+    sqlStr15 = yamldict['test_db_sqllist']['sql0000015']
+    sqlStr16 = yamldict['test_db_sqllist']['sql0000016']
+    sqlStr17 = yamldict['test_db_sqllist']['sql0000017']
+    sqlStr18 = yamldict['test_db_sqllist']['sql0000018']
+    sqlStr19 = yamldict['test_db_sqllist']['sql0000019']
+    sqlStr20 = yamldict['test_db_sqllist']['sql0000020']
+    sqlStr21 = yamldict['test_db_sqllist']['sql0000021']
+
+    sqlStr14 = sqlStr14.format("'" + act + "'")
+    sqlStr15 = sqlStr15.format("'" + act + "'")
+    sqlStr16 = sqlStr16.format("'" + act + "'")
+    sqlStr17 = sqlStr17.format("'" + act + "'")
+    sqlStr18 = sqlStr18.format("'" + act + "'")
+    sqlStr19 = sqlStr19.format("'" + act + "'")
+    sqlStr20 = sqlStr20.format("'" + act + "'")
+    sqlStr21 = sqlStr21.format("'" + act + "'")
+
+    Sqldata(sqlStr4, 2)
+    Sqldata(sqlStr14, 2)
+    Sqldata(sqlStr15, 2)
+    Sqldata(sqlStr16, 2)
+    Sqldata(sqlStr17, 2)
+    Sqldata(sqlStr18, 2)
+    Sqldata(sqlStr19, 2)
+    Sqldata(sqlStr20, 2)
+    Sqldata(sqlStr21, 2)
 
 
 # 删除机构信息
@@ -209,6 +243,7 @@ def getVerification(url, act):
     for (k, v) in zip(key_list, pipe.execute()):
         k = bytes.decode(k)
         v = bytes.decode(v)
+        print(k)
         if k == 'token:' + data:
             v = v.replace('null', '\"' + 'ok' + '\"')
             dic = eval(v)
@@ -217,7 +252,7 @@ def getVerification(url, act):
             break
 
     while 1:
-        value1 = r.get(str(userId))
+        value1 = r.get('live:check:'+str(userId))
         if value1 is None:
             continue
         else:
@@ -225,9 +260,9 @@ def getVerification(url, act):
     strValue1 = bytes.decode(value1).replace('"', "")
 
     url_fin = 'http://sit.free.vipnps.vip/v1/certification/%s/callback'
-    url_fin = url_fin.replace('%s', strValue1)
+    url_fin = url_fin.replace('%s', str(strValue1))
     while 1:
-        value1 = r.get(str(userId))
+        value1 = r.get('live:check:'+str(userId))
         if value1 is None:
             break
         else:
@@ -247,4 +282,4 @@ def flushDb():
 
 
 if __name__ == '__main__':
-    getPhoneMessage()
+    getVerification('http://10.10.128.152:10000/v1/account/login', '17082238021')

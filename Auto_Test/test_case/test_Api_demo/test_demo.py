@@ -28,18 +28,23 @@ def test_loopApiAccuracy():
     f.write(str(json_response) + os.linesep)
     print(json_response)
     if token is None:
-        pass
+        print(json_response + '  失败  ')
     else:
         return 'sucess'
 
 
 if __name__ == "__main__":
-    while allCnt < 86400:
-        time.sleep(1)
-        allCnt = allCnt + 1
-        result = test_loopApiAccuracy()
-        if result == 'sucess':
-            sucessCnt = sucessCnt + 1
-        per = (sucessCnt / allCnt)
+
+    while allCnt < 28800:
+        try:
+            time.sleep(1)
+            allCnt = allCnt + 1
+            result = test_loopApiAccuracy()
+            if result == 'sucess':
+                sucessCnt = sucessCnt + 1
+            per = (sucessCnt / allCnt)
+        except Exception as e:
+            f.write('Failed to establish a new connection: [WinError 10051] 向一个无法连接的网络尝试了一个套接字操作')
+            continue
     result = '共执行' + str(allCnt) + '次' ',其中成功次数为' + str(sucessCnt), '成功率为' + str(per)
     f.write(str(result) + os.linesep)

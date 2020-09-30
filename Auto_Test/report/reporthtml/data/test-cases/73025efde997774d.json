@@ -1,12 +1,12 @@
 {
-  "uid" : "d9e159e23a726bf0",
+  "uid" : "73025efde997774d",
   "name" : "test_api_per",
   "fullName" : "test_case.test_Api_demo.test_api_per#test_api_per",
   "historyId" : "9691ac6aee44b45918982a7ef3d6c630",
   "time" : {
-    "start" : 1600936668591,
-    "stop" : 1600936698595,
-    "duration" : 30004
+    "start" : 1600938088161,
+    "stop" : 1600938118164,
+    "duration" : 30003
   },
   "description" : "测试http://123.133.28.226:60011接口",
   "descriptionHtml" : "<p>测试http://123.133.28.226:60011接口</p>\n",
@@ -19,29 +19,29 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "f3c41a6aa44307f",
+      "uid" : "5df9d6d91762d111",
       "name" : "log",
-      "source" : "f3c41a6aa44307f.txt",
+      "source" : "5df9d6d91762d111.txt",
       "type" : "text/plain",
       "size" : 71
     }, {
-      "uid" : "471ecc44fc198b18",
+      "uid" : "da0e22f66b5f04b1",
       "name" : "stdout",
-      "source" : "471ecc44fc198b18.txt",
+      "source" : "da0e22f66b5f04b1.txt",
       "type" : "text/plain",
-      "size" : 3276
+      "size" : 3159
     }, {
-      "uid" : "e6c637ad18de1721",
+      "uid" : "ac462924be31ac62",
       "name" : "stderr",
-      "source" : "e6c637ad18de1721.txt",
+      "source" : "ac462924be31ac62.txt",
       "type" : "text/plain",
       "size" : 118
     } ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : true,
     "attachmentsCount" : 3,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -61,7 +61,7 @@
     "value" : "A02-03-00033"
   }, {
     "name" : "thread",
-    "value" : "7428-MainThread"
+    "value" : "12024-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -81,12 +81,30 @@
     "url" : "http://123.133.28.226:60011",
     "type" : "test_case"
   } ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "8bf9935b00d56c42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600937999314,
+        "stop" : 1600938029316,
+        "duration" : 30002
+      }
+    }, {
+      "uid" : "c726d92bf3189bd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600936668591,
+        "stop" : 1600936698595,
+        "duration" : 30004
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ "run(order=1)" ]
   },
-  "source" : "d9e159e23a726bf0.json",
+  "source" : "73025efde997774d.json",
   "parameterValues" : [ ]
 }
