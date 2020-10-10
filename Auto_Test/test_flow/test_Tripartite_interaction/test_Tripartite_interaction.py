@@ -81,7 +81,7 @@ def loanReview(driver_bank):
 
 # 前端还款
 def toRepay(driver_forward):
-    sleep(1)
+    sleep(2)
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_loanApply_css.value).click()
     waitUntilClick(driver_forward, path_Tripartite_interaction.btn_repayment_css.value)
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_repayment_css.value).click()
@@ -197,9 +197,9 @@ def creditExtension(driver_forward):
     driver_forward.find_element_by_xpath(path).click()
     logger.info('进入到前端进入产品借款页')
     waitUntilClick(driver_forward, path_Tripartite_interaction.btn_rent_css.value)
-    sleep(0.5)
+    sleep(1.5)
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_rent_css.value).click()
-    sleep(2)
+    sleep(10)
     # 授信采购信息页面
     logger.info('进入授信采购信息页面')
     waitUntilClick(driver_forward, path_Tripartite_interaction.input_bankNum_css.value)
@@ -217,7 +217,7 @@ def creditExtension(driver_forward):
         "太原文博支行")
     el = driver_forward.find_element_by_css_selector(path_Tripartite_interaction.select_branchBank_css.value)
     el.click()
-    sleep(0.5)
+    sleep(1)
     el.send_keys(Keys.ENTER)
     sleep(0.5)
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_next1_css.value).click()
@@ -412,6 +412,7 @@ def goToPay(driver_forward):
     waitUntilClick(driver_forward, path_Tripartite_interaction.btn_goToPay_css.value)
     sleep(0.5)
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_goToPay_css.value).click()
+    sleep(1)
     logger.info('担保费缴费画面')
     waitUntilClick(driver_forward, path_Tripartite_interaction.btn_applyPay_css.value)
     picture_dir1 = os.getcwd() + '\\test_data\\picture\\id_1.jpg'

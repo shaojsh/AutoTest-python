@@ -69,7 +69,7 @@ def test_businessInforReg():
 
     driver.find_element_by_css_selector(path_businessInfoReg.sel_bankName_css.value).click()
     sleep(1)
-    driver.find_elements_by_xpath("//*[text() = '中国邮政储蓄银行']")[0].click()
+    driver.find_elements_by_xpath("//*[text() = '安徽省农村信用联社']")[0].click()
 
     sleep(1)
     # 法定代表人信息

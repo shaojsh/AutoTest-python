@@ -15,11 +15,11 @@ def Sqldata(sqlStr, flag):
         db = yamldict['test_db_list']['db3']
     # 连接数据库
     connect = pymysql.connect(
-        host=yamldict['test_db_list']['host_uat'],
-        # host=yamldict['test_db_list']['host'],
+        # host=yamldict['test_db_list']['host_uat'],
+        host=yamldict['test_db_list']['host'],
         user=yamldict['test_db_list']['user'],
-        # password=yamldict['test_db_list']['password'],
-        password=yamldict['test_db_list']['password_uat'],
+        password=yamldict['test_db_list']['password'],
+        # password=yamldict['test_db_list']['password_uat'],
         port=yamldict['test_db_list']['port'],
         db=db
     )
@@ -194,7 +194,6 @@ def getPhoneMessage():
     for (k, v) in zip(key_list, pipe.execute()):
         k = bytes.decode(k)
         v = bytes.decode(v)
-        print(v)
         if k == 'code:A0002:' + act:  # 注册
             phoneMessage['regMes'] = v
         if k == 'code:A0003:' + act:  # 密码修改
@@ -243,16 +242,14 @@ def getVerification(url, act):
     for (k, v) in zip(key_list, pipe.execute()):
         k = bytes.decode(k)
         v = bytes.decode(v)
-        print(k)
         if k == 'token:' + data:
             v = v.replace('null', '\"' + 'ok' + '\"')
             dic = eval(v)
             userId = dic.get('userId')
-            print('userId为：' + userId)
             break
 
     while 1:
-        value1 = r.get('live:check:'+str(userId))
+        value1 = r.get('live:check:' + str(userId))
         if value1 is None:
             continue
         else:
@@ -262,7 +259,7 @@ def getVerification(url, act):
     url_fin = 'http://sit.free.vipnps.vip/v1/certification/%s/callback'
     url_fin = url_fin.replace('%s', str(strValue1))
     while 1:
-        value1 = r.get('live:check:'+str(userId))
+        value1 = r.get('live:check:' + str(userId))
         if value1 is None:
             break
         else:

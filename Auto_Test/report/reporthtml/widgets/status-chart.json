@@ -1,35 +1,75 @@
 [ {
-  "uid" : "704a9e6d435cf69a",
+  "uid" : "4a79d79bdea3adfd",
   "name" : "test_companyRegister",
   "time" : {
-    "start" : 1601370937706,
-    "stop" : 1601370955673,
-    "duration" : 17967
+    "start" : 1602222665144,
+    "stop" : 1602222681925,
+    "duration" : 16781
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "2e1c6c763ec88857",
-  "name" : "test_infoReg",
-  "time" : {
-    "start" : 1601191967286,
-    "stop" : 1601192004979,
-    "duration" : 37693
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "3d661fa086e790fb",
+  "uid" : "62c9a4efc69aeb12",
   "name" : "test_businessInforReg",
   "time" : {
-    "start" : 1601191602089,
-    "stop" : 1601191657535,
-    "duration" : 55446
+    "start" : 1602222719160,
+    "stop" : 1602222767876,
+    "duration" : 48716
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "73025efde997774d",
+  "uid" : "33a10087a3e35a68",
+  "name" : "test_backStageActCreate",
+  "time" : {
+    "start" : 1602222786765,
+    "stop" : 1602222823522,
+    "duration" : 36757
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f8a27259f0537c2b",
+  "name" : "test_backstage_examine",
+  "time" : {
+    "start" : 1602222767890,
+    "stop" : 1602222786757,
+    "duration" : 18867
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "be7840892ded3bdf",
+  "name" : "test_Tripartite_interaction",
+  "time" : {
+    "start" : 1602222926041,
+    "stop" : 1602223067461,
+    "duration" : 141420
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f26008734ed93d1e",
+  "name" : "test_backStage_authentication",
+  "time" : {
+    "start" : 1602222823531,
+    "stop" : 1602222926030,
+    "duration" : 102499
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5ae291912cc44cab",
+  "name" : "test_infoReg",
+  "time" : {
+    "start" : 1602222681936,
+    "stop" : 1602222719150,
+    "duration" : 37214
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "29cad11112d905cf",
   "name" : "test_api_per",
   "time" : {
     "start" : 1600938088161,

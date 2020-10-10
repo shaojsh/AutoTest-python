@@ -1,0 +1,20 @@
+Sat, 10 Oct 2020 08:30:05-run_all_case.py-run_all_case.py-[line:31]-INFO-[日志信息]: ==================================2020-10-10 08:30:05===================================
+Sat, 10 Oct 2020 08:30:05-run_all_case.py-test_login.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Sat, 10 Oct 2020 08:30:17-run_all_case.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Sat, 10 Oct 2020 08:30:21-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Sat, 10 Oct 2020 08:30:21-run_all_case.py-test_login.py-[line:91]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Sat, 10 Oct 2020 08:30:24-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Sat, 10 Oct 2020 08:30:24-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Sat, 10 Oct 2020 08:30:35-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Sat, 10 Oct 2020 08:30:35-run_all_case.py-test_personalInfoReg.py-[line:52]-INFO-[日志信息]: 进入登陆页面
+Sat, 10 Oct 2020 08:30:40-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Sat, 10 Oct 2020 08:30:40-run_all_case.py-test_personalInfoReg.py-[line:58]-INFO-[日志信息]: 实名认证画面成功显示
+Sat, 10 Oct 2020 08:30:56-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Sat, 10 Oct 2020 08:30:56-run_all_case.py-test_personalInfoReg.py-[line:96]-INFO-[日志信息]: 实名认证中画面显示
+Sat, 10 Oct 2020 08:30:56-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 马化腾, actul_result is 马化腾
+Sat, 10 Oct 2020 08:30:56-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Sat, 10 Oct 2020 08:30:56-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 17620000033, actul_result is 17620000033
+Sat, 10 Oct 2020 08:50:57-run_all_case.py-test_businessInfoReg.py-[line:33]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+

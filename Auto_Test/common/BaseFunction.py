@@ -81,4 +81,4 @@ def getVerCode(imagePath):
 
 
 if __name__ == '__main__':
-    getVerCode(r'C:\Users\shaojunshuai\PycharmProjects\AutoTest-python\Auto_Test\test_data\picture\code.png')
+    getVerCode(r'C:\Users\shaojunshuai\PycharmProjects\AutoTest-python\Auto_Test\test_data\picture\111.png')

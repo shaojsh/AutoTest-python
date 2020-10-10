@@ -1,0 +1,4 @@
+Fri, 09 Oct 2020 13:19:11-run_all_case.py-test_backStage_authentication.py-[line:169]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Fri, 09 Oct 2020 13:19:22-run_all_case.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统
+Fri, 09 Oct 2020 13:19:22-run_all_case.py-test_backStage_authentication.py-[line:179]-INFO-[日志信息]: 机构信息DB删除

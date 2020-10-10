@@ -3,7 +3,7 @@
 
 # 运营配置位
 test_path_list:
-  runMode: 'UI1'
+  runMode: 'UI'
   url_ui1: '/test_case/test_Api_demo/test_api_per.py'
   url_ui: '/test_flow/'
   url_ui2: '/test_flow/test_Authentication/test_login.py'
@@ -17,16 +17,16 @@ test_backStageUserList:
   company_user_pass: '123456'
   company_bank_pass: '123456'
   company_Guarantee_pass: '123456'
-  company_name: '潍坊市市政工程设计研究院有限公司'
-  autoTest_BankName: 'AutoTest_Bank0005'
-  company_bank: '19721000005'
-  autoTest_RiskName: 'AutoTest_Risk0005'
-  company_Guarantee: '19621000005'
-  product_name: '0005号金融产品'
+  company_name: '山东艺轩建筑装饰工程有限公司'
+  autoTest_BankName: 'AutoTest_Bank1008'
+  company_bank: '17082200002'
+  autoTest_RiskName: 'AutoTest_Risk1008'
+  company_Guarantee: '17082300002'
+  product_name: '1008号金融产品'
   rend_rule: 2
   rend_day: 2
 test_userlist:
-  company_user: '17082238021'
+  company_user: '17620000033'
   #company_user: '17082238021'
   company_user_pass: '123456'
 test_db_list:
