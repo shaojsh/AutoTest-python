@@ -1,28 +1,23 @@
-# !/usr/bin/python
-# coding:utf-8
+import requests
 
-from apscheduler.schedulers.background import BackgroundScheduler
-from datetime import datetime
-import time
-
-
-def tick():
-    print('Tick! The time is: %s' % datetime.now())
-
-
-if __name__ == '__main__':
-    scheduler = BackgroundScheduler()
-    # 每隔5秒执行一次
-    scheduler.add_job(tick, 'interval', seconds=5)
-    # 该部分调度是一个独立的线程
-    scheduler.start()
-
-    try:
-        # 模拟主进程持续运行
-        while True:
-            time.sleep(2)
-            print('sleep')
-    except(KeyboardInterrupt, SystemExit):
-        # Not strictly necessary if daemonic mode is enabled but should be done if possible
-        scheduler.shutdown()
-        print('Exit The Job!')
+url = "https://www.fgnwct.com/getNps?showAll=false&search=&order=asc"
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+    "Content-Type": "application/json",
+    "Cookie": "userSession=liuyunhong@chengtay.com&&0UMtibgYeX2LZZ+u1xPmhA==; JSESSIONID=9855AC579D9CE9FB81FB5FC9BD21E331; Hm_lvt_e7a29f62e903f02ca46b3f22641eb1cd=1602295240,1602296238; Hm_lpvt_e7a29f62e903f02ca46b3f22641eb1cd=1602299161"
+}
+response = requests.get(url=url, headers=headers)
+response.encoding = "utf-8"
+result = response.json()[0].get('start').replace('npc.exe', './npc')
+with open('C:\\Users\\shaojunshuai\\Desktop\\RecordedScript.vbs', 'w', encoding='utf-8') as f:
+    f.writelines('#$language = "VBScript"\n')
+    f.writelines('#$interface = "1.0"\n')
+    f.writelines('crt.Screen.Synchronous = True\n')
+    f.writelines('\' This automatically generated script may need to be\n')
+    f.writelines('\' edited in order to work correctly.\n')
+    f.writelines('Sub Main\n')
+    f.writelines('crt.Screen.Send "cd /mnt/fgnwct/linux_amd64_client" & chr(13)\n')
+    f.writelines('crt.Screen.WaitForString "[user@abs01 linux_amd64_client]$"\n')
+    f.writelines('crt.Screen.Send"'+result+'"& chr(13)\n')
+    f.writelines('End Sub')
+    f.close()

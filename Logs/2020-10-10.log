@@ -18,3 +18,98 @@ Sat, 10 Oct 2020 08:30:56-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]:
 Sat, 10 Oct 2020 08:30:56-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 17620000033, actul_result is 17620000033
 Sat, 10 Oct 2020 08:50:57-run_all_case.py-test_businessInfoReg.py-[line:33]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
 
+Sat, 10 Oct 2020 15:49:33-run_all_case.py-run_all_case.py-[line:31]-INFO-[日志信息]: ==================================2020-10-10 15:49:33===================================
+Sat, 10 Oct 2020 15:49:33-run_all_case.py-test_login.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Sat, 10 Oct 2020 15:49:45-run_all_case.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Sat, 10 Oct 2020 15:49:49-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Sat, 10 Oct 2020 15:49:49-run_all_case.py-test_login.py-[line:91]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Sat, 10 Oct 2020 15:49:52-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Sat, 10 Oct 2020 15:49:52-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Sat, 10 Oct 2020 15:50:03-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Sat, 10 Oct 2020 15:50:03-run_all_case.py-test_personalInfoReg.py-[line:52]-INFO-[日志信息]: 进入登陆页面
+Sat, 10 Oct 2020 15:50:07-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Sat, 10 Oct 2020 15:50:07-run_all_case.py-test_personalInfoReg.py-[line:58]-INFO-[日志信息]: 实名认证画面成功显示
+Sat, 10 Oct 2020 15:50:22-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Sat, 10 Oct 2020 15:50:22-run_all_case.py-test_personalInfoReg.py-[line:96]-INFO-[日志信息]: 实名认证中画面显示
+Sat, 10 Oct 2020 15:50:22-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 马化腾, actul_result is 马化腾
+Sat, 10 Oct 2020 15:50:22-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Sat, 10 Oct 2020 15:50:22-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 17620000033, actul_result is 17620000033
+Sat, 10 Oct 2020 15:50:32-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 认证成功, actul_result is 认证成功
+Sat, 10 Oct 2020 15:50:32-run_all_case.py-test_personalInfoReg.py-[line:110]-INFO-[日志信息]: 实名认证成功画面显示
+Sat, 10 Oct 2020 15:50:32-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Sat, 10 Oct 2020 15:50:32-run_all_case.py-test_personalInfoReg.py-[line:115]-INFO-[日志信息]: 点击查看认证信息按钮，跳转到实名认证画面
+Sat, 10 Oct 2020 15:50:34-run_all_case.py-test_businessInfoReg.py-[line:33]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Sat, 10 Oct 2020 15:55:28-run_all_case.py-run_all_case.py-[line:31]-INFO-[日志信息]: ==================================2020-10-10 15:55:28===================================
+Sat, 10 Oct 2020 15:55:29-run_all_case.py-test_login.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Sat, 10 Oct 2020 15:55:40-run_all_case.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Sat, 10 Oct 2020 15:55:43-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Sat, 10 Oct 2020 15:55:43-run_all_case.py-test_login.py-[line:91]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Sat, 10 Oct 2020 15:55:47-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Sat, 10 Oct 2020 15:55:47-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Sat, 10 Oct 2020 15:55:58-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Sat, 10 Oct 2020 15:55:58-run_all_case.py-test_personalInfoReg.py-[line:52]-INFO-[日志信息]: 进入登陆页面
+Sat, 10 Oct 2020 15:55:59-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Sat, 10 Oct 2020 15:55:59-run_all_case.py-test_personalInfoReg.py-[line:58]-INFO-[日志信息]: 实名认证画面成功显示
+Sat, 10 Oct 2020 15:56:12-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Sat, 10 Oct 2020 15:56:12-run_all_case.py-test_personalInfoReg.py-[line:96]-INFO-[日志信息]: 实名认证中画面显示
+Sat, 10 Oct 2020 15:56:12-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 马化腾, actul_result is 马化腾
+Sat, 10 Oct 2020 15:56:12-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Sat, 10 Oct 2020 15:56:12-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 17620000033, actul_result is 17620000033
+Sat, 10 Oct 2020 15:57:44-run_all_case.py-test_businessInfoReg.py-[line:33]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Sat, 10 Oct 2020 16:18:01-run_all_case.py-run_all_case.py-[line:31]-INFO-[日志信息]: ==================================2020-10-10 16:18:01===================================
+Sat, 10 Oct 2020 16:18:01-run_all_case.py-test_login.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Sat, 10 Oct 2020 16:18:11-run_all_case.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Sat, 10 Oct 2020 16:18:15-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Sat, 10 Oct 2020 16:18:15-run_all_case.py-test_login.py-[line:91]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Sat, 10 Oct 2020 16:18:18-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Sat, 10 Oct 2020 16:18:18-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Sat, 10 Oct 2020 16:18:30-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Sat, 10 Oct 2020 16:18:30-run_all_case.py-test_personalInfoReg.py-[line:52]-INFO-[日志信息]: 进入登陆页面
+Sat, 10 Oct 2020 16:18:33-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Sat, 10 Oct 2020 16:18:33-run_all_case.py-test_personalInfoReg.py-[line:58]-INFO-[日志信息]: 实名认证画面成功显示
+Sat, 10 Oct 2020 16:18:47-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Sat, 10 Oct 2020 16:18:47-run_all_case.py-test_personalInfoReg.py-[line:96]-INFO-[日志信息]: 实名认证中画面显示
+Sat, 10 Oct 2020 16:18:47-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 马化腾, actul_result is 马化腾
+Sat, 10 Oct 2020 16:18:47-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Sat, 10 Oct 2020 16:18:47-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 17620000033, actul_result is 17620000033
+Sat, 10 Oct 2020 16:24:31-run_all_case.py-run_all_case.py-[line:31]-INFO-[日志信息]: ==================================2020-10-10 16:24:31===================================
+Sat, 10 Oct 2020 16:24:31-run_all_case.py-test_login.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Sat, 10 Oct 2020 16:24:41-run_all_case.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Sat, 10 Oct 2020 16:24:45-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Sat, 10 Oct 2020 16:24:45-run_all_case.py-test_login.py-[line:91]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Sat, 10 Oct 2020 16:24:48-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Sat, 10 Oct 2020 16:24:48-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Sat, 10 Oct 2020 16:24:59-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Sat, 10 Oct 2020 16:24:59-run_all_case.py-test_personalInfoReg.py-[line:52]-INFO-[日志信息]: 进入登陆页面
+Sat, 10 Oct 2020 16:25:01-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Sat, 10 Oct 2020 16:25:01-run_all_case.py-test_personalInfoReg.py-[line:58]-INFO-[日志信息]: 实名认证画面成功显示
+Sat, 10 Oct 2020 16:25:13-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Sat, 10 Oct 2020 16:25:13-run_all_case.py-test_personalInfoReg.py-[line:96]-INFO-[日志信息]: 实名认证中画面显示
+Sat, 10 Oct 2020 16:25:13-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 马化腾, actul_result is 马化腾
+Sat, 10 Oct 2020 16:25:13-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 11010119900307475X, actul_result is 11010119900307475X
+Sat, 10 Oct 2020 16:25:13-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 17620000033, actul_result is 17620000033
+Sat, 10 Oct 2020 16:27:40-run_all_case.py-run_all_case.py-[line:31]-INFO-[日志信息]: ==================================2020-10-10 16:27:40===================================
+Sat, 10 Oct 2020 16:27:40-run_all_case.py-test_login.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Sat, 10 Oct 2020 16:27:50-run_all_case.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Sat, 10 Oct 2020 16:27:55-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Sat, 10 Oct 2020 16:27:55-run_all_case.py-test_login.py-[line:91]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Sat, 10 Oct 2020 16:27:58-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Sat, 10 Oct 2020 16:27:58-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Sat, 10 Oct 2020 16:28:09-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Sat, 10 Oct 2020 16:28:09-run_all_case.py-test_personalInfoReg.py-[line:52]-INFO-[日志信息]: 进入登陆页面
+Sat, 10 Oct 2020 16:28:10-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Sat, 10 Oct 2020 16:28:10-run_all_case.py-test_personalInfoReg.py-[line:58]-INFO-[日志信息]: 实名认证画面成功显示
+Sat, 10 Oct 2020 16:28:23-run_all_case.py-test_businessInfoReg.py-[line:33]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+

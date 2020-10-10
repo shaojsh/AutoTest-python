@@ -57,3 +57,4 @@ wrapt==1.12.1
 
 airtest~=1.1.4
 pytesseract~=0.3.6
+crt~=0.0.4
