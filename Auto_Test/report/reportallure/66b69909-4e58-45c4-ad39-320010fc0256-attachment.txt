@@ -1,0 +1,23 @@
+[10:01:24][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell monkey -p com.tencent.mm -c android.intent.category.LAUNCHER 1
+[10:01:25][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell ls /data/local/tmp/minicap
+[10:01:25][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell ls /data/local/tmp/minicap.so
+[10:01:26][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -v 2>&1
+[10:01:26][DEBUG]<airtest.core.android.minicap> version:6
+[10:01:26][DEBUG]<airtest.core.android.minicap> skip install minicap
+[10:01:26][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -i
+[10:01:26][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell dumpsys window displays
+[10:01:26][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell getprop ro.product.cpu.abi
+[10:01:26][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell getprop ro.build.version.sdk
+[10:01:26][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell ls /data/local/tmp/minitouch
+[10:01:27][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell stat -c %s /data/local/tmp/minitouch
+[10:01:27][DEBUG]<airtest.core.android.touch_methods.minitouch> install_minitouch skipped
+[10:01:27][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -i
+[10:01:27][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell dumpsys window displays
+[10:01:27][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 forward --no-rebind tcp:11530 localabstract:minitouch_11530
+[10:01:27][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell /data/local/tmp/minitouch -n 'minitouch_11530' 2>&1
+[10:01:27][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Note: device /dev/input/mouse0 is not supported by libevdev'
+[10:01:28][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Note: device /dev/input/mice is not supported by libevdev'
+[10:01:28][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Type B touch device goodix-ts (720x1280 with 16 contacts) detected on /dev/input/event2 (score 21975)'
+[10:01:28][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Note: hard-limiting maximum number of contacts to 10'
+[10:01:28][DEBUG]<airtest.core.android.touch_methods.minitouch> minitouch header:b'v 1\n^ 10 720 1280 1023\n$ 9739\n'
+[10:01:28][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Connection established'

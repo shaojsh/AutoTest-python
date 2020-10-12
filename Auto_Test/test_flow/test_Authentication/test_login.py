@@ -4,13 +4,14 @@ from time import sleep
 
 import allure
 import pytest
+from airtest.core.api import touch
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 import androidBaseFlow
 from androidBaseFlow import startWeinxin
 from common import Assert
-from common.BaseFunction import waitUntilDisplay, waitUntilClick
+from common.BaseFunction import waitUntilDisplay, waitUntilClick, waiteForClick
 from common.dbLink import deleteAct, getPhoneMessage, flushDb, deleteInforMobile
 from flow_path.path_backStage_authentication import path_backStage_authentication
 from flow_path.path_login import loginOn
@@ -94,10 +95,11 @@ def test_companyRegister():
     else:
         deleteInforMobile()  # 删除个人信息
         startWeinxin()
-        mobileDriver(text='一键微信授权登录').click()
-        mobileDriver(text='允许').click()
-        mobileDriver(text='授权手机号').click()
-        mobileDriver(text='允许').click()
+        waiteForClick(mobileDriver(text='一键微信授权登录'))
+        waiteForClick(mobileDriver(text='允许'))
+        waiteForClick(mobileDriver(text='授权手机号'))
+        waiteForClick(mobileDriver(text='允许'))
+
         logger.info("小程序个人实名认证页面")
         # 上传身份证正反面
         mobileDriver(text='请上传身份证头像面').click()

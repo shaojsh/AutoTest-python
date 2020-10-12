@@ -7,7 +7,7 @@
       "name" : "test_api_per",
       "children" : [ {
         "name" : "test_api_per",
-        "uid" : "29cad11112d905cf",
+        "uid" : "36d08c655b5d9284",
         "parentUid" : "55f4215371e368fccc2fe6b0cc9643c4",
         "status" : "passed",
         "time" : {
@@ -23,114 +23,12 @@
     } ],
     "uid" : "0ce1db2e4e07a2ca035050de40f8374c"
   }, {
-    "name" : "test_flow.test_Authentication",
-    "children" : [ {
-      "name" : "test_login",
-      "children" : [ {
-        "name" : "test_companyRegister",
-        "uid" : "4a79d79bdea3adfd",
-        "parentUid" : "9a7e0e6f3e0f952f8bcc34abd5c95979",
-        "status" : "passed",
-        "time" : {
-          "start" : 1602222665144,
-          "stop" : 1602222681925,
-          "duration" : 16781
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "9a7e0e6f3e0f952f8bcc34abd5c95979"
-    }, {
-      "name" : "test_personalInfoReg",
-      "children" : [ {
-        "name" : "test_infoReg",
-        "uid" : "5ae291912cc44cab",
-        "parentUid" : "5c30648b86b358f797cfae704122cc2c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1602222681936,
-          "stop" : 1602222719150,
-          "duration" : 37214
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "5c30648b86b358f797cfae704122cc2c"
-    }, {
-      "name" : "test_businessInfoReg",
-      "children" : [ {
-        "name" : "test_businessInforReg",
-        "uid" : "62c9a4efc69aeb12",
-        "parentUid" : "ec9023113cd731a3d98287f22b9c540f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1602222719160,
-          "stop" : 1602222767876,
-          "duration" : 48716
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "ec9023113cd731a3d98287f22b9c540f"
-    }, {
-      "name" : "test_backStage_examine",
-      "children" : [ {
-        "name" : "test_backstage_examine",
-        "uid" : "f8a27259f0537c2b",
-        "parentUid" : "0f5bd49568a29f185b3c1e89207e891c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1602222767890,
-          "stop" : 1602222786757,
-          "duration" : 18867
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0f5bd49568a29f185b3c1e89207e891c"
-    }, {
-      "name" : "test_backStage_authentication",
-      "children" : [ {
-        "name" : "test_backStageActCreate",
-        "uid" : "33a10087a3e35a68",
-        "parentUid" : "fd817d8d0f4e2955a83ca99db1eb2211",
-        "status" : "passed",
-        "time" : {
-          "start" : 1602222786765,
-          "stop" : 1602222823522,
-          "duration" : 36757
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_backStage_authentication",
-        "uid" : "f26008734ed93d1e",
-        "parentUid" : "fd817d8d0f4e2955a83ca99db1eb2211",
-        "status" : "passed",
-        "time" : {
-          "start" : 1602222823531,
-          "stop" : 1602222926030,
-          "duration" : 102499
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "fd817d8d0f4e2955a83ca99db1eb2211"
-    } ],
-    "uid" : "5afa34953581fdbf72cb514527388d22"
-  }, {
     "name" : "test_flow.test_Tripartite_interaction",
     "children" : [ {
       "name" : "test_Tripartite_interaction",
       "children" : [ {
         "name" : "test_Tripartite_interaction",
-        "uid" : "be7840892ded3bdf",
+        "uid" : "62ff5877528964b7",
         "parentUid" : "d05880f1c647f41ab44d6f53210282c9",
         "status" : "passed",
         "time" : {
@@ -145,5 +43,107 @@
       "uid" : "d05880f1c647f41ab44d6f53210282c9"
     } ],
     "uid" : "af777a3d193f800fcd4be8051aef459c"
+  }, {
+    "name" : "test_flow.test_Authentication",
+    "children" : [ {
+      "name" : "test_backStage_examine",
+      "children" : [ {
+        "name" : "test_backstage_examine",
+        "uid" : "9ece0f1bf3d5d7cb",
+        "parentUid" : "0f5bd49568a29f185b3c1e89207e891c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602223192586,
+          "stop" : 1602223211437,
+          "duration" : 18851
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f5bd49568a29f185b3c1e89207e891c"
+    }, {
+      "name" : "test_backStage_authentication",
+      "children" : [ {
+        "name" : "test_backStageActCreate",
+        "uid" : "b53abd3d335df3da",
+        "parentUid" : "fd817d8d0f4e2955a83ca99db1eb2211",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602223211460,
+          "stop" : 1602223248319,
+          "duration" : 36859
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_backStage_authentication",
+        "uid" : "6a3e7a96dcd5a4b5",
+        "parentUid" : "fd817d8d0f4e2955a83ca99db1eb2211",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602223248333,
+          "stop" : 1602223344448,
+          "duration" : 96115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd817d8d0f4e2955a83ca99db1eb2211"
+    }, {
+      "name" : "test_personalInfoReg",
+      "children" : [ {
+        "name" : "test_infoReg",
+        "uid" : "850ff30cc0e62c5e",
+        "parentUid" : "5c30648b86b358f797cfae704122cc2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602465532419,
+          "stop" : 1602465532419,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5c30648b86b358f797cfae704122cc2c"
+    }, {
+      "name" : "test_businessInfoReg",
+      "children" : [ {
+        "name" : "test_businessInforReg",
+        "uid" : "fcafc13faa68eddc",
+        "parentUid" : "ec9023113cd731a3d98287f22b9c540f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602465532421,
+          "stop" : 1602465544168,
+          "duration" : 11747
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec9023113cd731a3d98287f22b9c540f"
+    }, {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "test_companyRegister",
+        "uid" : "4eec2c308c4c3cbe",
+        "parentUid" : "9a7e0e6f3e0f952f8bcc34abd5c95979",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602468084026,
+          "stop" : 1602468115309,
+          "duration" : 31283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a7e0e6f3e0f952f8bcc34abd5c95979"
+    } ],
+    "uid" : "5afa34953581fdbf72cb514527388d22"
   } ]
 }

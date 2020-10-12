@@ -2,6 +2,8 @@
 from time import sleep
 import threading
 import time
+
+from poco.exceptions import PocoTargetTimeout
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
@@ -80,5 +82,14 @@ def getVerCode(imagePath):
     return code
 
 
-if __name__ == '__main__':
-    getVerCode(r'C:\Users\shaojunshuai\PycharmProjects\AutoTest-python\Auto_Test\test_data\picture\111.png')
+# 移动端 等待元素出现并点击
+def waiteForClick(el):
+    while True:
+        try:
+            sleep(0.5)
+            el.wait_for_appearance(timeout=0.5)
+            el.click()
+            break
+        except:
+            sleep(0.5)
+            continue

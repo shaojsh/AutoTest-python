@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "be7840892ded3bdf",
+      "uid" : "62ff5877528964b7",
       "status" : "passed",
       "time" : {
         "start" : 1602222926041,
@@ -28,50 +28,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f8a27259f0537c2b",
+      "uid" : "9ece0f1bf3d5d7cb",
       "status" : "passed",
       "time" : {
-        "start" : 1602222767890,
-        "stop" : 1602222786757,
-        "duration" : 18867
+        "start" : 1602223192586,
+        "stop" : 1602223211437,
+        "duration" : 18851
       }
     } ]
   },
   "dd0646a5c1a798e47c4f25747509dea9" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4a79d79bdea3adfd",
-      "status" : "passed",
+      "uid" : "4eec2c308c4c3cbe",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoTargetTimeout: Waiting timeout for appearance of \"UIObjectProxy of \"text=一键微信授权登录\"\"",
       "time" : {
-        "start" : 1602222665144,
-        "stop" : 1602222681925,
-        "duration" : 16781
+        "start" : 1602468084026,
+        "stop" : 1602468115309,
+        "duration" : 31283
       }
     } ]
   },
   "673c6cf796d54f5cbc2e9852ef4f69c7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "62c9a4efc69aeb12",
-      "status" : "passed",
+      "uid" : "fcafc13faa68eddc",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'is_displayed'",
       "time" : {
-        "start" : 1602222719160,
-        "stop" : 1602222767876,
-        "duration" : 48716
+        "start" : 1602465532421,
+        "stop" : 1602465544168,
+        "duration" : 11747
       }
     } ]
   },
@@ -85,12 +87,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5ae291912cc44cab",
+      "uid" : "850ff30cc0e62c5e",
       "status" : "passed",
       "time" : {
-        "start" : 1602222681936,
-        "stop" : 1602222719150,
-        "duration" : 37214
+        "start" : 1602465532419,
+        "stop" : 1602465532419,
+        "duration" : 0
       }
     } ]
   },
@@ -104,12 +106,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "33a10087a3e35a68",
+      "uid" : "b53abd3d335df3da",
       "status" : "passed",
       "time" : {
-        "start" : 1602222786765,
-        "stop" : 1602222823522,
-        "duration" : 36757
+        "start" : 1602223211460,
+        "stop" : 1602223248319,
+        "duration" : 36859
       }
     } ]
   },
@@ -123,7 +125,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "29cad11112d905cf",
+      "uid" : "36d08c655b5d9284",
       "status" : "passed",
       "time" : {
         "start" : 1600938088161,
@@ -142,12 +144,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f26008734ed93d1e",
+      "uid" : "6a3e7a96dcd5a4b5",
       "status" : "passed",
       "time" : {
-        "start" : 1602222823531,
-        "stop" : 1602222926030,
-        "duration" : 102499
+        "start" : 1602223248333,
+        "stop" : 1602223344448,
+        "duration" : 96115
       }
     } ]
   }
