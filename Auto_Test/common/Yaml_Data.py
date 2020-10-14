@@ -24,7 +24,7 @@ class HandleYaml:
         try:
             fp = open(self.file_path, encoding='utf-8')
         except:
-            fp = open('C:\\Users\\shaojunshuai\\PycharmProjects\\AutoTest-python\\Auto_Test\\test_data\\ConfigGol.yaml', encoding='utf-8')
+            fp = open('C:\\Users\\shaojunshuai\\PycharmProjects\\AutoTest-python\\Auto_Test\\test_data\\ConfigGol-UAT.yaml', encoding='utf-8')
         data = yaml.load(fp, Loader=yaml.FullLoader)
         yaml.warnings({'YAMLLoadWarning': False})
         return data

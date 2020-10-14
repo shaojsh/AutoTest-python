@@ -12,12 +12,22 @@ from common import Shell
 
 from common.Yaml_Data import HandleYaml
 
-
 root_dir = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test'
-handleyaml = HandleYaml(root_dir + '\\test_data\\ConfigGol.yaml')
-# handleyaml = HandleYaml(os.getcwd() + '\\..\\test_data\\ConfigGol.yaml')  # 调试db用
+runMode = 'UI'
+
+# 环境run取得
+config = HandleYaml(root_dir + '\\test_data\\config.yaml')
+runMode = config.get_data()['config']['runMode']
+evn = config.get_data()['config']['evn']
+if evn == 'SIT':
+    handleyaml = HandleYaml(root_dir + '\\test_data\\ConfigGol-SIT.yaml')
+else:
+    handleyaml = HandleYaml(root_dir + '\\test_data\\ConfigGol-UAT.yaml')
+
+# handleyaml = HandleYaml(os.getcwd() + '\\..\\test_data\\ConfigGol-UAT.yaml')  # 调试db用
+
 yamldict = handleyaml.get_data()
-runMode = yamldict['test_path_list']['runMode']
+
 mobileDriver = ''
 if runMode != 'UI':
     mobileDriver = androidBaseFlow.poco

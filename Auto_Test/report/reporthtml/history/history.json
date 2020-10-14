@@ -2,19 +2,20 @@
   "d91e7b4392163e0b46289a9f8b97b16c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "62ff5877528964b7",
-      "status" : "passed",
+      "uid" : "1222bee08232894e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1602222926041,
-        "stop" : 1602223067461,
-        "duration" : 141420
+        "start" : 1602668018777,
+        "stop" : 1602668062543,
+        "duration" : 43766
       }
     } ]
   },
@@ -28,52 +29,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9ece0f1bf3d5d7cb",
+      "uid" : "b322fdaa1fb642ef",
       "status" : "passed",
       "time" : {
-        "start" : 1602223192586,
-        "stop" : 1602223211437,
-        "duration" : 18851
+        "start" : 1602667915715,
+        "stop" : 1602667935056,
+        "duration" : 19341
       }
     } ]
   },
   "dd0646a5c1a798e47c4f25747509dea9" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4eec2c308c4c3cbe",
-      "status" : "broken",
-      "statusDetails" : "poco.exceptions.PocoTargetTimeout: Waiting timeout for appearance of \"UIObjectProxy of \"text=一键微信授权登录\"\"",
+      "uid" : "2754f5de06d65680",
+      "status" : "passed",
       "time" : {
-        "start" : 1602468084026,
-        "stop" : 1602468115309,
-        "duration" : 31283
+        "start" : 1602667748134,
+        "stop" : 1602667830049,
+        "duration" : 81915
       }
     } ]
   },
   "673c6cf796d54f5cbc2e9852ef4f69c7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fcafc13faa68eddc",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'is_displayed'",
+      "uid" : "7c1e63e21023b841",
+      "status" : "passed",
       "time" : {
-        "start" : 1602465532421,
-        "stop" : 1602465544168,
-        "duration" : 11747
+        "start" : 1602667830074,
+        "stop" : 1602667915705,
+        "duration" : 85631
       }
     } ]
   },
@@ -87,12 +86,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "850ff30cc0e62c5e",
+      "uid" : "a59d783ac8d43f6b",
       "status" : "passed",
       "time" : {
-        "start" : 1602465532419,
-        "stop" : 1602465532419,
-        "duration" : 0
+        "start" : 1602667830069,
+        "stop" : 1602667830070,
+        "duration" : 1
       }
     } ]
   },
@@ -106,12 +105,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b53abd3d335df3da",
+      "uid" : "a68f41900240b8e5",
       "status" : "passed",
       "time" : {
-        "start" : 1602223211460,
-        "stop" : 1602223248319,
-        "duration" : 36859
+        "start" : 1602667935065,
+        "stop" : 1602667972221,
+        "duration" : 37156
       }
     } ]
   },
@@ -125,7 +124,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "36d08c655b5d9284",
+      "uid" : "f55cab50d422d087",
       "status" : "passed",
       "time" : {
         "start" : 1600938088161,
@@ -137,19 +136,20 @@
   "a55d1468f36f1b2cdddeddca0f290d7d" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6a3e7a96dcd5a4b5",
-      "status" : "passed",
+      "uid" : "8e03e96eac41d02c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <label class=\"ant-checkbox-wrapper\">...</label> is not clickable at point (1049, 315). Other element would receive the click: <div class=\"ant-spin ant-spin-spinning\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
       "time" : {
-        "start" : 1602223248333,
-        "stop" : 1602223344448,
-        "duration" : 96115
+        "start" : 1602667972243,
+        "stop" : 1602668018661,
+        "duration" : 46418
       }
     } ]
   }

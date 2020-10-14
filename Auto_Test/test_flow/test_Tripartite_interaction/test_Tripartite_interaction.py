@@ -7,7 +7,7 @@ from selenium import webdriver
 
 from common.dbLink import getPhoneMessage, flushDb
 from flow_path.path_Tripartite_interaction import path_Tripartite_interaction
-from run_all_case import yamldict, logger
+from run_all_case import yamldict, logger, runMode
 from common.BaseFunction import waitUntilDisplay, waitUntilClick, waitUntilClick_xpath, scrollText, \
     waitUntilDisplay_xpath, is_not_visible
 from test_flow.test_Authentication.test_backStage_examine import backStageLogin
@@ -136,13 +136,16 @@ def test_Tripartite_interaction():
     def_name = sys._getframe().f_code.co_name
     logger.info("开始执行脚本%s:\n", def_name)
 
-    # # 前端账户授信申请
-    driver_forward = webdriver.Chrome()
-    driver_forward.maximize_window()
-    driver_forward.get(url_forward)
-    logger.info('前端账户登录授信申请')
-    login(driver_forward)
-    creditExtension(driver_forward)
+    # 前端账户授信申请
+    if runMode != 'UI':
+        driver_forward = webdriver.Chrome()
+        driver_forward.maximize_window()
+        driver_forward.get(url_forward)
+        logger.info('前端账户登录授信申请')
+        login(driver_forward)
+        creditExtension(driver_forward)
+    else:
+        pass
 
     # 银行授信审核
     driver_bank = webdriver.Chrome()

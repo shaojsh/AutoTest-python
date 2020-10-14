@@ -1,0 +1,28 @@
+[11:13:24][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell ls /data/local/tmp/minicap
+[11:13:24][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell ls /data/local/tmp/minicap.so
+[11:13:24][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -v 2>&1
+[11:13:24][DEBUG]<airtest.core.android.minicap> version:6
+[11:13:24][DEBUG]<airtest.core.android.minicap> skip install minicap
+[11:13:24][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -i
+[11:13:24][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell dumpsys window displays
+[11:13:25][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell getprop ro.product.cpu.abi
+[11:13:25][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell getprop ro.build.version.sdk
+[11:13:25][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell ls /data/local/tmp/minitouch
+[11:13:25][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell stat -c %s /data/local/tmp/minitouch
+[11:13:25][DEBUG]<airtest.core.android.touch_methods.minitouch> install_minitouch skipped
+[11:13:25][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -i
+[11:13:25][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell dumpsys window displays
+[11:13:26][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 forward --no-rebind tcp:12333 localabstract:minitouch_12333
+[11:13:26][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell /data/local/tmp/minitouch -n 'minitouch_12333' 2>&1
+[11:13:26][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Note: device /dev/input/mouse0 is not supported by libevdev'
+[11:13:26][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Note: device /dev/input/mice is not supported by libevdev'
+[11:13:26][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Type B touch device goodix-ts (720x1280 with 16 contacts) detected on /dev/input/event2 (score 21975)'
+[11:13:26][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Note: hard-limiting maximum number of contacts to 10'
+[11:13:26][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Connection established'
+[11:13:26][DEBUG]<airtest.core.android.touch_methods.minitouch> minitouch header:b'v 1\n^ 10 720 1280 1023\n$ 6665\n'
+[11:13:43][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell dumpsys package com.netease.nie.yosemite
+[11:13:43][INFO]<airtest.core.android.yosemite> local version code is 302, installed version code is 302
+[11:13:43][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell settings get secure default_input_method
+[11:13:45][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell ime list -a
+[11:13:46][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '123456'
+[11:13:47][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER

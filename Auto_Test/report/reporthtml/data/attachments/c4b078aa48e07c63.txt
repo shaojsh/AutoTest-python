@@ -1,0 +1,2 @@
+INFO     run_all_case.py:test_login.py:185 登录页面
+INFO     run_all_case.py:test_login.py:190 安全验证页面

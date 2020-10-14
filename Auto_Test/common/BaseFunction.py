@@ -13,8 +13,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from PIL import Image
 import pytesseract
 
-
 # 等待直到元素出现
+from run_all_case import mobileDriver
+
+
 def waitUntilDisplay(driver, ByCss):
     WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.CSS_SELECTOR, ByCss)))
 
@@ -86,10 +88,21 @@ def getVerCode(imagePath):
 def waiteForClick(el):
     while True:
         try:
-            sleep(0.5)
-            el.wait_for_appearance(timeout=0.5)
+            sleep(0.1)
+            el.wait_for_appearance(timeout=0.1)
             el.click()
             break
         except:
+            sleep(0.1)
+            continue
+
+
+# 移动端 等待直到元素消失
+def waiteForNotExist(text):
+    while True:
+        el = mobileDriver(text=text)
+        if el.attr('visible'):
             sleep(0.5)
             continue
+        else:
+            break

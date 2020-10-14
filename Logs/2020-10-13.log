@@ -1,0 +1,255 @@
+Tue, 13 Oct 2020 08:33:06-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 08:33:06===================================
+Tue, 13 Oct 2020 08:33:17-run_all_case.py-test_login.py-[line:185]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 08:33:18-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 08:35:09-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 08:35:09===================================
+Tue, 13 Oct 2020 08:35:20-run_all_case.py-test_login.py-[line:185]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 08:35:21-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 08:36:55-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 08:36:55===================================
+Tue, 13 Oct 2020 08:37:06-run_all_case.py-test_login.py-[line:185]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 08:37:07-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 08:38:13-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 08:38:13===================================
+Tue, 13 Oct 2020 08:38:23-run_all_case.py-test_login.py-[line:185]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 08:38:25-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 08:38:26-run_all_case.py-test_login.py-[line:206]-INFO-[日志信息]: 重置密码页面
+Tue, 13 Oct 2020 08:38:29-run_all_case.py-test_login.py-[line:57]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 13 Oct 2020 08:40:47-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 08:40:47===================================
+Tue, 13 Oct 2020 08:41:06-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 08:41:16-run_all_case.py-test_login.py-[line:184]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 08:41:17-run_all_case.py-test_login.py-[line:189]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 08:43:06-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 08:43:06===================================
+Tue, 13 Oct 2020 08:43:25-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 08:43:35-run_all_case.py-test_login.py-[line:184]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 08:43:36-run_all_case.py-test_login.py-[line:189]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 08:43:38-run_all_case.py-test_login.py-[line:205]-INFO-[日志信息]: 重置密码页面
+Tue, 13 Oct 2020 08:43:41-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 08:46:04-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 08:46:04===================================
+Tue, 13 Oct 2020 08:46:25-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 08:46:35-run_all_case.py-test_login.py-[line:184]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 08:46:36-run_all_case.py-test_login.py-[line:189]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 08:46:37-run_all_case.py-test_login.py-[line:205]-INFO-[日志信息]: 重置密码页面
+Tue, 13 Oct 2020 08:46:41-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 08:51:51-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 08:51:51===================================
+Tue, 13 Oct 2020 08:52:20-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 08:52:20===================================
+Tue, 13 Oct 2020 08:52:31-run_all_case.py-test_login.py-[line:185]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 08:52:32-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 08:52:33-run_all_case.py-test_login.py-[line:206]-INFO-[日志信息]: 重置密码页面
+Tue, 13 Oct 2020 08:55:37-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 08:55:37===================================
+Tue, 13 Oct 2020 08:55:48-run_all_case.py-test_login.py-[line:185]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 08:55:49-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 08:55:50-run_all_case.py-test_login.py-[line:206]-INFO-[日志信息]: 重置密码页面
+Tue, 13 Oct 2020 08:58:46-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 08:58:46===================================
+Tue, 13 Oct 2020 08:58:56-run_all_case.py-test_login.py-[line:185]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 08:58:57-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 08:58:59-run_all_case.py-test_login.py-[line:206]-INFO-[日志信息]: 重置密码页面
+Tue, 13 Oct 2020 09:00:04-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:00:04===================================
+Tue, 13 Oct 2020 09:00:15-run_all_case.py-test_login.py-[line:185]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 09:00:16-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 09:00:17-run_all_case.py-test_login.py-[line:206]-INFO-[日志信息]: 重置密码页面
+Tue, 13 Oct 2020 09:01:15-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:01:15===================================
+Tue, 13 Oct 2020 09:01:37-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 09:01:48-run_all_case.py-test_login.py-[line:184]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 09:01:49-run_all_case.py-test_login.py-[line:189]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 09:01:50-run_all_case.py-test_login.py-[line:205]-INFO-[日志信息]: 重置密码页面
+Tue, 13 Oct 2020 09:01:53-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 09:05:19-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:05:19===================================
+Tue, 13 Oct 2020 09:05:30-run_all_case.py-test_login.py-[line:185]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 09:05:31-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 09:05:32-run_all_case.py-test_login.py-[line:206]-INFO-[日志信息]: 重置密码页面
+Tue, 13 Oct 2020 09:07:42-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:07:42===================================
+Tue, 13 Oct 2020 09:07:52-run_all_case.py-test_login.py-[line:185]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 09:07:53-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 09:13:03-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:13:03===================================
+Tue, 13 Oct 2020 09:14:02-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:14:02===================================
+Tue, 13 Oct 2020 09:14:12-run_all_case.py-test_login.py-[line:185]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 09:14:13-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 09:17:15-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:17:15===================================
+Tue, 13 Oct 2020 09:17:26-run_all_case.py-test_login.py-[line:185]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 09:17:27-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 09:17:33-run_all_case.py-test_login.py-[line:206]-INFO-[日志信息]: 重置密码页面
+Tue, 13 Oct 2020 09:17:37-run_all_case.py-test_login.py-[line:57]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 13 Oct 2020 09:18:11-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:18:11===================================
+Tue, 13 Oct 2020 09:18:21-run_all_case.py-test_login.py-[line:185]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 09:18:22-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 09:19:50-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:19:50===================================
+Tue, 13 Oct 2020 09:20:01-run_all_case.py-test_login.py-[line:185]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 09:20:02-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 09:20:43-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:20:43===================================
+Tue, 13 Oct 2020 09:20:53-run_all_case.py-test_login.py-[line:185]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 09:20:55-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 09:21:20-run_all_case.py-test_login.py-[line:206]-INFO-[日志信息]: 重置密码页面
+Tue, 13 Oct 2020 09:22:35-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:22:35===================================
+Tue, 13 Oct 2020 09:22:46-run_all_case.py-test_login.py-[line:185]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 09:22:47-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 09:23:18-run_all_case.py-test_login.py-[line:206]-INFO-[日志信息]: 重置密码页面
+Tue, 13 Oct 2020 09:24:29-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:24:29===================================
+Tue, 13 Oct 2020 09:24:39-run_all_case.py-test_login.py-[line:185]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 09:24:40-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 09:24:41-run_all_case.py-test_login.py-[line:206]-INFO-[日志信息]: 重置密码页面
+Tue, 13 Oct 2020 09:24:45-run_all_case.py-test_login.py-[line:57]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 13 Oct 2020 09:25:56-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:25:56===================================
+Tue, 13 Oct 2020 09:30:20-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:30:20===================================
+Tue, 13 Oct 2020 09:30:20-run_all_case.py-test_login.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 13 Oct 2020 09:30:52-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:30:52===================================
+Tue, 13 Oct 2020 09:31:44-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:31:44===================================
+Tue, 13 Oct 2020 09:34:02-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:34:02===================================
+Tue, 13 Oct 2020 09:34:20-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 09:34:30-run_all_case.py-test_login.py-[line:184]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 09:34:31-run_all_case.py-test_login.py-[line:189]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 09:34:32-run_all_case.py-test_login.py-[line:205]-INFO-[日志信息]: 重置密码页面
+Tue, 13 Oct 2020 09:34:35-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 09:36:37-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:36:37===================================
+Tue, 13 Oct 2020 09:37:40-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:37:40===================================
+Tue, 13 Oct 2020 09:38:17-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 09:38:27-run_all_case.py-test_login.py-[line:184]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 09:38:28-run_all_case.py-test_login.py-[line:189]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 09:40:20-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:40:20===================================
+Tue, 13 Oct 2020 09:41:13-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:41:13===================================
+Tue, 13 Oct 2020 09:42:17-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:42:17===================================
+Tue, 13 Oct 2020 09:42:46-run_all_case.py-test_login.py-[line:103]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 09:42:57-run_all_case.py-test_login.py-[line:185]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 09:42:58-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 09:45:04-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:45:04===================================
+Tue, 13 Oct 2020 09:45:18-run_all_case.py-test_login.py-[line:103]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 09:45:29-run_all_case.py-test_login.py-[line:185]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 09:45:30-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 09:46:20-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:46:20===================================
+Tue, 13 Oct 2020 09:46:30-run_all_case.py-test_login.py-[line:186]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 09:46:31-run_all_case.py-test_login.py-[line:191]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 09:47:35-run_all_case.py-test_login.py-[line:208]-INFO-[日志信息]: 重置密码页面
+Tue, 13 Oct 2020 09:47:38-run_all_case.py-test_login.py-[line:57]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 13 Oct 2020 09:49:28-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:49:28===================================
+Tue, 13 Oct 2020 09:49:28-run_all_case.py-test_login.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 13 Oct 2020 09:49:38-run_all_case.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Tue, 13 Oct 2020 09:49:42-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Tue, 13 Oct 2020 09:49:42-run_all_case.py-test_login.py-[line:91]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Tue, 13 Oct 2020 09:49:55-run_all_case.py-test_login.py-[line:185]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 09:49:56-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 09:51:59-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:51:59===================================
+Tue, 13 Oct 2020 09:52:10-run_all_case.py-test_login.py-[line:186]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 09:52:11-run_all_case.py-test_login.py-[line:191]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 09:53:00-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:53:00===================================
+Tue, 13 Oct 2020 09:53:10-run_all_case.py-test_login.py-[line:186]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 09:53:12-run_all_case.py-test_login.py-[line:191]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 09:54:10-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:54:10===================================
+Tue, 13 Oct 2020 09:58:25-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:58:25===================================
+Tue, 13 Oct 2020 09:59:05-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 09:59:05===================================
+Tue, 13 Oct 2020 09:59:27-run_all_case.py-test_login.py-[line:108]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 09:59:37-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 09:59:38-run_all_case.py-test_login.py-[line:195]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 09:59:39-run_all_case.py-test_login.py-[line:212]-INFO-[日志信息]: 重置密码页面
+Tue, 13 Oct 2020 09:59:43-run_all_case.py-test_login.py-[line:110]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 10:07:37-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 10:07:37===================================
+Tue, 13 Oct 2020 10:09:06-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 10:09:06===================================
+Tue, 13 Oct 2020 10:09:26-run_all_case.py-test_login.py-[line:109]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 10:09:36-run_all_case.py-test_login.py-[line:191]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 10:09:37-run_all_case.py-test_login.py-[line:196]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 10:52:31-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 10:52:31===================================
+Tue, 13 Oct 2020 10:54:03-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 10:54:03===================================
+Tue, 13 Oct 2020 10:54:29-run_all_case.py-test_login.py-[line:109]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 10:54:39-run_all_case.py-test_login.py-[line:191]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 10:54:40-run_all_case.py-test_login.py-[line:196]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 10:56:39-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 10:56:39===================================
+Tue, 13 Oct 2020 10:58:01-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 10:58:01===================================
+Tue, 13 Oct 2020 10:58:25-run_all_case.py-test_login.py-[line:109]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 10:58:35-run_all_case.py-test_login.py-[line:191]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 10:58:36-run_all_case.py-test_login.py-[line:196]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 10:59:43-run_all_case.py-test_login.py-[line:212]-INFO-[日志信息]: 重置密码页面
+Tue, 13 Oct 2020 10:59:46-run_all_case.py-test_login.py-[line:111]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 11:02:50-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 11:02:50===================================
+Tue, 13 Oct 2020 11:04:13-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 11:04:13===================================
+Tue, 13 Oct 2020 11:04:37-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 11:05:50-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 12:52:39-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 12:52:39===================================
+Tue, 13 Oct 2020 12:53:39-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 12:53:39===================================
+Tue, 13 Oct 2020 12:54:08-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 12:55:13-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 13:00:38-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 13:00:38===================================
+Tue, 13 Oct 2020 13:01:26-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 13:01:26===================================
+Tue, 13 Oct 2020 13:02:10-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 13:02:10===================================
+Tue, 13 Oct 2020 13:02:37-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 13:02:37-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 13:09:00-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 13:09:00===================================
+Tue, 13 Oct 2020 13:09:44-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 13:09:45-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 13:13:43-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 13:13:43===================================
+Tue, 13 Oct 2020 13:14:15-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 13:14:26-run_all_case.py-test_login.py-[line:188]-INFO-[日志信息]: 登录页面
+Tue, 13 Oct 2020 13:14:27-run_all_case.py-test_login.py-[line:193]-INFO-[日志信息]: 安全验证页面
+Tue, 13 Oct 2020 13:16:18-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 13:16:18===================================
+Tue, 13 Oct 2020 13:16:51-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 13:16:51-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 13:23:29-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 13:23:29===================================
+Tue, 13 Oct 2020 13:24:02-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 13:24:02-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 13:27:24-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 13:27:24===================================
+Tue, 13 Oct 2020 13:28:02-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 13:28:02-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 13:33:09-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 13:33:09===================================
+Tue, 13 Oct 2020 13:33:32-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 13:33:32-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 13:40:35-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 13:40:35===================================
+Tue, 13 Oct 2020 13:41:48-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 13:41:48===================================
+Tue, 13 Oct 2020 13:42:23-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 13:42:23-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 14:04:18-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 14:04:18===================================
+Tue, 13 Oct 2020 14:05:12-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 14:05:12-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 14:10:54-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 14:10:54===================================
+Tue, 13 Oct 2020 14:11:21-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 14:11:22-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 14:25:15-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 14:25:15===================================
+Tue, 13 Oct 2020 14:25:47-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 14:25:47-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 14:51:02-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 14:51:02===================================
+Tue, 13 Oct 2020 14:52:02-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 14:52:02===================================
+Tue, 13 Oct 2020 14:52:58-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 14:52:58===================================
+Tue, 13 Oct 2020 14:53:24-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 14:53:24-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 14:56:51-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 14:56:51===================================
+Tue, 13 Oct 2020 14:57:34-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 14:57:34===================================
+Tue, 13 Oct 2020 14:59:19-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 14:59:20-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 15:03:52-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 15:03:52===================================
+Tue, 13 Oct 2020 15:04:37-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 15:04:37===================================
+Tue, 13 Oct 2020 15:05:10-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 15:05:10===================================
+Tue, 13 Oct 2020 15:05:35-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 15:05:35-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 15:11:36-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 15:11:36===================================
+Tue, 13 Oct 2020 15:12:18-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 15:12:18===================================
+Tue, 13 Oct 2020 15:13:25-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 15:13:25-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 15:21:06-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 15:21:06===================================
+Tue, 13 Oct 2020 15:21:49-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 15:21:49===================================
+Tue, 13 Oct 2020 15:22:19-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 15:22:19===================================
+Tue, 13 Oct 2020 15:22:57-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 15:22:57-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 15:28:44-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 15:28:44===================================
+Tue, 13 Oct 2020 15:29:50-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 15:29:50===================================
+Tue, 13 Oct 2020 15:30:17-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 15:30:17-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 15:43:33-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 15:43:33===================================
+Tue, 13 Oct 2020 15:44:31-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 15:44:31===================================
+Tue, 13 Oct 2020 15:45:03-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 15:45:04===================================
+Tue, 13 Oct 2020 15:45:35-run_all_case.py-test_login.py-[line:102]-INFO-[日志信息]: PC 端进行密码修改
+Tue, 13 Oct 2020 15:45:35-run_all_case.py-test_login.py-[line:104]-INFO-[日志信息]: 小程序个人实名认证页面
+Tue, 13 Oct 2020 15:57:40-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 15:57:40===================================
+Tue, 13 Oct 2020 15:58:30-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 15:58:30===================================
+Tue, 13 Oct 2020 15:59:46-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 15:59:46===================================
+Tue, 13 Oct 2020 16:08:36-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 16:08:36===================================
+Tue, 13 Oct 2020 16:09:36-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 16:09:36===================================
+Tue, 13 Oct 2020 16:19:00-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 16:19:00===================================
+Tue, 13 Oct 2020 16:25:24-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 16:25:24===================================
+Tue, 13 Oct 2020 16:29:50-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 16:29:50===================================
+Tue, 13 Oct 2020 16:33:20-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 16:33:20===================================
+Tue, 13 Oct 2020 16:33:54-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 16:33:54===================================
+Tue, 13 Oct 2020 16:48:03-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 16:48:03===================================
+Tue, 13 Oct 2020 16:52:26-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 16:52:26===================================
+Tue, 13 Oct 2020 16:58:53-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 16:58:53===================================
+Tue, 13 Oct 2020 17:03:56-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 17:03:56===================================
+Tue, 13 Oct 2020 17:06:22-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-13 17:06:22===================================

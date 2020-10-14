@@ -4,15 +4,13 @@ from time import sleep
 
 import allure
 import pytest
-from airtest.core.api import touch
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-import androidBaseFlow
 from androidBaseFlow import startWeinxin
 from common import Assert
-from common.BaseFunction import waitUntilDisplay, waitUntilClick, waiteForClick
-from common.dbLink import deleteAct, getPhoneMessage, flushDb, deleteInforMobile
+from common.BaseFunction import waitUntilDisplay, waitUntilClick, waiteForClick, waiteForNotExist
+from common.dbLink import deleteAct, getPhoneMessage, flushDb, deleteInforMobile, getVerification
 from flow_path.path_backStage_authentication import path_backStage_authentication
 from flow_path.path_login import loginOn
 from run_all_case import yamldict, logger, runMode, mobileDriver
@@ -22,6 +20,7 @@ pwd = yamldict['test_userlist']['company_user_pass']
 url_forward = yamldict['test_path_list']['url_ui_forward']
 url_ui_register = yamldict['test_path_list']['url_ui_register']
 url_ui_forget = yamldict['test_path_list']['url_ui_forget']
+RequestURL = yamldict['test_redisdb_list']['RequestURL']
 
 
 # 登录
@@ -95,24 +94,50 @@ def test_companyRegister():
     else:
         deleteInforMobile()  # 删除个人信息
         startWeinxin()
-        waiteForClick(mobileDriver(text='一键微信授权登录'))
+        while True:
+            if mobileDriver(text='一键微信授权登录').exists():
+                waiteForClick(mobileDriver(text='一键微信授权登录'))
+                break
+            else:
+                continue
         waiteForClick(mobileDriver(text='允许'))
         waiteForClick(mobileDriver(text='授权手机号'))
         waiteForClick(mobileDriver(text='允许'))
 
+        logger.info("PC 端进行密码修改")
+        companyPassForgetForward(act)
         logger.info("小程序个人实名认证页面")
+
         # 上传身份证正反面
-        mobileDriver(text='请上传身份证头像面').click()
-        mobileDriver("android.widget.LinearLayout").offspring("com.tencent.mm:id/dm6").child("com.tencent.mm:id/f4b")[3].child(
+        waiteForClick(mobileDriver(text='请上传身份证头像面'))
+        waiteForClick(mobileDriver(text='所有图片'))
+        waiteForClick(mobileDriver(text='自动化测试专用相册'))
+        mobileDriver("android.widget.LinearLayout").offspring("com.tencent.mm:id/dm6").child("com.tencent.mm:id/f4b")[
+            3].child(
             "com.tencent.mm:id/dm0").click()
-        mobileDriver(text='完成').click()
-        mobileDriver(text='请上传身份证国徽面').click()
-        mobileDriver("android.widget.LinearLayout").offspring("com.tencent.mm:id/dm6").child("com.tencent.mm:id/f4b")[0].child(
+        waiteForClick(mobileDriver(text='完成'))
+        sleep(2)
+        waiteForClick(mobileDriver(text='请上传身份证国徽面'))
+        waiteForClick(mobileDriver(text='所有图片'))
+        waiteForClick(mobileDriver(text='自动化测试专用相册'))
+        mobileDriver("android.widget.LinearLayout").offspring("com.tencent.mm:id/dm6").child("com.tencent.mm:id/f4b")[
+            2].child(
             "com.tencent.mm:id/dm8").click()
-        mobileDriver(text='完成').click()
-        mobileDriver(text='提交认证').click()
+        waiteForClick(mobileDriver(text='完成'))
+        waiteForClick(mobileDriver(text='提交认证'))
+
+        # 活体认证欺诈性校验
+        getVerification(RequestURL, act)
+        # 等待直到元素消失
+        while True:
+            if mobileDriver(text='认证中').exists():
+                continue
+            else:
+                break
+        waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
 
 
+# 后端账户修改密码
 def companyPassForget(driver, Act, Type):
     waitUntilClick(driver, path_backStage_authentication.btn_forPass_css.value)
     sleep(1)
@@ -155,9 +180,48 @@ def companyPassForget(driver, Act, Type):
     logger.info("成功进入到密码修改完成页面")
 
 
+# 前端账户修改密码：
+def companyPassForgetForward(act):
+    driver = webdriver.Chrome()
+    driver.maximize_window()
+    driver.get(url_forward)
+    logger.info("登录页面")
+    waitUntilClick(driver, loginOn.href_passForget_css.value)
+    sleep(1)
+    driver.find_element_by_css_selector(loginOn.href_passForget_css.value).click()
+    waitUntilClick(driver, loginOn.btn_nextPwd1_css.value)
+    logger.info("安全验证页面")
+    driver.find_element_by_css_selector(loginOn.input_phoneNum_css.value).send_keys(act)
+    driver.find_element_by_css_selector(loginOn.input_veryCode_css.value).send_keys(' ')
+    driver.find_element_by_css_selector(loginOn.btn_phoneVeryCode_css.value).click()
+    flushDb()
+    while 1:
+        message = getPhoneMessage().get("forgeMes")
+        if message is None:
+            sleep(1)
+            continue
+        else:
+            break
+    driver.find_element_by_css_selector(loginOn.input_phoneVeryCode_css.value).send_keys(message.strip().strip('"'))
+
+    driver.find_element_by_css_selector(loginOn.btn_nextPwd1_css.value).click()
+    waitUntilClick(driver, loginOn.btn_nextPwd2_css.value)
+    logger.info("重置密码页面")
+    driver.find_element_by_css_selector(loginOn.input_newPwd_css.value).send_keys(pwd)
+    driver.find_element_by_css_selector(loginOn.input_newPwdCon_css.value).send_keys(pwd)
+
+    driver.find_element_by_css_selector(loginOn.btn_nextPwd2_css.value).click()
+    sleep(1)
+    driver.quit()
+
+
 def login(driver):
     # 登陆页面
     driver.find_element_by_css_selector(loginOn.input_actLogin_css.value).send_keys(act)
     driver.find_element_by_css_selector(loginOn.input_passLogin_css.value).send_keys(pwd)
     driver.find_element_by_css_selector(loginOn.input_very_codeLogin_css.value).send_keys(' ')
     driver.find_element_by_css_selector(loginOn.btn_login_css.value).click()
+
+
+if __name__ == '__main__':
+    companyPassForget()

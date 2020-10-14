@@ -1,0 +1,12 @@
+('17082200002','17082300002')
+Delete From `chengtay-zero-copy`.zero_user where phoneNo in ('17082200002','17082300002');
+Delete From `chengtay-zcd-copy`.product_material where productid in (select id FROM `chengtay-zcd-copy-copy`.product where provide = 'AutoTest_Bank1008');
+Delete FROM `chengtay-zcd-copy`.product where provide = 'AutoTest_Bank1008';
+Delete FROM `chengtay-zcd-copy`.mechanism where id in (select mechanismId FROM `chengtay-zcd-copy-copy`.enterprise_account  where phone in ('17082200002','17082300002'));
+Delete  FROM `chengtay-zcd-copy`.enterprise where mechanismId in (select mechanismId FROM `chengtay-zcd-copy-copy`.enterprise_account where phone in ('17082200002','17082300002'));
+Delete  FROM `chengtay-zcd-copy`.enterprise_account where phone in ('17082200002','17082300002');
+DELETE FROM `chengtay-zcd-copy`.enterprise where name IN ('AutoTest_Risk1008','AutoTest_Bank1008');
+DELETE FROM `chengtay-zcd-copy`.mechanism where name IN ('AutoTest_Risk1008','AutoTest_Bank1008');
+
+()
+()

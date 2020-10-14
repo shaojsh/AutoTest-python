@@ -3,7 +3,7 @@ import redis
 from common.Request import RequestsHandler
 from common.Retrun_Response import dict_style
 # db数据操作
-from run_all_case import yamldict
+from run_all_case import yamldict, evn
 
 
 # db链接（mysql）
@@ -15,11 +15,9 @@ def Sqldata(sqlStr, flag):
         db = yamldict['test_db_list']['db3']
     # 连接数据库
     connect = pymysql.connect(
-        # host=yamldict['test_db_list']['host_uat'],
         host=yamldict['test_db_list']['host'],
         user=yamldict['test_db_list']['user'],
         password=yamldict['test_db_list']['password'],
-        # password=yamldict['test_db_list']['password_uat'],
         port=yamldict['test_db_list']['port'],
         db=db
     )
@@ -119,6 +117,16 @@ def deleteInforMobile():
     Sqldata(sqlStr19, 2)
     Sqldata(sqlStr20, 2)
     Sqldata(sqlStr21, 2)
+
+
+# 更改企业名称(移动端)
+def updateNameCompany():
+    company_name = yamldict['test_backStageUserList']['company_name']
+    sqlStr4 = yamldict['test_db_sqllist']['sql0000004']
+    sqlStr = yamldict['test_db_sqllist']['sql0000022']
+    sqlStr = sqlStr.format("'" + company_name + "'")
+    Sqldata(sqlStr4, 1)
+    Sqldata(sqlStr, 2)
 
 
 # 删除机构信息
@@ -255,8 +263,10 @@ def getVerification(url, act):
         else:
             break
     strValue1 = bytes.decode(value1).replace('"', "")
-
-    url_fin = 'http://sit.free.vipnps.vip/v1/certification/%s/callback'
+    if evn != 'SIT':
+        url_fin = 'https://uat.chengtay.com/cjt/v1/certification/%s/callback'
+    else:
+        url_fin = 'http://sit.free.vipnps.vip/v1/certification/%s/callback'
     url_fin = url_fin.replace('%s', str(strValue1))
     while 1:
         value1 = r.get('live:check:' + str(userId))
@@ -279,4 +289,4 @@ def flushDb():
 
 
 if __name__ == '__main__':
-    getVerification('http://10.10.128.152:10000/v1/account/login', '17082238021')
+    pass

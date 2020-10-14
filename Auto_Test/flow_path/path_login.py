@@ -36,3 +36,14 @@ class loginOn(Enum):
     # 修改完成画面
     txt_changeOver_css = '#root > div > div > div:nth-child(3) > div > h6'  # 修改完成文本
     btn_loginNow_css = '#root > div > div > div:nth-child(3) > div > button'  # 立即登录按钮
+
+    # 密码修改/前端
+    href_passForget_css = '#root > div > div.content___17Zvm.contentLogin___1loWO > div > div > div > div > div > div > a:nth-child(1)'  # 忘记密码
+    input_phoneNum_css = '#phoneNo'  # 手机号码
+    input_veryCode_css = '#imgVerifiCode'  # 验证码
+    input_phoneVeryCode_css = '#verifyCode'  # 验证码
+    btn_phoneVeryCode_css = '#root > div > div > div:nth-child(3) > div > form > div:nth-child(3) > span'  # 验证码
+    btn_nextPwd1_css = '#root > div > div > div:nth-child(3) > div > button'  # 下一步
+    input_newPwd_css = '#password'
+    input_newPwdCon_css = '#confirmPassword'
+    btn_nextPwd2_css = '#root > div > div > div:nth-child(3) > div > form > button'  # 下一步
