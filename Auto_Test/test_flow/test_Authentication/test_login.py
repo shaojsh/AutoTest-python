@@ -94,12 +94,7 @@ def test_companyRegister():
     else:
         deleteInforMobile()  # 删除个人信息
         startWeinxin()
-        while True:
-            if mobileDriver(text='一键微信授权登录').exists():
-                waiteForClick(mobileDriver(text='一键微信授权登录'))
-                break
-            else:
-                continue
+        mobileDriver(text='一键微信授权登录').click()
         waiteForClick(mobileDriver(text='允许'))
         waiteForClick(mobileDriver(text='授权手机号'))
         waiteForClick(mobileDriver(text='允许'))
@@ -124,16 +119,18 @@ def test_companyRegister():
             2].child(
             "com.tencent.mm:id/dm8").click()
         waiteForClick(mobileDriver(text='完成'))
+        sleep(1)
         waiteForClick(mobileDriver(text='提交认证'))
 
         # 活体认证欺诈性校验
         getVerification(RequestURL, act)
         # 等待直到元素消失
         while True:
-            if mobileDriver(text='认证中').exists():
-                continue
-            else:
+            if mobileDriver(text='身份证有效期至').exists():
                 break
+            else:
+                continue
+        waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
         waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
 
 
@@ -194,6 +191,7 @@ def companyPassForgetForward(act):
     driver.find_element_by_css_selector(loginOn.input_phoneNum_css.value).send_keys(act)
     driver.find_element_by_css_selector(loginOn.input_veryCode_css.value).send_keys(' ')
     driver.find_element_by_css_selector(loginOn.btn_phoneVeryCode_css.value).click()
+    sleep(1)
     flushDb()
     while 1:
         message = getPhoneMessage().get("forgeMes")

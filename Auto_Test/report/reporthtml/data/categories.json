@@ -4,39 +4,22 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <label class=\"ant-checkbox-wrapper\">...</label> is not clickable at point (1049, 315). Other element would receive the click: <div class=\"ant-spin ant-spin-spinning\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
-      "children" : [ {
-        "name" : "test_backStage_authentication",
-        "uid" : "8e03e96eac41d02c",
-        "parentUid" : "20fe076e1304df84002ff2d9494b1cd1",
-        "status" : "broken",
-        "time" : {
-          "start" : 1602667972243,
-          "stop" : 1602668018661,
-          "duration" : 46418
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "20fe076e1304df84002ff2d9494b1cd1"
-    }, {
-      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "name" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=企业经营场所照片\"",
       "children" : [ {
         "name" : "test_Tripartite_interaction",
-        "uid" : "1222bee08232894e",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "uid" : "572b44ccd0a6b39c",
+        "parentUid" : "fbc5ad632c903ff791d3a331b8312fae",
         "status" : "broken",
         "time" : {
-          "start" : 1602668018777,
-          "stop" : 1602668062543,
-          "duration" : 43766
+          "start" : 1602749037189,
+          "stop" : 1602749168061,
+          "duration" : 130872
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+      "uid" : "fbc5ad632c903ff791d3a331b8312fae"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

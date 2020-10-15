@@ -88,12 +88,11 @@ def getVerCode(imagePath):
 def waiteForClick(el):
     while True:
         try:
-            sleep(0.1)
+            sleep(0.5)
             el.wait_for_appearance(timeout=0.1)
             el.click()
             break
         except:
-            sleep(0.1)
             continue
 
 
@@ -106,3 +105,13 @@ def waiteForNotExist(text):
             continue
         else:
             break
+
+
+# 拖动到文本出现
+def dragUntilTextAppear(el, text2, text3):
+    while True:
+        el.drag_to(mobileDriver(text=text2), 0.5)
+        if mobileDriver(text=text3).exists():
+            break
+        else:
+            continue

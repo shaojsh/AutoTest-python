@@ -1,0 +1,1 @@
+Thu, 15 Oct 2020 11:13:23-run_all_case.py-test_businessInfoReg.py-[line:144]-INFO-[日志信息]: 企业认证画面

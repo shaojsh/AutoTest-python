@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1222bee08232894e",
+      "uid" : "572b44ccd0a6b39c",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=企业经营场所照片\"",
       "time" : {
-        "start" : 1602668018777,
-        "stop" : 1602668062543,
-        "duration" : 43766
+        "start" : 1602749037189,
+        "stop" : 1602749168061,
+        "duration" : 130872
       }
     } ]
   },
@@ -29,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b322fdaa1fb642ef",
+      "uid" : "29667b29da764ce6",
       "status" : "passed",
       "time" : {
-        "start" : 1602667915715,
-        "stop" : 1602667935056,
-        "duration" : 19341
+        "start" : 1602748879839,
+        "stop" : 1602748899912,
+        "duration" : 20073
       }
     } ]
   },
@@ -48,12 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2754f5de06d65680",
+      "uid" : "4d0578c6843edfc9",
       "status" : "passed",
       "time" : {
-        "start" : 1602667748134,
-        "stop" : 1602667830049,
-        "duration" : 81915
+        "start" : 1602748610128,
+        "stop" : 1602748781742,
+        "duration" : 171614
       }
     } ]
   },
@@ -67,12 +67,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7c1e63e21023b841",
+      "uid" : "b5000acd5b456d58",
       "status" : "passed",
       "time" : {
-        "start" : 1602667830074,
-        "stop" : 1602667915705,
-        "duration" : 85631
+        "start" : 1602748781765,
+        "stop" : 1602748879829,
+        "duration" : 98064
       }
     } ]
   },
@@ -86,12 +86,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a59d783ac8d43f6b",
+      "uid" : "d48460c6bcbbec02",
       "status" : "passed",
       "time" : {
-        "start" : 1602667830069,
-        "stop" : 1602667830070,
-        "duration" : 1
+        "start" : 1602748781761,
+        "stop" : 1602748781761,
+        "duration" : 0
       }
     } ]
   },
@@ -105,12 +105,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a68f41900240b8e5",
+      "uid" : "47f4413223d00a92",
       "status" : "passed",
       "time" : {
-        "start" : 1602667935065,
-        "stop" : 1602667972221,
-        "duration" : 37156
+        "start" : 1602748899921,
+        "stop" : 1602748934756,
+        "duration" : 34835
       }
     } ]
   },
@@ -124,7 +124,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f55cab50d422d087",
+      "uid" : "78f641276c6af601",
       "status" : "passed",
       "time" : {
         "start" : 1600938088161,
@@ -136,20 +136,19 @@
   "a55d1468f36f1b2cdddeddca0f290d7d" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8e03e96eac41d02c",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <label class=\"ant-checkbox-wrapper\">...</label> is not clickable at point (1049, 315). Other element would receive the click: <div class=\"ant-spin ant-spin-spinning\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "uid" : "d5fec343656723b0",
+      "status" : "passed",
       "time" : {
-        "start" : 1602667972243,
-        "stop" : 1602668018661,
-        "duration" : 46418
+        "start" : 1602748934792,
+        "stop" : 1602749037178,
+        "duration" : 102386
       }
     } ]
   }

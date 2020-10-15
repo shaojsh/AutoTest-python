@@ -53,6 +53,7 @@ def test_backstage_examine():
     test_Assert.assert_text_ui(userInforTxt, "用户基本信息")
     logger.info('成功进入企业信息审核画面')
 
+    driver.find_element_by_css_selector(path_backstage_examine.input_examine_css.value).send_keys('企业审核通过')
     driver.find_element_by_css_selector(path_backstage_examine.btn_examinePass_css.value).click()
     sleep(1)
     # examine_finalText = driver.find_element_by_xpath(bussPath).text

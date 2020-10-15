@@ -3,13 +3,14 @@ import sys
 from time import sleep
 import allure
 import pytest
+from airtest.core.api import text
 from selenium import webdriver
 
 from common.dbLink import getPhoneMessage, flushDb
 from flow_path.path_Tripartite_interaction import path_Tripartite_interaction
-from run_all_case import yamldict, logger, runMode
+from run_all_case import yamldict, logger, runMode, mobileDriver
 from common.BaseFunction import waitUntilDisplay, waitUntilClick, waitUntilClick_xpath, scrollText, \
-    waitUntilDisplay_xpath, is_not_visible
+    waitUntilDisplay_xpath, is_not_visible, waiteForClick, dragUntilTextAppear
 from test_flow.test_Authentication.test_backStage_examine import backStageLogin
 from test_flow.test_Authentication.test_login import login
 from selenium.webdriver.common.keys import Keys
@@ -137,7 +138,7 @@ def test_Tripartite_interaction():
     logger.info("开始执行脚本%s:\n", def_name)
 
     # 前端账户授信申请
-    if runMode != 'UI':
+    if runMode == 'UI':
         driver_forward = webdriver.Chrome()
         driver_forward.maximize_window()
         driver_forward.get(url_forward)
@@ -145,7 +146,33 @@ def test_Tripartite_interaction():
         login(driver_forward)
         creditExtension(driver_forward)
     else:
-        pass
+        waiteForClick(mobileDriver(text='首页'))
+        waiteForClick(mobileDriver(text='立即申请'))
+        el = mobileDriver(text='首页', name='android.view.View', type='android.view.View')
+        dragUntilTextAppear(el, '产品服务', product_name)
+        waiteForClick(mobileDriver(text=product_name))
+        waiteForClick(mobileDriver(text='立即申请'))
+
+        logger.info('授信采购信息画面')
+        waiteForClick(mobileDriver(text='请输入银行账号'))
+        text('123456789012')
+        mobileDriver(text='分支行').click()
+        waiteForClick(mobileDriver(text='请选择项目'))
+        waiteForClick(mobileDriver(text='请输入项目名称').parent().parent().parent().child()[2])
+        waiteForClick(mobileDriver(text='下一步'))
+
+        logger.info('授信基本资料页面')
+        waiteForClick(mobileDriver(text='下一步'))
+
+        logger.info('授信页面')
+        el2 = mobileDriver(text='企业经营场所照片')
+        mobileDriver(text='企业经营场所照片').drag_to(mobileDriver(text='业务申请'), 0.5)
+        mobileDriver(text='企业征信').drag_to(mobileDriver(text='业务申请'), 0.5)
+        mobileDriver(text='财务证明资料').drag_to(mobileDriver(text='业务申请'), 0.5)
+        waiteForClick(mobileDriver(text='我已阅读并同意提交资料', type='android.widget.CheckBox').child().child())
+        waiteForClick(mobileDriver(text='提交授信'))
+
+        logger.info('授信完成页面')
 
     # 银行授信审核
     driver_bank = webdriver.Chrome()

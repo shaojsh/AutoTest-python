@@ -75,11 +75,11 @@ def createProduct(driver):
 
     driver.find_element_by_css_selector(path_backStage_authentication.choose_loanGetWay_css.value).click()
     el6 = driver.find_element_by_css_selector(path_backStage_authentication.choose_loanGetWay_css.value)
-    scrollText(driver, el6, '先交费后放款')
+    scrollText(driver, el6, '按日')
 
-    driver.find_element_by_css_selector(path_backStage_authentication.choose_rendItem_css.value).click()
-    el7 = driver.find_element_by_css_selector(path_backStage_authentication.choose_rendItem_css.value)
-    scrollText(driver, el7, '按日')
+    # driver.find_element_by_css_selector(path_backStage_authentication.choose_rendItem_css.value).click()
+    # el7 = driver.find_element_by_css_selector(path_backStage_authentication.choose_rendItem_css.value)
+    # scrollText(driver, el7, '按日')
 
     if rend_rule == 1:
         rule = '算头算尾'
@@ -92,12 +92,12 @@ def createProduct(driver):
     elif rend_day == 2:
         day = '365天'
 
-    driver.find_element_by_css_selector(path_backStage_authentication.choose_rendDay_css.value).click()
-    el8 = driver.find_element_by_css_selector(path_backStage_authentication.choose_rendDay_css.value)
+    driver.find_element_by_css_selector(path_backStage_authentication.choose_rendItem_css.value).click()
+    el8 = driver.find_element_by_css_selector(path_backStage_authentication.choose_rendItem_css.value)
     scrollText(driver, el8, day)
 
-    driver.find_element_by_css_selector(path_backStage_authentication.choose_rendWay_css.value).click()
-    el9 = driver.find_element_by_css_selector(path_backStage_authentication.choose_rendWay_css.value)
+    driver.find_element_by_css_selector(path_backStage_authentication.choose_rendDay_css.value).click()
+    el9 = driver.find_element_by_css_selector(path_backStage_authentication.choose_rendDay_css.value)
     scrollText(driver, el9, rule)
 
     el10 = driver.find_element_by_css_selector(path_backStage_authentication.input_productMon_css.value)
@@ -129,6 +129,10 @@ def createProduct(driver):
     driver.find_element_by_css_selector(path_backStage_authentication.choose_risk_css.value).click()
     el14 = driver.find_element_by_css_selector(path_backStage_authentication.choose_risk_css.value)
     scrollText(driver, el14, autoTest_RiskName)
+
+    driver.find_element_by_css_selector(path_backStage_authentication.choose_giveMoneyWay1_css.value).click()
+    el15 = driver.find_element_by_css_selector(path_backStage_authentication.choose_giveMoneyWay1_css.value)
+    scrollText(driver, el15, '先交费后放款')
 
     driver.find_element_by_css_selector(path_backStage_authentication.input_area_css.value).send_keys('该产品价格实惠公道')
     driver.find_element_by_css_selector(path_backStage_authentication.btn_next1_css.value).click()
@@ -316,12 +320,12 @@ def createInstitutions(driver, name, enterpriseType):
     sleep(1)
     driver.find_element_by_xpath(path_backStage_authentication.select_StatueType_xpath.value).click()
     sleep(0.5)
-    if enterpriseType == 1:
-        # 添加银行账户
-        driver.find_element_by_css_selector(path_backStage_authentication.select_bankAct_css.value).click()
-        sleep(1)
-        driver.find_element_by_xpath(path_backStage_authentication.select_bankAct_xpath.value).click()
-        sleep(0.5)
+    # if enterpriseType == 1:
+    # 添加银行账户
+    # driver.find_element_by_css_selector(path_backStage_authentication.select_bankAct_css.value).click()
+    # sleep(1)
+    # driver.find_element_by_xpath(path_backStage_authentication.select_bankAct_xpath.value).click()
+    # sleep(0.5)
     driver.find_element_by_css_selector(path_backStage_authentication.btn_confirm_css.value).click()
     sleep(1)
 
