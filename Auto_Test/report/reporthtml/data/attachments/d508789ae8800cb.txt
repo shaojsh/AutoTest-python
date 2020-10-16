@@ -1,0 +1,21 @@
+INFO     run_all_case.py:test_backStage_authentication.py:278 开始执行脚本test_backStage_authentication:
+
+INFO     run_all_case.py:test_backStage_authentication.py:281 开始执行脚本test_backStage_authentication:
+
+INFO     run_all_case.py:test_login.py:170 成功进入到密码重置页面
+INFO     run_all_case.py:test_login.py:177 成功进入到密码修改完成页面
+INFO     run_all_case.py:test_login.py:170 成功进入到密码重置页面
+INFO     run_all_case.py:test_login.py:177 成功进入到密码修改完成页面
+INFO     run_all_case.py:test_backStage_examine.py:74 成功登录后台系统
+INFO     run_all_case.py:test_backStage_authentication.py:236 企业信息认证
+INFO     run_all_case.py:test_backStage_authentication.py:253 协议内容确认页面
+INFO     run_all_case.py:test_backStage_authentication.py:265 二维码认证页面
+INFO     run_all_case.py:test_backStage_examine.py:74 成功登录后台系统
+INFO     run_all_case.py:test_backStage_authentication.py:236 企业信息认证
+INFO     run_all_case.py:test_backStage_authentication.py:253 协议内容确认页面
+INFO     run_all_case.py:test_backStage_authentication.py:265 二维码认证页面
+INFO     run_all_case.py:test_backStage_authentication.py:44 首页
+INFO     run_all_case.py:test_backStage_authentication.py:48 产品基本信息
+INFO     run_all_case.py:test_backStage_authentication.py:139 产品特性
+INFO     run_all_case.py:test_backStage_authentication.py:154 计分卡
+INFO     run_all_case.py:test_backStage_authentication.py:161 进件信息

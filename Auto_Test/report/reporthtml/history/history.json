@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "572b44ccd0a6b39c",
+      "uid" : "7092ceba4fedbf1e",
       "status" : "broken",
-      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=企业经营场所照片\"",
+      "statusDetails" : "IndexError: list index out of range",
       "time" : {
-        "start" : 1602749037189,
-        "stop" : 1602749168061,
-        "duration" : 130872
+        "start" : 1602827679053,
+        "stop" : 1602827679349,
+        "duration" : 296
       }
     } ]
   },
@@ -29,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "29667b29da764ce6",
+      "uid" : "68a744d5040e7691",
       "status" : "passed",
       "time" : {
-        "start" : 1602748879839,
-        "stop" : 1602748899912,
-        "duration" : 20073
+        "start" : 1602826347579,
+        "stop" : 1602826366663,
+        "duration" : 19084
       }
     } ]
   },
@@ -48,12 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4d0578c6843edfc9",
+      "uid" : "dd62d06b8d8109ed",
       "status" : "passed",
       "time" : {
-        "start" : 1602748610128,
-        "stop" : 1602748781742,
-        "duration" : 171614
+        "start" : 1602826222908,
+        "stop" : 1602826240449,
+        "duration" : 17541
       }
     } ]
   },
@@ -67,12 +67,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b5000acd5b456d58",
+      "uid" : "aa817e5d331167f5",
       "status" : "passed",
       "time" : {
-        "start" : 1602748781765,
-        "stop" : 1602748879829,
-        "duration" : 98064
+        "start" : 1602826287061,
+        "stop" : 1602826347564,
+        "duration" : 60503
       }
     } ]
   },
@@ -86,12 +86,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d48460c6bcbbec02",
+      "uid" : "6cac6faa55660284",
       "status" : "passed",
       "time" : {
-        "start" : 1602748781761,
-        "stop" : 1602748781761,
-        "duration" : 0
+        "start" : 1602826240464,
+        "stop" : 1602826287030,
+        "duration" : 46566
       }
     } ]
   },
@@ -105,12 +105,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "47f4413223d00a92",
+      "uid" : "314c21feb34900de",
       "status" : "passed",
       "time" : {
-        "start" : 1602748899921,
-        "stop" : 1602748934756,
-        "duration" : 34835
+        "start" : 1602826366663,
+        "stop" : 1602826401655,
+        "duration" : 34992
       }
     } ]
   },
@@ -124,7 +124,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "78f641276c6af601",
+      "uid" : "b06064428b16959e",
       "status" : "passed",
       "time" : {
         "start" : 1600938088161,
@@ -143,12 +143,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d5fec343656723b0",
+      "uid" : "b009246c6f0f524a",
       "status" : "passed",
       "time" : {
-        "start" : 1602748934792,
-        "stop" : 1602749037178,
-        "duration" : 102386
+        "start" : 1602826401686,
+        "stop" : 1602826499168,
+        "duration" : 97482
       }
     } ]
   }

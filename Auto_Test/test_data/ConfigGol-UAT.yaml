@@ -66,6 +66,7 @@ test_db_sqllist:
     sql0000020: "delete from `chengtay-zero-copy`.zero_user_auth  where userId in (select id from `chengtay-zero-copy`.zero_user where phoneNo ={0});"
     sql0000021: "delete from `chengtay-zcd-copy`.enterprise_account where phone = {0};"
     sql0000022: "update `chengtay-zcd-copy`.enterprise set name = {0} where name in ('四川海辰日用化工有限公司');"
+    sql0000023: "SELECT params FROM `chengtay-zero-copy`.msg_message_sms WHERE phoneNos = {0} AND confKey = 'live.certification' ORDER BY sendTime DESC LIMIT 1;"
 
 test_personalInfoRegList:
   name: '李涛'

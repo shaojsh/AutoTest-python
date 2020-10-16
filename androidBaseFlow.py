@@ -10,13 +10,9 @@ from airtest.core.api import *
 from poco.drivers.android.uiautomation import AndroidUiautomationPoco
 
 try:
-    # 脱线连接
     poco = AndroidUiautomationPoco(use_airtest_input=True, screenshot_each_action=False)
-    print(poco.adb_client.get_device_info())  # 获取设备信息
 except:
     print('未驱动手机')
-
-auto_setup(__file__)
 
 
 # 打开微信

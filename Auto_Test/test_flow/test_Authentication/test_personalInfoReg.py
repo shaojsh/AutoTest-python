@@ -10,7 +10,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from common.BaseFunction import waitUntilDisplay, waitUntilClick
-from common.dbLink import deletePerInforAndComInfor, getPhoneMessage, getVerification, flushDb
+from common.dbLink import deletePerInforAndComInfor, getPhoneMessage, getVerification, flushDb, getVerification_ui
 from flow_path.path_login import loginOn
 from flow_path.path_persionInfoReg import path_personalInfoReg
 from run_all_case import yamldict, logger, runMode
@@ -88,7 +88,7 @@ def test_infoReg():
         sleep(1)
         driver.find_element_by_css_selector(path_personalInfoReg.btn_aut_css.value).click()
 
-        getVerification(RequestURL, act)
+        getVerification_ui(RequestURL, act)
 
         BaseFunction.waitUntilDisplay(driver, path_personalInfoReg.txt_auting_css.value)
         text_auting = driver.find_element_by_css_selector(path_personalInfoReg.txt_auting_css.value).text
@@ -115,4 +115,3 @@ def test_infoReg():
         logger.info("点击查看认证信息按钮，跳转到实名认证画面")
 
         driver.quit()
-

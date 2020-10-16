@@ -4,22 +4,22 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=企业经营场所照片\"",
+      "name" : "IndexError: list index out of range",
       "children" : [ {
         "name" : "test_Tripartite_interaction",
-        "uid" : "572b44ccd0a6b39c",
-        "parentUid" : "fbc5ad632c903ff791d3a331b8312fae",
+        "uid" : "7092ceba4fedbf1e",
+        "parentUid" : "cbf21ee610ffd376e0ce643a364ade80",
         "status" : "broken",
         "time" : {
-          "start" : 1602749037189,
-          "stop" : 1602749168061,
-          "duration" : 130872
+          "start" : 1602827679053,
+          "stop" : 1602827679349,
+          "duration" : 296
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "fbc5ad632c903ff791d3a331b8312fae"
+      "uid" : "cbf21ee610ffd376e0ce643a364ade80"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

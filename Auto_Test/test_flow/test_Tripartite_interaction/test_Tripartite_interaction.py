@@ -6,7 +6,7 @@ import pytest
 from airtest.core.api import text
 from selenium import webdriver
 
-from common.dbLink import getPhoneMessage, flushDb
+from common.dbLink import getPhoneMessage, flushDb, getVerification
 from flow_path.path_Tripartite_interaction import path_Tripartite_interaction
 from run_all_case import yamldict, logger, runMode, mobileDriver
 from common.BaseFunction import waitUntilDisplay, waitUntilClick, waitUntilClick_xpath, scrollText, \
@@ -165,13 +165,15 @@ def test_Tripartite_interaction():
         waiteForClick(mobileDriver(text='下一步'))
 
         logger.info('授信页面')
-        el2 = mobileDriver(text='企业经营场所照片')
         mobileDriver(text='企业经营场所照片').drag_to(mobileDriver(text='业务申请'), 0.5)
         mobileDriver(text='企业征信').drag_to(mobileDriver(text='业务申请'), 0.5)
         mobileDriver(text='财务证明资料').drag_to(mobileDriver(text='业务申请'), 0.5)
         waiteForClick(mobileDriver(text='我已阅读并同意提交资料', type='android.widget.CheckBox').child().child())
         waiteForClick(mobileDriver(text='提交授信'))
-
+        # 活体认证欺诈性校验
+        getVerification()
+        waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
+        waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
         logger.info('授信完成页面')
 
     # 银行授信审核
@@ -191,7 +193,53 @@ def test_Tripartite_interaction():
     CreditAudit_Risk(driver_risk)
 
     # 借款申请
-    loanApply(driver_forward)
+    if runMode == 'UI':
+        loanApply(driver_forward)
+    else:
+        # 移动端借款申请
+        waiteForClick(mobileDriver(text='我的授信'))
+        waiteForClick(mobileDriver(text='马上使用'))
+        logger.info('添加银行卡账户画面')
+        waiteForClick(mobileDriver(text='请输入银行账号'))
+        text('1234567890123')
+        mobileDriver(text='对公银行账号').click()
+        waiteForClick(mobileDriver(text='获取验证码'))
+
+        while 1:
+            message = getPhoneMessage().get("loanMes")
+            if message is None:
+                sleep(0.5)
+                continue
+            else:
+                break
+        waiteForClick(mobileDriver(textMatches='重新获取.*').parent().child())
+        text(message.strip().strip('"'))
+        waiteForClick(mobileDriver(text='验证码'))
+        waiteForClick(mobileDriver(text='确定'))
+
+        logger.info('借款申请页面')
+
+        waiteForClick(mobileDriver(text='请选择收款银行账号'))
+        waiteForClick(mobileDriver(text='1234567890123'))
+
+        waiteForClick(mobileDriver(text='请输入借款金额'))
+        text('100000')
+        mobileDriver(text='请输入借款期限').click()
+
+        mobileDriver(text='请输入借款期限').click()
+        text('8')
+        waiteForClick(mobileDriver(text='借款金额'))
+
+        waiteForClick(mobileDriver(text='请具体描述详细借款用途'))
+        text('借钱还账')
+        waiteForClick(mobileDriver(text='还款方式'))
+
+        waiteForClick(mobileDriver(text='我已阅读并同意提交资料').child()[2])
+        waiteForClick(mobileDriver(text='提交借款申请'))
+        getVerification()
+        waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
+        waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
+
     loanCheck_bank(driver_bank)
     loanCheck_Risk(driver_risk)
     # 去缴费

@@ -11,7 +11,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from common.BaseFunction import waitUntilDisplay, waitUntilClick, waitUntilClick_xpath, waitUntilDisplay_xpath, \
     waiteForClick
-from common.dbLink import getVerification, updateNameCompany
+from common.dbLink import getVerification, updateNameCompany, getVerification_ui
 from flow_path.path_businessInfoReg import path_businessInfoReg
 from run_all_case import yamldict, logger, runMode, mobileDriver
 from common import Assert
@@ -120,7 +120,7 @@ def test_businessInforReg():
         logger.info("企业信息认证中画面正常显示")
 
         # 活体认证欺诈性校验
-        getVerification(RequestURL, act)
+        getVerification_ui(RequestURL, act)
 
         WebDriverWait(driver, 1200).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, path_businessInfoReg.text_bank_css.value)))

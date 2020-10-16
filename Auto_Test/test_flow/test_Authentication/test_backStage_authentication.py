@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 from common.BaseFunction import actionChainsClick, waitUntilClick, scrollText, waitUntilClick_xpath
-from common.dbLink import getPhoneMessage, deleteOrgInfor, getVerification, flushDb
+from common.dbLink import getPhoneMessage, deleteOrgInfor, getVerification, flushDb, getVerification_ui
 from flow_path.path_Tripartite_interaction import path_Tripartite_interaction
 from flow_path.path_backStage_authentication import path_backStage_authentication
 from run_all_case import yamldict, logger
@@ -258,10 +258,10 @@ def authentication(driver, Type):
     driver.find_element_by_css_selector(path_backStage_authentication.btn_startAu_css.value).click()
     if Type == 0:
         # 活体认证欺诈性校验(担保公司)
-        getVerification(RequestURL, company_Guarantee)
+        getVerification_ui(RequestURL, company_Guarantee)
     else:
         # 活体认证欺诈性校验（银行）
-        getVerification(RequestURL, company_bank)
+        getVerification_ui(RequestURL, company_bank)
     logger.info('二维码认证页面')
     WebDriverWait(driver, 1200).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, path_backStage_authentication.text_au_css.value)))

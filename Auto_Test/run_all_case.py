@@ -24,7 +24,7 @@ if evn == 'SIT':
 else:
     handleyaml = HandleYaml(root_dir + '\\test_data\\ConfigGol-UAT.yaml')
 
-# handleyaml = HandleYaml(os.getcwd() + '\\..\\test_data\\ConfigGol-UAT.yaml')  # 调试db用
+# handleyaml = HandleYaml(os.getcwd() + '\\..\\test_data\\ConfigGol-SIT.yaml')  # 调试db用
 
 yamldict = handleyaml.get_data()
 

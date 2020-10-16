@@ -9,8 +9,8 @@ from selenium.webdriver.common.keys import Keys
 
 from androidBaseFlow import startWeinxin
 from common import Assert
-from common.BaseFunction import waitUntilDisplay, waitUntilClick, waiteForClick, waiteForNotExist
-from common.dbLink import deleteAct, getPhoneMessage, flushDb, deleteInforMobile, getVerification
+from common.BaseFunction import waitUntilDisplay, waitUntilClick, waiteForClick
+from common.dbLink import getPhoneMessage, flushDb, deleteInforMobile, getVerification
 from flow_path.path_backStage_authentication import path_backStage_authentication
 from flow_path.path_login import loginOn
 from run_all_case import yamldict, logger, runMode, mobileDriver
@@ -92,15 +92,17 @@ def test_companyRegister():
         sleep(1)
         driver.quit()
     else:
-        deleteInforMobile()  # 删除个人信息
+        # touch(Template(r"C:\Users\shaojunshuai\PycharmProjects\AutoTest-python\Auto_Test\test_data\picture\id_5.png"))
         startWeinxin()
+        deleteInforMobile()  # 删除个人信息
+        # clearCache()
         mobileDriver(text='一键微信授权登录').click()
         waiteForClick(mobileDriver(text='允许'))
         waiteForClick(mobileDriver(text='授权手机号'))
         waiteForClick(mobileDriver(text='允许'))
 
         logger.info("PC 端进行密码修改")
-        companyPassForgetForward(act)
+        # companyPassForgetForward(act)
         logger.info("小程序个人实名认证页面")
 
         # 上传身份证正反面
@@ -121,17 +123,16 @@ def test_companyRegister():
         waiteForClick(mobileDriver(text='完成'))
         sleep(1)
         waiteForClick(mobileDriver(text='提交认证'))
-
         # 活体认证欺诈性校验
-        getVerification(RequestURL, act)
+        getVerification()
         # 等待直到元素消失
         while True:
             if mobileDriver(text='身份证有效期至').exists():
                 break
             else:
                 continue
-        waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
-        waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
+        mobileDriver(name='com.tencent.mm:id/dc')
+        mobileDriver(name='com.tencent.mm:id/dc')
 
 
 # 后端账户修改密码
@@ -190,9 +191,8 @@ def companyPassForgetForward(act):
     logger.info("安全验证页面")
     driver.find_element_by_css_selector(loginOn.input_phoneNum_css.value).send_keys(act)
     driver.find_element_by_css_selector(loginOn.input_veryCode_css.value).send_keys(' ')
-    driver.find_element_by_css_selector(loginOn.btn_phoneVeryCode_css.value).click()
-    sleep(1)
     flushDb()
+    driver.find_element_by_css_selector(loginOn.btn_phoneVeryCode_css.value).click()
     while 1:
         message = getPhoneMessage().get("forgeMes")
         if message is None:
@@ -223,3 +223,11 @@ def login(driver):
 
 if __name__ == '__main__':
     companyPassForget()
+
+
+def clearCache():
+    waiteForClick(mobileDriver(name='__vconsole'))
+    waiteForClick(mobileDriver(text='WeChat'))
+    waiteForClick(mobileDriver(text='wx.clearStorage()'))
+    waiteForClick(mobileDriver(text='重启当前页面'))
+
