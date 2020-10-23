@@ -1,12 +1,15 @@
 import os
 import sys
+from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 import allure
 import pytest
 from airtest.core.api import text
 from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
 
-from common.dbLink import getPhoneMessage, flushDb, getVerification
+from common.dbLink import getPhoneMessage, flushDb, getVerification, getVerification_ui
 from flow_path.path_Tripartite_interaction import path_Tripartite_interaction
 from run_all_case import yamldict, logger, runMode, mobileDriver
 from common.BaseFunction import waitUntilDisplay, waitUntilClick, waitUntilClick_xpath, scrollText, \
@@ -17,6 +20,8 @@ from selenium.webdriver.common.keys import Keys
 
 url_forward = yamldict['test_path_list']['url_ui_forward']
 url_back = yamldict['test_path_list']['url_ui_back']
+RequestURL = yamldict['test_redisdb_list']['RequestURL']
+act = yamldict['test_userlist']['company_user']
 
 # 前端账户
 company_user = yamldict['test_userlist']['company_user']
@@ -144,6 +149,7 @@ def test_Tripartite_interaction():
         driver_forward.get(url_forward)
         logger.info('前端账户登录授信申请')
         login(driver_forward)
+        sleep(2)
         creditExtension(driver_forward)
     else:
         waiteForClick(mobileDriver(text='首页'))
@@ -259,7 +265,7 @@ def test_Tripartite_interaction():
 # 前端授信申请
 def creditExtension(driver_forward):
     waitUntilClick(driver_forward, path_Tripartite_interaction.btn_home_css.value)
-    sleep(1)
+    sleep(3)
 
     logger.info('进入到前端首页')
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_home_css.value).click()
@@ -277,20 +283,31 @@ def creditExtension(driver_forward):
     waitUntilClick(driver_forward, path_Tripartite_interaction.btn_rent_css.value)
     sleep(1.5)
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_rent_css.value).click()
-    sleep(10)
     # 授信采购信息页面
     logger.info('进入授信采购信息页面')
+    sleep(1.5)
     waitUntilClick(driver_forward, path_Tripartite_interaction.input_bankNum_css.value)
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.input_bankNum_css.value).send_keys(
         "1234567890123")
 
-    driver_forward.find_element_by_css_selector(path_Tripartite_interaction.select_province_css.value).click()
-    sleep(0.5)
-    driver_forward.find_elements_by_xpath("//*[text() = '山西省']")[0].click()
+    while True:
+        try:
+            driver_forward.find_element_by_css_selector(path_Tripartite_interaction.select_province_css.value).click()
+            sleep(1)
+            driver_forward.find_elements_by_xpath("//*[text() = '山西省']")[0].click()
+            break
+        except:
+            continue
 
-    driver_forward.find_element_by_css_selector(path_Tripartite_interaction.select_city_css.value).click()
-    sleep(0.5)
-    driver_forward.find_elements_by_xpath("//*[text() = '太原市']")[0].click()
+    while True:
+        try:
+            driver_forward.find_element_by_css_selector(path_Tripartite_interaction.select_city_css.value).click()
+            sleep(1)
+            driver_forward.find_elements_by_xpath("//*[text() = '太原市']")[0].click()
+            break
+        except:
+            continue
+
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.input_branchBank_css.value).send_keys(
         "太原文博支行")
     el = driver_forward.find_element_by_css_selector(path_Tripartite_interaction.select_branchBank_css.value)
@@ -313,8 +330,20 @@ def creditExtension(driver_forward):
 
     # 授信完成页面
     logger.info('授信完成页面')
-    waitUntilClick(driver_forward, path_Tripartite_interaction.btn_back_css.value)
+
+    while True:
+        # 活体认证欺诈性校验
+        try:
+            sleep(5)
+            getVerification()
+            break
+        except:
+            continue
+    # 活体认证
+    WebDriverWait(driver_forward, 1200).until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, path_Tripartite_interaction.text_apply_css.value)))
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_myMain_css.value).click()
+    logger.info("实名认证成功画面显示")
 
 
 # 银行授信审核
@@ -389,8 +418,7 @@ def loanApply(driver_forward):
     sleep(1)
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.input_bankNumMan_css.value).send_keys(
         '12222221222222')
-    driver_forward.find_element_by_css_selector(path_Tripartite_interaction.input_bankPhone_css.value).send_keys(
-        '17621198456')
+    driver_forward.find_element_by_css_selector(path_Tripartite_interaction.input_bankPhone_css.value).send_keys(company_user)
     flushDb()
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_veryCod_css.value).click()
     while 1:
@@ -417,17 +445,30 @@ def loanApply(driver_forward):
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.input_loanMonth_css.value).send_keys(
         '12')
 
-    driver_forward.find_element_by_css_selector(path_Tripartite_interaction.select_repaymentWay_css.value).click()
-    sleep(1)
-    driver_forward.find_element_by_xpath("//*[text() = '随借随还']").click()
-
+    while True:
+        try:
+            driver_forward.find_element_by_css_selector(path_Tripartite_interaction.select_repaymentWay_css.value).click()
+            sleep(1)
+            driver_forward.find_element_by_xpath("//*[text() = '随借随还']").click()
+            break
+        except:
+            continue
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.input_reason_css.value).send_keys(
         '政府项目借贷')
 
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.checkBox_agreeLoan_css.value).click()
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_submitLoan_css.value).click()
     # 点击返回
-    sleep(1)
+    while True:
+        # 活体认证欺诈性校验
+        try:
+            sleep(5)
+            getVerification()
+            break
+        except:
+            continue
+    WebDriverWait(driver_forward, 1200).until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, path_Tripartite_interaction.text_back_css.value)))
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_myMain_css.value).click()
 
 
@@ -507,9 +548,15 @@ def goToPay(driver_forward):
 def productChoose(driver_forward):
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_loanApply_css.value).click()
     logger.info('进入借款检索一览画面')
-    waitUntilClick(driver_forward, path_Tripartite_interaction.select_productName_css.value)
-    el = driver_forward.find_element_by_css_selector(path_Tripartite_interaction.select_productName_css.value)
-    el.click()
+    while True:
+        try:
+            waitUntilClick(driver_forward, path_Tripartite_interaction.select_productName_css.value)
+            sleep(2)
+            el = driver_forward.find_element_by_css_selector(path_Tripartite_interaction.select_productName_css.value)
+            el.click()
+            break
+        except:
+            continue
     sleep(1)
     el2 = driver_forward.find_element_by_css_selector(path_Tripartite_interaction.select_productNameList_css.value)
     scrollText(driver_forward, el2, product_name)

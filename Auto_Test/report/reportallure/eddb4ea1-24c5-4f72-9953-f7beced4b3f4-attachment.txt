@@ -1,0 +1,12 @@
+INFO     run_all_case.py:test_backStage_authentication.py:278 开始执行脚本test_backStage_authentication:
+
+INFO     run_all_case.py:test_backStage_authentication.py:281 开始执行脚本test_backStage_authentication:
+
+INFO     run_all_case.py:test_login.py:171 成功进入到密码重置页面
+INFO     run_all_case.py:test_login.py:178 成功进入到密码修改完成页面
+INFO     run_all_case.py:test_login.py:171 成功进入到密码重置页面
+INFO     run_all_case.py:test_login.py:178 成功进入到密码修改完成页面
+INFO     run_all_case.py:test_backStage_examine.py:76 成功登录后台系统
+INFO     run_all_case.py:test_backStage_authentication.py:236 企业信息认证
+INFO     run_all_case.py:test_backStage_authentication.py:253 协议内容确认页面
+INFO     run_all_case.py:test_backStage_authentication.py:265 二维码认证页面

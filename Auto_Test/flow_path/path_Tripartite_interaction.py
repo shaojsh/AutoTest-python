@@ -17,6 +17,8 @@ class path_Tripartite_interaction(Enum):
     checkBox_agree_css = '#root > div > div.content___17Zvm > div > div > div.ant-spin-nested-loading > div > div > div.form___X0S5x > div.checkbox___3vNvP.apply-checkbox___NbxFX > span'  # 同意chekcbox
     btn_submit_css = '#root > div > div.content___17Zvm > div > div > div.ant-spin-nested-loading > div > div > div.form___X0S5x > div.btn-wrap___2qpL6.footer-wrap___2Zh6N > button.btn-primary'  # 下一步按钮
     btn_back_css = '#root > div > div.content___17Zvm > div > div > div.ant-spin-nested-loading > div > div > div > button'  # 返回按钮
+    text_apply_css = '#root > div > div.content___17Zvm > div > div > div.ant-spin-nested-loading > div > div > div > button'  # 申请提交成功，返回按钮
+    text_back_css = '#root > div > div.content___17Zvm > div > div > div > div > div > button'  # 借款审核，返回按钮
     btn_myMain_css = '#root > div > div.header___1E4MV > div > div.userNav___3Bzyb > a:nth-child(1)'  # 返回主页面
 
     # 授信审核
@@ -32,7 +34,7 @@ class path_Tripartite_interaction(Enum):
     # 前端借款申请
     btn_loanApply_css = '#root > div > div.content___17Zvm > div > div.container___1ylnx > ul > li:nth-child(4) > a'  # 借款申请
     select_productName_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div.searchBar___PNjiu > div:nth-child(1) > div > div > span.ant-select-selection-item'  # 产品名称检索框
-    select_productNameList_css = 'body > div:nth-child(7) > div > div > div > div:nth-child(2) > div > div'  # 产品名称检索框List
+    select_productNameList_css = 'body > div:nth-child(8) > div > div > div > div.rc-virtual-list > div.rc-virtual-list-holder > div > div'  # 产品名称检索框List
     select_productQuery_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div.searchBar___PNjiu > button'  # 查询按钮
     btn_productSubmit_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div:nth-child(2) > div > div > div > div > div > div > a:nth-child(2)'  # 提交借款申请
     # 收款账户管理

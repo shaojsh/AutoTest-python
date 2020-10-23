@@ -17,9 +17,12 @@ class path_businessInfoReg(Enum):
     upload_legalPersonCertificate_css = '#businessCertificate'  # 营业执照
     upload_legalPersonBankNo_css = '#bankNo'  # 银行卡号
     sel_bankName_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > div > form > section:nth-child(1) > div > div:nth-child(10) > div > div > div > div > div > div > div > span.ant-select-selection-item'  # 银行卡号
+    sel_bankName_xpath = '/html/body/div[3]/div/div/div/div[2]/div[1]/div/div/div[1]/div'  # 银行卡号
 
     # 法定代表人证件
     sel_country_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > div > form > section:nth-child(2) > div > div:nth-child(1) > div > div > div > div > div > div > div > span.ant-select-selection-item'  # 法定代表人归属地
+    sel_country_xpath = '/html/body/div[4]/div/div/div/div[2]/div[1]/div/div/div[2]'  # 法定代表人归属地
+
     sel_idCard1_css = '#legalCardFront'  # 身份证信息正面
     sel_idCard2_css = '#legalCardReverse'  # 身份证信息反面
 

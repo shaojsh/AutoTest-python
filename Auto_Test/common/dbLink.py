@@ -237,7 +237,7 @@ def getVerification():
     r1 = RequestsHandler().post_Req(url=url_fin, data={
         "Message": "q4o3qIRdHmQMmiECxSDEO8cOFdCngJCxluyefZ55scmFEcBSdgPbDxosxvUiGQbyP3XfOZ8cojLuDrVqWn/pvR2vJCxIxmCRbhMwe7ThciXRQpXF0O4blrizzkqx/9IqbYXYsQ6J0RrPKVJHEDgm2e6V8w2AWzMU00HUyclPXJAZU04QuX2rKLMAps3cg9WwXUUC+L6TokaSNmV8dRBKOYWx8J3TszXW3oOzLTmJFY/pSBOp3ObeG1N1+CnQnyc9mOkedroE9ZDx+1P7zKJ4qsI1jyYRJ1+2OxLBshbIqY4=",
         "Dgtlenvlp": "MvXuUCz6PVUBb7xJhkJ6eU8QmPrgNL3lSgt5XQRiAsjdbeoQf3WapDlmHKIgr9Kj9wJFCw6ovl+5xd77xAtWynr8Xl+puaihAFhXN05DWEvBBv5Qjhm7gmzFdf1davKM/DMMWParIVusIDWJvKTyviSIuUsnIA50RFBuHcSC9KWXLioLEQht1L4BFR3F1M0/pFDnT2///VjM3PsvT/iFlDB82pXL4y+AA7EADE5aD5PrLG6ah57iNOrQUeJBmf8FCXXG8JoU/W/a3KqgOG0DwCi0fgSFWC7XuJXrTCJZBROi7LvLnWkvRaKk9LOHseUGAyuUJUENi5C3TbztDRfXSg=="}, )
-    print(r1)
+    print(r1.status_code)
 
 
 # 活体二维码码欺诈验证
@@ -319,4 +319,5 @@ def getUserId():
 
 
 if __name__ == '__main__':
-    getVerification('http://10.10.128.152:10000/v1/account/login', '17082238021')
+    getVerification()
+    # getVerification('http://10.10.128.152:10000/v1/account/login', '17082238021')

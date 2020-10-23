@@ -6,6 +6,7 @@ import allure
 import pytest
 from airtest.core.api import text, keyevent, device, swipe
 from selenium import webdriver
+from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -23,6 +24,7 @@ pwd = yamldict['test_userlist']['company_user_pass']
 businessName = yamldict['test_backStageUserList']['company_name']
 url_forward = yamldict['test_path_list']['url_ui_forward']
 RequestURL = yamldict['test_redisdb_list']['RequestURL']
+idNum = yamldict['test_personalInfoRegList']['id_card']
 
 
 @pytest.mark.run(order=3)
@@ -48,15 +50,14 @@ def test_businessInforReg():
 
         # 企业证件
         el = driver.find_element_by_css_selector(path_businessInfoReg.input_companyName_css.value)
-        el.send_keys(businessName)
+        el.send_keys('诚泰融资租赁（上海）有限公司')
         waitUntilDisplay_xpath(driver, path_businessInfoReg.display_name_xpath.value)
         el.send_keys(Keys.ENTER)
         sleep(1)
         # driver.find_element_by_css_selector(path_businessInfoReg.input_companyCode_css.value).send_keys(
         #     "92520628MA6FK07055")
         # driver.find_element_by_css_selector(path_businessInfoReg.input_legalPersonName_css.value).send_keys("黄小明")
-        driver.find_element_by_css_selector(path_businessInfoReg.input_legalPersonCardNo_css.value).send_keys(
-            "110101199003077096")
+        driver.find_element_by_css_selector(path_businessInfoReg.input_legalPersonCardNo_css.value).send_keys(idNum)
         # driver.find_element_by_css_selector(path_businessInfoReg.input_legalPersonAddress_css.value).send_keys(
         #     "上海市浦东新区陆家嘴金砖大厦")
         driver.find_element_by_css_selector(path_businessInfoReg.input_legalPersonPostCode_css.value).send_keys(
@@ -70,17 +71,30 @@ def test_businessInforReg():
         bankNO = random.randint(0, 99999999999999)
         driver.find_element_by_css_selector(path_businessInfoReg.upload_legalPersonBankNo_css.value).send_keys(
             str(bankNO))
-
-        driver.find_element_by_css_selector(path_businessInfoReg.sel_bankName_css.value).click()
         sleep(1)
-        driver.find_elements_by_xpath("//*[text() = '安徽省农村信用联社']")[0].click()
+        while True:
+            try:
+                driver.find_element_by_css_selector(path_businessInfoReg.sel_bankName_css.value).click()
+                sleep(1)
+                driver.find_element_by_xpath(path_businessInfoReg.sel_bankName_xpath.value).click()
+                break
+            except:
+                continue
+        # 操作滚动条
+        # js = "window.scrollTo(100,450);"
+        # driver.execute_script(js)
+        sleep(1)
+        while True:
+            try:
+                # 法定代表人信息
+                driver.find_element_by_css_selector(path_businessInfoReg.sel_country_css.value).click()
+                sleep(1)
+                driver.find_element_by_xpath(path_businessInfoReg.sel_country_xpath.value).click()
+                break
+            except:
+                continue
 
         sleep(1)
-        # 法定代表人信息
-        driver.find_element_by_css_selector(path_businessInfoReg.sel_country_css.value).click()
-        sleep(1)
-        driver.find_elements_by_xpath("//*[text() = '中国境内']")[0].click()
-
         picture_dir2 = os.getcwd() + '\\test_data\\picture\\id_1.jpg'
         picture_dir3 = os.getcwd() + '\\test_data\\picture\\id_2.jpg'
         picture_dir4 = os.getcwd() + '\\test_data\\picture\\id_4.jpg'

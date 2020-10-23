@@ -320,12 +320,12 @@ def createInstitutions(driver, name, enterpriseType):
     sleep(1)
     driver.find_element_by_xpath(path_backStage_authentication.select_StatueType_xpath.value).click()
     sleep(0.5)
-    # if enterpriseType == 1:
-    # 添加银行账户
-    # driver.find_element_by_css_selector(path_backStage_authentication.select_bankAct_css.value).click()
-    # sleep(1)
-    # driver.find_element_by_xpath(path_backStage_authentication.select_bankAct_xpath.value).click()
-    # sleep(0.5)
+    if enterpriseType == 1:
+        # 添加银行账户
+        driver.find_element_by_css_selector(path_backStage_authentication.select_bankAct_css.value).click()
+        sleep(1)
+        driver.find_element_by_xpath(path_backStage_authentication.select_bankAct_xpath.value).click()
+    sleep(0.5)
     driver.find_element_by_css_selector(path_backStage_authentication.btn_confirm_css.value).click()
     sleep(1)
 

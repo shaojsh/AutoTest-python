@@ -1,0 +1,92 @@
+{
+  "uid" : "8ecd884d95273a41",
+  "name" : "test_backStage_authentication",
+  "fullName" : "test_flow.test_Authentication.test_backStage_authentication#test_backStage_authentication",
+  "historyId" : "a55d1468f36f1b2cdddeddca0f290d7d",
+  "time" : {
+    "start" : 1602728444079,
+    "stop" : 1602728541930,
+    "duration" : 97851
+  },
+  "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台账户认证",
+  "descriptionHtml" : "<p>http://10.10.128.152:10052/#/authority/mechanism 后台账户认证</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台账户认证",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "41e1ebb39ac7f09a",
+      "name" : "log",
+      "source" : "41e1ebb39ac7f09a.txt",
+      "type" : "text/plain",
+      "size" : 1575
+    }, {
+      "uid" : "6788da562830b910",
+      "name" : "stdout",
+      "source" : "6788da562830b910.txt",
+      "type" : "text/plain",
+      "size" : 850
+    }, {
+      "uid" : "c69334757f240dd0",
+      "name" : "stderr",
+      "source" : "c69334757f240dd0.txt",
+      "type" : "text/plain",
+      "size" : 2431
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=6)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_backStage_authentication"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "1696-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_backStage_authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "后台账户认证 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/authority/mechanism",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=6)" ]
+  },
+  "source" : "8ecd884d95273a41.json",
+  "parameterValues" : [ ]
+}

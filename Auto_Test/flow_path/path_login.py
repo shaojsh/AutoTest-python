@@ -6,15 +6,14 @@ class loginOn(Enum):
     input_actLogin_css = '#userName'  # 用户名
     input_passLogin_css = '#password'  # 密码
     input_very_codeLogin_css = '#verifyCode'  # 验证码
-    btn_login_css = '#root > div > div.content___17Zvm.contentLogin___1loWO > div > div > div > div > div > button'  # 登录按钮
+    btn_login_css = '#root > div > div.content___17Zvm.contentLogin___1loWO > div > div > div > div > div > div > button'  # 登录按钮
     link_home_css = '#root > div > div.header___1E4MV > div > div.flex > div > a:nth-child(1)'  # 首页
     txt_loginSafe_css = '#root > div > div.content___17Zvm.contentLogin___1loWO > div > div > div > div > div > h6'  # 安全登录
     btn_pwdForget_css = '#root > div > div > div:nth-child(3) > div > button'  # 忘记密码按钮
     btn_pwdReg_css = '#root > div > div > div:nth-child(3) > div > button'  # 注册按钮
 
     # 用户注册路径
-    btn_agree_css = 'body > div:nth-child(7) > div > div.ant-modal-wrap > div > div.ant-modal-content > ' \
-                    'div.ant-modal-footer > button'  # 同意并继续按钮
+    btn_agree_css = 'body > div:nth-child(8) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-footer > button'  # 同意并继续按钮
     input_act_css = '#phoneNo'  # 账号输入
     input_pwd_css = '#password'  # 密码输入
     input_conPwd_css = '#confirmPassword'  # 密码再次输入

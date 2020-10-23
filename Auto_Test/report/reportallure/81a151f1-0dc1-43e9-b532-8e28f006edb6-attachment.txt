@@ -1,0 +1,3 @@
+Thu, 22 Oct 2020 11:01:57-run_all_case.py-test_backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Thu, 22 Oct 2020 11:02:08-run_all_case.py-test_backStage_examine.py-[line:76]-INFO-[日志信息]: 成功登录后台系统

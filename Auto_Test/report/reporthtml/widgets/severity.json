@@ -1,80 +1,80 @@
 [ {
-  "uid" : "7092ceba4fedbf1e",
+  "uid" : "ba2e3494caf566c0",
   "name" : "test_Tripartite_interaction",
   "time" : {
-    "start" : 1602827679053,
-    "stop" : 1602827679349,
-    "duration" : 296
-  },
-  "status" : "broken",
-  "severity" : "blocker"
-}, {
-  "uid" : "68a744d5040e7691",
-  "name" : "test_backstage_examine",
-  "time" : {
-    "start" : 1602826347579,
-    "stop" : 1602826366663,
-    "duration" : 19084
+    "start" : 1603436647543,
+    "stop" : 1603436838802,
+    "duration" : 191259
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "aa817e5d331167f5",
-  "name" : "test_businessInforReg",
-  "time" : {
-    "start" : 1602826287061,
-    "stop" : 1602826347564,
-    "duration" : 60503
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "b009246c6f0f524a",
-  "name" : "test_backStage_authentication",
-  "time" : {
-    "start" : 1602826401686,
-    "stop" : 1602826499168,
-    "duration" : 97482
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "dd62d06b8d8109ed",
-  "name" : "test_companyRegister",
-  "time" : {
-    "start" : 1602826222908,
-    "stop" : 1602826240449,
-    "duration" : 17541
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "6cac6faa55660284",
+  "uid" : "9475a760ad31e828",
   "name" : "test_infoReg",
   "time" : {
-    "start" : 1602826240464,
-    "stop" : 1602826287030,
-    "duration" : 46566
+    "start" : 1603436402772,
+    "stop" : 1603436438958,
+    "duration" : 36186
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "314c21feb34900de",
-  "name" : "test_backStageActCreate",
-  "time" : {
-    "start" : 1602826366663,
-    "stop" : 1602826401655,
-    "duration" : 34992
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "b06064428b16959e",
+  "uid" : "9a751986a3fbff5f",
   "name" : "test_api_per",
   "time" : {
     "start" : 1600938088161,
     "stop" : 1600938118164,
     "duration" : 30003
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "bc314313ab60a6b9",
+  "name" : "test_backstage_examine",
+  "time" : {
+    "start" : 1603436490091,
+    "stop" : 1603436512756,
+    "duration" : 22665
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "fb15cb73592b5c5e",
+  "name" : "test_backStage_authentication",
+  "time" : {
+    "start" : 1603436549882,
+    "stop" : 1603436647506,
+    "duration" : 97624
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "4ceb43e0250c1f29",
+  "name" : "test_businessInforReg",
+  "time" : {
+    "start" : 1603436438970,
+    "stop" : 1603436490064,
+    "duration" : 51094
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "71fdff02b3877da9",
+  "name" : "test_companyRegister",
+  "time" : {
+    "start" : 1603436385818,
+    "stop" : 1603436402762,
+    "duration" : 16944
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f871c9b6aa5c7e8f",
+  "name" : "test_backStageActCreate",
+  "time" : {
+    "start" : 1603436512783,
+    "stop" : 1603436549870,
+    "duration" : 37087
   },
   "status" : "passed",
   "severity" : "blocker"

@@ -1,0 +1,19 @@
+INFO     run_all_case.py:test_Tripartite_interaction.py:143 开始执行脚本test_Tripartite_interaction:
+
+INFO     run_all_case.py:test_Tripartite_interaction.py:150 前端账户登录授信申请
+INFO     run_all_case.py:test_Tripartite_interaction.py:189 银行授信审核
+INFO     run_all_case.py:test_backStage_examine.py:76 成功登录后台系统
+INFO     run_all_case.py:test_Tripartite_interaction.py:350 银行授信审核首页
+INFO     run_all_case.py:test_Tripartite_interaction.py:355 银行待审批授信页面
+INFO     run_all_case.py:test_Tripartite_interaction.py:359 审批授信评分卡页面
+INFO     run_all_case.py:test_Tripartite_interaction.py:365 审批授信审核页面
+INFO     run_all_case.py:test_Tripartite_interaction.py:197 担保公司审核
+INFO     run_all_case.py:test_backStage_examine.py:76 成功登录后台系统
+INFO     run_all_case.py:test_Tripartite_interaction.py:385 担保公司授信审核首页
+INFO     run_all_case.py:test_Tripartite_interaction.py:390 银行待审批授信页面
+INFO     run_all_case.py:test_Tripartite_interaction.py:394 审批授信评分卡页面
+INFO     run_all_case.py:test_Tripartite_interaction.py:398 审批授信审核页面
+INFO     run_all_case.py:test_Tripartite_interaction.py:544 进入借款检索一览画面
+INFO     run_all_case.py:test_Tripartite_interaction.py:414 进入收款账户管理画面
+INFO     run_all_case.py:test_Tripartite_interaction.py:435 银行卡已经添加
+INFO     run_all_case.py:test_Tripartite_interaction.py:437 进入借款申请画面

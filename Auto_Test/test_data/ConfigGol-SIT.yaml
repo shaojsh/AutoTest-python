@@ -16,12 +16,12 @@ test_backStageUserList:
   company_user_pass: '123456'
   company_bank_pass: '123456'
   company_Guarantee_pass: '123456'
-  company_name: '山东艺轩建筑装饰工程有限公司'
-  autoTest_BankName: 'AutoTest_Bank1008'
-  company_bank: '17082200002'
-  autoTest_RiskName: 'AutoTest_Risk1008'
-  company_Guarantee: '17082300002'
-  product_name: '1008号金融产品'
+  company_name: '潍坊升华信息网络有限公司'
+  autoTest_BankName: 'AutoTest_Bank1020'
+  company_bank: '17082200006'
+  autoTest_RiskName: 'AutoTest_Risk1020'
+  company_Guarantee: '17082300006'
+  product_name: '1020号金融产品'
   rend_rule: 2
   rend_day: 2
 test_userlist:
@@ -47,26 +47,26 @@ test_db_sqllist:
 #    sql0000002: "DELETE FROM `chengtay-zero`.zero_user where userName = {0};"
 #    sql0000003: "DELETE FROM `chengtay-zero`.zero_user_authentication where phoneNo = {0};"
     sql0000004: "SET SQL_SAFE_UPDATES = 0;"
-    sql0000005: "update `chengtay-zcd`.enterprise set name = 'oldcompanyname' where name in ('潍坊市市政工程设计研究院有限公司','山东艺轩建筑装饰工程有限公司','山东欣立得光电科技有限公司');"
-    sql0000006: "Delete From `chengtay-zero`.zero_user where phoneNo in {0};"
-    sql0000007: "Delete From `chengtay-zcd`.product_material where productid in (select id FROM `chengtay-zcd-copy`.product where provide = {0});"
-    sql0000008: "Delete FROM `chengtay-zcd`.product where provide = {0};"
-    sql0000009: "Delete FROM `chengtay-zcd`.mechanism where id in (select mechanismId FROM `chengtay-zcd-copy`.enterprise_account  where phone in {0});"
-    sql0000010: "Delete  FROM `chengtay-zcd`.enterprise where mechanismId in (select mechanismId FROM `chengtay-zcd-copy`.enterprise_account where phone in {0});"
-    sql0000011: "Delete  FROM `chengtay-zcd`.enterprise_account where phone in {0};"
-    sql0000012: "DELETE FROM `chengtay-zcd`.enterprise where name IN {0};"
-    sql0000013: "DELETE FROM `chengtay-zcd`.mechanism where name IN {0};"
+    sql0000005: "update `chengtay-zcd-prd`.enterprise set name = 'oldcompanyname' where name in ('潍坊市市政工程设计研究院有限公司','山东艺轩建筑装饰工程有限公司','山东欣立得光电科技有限公司','');"
+    sql0000006: "Delete From `chengtay-zero-prd`.zero_user where phoneNo in {0};"
+    sql0000007: "Delete From `chengtay-zcd-prd`.product_material where productid in (select id FROM `chengtay-zcd-prd`.product where provide = {0});"
+    sql0000008: "Delete FROM `chengtay-zcd-prd`.product where provide = {0};"
+    sql0000009: "Delete FROM `chengtay-zcd-prd`.mechanism where id in (select mechanismId FROM `chengtay-zcd-prd`.enterprise_account  where phone in {0});"
+    sql0000010: "Delete  FROM `chengtay-zcd-prd`.enterprise where mechanismId in (select mechanismId FROM `chengtay-zcd-prd`.enterprise_account where phone in {0});"
+    sql0000011: "Delete  FROM `chengtay-zcd-prd`.enterprise_account where phone in {0};"
+    sql0000012: "DELETE FROM `chengtay-zcd-prd`.enterprise where name IN {0};"
+    sql0000013: "DELETE FROM `chengtay-zcd-prd`.mechanism where name IN {0};"
     # 移动端sql
-    sql0000014: "delete from `chengtay-zero`.zero_user_auth where userId in (select id from `chengtay-zero`.zero_user where phoneNo ={0});"
-    sql0000015: "delete FROM `chengtay-zero`.zero_user where phoneNo ={0};"
-    sql0000016: "delete FROM `chengtay-zero`.zero_user_authentication where userId in (select id from `chengtay-zero`.zero_user where phoneNo ={0});"
-    sql0000017: "delete from `chengtay-zero`.zero_user_claim  where userId in (select id from `chengtay-zero`.zero_user where phoneNo ={0});"
-    sql0000018: "delete from `chengtay-zero`.zero_user_external_login where userId in (select id from `chengtay-zero`.zero_user where phoneNo ={0});"
-    sql0000019: "delete from `chengtay-zero`.zero_user_role  where userId in (select id from `chengtay-zero`.zero_user where phoneNo ={0});"
-    sql0000020: "delete from `chengtay-zero`.zero_user_auth  where userId in (select id from `chengtay-zero`.zero_user where phoneNo ={0});"
-    sql0000021: "delete from `chengtay-zcd`.enterprise_account where phone = {0};"
-    sql0000022: "update `chengtay-zcd`.enterprise set name = {0} where name in ('四川海辰日用化工有限公司');"
-    sql0000023: "SELECT params FROM `chengtay-zero`.msg_message_sms WHERE phoneNos = {0} AND confKey = 'live.certification' ORDER BY sendTime DESC LIMIT 1;"
+    sql0000014: "delete from `chengtay-zero-prd`.zero_user_auth where userId in (select id from `chengtay-zero-prd`.zero_user where phoneNo ={0});"
+    sql0000015: "delete FROM `chengtay-zero-prd`.zero_user where phoneNo ={0};"
+    sql0000016: "delete FROM `chengtay-zero-prd`.zero_user_authentication where userId in (select id from `chengtay-zero-prd`.zero_user where phoneNo ={0});"
+    sql0000017: "delete from `chengtay-zero-prd`.zero_user_claim  where userId in (select id from `chengtay-zero-prd`.zero_user where phoneNo ={0});"
+    sql0000018: "delete from `chengtay-zero-prd`.zero_user_external_login where userId in (select id from `chengtay-zero-prd`.zero_user where phoneNo ={0});"
+    sql0000019: "delete from `chengtay-zero-prd`.zero_user_role  where userId in (select id from `chengtay-zero-prd`.zero_user where phoneNo ={0});"
+    sql0000020: "delete from `chengtay-zero-prd`.zero_user_auth  where userId in (select id from `chengtay-zero-prd`.zero_user where phoneNo ={0});"
+    sql0000021: "delete from `chengtay-zcd-prd`.enterprise_account where phone = {0};"
+    sql0000022: "update `chengtay-zcd-prd`.enterprise set name = {0} where name in ('诚泰融资租赁（上海）有限公司');"
+    sql0000023: "SELECT params FROM `chengtay-zero-prd`.msg_message_sms WHERE phoneNos = {0} AND confKey = 'live.certification' ORDER BY sendTime DESC LIMIT 1;"
 
 test_personalInfoRegList:
   name: '李涛'

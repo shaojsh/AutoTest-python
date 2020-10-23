@@ -5,6 +5,7 @@ import allure
 import pytest
 from selenium import webdriver
 from common.BaseFunction import waitUntilDisplay
+from common.dbLink import updateNameCompany
 from flow_path.path_backStage_authentication import path_backStage_authentication
 from flow_path.path_backstage_examine import path_backstage_examine
 from run_all_case import yamldict, logger
@@ -32,6 +33,7 @@ def test_backstage_examine():
 
     # 登陆页面
     backStageLogin(driver, act, pwd, 0)
+    updateNameCompany()
     sleep(2)
     driver.find_element_by_xpath(path_backstage_examine.btn_bussMan_xpath.value).click()
     sleep(1)

@@ -14,7 +14,7 @@ from common.Yaml_Data import HandleYaml
 
 root_dir = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test'
 runMode = 'UI'
-
+evn = ''
 # 环境run取得
 config = HandleYaml(root_dir + '\\test_data\\config.yaml')
 runMode = config.get_data()['config']['runMode']

@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "IndexError: list index out of range",
-      "children" : [ {
-        "name" : "test_Tripartite_interaction",
-        "uid" : "7092ceba4fedbf1e",
-        "parentUid" : "cbf21ee610ffd376e0ce643a364ade80",
-        "status" : "broken",
-        "time" : {
-          "start" : 1602827679053,
-          "stop" : 1602827679349,
-          "duration" : 296
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "cbf21ee610ffd376e0ce643a364ade80"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  "children" : [ ]
 }

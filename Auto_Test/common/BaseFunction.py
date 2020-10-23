@@ -31,6 +31,11 @@ def waitUntilClick(driver, ByCss):
     WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, ByCss)))
 
 
+# 等待直到元素可点击
+def waitUntilClick_xpath(driver, xpatn):
+    WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, xpatn)))
+
+
 # 一直等待某个元素消失，默认超时10秒
 def is_not_visible(driver, locator, timeout=10):
     try:
