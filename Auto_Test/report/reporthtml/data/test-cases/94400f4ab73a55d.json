@@ -1,0 +1,722 @@
+{
+  "uid" : "94400f4ab73a55d",
+  "name" : "test_Tripartite_interaction",
+  "fullName" : "test_flow.test_Tripartite_interaction.test_Tripartite_interaction#test_Tripartite_interaction",
+  "historyId" : "d91e7b4392163e0b46289a9f8b97b16c",
+  "time" : {
+    "start" : 1603438041776,
+    "stop" : 1603438051820,
+    "duration" : 10044
+  },
+  "description" : "测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互</p>\n",
+  "status" : "broken",
+  "statusMessage" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=缴费凭证\"",
+  "statusTrace" : "@pytest.mark.run(order=-1)\n    @allure.severity(\"blocker\")\n    @allure.description(\"测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互\")\n    @allure.testcase(\"http://10.10.128.152:10052/#/account/login\", \"三方（企业，银行，前端）交互 \uD83D\uDC47\")\n    def test_Tripartite_interaction():\n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        waiteForClick(mobileDriver(text='我的'))\n        waiteForClick(mobileDriver(text='我的借款'))\n        waiteForClick(mobileDriver(text='去缴纳'))\n>       mobileDriver(text='缴费凭证').drag_to(mobileDriver(text='缴费申请'), 0.5)\n\ntest_flow\\test_Tripartite_interaction\\test_Tripartite_interaction.py:148: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:485: in drag_to\n    origin_pos = self.get_position()\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:72: in wrapped\n    return func(proxy, *args, **kwargs)\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:613: in get_position\n    pos = self.attr('pos')\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:39: in wrapped\n    return func(self, *args, **kwargs)\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:734: in attr\n    nodes = self._do_query(multiple=False)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = UIObjectProxy of \"text=缴费凭证\", multiple = False, refresh = False\n\n    def _do_query(self, multiple=True, refresh=False):\n        if not self._evaluated or refresh:\n            self._nodes = self.poco.agent.hierarchy.select(self.query, multiple)\n            if len(self._nodes) == 0:\n>               raise PocoNoSuchNodeException(self)\nE               poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=缴费凭证\"\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:874: PocoNoSuchNodeException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互",
+    "status" : "broken",
+    "statusMessage" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=缴费凭证\"",
+    "statusTrace" : "@pytest.mark.run(order=-1)\n    @allure.severity(\"blocker\")\n    @allure.description(\"测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互\")\n    @allure.testcase(\"http://10.10.128.152:10052/#/account/login\", \"三方（企业，银行，前端）交互 \uD83D\uDC47\")\n    def test_Tripartite_interaction():\n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        waiteForClick(mobileDriver(text='我的'))\n        waiteForClick(mobileDriver(text='我的借款'))\n        waiteForClick(mobileDriver(text='去缴纳'))\n>       mobileDriver(text='缴费凭证').drag_to(mobileDriver(text='缴费申请'), 0.5)\n\ntest_flow\\test_Tripartite_interaction\\test_Tripartite_interaction.py:148: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:485: in drag_to\n    origin_pos = self.get_position()\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:72: in wrapped\n    return func(proxy, *args, **kwargs)\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:613: in get_position\n    pos = self.attr('pos')\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:39: in wrapped\n    return func(self, *args, **kwargs)\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:734: in attr\n    nodes = self._do_query(multiple=False)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = UIObjectProxy of \"text=缴费凭证\", multiple = False, refresh = False\n\n    def _do_query(self, multiple=True, refresh=False):\n        if not self._evaluated or refresh:\n            self._nodes = self.poco.agent.hierarchy.select(self.query, multiple)\n            if len(self._nodes) == 0:\n>               raise PocoNoSuchNodeException(self)\nE               poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=缴费凭证\"\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:874: PocoNoSuchNodeException",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "51972ff1951e8de8",
+      "name" : "log",
+      "source" : "51972ff1951e8de8.txt",
+      "type" : "text/plain",
+      "size" : 4045
+    }, {
+      "uid" : "d31f5a3c8ab55439",
+      "name" : "stderr",
+      "source" : "d31f5a3c8ab55439.txt",
+      "type" : "text/plain",
+      "size" : 4074
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=-1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Tripartite_interaction"
+  }, {
+    "name" : "suite",
+    "value" : "test_Tripartite_interaction"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "13540-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Tripartite_interaction.test_Tripartite_interaction"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "三方（企业，银行，前端）交互 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/account/login",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "3d6f9593af5026b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603436647543,
+        "stop" : 1603436838802,
+        "duration" : 191259
+      }
+    }, {
+      "uid" : "cdb06c279af1ebff",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (951, 594). Other element would receive the click: <textarea placeholder=\"请输入借款理由\" autocomplete=\"off\" maxlength=\"50\" id=\"reason\" class=\"ant-input\"></textarea>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603436204490,
+        "stop" : 1603436288633,
+        "duration" : 84143
+      }
+    }, {
+      "uid" : "db036ea7505ccfaf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603435569353,
+        "stop" : 1603435757988,
+        "duration" : 188635
+      }
+    }, {
+      "uid" : "21f3477cf3c0299b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603432849934,
+        "stop" : 1603433840234,
+        "duration" : 990300
+      }
+    }, {
+      "uid" : "e09ba228a6115c8f",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ChunkedEncodingError: (\"Connection broken: ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)\", ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+      "time" : {
+        "start" : 1603431643896,
+        "stop" : 1603431707484,
+        "duration" : 63588
+      }
+    }, {
+      "uid" : "d3cb8e932541ee20",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603431542329,
+        "stop" : 1603431589342,
+        "duration" : 47013
+      }
+    }, {
+      "uid" : "4ca39cc2935544d8",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ChunkedEncodingError: (\"Connection broken: ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)\", ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+      "time" : {
+        "start" : 1603431093467,
+        "stop" : 1603431120455,
+        "duration" : 26988
+      }
+    }, {
+      "uid" : "f1bea0fa1e94ac6c",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ChunkedEncodingError: (\"Connection broken: ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)\", ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+      "time" : {
+        "start" : 1603430620200,
+        "stop" : 1603430662419,
+        "duration" : 42219
+      }
+    }, {
+      "uid" : "c893693f06b43447",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(7) > div > div > div > div:nth-child(2) > div > div\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603428802254,
+        "stop" : 1603428876016,
+        "duration" : 73762
+      }
+    }, {
+      "uid" : "a8e0e0d72c3b4259",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (630, 630). Other element would receive the click: <h6 class=\"title___3reRJ\">...</h6>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603422652990,
+        "stop" : 1603422672828,
+        "duration" : 19838
+      }
+    }, {
+      "uid" : "753a44b824779192",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (794, 476). Other element would receive the click: <input autocomplete=\"off\" type=\"text\" placeholder=\"请输入所属支行\" id=\"branchBank\" class=\"ant-input\" value=\"AutoTest_Bank1008\">\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603422530922,
+        "stop" : 1603422551857,
+        "duration" : 20935
+      }
+    }, {
+      "uid" : "d5b41d6c88be79e9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(7) > div > div > div > div:nth-child(2) > div > div\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603422121387,
+        "stop" : 1603422192329,
+        "duration" : 70942
+      }
+    }, {
+      "uid" : "3084af29f2d23d1a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'bytes' object has no attribute 'presence_of_element_located'",
+      "time" : {
+        "start" : 1603421251632,
+        "stop" : 1603421287341,
+        "duration" : 35709
+      }
+    }, {
+      "uid" : "8b5e4d34638f419a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'bytes' object has no attribute 'presence_of_element_located'",
+      "time" : {
+        "start" : 1603421086474,
+        "stop" : 1603421114362,
+        "duration" : 27888
+      }
+    }, {
+      "uid" : "5a6ae4a34f32caef",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603355793255,
+        "stop" : 1603355810791,
+        "duration" : 17536
+      }
+    }, {
+      "uid" : "e15be62b98a62586",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (630, 630). Other element would receive the click: <h6 class=\"title___3reRJ\">...</h6>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603354900771,
+        "stop" : 1603354924276,
+        "duration" : 23505
+      }
+    }, {
+      "uid" : "e8ef8c38eb14d323",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (630, 630). Other element would receive the click: <h6 class=\"title___3reRJ\">...</h6>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603354772535,
+        "stop" : 1603354791352,
+        "duration" : 18817
+      }
+    }, {
+      "uid" : "4296a6864a515419",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (630, 630). Other element would receive the click: <h6 class=\"title___3reRJ\">...</h6>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603354694647,
+        "stop" : 1603354714487,
+        "duration" : 19840
+      }
+    }, {
+      "uid" : "c953ca3fb2bfefb3",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'bytes' object has no attribute 'presence_of_element_located'",
+      "time" : {
+        "start" : 1603354498567,
+        "stop" : 1603354523749,
+        "duration" : 25182
+      }
+    }, {
+      "uid" : "5fd2397686ff16d6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603353984282,
+        "stop" : 1603354039606,
+        "duration" : 55324
+      }
+    }, {
+      "uid" : "2b3977a485d2edfd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603343036122,
+        "stop" : 1603343091555,
+        "duration" : 55433
+      }
+    }, {
+      "uid" : "a86183820502f4a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603334839152,
+        "stop" : 1603335037605,
+        "duration" : 198453
+      }
+    }, {
+      "uid" : "d9c694bca93b23be",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (630, 572). Other element would receive the click: <h6 class=\"title___3reRJ\">...</h6>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603334779260,
+        "stop" : 1603334798222,
+        "duration" : 18962
+      }
+    }, {
+      "uid" : "673cafc01ceb3937",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (794, 476). Other element would receive the click: <input autocomplete=\"off\" type=\"text\" placeholder=\"请输入所属支行\" id=\"branchBank\" class=\"ant-input\" value=\"AutoTest_Bank1008\">\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603334551775,
+        "stop" : 1603334571821,
+        "duration" : 20046
+      }
+    }, {
+      "uid" : "54136ec546a80d32",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (794, 476). Other element would receive the click: <input autocomplete=\"off\" type=\"text\" placeholder=\"请输入所属支行\" id=\"branchBank\" class=\"ant-input\" value=\"AutoTest_Bank1008\">\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603334497577,
+        "stop" : 1603334516652,
+        "duration" : 19075
+      }
+    }, {
+      "uid" : "5245cb26880ba607",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603334388383,
+        "stop" : 1603334433133,
+        "duration" : 44750
+      }
+    }, {
+      "uid" : "ee5bdcbaf05351f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603332225227,
+        "stop" : 1603332276761,
+        "duration" : 51534
+      }
+    }, {
+      "uid" : "bf234cc8577e38e5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm > div > div > div > div > div.section___207eM.feature___Y1g27 > div.feature-main___3NXLZ > button\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603332155172,
+        "stop" : 1603332170193,
+        "duration" : 15021
+      }
+    }, {
+      "uid" : "17d28a561ec9eca4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603331843019,
+        "stop" : 1603331893425,
+        "duration" : 50406
+      }
+    }, {
+      "uid" : "591cb94c920cc00e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (630, 630). Other element would receive the click: <h6 class=\"title___3reRJ\">...</h6>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603331770996,
+        "stop" : 1603331794544,
+        "duration" : 23548
+      }
+    }, {
+      "uid" : "e4fa18c4db876b32",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603331610942,
+        "stop" : 1603331662796,
+        "duration" : 51854
+      }
+    }, {
+      "uid" : "e04b977acf070365",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (630, 572). Other element would receive the click: <h6 class=\"title___3reRJ\">...</h6>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603331516323,
+        "stop" : 1603331542144,
+        "duration" : 25821
+      }
+    }, {
+      "uid" : "10096dcc7d18ed44",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1602827679053,
+        "stop" : 1602827679349,
+        "duration" : 296
+      }
+    }, {
+      "uid" : "bf8e2efde9ab2376",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=企业经营场所照片\"",
+      "time" : {
+        "start" : 1602826673718,
+        "stop" : 1602826720972,
+        "duration" : 47254
+      }
+    }, {
+      "uid" : "9dd34d4b0f6d7c07",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'is_displayed'",
+      "time" : {
+        "start" : 1602826499168,
+        "stop" : 1602826546570,
+        "duration" : 47402
+      }
+    }, {
+      "uid" : "8ee3349214f696ab",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602825353332,
+        "stop" : 1602825396862,
+        "duration" : 43530
+      }
+    }, {
+      "uid" : "ee7c02cd451d2ed0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602819194979,
+        "stop" : 1602819238844,
+        "duration" : 43865
+      }
+    }, {
+      "uid" : "56a13e6671548d17",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=企业经营场所照片\"",
+      "time" : {
+        "start" : 1602749037189,
+        "stop" : 1602749168061,
+        "duration" : 130872
+      }
+    }, {
+      "uid" : "eadf9f88ffa6bf66",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Unsupported focus type <class 'float'>. Only \"anchor/center\" or 2-list/2-tuple available.",
+      "time" : {
+        "start" : 1602745561658,
+        "stop" : 1602745563516,
+        "duration" : 1858
+      }
+    }, {
+      "uid" : "611d04fa1cf7a5c0",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Unsupported focus type <class 'float'>. Only \"anchor/center\" or 2-list/2-tuple available.",
+      "time" : {
+        "start" : 1602745492718,
+        "stop" : 1602745498507,
+        "duration" : 5789
+      }
+    }, {
+      "uid" : "bd90e2ca7049c868",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Unsupported focus type <class 'float'>. Only \"anchor/center\" or 2-list/2-tuple available.",
+      "time" : {
+        "start" : 1602745461631,
+        "stop" : 1602745461633,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "74a067a51910a2d7",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1602744600269,
+        "stop" : 1602744600573,
+        "duration" : 304
+      }
+    }, {
+      "uid" : "ce895cf9a49893d8",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.InvalidOperationException: Swipe origin out of screen. [0.16666666666666666, 2.6375]",
+      "time" : {
+        "start" : 1602743105304,
+        "stop" : 1602743118408,
+        "duration" : 13104
+      }
+    }, {
+      "uid" : "7e885047e5b863ac",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=请输入项目名称's parent's parent's parent/\"",
+      "time" : {
+        "start" : 1602742751185,
+        "stop" : 1602742827201,
+        "duration" : 76016
+      }
+    }, {
+      "uid" : "6e7e8b1281aef040",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=请输入项目名称's parent's parent's parent\"",
+      "time" : {
+        "start" : 1602742014273,
+        "stop" : 1602742014443,
+        "duration" : 170
+      }
+    }, {
+      "uid" : "e25cf37b2ace2b40",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=请输入项目名称's parent's parent's parent\"",
+      "time" : {
+        "start" : 1602741969950,
+        "stop" : 1602741970142,
+        "duration" : 192
+      }
+    }, {
+      "uid" : "c48630a744238fb8",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=请输入项目名称's parent's parent's parent\"",
+      "time" : {
+        "start" : 1602741939332,
+        "stop" : 1602741939530,
+        "duration" : 198
+      }
+    }, {
+      "uid" : "dae2c71101981499",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=我的\"",
+      "time" : {
+        "start" : 1602740594114,
+        "stop" : 1602740601863,
+        "duration" : 7749
+      }
+    }, {
+      "uid" : "e99bcdfdf4d45cca",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=我的\"",
+      "time" : {
+        "start" : 1602740563678,
+        "stop" : 1602740571122,
+        "duration" : 7444
+      }
+    }, {
+      "uid" : "e509634fc4fed88b",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=我的\"",
+      "time" : {
+        "start" : 1602740292718,
+        "stop" : 1602740300191,
+        "duration" : 7473
+      }
+    }, {
+      "uid" : "a57ea022a7cfbdca",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Unsupported direction type <class 'poco.proxy.UIObjectProxy'>. Only \"up/down/left/right\" or 2-list/2-tuple available.",
+      "time" : {
+        "start" : 1602740191751,
+        "stop" : 1602740198998,
+        "duration" : 7247
+      }
+    }, {
+      "uid" : "5ac86667fdb6f505",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.InvalidOperationException: Swipe origin out of screen. [0.16666666666666666, 1.93984375]",
+      "time" : {
+        "start" : 1602739781230,
+        "stop" : 1602739809055,
+        "duration" : 27825
+      }
+    }, {
+      "uid" : "34fcd35365bb754e",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.InvalidOperationException: Swipe origin out of screen. [0.16666666666666666, 1.93984375]",
+      "time" : {
+        "start" : 1602739732387,
+        "stop" : 1602739751580,
+        "duration" : 19193
+      }
+    }, {
+      "uid" : "ee2599a55ef2d663",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.InvalidOperationException: Swipe origin out of screen. [0.16666666666666666, 1.93984375]",
+      "time" : {
+        "start" : 1602739530186,
+        "stop" : 1602739544965,
+        "duration" : 14779
+      }
+    }, {
+      "uid" : "f77d24313c224de4",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=首页\"",
+      "time" : {
+        "start" : 1602739454376,
+        "stop" : 1602739467715,
+        "duration" : 13339
+      }
+    }, {
+      "uid" : "9de074bd74809249",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.InvalidOperationException: Swipe origin out of screen. [0.16666666666666666, 1.93984375]",
+      "time" : {
+        "start" : 1602739369299,
+        "stop" : 1602739378670,
+        "duration" : 9371
+      }
+    }, {
+      "uid" : "be5a6a4b6327c5e5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602731718878,
+        "stop" : 1602731762567,
+        "duration" : 43689
+      }
+    }, {
+      "uid" : "49f9e6ef5c820776",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602721718990,
+        "stop" : 1602721762450,
+        "duration" : 43460
+      }
+    }, {
+      "uid" : "cadab2d6b624ee18",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602668018777,
+        "stop" : 1602668062543,
+        "duration" : 43766
+      }
+    }, {
+      "uid" : "5b0b718fbe683ff8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602667464735,
+        "stop" : 1602667508617,
+        "duration" : 43882
+      }
+    }, {
+      "uid" : "83d7ad94315ef855",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602666697984,
+        "stop" : 1602666742026,
+        "duration" : 44042
+      }
+    }, {
+      "uid" : "30f2eb312f29598e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602222926041,
+        "stop" : 1602223067461,
+        "duration" : 141420
+      }
+    }, {
+      "uid" : "bc71192e9e943f29",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm > div > div > div > div > div.section___207eM.feature___Y1g27 > div.feature-main___3NXLZ > button\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602222519007,
+        "stop" : 1602222533144,
+        "duration" : 14137
+      }
+    }, {
+      "uid" : "9814dd20114edafc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602221002087,
+        "stop" : 1602221045827,
+        "duration" : 43740
+      }
+    }, {
+      "uid" : "1bf9459c036707da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602220425295,
+        "stop" : 1602220565691,
+        "duration" : 140396
+      }
+    }, {
+      "uid" : "792a9377dd026e2f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602215718069,
+        "stop" : 1602215894319,
+        "duration" : 176250
+      }
+    }, {
+      "uid" : "7eaf87a7b1eb006d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602215303919,
+        "stop" : 1602215353313,
+        "duration" : 49394
+      }
+    }, {
+      "uid" : "cd604b4c880dbfa1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602213283616,
+        "stop" : 1602213332505,
+        "duration" : 48889
+      }
+    }, {
+      "uid" : "36b7516901332cc2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602212783329,
+        "stop" : 1602212829757,
+        "duration" : 46428
+      }
+    }, {
+      "uid" : "63c74f6e7a562fbb",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602211260127,
+        "stop" : 1602211413201,
+        "duration" : 153074
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=-1)" ]
+  },
+  "source" : "94400f4ab73a55d.json",
+  "parameterValues" : [ ]
+}

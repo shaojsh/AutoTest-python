@@ -248,8 +248,24 @@ def test_Tripartite_interaction():
 
     loanCheck_bank(driver_bank)
     loanCheck_Risk(driver_risk)
-    # 去缴费
-    goToPay(driver_forward)
+
+    if runMode == 'UI':
+        # 去缴费
+        goToPay(driver_forward)
+    else:
+        waiteForClick(mobileDriver(text='我的'))
+        waiteForClick(mobileDriver(text='我的借款'))
+        waiteForClick(mobileDriver(text='去缴纳'))
+        mobileDriver(text='缴费凭证').drag_to(mobileDriver(text='缴费申请'), 0.5)
+        waiteForClick(mobileDriver(text='上传担保费缴费凭证'))
+        mobileDriver("android.widget.LinearLayout").offspring("com.tencent.mm:id/dm6").child("com.tencent.mm:id/f4b")[
+            1].child(
+            "com.tencent.mm:id/dm8").click()
+        waiteForClick(mobileDriver(text='完成'))
+        waiteForClick(mobileDriver(text='提交申请'))
+        waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
+        waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
+
     # 担保费审核
     costAudit(driver_risk)
 
@@ -418,7 +434,8 @@ def loanApply(driver_forward):
     sleep(1)
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.input_bankNumMan_css.value).send_keys(
         '12222221222222')
-    driver_forward.find_element_by_css_selector(path_Tripartite_interaction.input_bankPhone_css.value).send_keys(company_user)
+    driver_forward.find_element_by_css_selector(path_Tripartite_interaction.input_bankPhone_css.value).send_keys(
+        company_user)
     flushDb()
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_veryCod_css.value).click()
     while 1:
@@ -447,7 +464,8 @@ def loanApply(driver_forward):
 
     while True:
         try:
-            driver_forward.find_element_by_css_selector(path_Tripartite_interaction.select_repaymentWay_css.value).click()
+            driver_forward.find_element_by_css_selector(
+                path_Tripartite_interaction.select_repaymentWay_css.value).click()
             sleep(1)
             driver_forward.find_element_by_xpath("//*[text() = '随借随还']").click()
             break

@@ -1,0 +1,90 @@
+{
+  "uid" : "9de074bd74809249",
+  "name" : "test_Tripartite_interaction",
+  "fullName" : "test_flow.test_Tripartite_interaction.test_Tripartite_interaction#test_Tripartite_interaction",
+  "historyId" : "d91e7b4392163e0b46289a9f8b97b16c",
+  "time" : {
+    "start" : 1602739369299,
+    "stop" : 1602739378670,
+    "duration" : 9371
+  },
+  "description" : "测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互</p>\n",
+  "status" : "broken",
+  "statusMessage" : "poco.exceptions.InvalidOperationException: Swipe origin out of screen. [0.16666666666666666, 1.93984375]",
+  "statusTrace" : "@pytest.mark.run(order=-1)\n    @allure.severity(\"blocker\")\n    @allure.description(\"测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互\")\n    @allure.testcase(\"http://10.10.128.152:10052/#/account/login\", \"三方（企业，银行，前端）交互 \uD83D\uDC47\")\n    def test_Tripartite_interaction():\n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        # 前端账户授信申请\n        if runMode == 'UI':\n            driver_forward = webdriver.Chrome()\n            driver_forward.maximize_window()\n            driver_forward.get(url_forward)\n            logger.info('前端账户登录授信申请')\n            login(driver_forward)\n            creditExtension(driver_forward)\n        else:\n            waiteForClick(mobileDriver(text='首页'))\n            waiteForClick(mobileDriver(text='立即申请'))\n>           dragUntilTextAppear('首页', '产品服务', product_name)\n\ntest_flow\\test_Tripartite_interaction\\test_Tripartite_interaction.py:150: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ncommon\\BaseFunction.py:113: in dragUntilTextAppear\n    mobileDriver(text=text1).drag_to(mobileDriver(text=text2))\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:487: in drag_to\n    return self.swipe(dir_, duration=duration)\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:23: in wrapped\n    return func(proxy, *args, **kwargs)\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:459: in swipe\n    ret = self.poco.swipe(origin, direction=dir_vec, duration=duration)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <poco.drivers.android.uiautomation.AndroidUiautomationPoco object at 0x000002D308DD4400>\np1 = [0.16666666666666666, 1.93984375], p2 = None\ndirection = [-0.04166666666666666, -1.8671875], duration = 2.0\n\n    def swipe(self, p1, p2=None, direction=None, duration=2.0):\n        \"\"\"\n        Perform swipe action on target device from point to point given by start point and end point, or by the\n        direction vector. At least one of the end point or direction must be provided.\n    \n        The coordinates (x, y) definition for points is the same as for ``click`` event. The components of the\n        direction vector (x, y) are also expressed in the range of the screen from 0 to 1.\n    \n        See ``CoordinateSystem`` for more details about coordinate system.\n    \n        Examples:\n            Following example shows how to perform a swipe action from (100, 100) to (100, 200) on screen with\n            resolution 1920x1080::\n    \n                poco.swipe([100.0 / 1920, 100.0 / 1080], [100.0 / 1920, 200.0 / 1080])\n    \n            Or given by the specific direction instead of end point::\n    \n                poco.swipe([100.0 / 1920, 100.0 / 1080], direction=[0, 100.0 / 1080])\n    \n        Args:\n            p1 (:obj:`2-list/2-tuple`): start point\n            p2: end point\n            direction: swipe direction\n            duration (:obj:`float`): time interval in which the swipe action is performed\n    \n        Raises:\n            InvalidOperationException: when the start point of the swipe action lies outside the screen\n        \"\"\"\n    \n        try:\n            duration = float(duration)\n        except ValueError:\n            raise ValueError('Argument `duration` should be <float>. Got {}'.format(repr(duration)))\n    \n        if not (0 <= p1[0] <= 1) or not (0 <= p1[1] <= 1):\n>           raise InvalidOperationException('Swipe origin out of screen. {}'.format(repr(p1)))\nE           poco.exceptions.InvalidOperationException: Swipe origin out of screen. [0.16666666666666666, 1.93984375]\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\pocofw.py:298: InvalidOperationException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互",
+    "status" : "broken",
+    "statusMessage" : "poco.exceptions.InvalidOperationException: Swipe origin out of screen. [0.16666666666666666, 1.93984375]",
+    "statusTrace" : "@pytest.mark.run(order=-1)\n    @allure.severity(\"blocker\")\n    @allure.description(\"测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互\")\n    @allure.testcase(\"http://10.10.128.152:10052/#/account/login\", \"三方（企业，银行，前端）交互 \uD83D\uDC47\")\n    def test_Tripartite_interaction():\n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        # 前端账户授信申请\n        if runMode == 'UI':\n            driver_forward = webdriver.Chrome()\n            driver_forward.maximize_window()\n            driver_forward.get(url_forward)\n            logger.info('前端账户登录授信申请')\n            login(driver_forward)\n            creditExtension(driver_forward)\n        else:\n            waiteForClick(mobileDriver(text='首页'))\n            waiteForClick(mobileDriver(text='立即申请'))\n>           dragUntilTextAppear('首页', '产品服务', product_name)\n\ntest_flow\\test_Tripartite_interaction\\test_Tripartite_interaction.py:150: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ncommon\\BaseFunction.py:113: in dragUntilTextAppear\n    mobileDriver(text=text1).drag_to(mobileDriver(text=text2))\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:487: in drag_to\n    return self.swipe(dir_, duration=duration)\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:23: in wrapped\n    return func(proxy, *args, **kwargs)\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:459: in swipe\n    ret = self.poco.swipe(origin, direction=dir_vec, duration=duration)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <poco.drivers.android.uiautomation.AndroidUiautomationPoco object at 0x000002D308DD4400>\np1 = [0.16666666666666666, 1.93984375], p2 = None\ndirection = [-0.04166666666666666, -1.8671875], duration = 2.0\n\n    def swipe(self, p1, p2=None, direction=None, duration=2.0):\n        \"\"\"\n        Perform swipe action on target device from point to point given by start point and end point, or by the\n        direction vector. At least one of the end point or direction must be provided.\n    \n        The coordinates (x, y) definition for points is the same as for ``click`` event. The components of the\n        direction vector (x, y) are also expressed in the range of the screen from 0 to 1.\n    \n        See ``CoordinateSystem`` for more details about coordinate system.\n    \n        Examples:\n            Following example shows how to perform a swipe action from (100, 100) to (100, 200) on screen with\n            resolution 1920x1080::\n    \n                poco.swipe([100.0 / 1920, 100.0 / 1080], [100.0 / 1920, 200.0 / 1080])\n    \n            Or given by the specific direction instead of end point::\n    \n                poco.swipe([100.0 / 1920, 100.0 / 1080], direction=[0, 100.0 / 1080])\n    \n        Args:\n            p1 (:obj:`2-list/2-tuple`): start point\n            p2: end point\n            direction: swipe direction\n            duration (:obj:`float`): time interval in which the swipe action is performed\n    \n        Raises:\n            InvalidOperationException: when the start point of the swipe action lies outside the screen\n        \"\"\"\n    \n        try:\n            duration = float(duration)\n        except ValueError:\n            raise ValueError('Argument `duration` should be <float>. Got {}'.format(repr(duration)))\n    \n        if not (0 <= p1[0] <= 1) or not (0 <= p1[1] <= 1):\n>           raise InvalidOperationException('Swipe origin out of screen. {}'.format(repr(p1)))\nE           poco.exceptions.InvalidOperationException: Swipe origin out of screen. [0.16666666666666666, 1.93984375]\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\pocofw.py:298: InvalidOperationException",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d2d2d388a485449f",
+      "name" : "log",
+      "source" : "d2d2d388a485449f.txt",
+      "type" : "text/plain",
+      "size" : 4045
+    }, {
+      "uid" : "7b30a06a79c9deca",
+      "name" : "stderr",
+      "source" : "7b30a06a79c9deca.txt",
+      "type" : "text/plain",
+      "size" : 4074
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=-1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Tripartite_interaction"
+  }, {
+    "name" : "suite",
+    "value" : "test_Tripartite_interaction"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "13020-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Tripartite_interaction.test_Tripartite_interaction"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "三方（企业，银行，前端）交互 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/account/login",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=-1)" ]
+  },
+  "source" : "9de074bd74809249.json",
+  "parameterValues" : [ ]
+}
