@@ -8,7 +8,7 @@ from common.BaseFunction import waitUntilDisplay
 from common.dbLink import updateNameCompany
 from flow_path.path_backStage_authentication import path_backStage_authentication
 from flow_path.path_backstage_examine import path_backstage_examine
-from run_all_case import yamldict, logger
+from run_all_case import yamldict, logger, runMode
 from common import Assert
 
 businessName = yamldict['test_backStageUserList']['company_name']
@@ -41,6 +41,7 @@ def test_backstage_examine():
     sleep(1)
     elList = driver.find_elements_by_xpath(path_backstage_examine.btn_bussListName_xpath.value)
     index = 0
+
     for i in range(len(elList)):
         path = path_backstage_examine.btn_bussListName_xpath.value + '[' + str(i + 1) + ']/' + 'td' + '[' + str(1) + ']'
         text = driver.find_element_by_xpath(path).text

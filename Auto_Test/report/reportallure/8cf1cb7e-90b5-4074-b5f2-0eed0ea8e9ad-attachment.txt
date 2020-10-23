@@ -1,0 +1,51 @@
+[05:08:52][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell monkey -p com.tencent.mm -c android.intent.category.LAUNCHER 1
+[05:08:54][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell ls /data/local/tmp/minicap
+[05:08:54][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell ls /data/local/tmp/minicap.so
+[05:08:55][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -v 2>&1
+[05:08:55][DEBUG]<airtest.core.android.minicap> version:6
+[05:08:55][DEBUG]<airtest.core.android.minicap> skip install minicap
+[05:08:55][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -i
+[05:08:55][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell dumpsys window displays
+[05:08:55][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell getprop ro.product.cpu.abi
+[05:08:55][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell getprop ro.build.version.sdk
+[05:08:55][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell ls /data/local/tmp/minitouch
+[05:08:56][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell stat -c %s /data/local/tmp/minitouch
+[05:08:56][DEBUG]<airtest.core.android.touch_methods.minitouch> install_minitouch skipped
+[05:08:56][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -i
+[05:08:56][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell dumpsys window displays
+[05:08:56][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 forward --no-rebind tcp:15269 localabstract:minitouch_15269
+[05:08:56][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell /data/local/tmp/minitouch -n 'minitouch_15269' 2>&1
+[05:08:56][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Note: device /dev/input/mouse0 is not supported by libevdev'
+[05:08:56][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Note: device /dev/input/mice is not supported by libevdev'
+[05:08:57][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Type B touch device goodix-ts (720x1280 with 16 contacts) detected on /dev/input/event2 (score 21975)'
+[05:08:57][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Note: hard-limiting maximum number of contacts to 10'
+[05:08:57][DEBUG]<airtest.core.android.touch_methods.minitouch> minitouch header:b'v 1\n^ 10 720 1280 1023\n$ 22886\n'
+[05:08:57][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Connection established'
+Fri, 23 Oct 2020 17:09:12-run_all_case.py-test_login.py-[line:105]-INFO-[日志信息]: PC 端进行密码修改
+Fri, 23 Oct 2020 17:09:12-run_all_case.py-test_login.py-[line:107]-INFO-[日志信息]: 小程序个人实名认证页面
+[05:09:58][INFO]<airtest.core.api> Try finding:
+Template(C:\Users\shaojunshuai\PycharmProjects\AutoTest-python\Auto_Test\test_data\picture\id_6.png)
+[05:09:58][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell pm path jp.co.cyberagent.stf.rotationwatcher
+[05:09:59][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell export CLASSPATH=/data/app/jp.co.cyberagent.stf.rotationwatcher-1/base.apk;exec app_process /system/bin jp.co.cyberagent.stf.rotationwatcher.RotationWatcher
+[05:10:00][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 forward --no-rebind tcp:14876 localabstract:minicap_14876
+[05:10:00][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -i
+[05:10:00][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell dumpsys window displays
+[05:10:00][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -n 'minicap_14876' -P 720x1280@720x1280/0 -l 2>&1
+[05:10:01][DEBUG]<airtest.utils.nbsp> [minicap_server]b'PID: 23404'
+[05:10:01][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: Using projection 720x1280@720x1280/0'
+[05:10:01][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_25.cpp:241) Creating SurfaceComposerClient'
+[05:10:01][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_25.cpp:244) Performing SurfaceComposerClient init check'
+[05:10:01][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_25.cpp:251) Creating virtual display'
+[05:10:01][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_25.cpp:257) Creating buffer queue'
+[05:10:01][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_25.cpp:262) Creating CPU consumer'
+[05:10:01][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_25.cpp:266) Creating frame waiter'
+[05:10:01][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_25.cpp:270) Publishing virtual display'
+[05:10:01][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_25.cpp:287) Found 7.1 Developer Preview SurfaceComposerClient::setDisplaySurface'
+[05:10:01][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/JpgEncoder.cpp:64) Allocating 2766852 bytes for JPG encoder'
+[05:10:01][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/minicap.cpp:489) Server start'
+[05:10:01][DEBUG]<airtest.core.android.minicap> (1, 24, 23404, 720, 1280, 720, 1280, 0, 2)
+[05:10:01][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/minicap.cpp:492) New client connection'
+[05:10:01][DEBUG]<airtest.core.api> try match with SURFMatching
+[05:10:01][DEBUG]<airtest.aircv.keypoint_base> [SURF] threshold=0.7, result={'result': [63, 95], 'rectangle': [(35, 58), (35, 131), (90, 131), (90, 58)], 'confidence': 0.7032605111598969}
+[05:10:01][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.38 s.
+[05:10:01][DEBUG]<airtest.core.api> match result: {'result': [63, 95], 'rectangle': [(35, 58), (35, 131), (90, 131), (90, 58)], 'confidence': 0.7032605111598969}

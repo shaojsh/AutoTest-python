@@ -178,8 +178,8 @@ def test_Tripartite_interaction():
         waiteForClick(mobileDriver(text='提交授信'))
         # 活体认证欺诈性校验
         getVerification()
-        waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
-        waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
+        mobileDriver(name='com.tencent.mm:id/dc')
+        waiteForClick(mobileDriver(text='我的'))
         logger.info('授信完成页面')
 
     # 银行授信审核
@@ -242,10 +242,10 @@ def test_Tripartite_interaction():
 
         waiteForClick(mobileDriver(text='我已阅读并同意提交资料').child()[2])
         waiteForClick(mobileDriver(text='提交借款申请'))
+        sleep(5)
         getVerification()
         waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
         waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
-
     loanCheck_bank(driver_bank)
     loanCheck_Risk(driver_risk)
 
@@ -256,6 +256,7 @@ def test_Tripartite_interaction():
         waiteForClick(mobileDriver(text='我的'))
         waiteForClick(mobileDriver(text='我的借款'))
         waiteForClick(mobileDriver(text='去缴纳'))
+        sleep(2)
         mobileDriver(text='缴费凭证').drag_to(mobileDriver(text='缴费申请'), 0.5)
         waiteForClick(mobileDriver(text='上传担保费缴费凭证'))
         mobileDriver("android.widget.LinearLayout").offspring("com.tencent.mm:id/dm6").child("com.tencent.mm:id/f4b")[

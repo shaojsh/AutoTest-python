@@ -1,0 +1,53 @@
+Fri, 23 Oct 2020 17:15:48-run_all_case.py-test_Tripartite_interaction.py-[line:143]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Fri, 23 Oct 2020 17:16:00-run_all_case.py-test_Tripartite_interaction.py-[line:162]-INFO-[日志信息]: 授信采购信息画面
+[05:16:03][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '123456789012'
+[05:16:04][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER
+Fri, 23 Oct 2020 17:16:16-run_all_case.py-test_Tripartite_interaction.py-[line:170]-INFO-[日志信息]: 授信基本资料页面
+Fri, 23 Oct 2020 17:16:19-run_all_case.py-test_Tripartite_interaction.py-[line:173]-INFO-[日志信息]: 授信页面
+Fri, 23 Oct 2020 17:17:00-run_all_case.py-test_Tripartite_interaction.py-[line:182]-INFO-[日志信息]: 授信完成页面
+[05:17:00][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am force-stop com.netease.open.pocoservice
+[05:17:01][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am start -n com.netease.open.pocoservice/.TestActivity
+[05:17:03][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am instrument -w -e debug false -e class com.netease.open.pocoservice.InstrumentedTestAsLauncher com.netease.open.pocoservice.test/android.support.test.runner.AndroidJUnitRunner
+Fri, 23 Oct 2020 17:17:10-run_all_case.py-test_Tripartite_interaction.py-[line:188]-INFO-[日志信息]: 银行授信审核
+Fri, 23 Oct 2020 17:17:10-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Fri, 23 Oct 2020 17:17:10-run_all_case.py-test_Tripartite_interaction.py-[line:366]-INFO-[日志信息]: 银行授信审核首页
+Fri, 23 Oct 2020 17:17:12-run_all_case.py-test_Tripartite_interaction.py-[line:371]-INFO-[日志信息]: 银行待审批授信页面
+Fri, 23 Oct 2020 17:17:13-run_all_case.py-test_Tripartite_interaction.py-[line:375]-INFO-[日志信息]: 审批授信评分卡页面
+Fri, 23 Oct 2020 17:17:16-run_all_case.py-test_Tripartite_interaction.py-[line:381]-INFO-[日志信息]: 审批授信审核页面
+Fri, 23 Oct 2020 17:17:27-run_all_case.py-test_Tripartite_interaction.py-[line:196]-INFO-[日志信息]: 担保公司审核
+Fri, 23 Oct 2020 17:17:28-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Fri, 23 Oct 2020 17:17:28-run_all_case.py-test_Tripartite_interaction.py-[line:401]-INFO-[日志信息]: 担保公司授信审核首页
+Fri, 23 Oct 2020 17:17:30-run_all_case.py-test_Tripartite_interaction.py-[line:406]-INFO-[日志信息]: 银行待审批授信页面
+Fri, 23 Oct 2020 17:17:30-run_all_case.py-test_Tripartite_interaction.py-[line:410]-INFO-[日志信息]: 审批授信评分卡页面
+Fri, 23 Oct 2020 17:17:32-run_all_case.py-test_Tripartite_interaction.py-[line:414]-INFO-[日志信息]: 审批授信审核页面
+Fri, 23 Oct 2020 17:17:38-run_all_case.py-test_Tripartite_interaction.py-[line:207]-INFO-[日志信息]: 添加银行卡账户画面
+[05:17:40][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '1234567890123'
+[05:17:42][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER
+Exception ignored in: <bound method RpcObjectProxy.__del__ of '<Rpc remote object proxy of [Lcom.netease.open.libpoco.sdk.AbstractNode;@34ea712>'>
+Traceback (most recent call last):
+  File "C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\hrpc\object_proxy.py", line 114, in __del__
+    self._client__.evaluate(RpcObjectProxy(self._uri__, self._client__, action), wait_for_response=False)
+  File "C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\hrpc\client.py", line 63, in evaluate
+    self.transport.send({'id': reqid, 'uri': obj_proxy._uri__, 'method': obj_proxy._invocation_path__})
+  File "C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\hrpc\transport\http.py", line 26, in send
+    raise TransportDisconnected(e)
+hrpc.exceptions.TransportDisconnected: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[05:17:50][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '621496'
+[05:17:50][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am force-stop com.netease.open.pocoservice
+[05:17:51][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER
+[05:17:51][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am start -n com.netease.open.pocoservice/.TestActivity
+[05:17:52][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am instrument -w -e debug false -e class com.netease.open.pocoservice.InstrumentedTestAsLauncher com.netease.open.pocoservice.test/android.support.test.runner.AndroidJUnitRunner
+Fri, 23 Oct 2020 17:18:00-run_all_case.py-test_Tripartite_interaction.py-[line:225]-INFO-[日志信息]: 借款申请页面
+[05:18:08][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '100000'
+[05:18:09][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER
+[05:18:14][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '8'
+[05:18:15][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER
+[05:18:22][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '借钱还账'
+[05:18:23][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER
+Fri, 23 Oct 2020 17:18:39-run_all_case.py-test_Tripartite_interaction.py-[line:494]-INFO-[日志信息]: 银行借款审核首页
+Fri, 23 Oct 2020 17:18:42-run_all_case.py-test_Tripartite_interaction.py-[line:500]-INFO-[日志信息]: 银行借款审核列表首页
+Fri, 23 Oct 2020 17:18:42-run_all_case.py-test_Tripartite_interaction.py-[line:504]-INFO-[日志信息]: 银行审核页面
+Fri, 23 Oct 2020 17:18:46-run_all_case.py-test_Tripartite_interaction.py-[line:515]-INFO-[日志信息]: 担保公司借款审核首页
+Fri, 23 Oct 2020 17:18:48-run_all_case.py-test_Tripartite_interaction.py-[line:521]-INFO-[日志信息]: 担保公司借款审核列表首页
+Fri, 23 Oct 2020 17:18:49-run_all_case.py-test_Tripartite_interaction.py-[line:525]-INFO-[日志信息]: 担保公司审核页面

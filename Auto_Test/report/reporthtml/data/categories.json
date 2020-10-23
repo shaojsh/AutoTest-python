@@ -7,13 +7,13 @@
       "name" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=缴费凭证\"",
       "children" : [ {
         "name" : "test_Tripartite_interaction",
-        "uid" : "94400f4ab73a55d",
+        "uid" : "aa9fa033ea00a02c",
         "parentUid" : "ae836fda1ec0f45c4e0b77e3eab1fb61",
         "status" : "broken",
         "time" : {
-          "start" : 1603438041776,
-          "stop" : 1603438051820,
-          "duration" : 10044
+          "start" : 1603444548618,
+          "stop" : 1603444752518,
+          "duration" : 203900
         },
         "flaky" : false,
         "newFailed" : false,

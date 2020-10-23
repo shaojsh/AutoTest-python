@@ -1,3 +1,4 @@
+import os
 import sys
 
 from time import sleep
@@ -7,7 +8,7 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-from androidBaseFlow import startWeinxin
+from androidBaseFlow import startWeinxin, Template, touch
 from common import Assert
 from common.BaseFunction import waitUntilDisplay, waitUntilClick, waiteForClick
 from common.dbLink import getPhoneMessage, flushDb, deleteInforMobile, getVerification
@@ -131,8 +132,9 @@ def test_companyRegister():
                 break
             else:
                 continue
-        mobileDriver(name='com.tencent.mm:id/dc')
-        mobileDriver(name='com.tencent.mm:id/dc')
+        picture_dir = os.getcwd() + '\\test_data\\picture\\id_6.png'
+        touch(Template(picture_dir))
+
 
 
 # 后端账户修改密码
@@ -230,4 +232,3 @@ def clearCache():
     waiteForClick(mobileDriver(text='WeChat'))
     waiteForClick(mobileDriver(text='wx.clearStorage()'))
     waiteForClick(mobileDriver(text='重启当前页面'))
-
