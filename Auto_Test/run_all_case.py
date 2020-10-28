@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 _*_
-
+import basegit
 import time
 import os
 import sys
