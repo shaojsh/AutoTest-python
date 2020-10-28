@@ -1,0 +1,1086 @@
+{
+  "uid" : "6f683164fd2df33f",
+  "name" : "test_backstage_examine",
+  "fullName" : "test_flow.test_Authentication.test_backStage_examine#test_backstage_examine",
+  "historyId" : "fa363551da3b313dda3c470cf52ad218",
+  "time" : {
+    "start" : 1603847290352,
+    "stop" : 1603847309475,
+    "duration" : 19123
+  },
+  "description" : "http://10.10.128.152:10052/#/enterprise/list 企业审核",
+  "descriptionHtml" : "<p>http://10.10.128.152:10052/#/enterprise/list 企业审核</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "http://10.10.128.152:10052/#/enterprise/list 企业审核",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "792f12965f4d577d",
+      "name" : "log",
+      "source" : "792f12965f4d577d.txt",
+      "type" : "text/plain",
+      "size" : 487
+    }, {
+      "uid" : "3cc4b37770eb207e",
+      "name" : "stderr",
+      "source" : "3cc4b37770eb207e.txt",
+      "type" : "text/plain",
+      "size" : 713
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_backStage_examine"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "18252-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_backStage_examine"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "企业审核 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/enterprise/list",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "4828b9be939de0b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603846593565,
+        "stop" : 1603846616179,
+        "duration" : 22614
+      }
+    }, {
+      "uid" : "a2090040174b7154",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603845992170,
+        "stop" : 1603846011229,
+        "duration" : 19059
+      }
+    }, {
+      "uid" : "5f55e46909411c3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603845449218,
+        "stop" : 1603845472032,
+        "duration" : 22814
+      }
+    }, {
+      "uid" : "ac2b4ad8c1951400",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603791741122,
+        "stop" : 1603791764178,
+        "duration" : 23056
+      }
+    }, {
+      "uid" : "1e1ff5dbfef8bff9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603791137675,
+        "stop" : 1603791156697,
+        "duration" : 19022
+      }
+    }, {
+      "uid" : "1197a7c3cca4c016",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603790568050,
+        "stop" : 1603790590806,
+        "duration" : 22756
+      }
+    }, {
+      "uid" : "112d7a0cd612ccbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603789417433,
+        "stop" : 1603789439449,
+        "duration" : 22016
+      }
+    }, {
+      "uid" : "500038344b77ca65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603789076157,
+        "stop" : 1603789095108,
+        "duration" : 18951
+      }
+    }, {
+      "uid" : "b3c17a5a267efe42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603788216400,
+        "stop" : 1603788239184,
+        "duration" : 22784
+      }
+    }, {
+      "uid" : "d6a0601684d59b91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603787335269,
+        "stop" : 1603787354260,
+        "duration" : 18991
+      }
+    }, {
+      "uid" : "cc1b84d20c574b31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603786696290,
+        "stop" : 1603786719815,
+        "duration" : 23525
+      }
+    }, {
+      "uid" : "2adafa372c5120a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603785499809,
+        "stop" : 1603785518821,
+        "duration" : 19012
+      }
+    }, {
+      "uid" : "1b5232e2c8249091",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603785035236,
+        "stop" : 1603785057343,
+        "duration" : 22107
+      }
+    }, {
+      "uid" : "bfe36a606b65bedb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603784195211,
+        "stop" : 1603784214259,
+        "duration" : 19048
+      }
+    }, {
+      "uid" : "c56fe62782dc6bb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603783622392,
+        "stop" : 1603783645085,
+        "duration" : 22693
+      }
+    }, {
+      "uid" : "4415545d78c28195",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603783140129,
+        "stop" : 1603783159160,
+        "duration" : 19031
+      }
+    }, {
+      "uid" : "5d674fca3197a14c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603782630900,
+        "stop" : 1603782653996,
+        "duration" : 23096
+      }
+    }, {
+      "uid" : "bdfe3d4560b3a08f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603781912866,
+        "stop" : 1603781932020,
+        "duration" : 19154
+      }
+    }, {
+      "uid" : "50fdf9999bf6a189",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603781449109,
+        "stop" : 1603781471684,
+        "duration" : 22575
+      }
+    }, {
+      "uid" : "708583bdaa298c94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603780958061,
+        "stop" : 1603780977075,
+        "duration" : 19014
+      }
+    }, {
+      "uid" : "93ed3e051602ee2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603780421389,
+        "stop" : 1603780444457,
+        "duration" : 23068
+      }
+    }, {
+      "uid" : "65493cd5c605e67d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603779853296,
+        "stop" : 1603779872360,
+        "duration" : 19064
+      }
+    }, {
+      "uid" : "c5eab1471683addf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603779196609,
+        "stop" : 1603779219199,
+        "duration" : 22590
+      }
+    }, {
+      "uid" : "34657520dbab4cbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603778084350,
+        "stop" : 1603778106976,
+        "duration" : 22626
+      }
+    }, {
+      "uid" : "d93ab97cd6af951a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603777342460,
+        "stop" : 1603777361364,
+        "duration" : 18904
+      }
+    }, {
+      "uid" : "ed90895085520279",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603776785629,
+        "stop" : 1603776808533,
+        "duration" : 22904
+      }
+    }, {
+      "uid" : "514aaa5c40392622",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603776206486,
+        "stop" : 1603776225526,
+        "duration" : 19040
+      }
+    }, {
+      "uid" : "998e4c60c027be09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603775622498,
+        "stop" : 1603775645201,
+        "duration" : 22703
+      }
+    }, {
+      "uid" : "beb01b6f4e55ccb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603775088929,
+        "stop" : 1603775107820,
+        "duration" : 18891
+      }
+    }, {
+      "uid" : "38427e36f1c1031d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603774382634,
+        "stop" : 1603774405155,
+        "duration" : 22521
+      }
+    }, {
+      "uid" : "eae33c11017c7fe7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603768220192,
+        "stop" : 1603768239216,
+        "duration" : 19024
+      }
+    }, {
+      "uid" : "43db38d33d9b4672",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603767351662,
+        "stop" : 1603767370707,
+        "duration" : 19045
+      }
+    }, {
+      "uid" : "28af4af0b78a8e3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603766471852,
+        "stop" : 1603766494502,
+        "duration" : 22650
+      }
+    }, {
+      "uid" : "5d7802d6bb8c453d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603765750557,
+        "stop" : 1603765769522,
+        "duration" : 18965
+      }
+    }, {
+      "uid" : "33add865104a9eca",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603765492372,
+        "stop" : 1603765509856,
+        "duration" : 17484
+      }
+    }, {
+      "uid" : "ff4e2c2d673a8486",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603765241352,
+        "stop" : 1603765260623,
+        "duration" : 19271
+      }
+    }, {
+      "uid" : "dac0effad9723d18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603764094509,
+        "stop" : 1603764113510,
+        "duration" : 19001
+      }
+    }, {
+      "uid" : "bbbdf453b3981e51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603763513067,
+        "stop" : 1603763535547,
+        "duration" : 22480
+      }
+    }, {
+      "uid" : "dbf8b4d3e528015e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603762587785,
+        "stop" : 1603762606849,
+        "duration" : 19064
+      }
+    }, {
+      "uid" : "6fb4d881949a0927",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603761796087,
+        "stop" : 1603761819134,
+        "duration" : 23047
+      }
+    }, {
+      "uid" : "6480fe4eb8f96f69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603760675322,
+        "stop" : 1603760697914,
+        "duration" : 22592
+      }
+    }, {
+      "uid" : "ec1c997893db3f98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603698563471,
+        "stop" : 1603698582480,
+        "duration" : 19009
+      }
+    }, {
+      "uid" : "1a6e7de60242af8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603697220958,
+        "stop" : 1603697239975,
+        "duration" : 19017
+      }
+    }, {
+      "uid" : "85876e8e651bbc33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603696625119,
+        "stop" : 1603696644135,
+        "duration" : 19016
+      }
+    }, {
+      "uid" : "7a283d278320dc9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603695817126,
+        "stop" : 1603695839900,
+        "duration" : 22774
+      }
+    }, {
+      "uid" : "ece75d44f5846ce4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603675996364,
+        "stop" : 1603676019423,
+        "duration" : 23059
+      }
+    }, {
+      "uid" : "445c7bf160d0c09c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603675510517,
+        "stop" : 1603675530113,
+        "duration" : 19596
+      }
+    }, {
+      "uid" : "fa3dc633a4a99372",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603444303459,
+        "stop" : 1603444326365,
+        "duration" : 22906
+      }
+    }, {
+      "uid" : "fd2ee025ed899ec8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603442907201,
+        "stop" : 1603442930259,
+        "duration" : 23058
+      }
+    }, {
+      "uid" : "c2b7c1ac8594206c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603442008476,
+        "stop" : 1603442024475,
+        "duration" : 15999
+      }
+    }, {
+      "uid" : "bd3bff66391e08a6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603441595439,
+        "stop" : 1603441614512,
+        "duration" : 19073
+      }
+    }, {
+      "uid" : "78493bc9925d33d6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603440632377,
+        "stop" : 1603440651767,
+        "duration" : 19390
+      }
+    }, {
+      "uid" : "ffdc5909c9d908e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603437091201,
+        "stop" : 1603437110276,
+        "duration" : 19075
+      }
+    }, {
+      "uid" : "fd0f818f6793341e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603436490091,
+        "stop" : 1603436512756,
+        "duration" : 22665
+      }
+    }, {
+      "uid" : "ae89c844132a78c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603436046791,
+        "stop" : 1603436065905,
+        "duration" : 19114
+      }
+    }, {
+      "uid" : "c3dd752a91586b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603435415626,
+        "stop" : 1603435434694,
+        "duration" : 19068
+      }
+    }, {
+      "uid" : "ee1f284f264adcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603434756725,
+        "stop" : 1603434775777,
+        "duration" : 19052
+      }
+    }, {
+      "uid" : "7b648c76b599c145",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603434137817,
+        "stop" : 1603434156780,
+        "duration" : 18963
+      }
+    }, {
+      "uid" : "850d52caac2b622c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603432687596,
+        "stop" : 1603432706721,
+        "duration" : 19125
+      }
+    }, {
+      "uid" : "7bc6845399c7ec71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603432119777,
+        "stop" : 1603432138895,
+        "duration" : 19118
+      }
+    }, {
+      "uid" : "c7183495dd315ce8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603430869411,
+        "stop" : 1603430888487,
+        "duration" : 19076
+      }
+    }, {
+      "uid" : "843c86dbe8185fee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603429369936,
+        "stop" : 1603429389014,
+        "duration" : 19078
+      }
+    }, {
+      "uid" : "852df0309a831c91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603422372245,
+        "stop" : 1603422391278,
+        "duration" : 19033
+      }
+    }, {
+      "uid" : "ecd972f3c7d1b36d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603421696968,
+        "stop" : 1603421720040,
+        "duration" : 23072
+      }
+    }, {
+      "uid" : "42977d00db3603c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603420927383,
+        "stop" : 1603420946546,
+        "duration" : 19163
+      }
+    }, {
+      "uid" : "affd790efa838ade",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603417508393,
+        "stop" : 1603417524442,
+        "duration" : 16049
+      }
+    }, {
+      "uid" : "1067472a27d4e72",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603416007662,
+        "stop" : 1603416023419,
+        "duration" : 15757
+      }
+    }, {
+      "uid" : "bac8583384a5afca",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603413752380,
+        "stop" : 1603413771842,
+        "duration" : 19462
+      }
+    }, {
+      "uid" : "fdce19e4226901d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603355665706,
+        "stop" : 1603355684818,
+        "duration" : 19112
+      }
+    }, {
+      "uid" : "d3bea74166353bd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603354344287,
+        "stop" : 1603354363376,
+        "duration" : 19089
+      }
+    }, {
+      "uid" : "1ff873011c048240",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603353822186,
+        "stop" : 1603353841236,
+        "duration" : 19050
+      }
+    }, {
+      "uid" : "ed5f5e94fd0824cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603352177480,
+        "stop" : 1603352196495,
+        "duration" : 19015
+      }
+    }, {
+      "uid" : "dd7b23bf289ab076",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603351197816,
+        "stop" : 1603351213499,
+        "duration" : 15683
+      }
+    }, {
+      "uid" : "22795ec8247146cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603344224477,
+        "stop" : 1603344243676,
+        "duration" : 19199
+      }
+    }, {
+      "uid" : "fe2911a2b3e45240",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603342884990,
+        "stop" : 1603342900813,
+        "duration" : 15823
+      }
+    }, {
+      "uid" : "ceb115ded51757af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603342569862,
+        "stop" : 1603342589145,
+        "duration" : 19283
+      }
+    }, {
+      "uid" : "bfef15324b4c4a46",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603336076597,
+        "stop" : 1603336090134,
+        "duration" : 13537
+      }
+    }, {
+      "uid" : "943b7fa942e5ed92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603335889428,
+        "stop" : 1603335908785,
+        "duration" : 19357
+      }
+    }, {
+      "uid" : "e790df0973d860a4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span>...</span> is not clickable at point (76, 396). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603335717708,
+        "stop" : 1603335730771,
+        "duration" : 13063
+      }
+    }, {
+      "uid" : "308bf8992e32a4ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603330950408,
+        "stop" : 1603330969461,
+        "duration" : 19053
+      }
+    }, {
+      "uid" : "20a8b0a7300b7d5b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603330907615,
+        "stop" : 1603330923395,
+        "duration" : 15780
+      }
+    }, {
+      "uid" : "953afe41c8ae012",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603330839654,
+        "stop" : 1603330855582,
+        "duration" : 15928
+      }
+    }, {
+      "uid" : "5d51ad81ec2d6c74",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603326235639,
+        "stop" : 1603326279390,
+        "duration" : 43751
+      }
+    }, {
+      "uid" : "296312315273e59a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602836382410,
+        "stop" : 1602836400024,
+        "duration" : 17614
+      }
+    }, {
+      "uid" : "b96ed42f24cf8d57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602826347579,
+        "stop" : 1602826366663,
+        "duration" : 19084
+      }
+    }, {
+      "uid" : "99e661a666879503",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602825666344,
+        "stop" : 1602825685507,
+        "duration" : 19163
+      }
+    }, {
+      "uid" : "1df686cf3ba72a41",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602825290909,
+        "stop" : 1602825306557,
+        "duration" : 15648
+      }
+    }, {
+      "uid" : "3f39cd2e37079057",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602824980670,
+        "stop" : 1602824998246,
+        "duration" : 17576
+      }
+    }, {
+      "uid" : "e5cf3e575935f7a0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602819109693,
+        "stop" : 1602819125653,
+        "duration" : 15960
+      }
+    }, {
+      "uid" : "7b6c6090f931f3a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602748879839,
+        "stop" : 1602748899912,
+        "duration" : 20073
+      }
+    }, {
+      "uid" : "e33b23515b90e9c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602738672099,
+        "stop" : 1602738691079,
+        "duration" : 18980
+      }
+    }, {
+      "uid" : "7a85f49ddce489f0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602737986674,
+        "stop" : 1602738002267,
+        "duration" : 15593
+      }
+    }, {
+      "uid" : "5f882340fce0760e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602737523910,
+        "stop" : 1602737539528,
+        "duration" : 15618
+      }
+    }, {
+      "uid" : "faae8c314fa45f81",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602731608755,
+        "stop" : 1602731624433,
+        "duration" : 15678
+      }
+    }, {
+      "uid" : "77c3142ade87505",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602728389812,
+        "stop" : 1602728408800,
+        "duration" : 18988
+      }
+    }, {
+      "uid" : "f812170096d9f382",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602726315280,
+        "stop" : 1602726334350,
+        "duration" : 19070
+      }
+    }, {
+      "uid" : "d1abbec6c520b021",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602724984648,
+        "stop" : 1602725003746,
+        "duration" : 19098
+      }
+    }, {
+      "uid" : "74059a36973daf1b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > section > section > main > div > div:nth-child(4) > div.ant-btn-group > button.ant-btn.ant-btn-primary\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602723464938,
+        "stop" : 1602723480452,
+        "duration" : 15514
+      }
+    }, {
+      "uid" : "84dbe4af28cadf91",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > section > section > main > div > div:nth-child(4) > div.ant-btn-group > button.ant-btn.ant-btn-primary\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602722777566,
+        "stop" : 1602722793053,
+        "duration" : 15487
+      }
+    }, {
+      "uid" : "7a81751cd782c107",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602721601518,
+        "stop" : 1602721647094,
+        "duration" : 45576
+      }
+    }, {
+      "uid" : "685a9e843153c794",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602667915715,
+        "stop" : 1602667935056,
+        "duration" : 19341
+      }
+    }, {
+      "uid" : "b3a042e0021943c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602667386526,
+        "stop" : 1602667405869,
+        "duration" : 19343
+      }
+    }, {
+      "uid" : "9cca6eba9891027e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602666620196,
+        "stop" : 1602666639475,
+        "duration" : 19279
+      }
+    }, {
+      "uid" : "baac4645bf27f2da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602666104243,
+        "stop" : 1602666123588,
+        "duration" : 19345
+      }
+    }, {
+      "uid" : "9945849ba863681d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602223192586,
+        "stop" : 1602223211437,
+        "duration" : 18851
+      }
+    }, {
+      "uid" : "62811f0186ab36c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602222767890,
+        "stop" : 1602222786757,
+        "duration" : 18867
+      }
+    }, {
+      "uid" : "4d907796fc69d3d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602222365536,
+        "stop" : 1602222384298,
+        "duration" : 18762
+      }
+    }, {
+      "uid" : "89adb11715fe8d74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602222207172,
+        "stop" : 1602222226139,
+        "duration" : 18967
+      }
+    }, {
+      "uid" : "7c79d0d46536a41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602221586164,
+        "stop" : 1602221608490,
+        "duration" : 22326
+      }
+    }, {
+      "uid" : "68d369edcecbe8e8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602220892721,
+        "stop" : 1602220908666,
+        "duration" : 15945
+      }
+    }, {
+      "uid" : "ca38aa10b848ee55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602220732475,
+        "stop" : 1602220751262,
+        "duration" : 18787
+      }
+    }, {
+      "uid" : "46ebc2bb60ab6750",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602220267488,
+        "stop" : 1602220286311,
+        "duration" : 18823
+      }
+    }, {
+      "uid" : "a8568783c483e58",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602219814972,
+        "stop" : 1602219830786,
+        "duration" : 15814
+      }
+    }, {
+      "uid" : "d42852ce21fbcd91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602215561302,
+        "stop" : 1602215580236,
+        "duration" : 18934
+      }
+    }, {
+      "uid" : "7e42b9e7e617a15c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602215152197,
+        "stop" : 1602215171054,
+        "duration" : 18857
+      }
+    }, {
+      "uid" : "2798ae2858ce7f4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602213131841,
+        "stop" : 1602213150738,
+        "duration" : 18897
+      }
+    }, {
+      "uid" : "901933dfcc209328",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: failed to change window state to normal, current state is minimized\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602212629271,
+        "stop" : 1602212638744,
+        "duration" : 9473
+      }
+    }, {
+      "uid" : "c86e377ecb071908",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602211106950,
+        "stop" : 1602211125712,
+        "duration" : 18762
+      }
+    }, {
+      "uid" : "1c3c64dccc8a6ce9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602210756690,
+        "stop" : 1602210775676,
+        "duration" : 18986
+      }
+    }, {
+      "uid" : "6bcdef6581825eb7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602210480591,
+        "stop" : 1602210521197,
+        "duration" : 40606
+      }
+    }, {
+      "uid" : "f9cdd0a7ab1bebaf",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602210333578,
+        "stop" : 1602210351098,
+        "duration" : 17520
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=4)" ]
+  },
+  "source" : "6f683164fd2df33f.json",
+  "parameterValues" : [ ]
+}

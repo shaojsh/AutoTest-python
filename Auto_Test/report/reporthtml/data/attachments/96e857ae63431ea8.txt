@@ -1,0 +1,40 @@
+Tue, 27 Oct 2020 09:25:58-run_all_case.py-test_Tripartite_interaction.py-[line:143]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 27 Oct 2020 09:26:07-run_all_case.py-test_Tripartite_interaction.py-[line:161]-INFO-[日志信息]: 授信采购信息画面
+[09:26:10][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '123456789012'
+[09:26:11][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER
+Tue, 27 Oct 2020 09:26:24-run_all_case.py-test_Tripartite_interaction.py-[line:169]-INFO-[日志信息]: 授信基本资料页面
+Tue, 27 Oct 2020 09:26:26-run_all_case.py-test_Tripartite_interaction.py-[line:172]-INFO-[日志信息]: 授信页面
+Tue, 27 Oct 2020 09:26:41-run_all_case.py-test_Tripartite_interaction.py-[line:191]-INFO-[日志信息]: 授信完成页面
+Tue, 27 Oct 2020 09:26:51-run_all_case.py-test_Tripartite_interaction.py-[line:197]-INFO-[日志信息]: 银行授信审核
+Tue, 27 Oct 2020 09:26:52-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Tue, 27 Oct 2020 09:26:52-run_all_case.py-test_Tripartite_interaction.py-[line:412]-INFO-[日志信息]: 银行授信审核首页
+Tue, 27 Oct 2020 09:26:54-run_all_case.py-test_Tripartite_interaction.py-[line:417]-INFO-[日志信息]: 银行待审批授信页面
+Tue, 27 Oct 2020 09:26:55-run_all_case.py-test_Tripartite_interaction.py-[line:421]-INFO-[日志信息]: 审批授信评分卡页面
+Tue, 27 Oct 2020 09:26:58-run_all_case.py-test_Tripartite_interaction.py-[line:427]-INFO-[日志信息]: 审批授信审核页面
+Tue, 27 Oct 2020 09:27:08-run_all_case.py-test_Tripartite_interaction.py-[line:205]-INFO-[日志信息]: 担保公司审核
+Tue, 27 Oct 2020 09:27:09-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Tue, 27 Oct 2020 09:27:09-run_all_case.py-test_Tripartite_interaction.py-[line:447]-INFO-[日志信息]: 担保公司授信审核首页
+Tue, 27 Oct 2020 09:27:11-run_all_case.py-test_Tripartite_interaction.py-[line:452]-INFO-[日志信息]: 银行待审批授信页面
+Tue, 27 Oct 2020 09:27:12-run_all_case.py-test_Tripartite_interaction.py-[line:456]-INFO-[日志信息]: 审批授信评分卡页面
+Tue, 27 Oct 2020 09:27:14-run_all_case.py-test_Tripartite_interaction.py-[line:460]-INFO-[日志信息]: 审批授信审核页面
+Tue, 27 Oct 2020 09:27:42-run_all_case.py-test_Tripartite_interaction.py-[line:216]-INFO-[日志信息]: 添加银行卡账户画面
+[09:27:44][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '1234567890123'
+[09:27:46][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER
+[09:27:54][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '626985'
+[09:27:55][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER
+Tue, 27 Oct 2020 09:28:01-run_all_case.py-test_Tripartite_interaction.py-[line:234]-INFO-[日志信息]: 借款申请页面
+[09:28:09][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '100000'
+[09:28:10][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER
+[09:28:15][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '8'
+[09:28:17][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER
+[09:28:23][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '借钱还账'
+[09:28:24][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER
+Tue, 27 Oct 2020 09:28:38-run_all_case.py-test_Tripartite_interaction.py-[line:540]-INFO-[日志信息]: 银行借款审核首页
+Tue, 27 Oct 2020 09:28:41-run_all_case.py-test_Tripartite_interaction.py-[line:546]-INFO-[日志信息]: 银行借款审核列表首页
+Tue, 27 Oct 2020 09:28:41-run_all_case.py-test_Tripartite_interaction.py-[line:550]-INFO-[日志信息]: 银行审核页面
+Tue, 27 Oct 2020 09:28:45-run_all_case.py-test_Tripartite_interaction.py-[line:561]-INFO-[日志信息]: 担保公司借款审核首页
+Tue, 27 Oct 2020 09:28:47-run_all_case.py-test_Tripartite_interaction.py-[line:567]-INFO-[日志信息]: 担保公司借款审核列表首页
+Tue, 27 Oct 2020 09:28:48-run_all_case.py-test_Tripartite_interaction.py-[line:571]-INFO-[日志信息]: 担保公司审核页面
+Tue, 27 Oct 2020 09:29:12-run_all_case.py-test_Tripartite_interaction.py-[line:277]-INFO-[日志信息]: 还款申请页面
+Tue, 27 Oct 2020 09:29:26-run_all_case.py-test_Tripartite_interaction.py-[line:286]-INFO-[日志信息]: 还款申请完成页面

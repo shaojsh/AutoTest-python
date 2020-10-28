@@ -4,22 +4,22 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=缴费凭证\"",
+      "name" : "airtest.core.error.TargetNotFoundError: 'Picture Template(C:\\\\Users\\\\shaojunshuai\\\\PycharmProjects\\\\AutoTest-python\\\\Auto_Test\\\\test_data\\\\picture\\\\id_8.png) not found in screen'",
       "children" : [ {
         "name" : "test_Tripartite_interaction",
-        "uid" : "aa9fa033ea00a02c",
-        "parentUid" : "ae836fda1ec0f45c4e0b77e3eab1fb61",
+        "uid" : "e00335931c22084f",
+        "parentUid" : "e9062962cb9a7af8d73d85521059de6b",
         "status" : "broken",
         "time" : {
-          "start" : 1603444548618,
-          "stop" : 1603444752518,
-          "duration" : 203900
+          "start" : 1603847447913,
+          "stop" : 1603847531980,
+          "duration" : 84067
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ae836fda1ec0f45c4e0b77e3eab1fb61"
+      "uid" : "e9062962cb9a7af8d73d85521059de6b"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

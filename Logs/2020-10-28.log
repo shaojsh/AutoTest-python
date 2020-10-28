@@ -1,0 +1,404 @@
+Wed, 28 Oct 2020 08:31:42-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-28 08:31:42===================================
+Wed, 28 Oct 2020 08:31:42-run_all_case.py-test_login.py-[line:97]-INFO-[日志信息]: 小程序自动化测试开始
+Wed, 28 Oct 2020 08:32:04-run_all_case.py-test_login.py-[line:107]-INFO-[日志信息]: 小程序个人实名认证页面
+Wed, 28 Oct 2020 08:34:04-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-28 08:34:04===================================
+Wed, 28 Oct 2020 08:34:05-run_all_case.py-test_login.py-[line:97]-INFO-[日志信息]: 小程序自动化测试开始
+Wed, 28 Oct 2020 08:34:27-run_all_case.py-test_login.py-[line:107]-INFO-[日志信息]: 小程序个人实名认证页面
+Wed, 28 Oct 2020 08:35:27-run_all_case.py-test_businessInfoReg.py-[line:158]-INFO-[日志信息]: 企业认证画面
+Wed, 28 Oct 2020 08:37:11-run_all_case.py-test_businessInfoReg.py-[line:197]-INFO-[日志信息]: 平台服务协议画面
+Wed, 28 Oct 2020 08:37:29-run_all_case.py-test_backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Wed, 28 Oct 2020 08:37:43-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 08:37:48-test_backstage_examine-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Wed, 28 Oct 2020 08:37:48-run_all_case.py-test_backStage_examine.py-[line:57]-INFO-[日志信息]: 成功进入企业信息审核画面
+Wed, 28 Oct 2020 08:37:49-run_all_case.py-test_backStage_examine.py-[line:64]-INFO-[日志信息]: 企业认证通过
+Wed, 28 Oct 2020 08:37:52-run_all_case.py-test_backStage_authentication.py-[line:173]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 28 Oct 2020 08:38:02-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 08:38:02-run_all_case.py-test_backStage_authentication.py-[line:183]-INFO-[日志信息]: 机构信息DB删除
+Wed, 28 Oct 2020 08:38:21-run_all_case.py-test_backStage_authentication.py-[line:341]-INFO-[日志信息]: 进入担保公司创建页面
+Wed, 28 Oct 2020 08:38:24-run_all_case.py-test_backStage_authentication.py-[line:339]-INFO-[日志信息]: 进入银行账户创建页面
+Wed, 28 Oct 2020 08:38:29-run_all_case.py-test_backStage_authentication.py-[line:278]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 28 Oct 2020 08:38:29-run_all_case.py-test_backStage_authentication.py-[line:281]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 28 Oct 2020 08:38:42-run_all_case.py-test_login.py-[line:172]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 28 Oct 2020 08:38:45-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 28 Oct 2020 08:38:49-run_all_case.py-test_login.py-[line:172]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 28 Oct 2020 08:38:52-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 28 Oct 2020 08:38:53-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 08:38:57-run_all_case.py-test_backStage_authentication.py-[line:236]-INFO-[日志信息]: 企业信息认证
+Wed, 28 Oct 2020 08:38:59-run_all_case.py-test_backStage_authentication.py-[line:253]-INFO-[日志信息]: 协议内容确认页面
+Wed, 28 Oct 2020 08:39:09-run_all_case.py-test_backStage_authentication.py-[line:265]-INFO-[日志信息]: 二维码认证页面
+Wed, 28 Oct 2020 08:39:25-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 08:39:30-run_all_case.py-test_backStage_authentication.py-[line:236]-INFO-[日志信息]: 企业信息认证
+Wed, 28 Oct 2020 08:39:33-run_all_case.py-test_backStage_authentication.py-[line:253]-INFO-[日志信息]: 协议内容确认页面
+Wed, 28 Oct 2020 08:39:42-run_all_case.py-test_backStage_authentication.py-[line:265]-INFO-[日志信息]: 二维码认证页面
+Wed, 28 Oct 2020 08:39:48-run_all_case.py-test_backStage_authentication.py-[line:44]-INFO-[日志信息]: 首页
+Wed, 28 Oct 2020 08:39:50-run_all_case.py-test_backStage_authentication.py-[line:48]-INFO-[日志信息]: 产品基本信息
+Wed, 28 Oct 2020 08:39:57-run_all_case.py-test_backStage_authentication.py-[line:139]-INFO-[日志信息]: 产品特性
+Wed, 28 Oct 2020 08:39:59-run_all_case.py-test_backStage_authentication.py-[line:154]-INFO-[日志信息]: 计分卡
+Wed, 28 Oct 2020 08:40:01-run_all_case.py-test_backStage_authentication.py-[line:161]-INFO-[日志信息]: 进件信息
+Wed, 28 Oct 2020 08:40:04-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Wed, 28 Oct 2020 08:40:14-run_all_case.py-test_Tripartite_interaction.py-[line:162]-INFO-[日志信息]: 授信采购信息画面
+Wed, 28 Oct 2020 08:40:30-run_all_case.py-test_Tripartite_interaction.py-[line:170]-INFO-[日志信息]: 授信基本资料页面
+Wed, 28 Oct 2020 08:40:33-run_all_case.py-test_Tripartite_interaction.py-[line:173]-INFO-[日志信息]: 授信页面
+Wed, 28 Oct 2020 08:40:57-run_all_case.py-test_Tripartite_interaction.py-[line:203]-INFO-[日志信息]: 授信完成页面
+Wed, 28 Oct 2020 08:41:07-run_all_case.py-test_Tripartite_interaction.py-[line:208]-INFO-[日志信息]: 银行授信审核
+Wed, 28 Oct 2020 08:41:08-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 08:41:08-run_all_case.py-test_Tripartite_interaction.py-[line:430]-INFO-[日志信息]: 银行授信审核首页
+Wed, 28 Oct 2020 08:41:10-run_all_case.py-test_Tripartite_interaction.py-[line:435]-INFO-[日志信息]: 银行待审批授信页面
+Wed, 28 Oct 2020 08:41:11-run_all_case.py-test_Tripartite_interaction.py-[line:439]-INFO-[日志信息]: 审批授信评分卡页面
+Wed, 28 Oct 2020 08:41:13-run_all_case.py-test_Tripartite_interaction.py-[line:445]-INFO-[日志信息]: 审批授信审核页面
+Wed, 28 Oct 2020 08:41:24-run_all_case.py-test_Tripartite_interaction.py-[line:216]-INFO-[日志信息]: 担保公司审核
+Wed, 28 Oct 2020 08:41:24-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 08:41:24-run_all_case.py-test_Tripartite_interaction.py-[line:465]-INFO-[日志信息]: 担保公司授信审核首页
+Wed, 28 Oct 2020 08:41:26-run_all_case.py-test_Tripartite_interaction.py-[line:470]-INFO-[日志信息]: 银行待审批授信页面
+Wed, 28 Oct 2020 08:41:27-run_all_case.py-test_Tripartite_interaction.py-[line:474]-INFO-[日志信息]: 审批授信评分卡页面
+Wed, 28 Oct 2020 08:41:28-run_all_case.py-test_Tripartite_interaction.py-[line:478]-INFO-[日志信息]: 审批授信审核页面
+Wed, 28 Oct 2020 08:41:52-run_all_case.py-test_Tripartite_interaction.py-[line:227]-INFO-[日志信息]: 添加银行卡账户画面
+Wed, 28 Oct 2020 08:42:12-run_all_case.py-test_Tripartite_interaction.py-[line:245]-INFO-[日志信息]: 借款申请页面
+Wed, 28 Oct 2020 08:43:48-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-28 08:43:48===================================
+Wed, 28 Oct 2020 08:43:48-run_all_case.py-test_login.py-[line:97]-INFO-[日志信息]: 小程序自动化测试开始
+Wed, 28 Oct 2020 08:44:10-run_all_case.py-test_login.py-[line:107]-INFO-[日志信息]: 小程序个人实名认证页面
+Wed, 28 Oct 2020 08:44:54-run_all_case.py-test_businessInfoReg.py-[line:158]-INFO-[日志信息]: 企业认证画面
+Wed, 28 Oct 2020 08:46:14-run_all_case.py-test_businessInfoReg.py-[line:197]-INFO-[日志信息]: 平台服务协议画面
+Wed, 28 Oct 2020 08:46:32-run_all_case.py-test_backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Wed, 28 Oct 2020 08:46:42-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 08:46:47-test_backstage_examine-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Wed, 28 Oct 2020 08:46:47-run_all_case.py-test_backStage_examine.py-[line:57]-INFO-[日志信息]: 成功进入企业信息审核画面
+Wed, 28 Oct 2020 08:46:48-run_all_case.py-test_backStage_examine.py-[line:64]-INFO-[日志信息]: 企业认证通过
+Wed, 28 Oct 2020 08:46:51-run_all_case.py-test_backStage_authentication.py-[line:173]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 28 Oct 2020 08:47:01-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 08:47:01-run_all_case.py-test_backStage_authentication.py-[line:183]-INFO-[日志信息]: 机构信息DB删除
+Wed, 28 Oct 2020 08:47:20-run_all_case.py-test_backStage_authentication.py-[line:341]-INFO-[日志信息]: 进入担保公司创建页面
+Wed, 28 Oct 2020 08:47:23-run_all_case.py-test_backStage_authentication.py-[line:339]-INFO-[日志信息]: 进入银行账户创建页面
+Wed, 28 Oct 2020 08:47:28-run_all_case.py-test_backStage_authentication.py-[line:278]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 28 Oct 2020 08:47:28-run_all_case.py-test_backStage_authentication.py-[line:281]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 28 Oct 2020 08:47:42-run_all_case.py-test_login.py-[line:172]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 28 Oct 2020 08:47:44-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 28 Oct 2020 08:47:48-run_all_case.py-test_login.py-[line:172]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 28 Oct 2020 08:47:51-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 28 Oct 2020 08:47:52-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 08:47:57-run_all_case.py-test_backStage_authentication.py-[line:236]-INFO-[日志信息]: 企业信息认证
+Wed, 28 Oct 2020 08:48:00-run_all_case.py-test_backStage_authentication.py-[line:253]-INFO-[日志信息]: 协议内容确认页面
+Wed, 28 Oct 2020 08:48:09-run_all_case.py-test_backStage_authentication.py-[line:265]-INFO-[日志信息]: 二维码认证页面
+Wed, 28 Oct 2020 08:48:26-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 08:48:31-run_all_case.py-test_backStage_authentication.py-[line:236]-INFO-[日志信息]: 企业信息认证
+Wed, 28 Oct 2020 08:48:34-run_all_case.py-test_backStage_authentication.py-[line:253]-INFO-[日志信息]: 协议内容确认页面
+Wed, 28 Oct 2020 08:48:42-run_all_case.py-test_backStage_authentication.py-[line:265]-INFO-[日志信息]: 二维码认证页面
+Wed, 28 Oct 2020 08:48:49-run_all_case.py-test_backStage_authentication.py-[line:44]-INFO-[日志信息]: 首页
+Wed, 28 Oct 2020 08:48:51-run_all_case.py-test_backStage_authentication.py-[line:48]-INFO-[日志信息]: 产品基本信息
+Wed, 28 Oct 2020 08:48:58-run_all_case.py-test_backStage_authentication.py-[line:139]-INFO-[日志信息]: 产品特性
+Wed, 28 Oct 2020 08:49:00-run_all_case.py-test_backStage_authentication.py-[line:154]-INFO-[日志信息]: 计分卡
+Wed, 28 Oct 2020 08:49:01-run_all_case.py-test_backStage_authentication.py-[line:161]-INFO-[日志信息]: 进件信息
+Wed, 28 Oct 2020 08:49:05-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Wed, 28 Oct 2020 08:49:14-run_all_case.py-test_Tripartite_interaction.py-[line:162]-INFO-[日志信息]: 授信采购信息画面
+Wed, 28 Oct 2020 08:49:31-run_all_case.py-test_Tripartite_interaction.py-[line:170]-INFO-[日志信息]: 授信基本资料页面
+Wed, 28 Oct 2020 08:49:33-run_all_case.py-test_Tripartite_interaction.py-[line:173]-INFO-[日志信息]: 授信页面
+Wed, 28 Oct 2020 08:53:49-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-28 08:53:49===================================
+Wed, 28 Oct 2020 08:53:49-run_all_case.py-test_login.py-[line:97]-INFO-[日志信息]: 小程序自动化测试开始
+Wed, 28 Oct 2020 08:54:12-run_all_case.py-test_login.py-[line:107]-INFO-[日志信息]: 小程序个人实名认证页面
+Wed, 28 Oct 2020 08:54:55-run_all_case.py-test_businessInfoReg.py-[line:158]-INFO-[日志信息]: 企业认证画面
+Wed, 28 Oct 2020 08:56:15-run_all_case.py-test_businessInfoReg.py-[line:197]-INFO-[日志信息]: 平台服务协议画面
+Wed, 28 Oct 2020 08:56:33-run_all_case.py-test_backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Wed, 28 Oct 2020 08:56:47-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 08:56:52-test_backstage_examine-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Wed, 28 Oct 2020 08:56:52-run_all_case.py-test_backStage_examine.py-[line:57]-INFO-[日志信息]: 成功进入企业信息审核画面
+Wed, 28 Oct 2020 08:56:53-run_all_case.py-test_backStage_examine.py-[line:64]-INFO-[日志信息]: 企业认证通过
+Wed, 28 Oct 2020 08:56:56-run_all_case.py-test_backStage_authentication.py-[line:173]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 28 Oct 2020 08:57:06-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 08:57:06-run_all_case.py-test_backStage_authentication.py-[line:183]-INFO-[日志信息]: 机构信息DB删除
+Wed, 28 Oct 2020 08:57:25-run_all_case.py-test_backStage_authentication.py-[line:341]-INFO-[日志信息]: 进入担保公司创建页面
+Wed, 28 Oct 2020 08:57:28-run_all_case.py-test_backStage_authentication.py-[line:339]-INFO-[日志信息]: 进入银行账户创建页面
+Wed, 28 Oct 2020 08:57:33-run_all_case.py-test_backStage_authentication.py-[line:278]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 28 Oct 2020 08:57:33-run_all_case.py-test_backStage_authentication.py-[line:281]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 28 Oct 2020 08:57:46-run_all_case.py-test_login.py-[line:172]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 28 Oct 2020 08:57:49-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 28 Oct 2020 08:57:53-run_all_case.py-test_login.py-[line:172]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 28 Oct 2020 08:57:56-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 28 Oct 2020 08:57:56-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 08:58:02-run_all_case.py-test_backStage_authentication.py-[line:236]-INFO-[日志信息]: 企业信息认证
+Wed, 28 Oct 2020 08:58:04-run_all_case.py-test_backStage_authentication.py-[line:253]-INFO-[日志信息]: 协议内容确认页面
+Wed, 28 Oct 2020 08:58:13-run_all_case.py-test_backStage_authentication.py-[line:265]-INFO-[日志信息]: 二维码认证页面
+Wed, 28 Oct 2020 08:58:30-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 08:58:35-run_all_case.py-test_backStage_authentication.py-[line:236]-INFO-[日志信息]: 企业信息认证
+Wed, 28 Oct 2020 08:58:37-run_all_case.py-test_backStage_authentication.py-[line:253]-INFO-[日志信息]: 协议内容确认页面
+Wed, 28 Oct 2020 08:58:46-run_all_case.py-test_backStage_authentication.py-[line:265]-INFO-[日志信息]: 二维码认证页面
+Wed, 28 Oct 2020 08:58:52-run_all_case.py-test_backStage_authentication.py-[line:44]-INFO-[日志信息]: 首页
+Wed, 28 Oct 2020 08:58:55-run_all_case.py-test_backStage_authentication.py-[line:48]-INFO-[日志信息]: 产品基本信息
+Wed, 28 Oct 2020 08:59:02-run_all_case.py-test_backStage_authentication.py-[line:139]-INFO-[日志信息]: 产品特性
+Wed, 28 Oct 2020 08:59:04-run_all_case.py-test_backStage_authentication.py-[line:154]-INFO-[日志信息]: 计分卡
+Wed, 28 Oct 2020 08:59:05-run_all_case.py-test_backStage_authentication.py-[line:161]-INFO-[日志信息]: 进件信息
+Wed, 28 Oct 2020 08:59:09-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Wed, 28 Oct 2020 08:59:18-run_all_case.py-test_Tripartite_interaction.py-[line:162]-INFO-[日志信息]: 授信采购信息画面
+Wed, 28 Oct 2020 08:59:35-run_all_case.py-test_Tripartite_interaction.py-[line:170]-INFO-[日志信息]: 授信基本资料页面
+Wed, 28 Oct 2020 08:59:38-run_all_case.py-test_Tripartite_interaction.py-[line:173]-INFO-[日志信息]: 授信页面
+Wed, 28 Oct 2020 09:05:26-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-28 09:05:26===================================
+Wed, 28 Oct 2020 09:05:26-run_all_case.py-test_login.py-[line:97]-INFO-[日志信息]: 小程序自动化测试开始
+Wed, 28 Oct 2020 09:05:49-run_all_case.py-test_login.py-[line:107]-INFO-[日志信息]: 小程序个人实名认证页面
+Wed, 28 Oct 2020 09:06:33-run_all_case.py-test_businessInfoReg.py-[line:158]-INFO-[日志信息]: 企业认证画面
+Wed, 28 Oct 2020 09:07:52-run_all_case.py-test_businessInfoReg.py-[line:197]-INFO-[日志信息]: 平台服务协议画面
+Wed, 28 Oct 2020 09:08:10-run_all_case.py-test_backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Wed, 28 Oct 2020 09:08:21-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 09:08:26-test_backstage_examine-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Wed, 28 Oct 2020 09:08:26-run_all_case.py-test_backStage_examine.py-[line:57]-INFO-[日志信息]: 成功进入企业信息审核画面
+Wed, 28 Oct 2020 09:08:27-run_all_case.py-test_backStage_examine.py-[line:64]-INFO-[日志信息]: 企业认证通过
+Wed, 28 Oct 2020 09:08:29-run_all_case.py-test_backStage_authentication.py-[line:173]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 28 Oct 2020 09:08:40-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 09:08:40-run_all_case.py-test_backStage_authentication.py-[line:183]-INFO-[日志信息]: 机构信息DB删除
+Wed, 28 Oct 2020 09:08:58-run_all_case.py-test_backStage_authentication.py-[line:341]-INFO-[日志信息]: 进入担保公司创建页面
+Wed, 28 Oct 2020 09:09:01-run_all_case.py-test_backStage_authentication.py-[line:339]-INFO-[日志信息]: 进入银行账户创建页面
+Wed, 28 Oct 2020 09:09:06-run_all_case.py-test_backStage_authentication.py-[line:278]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 28 Oct 2020 09:09:06-run_all_case.py-test_backStage_authentication.py-[line:281]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 28 Oct 2020 09:09:20-run_all_case.py-test_login.py-[line:172]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 28 Oct 2020 09:09:23-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 28 Oct 2020 09:09:27-run_all_case.py-test_login.py-[line:172]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 28 Oct 2020 09:09:29-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 28 Oct 2020 09:09:30-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 09:09:34-run_all_case.py-test_backStage_authentication.py-[line:236]-INFO-[日志信息]: 企业信息认证
+Wed, 28 Oct 2020 09:09:37-run_all_case.py-test_backStage_authentication.py-[line:253]-INFO-[日志信息]: 协议内容确认页面
+Wed, 28 Oct 2020 09:09:46-run_all_case.py-test_backStage_authentication.py-[line:265]-INFO-[日志信息]: 二维码认证页面
+Wed, 28 Oct 2020 09:10:03-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 09:10:08-run_all_case.py-test_backStage_authentication.py-[line:236]-INFO-[日志信息]: 企业信息认证
+Wed, 28 Oct 2020 09:10:11-run_all_case.py-test_backStage_authentication.py-[line:253]-INFO-[日志信息]: 协议内容确认页面
+Wed, 28 Oct 2020 09:10:24-run_all_case.py-test_backStage_authentication.py-[line:265]-INFO-[日志信息]: 二维码认证页面
+Wed, 28 Oct 2020 09:10:31-run_all_case.py-test_backStage_authentication.py-[line:44]-INFO-[日志信息]: 首页
+Wed, 28 Oct 2020 09:10:33-run_all_case.py-test_backStage_authentication.py-[line:48]-INFO-[日志信息]: 产品基本信息
+Wed, 28 Oct 2020 09:10:40-run_all_case.py-test_backStage_authentication.py-[line:139]-INFO-[日志信息]: 产品特性
+Wed, 28 Oct 2020 09:10:42-run_all_case.py-test_backStage_authentication.py-[line:154]-INFO-[日志信息]: 计分卡
+Wed, 28 Oct 2020 09:10:44-run_all_case.py-test_backStage_authentication.py-[line:161]-INFO-[日志信息]: 进件信息
+Wed, 28 Oct 2020 09:10:47-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Wed, 28 Oct 2020 09:10:57-run_all_case.py-test_Tripartite_interaction.py-[line:162]-INFO-[日志信息]: 授信采购信息画面
+Wed, 28 Oct 2020 09:11:13-run_all_case.py-test_Tripartite_interaction.py-[line:170]-INFO-[日志信息]: 授信基本资料页面
+Wed, 28 Oct 2020 09:11:16-run_all_case.py-test_Tripartite_interaction.py-[line:173]-INFO-[日志信息]: 授信页面
+Wed, 28 Oct 2020 09:14:49-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-28 09:14:49===================================
+Wed, 28 Oct 2020 09:15:07-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-28 09:15:07===================================
+Wed, 28 Oct 2020 09:15:34-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-28 09:15:34===================================
+Wed, 28 Oct 2020 09:16:52-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-28 09:16:52===================================
+Wed, 28 Oct 2020 09:16:56-run_all_case.py-test_login.py-[line:97]-INFO-[日志信息]: 小程序自动化测试开始
+Wed, 28 Oct 2020 09:17:16-run_all_case.py-test_login.py-[line:107]-INFO-[日志信息]: 小程序个人实名认证页面
+Wed, 28 Oct 2020 09:18:00-run_all_case.py-test_businessInfoReg.py-[line:158]-INFO-[日志信息]: 企业认证画面
+Wed, 28 Oct 2020 09:19:18-run_all_case.py-test_businessInfoReg.py-[line:197]-INFO-[日志信息]: 平台服务协议画面
+Wed, 28 Oct 2020 09:19:42-run_all_case.py-test_backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Wed, 28 Oct 2020 09:19:57-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 09:20:02-test_backstage_examine-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Wed, 28 Oct 2020 09:20:02-run_all_case.py-test_backStage_examine.py-[line:57]-INFO-[日志信息]: 成功进入企业信息审核画面
+Wed, 28 Oct 2020 09:20:03-run_all_case.py-test_backStage_examine.py-[line:64]-INFO-[日志信息]: 企业认证通过
+Wed, 28 Oct 2020 09:20:05-run_all_case.py-test_backStage_authentication.py-[line:173]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 28 Oct 2020 09:20:16-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 09:20:16-run_all_case.py-test_backStage_authentication.py-[line:183]-INFO-[日志信息]: 机构信息DB删除
+Wed, 28 Oct 2020 09:20:34-run_all_case.py-test_backStage_authentication.py-[line:341]-INFO-[日志信息]: 进入担保公司创建页面
+Wed, 28 Oct 2020 09:20:37-run_all_case.py-test_backStage_authentication.py-[line:339]-INFO-[日志信息]: 进入银行账户创建页面
+Wed, 28 Oct 2020 09:20:42-run_all_case.py-test_backStage_authentication.py-[line:278]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 28 Oct 2020 09:20:42-run_all_case.py-test_backStage_authentication.py-[line:281]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 28 Oct 2020 09:20:56-run_all_case.py-test_login.py-[line:172]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 28 Oct 2020 09:20:59-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 28 Oct 2020 09:21:03-run_all_case.py-test_login.py-[line:172]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 28 Oct 2020 09:21:05-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 28 Oct 2020 09:21:06-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 09:21:10-run_all_case.py-test_backStage_authentication.py-[line:236]-INFO-[日志信息]: 企业信息认证
+Wed, 28 Oct 2020 09:21:13-run_all_case.py-test_backStage_authentication.py-[line:253]-INFO-[日志信息]: 协议内容确认页面
+Wed, 28 Oct 2020 09:21:24-run_all_case.py-test_backStage_authentication.py-[line:265]-INFO-[日志信息]: 二维码认证页面
+Wed, 28 Oct 2020 09:21:39-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 09:21:44-run_all_case.py-test_backStage_authentication.py-[line:236]-INFO-[日志信息]: 企业信息认证
+Wed, 28 Oct 2020 09:21:47-run_all_case.py-test_backStage_authentication.py-[line:253]-INFO-[日志信息]: 协议内容确认页面
+Wed, 28 Oct 2020 09:22:04-run_all_case.py-test_backStage_authentication.py-[line:265]-INFO-[日志信息]: 二维码认证页面
+Wed, 28 Oct 2020 09:22:07-run_all_case.py-test_backStage_authentication.py-[line:44]-INFO-[日志信息]: 首页
+Wed, 28 Oct 2020 09:22:09-run_all_case.py-test_backStage_authentication.py-[line:48]-INFO-[日志信息]: 产品基本信息
+Wed, 28 Oct 2020 09:22:16-run_all_case.py-test_backStage_authentication.py-[line:139]-INFO-[日志信息]: 产品特性
+Wed, 28 Oct 2020 09:22:18-run_all_case.py-test_backStage_authentication.py-[line:154]-INFO-[日志信息]: 计分卡
+Wed, 28 Oct 2020 09:22:20-run_all_case.py-test_backStage_authentication.py-[line:161]-INFO-[日志信息]: 进件信息
+Wed, 28 Oct 2020 09:22:23-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Wed, 28 Oct 2020 09:22:32-run_all_case.py-test_Tripartite_interaction.py-[line:162]-INFO-[日志信息]: 授信采购信息画面
+Wed, 28 Oct 2020 09:22:48-run_all_case.py-test_Tripartite_interaction.py-[line:170]-INFO-[日志信息]: 授信基本资料页面
+Wed, 28 Oct 2020 09:22:51-run_all_case.py-test_Tripartite_interaction.py-[line:173]-INFO-[日志信息]: 授信页面
+Wed, 28 Oct 2020 09:27:16-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-28 09:27:16===================================
+Wed, 28 Oct 2020 09:27:17-run_all_case.py-test_login.py-[line:97]-INFO-[日志信息]: 小程序自动化测试开始
+Wed, 28 Oct 2020 09:27:25-run_all_case.py-test_businessInfoReg.py-[line:158]-INFO-[日志信息]: 企业认证画面
+Wed, 28 Oct 2020 09:28:20-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-28 09:28:20===================================
+Wed, 28 Oct 2020 09:28:20-run_all_case.py-test_login.py-[line:97]-INFO-[日志信息]: 小程序自动化测试开始
+Wed, 28 Oct 2020 09:28:40-run_all_case.py-test_login.py-[line:107]-INFO-[日志信息]: 小程序个人实名认证页面
+Wed, 28 Oct 2020 09:34:28-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-28 09:34:28===================================
+Wed, 28 Oct 2020 09:34:28-run_all_case.py-test_login.py-[line:97]-INFO-[日志信息]: 小程序自动化测试开始
+Wed, 28 Oct 2020 09:34:48-run_all_case.py-test_login.py-[line:107]-INFO-[日志信息]: 小程序个人实名认证页面
+Wed, 28 Oct 2020 09:36:06-run_all_case.py-test_businessInfoReg.py-[line:158]-INFO-[日志信息]: 企业认证画面
+Wed, 28 Oct 2020 09:38:28-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-28 09:38:28===================================
+Wed, 28 Oct 2020 09:38:28-run_all_case.py-test_login.py-[line:97]-INFO-[日志信息]: 小程序自动化测试开始
+Wed, 28 Oct 2020 09:38:49-run_all_case.py-test_login.py-[line:107]-INFO-[日志信息]: 小程序个人实名认证页面
+Wed, 28 Oct 2020 09:39:33-run_all_case.py-test_businessInfoReg.py-[line:158]-INFO-[日志信息]: 企业认证画面
+Wed, 28 Oct 2020 09:40:51-run_all_case.py-test_businessInfoReg.py-[line:197]-INFO-[日志信息]: 平台服务协议画面
+Wed, 28 Oct 2020 09:41:09-run_all_case.py-test_backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Wed, 28 Oct 2020 09:41:23-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 09:41:28-test_backstage_examine-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Wed, 28 Oct 2020 09:41:28-run_all_case.py-test_backStage_examine.py-[line:57]-INFO-[日志信息]: 成功进入企业信息审核画面
+Wed, 28 Oct 2020 09:41:29-run_all_case.py-test_backStage_examine.py-[line:64]-INFO-[日志信息]: 企业认证通过
+Wed, 28 Oct 2020 09:41:31-run_all_case.py-test_backStage_authentication.py-[line:173]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 28 Oct 2020 09:41:42-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 09:41:42-run_all_case.py-test_backStage_authentication.py-[line:183]-INFO-[日志信息]: 机构信息DB删除
+Wed, 28 Oct 2020 09:42:00-run_all_case.py-test_backStage_authentication.py-[line:341]-INFO-[日志信息]: 进入担保公司创建页面
+Wed, 28 Oct 2020 09:42:04-run_all_case.py-test_backStage_authentication.py-[line:339]-INFO-[日志信息]: 进入银行账户创建页面
+Wed, 28 Oct 2020 09:42:08-run_all_case.py-test_backStage_authentication.py-[line:278]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 28 Oct 2020 09:42:08-run_all_case.py-test_backStage_authentication.py-[line:281]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 28 Oct 2020 09:42:22-run_all_case.py-test_login.py-[line:172]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 28 Oct 2020 09:42:25-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 28 Oct 2020 09:42:29-run_all_case.py-test_login.py-[line:172]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 28 Oct 2020 09:42:32-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 28 Oct 2020 09:42:32-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 09:42:37-run_all_case.py-test_backStage_authentication.py-[line:236]-INFO-[日志信息]: 企业信息认证
+Wed, 28 Oct 2020 09:42:39-run_all_case.py-test_backStage_authentication.py-[line:253]-INFO-[日志信息]: 协议内容确认页面
+Wed, 28 Oct 2020 09:42:48-run_all_case.py-test_backStage_authentication.py-[line:265]-INFO-[日志信息]: 二维码认证页面
+Wed, 28 Oct 2020 09:43:05-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 09:43:11-run_all_case.py-test_backStage_authentication.py-[line:236]-INFO-[日志信息]: 企业信息认证
+Wed, 28 Oct 2020 09:43:13-run_all_case.py-test_backStage_authentication.py-[line:253]-INFO-[日志信息]: 协议内容确认页面
+Wed, 28 Oct 2020 09:43:24-run_all_case.py-test_backStage_authentication.py-[line:265]-INFO-[日志信息]: 二维码认证页面
+Wed, 28 Oct 2020 09:43:29-run_all_case.py-test_backStage_authentication.py-[line:44]-INFO-[日志信息]: 首页
+Wed, 28 Oct 2020 09:43:31-run_all_case.py-test_backStage_authentication.py-[line:48]-INFO-[日志信息]: 产品基本信息
+Wed, 28 Oct 2020 09:43:38-run_all_case.py-test_backStage_authentication.py-[line:139]-INFO-[日志信息]: 产品特性
+Wed, 28 Oct 2020 09:43:42-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Wed, 28 Oct 2020 09:45:34-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-28 09:45:34===================================
+Wed, 28 Oct 2020 09:45:35-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Wed, 28 Oct 2020 09:46:29-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-28 09:46:29===================================
+Wed, 28 Oct 2020 09:46:29-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Wed, 28 Oct 2020 09:47:05-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-28 09:47:05===================================
+Wed, 28 Oct 2020 09:47:06-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Wed, 28 Oct 2020 09:48:58-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-28 09:48:58===================================
+Wed, 28 Oct 2020 09:48:58-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Wed, 28 Oct 2020 09:49:09-run_all_case.py-test_Tripartite_interaction.py-[line:162]-INFO-[日志信息]: 授信采购信息画面
+Wed, 28 Oct 2020 09:49:30-run_all_case.py-test_Tripartite_interaction.py-[line:170]-INFO-[日志信息]: 授信基本资料页面
+Wed, 28 Oct 2020 09:49:32-run_all_case.py-test_Tripartite_interaction.py-[line:173]-INFO-[日志信息]: 授信页面
+Wed, 28 Oct 2020 09:53:06-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-28 09:53:06===================================
+Wed, 28 Oct 2020 09:53:07-run_all_case.py-test_login.py-[line:97]-INFO-[日志信息]: 小程序自动化测试开始
+Wed, 28 Oct 2020 09:53:29-run_all_case.py-test_login.py-[line:107]-INFO-[日志信息]: 小程序个人实名认证页面
+Wed, 28 Oct 2020 09:54:42-run_all_case.py-test_businessInfoReg.py-[line:158]-INFO-[日志信息]: 企业认证画面
+Wed, 28 Oct 2020 09:56:01-run_all_case.py-test_businessInfoReg.py-[line:197]-INFO-[日志信息]: 平台服务协议画面
+Wed, 28 Oct 2020 09:56:19-run_all_case.py-test_backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Wed, 28 Oct 2020 09:56:33-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 09:56:38-test_backstage_examine-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Wed, 28 Oct 2020 09:56:38-run_all_case.py-test_backStage_examine.py-[line:57]-INFO-[日志信息]: 成功进入企业信息审核画面
+Wed, 28 Oct 2020 09:56:40-run_all_case.py-test_backStage_examine.py-[line:64]-INFO-[日志信息]: 企业认证通过
+Wed, 28 Oct 2020 09:56:42-run_all_case.py-test_backStage_authentication.py-[line:173]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 28 Oct 2020 09:56:52-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 09:56:52-run_all_case.py-test_backStage_authentication.py-[line:183]-INFO-[日志信息]: 机构信息DB删除
+Wed, 28 Oct 2020 09:57:11-run_all_case.py-test_backStage_authentication.py-[line:341]-INFO-[日志信息]: 进入担保公司创建页面
+Wed, 28 Oct 2020 09:57:14-run_all_case.py-test_backStage_authentication.py-[line:339]-INFO-[日志信息]: 进入银行账户创建页面
+Wed, 28 Oct 2020 09:57:19-run_all_case.py-test_backStage_authentication.py-[line:278]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 28 Oct 2020 09:57:19-run_all_case.py-test_backStage_authentication.py-[line:281]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 28 Oct 2020 09:57:33-run_all_case.py-test_login.py-[line:172]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 28 Oct 2020 09:57:35-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 28 Oct 2020 09:57:39-run_all_case.py-test_login.py-[line:172]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 28 Oct 2020 09:57:42-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 28 Oct 2020 09:57:43-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 09:57:47-run_all_case.py-test_backStage_authentication.py-[line:236]-INFO-[日志信息]: 企业信息认证
+Wed, 28 Oct 2020 09:57:50-run_all_case.py-test_backStage_authentication.py-[line:253]-INFO-[日志信息]: 协议内容确认页面
+Wed, 28 Oct 2020 09:58:04-run_all_case.py-test_backStage_authentication.py-[line:265]-INFO-[日志信息]: 二维码认证页面
+Wed, 28 Oct 2020 09:58:21-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 09:58:26-run_all_case.py-test_backStage_authentication.py-[line:236]-INFO-[日志信息]: 企业信息认证
+Wed, 28 Oct 2020 09:58:29-run_all_case.py-test_backStage_authentication.py-[line:253]-INFO-[日志信息]: 协议内容确认页面
+Wed, 28 Oct 2020 09:58:38-run_all_case.py-test_backStage_authentication.py-[line:265]-INFO-[日志信息]: 二维码认证页面
+Wed, 28 Oct 2020 09:58:44-run_all_case.py-test_backStage_authentication.py-[line:44]-INFO-[日志信息]: 首页
+Wed, 28 Oct 2020 09:58:46-run_all_case.py-test_backStage_authentication.py-[line:48]-INFO-[日志信息]: 产品基本信息
+Wed, 28 Oct 2020 09:58:53-run_all_case.py-test_backStage_authentication.py-[line:139]-INFO-[日志信息]: 产品特性
+Wed, 28 Oct 2020 09:58:55-run_all_case.py-test_backStage_authentication.py-[line:154]-INFO-[日志信息]: 计分卡
+Wed, 28 Oct 2020 09:58:57-run_all_case.py-test_backStage_authentication.py-[line:161]-INFO-[日志信息]: 进件信息
+Wed, 28 Oct 2020 09:59:00-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Wed, 28 Oct 2020 09:59:09-run_all_case.py-test_Tripartite_interaction.py-[line:162]-INFO-[日志信息]: 授信采购信息画面
+Wed, 28 Oct 2020 09:59:27-run_all_case.py-test_Tripartite_interaction.py-[line:170]-INFO-[日志信息]: 授信基本资料页面
+Wed, 28 Oct 2020 09:59:30-run_all_case.py-test_Tripartite_interaction.py-[line:173]-INFO-[日志信息]: 授信页面
+Wed, 28 Oct 2020 09:59:59-run_all_case.py-test_Tripartite_interaction.py-[line:205]-INFO-[日志信息]: 授信完成页面
+Wed, 28 Oct 2020 10:00:09-run_all_case.py-test_Tripartite_interaction.py-[line:210]-INFO-[日志信息]: 银行授信审核
+Wed, 28 Oct 2020 10:00:10-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 10:00:10-run_all_case.py-test_Tripartite_interaction.py-[line:430]-INFO-[日志信息]: 银行授信审核首页
+Wed, 28 Oct 2020 10:00:12-run_all_case.py-test_Tripartite_interaction.py-[line:435]-INFO-[日志信息]: 银行待审批授信页面
+Wed, 28 Oct 2020 10:00:13-run_all_case.py-test_Tripartite_interaction.py-[line:439]-INFO-[日志信息]: 审批授信评分卡页面
+Wed, 28 Oct 2020 10:00:16-run_all_case.py-test_Tripartite_interaction.py-[line:445]-INFO-[日志信息]: 审批授信审核页面
+Wed, 28 Oct 2020 10:00:26-run_all_case.py-test_Tripartite_interaction.py-[line:218]-INFO-[日志信息]: 担保公司审核
+Wed, 28 Oct 2020 10:00:27-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 10:00:27-run_all_case.py-test_Tripartite_interaction.py-[line:465]-INFO-[日志信息]: 担保公司授信审核首页
+Wed, 28 Oct 2020 10:00:29-run_all_case.py-test_Tripartite_interaction.py-[line:470]-INFO-[日志信息]: 银行待审批授信页面
+Wed, 28 Oct 2020 10:00:30-run_all_case.py-test_Tripartite_interaction.py-[line:474]-INFO-[日志信息]: 审批授信评分卡页面
+Wed, 28 Oct 2020 10:00:31-run_all_case.py-test_Tripartite_interaction.py-[line:478]-INFO-[日志信息]: 审批授信审核页面
+Wed, 28 Oct 2020 10:01:20-run_all_case.py-test_Tripartite_interaction.py-[line:229]-INFO-[日志信息]: 添加银行卡账户画面
+Wed, 28 Oct 2020 10:05:07-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-28 10:05:07===================================
+Wed, 28 Oct 2020 10:06:58-run_all_case.py-run_all_case.py-[line:41]-INFO-[日志信息]: ==================================2020-10-28 10:06:58===================================
+Wed, 28 Oct 2020 10:07:03-run_all_case.py-test_login.py-[line:97]-INFO-[日志信息]: 小程序自动化测试开始
+Wed, 28 Oct 2020 10:07:23-run_all_case.py-test_login.py-[line:107]-INFO-[日志信息]: 小程序个人实名认证页面
+Wed, 28 Oct 2020 10:08:07-run_all_case.py-test_businessInfoReg.py-[line:158]-INFO-[日志信息]: 企业认证画面
+Wed, 28 Oct 2020 10:09:26-run_all_case.py-test_businessInfoReg.py-[line:197]-INFO-[日志信息]: 平台服务协议画面
+Wed, 28 Oct 2020 10:09:44-run_all_case.py-test_backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Wed, 28 Oct 2020 10:09:54-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 10:09:59-test_backstage_examine-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Wed, 28 Oct 2020 10:09:59-run_all_case.py-test_backStage_examine.py-[line:57]-INFO-[日志信息]: 成功进入企业信息审核画面
+Wed, 28 Oct 2020 10:10:00-run_all_case.py-test_backStage_examine.py-[line:64]-INFO-[日志信息]: 企业认证通过
+Wed, 28 Oct 2020 10:10:03-run_all_case.py-test_backStage_authentication.py-[line:173]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 28 Oct 2020 10:10:13-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 10:10:13-run_all_case.py-test_backStage_authentication.py-[line:183]-INFO-[日志信息]: 机构信息DB删除
+Wed, 28 Oct 2020 10:10:32-run_all_case.py-test_backStage_authentication.py-[line:341]-INFO-[日志信息]: 进入担保公司创建页面
+Wed, 28 Oct 2020 10:10:35-run_all_case.py-test_backStage_authentication.py-[line:339]-INFO-[日志信息]: 进入银行账户创建页面
+Wed, 28 Oct 2020 10:10:40-run_all_case.py-test_backStage_authentication.py-[line:278]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 28 Oct 2020 10:10:40-run_all_case.py-test_backStage_authentication.py-[line:281]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 28 Oct 2020 10:10:54-run_all_case.py-test_login.py-[line:172]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 28 Oct 2020 10:10:56-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 28 Oct 2020 10:11:00-run_all_case.py-test_login.py-[line:172]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 28 Oct 2020 10:11:03-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 28 Oct 2020 10:11:04-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 10:11:08-run_all_case.py-test_backStage_authentication.py-[line:236]-INFO-[日志信息]: 企业信息认证
+Wed, 28 Oct 2020 10:11:11-run_all_case.py-test_backStage_authentication.py-[line:253]-INFO-[日志信息]: 协议内容确认页面
+Wed, 28 Oct 2020 10:11:25-run_all_case.py-test_backStage_authentication.py-[line:265]-INFO-[日志信息]: 二维码认证页面
+Wed, 28 Oct 2020 10:11:45-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 10:11:50-run_all_case.py-test_backStage_authentication.py-[line:236]-INFO-[日志信息]: 企业信息认证
+Wed, 28 Oct 2020 10:11:52-run_all_case.py-test_backStage_authentication.py-[line:253]-INFO-[日志信息]: 协议内容确认页面
+Wed, 28 Oct 2020 10:12:04-run_all_case.py-test_backStage_authentication.py-[line:265]-INFO-[日志信息]: 二维码认证页面
+Wed, 28 Oct 2020 10:12:08-run_all_case.py-test_backStage_authentication.py-[line:44]-INFO-[日志信息]: 首页
+Wed, 28 Oct 2020 10:12:10-run_all_case.py-test_backStage_authentication.py-[line:48]-INFO-[日志信息]: 产品基本信息
+Wed, 28 Oct 2020 10:12:17-run_all_case.py-test_backStage_authentication.py-[line:139]-INFO-[日志信息]: 产品特性
+Wed, 28 Oct 2020 10:12:19-run_all_case.py-test_backStage_authentication.py-[line:154]-INFO-[日志信息]: 计分卡
+Wed, 28 Oct 2020 10:12:20-run_all_case.py-test_backStage_authentication.py-[line:161]-INFO-[日志信息]: 进件信息
+Wed, 28 Oct 2020 10:12:24-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Wed, 28 Oct 2020 10:12:33-run_all_case.py-test_Tripartite_interaction.py-[line:162]-INFO-[日志信息]: 授信采购信息画面
+Wed, 28 Oct 2020 10:12:49-run_all_case.py-test_Tripartite_interaction.py-[line:170]-INFO-[日志信息]: 授信基本资料页面
+Wed, 28 Oct 2020 10:12:51-run_all_case.py-test_Tripartite_interaction.py-[line:173]-INFO-[日志信息]: 授信页面
+Wed, 28 Oct 2020 10:13:40-run_all_case.py-test_Tripartite_interaction.py-[line:206]-INFO-[日志信息]: 授信完成页面
+Wed, 28 Oct 2020 10:13:50-run_all_case.py-test_Tripartite_interaction.py-[line:211]-INFO-[日志信息]: 银行授信审核
+Wed, 28 Oct 2020 10:13:51-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Wed, 28 Oct 2020 10:13:51-run_all_case.py-test_Tripartite_interaction.py-[line:431]-INFO-[日志信息]: 银行授信审核首页

@@ -8,7 +8,7 @@ from airtest.core.api import text
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
-
+from androidBaseFlow import Template, touch
 from common.dbLink import getPhoneMessage, flushDb, getVerification, getVerification_ui
 from flow_path.path_Tripartite_interaction import path_Tripartite_interaction
 from run_all_case import yamldict, logger, runMode, mobileDriver
@@ -42,6 +42,7 @@ product_name = yamldict['test_backStageUserList']['product_name']
 # 担保费审核
 def costAudit(driver_risk):
     driver_risk.find_element_by_css_selector(path_Tripartite_interaction.btn_homeBackStage_css.value).click()
+    sleep(1)
     waitUntilClick(driver_risk, path_Tripartite_interaction.btn_feeCheckMan_css.value)
     sleep(1)
     driver_risk.find_element_by_css_selector(path_Tripartite_interaction.btn_feeCheckMan_css.value).click()
@@ -152,9 +153,8 @@ def test_Tripartite_interaction():
         sleep(2)
         creditExtension(driver_forward)
     else:
-        waiteForClick(mobileDriver(text='首页'))
-        waiteForClick(mobileDriver(text='立即申请'))
-        el = mobileDriver(text='首页', name='android.view.View', type='android.view.View')
+        waiteForClick(mobileDriver(text='产品服务'))
+        el = mobileDriver(text='我的', name='android.view.View', type='android.view.View')
         dragUntilTextAppear(el, '产品服务', product_name)
         waiteForClick(mobileDriver(text=product_name))
         waiteForClick(mobileDriver(text='立即申请'))
@@ -171,6 +171,7 @@ def test_Tripartite_interaction():
         waiteForClick(mobileDriver(text='下一步'))
 
         logger.info('授信页面')
+        sleep(2)
         mobileDriver(text='企业经营场所照片').drag_to(mobileDriver(text='业务申请'), 0.5)
         mobileDriver(text='企业征信').drag_to(mobileDriver(text='业务申请'), 0.5)
         mobileDriver(text='财务证明资料').drag_to(mobileDriver(text='业务申请'), 0.5)
@@ -178,10 +179,31 @@ def test_Tripartite_interaction():
         waiteForClick(mobileDriver(text='提交授信'))
         # 活体认证欺诈性校验
         getVerification()
-        mobileDriver(name='com.tencent.mm:id/dc')
-        waiteForClick(mobileDriver(text='我的'))
-        logger.info('授信完成页面')
+        while True:
+            flg = mobileDriver(text='安全认证中').exists()
+            if flg:
+                sleep(1)
+                break
+            else:
+                continue
 
+        while True:
+            flg = mobileDriver(text='安全认证中').exists()
+            if flg:
+                continue
+            else:
+                sleep(1)
+                break
+
+        sleep(1)
+        picture_dir = os.getcwd() + '\\test_data\\picture\\id_7.png'
+        touch(Template(picture_dir))
+        touch(Template(picture_dir))
+        touch(Template(picture_dir))
+        sleep(2)
+        picture_dir1 = os.getcwd() + '\\test_data\\picture\\id_8.png'
+        touch(Template(picture_dir1))
+        logger.info('授信完成页面')
     # 银行授信审核
     driver_bank = webdriver.Chrome()
     driver_bank.maximize_window()
@@ -242,8 +264,25 @@ def test_Tripartite_interaction():
 
         waiteForClick(mobileDriver(text='我已阅读并同意提交资料').child()[2])
         waiteForClick(mobileDriver(text='提交借款申请'))
-        sleep(5)
+
         getVerification()
+
+        while True:
+            flg = mobileDriver(text='安全认证中').exists()
+            if flg:
+                break
+            else:
+                sleep(1)
+                continue
+
+        while True:
+            flg = mobileDriver(text='安全认证中').exists()
+            if flg:
+                continue
+            else:
+                sleep(1)
+                break
+
         waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
         waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
     loanCheck_bank(driver_bank)
@@ -253,17 +292,19 @@ def test_Tripartite_interaction():
         # 去缴费
         goToPay(driver_forward)
     else:
-        waiteForClick(mobileDriver(text='我的'))
         waiteForClick(mobileDriver(text='我的借款'))
         waiteForClick(mobileDriver(text='去缴纳'))
         sleep(2)
-        mobileDriver(text='缴费凭证').drag_to(mobileDriver(text='缴费申请'), 0.5)
+        logger.info('还款申请页面')
+        mobileDriver(text='担保费').drag_to(mobileDriver(text='缴费申请'), 0.5)
         waiteForClick(mobileDriver(text='上传担保费缴费凭证'))
         mobileDriver("android.widget.LinearLayout").offspring("com.tencent.mm:id/dm6").child("com.tencent.mm:id/f4b")[
             1].child(
             "com.tencent.mm:id/dm8").click()
         waiteForClick(mobileDriver(text='完成'))
         waiteForClick(mobileDriver(text='提交申请'))
+        sleep(2)
+        logger.info('还款申请完成页面')
         waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
         waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
 
@@ -273,8 +314,30 @@ def test_Tripartite_interaction():
     # 银行放款审核
     loanReview(driver_bank)
 
-    # 还款申请
-    toRepay(driver_forward)
+    if runMode == 'UI':
+        # 还款申请
+        toRepay(driver_forward)
+    else:
+        waiteForClick(mobileDriver(text='我的'))
+        waiteForClick(mobileDriver(text='我的借款'))
+        waiteForClick(mobileDriver(text='我要还款'))
+
+        sleep(1)
+        waiteForClick(mobileDriver(text='请选择'))
+        waiteForClick(mobileDriver(text='鞍山银行'))
+
+        waiteForClick(mobileDriver(text='请输入'))
+        text('123456789012')
+        waiteForClick(mobileDriver(text='还款银行账号'))
+        mobileDriver(text='合计金额').drag_to(mobileDriver(text='还款申请'), 0.5)
+        waiteForClick(mobileDriver(text='上传还款凭证'))
+        mobileDriver("android.widget.LinearLayout").offspring("com.tencent.mm:id/dm6").child("com.tencent.mm:id/f4b")[
+            1].child(
+            "com.tencent.mm:id/dm8").click()
+        waiteForClick(mobileDriver(text='完成'))
+        waiteForClick(mobileDriver(type='android.widget.CheckBox'))
+        waiteForClick(mobileDriver(text='提交申请'))
+        waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
     # 银行还款审核
     replayCheck_Bank(driver_bank)
 
@@ -553,7 +616,7 @@ def goToPay(driver_forward):
     sleep(1)
     logger.info('担保费缴费画面')
     waitUntilClick(driver_forward, path_Tripartite_interaction.btn_applyPay_css.value)
-    picture_dir1 = os.getcwd() + '\\test_data\\picture\\id_1.jpg'
+    picture_dir1 = os.getcwd() + '\\test_data\\picture\\id_6.png'
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.upload_payPicture_css.value).send_keys(
         picture_dir1)
     driver_forward.find_element_by_css_selector(path_Tripartite_interaction.btn_applyPay_css.value).click()

@@ -1,0 +1,14 @@
+Pipeline<ConnectionPool<Connection<host=10.10.128.128,port=6739,db=2>>>
+Pipeline<ConnectionPool<Connection<host=10.10.128.128,port=6739,db=2>>>
+Pipeline<ConnectionPool<Connection<host=10.10.128.128,port=6739,db=2>>>
+Pipeline<ConnectionPool<Connection<host=10.10.128.128,port=6739,db=2>>>
+Pipeline<ConnectionPool<Connection<host=10.10.128.128,port=6739,db=2>>>
+Pipeline<ConnectionPool<Connection<host=10.10.128.128,port=6739,db=2>>>
+token为：c32e219c-e54c-4e87-a243-a3d80be9b46e
+Pipeline<ConnectionPool<Connection<host=10.10.128.128,port=6739,db=2>>>
+<Response [200]>
+Pipeline<ConnectionPool<Connection<host=10.10.128.128,port=6739,db=2>>>
+Pipeline<ConnectionPool<Connection<host=10.10.128.128,port=6739,db=2>>>
+token为：2a8981c7-cb1a-40b6-a12e-bf91db1e35c3
+Pipeline<ConnectionPool<Connection<host=10.10.128.128,port=6739,db=2>>>
+<Response [200]>

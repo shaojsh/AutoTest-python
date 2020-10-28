@@ -200,7 +200,7 @@ def test_businessInforReg():
         text('0.1')
         waiteForClick(mobileDriver(text='收到的金额'))
         waiteForClick(mobileDriver(text='确认提交'))
-        sleep(5)
+        sleep(3)
         waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
         # 更改企业名称
         updateNameCompany()

@@ -119,8 +119,8 @@ def createProduct(driver):
     el13.send_keys(Keys.DELETE)
     el13.send_keys('15')
 
-    picture_dir1 = os.getcwd() + '\\test_data\\picture\\id_1.jpg'
-    picture_dir2 = os.getcwd() + '\\test_data\\picture\\id_2.jpg'
+    picture_dir1 = os.getcwd() + '\\test_data\\picture\\id_3.jpg'
+    picture_dir2 = os.getcwd() + '\\test_data\\picture\\id_4.jpg'
     driver.find_element_by_css_selector(path_backStage_authentication.upload_pic4_css.value).send_keys(
         picture_dir1)
     driver.find_element_by_css_selector(path_backStage_authentication.upload_pic5_css.value).send_keys(

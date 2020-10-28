@@ -1,0 +1,231 @@
+Wed, 28 Oct 2020 09:48:58-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+[09:48:59][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell ls /data/local/tmp/minicap
+[09:48:59][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell ls /data/local/tmp/minicap.so
+[09:48:59][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -v 2>&1
+[09:48:59][DEBUG]<airtest.core.android.minicap> version:6
+[09:48:59][DEBUG]<airtest.core.android.minicap> skip install minicap
+[09:48:59][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -i
+[09:49:00][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell dumpsys window displays
+[09:49:00][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell getprop ro.product.cpu.abi
+[09:49:00][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell getprop ro.build.version.sdk
+[09:49:00][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell ls /data/local/tmp/minitouch
+[09:49:00][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell stat -c %s /data/local/tmp/minitouch
+[09:49:00][DEBUG]<airtest.core.android.touch_methods.minitouch> install_minitouch skipped
+[09:49:00][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -i
+[09:49:01][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell dumpsys window displays
+[09:49:01][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 forward --no-rebind tcp:13065 localabstract:minitouch_13065
+[09:49:01][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell /data/local/tmp/minitouch -n 'minitouch_13065' 2>&1
+[09:49:01][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Note: device /dev/input/mouse0 is not supported by libevdev'
+[09:49:01][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Note: device /dev/input/mice is not supported by libevdev'
+[09:49:01][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Type B touch device goodix-ts (720x1280 with 16 contacts) detected on /dev/input/event2 (score 21975)'
+[09:49:01][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Note: hard-limiting maximum number of contacts to 10'
+[09:49:01][DEBUG]<airtest.core.android.touch_methods.minitouch> minitouch header:b'v 1\n^ 10 720 1280 1023\n$ 3291\n'
+[09:49:01][DEBUG]<airtest.utils.nbsp> [minitouch_server]b'Connection established'
+Wed, 28 Oct 2020 09:49:09-run_all_case.py-test_Tripartite_interaction.py-[line:162]-INFO-[日志信息]: 授信采购信息画面
+[09:49:14][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell dumpsys package com.netease.nie.yosemite
+[09:49:14][INFO]<airtest.core.android.yosemite> local version code is 302, installed version code is 302
+[09:49:14][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell settings get secure default_input_method
+[09:49:15][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell ime list -a
+[09:49:16][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '123456789012'
+[09:49:18][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER
+Wed, 28 Oct 2020 09:49:30-run_all_case.py-test_Tripartite_interaction.py-[line:170]-INFO-[日志信息]: 授信基本资料页面
+Wed, 28 Oct 2020 09:49:32-run_all_case.py-test_Tripartite_interaction.py-[line:173]-INFO-[日志信息]: 授信页面
+[09:50:35][INFO]<airtest.core.api> Try finding:
+Template(C:\Users\shaojunshuai\PycharmProjects\AutoTest-python\Auto_Test\test_data\picture\id_7.png)
+[09:50:35][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell pm path jp.co.cyberagent.stf.rotationwatcher
+[09:50:36][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell export CLASSPATH=/data/app/jp.co.cyberagent.stf.rotationwatcher-1/base.apk;exec app_process /system/bin jp.co.cyberagent.stf.rotationwatcher.RotationWatcher
+[09:50:37][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 forward --no-rebind tcp:13792 localabstract:minicap_13792
+[09:50:37][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -i
+[09:50:37][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell dumpsys window displays
+[09:50:37][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -n 'minicap_13792' -P 720x1280@720x1280/0 -l 2>&1
+[09:50:38][DEBUG]<airtest.utils.nbsp> [minicap_server]b'PID: 3862'
+[09:50:38][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: Using projection 720x1280@720x1280/0'
+[09:50:38][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_25.cpp:241) Creating SurfaceComposerClient'
+[09:50:38][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_25.cpp:244) Performing SurfaceComposerClient init check'
+[09:50:38][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_25.cpp:251) Creating virtual display'
+[09:50:38][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_25.cpp:257) Creating buffer queue'
+[09:50:38][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_25.cpp:262) Creating CPU consumer'
+[09:50:38][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_25.cpp:266) Creating frame waiter'
+[09:50:38][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_25.cpp:270) Publishing virtual display'
+[09:50:38][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_25.cpp:287) Found 7.1 Developer Preview SurfaceComposerClient::setDisplaySurface'
+[09:50:38][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/JpgEncoder.cpp:64) Allocating 2766852 bytes for JPG encoder'
+[09:50:38][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/minicap.cpp:489) Server start'
+[09:50:38][DEBUG]<airtest.core.android.minicap> (1, 24, 3862, 720, 1280, 720, 1280, 0, 2)
+[09:50:38][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/minicap.cpp:492) New client connection'
+[09:50:38][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:50:38][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.29 s.
+[09:50:38][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:50:38][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (40, 94), 'rectangle': ((13, 64), (13, 125), (68, 125), (68, 64)), 'confidence': 0.7658422589302063}
+[09:50:38][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:50:38][DEBUG]<airtest.core.api> match result: {'result': (40, 94), 'rectangle': ((13, 64), (13, 125), (68, 125), (68, 64)), 'confidence': 0.7658422589302063}
+[09:50:41][INFO]<airtest.core.api> Try finding:
+Template(C:\Users\shaojunshuai\PycharmProjects\AutoTest-python\Auto_Test\test_data\picture\id_7.png)
+[09:50:41][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:50:41][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.15 s.
+[09:50:41][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:50:41][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (578, 95), 'rectangle': ((551, 65), (551, 126), (606, 126), (606, 65)), 'confidence': 0.4059785008430481}
+[09:50:41][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:50:41][DEBUG]<airtest.core.api> try match with BRISKMatching
+[09:50:41][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.20 s.
+[09:50:41][DEBUG]<airtest.core.api> match result: None
+[09:50:42][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:50:42][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.16 s.
+[09:50:42][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:50:42][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (578, 95), 'rectangle': ((551, 65), (551, 126), (606, 126), (606, 65)), 'confidence': 0.4059785008430481}
+[09:50:42][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:50:42][DEBUG]<airtest.core.api> try match with BRISKMatching
+[09:50:42][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.20 s.
+[09:50:42][DEBUG]<airtest.core.api> match result: None
+[09:50:43][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:50:43][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.16 s.
+[09:50:43][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:50:43][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (578, 95), 'rectangle': ((551, 65), (551, 126), (606, 126), (606, 65)), 'confidence': 0.4059785008430481}
+[09:50:43][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:50:43][DEBUG]<airtest.core.api> try match with BRISKMatching
+[09:50:43][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.20 s.
+[09:50:43][DEBUG]<airtest.core.api> match result: None
+[09:50:44][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:50:44][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.16 s.
+[09:50:44][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:50:44][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (578, 95), 'rectangle': ((551, 65), (551, 126), (606, 126), (606, 65)), 'confidence': 0.40597087144851685}
+[09:50:44][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:50:44][DEBUG]<airtest.core.api> try match with BRISKMatching
+[09:50:44][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.20 s.
+[09:50:45][DEBUG]<airtest.core.api> match result: None
+[09:50:45][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:50:45][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.16 s.
+[09:50:45][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:50:45][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (578, 95), 'rectangle': ((551, 65), (551, 126), (606, 126), (606, 65)), 'confidence': 0.4059785008430481}
+[09:50:45][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:50:45][DEBUG]<airtest.core.api> try match with BRISKMatching
+[09:50:45][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.20 s.
+[09:50:45][DEBUG]<airtest.core.api> match result: None
+[09:50:46][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:50:46][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.16 s.
+[09:50:46][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:50:46][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (578, 95), 'rectangle': ((551, 65), (551, 126), (606, 126), (606, 65)), 'confidence': 0.4059785008430481}
+[09:50:46][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:50:46][DEBUG]<airtest.core.api> try match with BRISKMatching
+[09:50:46][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.20 s.
+[09:50:46][DEBUG]<airtest.core.api> match result: None
+[09:50:47][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:50:47][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.16 s.
+[09:50:47][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:50:47][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (578, 95), 'rectangle': ((551, 65), (551, 126), (606, 126), (606, 65)), 'confidence': 0.4059785008430481}
+[09:50:47][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:50:47][DEBUG]<airtest.core.api> try match with BRISKMatching
+[09:50:47][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.20 s.
+[09:50:48][DEBUG]<airtest.core.api> match result: None
+[09:50:48][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:50:48][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.15 s.
+[09:50:48][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:50:48][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (578, 95), 'rectangle': ((551, 65), (551, 126), (606, 126), (606, 65)), 'confidence': 0.40597087144851685}
+[09:50:48][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:50:48][DEBUG]<airtest.core.api> try match with BRISKMatching
+[09:50:48][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.20 s.
+[09:50:48][DEBUG]<airtest.core.api> match result: None
+[09:50:49][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:50:49][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.15 s.
+[09:50:49][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:50:49][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (578, 95), 'rectangle': ((551, 65), (551, 126), (606, 126), (606, 65)), 'confidence': 0.40597087144851685}
+[09:50:49][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:50:49][DEBUG]<airtest.core.api> try match with BRISKMatching
+[09:50:49][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.20 s.
+[09:50:49][DEBUG]<airtest.core.api> match result: None
+[09:50:50][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:50:50][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.16 s.
+[09:50:50][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:50:50][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (578, 95), 'rectangle': ((551, 65), (551, 126), (606, 126), (606, 65)), 'confidence': 0.4059785008430481}
+[09:50:50][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:50:50][DEBUG]<airtest.core.api> try match with BRISKMatching
+[09:50:50][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.20 s.
+[09:50:50][DEBUG]<airtest.core.api> match result: None
+[09:50:51][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:50:51][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.17 s.
+[09:50:51][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:50:51][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (578, 95), 'rectangle': ((551, 65), (551, 126), (606, 126), (606, 65)), 'confidence': 0.4059785008430481}
+[09:50:51][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:50:51][DEBUG]<airtest.core.api> try match with BRISKMatching
+[09:50:52][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.21 s.
+[09:50:52][DEBUG]<airtest.core.api> match result: None
+[09:50:52][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:50:52][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.16 s.
+[09:50:52][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:50:52][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (578, 95), 'rectangle': ((551, 65), (551, 126), (606, 126), (606, 65)), 'confidence': 0.4059785008430481}
+[09:50:52][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:50:52][DEBUG]<airtest.core.api> try match with BRISKMatching
+[09:50:52][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.20 s.
+[09:50:52][DEBUG]<airtest.core.api> match result: None
+[09:50:53][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:50:53][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.16 s.
+[09:50:53][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:50:53][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (578, 95), 'rectangle': ((551, 65), (551, 126), (606, 126), (606, 65)), 'confidence': 0.4059785008430481}
+[09:50:53][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:50:53][DEBUG]<airtest.core.api> try match with BRISKMatching
+[09:50:54][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.20 s.
+[09:50:54][DEBUG]<airtest.core.api> match result: None
+[09:50:54][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:50:54][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.16 s.
+[09:50:54][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:50:54][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (578, 95), 'rectangle': ((551, 65), (551, 126), (606, 126), (606, 65)), 'confidence': 0.4059785008430481}
+[09:50:54][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:50:54][DEBUG]<airtest.core.api> try match with BRISKMatching
+[09:50:54][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.20 s.
+[09:50:54][DEBUG]<airtest.core.api> match result: None
+[09:50:55][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:50:55][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.16 s.
+[09:50:55][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:50:55][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (578, 95), 'rectangle': ((551, 65), (551, 126), (606, 126), (606, 65)), 'confidence': 0.4059785008430481}
+[09:50:55][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:50:55][DEBUG]<airtest.core.api> try match with BRISKMatching
+[09:50:55][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.20 s.
+[09:50:56][DEBUG]<airtest.core.api> match result: None
+[09:50:56][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:50:56][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.16 s.
+[09:50:56][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:50:56][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (578, 95), 'rectangle': ((551, 65), (551, 126), (606, 126), (606, 65)), 'confidence': 0.4059785008430481}
+[09:50:56][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:50:56][DEBUG]<airtest.core.api> try match with BRISKMatching
+[09:50:56][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.20 s.
+[09:50:57][DEBUG]<airtest.core.api> match result: None
+[09:50:57][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:50:57][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.16 s.
+[09:50:57][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:50:57][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (578, 95), 'rectangle': ((551, 65), (551, 126), (606, 126), (606, 65)), 'confidence': 0.4059785008430481}
+[09:50:57][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:50:57][DEBUG]<airtest.core.api> try match with BRISKMatching
+[09:50:58][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.21 s.
+[09:50:58][DEBUG]<airtest.core.api> match result: None
+[09:50:58][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:50:58][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.15 s.
+[09:50:58][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:50:58][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (578, 95), 'rectangle': ((551, 65), (551, 126), (606, 126), (606, 65)), 'confidence': 0.4059785008430481}
+[09:50:58][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:50:58][DEBUG]<airtest.core.api> try match with BRISKMatching
+[09:50:59][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.21 s.
+[09:50:59][DEBUG]<airtest.core.api> match result: None
+[09:50:59][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:50:59][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.16 s.
+[09:50:59][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:50:59][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (578, 95), 'rectangle': ((551, 65), (551, 126), (606, 126), (606, 65)), 'confidence': 0.4059785008430481}
+[09:50:59][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:50:59][DEBUG]<airtest.core.api> try match with BRISKMatching
+[09:51:00][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.21 s.
+[09:51:00][DEBUG]<airtest.core.api> match result: None
+[09:51:00][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:51:00][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.14 s.
+[09:51:00][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:51:00][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (578, 95), 'rectangle': ((551, 65), (551, 126), (606, 126), (606, 65)), 'confidence': 0.4059785008430481}
+[09:51:00][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:51:00][DEBUG]<airtest.core.api> try match with BRISKMatching
+[09:51:01][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.20 s.
+[09:51:01][DEBUG]<airtest.core.api> match result: None
+[09:51:01][DEBUG]<airtest.core.api> try match with SURFMatching
+[09:51:01][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.15 s.
+[09:51:01][DEBUG]<airtest.core.api> try match with TemplateMatching
+[09:51:01][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (578, 95), 'rectangle': ((551, 65), (551, 126), (606, 126), (606, 65)), 'confidence': 0.4059785008430481}
+[09:51:01][DEBUG]<airtest.aircv.template_matching> find_best_result() run time is 0.03 s.
+[09:51:01][DEBUG]<airtest.core.api> try match with BRISKMatching
+[09:51:01][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.20 s.
+[09:51:01][DEBUG]<airtest.core.api> match result: None

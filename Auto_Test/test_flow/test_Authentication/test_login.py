@@ -94,6 +94,7 @@ def test_companyRegister():
         driver.quit()
     else:
         # touch(Template(r"C:\Users\shaojunshuai\PycharmProjects\AutoTest-python\Auto_Test\test_data\picture\id_5.png"))
+        logger.info("小程序自动化测试开始")
         startWeinxin()
         deleteInforMobile()  # 删除个人信息
         # clearCache()
@@ -102,7 +103,6 @@ def test_companyRegister():
         waiteForClick(mobileDriver(text='授权手机号'))
         waiteForClick(mobileDriver(text='允许'))
 
-        logger.info("PC 端进行密码修改")
         # companyPassForgetForward(act)
         logger.info("小程序个人实名认证页面")
 
@@ -114,7 +114,7 @@ def test_companyRegister():
             3].child(
             "com.tencent.mm:id/dm0").click()
         waiteForClick(mobileDriver(text='完成'))
-        sleep(2)
+        sleep(3)
         waiteForClick(mobileDriver(text='请上传身份证国徽面'))
         waiteForClick(mobileDriver(text='所有图片'))
         waiteForClick(mobileDriver(text='自动化测试专用相册'))
@@ -134,7 +134,6 @@ def test_companyRegister():
                 continue
         picture_dir = os.getcwd() + '\\test_data\\picture\\id_6.png'
         touch(Template(picture_dir))
-
 
 
 # 后端账户修改密码
