@@ -1,5 +1,0 @@
-Thu, 15 Oct 2020 08:26:41-run_all_case.py-test_backStage_examine.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
-
-[08:26:41][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am start -n com.netease.open.pocoservice/.TestActivity
-[08:26:42][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am instrument -w -e debug false -e class com.netease.open.pocoservice.InstrumentedTestAsLauncher com.netease.open.pocoservice.test/android.support.test.runner.AndroidJUnitRunner
-Thu, 15 Oct 2020 08:26:52-run_all_case.py-test_backStage_examine.py-[line:73]-INFO-[日志信息]: 成功登录后台系统

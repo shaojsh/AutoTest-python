@@ -320,10 +320,12 @@ def test_Tripartite_interaction():
     else:
         waiteForClick(mobileDriver(text='我的'))
         waiteForClick(mobileDriver(text='我的借款'))
+        sleep(1)
         waiteForClick(mobileDriver(text='我要还款'))
 
         sleep(1)
         waiteForClick(mobileDriver(text='请选择'))
+        sleep(1)
         waiteForClick(mobileDriver(text='鞍山银行'))
 
         waiteForClick(mobileDriver(text='请输入'))
@@ -337,7 +339,6 @@ def test_Tripartite_interaction():
         waiteForClick(mobileDriver(text='完成'))
         waiteForClick(mobileDriver(type='android.widget.CheckBox'))
         waiteForClick(mobileDriver(text='提交申请'))
-        waiteForClick(mobileDriver(name='com.tencent.mm:id/dc'))
     # 银行还款审核
     replayCheck_Bank(driver_bank)
 

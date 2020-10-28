@@ -1,0 +1,96 @@
+{
+  "uid" : "6d00651b259ad259",
+  "name" : "test_Tripartite_interaction",
+  "fullName" : "test_flow.test_Tripartite_interaction.test_Tripartite_interaction#test_Tripartite_interaction",
+  "historyId" : "d91e7b4392163e0b46289a9f8b97b16c",
+  "time" : {
+    "start" : 1603846749257,
+    "stop" : 1603846992737,
+    "duration" : 243480
+  },
+  "description" : "测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互</p>\n",
+  "status" : "broken",
+  "statusMessage" : "airtest.core.error.TargetNotFoundError: 'Picture Template(C:\\\\Users\\\\shaojunshuai\\\\PycharmProjects\\\\AutoTest-python\\\\Auto_Test\\\\test_data\\\\picture\\\\id_8.png) not found in screen'",
+  "statusTrace" : "@pytest.mark.run(order=-1)\n    @allure.severity(\"blocker\")\n    @allure.description(\"测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互\")\n    @allure.testcase(\"http://10.10.128.152:10052/#/account/login\", \"三方（企业，银行，前端）交互 \uD83D\uDC47\")\n    def test_Tripartite_interaction():\n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        # 前端账户授信申请\n        if runMode == 'UI':\n            driver_forward = webdriver.Chrome()\n            driver_forward.maximize_window()\n            driver_forward.get(url_forward)\n            logger.info('前端账户登录授信申请')\n            login(driver_forward)\n            sleep(2)\n            creditExtension(driver_forward)\n        else:\n            waiteForClick(mobileDriver(text='产品服务'))\n            el = mobileDriver(text='我的', name='android.view.View', type='android.view.View')\n            dragUntilTextAppear(el, '产品服务', product_name)\n            waiteForClick(mobileDriver(text=product_name))\n            waiteForClick(mobileDriver(text='立即申请'))\n    \n            logger.info('授信采购信息画面')\n            waiteForClick(mobileDriver(text='请输入银行账号'))\n            text('123456789012')\n            mobileDriver(text='分支行').click()\n            waiteForClick(mobileDriver(text='请选择项目'))\n            waiteForClick(mobileDriver(text='请输入项目名称').parent().parent().parent().child()[2])\n            waiteForClick(mobileDriver(text='下一步'))\n    \n            logger.info('授信基本资料页面')\n            waiteForClick(mobileDriver(text='下一步'))\n    \n            logger.info('授信页面')\n            sleep(2)\n            mobileDriver(text='企业经营场所照片').drag_to(mobileDriver(text='业务申请'), 0.5)\n            mobileDriver(text='企业征信').drag_to(mobileDriver(text='业务申请'), 0.5)\n            mobileDriver(text='财务证明资料').drag_to(mobileDriver(text='业务申请'), 0.5)\n            waiteForClick(mobileDriver(text='我已阅读并同意提交资料', type='android.widget.CheckBox').child().child())\n            waiteForClick(mobileDriver(text='提交授信'))\n            # 活体认证欺诈性校验\n            getVerification()\n            while True:\n                flg = mobileDriver(text='安全认证中').exists()\n                if flg:\n                    sleep(1)\n                    break\n                else:\n                    continue\n    \n            while True:\n                flg = mobileDriver(text='安全认证中').exists()\n                if flg:\n                    continue\n                else:\n                    sleep(1)\n                    break\n    \n            sleep(1)\n            picture_dir = os.getcwd() + '\\\\test_data\\\\picture\\\\id_7.png'\n            touch(Template(picture_dir))\n            touch(Template(picture_dir))\n            touch(Template(picture_dir))\n            sleep(2)\n            mobileDriver(text='我的').click()\n>           logger.info('授信完成页面')\n\ntest_flow\\test_Tripartite_interaction\\test_Tripartite_interaction.py:205: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\airtest\\utils\\logwraper.py:71: in wrapper\n    res = f(*args, **kwargs)\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\airtest\\core\\api.py:260: in touch\n    pos = loop_find(v, timeout=ST.FIND_TIMEOUT)\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\airtest\\utils\\logwraper.py:71: in wrapper\n    res = f(*args, **kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nquery = Template(C:\\Users\\shaojunshuai\\PycharmProjects\\AutoTest-python\\Auto_Test\\test_data\\picture\\id_8.png)\ntimeout = 20, threshold = None, interval = 0.5, intervalfunc = None\n\n    @logwrap\n    def loop_find(query, timeout=ST.FIND_TIMEOUT, threshold=None, interval=0.5, intervalfunc=None):\n        \"\"\"\n        Search for image template in the screen until timeout\n    \n        Args:\n            query: image template to be found in screenshot\n            timeout: time interval how long to look for the image template\n            threshold: default is None\n            interval: sleep interval before next attempt to find the image template\n            intervalfunc: function that is executed after unsuccessful attempt to find the image template\n    \n        Raises:\n            TargetNotFoundError: when image template is not found in screenshot\n    \n        Returns:\n            TargetNotFoundError if image template not found, otherwise returns the position where the image template has\n            been found in screenshot\n    \n        \"\"\"\n        G.LOGGING.info(\"Try finding:\\n%s\", query)\n        start_time = time.time()\n        while True:\n            screen = G.DEVICE.snapshot(filename=None, quality=ST.SNAPSHOT_QUALITY)\n    \n            if screen is None:\n                G.LOGGING.warning(\"Screen is None, may be locked\")\n            else:\n                if threshold:\n                    query.threshold = threshold\n                match_pos = query.match_in(screen)\n                if match_pos:\n                    try_log_screen(screen)\n                    return match_pos\n    \n            if intervalfunc is not None:\n                intervalfunc()\n    \n            # 超时则raise，未超时则进行下次循环:\n            if (time.time() - start_time) > timeout:\n                try_log_screen(screen)\n>               raise TargetNotFoundError('Picture %s not found in screen' % query)\nE               airtest.core.error.TargetNotFoundError: 'Picture Template(C:\\\\Users\\\\shaojunshuai\\\\PycharmProjects\\\\AutoTest-python\\\\Auto_Test\\\\test_data\\\\picture\\\\id_8.png) not found in screen'\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\airtest\\core\\cv.py:77: TargetNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互",
+    "status" : "broken",
+    "statusMessage" : "airtest.core.error.TargetNotFoundError: 'Picture Template(C:\\\\Users\\\\shaojunshuai\\\\PycharmProjects\\\\AutoTest-python\\\\Auto_Test\\\\test_data\\\\picture\\\\id_8.png) not found in screen'",
+    "statusTrace" : "@pytest.mark.run(order=-1)\n    @allure.severity(\"blocker\")\n    @allure.description(\"测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互\")\n    @allure.testcase(\"http://10.10.128.152:10052/#/account/login\", \"三方（企业，银行，前端）交互 \uD83D\uDC47\")\n    def test_Tripartite_interaction():\n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        # 前端账户授信申请\n        if runMode == 'UI':\n            driver_forward = webdriver.Chrome()\n            driver_forward.maximize_window()\n            driver_forward.get(url_forward)\n            logger.info('前端账户登录授信申请')\n            login(driver_forward)\n            sleep(2)\n            creditExtension(driver_forward)\n        else:\n            waiteForClick(mobileDriver(text='产品服务'))\n            el = mobileDriver(text='我的', name='android.view.View', type='android.view.View')\n            dragUntilTextAppear(el, '产品服务', product_name)\n            waiteForClick(mobileDriver(text=product_name))\n            waiteForClick(mobileDriver(text='立即申请'))\n    \n            logger.info('授信采购信息画面')\n            waiteForClick(mobileDriver(text='请输入银行账号'))\n            text('123456789012')\n            mobileDriver(text='分支行').click()\n            waiteForClick(mobileDriver(text='请选择项目'))\n            waiteForClick(mobileDriver(text='请输入项目名称').parent().parent().parent().child()[2])\n            waiteForClick(mobileDriver(text='下一步'))\n    \n            logger.info('授信基本资料页面')\n            waiteForClick(mobileDriver(text='下一步'))\n    \n            logger.info('授信页面')\n            sleep(2)\n            mobileDriver(text='企业经营场所照片').drag_to(mobileDriver(text='业务申请'), 0.5)\n            mobileDriver(text='企业征信').drag_to(mobileDriver(text='业务申请'), 0.5)\n            mobileDriver(text='财务证明资料').drag_to(mobileDriver(text='业务申请'), 0.5)\n            waiteForClick(mobileDriver(text='我已阅读并同意提交资料', type='android.widget.CheckBox').child().child())\n            waiteForClick(mobileDriver(text='提交授信'))\n            # 活体认证欺诈性校验\n            getVerification()\n            while True:\n                flg = mobileDriver(text='安全认证中').exists()\n                if flg:\n                    sleep(1)\n                    break\n                else:\n                    continue\n    \n            while True:\n                flg = mobileDriver(text='安全认证中').exists()\n                if flg:\n                    continue\n                else:\n                    sleep(1)\n                    break\n    \n            sleep(1)\n            picture_dir = os.getcwd() + '\\\\test_data\\\\picture\\\\id_7.png'\n            touch(Template(picture_dir))\n            touch(Template(picture_dir))\n            touch(Template(picture_dir))\n            sleep(2)\n            mobileDriver(text='我的').click()\n>           logger.info('授信完成页面')\n\ntest_flow\\test_Tripartite_interaction\\test_Tripartite_interaction.py:205: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\airtest\\utils\\logwraper.py:71: in wrapper\n    res = f(*args, **kwargs)\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\airtest\\core\\api.py:260: in touch\n    pos = loop_find(v, timeout=ST.FIND_TIMEOUT)\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\airtest\\utils\\logwraper.py:71: in wrapper\n    res = f(*args, **kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nquery = Template(C:\\Users\\shaojunshuai\\PycharmProjects\\AutoTest-python\\Auto_Test\\test_data\\picture\\id_8.png)\ntimeout = 20, threshold = None, interval = 0.5, intervalfunc = None\n\n    @logwrap\n    def loop_find(query, timeout=ST.FIND_TIMEOUT, threshold=None, interval=0.5, intervalfunc=None):\n        \"\"\"\n        Search for image template in the screen until timeout\n    \n        Args:\n            query: image template to be found in screenshot\n            timeout: time interval how long to look for the image template\n            threshold: default is None\n            interval: sleep interval before next attempt to find the image template\n            intervalfunc: function that is executed after unsuccessful attempt to find the image template\n    \n        Raises:\n            TargetNotFoundError: when image template is not found in screenshot\n    \n        Returns:\n            TargetNotFoundError if image template not found, otherwise returns the position where the image template has\n            been found in screenshot\n    \n        \"\"\"\n        G.LOGGING.info(\"Try finding:\\n%s\", query)\n        start_time = time.time()\n        while True:\n            screen = G.DEVICE.snapshot(filename=None, quality=ST.SNAPSHOT_QUALITY)\n    \n            if screen is None:\n                G.LOGGING.warning(\"Screen is None, may be locked\")\n            else:\n                if threshold:\n                    query.threshold = threshold\n                match_pos = query.match_in(screen)\n                if match_pos:\n                    try_log_screen(screen)\n                    return match_pos\n    \n            if intervalfunc is not None:\n                intervalfunc()\n    \n            # 超时则raise，未超时则进行下次循环:\n            if (time.time() - start_time) > timeout:\n                try_log_screen(screen)\n>               raise TargetNotFoundError('Picture %s not found in screen' % query)\nE               airtest.core.error.TargetNotFoundError: 'Picture Template(C:\\\\Users\\\\shaojunshuai\\\\PycharmProjects\\\\AutoTest-python\\\\Auto_Test\\\\test_data\\\\picture\\\\id_8.png) not found in screen'\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\airtest\\core\\cv.py:77: TargetNotFoundError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1b8866f7c6400ec0",
+      "name" : "log",
+      "source" : "1b8866f7c6400ec0.txt",
+      "type" : "text/plain",
+      "size" : 19505
+    }, {
+      "uid" : "6bfc18aead89d641",
+      "name" : "stdout",
+      "source" : "6bfc18aead89d641.txt",
+      "type" : "text/plain",
+      "size" : 4
+    }, {
+      "uid" : "df1adcc9a79e2cb7",
+      "name" : "stderr",
+      "source" : "df1adcc9a79e2cb7.txt",
+      "type" : "text/plain",
+      "size" : 18758
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=-1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Tripartite_interaction"
+  }, {
+    "name" : "suite",
+    "value" : "test_Tripartite_interaction"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "15084-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Tripartite_interaction.test_Tripartite_interaction"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "三方（企业，银行，前端）交互 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/account/login",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=-1)" ]
+  },
+  "source" : "6d00651b259ad259.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,92 @@
+{
+  "uid" : "df8880ec983c2d3b",
+  "name" : "test_businessInforReg",
+  "fullName" : "test_flow.test_Authentication.test_businessInfoReg#test_businessInforReg",
+  "historyId" : "673c6cf796d54f5cbc2e9852ef4f69c7",
+  "time" : {
+    "start" : 1603429317736,
+    "stop" : 1603429369925,
+    "duration" : 52189
+  },
+  "description" : "测试 http://10.10.128.152:10053/personal/baseinfo 企业认证",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/personal/baseinfo 企业认证</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/personal/baseinfo 企业认证",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3b35722fea6a538b",
+      "name" : "log",
+      "source" : "3b35722fea6a538b.txt",
+      "type" : "text/plain",
+      "size" : 1247
+    }, {
+      "uid" : "9c0606ebbd8def8e",
+      "name" : "stdout",
+      "source" : "9c0606ebbd8def8e.txt",
+      "type" : "text/plain",
+      "size" : 137
+    }, {
+      "uid" : "914d4bd60dd3ee33",
+      "name" : "stderr",
+      "source" : "914d4bd60dd3ee33.txt",
+      "type" : "text/plain",
+      "size" : 1743
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_businessInfoReg"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "10100-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_businessInfoReg"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "企业认证 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/personal/baseinfo",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "df8880ec983c2d3b.json",
+  "parameterValues" : [ ]
+}

@@ -2,20 +2,19 @@
   "d91e7b4392163e0b46289a9f8b97b16c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e00335931c22084f",
-      "status" : "broken",
-      "statusDetails" : "airtest.core.error.TargetNotFoundError: 'Picture Template(C:\\\\Users\\\\shaojunshuai\\\\PycharmProjects\\\\AutoTest-python\\\\Auto_Test\\\\test_data\\\\picture\\\\id_8.png) not found in screen'",
+      "uid" : "4d314c41e21dedbc",
+      "status" : "passed",
       "time" : {
-        "start" : 1603847447913,
-        "stop" : 1603847531980,
-        "duration" : 84067
+        "start" : 1603851751346,
+        "stop" : 1603852050154,
+        "duration" : 298808
       }
     } ]
   },
@@ -29,31 +28,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6f683164fd2df33f",
+      "uid" : "d2e790710b3510ca",
       "status" : "passed",
       "time" : {
-        "start" : 1603847290352,
-        "stop" : 1603847309475,
-        "duration" : 19123
+        "start" : 1603851599804,
+        "stop" : 1603851618788,
+        "duration" : 18984
       }
     } ]
   },
   "dd0646a5c1a798e47c4f25747509dea9" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9f0ea95fbfe2e40d",
-      "status" : "passed",
+      "uid" : "bd0cfd91260943c9",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=发现\"",
       "time" : {
-        "start" : 1603847126767,
-        "stop" : 1603847193199,
-        "duration" : 66432
+        "start" : 1603859669374,
+        "stop" : 1603859678134,
+        "duration" : 8760
       }
     } ]
   },
@@ -67,12 +67,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9d54a76a170891c4",
+      "uid" : "c47036563629e1f1",
       "status" : "passed",
       "time" : {
-        "start" : 1603847193256,
-        "stop" : 1603847290322,
-        "duration" : 97066
+        "start" : 1603851497959,
+        "stop" : 1603851599786,
+        "duration" : 101827
       }
     } ]
   },
@@ -86,11 +86,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c37c22d012185563",
+      "uid" : "8dcfdbf0cda4ff4e",
       "status" : "passed",
       "time" : {
-        "start" : 1603847193246,
-        "stop" : 1603847193247,
+        "start" : 1603859678429,
+        "stop" : 1603859678430,
         "duration" : 1
       }
     } ]
@@ -105,12 +105,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bcccd57d28fab6c7",
+      "uid" : "b711cf14cb555b20",
       "status" : "passed",
       "time" : {
-        "start" : 1603847309488,
-        "stop" : 1603847346502,
-        "duration" : 37014
+        "start" : 1603851618798,
+        "stop" : 1603851655625,
+        "duration" : 36827
       }
     } ]
   },
@@ -124,7 +124,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "519a26f4bc278e8e",
+      "uid" : "ec834c0073792547",
       "status" : "passed",
       "time" : {
         "start" : 1600938088161,
@@ -143,12 +143,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "39c380316d0af9d5",
+      "uid" : "e6e4879ce506fbd",
       "status" : "passed",
       "time" : {
-        "start" : 1603847346517,
-        "stop" : 1603847447897,
-        "duration" : 101380
+        "start" : 1603851655662,
+        "stop" : 1603851751333,
+        "duration" : 95671
       }
     } ]
   }

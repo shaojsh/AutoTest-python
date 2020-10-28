@@ -2,4 +2,4 @@
 # -*- coding: UTF-8 _*_
 config:
   evn: "SIT"
-  runMode: 'UI1'
+  runMode: 'UI'

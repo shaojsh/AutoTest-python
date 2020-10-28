@@ -98,7 +98,8 @@ def test_companyRegister():
         startWeinxin()
         deleteInforMobile()  # 删除个人信息
         # clearCache()
-        mobileDriver(text='一键微信授权登录').click()
+        picture_dir1 = os.getcwd() + '\\test_data\\picture\\id_9.png'
+        touch(Template(picture_dir1))
         waiteForClick(mobileDriver(text='允许'))
         waiteForClick(mobileDriver(text='授权手机号'))
         waiteForClick(mobileDriver(text='允许'))
