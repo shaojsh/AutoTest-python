@@ -1,0 +1,4 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 _*_
+path:
+    locust_url: '/test_locust/test_performance/test_performance.py'

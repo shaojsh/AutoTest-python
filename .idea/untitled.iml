@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/UI-Auto/Page" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/UI-Auto/common_ui" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/UI-Auto" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Auto_Test/test_locust/test_performance" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/UI-Auto/Base" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
