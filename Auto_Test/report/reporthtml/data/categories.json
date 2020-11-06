@@ -1,26 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=发现\"",
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
       "children" : [ {
-        "name" : "test_companyRegister",
-        "uid" : "bd0cfd91260943c9",
-        "parentUid" : "5db8533bcdbee6ee1c37c11eeedb830a",
+        "name" : "test_Tripartite_interaction",
+        "uid" : "731ea6000fb025d5",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1603859669374,
-          "stop" : 1603859678134,
-          "duration" : 8760
+          "start" : 1604459728106,
+          "stop" : 1604459812110,
+          "duration" : 84004
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5db8533bcdbee6ee1c37c11eeedb830a"
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  } ],
+  "name" : "categories"
 }

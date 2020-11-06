@@ -1,0 +1,3353 @@
+{
+  "uid" : "975246911bb09ec2",
+  "name" : "test_companyRegister",
+  "fullName" : "test_flow.test_Authentication.test_login#test_companyRegister",
+  "historyId" : "dd0646a5c1a798e47c4f25747509dea9",
+  "time" : {
+    "start" : 1604459455628,
+    "stop" : 1604459472714,
+    "duration" : 17086
+  },
+  "description" : "测试 http://10.10.128.152:10053/user/register 中小微企业注册流程",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/user/register 中小微企业注册流程</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/user/register 中小微企业注册流程",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "81ccbd4fd2ccb78d",
+      "name" : "log",
+      "source" : "81ccbd4fd2ccb78d.txt",
+      "type" : "text/plain",
+      "size" : 431
+    }, {
+      "uid" : "c9a262607c03f246",
+      "name" : "stdout",
+      "source" : "c9a262607c03f246.txt",
+      "type" : "text/plain",
+      "size" : 72
+    }, {
+      "uid" : "e4098af4218548b1",
+      "name" : "stderr",
+      "source" : "e4098af4218548b1.txt",
+      "type" : "text/plain",
+      "size" : 612
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "9496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "注册 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/user/register",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "113d27ffdf179cb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604459374009,
+        "stop" : 1604459391686,
+        "duration" : 17677
+      }
+    }, {
+      "uid" : "121e56788f4b8d7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604450737670,
+        "stop" : 1604450755218,
+        "duration" : 17548
+      }
+    }, {
+      "uid" : "f8fdc760f3fee2dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604450651230,
+        "stop" : 1604450668763,
+        "duration" : 17533
+      }
+    }, {
+      "uid" : "bc1399541568fa35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604450594059,
+        "stop" : 1604450612220,
+        "duration" : 18161
+      }
+    }, {
+      "uid" : "7299dd6cb7c97bfe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604400657961,
+        "stop" : 1604400675216,
+        "duration" : 17255
+      }
+    }, {
+      "uid" : "d79f34e121d3df47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604394060122,
+        "stop" : 1604394077263,
+        "duration" : 17141
+      }
+    }, {
+      "uid" : "3879b5f3829253fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604393985354,
+        "stop" : 1604394002773,
+        "duration" : 17419
+      }
+    }, {
+      "uid" : "159d981fbafafe50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604393946177,
+        "stop" : 1604393963933,
+        "duration" : 17756
+      }
+    }, {
+      "uid" : "8c75c44e95e36340",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604393900798,
+        "stop" : 1604393918914,
+        "duration" : 18116
+      }
+    }, {
+      "uid" : "ece8addb1fa3c0fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604371198818,
+        "stop" : 1604371215976,
+        "duration" : 17158
+      }
+    }, {
+      "uid" : "6cd48af0f83bacdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604371137892,
+        "stop" : 1604371156444,
+        "duration" : 18552
+      }
+    }, {
+      "uid" : "814b49df528c07b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604366784454,
+        "stop" : 1604366801770,
+        "duration" : 17316
+      }
+    }, {
+      "uid" : "d3a41a87402a5499",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604366712293,
+        "stop" : 1604366730072,
+        "duration" : 17779
+      }
+    }, {
+      "uid" : "66791ab7167803c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604318760648,
+        "stop" : 1604318778571,
+        "duration" : 17923
+      }
+    }, {
+      "uid" : "7baaab2bceaddd69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604311659763,
+        "stop" : 1604311678386,
+        "duration" : 18623
+      }
+    }, {
+      "uid" : "1432bc628631a987",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604279400227,
+        "stop" : 1604279417693,
+        "duration" : 17466
+      }
+    }, {
+      "uid" : "f7309833f23128a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604279296850,
+        "stop" : 1604279314046,
+        "duration" : 17196
+      }
+    }, {
+      "uid" : "ddf76b5e0381b5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604278831829,
+        "stop" : 1604278850923,
+        "duration" : 19094
+      }
+    }, {
+      "uid" : "853cce79dd160d11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603937809191,
+        "stop" : 1603937876875,
+        "duration" : 67684
+      }
+    }, {
+      "uid" : "63d40c46e47a9a",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=发现\"",
+      "time" : {
+        "start" : 1603937235965,
+        "stop" : 1603937243800,
+        "duration" : 7835
+      }
+    }, {
+      "uid" : "4c269f641b71c66f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603860223605,
+        "stop" : 1603860365816,
+        "duration" : 142211
+      }
+    }, {
+      "uid" : "b674a68ae4ac663a",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1603859787192,
+        "stop" : 1603859810606,
+        "duration" : 23414
+      }
+    }, {
+      "uid" : "624ef40fcf9a7bae",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1603859728947,
+        "stop" : 1603859746848,
+        "duration" : 17901
+      }
+    }, {
+      "uid" : "6b44f0b2c130d7ad",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=发现\"",
+      "time" : {
+        "start" : 1603859669374,
+        "stop" : 1603859678134,
+        "duration" : 8760
+      }
+    }, {
+      "uid" : "45c26f5869d4776f",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1603859578069,
+        "stop" : 1603859595978,
+        "duration" : 17909
+      }
+    }, {
+      "uid" : "b7a3fd24eb794732",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1603859464438,
+        "stop" : 1603859482939,
+        "duration" : 18501
+      }
+    }, {
+      "uid" : "718d87993d9198c0",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1603859391019,
+        "stop" : 1603859409567,
+        "duration" : 18548
+      }
+    }, {
+      "uid" : "c2ee006b2aa8648b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603851433953,
+        "stop" : 1603851497906,
+        "duration" : 63953
+      }
+    }, {
+      "uid" : "ee244bf3e69bf92b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603850818809,
+        "stop" : 1603850887488,
+        "duration" : 68679
+      }
+    }, {
+      "uid" : "1805709a3b7f8a58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603849987416,
+        "stop" : 1603850082109,
+        "duration" : 94693
+      }
+    }, {
+      "uid" : "6490983c0728066a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603849108776,
+        "stop" : 1603849173152,
+        "duration" : 64376
+      }
+    }, {
+      "uid" : "5d1aa850e0cd6770",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603848868717,
+        "stop" : 1603848965957,
+        "duration" : 97240
+      }
+    }, {
+      "uid" : "63101366c326d8d7",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=发现\"",
+      "time" : {
+        "start" : 1603848437367,
+        "stop" : 1603848444815,
+        "duration" : 7448
+      }
+    }, {
+      "uid" : "cbb7b09019c16a01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603847813186,
+        "stop" : 1603847880853,
+        "duration" : 67667
+      }
+    }, {
+      "uid" : "a9d4d1661022529",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603847126767,
+        "stop" : 1603847193199,
+        "duration" : 66432
+      }
+    }, {
+      "uid" : "53ec843ea8f28861",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603846429651,
+        "stop" : 1603846495951,
+        "duration" : 66300
+      }
+    }, {
+      "uid" : "468663b4e7abfa6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603845828530,
+        "stop" : 1603845894775,
+        "duration" : 66245
+      }
+    }, {
+      "uid" : "32f2ccbf7e5474e4",
+      "status" : "broken",
+      "statusDetails" : "airtest.core.error.TargetNotFoundError: 'Picture Template(C:\\\\Users\\\\shaojunshuai\\\\PycharmProjects\\\\AutoTest-python\\\\Auto_Test\\\\test_data\\\\picture\\\\id_6.png) not found in screen'",
+      "time" : {
+        "start" : 1603845245037,
+        "stop" : 1603845327541,
+        "duration" : 82504
+      }
+    }, {
+      "uid" : "fd4ea7995f56c144",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603791580697,
+        "stop" : 1603791644988,
+        "duration" : 64291
+      }
+    }, {
+      "uid" : "a31bb879f69ade1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603790977609,
+        "stop" : 1603791041776,
+        "duration" : 64167
+      }
+    }, {
+      "uid" : "29d153486273217e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603790406886,
+        "stop" : 1603790472864,
+        "duration" : 65978
+      }
+    }, {
+      "uid" : "3e141717925dffda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603789256913,
+        "stop" : 1603789320426,
+        "duration" : 63513
+      }
+    }, {
+      "uid" : "71f7670113c78898",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603788910829,
+        "stop" : 1603788974148,
+        "duration" : 63319
+      }
+    }, {
+      "uid" : "8f1bf973ccc0b17f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603788050231,
+        "stop" : 1603788113625,
+        "duration" : 63394
+      }
+    }, {
+      "uid" : "a3769776f4b25e17",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=发现\"",
+      "time" : {
+        "start" : 1603787990181,
+        "stop" : 1603787999247,
+        "duration" : 9066
+      }
+    }, {
+      "uid" : "324becdd71dd12e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603787173089,
+        "stop" : 1603787237002,
+        "duration" : 63913
+      }
+    }, {
+      "uid" : "61d310b72c6e0d1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603786529872,
+        "stop" : 1603786593610,
+        "duration" : 63738
+      }
+    }, {
+      "uid" : "ea6cabf754f380a6",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=发现\"",
+      "time" : {
+        "start" : 1603786481453,
+        "stop" : 1603786489022,
+        "duration" : 7569
+      }
+    }, {
+      "uid" : "bdb54f112adf27ce",
+      "status" : "broken",
+      "statusDetails" : "hrpc.exceptions.TransportDisconnected: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))",
+      "time" : {
+        "start" : 1603785871158,
+        "stop" : 1603785891159,
+        "duration" : 20001
+      }
+    }, {
+      "uid" : "51846d4c593e19dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603785339934,
+        "stop" : 1603785403596,
+        "duration" : 63662
+      }
+    }, {
+      "uid" : "8ff220813d872c90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603784874595,
+        "stop" : 1603784939387,
+        "duration" : 64792
+      }
+    }, {
+      "uid" : "ca495bfa048b1f89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603784029377,
+        "stop" : 1603784092563,
+        "duration" : 63186
+      }
+    }, {
+      "uid" : "54254ebebec17e70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603783450082,
+        "stop" : 1603783513599,
+        "duration" : 63517
+      }
+    }, {
+      "uid" : "8327eafbb2167fcd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603782963845,
+        "stop" : 1603783042730,
+        "duration" : 78885
+      }
+    }, {
+      "uid" : "b25b3f42d2ea6b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603782465367,
+        "stop" : 1603782528757,
+        "duration" : 63390
+      }
+    }, {
+      "uid" : "c5f197358d13efd8",
+      "status" : "broken",
+      "statusDetails" : "airtest.core.error.TargetNotFoundError: 'Picture Template(C:\\\\Users\\\\shaojunshuai\\\\PycharmProjects\\\\AutoTest-python\\\\Auto_Test\\\\test_data\\\\picture\\\\id_6.png) not found in screen'",
+      "time" : {
+        "start" : 1603782240372,
+        "stop" : 1603782321114,
+        "duration" : 80742
+      }
+    }, {
+      "uid" : "e55dff6a8d7c8277",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603781752457,
+        "stop" : 1603781815879,
+        "duration" : 63422
+      }
+    }, {
+      "uid" : "3380a70efbc17e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603781259975,
+        "stop" : 1603781325378,
+        "duration" : 65403
+      }
+    }, {
+      "uid" : "638c27d5bbddae32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603780769848,
+        "stop" : 1603780854899,
+        "duration" : 85051
+      }
+    }, {
+      "uid" : "4f216563ea3e28b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603780262197,
+        "stop" : 1603780325601,
+        "duration" : 63404
+      }
+    }, {
+      "uid" : "72ce16cc24dcb2b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603779692096,
+        "stop" : 1603779756242,
+        "duration" : 64146
+      }
+    }, {
+      "uid" : "eed8d59a5e99365",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603779023694,
+        "stop" : 1603779088042,
+        "duration" : 64348
+      }
+    }, {
+      "uid" : "4a2fa77b4790a5d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603777922614,
+        "stop" : 1603777987181,
+        "duration" : 64567
+      }
+    }, {
+      "uid" : "205728eea44e28fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603777120401,
+        "stop" : 1603777245592,
+        "duration" : 125191
+      }
+    }, {
+      "uid" : "c6aa8832f99dd0d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603776601402,
+        "stop" : 1603776665996,
+        "duration" : 64594
+      }
+    }, {
+      "uid" : "9ba71346f31b92ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603776040259,
+        "stop" : 1603776104025,
+        "duration" : 63766
+      }
+    }, {
+      "uid" : "f17476fd5803cff8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603775464154,
+        "stop" : 1603775527898,
+        "duration" : 63744
+      }
+    }, {
+      "uid" : "7343b8809ca80507",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1603775410496,
+        "stop" : 1603775428543,
+        "duration" : 18047
+      }
+    }, {
+      "uid" : "fbddf94c37c71303",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603774918642,
+        "stop" : 1603774983437,
+        "duration" : 64795
+      }
+    }, {
+      "uid" : "cb05b7ea41ba74b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603774186558,
+        "stop" : 1603774252942,
+        "duration" : 66384
+      }
+    }, {
+      "uid" : "ed5f6210ec13a1a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603768054685,
+        "stop" : 1603768117881,
+        "duration" : 63196
+      }
+    }, {
+      "uid" : "a39826b893dc8106",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603767769092,
+        "stop" : 1603767844992,
+        "duration" : 75900
+      }
+    }, {
+      "uid" : "357ace25b2c92976",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603767189302,
+        "stop" : 1603767254014,
+        "duration" : 64712
+      }
+    }, {
+      "uid" : "ad1ff22049414ac0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603766310021,
+        "stop" : 1603766374284,
+        "duration" : 64263
+      }
+    }, {
+      "uid" : "a8c3d845a027c30d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603765591685,
+        "stop" : 1603765655133,
+        "duration" : 63448
+      }
+    }, {
+      "uid" : "526dd0cb05d8cb12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603765323818,
+        "stop" : 1603765389393,
+        "duration" : 65575
+      }
+    }, {
+      "uid" : "fc1d6a56d2e965bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603765143434,
+        "stop" : 1603765210605,
+        "duration" : 67171
+      }
+    }, {
+      "uid" : "114e682a5af33a8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603764913422,
+        "stop" : 1603764978142,
+        "duration" : 64720
+      }
+    }, {
+      "uid" : "f66706ff5ee30150",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603763874204,
+        "stop" : 1603763937616,
+        "duration" : 63412
+      }
+    }, {
+      "uid" : "d97b7724c47f6e2c",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=发现\"",
+      "time" : {
+        "start" : 1603763839665,
+        "stop" : 1603763847197,
+        "duration" : 7532
+      }
+    }, {
+      "uid" : "ce8d5b7a638a8029",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603763331680,
+        "stop" : 1603763395432,
+        "duration" : 63752
+      }
+    }, {
+      "uid" : "6df86ddb6eb81cfc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603762425556,
+        "stop" : 1603762490938,
+        "duration" : 65382
+      }
+    }, {
+      "uid" : "1d0780ca6391109a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603761633931,
+        "stop" : 1603761699525,
+        "duration" : 65594
+      }
+    }, {
+      "uid" : "d85c4b19b3a67fe6",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1603761527643,
+        "stop" : 1603761546122,
+        "duration" : 18479
+      }
+    }, {
+      "uid" : "74f41aa90189bd8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603760502035,
+        "stop" : 1603760578358,
+        "duration" : 76323
+      }
+    }, {
+      "uid" : "f874f042840edd5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603760291138,
+        "stop" : 1603760356568,
+        "duration" : 65430
+      }
+    }, {
+      "uid" : "dab078f5a2779669",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1603760161484,
+        "stop" : 1603760181135,
+        "duration" : 19651
+      }
+    }, {
+      "uid" : "89d55457114c90e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603759989283,
+        "stop" : 1603760056482,
+        "duration" : 67199
+      }
+    }, {
+      "uid" : "aa7b96fda7355b7",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1603759949040,
+        "stop" : 1603759967015,
+        "duration" : 17975
+      }
+    }, {
+      "uid" : "7871f47601807702",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603759770882,
+        "stop" : 1603759838357,
+        "duration" : 67475
+      }
+    }, {
+      "uid" : "ffd02f0b4e662fd9",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1603759651300,
+        "stop" : 1603759669293,
+        "duration" : 17993
+      }
+    }, {
+      "uid" : "6a517f808006438a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603759435308,
+        "stop" : 1603759500267,
+        "duration" : 64959
+      }
+    }, {
+      "uid" : "816aa1c0712f1e16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603698393474,
+        "stop" : 1603698459404,
+        "duration" : 65930
+      }
+    }, {
+      "uid" : "c563840e3ac5aa32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603698013120,
+        "stop" : 1603698078674,
+        "duration" : 65554
+      }
+    }, {
+      "uid" : "5c74ad310fce867f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603697823485,
+        "stop" : 1603697902723,
+        "duration" : 79238
+      }
+    }, {
+      "uid" : "ca7bb62cc7835698",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603697045547,
+        "stop" : 1603697113552,
+        "duration" : 68005
+      }
+    }, {
+      "uid" : "8f75b9393f57b527",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603696460119,
+        "stop" : 1603696522122,
+        "duration" : 62003
+      }
+    }, {
+      "uid" : "fde72860c4aa59fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603695648938,
+        "stop" : 1603695714663,
+        "duration" : 65725
+      }
+    }, {
+      "uid" : "e75899215807bc42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603675800947,
+        "stop" : 1603675895398,
+        "duration" : 94451
+      }
+    }, {
+      "uid" : "5fc07d4bd32e0164",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603675347041,
+        "stop" : 1603675410184,
+        "duration" : 63143
+      }
+    }, {
+      "uid" : "95b6be1fabd681dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603444132647,
+        "stop" : 1603444201905,
+        "duration" : 69258
+      }
+    }, {
+      "uid" : "4bfd71f75c7bdbe1",
+      "status" : "broken",
+      "statusDetails" : "hrpc.exceptions.TransportDisconnected: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+      "time" : {
+        "start" : 1603443917149,
+        "stop" : 1603443942589,
+        "duration" : 25440
+      }
+    }, {
+      "uid" : "27db4cb68be3edfe",
+      "status" : "broken",
+      "statusDetails" : "airtest.aircv.error.FileNotExistError: File not exist: C:\\Users\\shaojunshuai\\PycharmProjects\\AutoTest-python\\Auto_Test\\test_data\\picture\\id_6.jpg",
+      "time" : {
+        "start" : 1603443705381,
+        "stop" : 1603443783367,
+        "duration" : 77986
+      }
+    }, {
+      "uid" : "b35710fad59bdce7",
+      "status" : "broken",
+      "statusDetails" : "airtest.aircv.error.FileNotExistError: File not exist: C:\\Users\\shaojunshuai\\PycharmProjects\\AutoTest-python\\Auto_Test\\test_data\\picture\\id_6.jpg",
+      "time" : {
+        "start" : 1603443501255,
+        "stop" : 1603443575521,
+        "duration" : 74266
+      }
+    }, {
+      "uid" : "c0600797791cf156",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603443112236,
+        "stop" : 1603443194594,
+        "duration" : 82358
+      }
+    }, {
+      "uid" : "4a438f3833b9613c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603442708458,
+        "stop" : 1603442788609,
+        "duration" : 80151
+      }
+    }, {
+      "uid" : "8398fd36277fc58c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603441826869,
+        "stop" : 1603441885598,
+        "duration" : 58729
+      }
+    }, {
+      "uid" : "36ca0af3be943bd",
+      "status" : "broken",
+      "statusDetails" : "hrpc.exceptions.TransportDisconnected: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+      "time" : {
+        "start" : 1603441800229,
+        "stop" : 1603441811337,
+        "duration" : 11108
+      }
+    }, {
+      "uid" : "a4c6b27b1e938e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603441331623,
+        "stop" : 1603441389865,
+        "duration" : 58242
+      }
+    }, {
+      "uid" : "13d880da382d3393",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603440412696,
+        "stop" : 1603440476149,
+        "duration" : 63453
+      }
+    }, {
+      "uid" : "2100cd84284224af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603440066458,
+        "stop" : 1603440125517,
+        "duration" : 59059
+      }
+    }, {
+      "uid" : "88f217fa63d78566",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603439674247,
+        "stop" : 1603439732644,
+        "duration" : 58397
+      }
+    }, {
+      "uid" : "9d5f6039ab0a8a5e",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=发现\"",
+      "time" : {
+        "start" : 1603439577294,
+        "stop" : 1603439586042,
+        "duration" : 8748
+      }
+    }, {
+      "uid" : "9f4fa012ff133bef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603436986146,
+        "stop" : 1603437002943,
+        "duration" : 16797
+      }
+    }, {
+      "uid" : "48692e984b485b3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603436385818,
+        "stop" : 1603436402762,
+        "duration" : 16944
+      }
+    }, {
+      "uid" : "e10eb0461680be21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603435937662,
+        "stop" : 1603435954477,
+        "duration" : 16815
+      }
+    }, {
+      "uid" : "b2744bd32c22c232",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603435306045,
+        "stop" : 1603435323385,
+        "duration" : 17340
+      }
+    }, {
+      "uid" : "d2dcbb604a8863f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603434647117,
+        "stop" : 1603434664061,
+        "duration" : 16944
+      }
+    }, {
+      "uid" : "eeb2037e1c53058",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603434326763,
+        "stop" : 1603434344099,
+        "duration" : 17336
+      }
+    }, {
+      "uid" : "a9666adbfceef275",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603434030958,
+        "stop" : 1603434048336,
+        "duration" : 17378
+      }
+    }, {
+      "uid" : "31a777dc376a58d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603432579796,
+        "stop" : 1603432597142,
+        "duration" : 17346
+      }
+    }, {
+      "uid" : "39432833ab49fb58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603432014087,
+        "stop" : 1603432031553,
+        "duration" : 17466
+      }
+    }, {
+      "uid" : "d217c43923efa967",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603430761383,
+        "stop" : 1603430778865,
+        "duration" : 17482
+      }
+    }, {
+      "uid" : "2949d00f3f17b081",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603429263857,
+        "stop" : 1603429281301,
+        "duration" : 17444
+      }
+    }, {
+      "uid" : "cd21b1f7574308fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603422267502,
+        "stop" : 1603422285005,
+        "duration" : 17503
+      }
+    }, {
+      "uid" : "c80f3535dbc2e342",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603421587833,
+        "stop" : 1603421605291,
+        "duration" : 17458
+      }
+    }, {
+      "uid" : "5f11319e802b049f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603420811041,
+        "stop" : 1603420828721,
+        "duration" : 17680
+      }
+    }, {
+      "uid" : "784eb72e08552823",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603417393703,
+        "stop" : 1603417411178,
+        "duration" : 17475
+      }
+    }, {
+      "uid" : "986cd66d29e2c4c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603417223678,
+        "stop" : 1603417241146,
+        "duration" : 17468
+      }
+    }, {
+      "uid" : "b9fc875b0c79fcfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603416144544,
+        "stop" : 1603416162111,
+        "duration" : 17567
+      }
+    }, {
+      "uid" : "d82ffd955168b352",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603415896734,
+        "stop" : 1603415914220,
+        "duration" : 17486
+      }
+    }, {
+      "uid" : "3c39b1b3823f18d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603415795213,
+        "stop" : 1603415812693,
+        "duration" : 17480
+      }
+    }, {
+      "uid" : "b2f5bde681ea0340",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603414208206,
+        "stop" : 1603414225824,
+        "duration" : 17618
+      }
+    }, {
+      "uid" : "14e2e2002ae5ccc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603414147793,
+        "stop" : 1603414165656,
+        "duration" : 17863
+      }
+    }, {
+      "uid" : "d00ad3d7d56bde8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603413996866,
+        "stop" : 1603414014828,
+        "duration" : 17962
+      }
+    }, {
+      "uid" : "925c66a87cc96d02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603413814760,
+        "stop" : 1603413832328,
+        "duration" : 17568
+      }
+    }, {
+      "uid" : "6b59a8527e14a8e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603413638718,
+        "stop" : 1603413656228,
+        "duration" : 17510
+      }
+    }, {
+      "uid" : "ef4268d6f997d1bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603413569751,
+        "stop" : 1603413587287,
+        "duration" : 17536
+      }
+    }, {
+      "uid" : "8b4ea215af77f232",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603413419322,
+        "stop" : 1603413436926,
+        "duration" : 17604
+      }
+    }, {
+      "uid" : "5420e1869d9c405c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603413320911,
+        "stop" : 1603413339338,
+        "duration" : 18427
+      }
+    }, {
+      "uid" : "cfbd428f24825c6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603355555422,
+        "stop" : 1603355572383,
+        "duration" : 16961
+      }
+    }, {
+      "uid" : "eded1a64d3b6a7dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603355464977,
+        "stop" : 1603355482381,
+        "duration" : 17404
+      }
+    }, {
+      "uid" : "67dc625dc3cdbad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603355356143,
+        "stop" : 1603355373572,
+        "duration" : 17429
+      }
+    }, {
+      "uid" : "301694b36ff8ed3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603355141884,
+        "stop" : 1603355159365,
+        "duration" : 17481
+      }
+    }, {
+      "uid" : "e23d9e3be67c8111",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603355031401,
+        "stop" : 1603355048839,
+        "duration" : 17438
+      }
+    }, {
+      "uid" : "4a61385343a0e790",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603354944419,
+        "stop" : 1603354961757,
+        "duration" : 17338
+      }
+    }, {
+      "uid" : "47628fd653f3473e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603354239744,
+        "stop" : 1603354257139,
+        "duration" : 17395
+      }
+    }, {
+      "uid" : "77fb080d073e3bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603354069049,
+        "stop" : 1603354086439,
+        "duration" : 17390
+      }
+    }, {
+      "uid" : "1a29884571ebff8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603353717999,
+        "stop" : 1603353735367,
+        "duration" : 17368
+      }
+    }, {
+      "uid" : "42cbfa1147a07a33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603353610728,
+        "stop" : 1603353628149,
+        "duration" : 17421
+      }
+    }, {
+      "uid" : "bb4b1968cbce8f90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603352672083,
+        "stop" : 1603352689426,
+        "duration" : 17343
+      }
+    }, {
+      "uid" : "336f775105e50821",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603352067742,
+        "stop" : 1603352085221,
+        "duration" : 17479
+      }
+    }, {
+      "uid" : "c89fc33d218fe237",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603351104261,
+        "stop" : 1603351121587,
+        "duration" : 17326
+      }
+    }, {
+      "uid" : "6f23dd0389c6e3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603351007336,
+        "stop" : 1603351024699,
+        "duration" : 17363
+      }
+    }, {
+      "uid" : "53a6e13b636bfb5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603344119640,
+        "stop" : 1603344137008,
+        "duration" : 17368
+      }
+    }, {
+      "uid" : "5626279597bffaf7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603344018112,
+        "stop" : 1603344035553,
+        "duration" : 17441
+      }
+    }, {
+      "uid" : "3c24f97eb1589426",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603343300460,
+        "stop" : 1603343317878,
+        "duration" : 17418
+      }
+    }, {
+      "uid" : "b118201dca969f01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603343277365,
+        "stop" : 1603343294814,
+        "duration" : 17449
+      }
+    }, {
+      "uid" : "972a71bbd7e866b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603342813010,
+        "stop" : 1603342830469,
+        "duration" : 17459
+      }
+    }, {
+      "uid" : "3bc80e24dfafb7a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603342461849,
+        "stop" : 1603342479422,
+        "duration" : 17573
+      }
+    }, {
+      "uid" : "b382c8251c228ba6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603336354697,
+        "stop" : 1603336372265,
+        "duration" : 17568
+      }
+    }, {
+      "uid" : "bf442935cd4efaee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603336224597,
+        "stop" : 1603336242079,
+        "duration" : 17482
+      }
+    }, {
+      "uid" : "b2325094c9f27daf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603336133938,
+        "stop" : 1603336151440,
+        "duration" : 17502
+      }
+    }, {
+      "uid" : "9bc743a8446a2786",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603336005945,
+        "stop" : 1603336023584,
+        "duration" : 17639
+      }
+    }, {
+      "uid" : "7d98267f2e272e5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603335775679,
+        "stop" : 1603335793641,
+        "duration" : 17962
+      }
+    }, {
+      "uid" : "4530c285c5e60ad1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603335644795,
+        "stop" : 1603335663091,
+        "duration" : 18296
+      }
+    }, {
+      "uid" : "645033c5ebcf5910",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603335504863,
+        "stop" : 1603335546806,
+        "duration" : 41943
+      }
+    }, {
+      "uid" : "f8df78bbc36f2b42",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603335371934,
+        "stop" : 1603335413918,
+        "duration" : 41984
+      }
+    }, {
+      "uid" : "5073b3adcfd2dba2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603335318702,
+        "stop" : 1603335360549,
+        "duration" : 41847
+      }
+    }, {
+      "uid" : "279222af36fe24bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603326581774,
+        "stop" : 1603326599567,
+        "duration" : 17793
+      }
+    }, {
+      "uid" : "f90e2cc730076cf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603326533411,
+        "stop" : 1603326551544,
+        "duration" : 18133
+      }
+    }, {
+      "uid" : "aa376f00f8a01e26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603326398680,
+        "stop" : 1603326416730,
+        "duration" : 18050
+      }
+    }, {
+      "uid" : "b1604d09a36b18fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603326314024,
+        "stop" : 1603326332015,
+        "duration" : 17991
+      }
+    }, {
+      "uid" : "9f03a5967d874348",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603326196144,
+        "stop" : 1603326214893,
+        "duration" : 18749
+      }
+    }, {
+      "uid" : "8bc1fa89e9d4eff0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603070881194,
+        "stop" : 1603070922513,
+        "duration" : 41319
+      }
+    }, {
+      "uid" : "bf9cda696143639",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603068471877,
+        "stop" : 1603068489588,
+        "duration" : 17711
+      }
+    }, {
+      "uid" : "5f56baa4dcfdc896",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602839643149,
+        "stop" : 1602839703855,
+        "duration" : 60706
+      }
+    }, {
+      "uid" : "e601cf26c99c4f0",
+      "status" : "broken",
+      "statusDetails" : "TypeError: must be str, not NoneType",
+      "time" : {
+        "start" : 1602839478785,
+        "stop" : 1602839533103,
+        "duration" : 54318
+      }
+    }, {
+      "uid" : "20104e724c9fcb00",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ChunkedEncodingError: (\"Connection broken: ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)\", ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+      "time" : {
+        "start" : 1602838889112,
+        "stop" : 1602838937815,
+        "duration" : 48703
+      }
+    }, {
+      "uid" : "c3928cd14ffc5208",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"请输入姓名\"",
+      "time" : {
+        "start" : 1602837728911,
+        "stop" : 1602837751982,
+        "duration" : 23071
+      }
+    }, {
+      "uid" : "63e3b57f0d0aa427",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"请输入姓名\"",
+      "time" : {
+        "start" : 1602837695823,
+        "stop" : 1602837702378,
+        "duration" : 6555
+      }
+    }, {
+      "uid" : "5e9bf9de37fe1ccc",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"请输入姓名\"",
+      "time" : {
+        "start" : 1602836911007,
+        "stop" : 1602836911128,
+        "duration" : 121
+      }
+    }, {
+      "uid" : "62ee9235afbe196c",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"请输入姓名\"",
+      "time" : {
+        "start" : 1602836754331,
+        "stop" : 1602836758992,
+        "duration" : 4661
+      }
+    }, {
+      "uid" : "ed317f45f6f22bb9",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"请输入姓名\"",
+      "time" : {
+        "start" : 1602836729492,
+        "stop" : 1602836729617,
+        "duration" : 125
+      }
+    }, {
+      "uid" : "f6e497cd36fdc78c",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1602836341488,
+        "stop" : 1602836375667,
+        "duration" : 34179
+      }
+    }, {
+      "uid" : "7f39fa4028d57632",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=发现\"",
+      "time" : {
+        "start" : 1602836156806,
+        "stop" : 1602836164513,
+        "duration" : 7707
+      }
+    }, {
+      "uid" : "d8782f920f4ff4ec",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1602835926138,
+        "stop" : 1602835953575,
+        "duration" : 27437
+      }
+    }, {
+      "uid" : "8f5b3417e9570698",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1602835313868,
+        "stop" : 1602835337646,
+        "duration" : 23778
+      }
+    }, {
+      "uid" : "603de2e27495daf0",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1602834759216,
+        "stop" : 1602834778516,
+        "duration" : 19300
+      }
+    }, {
+      "uid" : "a358618789010f6c",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=诚泰财金通\"",
+      "time" : {
+        "start" : 1602834697114,
+        "stop" : 1602834711855,
+        "duration" : 14741
+      }
+    }, {
+      "uid" : "af923e8976d04e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602826222908,
+        "stop" : 1602826240449,
+        "duration" : 17541
+      }
+    }, {
+      "uid" : "33efb1ad255617d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602825558882,
+        "stop" : 1602825576196,
+        "duration" : 17314
+      }
+    }, {
+      "uid" : "aceb947ed16adf64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602825209323,
+        "stop" : 1602825226874,
+        "duration" : 17551
+      }
+    }, {
+      "uid" : "3d075b3ff5a386ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602824884124,
+        "stop" : 1602824901579,
+        "duration" : 17455
+      }
+    }, {
+      "uid" : "5896b615bf0c71a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602824473779,
+        "stop" : 1602824491220,
+        "duration" : 17441
+      }
+    }, {
+      "uid" : "5ef9cfc3a51bd30e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602824370962,
+        "stop" : 1602824388451,
+        "duration" : 17489
+      }
+    }, {
+      "uid" : "d143f83ae2115e73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602824338991,
+        "stop" : 1602824356491,
+        "duration" : 17500
+      }
+    }, {
+      "uid" : "25c4dc5c7265e11d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602824257760,
+        "stop" : 1602824275280,
+        "duration" : 17520
+      }
+    }, {
+      "uid" : "d77a8454e59d46d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602824088606,
+        "stop" : 1602824106061,
+        "duration" : 17455
+      }
+    }, {
+      "uid" : "60527238909341ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602823919216,
+        "stop" : 1602823936689,
+        "duration" : 17473
+      }
+    }, {
+      "uid" : "ab084bfe6e15b729",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602823793580,
+        "stop" : 1602823811004,
+        "duration" : 17424
+      }
+    }, {
+      "uid" : "9a6f3f9852a9b64b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602823569642,
+        "stop" : 1602823683815,
+        "duration" : 114173
+      }
+    }, {
+      "uid" : "f56a8c61b55e1c07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602823422518,
+        "stop" : 1602823505119,
+        "duration" : 82601
+      }
+    }, {
+      "uid" : "6730c63b528df213",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602817834112,
+        "stop" : 1602817851677,
+        "duration" : 17565
+      }
+    }, {
+      "uid" : "7bfa3b2403fda6ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602817773595,
+        "stop" : 1602817791082,
+        "duration" : 17487
+      }
+    }, {
+      "uid" : "213d62be75b90f13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602817581121,
+        "stop" : 1602817598543,
+        "duration" : 17422
+      }
+    }, {
+      "uid" : "423bca6b322a9c92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602817315259,
+        "stop" : 1602817382662,
+        "duration" : 67403
+      }
+    }, {
+      "uid" : "e5795ddb2a75aef7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602817070165,
+        "stop" : 1602817172696,
+        "duration" : 102531
+      }
+    }, {
+      "uid" : "1fc3a3810cbde2bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602816825110,
+        "stop" : 1602816909956,
+        "duration" : 84846
+      }
+    }, {
+      "uid" : "28d1660dffad9cc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602816380482,
+        "stop" : 1602816474226,
+        "duration" : 93744
+      }
+    }, {
+      "uid" : "e2eea7f293b5bdcb",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=发现\"",
+      "time" : {
+        "start" : 1602815629012,
+        "stop" : 1602815636692,
+        "duration" : 7680
+      }
+    }, {
+      "uid" : "4a8e6ecd3ae4b8c",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1602752069479,
+        "stop" : 1602752089820,
+        "duration" : 20341
+      }
+    }, {
+      "uid" : "ec825ce919001939",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=诚泰财金通\"",
+      "time" : {
+        "start" : 1602751955275,
+        "stop" : 1602751969323,
+        "duration" : 14048
+      }
+    }, {
+      "uid" : "5bfaa3e8ff5abce3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602748610128,
+        "stop" : 1602748781742,
+        "duration" : 171614
+      }
+    }, {
+      "uid" : "4c3d82a6be8ad58b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602748297397,
+        "stop" : 1602748471066,
+        "duration" : 173669
+      }
+    }, {
+      "uid" : "9db96e74a4651271",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602748048751,
+        "stop" : 1602748143219,
+        "duration" : 94468
+      }
+    }, {
+      "uid" : "e16b0304124991af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602747716197,
+        "stop" : 1602747807729,
+        "duration" : 91532
+      }
+    }, {
+      "uid" : "91b91c83baeacd79",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=发现\"",
+      "time" : {
+        "start" : 1602747620072,
+        "stop" : 1602747628234,
+        "duration" : 8162
+      }
+    }, {
+      "uid" : "5d2ffad44465ebe7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602747392237,
+        "stop" : 1602747487074,
+        "duration" : 94837
+      }
+    }, {
+      "uid" : "c734eb3adeb3a4b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602738480669,
+        "stop" : 1602738573722,
+        "duration" : 93053
+      }
+    }, {
+      "uid" : "216e700a3b65e9ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602738108639,
+        "stop" : 1602738200479,
+        "duration" : 91840
+      }
+    }, {
+      "uid" : "1ed5e89d9bb6a81f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602737795231,
+        "stop" : 1602737886326,
+        "duration" : 91095
+      }
+    }, {
+      "uid" : "e3b5432b5cf2e6a4",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1602737721261,
+        "stop" : 1602737745324,
+        "duration" : 24063
+      }
+    }, {
+      "uid" : "f4351718b65e48fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602737424093,
+        "stop" : 1602737518632,
+        "duration" : 94539
+      }
+    }, {
+      "uid" : "d252d04958d98052",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1602737377532,
+        "stop" : 1602737397188,
+        "duration" : 19656
+      }
+    }, {
+      "uid" : "d3230fb38c86d3eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602731508896,
+        "stop" : 1602731603527,
+        "duration" : 94631
+      }
+    }, {
+      "uid" : "d2d1e16c5990e99",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1602731464792,
+        "stop" : 1602731484642,
+        "duration" : 19850
+      }
+    }, {
+      "uid" : "c72b9114474fa627",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=小程序\"",
+      "time" : {
+        "start" : 1602731265917,
+        "stop" : 1602731281908,
+        "duration" : 15991
+      }
+    }, {
+      "uid" : "4db47b6a7eaebb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602728198797,
+        "stop" : 1602728292858,
+        "duration" : 94061
+      }
+    }, {
+      "uid" : "840b1de96c3d0652",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602726113353,
+        "stop" : 1602726213039,
+        "duration" : 99686
+      }
+    }, {
+      "uid" : "7bcbaec24a1b7048",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602724729979,
+        "stop" : 1602724896115,
+        "duration" : 166136
+      }
+    }, {
+      "uid" : "15bf951d575856aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602723155457,
+        "stop" : 1602723377675,
+        "duration" : 222218
+      }
+    }, {
+      "uid" : "2b7f26c1319a5b7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602722444628,
+        "stop" : 1602722773032,
+        "duration" : 328404
+      }
+    }, {
+      "uid" : "3bb909dd702d2b6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602721375468,
+        "stop" : 1602721514959,
+        "duration" : 139491
+      }
+    }, {
+      "uid" : "c2b06291dcd22b05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602667748134,
+        "stop" : 1602667830049,
+        "duration" : 81915
+      }
+    }, {
+      "uid" : "86e6c04737772489",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602667216800,
+        "stop" : 1602667299978,
+        "duration" : 83178
+      }
+    }, {
+      "uid" : "81dbf57aefedfec2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602666452710,
+        "stop" : 1602666534683,
+        "duration" : 81973
+      }
+    }, {
+      "uid" : "c29ebed33a7e5719",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=诚泰财金通\"",
+      "time" : {
+        "start" : 1602666392052,
+        "stop" : 1602666406796,
+        "duration" : 14744
+      }
+    }, {
+      "uid" : "93db231cc6dcd8c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602665934010,
+        "stop" : 1602666017446,
+        "duration" : 83436
+      }
+    }, {
+      "uid" : "899b1980f4caf6c9",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'evn' is not defined",
+      "time" : {
+        "start" : 1602665552033,
+        "stop" : 1602665613458,
+        "duration" : 61425
+      }
+    }, {
+      "uid" : "a730c71cab14e193",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602662301008,
+        "stop" : 1602662389317,
+        "duration" : 88309
+      }
+    }, {
+      "uid" : "390a137b6448ceb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602637200012,
+        "stop" : 1602637287485,
+        "duration" : 87473
+      }
+    }, {
+      "uid" : "dbd07056106f88a1",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=发现\"",
+      "time" : {
+        "start" : 1602636758338,
+        "stop" : 1602636769053,
+        "duration" : 10715
+      }
+    }, {
+      "uid" : "29a17b6d4c6fb91e",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1602636104867,
+        "stop" : 1602636202627,
+        "duration" : 97760
+      }
+    }, {
+      "uid" : "3b5f4b6140c4ab40",
+      "status" : "broken",
+      "statusDetails" : "TypeError: must be str, not NoneType",
+      "time" : {
+        "start" : 1602635939499,
+        "stop" : 1602635985066,
+        "duration" : 45567
+      }
+    }, {
+      "uid" : "f33140db9aa36345",
+      "status" : "broken",
+      "statusDetails" : "TypeError: must be str, not NoneType",
+      "time" : {
+        "start" : 1602635740609,
+        "stop" : 1602635819100,
+        "duration" : 78491
+      }
+    }, {
+      "uid" : "ba678081bf4ed93d",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=发现\"",
+      "time" : {
+        "start" : 1602575071865,
+        "stop" : 1602575079454,
+        "duration" : 7589
+      }
+    }, {
+      "uid" : "f97cb9181d74463a",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=发现\"",
+      "time" : {
+        "start" : 1602573709524,
+        "stop" : 1602573716927,
+        "duration" : 7403
+      }
+    }, {
+      "uid" : "616656edf7fce142",
+      "status" : "broken",
+      "statusDetails" : "TypeError: waiteForNotExist() takes 0 positional arguments but 1 was given",
+      "time" : {
+        "start" : 1602573139273,
+        "stop" : 1602573335086,
+        "duration" : 195813
+      }
+    }, {
+      "uid" : "5fb424da564d8730",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=发现\"",
+      "time" : {
+        "start" : 1602572678068,
+        "stop" : 1602572685808,
+        "duration" : 7740
+      }
+    }, {
+      "uid" : "5fee70f7362749f4",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=发现\"",
+      "time" : {
+        "start" : 1602571923284,
+        "stop" : 1602571930737,
+        "duration" : 7453
+      }
+    }, {
+      "uid" : "92ab5977770371d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602567709064,
+        "stop" : 1602567974055,
+        "duration" : 264991
+      }
+    }, {
+      "uid" : "469bf8f581c7a9ce",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'UIObjectProxy' object has no attribute 'exist'",
+      "time" : {
+        "start" : 1602567189444,
+        "stop" : 1602567311485,
+        "duration" : 122041
+      }
+    }, {
+      "uid" : "1c1a441d9428645c",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1602566845151,
+        "stop" : 1602566951915,
+        "duration" : 106764
+      }
+    }, {
+      "uid" : "67443dcf1331cb3e",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1602566610303,
+        "stop" : 1602566756130,
+        "duration" : 145827
+      }
+    }, {
+      "uid" : "5001979c6730eae5",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1602566178649,
+        "stop" : 1602566375266,
+        "duration" : 196617
+      }
+    }, {
+      "uid" : "437ec03aec834e83",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=发现\"",
+      "time" : {
+        "start" : 1602565286465,
+        "stop" : 1602565293996,
+        "duration" : 7531
+      }
+    }, {
+      "uid" : "71cdb9882f5286f",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"_n_109\"",
+      "time" : {
+        "start" : 1602564819547,
+        "stop" : 1602564997195,
+        "duration" : 177648
+      }
+    }, {
+      "uid" : "c91facfd65884399",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"_n_109\"",
+      "time" : {
+        "start" : 1602557882267,
+        "stop" : 1602558099668,
+        "duration" : 217401
+      }
+    }, {
+      "uid" : "560683d40f718de7",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=发现\"",
+      "time" : {
+        "start" : 1602553273931,
+        "stop" : 1602553281546,
+        "duration" : 7615
+      }
+    }, {
+      "uid" : "ba82700523e4eb59",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"_n_109\"",
+      "time" : {
+        "start" : 1602552843197,
+        "stop" : 1602552928111,
+        "duration" : 84914
+      }
+    }, {
+      "uid" : "63735eb31d5f5e88",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602552356511,
+        "stop" : 1602552374094,
+        "duration" : 17583
+      }
+    }, {
+      "uid" : "ae341b521d0e2e8",
+      "status" : "broken",
+      "statusDetails" : "TypeError: must be str, not NoneType",
+      "time" : {
+        "start" : 1602550876366,
+        "stop" : 1602550943782,
+        "duration" : 67416
+      }
+    }, {
+      "uid" : "ab1e48be6bea5e8d",
+      "status" : "broken",
+      "statusDetails" : "TypeError: companyPassForget() missing 1 required positional argument: 'act'",
+      "time" : {
+        "start" : 1602550311779,
+        "stop" : 1602550311779,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2f712a08020b6de6",
+      "status" : "broken",
+      "statusDetails" : "TypeError: must be str, not NoneType",
+      "time" : {
+        "start" : 1602549786553,
+        "stop" : 1602549852624,
+        "duration" : 66071
+      }
+    }, {
+      "uid" : "38795ea211714a7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602549415877,
+        "stop" : 1602549427465,
+        "duration" : 11588
+      }
+    }, {
+      "uid" : "dc64af1212a42355",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602549186999,
+        "stop" : 1602549198485,
+        "duration" : 11486
+      }
+    }, {
+      "uid" : "53a2694f0e07e187",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602495594320,
+        "stop" : 1602495606483,
+        "duration" : 12163
+      }
+    }, {
+      "uid" : "e36b13087640c24d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602495514408,
+        "stop" : 1602495525944,
+        "duration" : 11536
+      }
+    }, {
+      "uid" : "2603c4e305e101b4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602495427832,
+        "stop" : 1602495439287,
+        "duration" : 11455
+      }
+    }, {
+      "uid" : "eedeb38399676f23",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602495299346,
+        "stop" : 1602495340894,
+        "duration" : 41548
+      }
+    }, {
+      "uid" : "3158711f2375b884",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602495036992,
+        "stop" : 1602495097339,
+        "duration" : 60347
+      }
+    }, {
+      "uid" : "4e3134fc4ea4c64c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: href_passForget_css",
+      "time" : {
+        "start" : 1602494826878,
+        "stop" : 1602494856324,
+        "duration" : 29446
+      }
+    }, {
+      "uid" : "379573b2c4c907d",
+      "status" : "broken",
+      "statusDetails" : "TypeError: must be str, not NoneType",
+      "time" : {
+        "start" : 1602492782913,
+        "stop" : 1602492834686,
+        "duration" : 51773
+      }
+    }, {
+      "uid" : "aa42d18920af87b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602492370909,
+        "stop" : 1602492439963,
+        "duration" : 69054
+      }
+    }, {
+      "uid" : "ff81e5c71430e8b5",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'click'",
+      "time" : {
+        "start" : 1602491665518,
+        "stop" : 1602491700621,
+        "duration" : 35103
+      }
+    }, {
+      "uid" : "b6fbdb8f50e8d255",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'click'",
+      "time" : {
+        "start" : 1602491542351,
+        "stop" : 1602491577520,
+        "duration" : 35169
+      }
+    }, {
+      "uid" : "4281fe7863b90f1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602491238273,
+        "stop" : 1602491282625,
+        "duration" : 44352
+      }
+    }, {
+      "uid" : "e1897be19ab4e8ed",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1602491038382,
+        "stop" : 1602491096303,
+        "duration" : 57921
+      }
+    }, {
+      "uid" : "81f591e821242dce",
+      "status" : "broken",
+      "statusDetails" : "hrpc.exceptions.RpcRemoteException: java.lang.IndexOutOfBoundsException: Index: 6, Size: 0\n\n|--   Remote Traceback   --|\n\njava.lang.IndexOutOfBoundsException: Index: 6, Size: 0\n\tat java.util.LinkedList.checkElementIndex(LinkedList.java:555)\n\tat java.util.LinkedList.get(LinkedList.java:476)\n\tat com.netease.open.libpoco.sdk.Selector.selectImpl(Selector.java:93)\n\tat com.netease.open.libpoco.sdk.Selector.selectImpl(Selector.java:66)\n\tat com.netease.open.libpoco.sdk.Selector.select(Selector.java:37)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.netease.open.hrpc.backend.RpcServer.onRequest(RpcServer.java:171)\n\tat com.netease.open.hrpc.backend.RpcServer.serve(RpcServer.java:57)\n\tat fi.iki.elonen.NanoHTTPD$HTTPSession.execute(NanoHTTPD.java:840)\n\tat fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:189)\n\tat java.lang.Thread.run(Thread.java:760)\n\n\n|--   Remote Traceback end   --|",
+      "time" : {
+        "start" : 1602490485583,
+        "stop" : 1602490528202,
+        "duration" : 42619
+      }
+    }, {
+      "uid" : "adfab2f08e33f0ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602490167879,
+        "stop" : 1602490207097,
+        "duration" : 39218
+      }
+    }, {
+      "uid" : "5548f0514dcfc146",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=请上传身份证国徽面\"",
+      "time" : {
+        "start" : 1602489942518,
+        "stop" : 1602489979295,
+        "duration" : 36777
+      }
+    }, {
+      "uid" : "fe1c58c9418d6b30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602489363389,
+        "stop" : 1602489403121,
+        "duration" : 39732
+      }
+    }, {
+      "uid" : "56726e676994e467",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602485742429,
+        "stop" : 1602485760248,
+        "duration" : 17819
+      }
+    }, {
+      "uid" : "3fdc4062c916fee7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602485574647,
+        "stop" : 1602485592404,
+        "duration" : 17757
+      }
+    }, {
+      "uid" : "a974248038f52838",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602485391604,
+        "stop" : 1602485409360,
+        "duration" : 17756
+      }
+    }, {
+      "uid" : "67eb84f52a2f2c20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602485202101,
+        "stop" : 1602485219839,
+        "duration" : 17738
+      }
+    }, {
+      "uid" : "87e89f59547ba267",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602485133291,
+        "stop" : 1602485151076,
+        "duration" : 17785
+      }
+    }, {
+      "uid" : "e042f69337013682",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602485080279,
+        "stop" : 1602485098095,
+        "duration" : 17816
+      }
+    }, {
+      "uid" : "ab639de439d45b36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602484836293,
+        "stop" : 1602484854075,
+        "duration" : 17782
+      }
+    }, {
+      "uid" : "519b30b00f9f2581",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602484588345,
+        "stop" : 1602484606099,
+        "duration" : 17754
+      }
+    }, {
+      "uid" : "fb81fa4d49d1a5b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602484206441,
+        "stop" : 1602484224298,
+        "duration" : 17857
+      }
+    }, {
+      "uid" : "dccd122b6fd3fd5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602484019359,
+        "stop" : 1602484037178,
+        "duration" : 17819
+      }
+    }, {
+      "uid" : "4e112b1e18411da3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602483133460,
+        "stop" : 1602483150436,
+        "duration" : 16976
+      }
+    }, {
+      "uid" : "9d622b89e36cc45d",
+      "status" : "broken",
+      "statusDetails" : "redis.exceptions.ResponseError: Command # 12 (GET path:plan:query:customer0kf54s1dr-0174-7495ff0a-8a8a0000-0037) of pipeline caused error: WRONGTYPE Operation against a key holding the wrong kind of value",
+      "time" : {
+        "start" : 1602483054733,
+        "stop" : 1602483068694,
+        "duration" : 13961
+      }
+    }, {
+      "uid" : "33f1568a787540f7",
+      "status" : "broken",
+      "statusDetails" : "redis.exceptions.ResponseError: Command # 12 (GET path:plan:query:customer0kf54s1dr-0174-7495ff0a-8a8a0000-0037) of pipeline caused error: WRONGTYPE Operation against a key holding the wrong kind of value",
+      "time" : {
+        "start" : 1602482804395,
+        "stop" : 1602482818337,
+        "duration" : 13942
+      }
+    }, {
+      "uid" : "aebd7c52fed14fff",
+      "status" : "broken",
+      "statusDetails" : "redis.exceptions.ResponseError: Command # 12 (GET path:plan:query:customer0kf54s1dr-0174-7495ff0a-8a8a0000-0037) of pipeline caused error: WRONGTYPE Operation against a key holding the wrong kind of value",
+      "time" : {
+        "start" : 1602480935807,
+        "stop" : 1602480949714,
+        "duration" : 13907
+      }
+    }, {
+      "uid" : "8a4e0178b46135b8",
+      "status" : "broken",
+      "statusDetails" : "redis.exceptions.ResponseError: Command # 12 (GET path:plan:query:customer0kf54s1dr-0174-7495ff0a-8a8a0000-0037) of pipeline caused error: WRONGTYPE Operation against a key holding the wrong kind of value",
+      "time" : {
+        "start" : 1602480897208,
+        "stop" : 1602480911350,
+        "duration" : 14142
+      }
+    }, {
+      "uid" : "f11ae223e306cf5c",
+      "status" : "broken",
+      "statusDetails" : "redis.exceptions.ResponseError: Command # 11 (GET path:plan:query:customer0kf54s1dr-0174-7495ff0a-8a8a0000-0037) of pipeline caused error: WRONGTYPE Operation against a key holding the wrong kind of value",
+      "time" : {
+        "start" : 1602480683449,
+        "stop" : 1602480697397,
+        "duration" : 13948
+      }
+    }, {
+      "uid" : "6fe1a36d201baf71",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602480455812,
+        "stop" : 1602480473438,
+        "duration" : 17626
+      }
+    }, {
+      "uid" : "8bc53277fccc9339",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602479513927,
+        "stop" : 1602479536029,
+        "duration" : 22102
+      }
+    }, {
+      "uid" : "c66781310fef554b",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoTargetTimeout: Waiting timeout for appearance of \"UIObjectProxy of \"text=一键微信授权登录\"\"",
+      "time" : {
+        "start" : 1602468084026,
+        "stop" : 1602468115309,
+        "duration" : 31283
+      }
+    }, {
+      "uid" : "a36dc59a2fbb85d4",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoTargetTimeout: Waiting timeout for appearance of \"UIObjectProxy of \"text=授权手机号\"\"",
+      "time" : {
+        "start" : 1602466809360,
+        "stop" : 1602466847934,
+        "duration" : 38574
+      }
+    }, {
+      "uid" : "b01cff8e2c1e76f0",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoTargetTimeout: Waiting timeout for appearance of \"UIObjectProxy of \"text=一键微信授权登录\"\"",
+      "time" : {
+        "start" : 1602466460795,
+        "stop" : 1602466492352,
+        "duration" : 31557
+      }
+    }, {
+      "uid" : "7d3438a8a5148923",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=授权手机号\"",
+      "time" : {
+        "start" : 1602466210999,
+        "stop" : 1602466234771,
+        "duration" : 23772
+      }
+    }, {
+      "uid" : "4e72641fcd04a5d4",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoTargetTimeout: Waiting timeout for appearance of \"UIObjectProxy of \"text=一键微信授权登录\"\"",
+      "time" : {
+        "start" : 1602465693502,
+        "stop" : 1602465714666,
+        "duration" : 21164
+      }
+    }, {
+      "uid" : "9bf0491dc9feefa8",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=授权手机号\"",
+      "time" : {
+        "start" : 1602465586926,
+        "stop" : 1602465608716,
+        "duration" : 21790
+      }
+    }, {
+      "uid" : "fe52de70b7d6c08a",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoTargetTimeout: Waiting timeout for appearance of \"UIObjectProxy of \"text=一键微信授权登录\"\"",
+      "time" : {
+        "start" : 1602465511997,
+        "stop" : 1602465532345,
+        "duration" : 20348
+      }
+    }, {
+      "uid" : "8a290f7a511fe9c1",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=授权手机号\"",
+      "time" : {
+        "start" : 1602464969161,
+        "stop" : 1602464992821,
+        "duration" : 23660
+      }
+    }, {
+      "uid" : "5034cb2198fccfd7",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1602464917646,
+        "stop" : 1602464935255,
+        "duration" : 17609
+      }
+    }, {
+      "uid" : "9e2fd4276c501d2f",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1602464812757,
+        "stop" : 1602464830526,
+        "duration" : 17769
+      }
+    }, {
+      "uid" : "9b6a9f62df0efb10",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=允许\"",
+      "time" : {
+        "start" : 1602464665658,
+        "stop" : 1602464697262,
+        "duration" : 31604
+      }
+    }, {
+      "uid" : "ea7f071affbb8842",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=发现\"",
+      "time" : {
+        "start" : 1602464636144,
+        "stop" : 1602464645187,
+        "duration" : 9043
+      }
+    }, {
+      "uid" : "9d4b119d074442c5",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=授权手机号\"",
+      "time" : {
+        "start" : 1602464590161,
+        "stop" : 1602464611065,
+        "duration" : 20904
+      }
+    }, {
+      "uid" : "a87f417b5da8b5c6",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=允许\"",
+      "time" : {
+        "start" : 1602464491019,
+        "stop" : 1602464520832,
+        "duration" : 29813
+      }
+    }, {
+      "uid" : "4cd9c0930b953668",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1602464370648,
+        "stop" : 1602464389545,
+        "duration" : 18897
+      }
+    }, {
+      "uid" : "3f65d554d2af207",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"android.widget.LinearLayout>com.tencent.mm:id/dm6/com.tencent.mm:id/f4b\"",
+      "time" : {
+        "start" : 1602463509432,
+        "stop" : 1602463539734,
+        "duration" : 30302
+      }
+    }, {
+      "uid" : "34f0140f50510442",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1602463388235,
+        "stop" : 1602463407432,
+        "duration" : 19197
+      }
+    }, {
+      "uid" : "3557c3b19febd0dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602318460760,
+        "stop" : 1602318478310,
+        "duration" : 17550
+      }
+    }, {
+      "uid" : "1a34dd16cc409d4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602318271521,
+        "stop" : 1602318288620,
+        "duration" : 17099
+      }
+    }, {
+      "uid" : "e40452f140fb6ac8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602317881619,
+        "stop" : 1602317898734,
+        "duration" : 17115
+      }
+    }, {
+      "uid" : "32ad521530fdebed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602316529339,
+        "stop" : 1602316547078,
+        "duration" : 17739
+      }
+    }, {
+      "uid" : "93ac4987c85ce363",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602316173650,
+        "stop" : 1602316192347,
+        "duration" : 18697
+      }
+    }, {
+      "uid" : "2fcfb86eaceb8223",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602289805903,
+        "stop" : 1602289824442,
+        "duration" : 18539
+      }
+    }, {
+      "uid" : "a14fd172d3aaf18e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602223081650,
+        "stop" : 1602223098413,
+        "duration" : 16763
+      }
+    }, {
+      "uid" : "b108b7c495c347dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602222665144,
+        "stop" : 1602222681925,
+        "duration" : 16781
+      }
+    }, {
+      "uid" : "fa46720721a6286a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602222261606,
+        "stop" : 1602222278432,
+        "duration" : 16826
+      }
+    }, {
+      "uid" : "8e6ebfc198de2cef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602222100802,
+        "stop" : 1602222117636,
+        "duration" : 16834
+      }
+    }, {
+      "uid" : "892c59f77bfa894d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602221475273,
+        "stop" : 1602221492615,
+        "duration" : 17342
+      }
+    }, {
+      "uid" : "2689e776a7d3796c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602220822960,
+        "stop" : 1602220840345,
+        "duration" : 17385
+      }
+    }, {
+      "uid" : "339fcaaa470d3b14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602220627111,
+        "stop" : 1602220643927,
+        "duration" : 16816
+      }
+    }, {
+      "uid" : "55d3779f1f5d91e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602220164403,
+        "stop" : 1602220181203,
+        "duration" : 16800
+      }
+    }, {
+      "uid" : "6071a3f652f68337",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602219859131,
+        "stop" : 1602219876331,
+        "duration" : 17200
+      }
+    }, {
+      "uid" : "b0b2724940656990",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602219723628,
+        "stop" : 1602219740965,
+        "duration" : 17337
+      }
+    }, {
+      "uid" : "df0c029b0c4982ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602215437726,
+        "stop" : 1602215455163,
+        "duration" : 17437
+      }
+    }, {
+      "uid" : "aeb8e207d34d6404",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602215046262,
+        "stop" : 1602215063750,
+        "duration" : 17488
+      }
+    }, {
+      "uid" : "a6f5abf46c757305",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602213027988,
+        "stop" : 1602213045434,
+        "duration" : 17446
+      }
+    }, {
+      "uid" : "f114259ea3d6c443",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602212523202,
+        "stop" : 1602212540659,
+        "duration" : 17457
+      }
+    }, {
+      "uid" : "8e8706546d0e518d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602211001628,
+        "stop" : 1602211019163,
+        "duration" : 17535
+      }
+    }, {
+      "uid" : "4dbea37ab9939dc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602210963754,
+        "stop" : 1602210980967,
+        "duration" : 17213
+      }
+    }, {
+      "uid" : "b0c53687597009ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602210863399,
+        "stop" : 1602210880676,
+        "duration" : 17277
+      }
+    }, {
+      "uid" : "e0251bf45080157",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602210642699,
+        "stop" : 1602210659926,
+        "duration" : 17227
+      }
+    }, {
+      "uid" : "97d26dee69d7c5ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602210375463,
+        "stop" : 1602210392764,
+        "duration" : 17301
+      }
+    }, {
+      "uid" : "cc5c4f3be1de2e58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602210263484,
+        "stop" : 1602210280722,
+        "duration" : 17238
+      }
+    }, {
+      "uid" : "89964db02d34f940",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602210180104,
+        "stop" : 1602210197296,
+        "duration" : 17192
+      }
+    }, {
+      "uid" : "e86f3e02a94699f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602210091179,
+        "stop" : 1602210108027,
+        "duration" : 16848
+      }
+    }, {
+      "uid" : "5706eff66237e323",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602210036523,
+        "stop" : 1602210053727,
+        "duration" : 17204
+      }
+    }, {
+      "uid" : "be4d50a07db692e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602209937484,
+        "stop" : 1602209954742,
+        "duration" : 17258
+      }
+    }, {
+      "uid" : "cd0d49480219648a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602209633403,
+        "stop" : 1602209650771,
+        "duration" : 17368
+      }
+    }, {
+      "uid" : "a38afc32dd44ba33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602209072514,
+        "stop" : 1602209090090,
+        "duration" : 17576
+      }
+    }, {
+      "uid" : "a2f4838b4ef59e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602204667911,
+        "stop" : 1602204685565,
+        "duration" : 17654
+      }
+    }, {
+      "uid" : "7fd421a74564ac5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601442335219,
+        "stop" : 1601442372353,
+        "duration" : 37134
+      }
+    }, {
+      "uid" : "25f39e86866f586a",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1601442154466,
+        "stop" : 1601442172309,
+        "duration" : 17843
+      }
+    }, {
+      "uid" : "d3d8ea7bf50ef445",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1601442012127,
+        "stop" : 1601442029745,
+        "duration" : 17618
+      }
+    }, {
+      "uid" : "466c48cca043cd0d",
+      "status" : "broken",
+      "statusDetails" : "hrpc.exceptions.TransportDisconnected: HTTPConnectionPool(host='127.0.0.1', port=13514): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023311246550>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))",
+      "time" : {
+        "start" : 1601441957017,
+        "stop" : 1601441973811,
+        "duration" : 16794
+      }
+    }, {
+      "uid" : "8cd9a3dfa5b4dec1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601431930033,
+        "stop" : 1601431947647,
+        "duration" : 17614
+      }
+    }, {
+      "uid" : "6b5c0b7a572d6381",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601431703939,
+        "stop" : 1601431721679,
+        "duration" : 17740
+      }
+    }, {
+      "uid" : "cc15bc5ca5453b9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601431546358,
+        "stop" : 1601431564155,
+        "duration" : 17797
+      }
+    }, {
+      "uid" : "557295999dc99313",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601431315253,
+        "stop" : 1601431332919,
+        "duration" : 17666
+      }
+    }, {
+      "uid" : "9d8c49f766990e60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601431074281,
+        "stop" : 1601431091495,
+        "duration" : 17214
+      }
+    }, {
+      "uid" : "dd999df49fcb1c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601430872016,
+        "stop" : 1601430889751,
+        "duration" : 17735
+      }
+    }, {
+      "uid" : "911322819c719c90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601430760792,
+        "stop" : 1601430778704,
+        "duration" : 17912
+      }
+    }, {
+      "uid" : "1917d3deb635c2bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601430630698,
+        "stop" : 1601430649713,
+        "duration" : 19015
+      }
+    }, {
+      "uid" : "b01a1cc5c24b208d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601372180859,
+        "stop" : 1601372198040,
+        "duration" : 17181
+      }
+    }, {
+      "uid" : "868370f883c85493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601371395440,
+        "stop" : 1601371412940,
+        "duration" : 17500
+      }
+    }, {
+      "uid" : "9a2b19d913a91cbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601371212771,
+        "stop" : 1601371230314,
+        "duration" : 17543
+      }
+    }, {
+      "uid" : "7b047142490c1724",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601371070799,
+        "stop" : 1601371088415,
+        "duration" : 17616
+      }
+    }, {
+      "uid" : "de97550e5d557219",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601370937706,
+        "stop" : 1601370955673,
+        "duration" : 17967
+      }
+    }, {
+      "uid" : "58de38d07c47c7b5",
+      "status" : "broken",
+      "statusDetails" : "pymysql.err.ProgrammingError: (1146, \"Table 'chengtay-zero-copy.zero_user' doesn't exist\")",
+      "time" : {
+        "start" : 1601370491596,
+        "stop" : 1601370501572,
+        "duration" : 9976
+      }
+    }, {
+      "uid" : "a76da48ec0ac11f4",
+      "status" : "broken",
+      "statusDetails" : "pymysql.err.ProgrammingError: (1146, \"Table 'chengtay-zero-copy.zero_user_auth' doesn't exist\")",
+      "time" : {
+        "start" : 1601370359202,
+        "stop" : 1601370369258,
+        "duration" : 10056
+      }
+    }, {
+      "uid" : "a87cc95822bd6f13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601368585426,
+        "stop" : 1601368618889,
+        "duration" : 33463
+      }
+    }, {
+      "uid" : "2c500fe241959dcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601368000884,
+        "stop" : 1601368037501,
+        "duration" : 36617
+      }
+    }, {
+      "uid" : "d2b1fd6d1e8a2278",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1601367719346,
+        "stop" : 1601367737078,
+        "duration" : 17732
+      }
+    }, {
+      "uid" : "857ae792a171d3d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601367010247,
+        "stop" : 1601367060507,
+        "duration" : 50260
+      }
+    }, {
+      "uid" : "ca23637870b2c95f",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"_n_107\"",
+      "time" : {
+        "start" : 1601365927562,
+        "stop" : 1601365954570,
+        "duration" : 27008
+      }
+    }, {
+      "uid" : "2924141a93124c53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601365010516,
+        "stop" : 1601365035623,
+        "duration" : 25107
+      }
+    }, {
+      "uid" : "c94262442e88c859",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1601363269307,
+        "stop" : 1601363290016,
+        "duration" : 20709
+      }
+    }, {
+      "uid" : "a67b95cd0a57045c",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1601362181382,
+        "stop" : 1601362201685,
+        "duration" : 20303
+      }
+    }, {
+      "uid" : "c3d954128f390d98",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=一键微信授权登录\"",
+      "time" : {
+        "start" : 1601362025481,
+        "stop" : 1601362045203,
+        "duration" : 19722
+      }
+    }, {
+      "uid" : "32c3038cdf7ea132",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601361962581,
+        "stop" : 1601361977153,
+        "duration" : 14572
+      }
+    }, {
+      "uid" : "f117719025b4135c",
+      "status" : "broken",
+      "statusDetails" : "TypeError: '<=' not supported between instances of 'int' and 'str'",
+      "time" : {
+        "start" : 1601361846667,
+        "stop" : 1601361858863,
+        "duration" : 12196
+      }
+    }, {
+      "uid" : "8155d72561149a87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601361509116,
+        "stop" : 1601361521614,
+        "duration" : 12498
+      }
+    }, {
+      "uid" : "8735066b53756e39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601361436239,
+        "stop" : 1601361448992,
+        "duration" : 12753
+      }
+    }, {
+      "uid" : "81e1557e8b3a142",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601360528866,
+        "stop" : 1601360556117,
+        "duration" : 27251
+      }
+    }, {
+      "uid" : "3fc2dcb1aa280abf",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=发现\"",
+      "time" : {
+        "start" : 1601360319802,
+        "stop" : 1601360328736,
+        "duration" : 8934
+      }
+    }, {
+      "uid" : "2ab92505de233220",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601360239731,
+        "stop" : 1601360257078,
+        "duration" : 17347
+      }
+    }, {
+      "uid" : "118ce7ebdcf223c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601360012239,
+        "stop" : 1601360029455,
+        "duration" : 17216
+      }
+    }, {
+      "uid" : "be1a6f7d82af44fb",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1601359653162,
+        "stop" : 1601359670946,
+        "duration" : 17784
+      }
+    }, {
+      "uid" : "de0953653e21271f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601191949818,
+        "stop" : 1601191967277,
+        "duration" : 17459
+      }
+    }, {
+      "uid" : "e5fb8ab6bf28f6cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601191781211,
+        "stop" : 1601191798608,
+        "duration" : 17397
+      }
+    }, {
+      "uid" : "9f03ed108ac85739",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601191543090,
+        "stop" : 1601191560491,
+        "duration" : 17401
+      }
+    }, {
+      "uid" : "1930e6f2be0d9a41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601191453805,
+        "stop" : 1601191471794,
+        "duration" : 17989
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "975246911bb09ec2.json",
+  "parameterValues" : [ ]
+}

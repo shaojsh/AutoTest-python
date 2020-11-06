@@ -84,7 +84,7 @@ def test_infoReg():
             picture_dir + pcture_dirTwo)
         BaseFunction.waitUntilDisplay(driver, path_personalInfoReg.btn_uplaodPicture2_css.value)
         waitUntilClick(driver, path_personalInfoReg.btn_aut_css.value)
-        sleep(2)
+        sleep(3)
         driver.find_element_by_css_selector(path_personalInfoReg.btn_aut_css.value).click()
 
         getVerification_ui(RequestURL, act)

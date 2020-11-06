@@ -1,13 +1,12 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "name" : "suites",
   "children" : [ {
     "name" : "test_case.test_Api_demo",
     "children" : [ {
       "name" : "test_api_per",
       "children" : [ {
         "name" : "test_api_per",
-        "uid" : "ec834c0073792547",
+        "uid" : "4f2cf10b9d5ad850",
         "parentUid" : "55f4215371e368fccc2fe6b0cc9643c4",
         "status" : "passed",
         "time" : {
@@ -25,80 +24,16 @@
   }, {
     "name" : "test_flow.test_Authentication",
     "children" : [ {
-      "name" : "test_businessInfoReg",
-      "children" : [ {
-        "name" : "test_businessInforReg",
-        "uid" : "c47036563629e1f1",
-        "parentUid" : "ec9023113cd731a3d98287f22b9c540f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603851497959,
-          "stop" : 1603851599786,
-          "duration" : 101827
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "ec9023113cd731a3d98287f22b9c540f"
-    }, {
-      "name" : "test_backStage_examine",
-      "children" : [ {
-        "name" : "test_backstage_examine",
-        "uid" : "d2e790710b3510ca",
-        "parentUid" : "0f5bd49568a29f185b3c1e89207e891c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603851599804,
-          "stop" : 1603851618788,
-          "duration" : 18984
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0f5bd49568a29f185b3c1e89207e891c"
-    }, {
-      "name" : "test_backStage_authentication",
-      "children" : [ {
-        "name" : "test_backStageActCreate",
-        "uid" : "b711cf14cb555b20",
-        "parentUid" : "fd817d8d0f4e2955a83ca99db1eb2211",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603851618798,
-          "stop" : 1603851655625,
-          "duration" : 36827
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_backStage_authentication",
-        "uid" : "e6e4879ce506fbd",
-        "parentUid" : "fd817d8d0f4e2955a83ca99db1eb2211",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603851655662,
-          "stop" : 1603851751333,
-          "duration" : 95671
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "fd817d8d0f4e2955a83ca99db1eb2211"
-    }, {
       "name" : "test_login",
       "children" : [ {
         "name" : "test_companyRegister",
-        "uid" : "bd0cfd91260943c9",
+        "uid" : "975246911bb09ec2",
         "parentUid" : "9a7e0e6f3e0f952f8bcc34abd5c95979",
-        "status" : "broken",
+        "status" : "passed",
         "time" : {
-          "start" : 1603859669374,
-          "stop" : 1603859678134,
-          "duration" : 8760
+          "start" : 1604459455628,
+          "stop" : 1604459472714,
+          "duration" : 17086
         },
         "flaky" : false,
         "newFailed" : false,
@@ -109,19 +44,83 @@
       "name" : "test_personalInfoReg",
       "children" : [ {
         "name" : "test_infoReg",
-        "uid" : "8dcfdbf0cda4ff4e",
+        "uid" : "acdcc0cd54c6bd4b",
         "parentUid" : "5c30648b86b358f797cfae704122cc2c",
         "status" : "passed",
         "time" : {
-          "start" : 1603859678429,
-          "stop" : 1603859678430,
-          "duration" : 1
+          "start" : 1604459472749,
+          "stop" : 1604459509952,
+          "duration" : 37203
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "5c30648b86b358f797cfae704122cc2c"
+    }, {
+      "name" : "test_businessInfoReg",
+      "children" : [ {
+        "name" : "test_businessInforReg",
+        "uid" : "244e22325b8e8c7f",
+        "parentUid" : "ec9023113cd731a3d98287f22b9c540f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604459509963,
+          "stop" : 1604459564236,
+          "duration" : 54273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec9023113cd731a3d98287f22b9c540f"
+    }, {
+      "name" : "test_backStage_examine",
+      "children" : [ {
+        "name" : "test_backstage_examine",
+        "uid" : "be57b9fe654e551b",
+        "parentUid" : "0f5bd49568a29f185b3c1e89207e891c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604459564247,
+          "stop" : 1604459583396,
+          "duration" : 19149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f5bd49568a29f185b3c1e89207e891c"
+    }, {
+      "name" : "test_backStage_authentication",
+      "children" : [ {
+        "name" : "test_backStageActCreate",
+        "uid" : "bb8f4b9261df2e76",
+        "parentUid" : "fd817d8d0f4e2955a83ca99db1eb2211",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604459583423,
+          "stop" : 1604459620678,
+          "duration" : 37255
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_backStage_authentication",
+        "uid" : "93037caeff693420",
+        "parentUid" : "fd817d8d0f4e2955a83ca99db1eb2211",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604459620713,
+          "stop" : 1604459728069,
+          "duration" : 107356
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd817d8d0f4e2955a83ca99db1eb2211"
     } ],
     "uid" : "5afa34953581fdbf72cb514527388d22"
   }, {
@@ -130,13 +129,13 @@
       "name" : "test_Tripartite_interaction",
       "children" : [ {
         "name" : "test_Tripartite_interaction",
-        "uid" : "4d314c41e21dedbc",
+        "uid" : "731ea6000fb025d5",
         "parentUid" : "d05880f1c647f41ab44d6f53210282c9",
-        "status" : "passed",
+        "status" : "broken",
         "time" : {
-          "start" : 1603851751346,
-          "stop" : 1603852050154,
-          "duration" : 298808
+          "start" : 1604459728106,
+          "stop" : 1604459812110,
+          "duration" : 84004
         },
         "flaky" : false,
         "newFailed" : false,
@@ -145,5 +144,6 @@
       "uid" : "d05880f1c647f41ab44d6f53210282c9"
     } ],
     "uid" : "af777a3d193f800fcd4be8051aef459c"
-  } ]
+  } ],
+  "name" : "suites"
 }

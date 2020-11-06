@@ -1,0 +1,90 @@
+{
+  "uid" : "3720c27be5d1193a",
+  "name" : "test_Tripartite_interaction",
+  "fullName" : "test_flow.test_Tripartite_interaction.test_Tripartite_interaction#test_Tripartite_interaction",
+  "historyId" : "d91e7b4392163e0b46289a9f8b97b16c",
+  "time" : {
+    "start" : 1602745461631,
+    "stop" : 1602745461633,
+    "duration" : 2
+  },
+  "description" : "测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: Unsupported focus type <class 'float'>. Only \"anchor/center\" or 2-list/2-tuple available.",
+  "statusTrace" : "@pytest.mark.run(order=-1)\n    @allure.severity(\"blocker\")\n    @allure.description(\"测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互\")\n    @allure.testcase(\"http://10.10.128.152:10052/#/account/login\", \"三方（企业，银行，前端）交互 \uD83D\uDC47\")\n    def test_Tripartite_interaction():\n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        # 前端账户授信申请\n        if runMode == 'UI':\n            driver_forward = webdriver.Chrome()\n            driver_forward.maximize_window()\n            driver_forward.get(url_forward)\n            logger.info('前端账户登录授信申请')\n            login(driver_forward)\n            creditExtension(driver_forward)\n        else:\n            # waiteForClick(mobileDriver(text='首页'))\n            # waiteForClick(mobileDriver(text='立即申请'))\n            # el = mobileDriver(text='首页', name='android.view.View', type='android.view.View')\n            # dragUntilTextAppear(el, '产品服务', product_name)\n            # waiteForClick(mobileDriver(text=product_name))\n            # waiteForClick(mobileDriver(text='立即申请'))\n            #\n            # logger.info('授信采购信息画面')\n            # waiteForClick(mobileDriver(text='请输入银行账号'))\n            # text('123456789012')\n            # mobileDriver(text='分支行').click()\n            # waiteForClick(mobileDriver(text='请选择项目'))\n            # waiteForClick(mobileDriver(text='请输入项目名称').parent().parent().parent().child()[2])\n            # waiteForClick(mobileDriver(text='下一步'))\n            #\n            # logger.info('授信基本资料页面')\n            # waiteForClick(mobileDriver(text='下一步'))\n            #\n            # logger.info('授信页面')\n            # el2 = mobileDriver(text='企业经营场所照片')\n            # dragUntilTextAppear(el2, '业务申请', '我已阅读并同意提交资料')\n    \n>           mobileDriver(text='企业经营场所照片').swipe('up', 0.1)\n\ntest_flow\\test_Tripartite_interaction\\test_Tripartite_interaction.py:171: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:23: in wrapped\n    return func(proxy, *args, **kwargs)\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:457: in swipe\n    origin = self.get_position(focus)\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:72: in wrapped\n    return func(proxy, *args, **kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = UIObjectProxy of \"text=企业经营场所照片\", focus = 0.1\n\n    @volatile_attribute\n    def get_position(self, focus=None):\n        \"\"\"\n        Get the position of the UI elements.\n    \n        Args:\n            focus: focus point of UI proxy,  see :py:meth:`.focus() <poco.proxy.UIObjectProxy.focus>` for more details\n    \n        Returns:\n            2-list/2-tuple: coordinates (x, y) in NormalizedCoordinate system\n    \n        Raises:\n            TypeError: raised when unsupported focus type is specified\n        \"\"\"\n    \n        focus = focus or self._focus or 'anchor'\n        if focus == 'anchor':\n            pos = self.attr('pos')\n        elif focus == 'center':\n            x, y = self.attr('pos')\n            w, h = self.get_size()\n            ap_x, ap_y = self.attr(\"anchorPoint\")\n            fx, fy = 0.5, 0.5\n            pos = [x + w * (fx - ap_x), y + h * (fy - ap_y)]\n        elif type(focus) in (list, tuple):\n            x, y = self.attr('pos')\n            w, h = self.get_size()\n            ap_x, ap_y = self.attr(\"anchorPoint\")\n            fx, fy = focus\n            pos = [x + w * (fx - ap_x), y + h * (fy - ap_y)]\n        else:\n            raise TypeError('Unsupported focus type {}. '\n>                           'Only \"anchor/center\" or 2-list/2-tuple available.'.format(type(focus)))\nE           TypeError: Unsupported focus type <class 'float'>. Only \"anchor/center\" or 2-list/2-tuple available.\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:628: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互",
+    "status" : "broken",
+    "statusMessage" : "TypeError: Unsupported focus type <class 'float'>. Only \"anchor/center\" or 2-list/2-tuple available.",
+    "statusTrace" : "@pytest.mark.run(order=-1)\n    @allure.severity(\"blocker\")\n    @allure.description(\"测试 http://10.10.128.152:10052/#/account/login 三方（企业，银行，前端）交互\")\n    @allure.testcase(\"http://10.10.128.152:10052/#/account/login\", \"三方（企业，银行，前端）交互 \uD83D\uDC47\")\n    def test_Tripartite_interaction():\n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        # 前端账户授信申请\n        if runMode == 'UI':\n            driver_forward = webdriver.Chrome()\n            driver_forward.maximize_window()\n            driver_forward.get(url_forward)\n            logger.info('前端账户登录授信申请')\n            login(driver_forward)\n            creditExtension(driver_forward)\n        else:\n            # waiteForClick(mobileDriver(text='首页'))\n            # waiteForClick(mobileDriver(text='立即申请'))\n            # el = mobileDriver(text='首页', name='android.view.View', type='android.view.View')\n            # dragUntilTextAppear(el, '产品服务', product_name)\n            # waiteForClick(mobileDriver(text=product_name))\n            # waiteForClick(mobileDriver(text='立即申请'))\n            #\n            # logger.info('授信采购信息画面')\n            # waiteForClick(mobileDriver(text='请输入银行账号'))\n            # text('123456789012')\n            # mobileDriver(text='分支行').click()\n            # waiteForClick(mobileDriver(text='请选择项目'))\n            # waiteForClick(mobileDriver(text='请输入项目名称').parent().parent().parent().child()[2])\n            # waiteForClick(mobileDriver(text='下一步'))\n            #\n            # logger.info('授信基本资料页面')\n            # waiteForClick(mobileDriver(text='下一步'))\n            #\n            # logger.info('授信页面')\n            # el2 = mobileDriver(text='企业经营场所照片')\n            # dragUntilTextAppear(el2, '业务申请', '我已阅读并同意提交资料')\n    \n>           mobileDriver(text='企业经营场所照片').swipe('up', 0.1)\n\ntest_flow\\test_Tripartite_interaction\\test_Tripartite_interaction.py:171: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:23: in wrapped\n    return func(proxy, *args, **kwargs)\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:457: in swipe\n    origin = self.get_position(focus)\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:72: in wrapped\n    return func(proxy, *args, **kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = UIObjectProxy of \"text=企业经营场所照片\", focus = 0.1\n\n    @volatile_attribute\n    def get_position(self, focus=None):\n        \"\"\"\n        Get the position of the UI elements.\n    \n        Args:\n            focus: focus point of UI proxy,  see :py:meth:`.focus() <poco.proxy.UIObjectProxy.focus>` for more details\n    \n        Returns:\n            2-list/2-tuple: coordinates (x, y) in NormalizedCoordinate system\n    \n        Raises:\n            TypeError: raised when unsupported focus type is specified\n        \"\"\"\n    \n        focus = focus or self._focus or 'anchor'\n        if focus == 'anchor':\n            pos = self.attr('pos')\n        elif focus == 'center':\n            x, y = self.attr('pos')\n            w, h = self.get_size()\n            ap_x, ap_y = self.attr(\"anchorPoint\")\n            fx, fy = 0.5, 0.5\n            pos = [x + w * (fx - ap_x), y + h * (fy - ap_y)]\n        elif type(focus) in (list, tuple):\n            x, y = self.attr('pos')\n            w, h = self.get_size()\n            ap_x, ap_y = self.attr(\"anchorPoint\")\n            fx, fy = focus\n            pos = [x + w * (fx - ap_x), y + h * (fy - ap_y)]\n        else:\n            raise TypeError('Unsupported focus type {}. '\n>                           'Only \"anchor/center\" or 2-list/2-tuple available.'.format(type(focus)))\nE           TypeError: Unsupported focus type <class 'float'>. Only \"anchor/center\" or 2-list/2-tuple available.\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\poco\\proxy.py:628: TypeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dee336224b49a378",
+      "name" : "log",
+      "source" : "dee336224b49a378.txt",
+      "type" : "text/plain",
+      "size" : 106
+    }, {
+      "uid" : "7923fe2a7c245475",
+      "name" : "stderr",
+      "source" : "7923fe2a7c245475.txt",
+      "type" : "text/plain",
+      "size" : 153
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=-1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Tripartite_interaction"
+  }, {
+    "name" : "suite",
+    "value" : "test_Tripartite_interaction"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "16292-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Tripartite_interaction.test_Tripartite_interaction"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "三方（企业，银行，前端）交互 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/account/login",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=-1)" ]
+  },
+  "source" : "3720c27be5d1193a.json",
+  "parameterValues" : [ ]
+}

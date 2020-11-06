@@ -1,0 +1,2558 @@
+{
+  "uid" : "244e22325b8e8c7f",
+  "name" : "test_businessInforReg",
+  "fullName" : "test_flow.test_Authentication.test_businessInfoReg#test_businessInforReg",
+  "historyId" : "673c6cf796d54f5cbc2e9852ef4f69c7",
+  "time" : {
+    "start" : 1604459509963,
+    "stop" : 1604459564236,
+    "duration" : 54273
+  },
+  "description" : "测试 http://10.10.128.152:10053/personal/baseinfo 企业认证",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/personal/baseinfo 企业认证</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/personal/baseinfo 企业认证",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f7595269d618d04e",
+      "name" : "log",
+      "source" : "f7595269d618d04e.txt",
+      "type" : "text/plain",
+      "size" : 1247
+    }, {
+      "uid" : "5000a518b4dba534",
+      "name" : "stdout",
+      "source" : "5000a518b4dba534.txt",
+      "type" : "text/plain",
+      "size" : 137
+    }, {
+      "uid" : "9d93fe42995b269a",
+      "name" : "stderr",
+      "source" : "9d93fe42995b269a.txt",
+      "type" : "text/plain",
+      "size" : 1743
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_businessInfoReg"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "9496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_businessInfoReg"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "企业认证 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/personal/baseinfo",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "69061f0732e0147",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604450792668,
+        "stop" : 1604450852174,
+        "duration" : 59506
+      }
+    }, {
+      "uid" : "bb3ab81328517342",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604400712637,
+        "stop" : 1604400765809,
+        "duration" : 53172
+      }
+    }, {
+      "uid" : "7866bda6c8d07dbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604394117790,
+        "stop" : 1604394187292,
+        "duration" : 69502
+      }
+    }, {
+      "uid" : "8cf624c292ab2c20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604371255498,
+        "stop" : 1604371327089,
+        "duration" : 71591
+      }
+    }, {
+      "uid" : "b1bdca951abf39ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604366839278,
+        "stop" : 1604366897314,
+        "duration" : 58036
+      }
+    }, {
+      "uid" : "3367468cfbeb7f2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604318819184,
+        "stop" : 1604318874121,
+        "duration" : 54937
+      }
+    }, {
+      "uid" : "bd446b01ecfb3847",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604311715986,
+        "stop" : 1604311769121,
+        "duration" : 53135
+      }
+    }, {
+      "uid" : "e77ab98e063bd33e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604279485936,
+        "stop" : 1604279548221,
+        "duration" : 62285
+      }
+    }, {
+      "uid" : "e3e16bafeb17cf9d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1604279327593,
+        "stop" : 1604279345096,
+        "duration" : 17503
+      }
+    }, {
+      "uid" : "517394f151336f3d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1604278868135,
+        "stop" : 1604278911505,
+        "duration" : 43370
+      }
+    }, {
+      "uid" : "cfd5155ec65d8926",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603937876930,
+        "stop" : 1603937983891,
+        "duration" : 106961
+      }
+    }, {
+      "uid" : "15e46ecb2ad13ff2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603860365848,
+        "stop" : 1603860463130,
+        "duration" : 97282
+      }
+    }, {
+      "uid" : "91e9363f82f7367",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603851497959,
+        "stop" : 1603851599786,
+        "duration" : 101827
+      }
+    }, {
+      "uid" : "464e0d73b40e7af6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603850887511,
+        "stop" : 1603850984094,
+        "duration" : 96583
+      }
+    }, {
+      "uid" : "79639705cd5f30c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603850082175,
+        "stop" : 1603850179103,
+        "duration" : 96928
+      }
+    }, {
+      "uid" : "27c6b16e5c5a00e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603849173187,
+        "stop" : 1603849269135,
+        "duration" : 95948
+      }
+    }, {
+      "uid" : "8fcd0057ccd9e802",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603847880876,
+        "stop" : 1603847982722,
+        "duration" : 101846
+      }
+    }, {
+      "uid" : "b72a15c6e77ccfd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603847193256,
+        "stop" : 1603847290322,
+        "duration" : 97066
+      }
+    }, {
+      "uid" : "843f37faa178962b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603846495973,
+        "stop" : 1603846593532,
+        "duration" : 97559
+      }
+    }, {
+      "uid" : "69e3dcfd59ce03ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603845894800,
+        "stop" : 1603845992159,
+        "duration" : 97359
+      }
+    }, {
+      "uid" : "35d0060b9515d10e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603845327624,
+        "stop" : 1603845449209,
+        "duration" : 121585
+      }
+    }, {
+      "uid" : "6941a837ba93f3f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603791645021,
+        "stop" : 1603791741111,
+        "duration" : 96090
+      }
+    }, {
+      "uid" : "508c2db6044783f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603791041798,
+        "stop" : 1603791137664,
+        "duration" : 95866
+      }
+    }, {
+      "uid" : "91112c28bb5ad427",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603790472879,
+        "stop" : 1603790568035,
+        "duration" : 95156
+      }
+    }, {
+      "uid" : "b3b1647aafa75890",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603789320456,
+        "stop" : 1603789417421,
+        "duration" : 96965
+      }
+    }, {
+      "uid" : "4e1af5134a384a72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603788974188,
+        "stop" : 1603789076144,
+        "duration" : 101956
+      }
+    }, {
+      "uid" : "5d002607bd6d3ad1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603788113641,
+        "stop" : 1603788216383,
+        "duration" : 102742
+      }
+    }, {
+      "uid" : "1bf87afce2ce4fd3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603787237045,
+        "stop" : 1603787335257,
+        "duration" : 98212
+      }
+    }, {
+      "uid" : "ed0143e3b5323537",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603786593645,
+        "stop" : 1603786696266,
+        "duration" : 102621
+      }
+    }, {
+      "uid" : "3ea6e4707601a216",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603785403647,
+        "stop" : 1603785499796,
+        "duration" : 96149
+      }
+    }, {
+      "uid" : "d57a172700111b24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603784939437,
+        "stop" : 1603785035228,
+        "duration" : 95791
+      }
+    }, {
+      "uid" : "149173137dafbc98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603784092589,
+        "stop" : 1603784195202,
+        "duration" : 102613
+      }
+    }, {
+      "uid" : "7fb44d008ac3d612",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603783513635,
+        "stop" : 1603783622375,
+        "duration" : 108740
+      }
+    }, {
+      "uid" : "4c1a1898a799f13b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603783042773,
+        "stop" : 1603783140111,
+        "duration" : 97338
+      }
+    }, {
+      "uid" : "fb6936145fcc287e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603782528806,
+        "stop" : 1603782630873,
+        "duration" : 102067
+      }
+    }, {
+      "uid" : "75bf48ee02daa66a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603781815916,
+        "stop" : 1603781912852,
+        "duration" : 96936
+      }
+    }, {
+      "uid" : "3646c09ac67c8c59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603781325436,
+        "stop" : 1603781449066,
+        "duration" : 123630
+      }
+    }, {
+      "uid" : "39a520e430466688",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603780854938,
+        "stop" : 1603780958047,
+        "duration" : 103109
+      }
+    }, {
+      "uid" : "2ffe3b65334594a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603780325618,
+        "stop" : 1603780421373,
+        "duration" : 95755
+      }
+    }, {
+      "uid" : "e31bf713a131274a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603779756289,
+        "stop" : 1603779853283,
+        "duration" : 96994
+      }
+    }, {
+      "uid" : "235246481ea70018",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603779088080,
+        "stop" : 1603779196594,
+        "duration" : 108514
+      }
+    }, {
+      "uid" : "264ff8fec601cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603777987196,
+        "stop" : 1603778084342,
+        "duration" : 97146
+      }
+    }, {
+      "uid" : "b38802d60f9e5554",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603777245610,
+        "stop" : 1603777342452,
+        "duration" : 96842
+      }
+    }, {
+      "uid" : "4f72ef8ab1b8e1fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603776666012,
+        "stop" : 1603776785621,
+        "duration" : 119609
+      }
+    }, {
+      "uid" : "edd4c0dc6ada07f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603776104082,
+        "stop" : 1603776206455,
+        "duration" : 102373
+      }
+    }, {
+      "uid" : "47e09767b01c62c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603775527954,
+        "stop" : 1603775622470,
+        "duration" : 94516
+      }
+    }, {
+      "uid" : "b7750c59cb26890d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603774983464,
+        "stop" : 1603775088887,
+        "duration" : 105423
+      }
+    }, {
+      "uid" : "38dec643ee02fb06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603774252998,
+        "stop" : 1603774382565,
+        "duration" : 129567
+      }
+    }, {
+      "uid" : "dc7a92f00b208525",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603768117903,
+        "stop" : 1603768220182,
+        "duration" : 102279
+      }
+    }, {
+      "uid" : "3662f66c87f582cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603767254083,
+        "stop" : 1603767351651,
+        "duration" : 97568
+      }
+    }, {
+      "uid" : "e6b2a82ca6a1e5db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603766374351,
+        "stop" : 1603766471841,
+        "duration" : 97490
+      }
+    }, {
+      "uid" : "5c12681df076fb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603765655187,
+        "stop" : 1603765750549,
+        "duration" : 95362
+      }
+    }, {
+      "uid" : "373532d135eab09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603765389445,
+        "stop" : 1603765492351,
+        "duration" : 102906
+      }
+    }, {
+      "uid" : "56dbf54c84507fd",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=企业证件照\"",
+      "time" : {
+        "start" : 1603765210659,
+        "stop" : 1603765241258,
+        "duration" : 30599
+      }
+    }, {
+      "uid" : "9eba240321c72ddd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603763937630,
+        "stop" : 1603764094500,
+        "duration" : 156870
+      }
+    }, {
+      "uid" : "374007e1c6ca34e9",
+      "status" : "broken",
+      "statusDetails" : "airtest.core.error.TargetNotFoundError: 'Picture Template(C:\\\\Users\\\\shaojunshuai\\\\PycharmProjects\\\\AutoTest-python\\\\Auto_Test\\\\test_data\\\\picture\\\\id_6.png) not found in screen'",
+      "time" : {
+        "start" : 1603763395487,
+        "stop" : 1603763512934,
+        "duration" : 117447
+      }
+    }, {
+      "uid" : "c47b702b354c341c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603762490958,
+        "stop" : 1603762587772,
+        "duration" : 96814
+      }
+    }, {
+      "uid" : "8278a7915a589234",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603761699581,
+        "stop" : 1603761796078,
+        "duration" : 96497
+      }
+    }, {
+      "uid" : "5e4da131ed755f7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603760578408,
+        "stop" : 1603760675302,
+        "duration" : 96894
+      }
+    }, {
+      "uid" : "c22f205770a55ae9",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*法人代表归属地's parent/\"",
+      "time" : {
+        "start" : 1603759838371,
+        "stop" : 1603759873032,
+        "duration" : 34661
+      }
+    }, {
+      "uid" : "a836b6187911ad16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603698459488,
+        "stop" : 1603698563455,
+        "duration" : 103967
+      }
+    }, {
+      "uid" : "b71c384011921e77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603698078734,
+        "stop" : 1603698183867,
+        "duration" : 105133
+      }
+    }, {
+      "uid" : "d0daf3c7a62083da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603697113572,
+        "stop" : 1603697220923,
+        "duration" : 107351
+      }
+    }, {
+      "uid" : "c429552339703c32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603696522141,
+        "stop" : 1603696625111,
+        "duration" : 102970
+      }
+    }, {
+      "uid" : "317e8927fba6a1bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603695714718,
+        "stop" : 1603695817106,
+        "duration" : 102388
+      }
+    }, {
+      "uid" : "ad4d77e6bb3fe202",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603675895464,
+        "stop" : 1603675996351,
+        "duration" : 100887
+      }
+    }, {
+      "uid" : "a3dec3300946e387",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603675410209,
+        "stop" : 1603675510492,
+        "duration" : 100283
+      }
+    }, {
+      "uid" : "16b9a5602e3ac0e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603444201938,
+        "stop" : 1603444303444,
+        "duration" : 101506
+      }
+    }, {
+      "uid" : "d76872be99479ae3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603442788626,
+        "stop" : 1603442907171,
+        "duration" : 118545
+      }
+    }, {
+      "uid" : "bee02f5f699ee17f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603441885628,
+        "stop" : 1603442008439,
+        "duration" : 122811
+      }
+    }, {
+      "uid" : "7a033f6ceecf384",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603441389881,
+        "stop" : 1603441595410,
+        "duration" : 205529
+      }
+    }, {
+      "uid" : "3e1edf709a7ab5f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603440476167,
+        "stop" : 1603440632348,
+        "duration" : 156181
+      }
+    }, {
+      "uid" : "fd0f57347256e28f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603437039461,
+        "stop" : 1603437091188,
+        "duration" : 51727
+      }
+    }, {
+      "uid" : "4c4552da03a468a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603436438970,
+        "stop" : 1603436490064,
+        "duration" : 51094
+      }
+    }, {
+      "uid" : "59e522493a4f477b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603435990850,
+        "stop" : 1603436046777,
+        "duration" : 55927
+      }
+    }, {
+      "uid" : "5b7f546cc21e5fc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603435359707,
+        "stop" : 1603435415592,
+        "duration" : 55885
+      }
+    }, {
+      "uid" : "39c10e46ff7aef5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603434703371,
+        "stop" : 1603434756690,
+        "duration" : 53319
+      }
+    }, {
+      "uid" : "970d15d17caefd0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603434380294,
+        "stop" : 1603434431768,
+        "duration" : 51474
+      }
+    }, {
+      "uid" : "1e08483904d7ba99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603434084635,
+        "stop" : 1603434137784,
+        "duration" : 53149
+      }
+    }, {
+      "uid" : "cd4ba7f6b5d7d8cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603432636509,
+        "stop" : 1603432687561,
+        "duration" : 51052
+      }
+    }, {
+      "uid" : "14fd2a7a9b827cb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603432067820,
+        "stop" : 1603432119765,
+        "duration" : 51945
+      }
+    }, {
+      "uid" : "89cda0d963582b18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603430815182,
+        "stop" : 1603430869379,
+        "duration" : 54197
+      }
+    }, {
+      "uid" : "72a88ce41d50a6cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603429317736,
+        "stop" : 1603429369925,
+        "duration" : 52189
+      }
+    }, {
+      "uid" : "e5fa3de8262bace8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603422321218,
+        "stop" : 1603422372211,
+        "duration" : 50993
+      }
+    }, {
+      "uid" : "e4c10d1dced17f7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603421641612,
+        "stop" : 1603421696933,
+        "duration" : 55321
+      }
+    }, {
+      "uid" : "59df6fa7722a99d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603420865238,
+        "stop" : 1603420927371,
+        "duration" : 62133
+      }
+    }, {
+      "uid" : "13903991aff2ccd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603417447827,
+        "stop" : 1603417508381,
+        "duration" : 60554
+      }
+    }, {
+      "uid" : "d73c9fc7906cd9bb",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603417283229,
+        "stop" : 1603417342481,
+        "duration" : 59252
+      }
+    }, {
+      "uid" : "fcc3027b9c6615cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603416201159,
+        "stop" : 1603416293655,
+        "duration" : 92496
+      }
+    }, {
+      "uid" : "c0e7a00ec9606446",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603415950539,
+        "stop" : 1603416007629,
+        "duration" : 57090
+      }
+    }, {
+      "uid" : "951e64e125419241",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603415414767,
+        "stop" : 1603415444619,
+        "duration" : 29852
+      }
+    }, {
+      "uid" : "c4c2c0ca4fdb9480",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603415302586,
+        "stop" : 1603415324570,
+        "duration" : 21984
+      }
+    }, {
+      "uid" : "6e93af67513b5098",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603415265117,
+        "stop" : 1603415291343,
+        "duration" : 26226
+      }
+    }, {
+      "uid" : "2cb7d58c9e90abf3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 615). Other element would receive the click: <div class=\"formItemContent___4NmH6\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603415179388,
+        "stop" : 1603415203557,
+        "duration" : 24169
+      }
+    }, {
+      "uid" : "c422a556f2afd22b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: waitUntilClick_xpath() missing 1 required positional argument: 'ByXpath'",
+      "time" : {
+        "start" : 1603415038741,
+        "stop" : 1603415054002,
+        "duration" : 15261
+      }
+    }, {
+      "uid" : "97c6a5e8a4694e9d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <h6 class=\"title___2ljL5\">...</h6>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603414840326,
+        "stop" : 1603414856599,
+        "duration" : 16273
+      }
+    }, {
+      "uid" : "a9fe83b48c4e068c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <h6 class=\"title___2ljL5\">...</h6>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603414733253,
+        "stop" : 1603414749525,
+        "duration" : 16272
+      }
+    }, {
+      "uid" : "4af8cb55e1003573",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <h6 class=\"title___2ljL5\">...</h6>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603414597557,
+        "stop" : 1603414613608,
+        "duration" : 16051
+      }
+    }, {
+      "uid" : "ee55e5ffc6f439f8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <h6 class=\"title___2ljL5\">...</h6>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603414479786,
+        "stop" : 1603414496111,
+        "duration" : 16325
+      }
+    }, {
+      "uid" : "ecce2dda13a6c1e3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603414396496,
+        "stop" : 1603414449680,
+        "duration" : 53184
+      }
+    }, {
+      "uid" : "c83278b0740fb6e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603413692681,
+        "stop" : 1603413752370,
+        "duration" : 59689
+      }
+    }, {
+      "uid" : "35fbaef6811c6f32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603355608528,
+        "stop" : 1603355665694,
+        "duration" : 57166
+      }
+    }, {
+      "uid" : "90c572669c221eca",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603355409884,
+        "stop" : 1603355450875,
+        "duration" : 40991
+      }
+    }, {
+      "uid" : "b275b9dbe454a952",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603355085247,
+        "stop" : 1603355123259,
+        "duration" : 38012
+      }
+    }, {
+      "uid" : "106d19493ec758a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603354293434,
+        "stop" : 1603354344251,
+        "duration" : 50817
+      }
+    }, {
+      "uid" : "a18898b4e406d14a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603353771633,
+        "stop" : 1603353822172,
+        "duration" : 50539
+      }
+    }, {
+      "uid" : "d22ba404ab722ba6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603353664806,
+        "stop" : 1603353714841,
+        "duration" : 50035
+      }
+    }, {
+      "uid" : "ef2de17c186b9ff4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#businessCertificate\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603353582010,
+        "stop" : 1603353596168,
+        "duration" : 14158
+      }
+    }, {
+      "uid" : "c8620d7138b8f075",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603353477601,
+        "stop" : 1603353527567,
+        "duration" : 49966
+      }
+    }, {
+      "uid" : "d1bd6aa8abe46a53",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'move_to_element'",
+      "time" : {
+        "start" : 1603353401513,
+        "stop" : 1603353417911,
+        "duration" : 16398
+      }
+    }, {
+      "uid" : "aebc9798719eba1c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'move_to_element'",
+      "time" : {
+        "start" : 1603353287916,
+        "stop" : 1603353304173,
+        "duration" : 16257
+      }
+    }, {
+      "uid" : "233d6273bb793281",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'move_to_element'",
+      "time" : {
+        "start" : 1603353243766,
+        "stop" : 1603353260177,
+        "duration" : 16411
+      }
+    }, {
+      "uid" : "aace518253519833",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'move_to_element'",
+      "time" : {
+        "start" : 1603353167423,
+        "stop" : 1603353183928,
+        "duration" : 16505
+      }
+    }, {
+      "uid" : "5f8f1419d5c40c93",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'move_to_element'",
+      "time" : {
+        "start" : 1603353112866,
+        "stop" : 1603353128266,
+        "duration" : 15400
+      }
+    }, {
+      "uid" : "6beae6e14f29251d",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'find_element_by_css'",
+      "time" : {
+        "start" : 1603353018397,
+        "stop" : 1603353037740,
+        "duration" : 19343
+      }
+    }, {
+      "uid" : "8a059b7fc373c521",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'find_element_by_css'",
+      "time" : {
+        "start" : 1603352794844,
+        "stop" : 1603352810111,
+        "duration" : 15267
+      }
+    }, {
+      "uid" : "d4d9d75f95ca5262",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'find_element_by_css'",
+      "time" : {
+        "start" : 1603352729839,
+        "stop" : 1603352745117,
+        "duration" : 15278
+      }
+    }, {
+      "uid" : "1b2f773215817f74",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603352125135,
+        "stop" : 1603352177414,
+        "duration" : 52279
+      }
+    }, {
+      "uid" : "7820ff88f22ba457",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603351158236,
+        "stop" : 1603351197708,
+        "duration" : 39472
+      }
+    }, {
+      "uid" : "51ea7bcd87cccde3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603344173315,
+        "stop" : 1603344224438,
+        "duration" : 51123
+      }
+    }, {
+      "uid" : "c74dafdb0c9c4c9d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#businessCertificate\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603343904506,
+        "stop" : 1603343918504,
+        "duration" : 13998
+      }
+    }, {
+      "uid" : "9fccd278295f8413",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603343812040,
+        "stop" : 1603343863151,
+        "duration" : 51111
+      }
+    }, {
+      "uid" : "792d2098e2ae45f7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603343769901,
+        "stop" : 1603343809881,
+        "duration" : 39980
+      }
+    }, {
+      "uid" : "ed00a85027265f9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603343555864,
+        "stop" : 1603343604734,
+        "duration" : 48870
+      }
+    }, {
+      "uid" : "f4074bd3e58cd834",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'ActionChains'",
+      "time" : {
+        "start" : 1603343399862,
+        "stop" : 1603343424497,
+        "duration" : 24635
+      }
+    }, {
+      "uid" : "b0060d99dac181a0",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'ActionChains'",
+      "time" : {
+        "start" : 1603343354121,
+        "stop" : 1603343369418,
+        "duration" : 15297
+      }
+    }, {
+      "uid" : "6bbf66097abbed10",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <div class=\"ant-upload-list ant-upload-list-picture-card\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603342867408,
+        "stop" : 1603342884919,
+        "duration" : 17511
+      }
+    }, {
+      "uid" : "2e1e4afc093401ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603342518445,
+        "stop" : 1603342569831,
+        "duration" : 51386
+      }
+    }, {
+      "uid" : "64cbdad05beb8b03",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 914). Other element would receive the click: <div class=\"formItemContent___4NmH6\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603336408667,
+        "stop" : 1603336424006,
+        "duration" : 15339
+      }
+    }, {
+      "uid" : "4bc579c98946ec8b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <div class=\"formItemContent___4NmH6\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603336278431,
+        "stop" : 1603336295423,
+        "duration" : 16992
+      }
+    }, {
+      "uid" : "943a27c260c32410",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <div class=\"ant-upload-list ant-upload-list-picture-card\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603336187791,
+        "stop" : 1603336207279,
+        "duration" : 19488
+      }
+    }, {
+      "uid" : "9e07b92b4c1405e8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 914). Other element would receive the click: <div class=\"formItemContent___4NmH6\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603336060084,
+        "stop" : 1603336076503,
+        "duration" : 16419
+      }
+    }, {
+      "uid" : "b82d0fc619832a89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603335830239,
+        "stop" : 1603335889423,
+        "duration" : 59184
+      }
+    }, {
+      "uid" : "eac75ba28b01e6ee",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <div class=\"formItemContent___4NmH6\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603335702180,
+        "stop" : 1603335717612,
+        "duration" : 15432
+      }
+    }, {
+      "uid" : "da8bda4dfbc4dc15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603330572232,
+        "stop" : 1603330625162,
+        "duration" : 52930
+      }
+    }, {
+      "uid" : "119ce60bc14182f8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 912). Other element would receive the click: <div class=\"formItemContent___4NmH6\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603330518703,
+        "stop" : 1603330533983,
+        "duration" : 15280
+      }
+    }, {
+      "uid" : "54576c701e7b8a16",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : C:\\Users\\shaojunshuai\\PycharmProjects\\AutoTest-python\\Auto_Test\\test_data\\picture\\id_3.jpg\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603330209128,
+        "stop" : 1603330227453,
+        "duration" : 18325
+      }
+    }, {
+      "uid" : "21a5c2497faeb975",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603329967149,
+        "stop" : 1603330017489,
+        "duration" : 50340
+      }
+    }, {
+      "uid" : "7edb6586212a32f8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603329707180,
+        "stop" : 1603329757337,
+        "duration" : 50157
+      }
+    }, {
+      "uid" : "fd27c38dfd9c1e48",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603329579784,
+        "stop" : 1603329624409,
+        "duration" : 44625
+      }
+    }, {
+      "uid" : "e706e5ccd3a124b5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603329488465,
+        "stop" : 1603329512158,
+        "duration" : 23693
+      }
+    }, {
+      "uid" : "b5ce86cdcba59d81",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603329338891,
+        "stop" : 1603329362228,
+        "duration" : 23337
+      }
+    }, {
+      "uid" : "348186f4b98a31c0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 718). Other element would receive the click: <div class=\"formItemContent___4NmH6\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603329203259,
+        "stop" : 1603329227844,
+        "duration" : 24585
+      }
+    }, {
+      "uid" : "439f651468ea007a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603329045491,
+        "stop" : 1603329090295,
+        "duration" : 44804
+      }
+    }, {
+      "uid" : "36ce8ed98f0b8e33",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'list' object has no attribute 'click'",
+      "time" : {
+        "start" : 1603328925986,
+        "stop" : 1603328940878,
+        "duration" : 14892
+      }
+    }, {
+      "uid" : "81c701318b7b81b9",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1603328643668,
+        "stop" : 1603328660679,
+        "duration" : 17011
+      }
+    }, {
+      "uid" : "44bbfa390a1b5a72",
+      "status" : "broken",
+      "statusDetails" : "TypeError: waitUntilClick_xpath() missing 1 required positional argument: 'ByXpath'",
+      "time" : {
+        "start" : 1603328557062,
+        "stop" : 1603328571430,
+        "duration" : 14368
+      }
+    }, {
+      "uid" : "64f278c1a067ad60",
+      "status" : "broken",
+      "statusDetails" : "TypeError: waitUntilClick_xpath() missing 1 required positional argument: 'ByXpath'",
+      "time" : {
+        "start" : 1603328462023,
+        "stop" : 1603328476363,
+        "duration" : 14340
+      }
+    }, {
+      "uid" : "51185432c95f64b0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 914). Other element would receive the click: <div class=\"formItemContent___4NmH6\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603328292646,
+        "stop" : 1603328309513,
+        "duration" : 16867
+      }
+    }, {
+      "uid" : "75dcb4bf261eee0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603328176888,
+        "stop" : 1603328215640,
+        "duration" : 38752
+      }
+    }, {
+      "uid" : "b13f4e5f7e72c93d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <div class=\"ant-upload-list ant-upload-list-picture-card\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603328076765,
+        "stop" : 1603328097228,
+        "duration" : 20463
+      }
+    }, {
+      "uid" : "30a271a0b48d18f2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <div class=\"ant-upload-list ant-upload-list-picture-card\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603328005744,
+        "stop" : 1603328025236,
+        "duration" : 19492
+      }
+    }, {
+      "uid" : "af37db0da3664206",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <div class=\"ant-upload-list ant-upload-list-picture-card\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603327922127,
+        "stop" : 1603327940671,
+        "duration" : 18544
+      }
+    }, {
+      "uid" : "d0669275575967a3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 912). Other element would receive the click: <div class=\"formItemContent___4NmH6\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603327863379,
+        "stop" : 1603327878727,
+        "duration" : 15348
+      }
+    }, {
+      "uid" : "92b6db33f2b69cf2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm.contentLogin___1loWO > div > div > div > div > div > button\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603326225393,
+        "stop" : 1603326235591,
+        "duration" : 10198
+      }
+    }, {
+      "uid" : "6c13017cc443c674",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602836375931,
+        "stop" : 1602836382331,
+        "duration" : 6400
+      }
+    }, {
+      "uid" : "c914b47dae4407e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602826287061,
+        "stop" : 1602826347564,
+        "duration" : 60503
+      }
+    }, {
+      "uid" : "7ab98bc625246271",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602825613583,
+        "stop" : 1602825666344,
+        "duration" : 52761
+      }
+    }, {
+      "uid" : "5a979218753cd294",
+      "status" : "broken",
+      "statusDetails" : "TypeError: getVerification() takes 0 positional arguments but 2 were given",
+      "time" : {
+        "start" : 1602825267715,
+        "stop" : 1602825290841,
+        "duration" : 23126
+      }
+    }, {
+      "uid" : "8ddd6f1e59a09f5e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602824939090,
+        "stop" : 1602824980608,
+        "duration" : 41518
+      }
+    }, {
+      "uid" : "f1fb8be42aa9d1a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602823974810,
+        "stop" : 1602824016371,
+        "duration" : 41561
+      }
+    }, {
+      "uid" : "3e66ebf38887c469",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602819067132,
+        "stop" : 1602819107621,
+        "duration" : 40489
+      }
+    }, {
+      "uid" : "804def6d9f13cf8d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602817805663,
+        "stop" : 1602817823241,
+        "duration" : 17578
+      }
+    }, {
+      "uid" : "318dcecf0f8d30d1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602817616115,
+        "stop" : 1602817643514,
+        "duration" : 27399
+      }
+    }, {
+      "uid" : "5ebe04dc71bd089f",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602817172712,
+        "stop" : 1602817178782,
+        "duration" : 6070
+      }
+    }, {
+      "uid" : "a3bf9a8ab970892d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602748781765,
+        "stop" : 1602748879829,
+        "duration" : 98064
+      }
+    }, {
+      "uid" : "912a526b3e6cea7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602738573738,
+        "stop" : 1602738672066,
+        "duration" : 98328
+      }
+    }, {
+      "uid" : "dd723392a751225a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'int' object has no attribute 'decode'",
+      "time" : {
+        "start" : 1602738200495,
+        "stop" : 1602738266694,
+        "duration" : 66199
+      }
+    }, {
+      "uid" : "43e46fa344a66138",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602737886343,
+        "stop" : 1602737986664,
+        "duration" : 100321
+      }
+    }, {
+      "uid" : "195794a43c466506",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602737518662,
+        "stop" : 1602737523836,
+        "duration" : 5174
+      }
+    }, {
+      "uid" : "e4002a35ea847e88",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602731603552,
+        "stop" : 1602731608679,
+        "duration" : 5127
+      }
+    }, {
+      "uid" : "7bc95c39cdc4b3f6",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602731282193,
+        "stop" : 1602731287162,
+        "duration" : 4969
+      }
+    }, {
+      "uid" : "1426bf79920613e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602728292879,
+        "stop" : 1602728389799,
+        "duration" : 96920
+      }
+    }, {
+      "uid" : "2cae1e8b880395b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602726213065,
+        "stop" : 1602726315265,
+        "duration" : 102200
+      }
+    }, {
+      "uid" : "616882ca913773b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602724896143,
+        "stop" : 1602724984635,
+        "duration" : 88492
+      }
+    }, {
+      "uid" : "21e4ad2f5b6544ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602723377694,
+        "stop" : 1602723464927,
+        "duration" : 87233
+      }
+    }, {
+      "uid" : "2d4124a49c600453",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602722773053,
+        "stop" : 1602722777487,
+        "duration" : 4434
+      }
+    }, {
+      "uid" : "8cbf190873ec2763",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602721514976,
+        "stop" : 1602721601501,
+        "duration" : 86525
+      }
+    }, {
+      "uid" : "1e3d36a1a8aa7c38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602667830074,
+        "stop" : 1602667915705,
+        "duration" : 85631
+      }
+    }, {
+      "uid" : "879e8f0af7e68f96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602667300009,
+        "stop" : 1602667386515,
+        "duration" : 86506
+      }
+    }, {
+      "uid" : "675b70129f9e8157",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602666534702,
+        "stop" : 1602666620182,
+        "duration" : 85480
+      }
+    }, {
+      "uid" : "6edd449ca4ec244f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602666017462,
+        "stop" : 1602666104223,
+        "duration" : 86761
+      }
+    }, {
+      "uid" : "d7760d1746b6865f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602663601186,
+        "stop" : 1602663605640,
+        "duration" : 4454
+      }
+    }, {
+      "uid" : "6b70519d128cf84f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602663457561,
+        "stop" : 1602663471215,
+        "duration" : 13654
+      }
+    }, {
+      "uid" : "7821723497ecbbf9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602663165681,
+        "stop" : 1602663170293,
+        "duration" : 4612
+      }
+    }, {
+      "uid" : "97a378fe7344cccd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602663002862,
+        "stop" : 1602663076464,
+        "duration" : 73602
+      }
+    }, {
+      "uid" : "6afa3ad6a7c90473",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602661692783,
+        "stop" : 1602661787904,
+        "duration" : 95121
+      }
+    }, {
+      "uid" : "59130c00f9bb2498",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"*对公银行账号\"",
+      "time" : {
+        "start" : 1602661566570,
+        "stop" : 1602661646742,
+        "duration" : 80172
+      }
+    }, {
+      "uid" : "1eb16b69cf43cd17",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实控人身份's parent/\"",
+      "time" : {
+        "start" : 1602661403848,
+        "stop" : 1602661449373,
+        "duration" : 45525
+      }
+    }, {
+      "uid" : "e1eec83533ed6120",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实控人身份's parent/\"",
+      "time" : {
+        "start" : 1602661290968,
+        "stop" : 1602661335502,
+        "duration" : 44534
+      }
+    }, {
+      "uid" : "39935cfb0adc24b9",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602661248366,
+        "stop" : 1602661256601,
+        "duration" : 8235
+      }
+    }, {
+      "uid" : "495314e6cc612d9c",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602661193981,
+        "stop" : 1602661216083,
+        "duration" : 22102
+      }
+    }, {
+      "uid" : "f6e5355bf5d75e29",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=对公开户银行's parent/\"",
+      "time" : {
+        "start" : 1602661071551,
+        "stop" : 1602661071861,
+        "duration" : 310
+      }
+    }, {
+      "uid" : "b028d1632b49aa1c",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=对公开户银行's parent/\"",
+      "time" : {
+        "start" : 1602660943248,
+        "stop" : 1602660958649,
+        "duration" : 15401
+      }
+    }, {
+      "uid" : "3d66c716c7359614",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=对公开户银行's parent/\"",
+      "time" : {
+        "start" : 1602660813465,
+        "stop" : 1602660840766,
+        "duration" : 27301
+      }
+    }, {
+      "uid" : "162c2f39f1f448f6",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实控制人婚姻状况's parent/\"",
+      "time" : {
+        "start" : 1602660776865,
+        "stop" : 1602660777122,
+        "duration" : 257
+      }
+    }, {
+      "uid" : "b01291cf2bbf00bb",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实控制人婚姻状况's parent/\"",
+      "time" : {
+        "start" : 1602660735484,
+        "stop" : 1602660735706,
+        "duration" : 222
+      }
+    }, {
+      "uid" : "37a6514020a009aa",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人婚姻状况's parent/\"",
+      "time" : {
+        "start" : 1602660622676,
+        "stop" : 1602660673944,
+        "duration" : 51268
+      }
+    }, {
+      "uid" : "8282703243366b42",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实控人身份's parent/\"",
+      "time" : {
+        "start" : 1602660566567,
+        "stop" : 1602660593352,
+        "duration" : 26785
+      }
+    }, {
+      "uid" : "aa09f96aeaf7bada",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实控人身份's parent/\"",
+      "time" : {
+        "start" : 1602660542936,
+        "stop" : 1602660544888,
+        "duration" : 1952
+      }
+    }, {
+      "uid" : "cf19d7fc1285f975",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实控制人身份's parent\"",
+      "time" : {
+        "start" : 1602660241883,
+        "stop" : 1602660242100,
+        "duration" : 217
+      }
+    }, {
+      "uid" : "3747a96f8541bcb8",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实控制人身份's parent>\"",
+      "time" : {
+        "start" : 1602660195479,
+        "stop" : 1602660195751,
+        "duration" : 272
+      }
+    }, {
+      "uid" : "7752ab34fb63f0cf",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实控制人身份's parent/\"",
+      "time" : {
+        "start" : 1602660083787,
+        "stop" : 1602660084064,
+        "duration" : 277
+      }
+    }, {
+      "uid" : "4e1c462f8cc07c5c",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人身份's parent/\"",
+      "time" : {
+        "start" : 1602660019171,
+        "stop" : 1602660019792,
+        "duration" : 621
+      }
+    }, {
+      "uid" : "7920d07113fbc3bb",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人身份's parent/>\"",
+      "time" : {
+        "start" : 1602659964086,
+        "stop" : 1602659972221,
+        "duration" : 8135
+      }
+    }, {
+      "uid" : "761def0dcc35d1ec",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人身份's parent/\"",
+      "time" : {
+        "start" : 1602659909469,
+        "stop" : 1602659909725,
+        "duration" : 256
+      }
+    }, {
+      "uid" : "2fc556d32b1bf051",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人身份's parent/>\"",
+      "time" : {
+        "start" : 1602659821950,
+        "stop" : 1602659822145,
+        "duration" : 195
+      }
+    }, {
+      "uid" : "b72d4a6a02f8de46",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人身份's parent/\"",
+      "time" : {
+        "start" : 1602659743167,
+        "stop" : 1602659743415,
+        "duration" : 248
+      }
+    }, {
+      "uid" : "53fc8a684113c07e",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人身份's parent>\"",
+      "time" : {
+        "start" : 1602659691050,
+        "stop" : 1602659691309,
+        "duration" : 259
+      }
+    }, {
+      "uid" : "7e91c675d3730500",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人身份's parent/\"",
+      "time" : {
+        "start" : 1602659652961,
+        "stop" : 1602659653501,
+        "duration" : 540
+      }
+    }, {
+      "uid" : "7d94ccba39834fc0",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人身份's parent/\"",
+      "time" : {
+        "start" : 1602659617763,
+        "stop" : 1602659618015,
+        "duration" : 252
+      }
+    }, {
+      "uid" : "f3564aeca47d729a",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人身份's parent/\"",
+      "time" : {
+        "start" : 1602659419001,
+        "stop" : 1602659419254,
+        "duration" : 253
+      }
+    }, {
+      "uid" : "a55de0c61db1df29",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人身份's parent/\"",
+      "time" : {
+        "start" : 1602659262671,
+        "stop" : 1602659340423,
+        "duration" : 77752
+      }
+    }, {
+      "uid" : "8116078c36410f23",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602659191991,
+        "stop" : 1602659214661,
+        "duration" : 22670
+      }
+    }, {
+      "uid" : "671d514387d7f38d",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602659137073,
+        "stop" : 1602659158689,
+        "duration" : 21616
+      }
+    }, {
+      "uid" : "8a434b406cdfb12a",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=我是\"",
+      "time" : {
+        "start" : 1602658398477,
+        "stop" : 1602658401013,
+        "duration" : 2536
+      }
+    }, {
+      "uid" : "e171f3f39f18e4b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602657689079,
+        "stop" : 1602657700668,
+        "duration" : 11589
+      }
+    }, {
+      "uid" : "4323e8f66ec35af0",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=邮件编码\"",
+      "time" : {
+        "start" : 1602657517669,
+        "stop" : 1602657527727,
+        "duration" : 10058
+      }
+    }, {
+      "uid" : "fe818a44ecc6dc85",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"Scroll View\"",
+      "time" : {
+        "start" : 1602657438119,
+        "stop" : 1602657448308,
+        "duration" : 10189
+      }
+    }, {
+      "uid" : "2879b38fa247f1ee",
+      "status" : "broken",
+      "statusDetails" : "TypeError: swipe() missing 1 required positional argument: 'p1'",
+      "time" : {
+        "start" : 1602657332751,
+        "stop" : 1602657332751,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a905c14c3119548d",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602656378110,
+        "stop" : 1602656398789,
+        "duration" : 20679
+      }
+    }, {
+      "uid" : "dceefc962032ec3d",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602656310703,
+        "stop" : 1602656331047,
+        "duration" : 20344
+      }
+    }, {
+      "uid" : "32e82f6b384faf97",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1602654742096,
+        "stop" : 1602654742510,
+        "duration" : 414
+      }
+    }, {
+      "uid" : "23c7c8bb61574f74",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1602654716415,
+        "stop" : 1602654716858,
+        "duration" : 443
+      }
+    }, {
+      "uid" : "b821d8523299e0c6",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1602654601576,
+        "stop" : 1602654602004,
+        "duration" : 428
+      }
+    }, {
+      "uid" : "f4c231968b09488f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602654544150,
+        "stop" : 1602654544599,
+        "duration" : 449
+      }
+    }, {
+      "uid" : "9f41aaa363695a71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602654112314,
+        "stop" : 1602654143304,
+        "duration" : 30990
+      }
+    }, {
+      "uid" : "f25563ba5a32720e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602654040397,
+        "stop" : 1602654072176,
+        "duration" : 31779
+      }
+    }, {
+      "uid" : "d2fc722f956776dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602653885559,
+        "stop" : 1602653916228,
+        "duration" : 30669
+      }
+    }, {
+      "uid" : "a950c85be46950b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602653443095,
+        "stop" : 1602653477692,
+        "duration" : 34597
+      }
+    }, {
+      "uid" : "2aff8763589b4684",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602652934323,
+        "stop" : 1602652953905,
+        "duration" : 19582
+      }
+    }, {
+      "uid" : "f7c7eb5a5a55c7ca",
+      "status" : "broken",
+      "statusDetails" : "ValueError: Name selector should only be string types. Got UIObjectProxy of \"text=*邮政编码's parent/[1]\"",
+      "time" : {
+        "start" : 1602651801569,
+        "stop" : 1602651819730,
+        "duration" : 18161
+      }
+    }, {
+      "uid" : "d96f7c901159059d",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602651688638,
+        "stop" : 1602651707132,
+        "duration" : 18494
+      }
+    }, {
+      "uid" : "70fd31312d8689d",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'UIObjectProxy' object has no attribute 'text'",
+      "time" : {
+        "start" : 1602651305598,
+        "stop" : 1602651323765,
+        "duration" : 18167
+      }
+    }, {
+      "uid" : "99d8d667837acff2",
+      "status" : "broken",
+      "statusDetails" : "hrpc.exceptions.RpcRemoteException: com.netease.open.libpoco.sdk.exceptions.UnableToSetAttributeException: Unable to set attribute \"text\" of node \"android.view.accessibility.AccessibilityNodeInfo@6168d; boundsInParent: Rect(141, 12 - 342, 35); boundsInScreen: Rect(282, 385 - 684, 431); packageName: com.tencent.mm; className: android.view.View; text: ; error: ; maxTextLength: -1; contentDescription: null; viewIdResName: _n_570; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_NEXT_HTML_ELEMENT - null, AccessibilityAction: ACTION_PREVIOUS_HTML_ELEMENT - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null, AccessibilityAction: ACTION_CONTEXT_CLICK - null]\", because of \"this node is not editable\"\n\n|--   Remote Traceback   --|\n\ncom.netease.open.libpoco.sdk.exceptions.UnableToSetAttributeException: Unable to set attribute \"text\" of node \"android.view.accessibility.AccessibilityNodeInfo@6168d; boundsInParent: Rect(141, 12 - 342, 35); boundsInScreen: Rect(282, 385 - 684, 431); packageName: com.tencent.mm; className: android.view.View; text: ; error: ; maxTextLength: -1; contentDescription: null; viewIdResName: _n_570; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_NEXT_HTML_ELEMENT - null, AccessibilityAction: ACTION_PREVIOUS_HTML_ELEMENT - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null, AccessibilityAction: ACTION_CONTEXT_CLICK - null]\", because of \"this node is not editable\"\n\tat com.netease.open.libpoco.Node.setAttr(Node.java:67)\n\tat com.netease.open.libpoco.sdk.Attributor.setAttr(Attributor.java:32)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.netease.open.hrpc.backend.RpcServer.onRequest(RpcServer.java:171)\n\tat com.netease.open.hrpc.backend.RpcServer.serve(RpcServer.java:57)\n\tat fi.iki.elonen.NanoHTTPD$HTTPSession.execute(NanoHTTPD.java:840)\n\tat fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:189)\n\tat java.lang.Thread.run(Thread.java:760)\n\n\n|--   Remote Traceback end   --|",
+      "time" : {
+        "start" : 1602645203942,
+        "stop" : 1602645229491,
+        "duration" : 25549
+      }
+    }, {
+      "uid" : "31e463cfdf266496",
+      "status" : "broken",
+      "statusDetails" : "hrpc.exceptions.RpcRemoteException: com.netease.open.libpoco.sdk.exceptions.UnableToSetAttributeException: Unable to set attribute \"text\" of node \"android.view.accessibility.AccessibilityNodeInfo@b3765; boundsInParent: Rect(141, 12 - 342, 36); boundsInScreen: Rect(282, 902 - 684, 950); packageName: com.tencent.mm; className: android.view.View; text: ; error: ; maxTextLength: -1; contentDescription: null; viewIdResName: _n_1381; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_NEXT_HTML_ELEMENT - null, AccessibilityAction: ACTION_PREVIOUS_HTML_ELEMENT - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null, AccessibilityAction: ACTION_CONTEXT_CLICK - null]\", because of \"this node is not editable\"\n\n|--   Remote Traceback   --|\n\ncom.netease.open.libpoco.sdk.exceptions.UnableToSetAttributeException: Unable to set attribute \"text\" of node \"android.view.accessibility.AccessibilityNodeInfo@b3765; boundsInParent: Rect(141, 12 - 342, 36); boundsInScreen: Rect(282, 902 - 684, 950); packageName: com.tencent.mm; className: android.view.View; text: ; error: ; maxTextLength: -1; contentDescription: null; viewIdResName: _n_1381; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_NEXT_HTML_ELEMENT - null, AccessibilityAction: ACTION_PREVIOUS_HTML_ELEMENT - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null, AccessibilityAction: ACTION_CONTEXT_CLICK - null]\", because of \"this node is not editable\"\n\tat com.netease.open.libpoco.Node.setAttr(Node.java:67)\n\tat com.netease.open.libpoco.sdk.Attributor.setAttr(Attributor.java:32)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.netease.open.hrpc.backend.RpcServer.onRequest(RpcServer.java:171)\n\tat com.netease.open.hrpc.backend.RpcServer.serve(RpcServer.java:57)\n\tat fi.iki.elonen.NanoHTTPD$HTTPSession.execute(NanoHTTPD.java:840)\n\tat fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:189)\n\tat java.lang.Thread.run(Thread.java:760)\n\n\n|--   Remote Traceback end   --|",
+      "time" : {
+        "start" : 1602644296381,
+        "stop" : 1602644296842,
+        "duration" : 461
+      }
+    }, {
+      "uid" : "39f82efce6ce566d",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602644095334,
+        "stop" : 1602644097103,
+        "duration" : 1769
+      }
+    }, {
+      "uid" : "5ab7fd4def5a6dd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602643984529,
+        "stop" : 1602643995302,
+        "duration" : 10773
+      }
+    }, {
+      "uid" : "80a5310afa364b4a",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602643760612,
+        "stop" : 1602643760723,
+        "duration" : 111
+      }
+    }, {
+      "uid" : "b2dca4e81afb0a9b",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602643151640,
+        "stop" : 1602643151712,
+        "duration" : 72
+      }
+    }, {
+      "uid" : "5e6b7d10d04c81ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602642810818,
+        "stop" : 1602642852043,
+        "duration" : 41225
+      }
+    }, {
+      "uid" : "297035a287d823ff",
+      "status" : "broken",
+      "statusDetails" : "hrpc.exceptions.RpcRemoteException: com.netease.open.libpoco.sdk.exceptions.UnableToSetAttributeException: Unable to set attribute \"text\" of node \"android.view.accessibility.AccessibilityNodeInfo@4ba16; boundsInParent: Rect(141, 12 - 342, 36); boundsInScreen: Rect(282, 902 - 684, 950); packageName: com.tencent.mm; className: android.view.View; text: ; error: ; maxTextLength: -1; contentDescription: null; viewIdResName: _n_541; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_NEXT_HTML_ELEMENT - null, AccessibilityAction: ACTION_PREVIOUS_HTML_ELEMENT - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null, AccessibilityAction: ACTION_CONTEXT_CLICK - null]\", because of \"this node is not editable\"\n\n|--   Remote Traceback   --|\n\ncom.netease.open.libpoco.sdk.exceptions.UnableToSetAttributeException: Unable to set attribute \"text\" of node \"android.view.accessibility.AccessibilityNodeInfo@4ba16; boundsInParent: Rect(141, 12 - 342, 36); boundsInScreen: Rect(282, 902 - 684, 950); packageName: com.tencent.mm; className: android.view.View; text: ; error: ; maxTextLength: -1; contentDescription: null; viewIdResName: _n_541; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_NEXT_HTML_ELEMENT - null, AccessibilityAction: ACTION_PREVIOUS_HTML_ELEMENT - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null, AccessibilityAction: ACTION_CONTEXT_CLICK - null]\", because of \"this node is not editable\"\n\tat com.netease.open.libpoco.Node.setAttr(Node.java:67)\n\tat com.netease.open.libpoco.sdk.Attributor.setAttr(Attributor.java:32)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.netease.open.hrpc.backend.RpcServer.onRequest(RpcServer.java:171)\n\tat com.netease.open.hrpc.backend.RpcServer.serve(RpcServer.java:57)\n\tat fi.iki.elonen.NanoHTTPD$HTTPSession.execute(NanoHTTPD.java:840)\n\tat fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:189)\n\tat java.lang.Thread.run(Thread.java:760)\n\n\n|--   Remote Traceback end   --|",
+      "time" : {
+        "start" : 1602642533380,
+        "stop" : 1602642537863,
+        "duration" : 4483
+      }
+    }, {
+      "uid" : "806cdd16733d7d7c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'UIObjectProxy' object has no attribute 'text'",
+      "time" : {
+        "start" : 1602642452107,
+        "stop" : 1602642459131,
+        "duration" : 7024
+      }
+    }, {
+      "uid" : "1395fe47c83074fe",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'UIObjectProxy' object has no attribute 'text'",
+      "time" : {
+        "start" : 1602642384674,
+        "stop" : 1602642414882,
+        "duration" : 30208
+      }
+    }, {
+      "uid" : "55bab56c56243b4a",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602642351510,
+        "stop" : 1602642358091,
+        "duration" : 6581
+      }
+    }, {
+      "uid" : "29c1e5cb0851faf2",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602642312999,
+        "stop" : 1602642320056,
+        "duration" : 7057
+      }
+    }, {
+      "uid" : "3d17a18de7a4c3df",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602642276155,
+        "stop" : 1602642283113,
+        "duration" : 6958
+      }
+    }, {
+      "uid" : "6c2e10b85111c6e1",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602642177659,
+        "stop" : 1602642197364,
+        "duration" : 19705
+      }
+    }, {
+      "uid" : "bf236b329014beae",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"android.widget.LinearLayout>com.tencent.mm:id/dm6/com.tencent.mm:id/f4b\"",
+      "time" : {
+        "start" : 1602641921255,
+        "stop" : 1602641936229,
+        "duration" : 14974
+      }
+    }, {
+      "uid" : "40c393c1267ea230",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'UIObjectProxy' object has no attribute 'text'",
+      "time" : {
+        "start" : 1602641553432,
+        "stop" : 1602641560995,
+        "duration" : 7563
+      }
+    }, {
+      "uid" : "1540318885e5a554",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'UIObjectProxy' object has no attribute 'text'",
+      "time" : {
+        "start" : 1602641447931,
+        "stop" : 1602641453003,
+        "duration" : 5072
+      }
+    }, {
+      "uid" : "b3a8707c6899f877",
+      "status" : "broken",
+      "statusDetails" : "hrpc.exceptions.RpcRemoteException: com.netease.open.libpoco.sdk.exceptions.UnableToSetAttributeException: Unable to set attribute \"text\" of node \"android.view.accessibility.AccessibilityNodeInfo@c4d39; boundsInParent: Rect(141, 12 - 342, 35); boundsInScreen: Rect(282, 594 - 684, 640); packageName: com.tencent.mm; className: android.view.View; text: ; error: ; maxTextLength: -1; contentDescription: null; viewIdResName: _n_676; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_NEXT_HTML_ELEMENT - null, AccessibilityAction: ACTION_PREVIOUS_HTML_ELEMENT - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null, AccessibilityAction: ACTION_CONTEXT_CLICK - null]\", because of \"this node is not editable\"\n\n|--   Remote Traceback   --|\n\ncom.netease.open.libpoco.sdk.exceptions.UnableToSetAttributeException: Unable to set attribute \"text\" of node \"android.view.accessibility.AccessibilityNodeInfo@c4d39; boundsInParent: Rect(141, 12 - 342, 35); boundsInScreen: Rect(282, 594 - 684, 640); packageName: com.tencent.mm; className: android.view.View; text: ; error: ; maxTextLength: -1; contentDescription: null; viewIdResName: _n_676; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_NEXT_HTML_ELEMENT - null, AccessibilityAction: ACTION_PREVIOUS_HTML_ELEMENT - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null, AccessibilityAction: ACTION_CONTEXT_CLICK - null]\", because of \"this node is not editable\"\n\tat com.netease.open.libpoco.Node.setAttr(Node.java:67)\n\tat com.netease.open.libpoco.sdk.Attributor.setAttr(Attributor.java:32)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.netease.open.hrpc.backend.RpcServer.onRequest(RpcServer.java:171)\n\tat com.netease.open.hrpc.backend.RpcServer.serve(RpcServer.java:57)\n\tat fi.iki.elonen.NanoHTTPD$HTTPSession.execute(NanoHTTPD.java:840)\n\tat fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:189)\n\tat java.lang.Thread.run(Thread.java:760)\n\n\n|--   Remote Traceback end   --|",
+      "time" : {
+        "start" : 1602641306528,
+        "stop" : 1602641317692,
+        "duration" : 11164
+      }
+    }, {
+      "uid" : "b0d55e9b370ce8c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602641177592,
+        "stop" : 1602641198782,
+        "duration" : 21190
+      }
+    }, {
+      "uid" : "dd042226acdab068",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602640887230,
+        "stop" : 1602640892553,
+        "duration" : 5323
+      }
+    }, {
+      "uid" : "50f299e21f7aae74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602640855128,
+        "stop" : 1602640855521,
+        "duration" : 393
+      }
+    }, {
+      "uid" : "686f429e81062c88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602640375450,
+        "stop" : 1602640396871,
+        "duration" : 21421
+      }
+    }, {
+      "uid" : "faf77f2322260d4",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602640267450,
+        "stop" : 1602640274258,
+        "duration" : 6808
+      }
+    }, {
+      "uid" : "559ea2adb364b5de",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/[2]/\"",
+      "time" : {
+        "start" : 1602640049931,
+        "stop" : 1602640050228,
+        "duration" : 297
+      }
+    }, {
+      "uid" : "37c8e72d175d74ab",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'int' object is not iterable",
+      "time" : {
+        "start" : 1602639714499,
+        "stop" : 1602639714634,
+        "duration" : 135
+      }
+    }, {
+      "uid" : "74b2dff12d612d3f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'int' object is not iterable",
+      "time" : {
+        "start" : 1602639655870,
+        "stop" : 1602639656041,
+        "duration" : 171
+      }
+    }, {
+      "uid" : "2a0607c87f93516e",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"type=android.widget.Image/\"",
+      "time" : {
+        "start" : 1602637878529,
+        "stop" : 1602637878651,
+        "duration" : 122
+      }
+    }, {
+      "uid" : "cb81a1f6ef9cfd70",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"type=android.widget.Image/\"",
+      "time" : {
+        "start" : 1602637855064,
+        "stop" : 1602637855267,
+        "duration" : 203
+      }
+    }, {
+      "uid" : "689e2490c66e5c59",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"type=android.widget.Image/\"",
+      "time" : {
+        "start" : 1602637785235,
+        "stop" : 1602637806167,
+        "duration" : 20932
+      }
+    }, {
+      "uid" : "f82a8b7efc6265e1",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"android.widget.FrameLayout/android.widget.FrameLayout>android:id/content/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.FrameLayout[1]>android.view.ViewGroup/android.widget.FrameLayout>_n_5651\"",
+      "time" : {
+        "start" : 1602579836536,
+        "stop" : 1602579876212,
+        "duration" : 39676
+      }
+    }, {
+      "uid" : "cb37dd428010ddc4",
+      "status" : "broken",
+      "statusDetails" : "TypeError: parent() got an unexpected keyword argument 'type'",
+      "time" : {
+        "start" : 1602579147311,
+        "stop" : 1602579156817,
+        "duration" : 9506
+      }
+    }, {
+      "uid" : "ff984ab0d8706dff",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602578883748,
+        "stop" : 1602578898527,
+        "duration" : 14779
+      }
+    }, {
+      "uid" : "b9a083e6de0c9b6d",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=上传营业执照's parent\"",
+      "time" : {
+        "start" : 1602577524662,
+        "stop" : 1602577542839,
+        "duration" : 18177
+      }
+    }, {
+      "uid" : "bb3ba3c97c067e53",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1602577141302,
+        "stop" : 1602577166233,
+        "duration" : 24931
+      }
+    }, {
+      "uid" : "c03cc328e6041a25",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'is_displayed'",
+      "time" : {
+        "start" : 1602465532421,
+        "stop" : 1602465544168,
+        "duration" : 11747
+      }
+    }, {
+      "uid" : "6a5259173eb44774",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602223135654,
+        "stop" : 1602223192572,
+        "duration" : 56918
+      }
+    }, {
+      "uid" : "8c87524c37df75f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602222719160,
+        "stop" : 1602222767876,
+        "duration" : 48716
+      }
+    }, {
+      "uid" : "e222568e54665158",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602222316210,
+        "stop" : 1602222365502,
+        "duration" : 49292
+      }
+    }, {
+      "uid" : "23a7a707a09a2dd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602222155586,
+        "stop" : 1602222207154,
+        "duration" : 51568
+      }
+    }, {
+      "uid" : "e9f4f8d23652c076",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602221532504,
+        "stop" : 1602221586130,
+        "duration" : 53626
+      }
+    }, {
+      "uid" : "c2a96aa938b9ab48",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (929, 915). Other element would receive the click: <div class=\"formItemContent___4NmH6\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602220877479,
+        "stop" : 1602220892639,
+        "duration" : 15160
+      }
+    }, {
+      "uid" : "5b4130dc6a243732",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602220683921,
+        "stop" : 1602220732461,
+        "duration" : 48540
+      }
+    }, {
+      "uid" : "83dff7450f13fc02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602220218453,
+        "stop" : 1602220267454,
+        "duration" : 49001
+      }
+    }, {
+      "uid" : "d2a36784e1a817e4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602219767066,
+        "stop" : 1602219812855,
+        "duration" : 45789
+      }
+    }, {
+      "uid" : "acc9aceab0d876ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602215492437,
+        "stop" : 1602215561288,
+        "duration" : 68851
+      }
+    }, {
+      "uid" : "755940fae4c7b771",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602215104175,
+        "stop" : 1602215152187,
+        "duration" : 48012
+      }
+    }, {
+      "uid" : "75e833a4f002c686",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602213082779,
+        "stop" : 1602213131831,
+        "duration" : 49052
+      }
+    }, {
+      "uid" : "4b31f036fbfd9e6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602212580462,
+        "stop" : 1602212629236,
+        "duration" : 48774
+      }
+    }, {
+      "uid" : "4370cafebf41b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602211056473,
+        "stop" : 1602211106936,
+        "duration" : 50463
+      }
+    }, {
+      "uid" : "886d8a5f65107fa6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602210700479,
+        "stop" : 1602210756655,
+        "duration" : 56176
+      }
+    }, {
+      "uid" : "801c207ebd5cf338",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602210430277,
+        "stop" : 1602210480516,
+        "duration" : 50239
+      }
+    }, {
+      "uid" : "e23a9393eca72499",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1602210318411,
+        "stop" : 1602210333516,
+        "duration" : 15105
+      }
+    }, {
+      "uid" : "8de34384f3bea41c",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1602210235375,
+        "stop" : 1602210250649,
+        "duration" : 15274
+      }
+    }, {
+      "uid" : "2fb2bddbc999c0d9",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1602210147411,
+        "stop" : 1602210163122,
+        "duration" : 15711
+      }
+    }, {
+      "uid" : "366afd8c02f8d47e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601191602089,
+        "stop" : 1601191657535,
+        "duration" : 55446
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "244e22325b8e8c7f.json",
+  "parameterValues" : [ ]
+}

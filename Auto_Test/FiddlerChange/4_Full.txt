@@ -1,0 +1,69 @@
+GET http://10.10.128.152:10894/v1/enterprise/admin/getEnterpriseInfo HTTP/1.1
+Host: 10.10.128.152:10894
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+Origin: http://10.10.128.152:10052
+Sso-Token: c44b904e-ca11-4ae9-b7c1-05da416743ee
+appId: chengtay-zcd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36
+Referer: http://10.10.128.152:10052/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+HTTP/1.1 200
+Access-Control-Allow-Origin: http://10.10.128.152:10052
+Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE
+Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,Accept,Sso-Token,bird-idempotency,appId,tenantId,JSESSIONID
+Access-Control-Max-Age: 3600
+Content-Type: application/json
+Content-Length: 1061
+Date: Fri, 06 Nov 2020 07:59:58 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+	"code":"00000",
+	"data":{
+		"address":"陆家嘴金砖大厦",
+		"bankName":"",
+		"bankNo":"",
+		"basicAccountPermit":"",
+		"businessCertificate":"",
+		"cardFront":"",
+		"cardReverse":"",
+		"country":"",
+		"endDate":"",
+		"fillerCardFront":"",
+		"fillerCardReverse":"",
+		"fillerCoupleCardFront":"",
+		"fillerCoupleCardReverse":"",
+		"fillerCoupleEndDate":"",
+		"fillerEndDate":"",
+		"fillerHouseholdRegister":"",
+		"fillerIdCardNo":"",
+		"fillerMarriageCertificate":"",
+		"fillerMarried":"",
+		"fillerName":"",
+		"fillerType":"",
+		"idCardNo":"110101199003077774",
+		"idCards":{},
+		"idNum":"",
+		"identity":"",
+		"industry":"",
+		"legalCardFront":"",
+		"legalCardReverse":"",
+		"legalEndDate":"",
+		"legalName":"黄晓明",
+		"name":"AutoTest_Bank1020",
+		"personName":"",
+		"postCode":"220000",
+		"powerAttorney":"http://10.10.128.152:10000/public/images/20201104/20201104152829_57.jpg",
+		"shortBankName":"",
+		"socialUniformCode":"515328000000000510",
+		"specialIndustryLicense":""
+	},
+	"message":"success",
+	"timestamp":"1604649599010",
+	"traceId":""
+}

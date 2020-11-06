@@ -28,7 +28,7 @@ class MyTaskCase(SequentialTaskSet):
 
         }
         json = {
-            "userName": "17082300006",
+            "userName": "17082200006",
             "password": "MTIzNDU2"
         }
         with self.client.post(url,

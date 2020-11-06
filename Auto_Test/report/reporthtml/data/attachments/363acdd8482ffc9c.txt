@@ -1,0 +1,43 @@
+Tue, 27 Oct 2020 09:07:10-run_all_case.py-test_Tripartite_interaction.py-[line:143]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 27 Oct 2020 09:07:59-run_all_case.py-test_Tripartite_interaction.py-[line:162]-INFO-[日志信息]: 授信采购信息画面
+[09:08:07][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '123456789012'
+[09:08:09][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER
+Tue, 27 Oct 2020 09:08:21-run_all_case.py-test_Tripartite_interaction.py-[line:170]-INFO-[日志信息]: 授信基本资料页面
+Tue, 27 Oct 2020 09:08:24-run_all_case.py-test_Tripartite_interaction.py-[line:173]-INFO-[日志信息]: 授信页面
+Tue, 27 Oct 2020 09:08:36-run_all_case.py-test_Tripartite_interaction.py-[line:192]-INFO-[日志信息]: 授信完成页面
+Tue, 27 Oct 2020 09:08:46-run_all_case.py-test_Tripartite_interaction.py-[line:198]-INFO-[日志信息]: 银行授信审核
+Tue, 27 Oct 2020 09:08:47-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Tue, 27 Oct 2020 09:08:47-run_all_case.py-test_Tripartite_interaction.py-[line:410]-INFO-[日志信息]: 银行授信审核首页
+Tue, 27 Oct 2020 09:08:49-run_all_case.py-test_Tripartite_interaction.py-[line:415]-INFO-[日志信息]: 银行待审批授信页面
+Tue, 27 Oct 2020 09:08:50-run_all_case.py-test_Tripartite_interaction.py-[line:419]-INFO-[日志信息]: 审批授信评分卡页面
+Tue, 27 Oct 2020 09:08:53-run_all_case.py-test_Tripartite_interaction.py-[line:425]-INFO-[日志信息]: 审批授信审核页面
+Tue, 27 Oct 2020 09:09:04-run_all_case.py-test_Tripartite_interaction.py-[line:206]-INFO-[日志信息]: 担保公司审核
+Tue, 27 Oct 2020 09:09:04-run_all_case.py-test_backStage_examine.py-[line:77]-INFO-[日志信息]: 成功登录后台系统
+Tue, 27 Oct 2020 09:09:04-run_all_case.py-test_Tripartite_interaction.py-[line:445]-INFO-[日志信息]: 担保公司授信审核首页
+Tue, 27 Oct 2020 09:09:06-run_all_case.py-test_Tripartite_interaction.py-[line:450]-INFO-[日志信息]: 银行待审批授信页面
+Tue, 27 Oct 2020 09:09:07-run_all_case.py-test_Tripartite_interaction.py-[line:454]-INFO-[日志信息]: 审批授信评分卡页面
+Tue, 27 Oct 2020 09:09:08-run_all_case.py-test_Tripartite_interaction.py-[line:458]-INFO-[日志信息]: 审批授信审核页面
+Tue, 27 Oct 2020 09:09:52-run_all_case.py-test_Tripartite_interaction.py-[line:217]-INFO-[日志信息]: 添加银行卡账户画面
+[09:09:55][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '1234567890123'
+[09:09:56][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER
+[09:10:05][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '985241'
+[09:10:06][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER
+Tue, 27 Oct 2020 09:10:13-run_all_case.py-test_Tripartite_interaction.py-[line:235]-INFO-[日志信息]: 借款申请页面
+[09:10:20][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '100000'
+[09:10:22][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER
+[09:10:27][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '8'
+[09:10:29][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER
+[09:10:35][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '借钱还账'
+[09:10:36][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER
+Tue, 27 Oct 2020 09:10:51-run_all_case.py-test_Tripartite_interaction.py-[line:538]-INFO-[日志信息]: 银行借款审核首页
+Tue, 27 Oct 2020 09:10:53-run_all_case.py-test_Tripartite_interaction.py-[line:544]-INFO-[日志信息]: 银行借款审核列表首页
+Tue, 27 Oct 2020 09:10:54-run_all_case.py-test_Tripartite_interaction.py-[line:548]-INFO-[日志信息]: 银行审核页面
+Tue, 27 Oct 2020 09:10:57-run_all_case.py-test_Tripartite_interaction.py-[line:559]-INFO-[日志信息]: 担保公司借款审核首页
+Tue, 27 Oct 2020 09:10:59-run_all_case.py-test_Tripartite_interaction.py-[line:565]-INFO-[日志信息]: 担保公司借款审核列表首页
+Tue, 27 Oct 2020 09:11:00-run_all_case.py-test_Tripartite_interaction.py-[line:569]-INFO-[日志信息]: 担保公司审核页面
+Tue, 27 Oct 2020 09:11:49-run_all_case.py-test_Tripartite_interaction.py-[line:64]-INFO-[日志信息]: 银行放款审核首页
+Tue, 27 Oct 2020 09:11:51-run_all_case.py-test_Tripartite_interaction.py-[line:70]-INFO-[日志信息]: 银行放款审核列表
+Tue, 27 Oct 2020 09:11:51-run_all_case.py-test_Tripartite_interaction.py-[line:74]-INFO-[日志信息]: 银行放款审核页面
+[09:12:15][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '123456789012'
+[09:12:16][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER

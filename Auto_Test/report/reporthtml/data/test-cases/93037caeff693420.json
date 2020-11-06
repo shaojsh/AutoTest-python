@@ -1,0 +1,957 @@
+{
+  "uid" : "93037caeff693420",
+  "name" : "test_backStage_authentication",
+  "fullName" : "test_flow.test_Authentication.test_backStage_authentication#test_backStage_authentication",
+  "historyId" : "a55d1468f36f1b2cdddeddca0f290d7d",
+  "time" : {
+    "start" : 1604459620713,
+    "stop" : 1604459728069,
+    "duration" : 107356
+  },
+  "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台账户认证",
+  "descriptionHtml" : "<p>http://10.10.128.152:10052/#/authority/mechanism 后台账户认证</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台账户认证",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ecb1329cbeda0e20",
+      "name" : "log",
+      "source" : "ecb1329cbeda0e20.txt",
+      "type" : "text/plain",
+      "size" : 1575
+    }, {
+      "uid" : "45953eda47272773",
+      "name" : "stdout",
+      "source" : "45953eda47272773.txt",
+      "type" : "text/plain",
+      "size" : 850
+    }, {
+      "uid" : "6930aff8958c752a",
+      "name" : "stderr",
+      "source" : "6930aff8958c752a.txt",
+      "type" : "text/plain",
+      "size" : 2431
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=6)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_backStage_authentication"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "9496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_backStage_authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "后台账户认证 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/authority/mechanism",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "9f340e7de4a844f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604450908597,
+        "stop" : 1604451005093,
+        "duration" : 96496
+      }
+    }, {
+      "uid" : "bc308da98512d91d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604400822303,
+        "stop" : 1604400925196,
+        "duration" : 102893
+      }
+    }, {
+      "uid" : "9431c33080bbc2dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604394243805,
+        "stop" : 1604394351716,
+        "duration" : 107911
+      }
+    }, {
+      "uid" : "91bf8ddf33e3d71f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604371383855,
+        "stop" : 1604371486177,
+        "duration" : 102322
+      }
+    }, {
+      "uid" : "12ee5fe8f7dcd12b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604366953827,
+        "stop" : 1604367060664,
+        "duration" : 106837
+      }
+    }, {
+      "uid" : "d028b9f9b1ea7a1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604318930750,
+        "stop" : 1604319027140,
+        "duration" : 96390
+      }
+    }, {
+      "uid" : "3cdf191b5bb9fb7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604311826111,
+        "stop" : 1604311923278,
+        "duration" : 97167
+      }
+    }, {
+      "uid" : "63659e4ead03d166",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604279604889,
+        "stop" : 1604279699796,
+        "duration" : 94907
+      }
+    }, {
+      "uid" : "af630cf495e23723",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603938043628,
+        "stop" : 1603938143735,
+        "duration" : 100107
+      }
+    }, {
+      "uid" : "69e0cc4c0434f282",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603860522854,
+        "stop" : 1603860624955,
+        "duration" : 102101
+      }
+    }, {
+      "uid" : "33d89e3ce58fb4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603851655662,
+        "stop" : 1603851751333,
+        "duration" : 95671
+      }
+    }, {
+      "uid" : "cdaec261a2cd320c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603851040169,
+        "stop" : 1603851144268,
+        "duration" : 104099
+      }
+    }, {
+      "uid" : "79ea214e1789b321",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603850239158,
+        "stop" : 1603850340623,
+        "duration" : 101465
+      }
+    }, {
+      "uid" : "356f795f267d3e42",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"button\" class=\"ant-btn ant-btn-danger\">...</button> is not clickable at point (1083, 387). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603849328936,
+        "stop" : 1603849421801,
+        "duration" : 92865
+      }
+    }, {
+      "uid" : "dce3dba342ccfcf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603848042551,
+        "stop" : 1603848143684,
+        "duration" : 101133
+      }
+    }, {
+      "uid" : "2d112b0469ae45c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603847346517,
+        "stop" : 1603847447897,
+        "duration" : 101380
+      }
+    }, {
+      "uid" : "9846473b93525a8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603846653140,
+        "stop" : 1603846749243,
+        "duration" : 96103
+      }
+    }, {
+      "uid" : "4a03618dcca16bc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603846048244,
+        "stop" : 1603846145261,
+        "duration" : 97017
+      }
+    }, {
+      "uid" : "247cb50ded503ec4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603845509075,
+        "stop" : 1603845604858,
+        "duration" : 95783
+      }
+    }, {
+      "uid" : "4477849bc231f6de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603791801151,
+        "stop" : 1603791898207,
+        "duration" : 97056
+      }
+    }, {
+      "uid" : "544c532939e204d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603791193631,
+        "stop" : 1603791291027,
+        "duration" : 97396
+      }
+    }, {
+      "uid" : "4352e761b693be1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603790627736,
+        "stop" : 1603790722827,
+        "duration" : 95091
+      }
+    }, {
+      "uid" : "c410a0e1cd5ea02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603789476492,
+        "stop" : 1603789593037,
+        "duration" : 116545
+      }
+    }, {
+      "uid" : "c98f59a5459e082d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603789119775,
+        "stop" : 1603789166375,
+        "duration" : 46600
+      }
+    }, {
+      "uid" : "e0118cada2b4997e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603788276138,
+        "stop" : 1603788373182,
+        "duration" : 97044
+      }
+    }, {
+      "uid" : "a1d1624a306ccf81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603787391243,
+        "stop" : 1603787505306,
+        "duration" : 114063
+      }
+    }, {
+      "uid" : "2937ba75926934e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603786756673,
+        "stop" : 1603786858967,
+        "duration" : 102294
+      }
+    }, {
+      "uid" : "ba70d465b13deb09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603785555779,
+        "stop" : 1603785657281,
+        "duration" : 101502
+      }
+    }, {
+      "uid" : "17d502825844e033",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603785094324,
+        "stop" : 1603785189927,
+        "duration" : 95603
+      }
+    }, {
+      "uid" : "4b58ad3123c7dd6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603784251212,
+        "stop" : 1603784347204,
+        "duration" : 95992
+      }
+    }, {
+      "uid" : "9e214c2cfa965a13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603783682048,
+        "stop" : 1603783777845,
+        "duration" : 95797
+      }
+    }, {
+      "uid" : "1d10b0e3f9ff522e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603783196250,
+        "stop" : 1603783293180,
+        "duration" : 96930
+      }
+    }, {
+      "uid" : "31e4189819ebd21a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603782690990,
+        "stop" : 1603782787313,
+        "duration" : 96323
+      }
+    }, {
+      "uid" : "fd4ac9bd892e6228",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603781968984,
+        "stop" : 1603782064921,
+        "duration" : 95937
+      }
+    }, {
+      "uid" : "519137fc992c20f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603781508724,
+        "stop" : 1603781603679,
+        "duration" : 94955
+      }
+    }, {
+      "uid" : "46a21dfde2ccac88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603781014063,
+        "stop" : 1603781110349,
+        "duration" : 96286
+      }
+    }, {
+      "uid" : "956d13f59ab60da7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603780481343,
+        "stop" : 1603780584070,
+        "duration" : 102727
+      }
+    }, {
+      "uid" : "5ccf5c5635715203",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603779909285,
+        "stop" : 1603780005100,
+        "duration" : 95815
+      }
+    }, {
+      "uid" : "3283d4c5acd19512",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603779256247,
+        "stop" : 1603779358295,
+        "duration" : 102048
+      }
+    }, {
+      "uid" : "574b0c7f642117f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603778143518,
+        "stop" : 1603778244797,
+        "duration" : 101279
+      }
+    }, {
+      "uid" : "c26548902f472fd5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603777398001,
+        "stop" : 1603777497187,
+        "duration" : 99186
+      }
+    }, {
+      "uid" : "4a81b73f07ffb840",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603776845104,
+        "stop" : 1603776940489,
+        "duration" : 95385
+      }
+    }, {
+      "uid" : "d5e4b88c0064b7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603776262525,
+        "stop" : 1603776358440,
+        "duration" : 95915
+      }
+    }, {
+      "uid" : "fea6e6ebcf7bc367",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603775682344,
+        "stop" : 1603775777246,
+        "duration" : 94902
+      }
+    }, {
+      "uid" : "7a0ed22af80b9a36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603775144832,
+        "stop" : 1603775242267,
+        "duration" : 97435
+      }
+    }, {
+      "uid" : "285b8880b3784381",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603774442235,
+        "stop" : 1603774543838,
+        "duration" : 101603
+      }
+    }, {
+      "uid" : "c40e438070a5f4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603768276243,
+        "stop" : 1603768380723,
+        "duration" : 104480
+      }
+    }, {
+      "uid" : "392f989b04afefbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603767407807,
+        "stop" : 1603767507583,
+        "duration" : 99776
+      }
+    }, {
+      "uid" : "3696c763cb342af3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603766531460,
+        "stop" : 1603766627022,
+        "duration" : 95562
+      }
+    }, {
+      "uid" : "71f053c37ebf3951",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603765806387,
+        "stop" : 1603765905970,
+        "duration" : 99583
+      }
+    }, {
+      "uid" : "a3f4378d6a79587b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603764150535,
+        "stop" : 1603764246655,
+        "duration" : 96120
+      }
+    }, {
+      "uid" : "f47283eaaf00fa61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603763572499,
+        "stop" : 1603763667354,
+        "duration" : 94855
+      }
+    }, {
+      "uid" : "11c14b707583a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603762643934,
+        "stop" : 1603762740248,
+        "duration" : 96314
+      }
+    }, {
+      "uid" : "a56d45e6f76ead80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603761856097,
+        "stop" : 1603761958216,
+        "duration" : 102119
+      }
+    }, {
+      "uid" : "23e5c81d9e3a3f29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603760734861,
+        "stop" : 1603760830877,
+        "duration" : 96016
+      }
+    }, {
+      "uid" : "66e490ca3e491b5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603698619532,
+        "stop" : 1603698721654,
+        "duration" : 102122
+      }
+    }, {
+      "uid" : "52c24db90d79e64b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603697276972,
+        "stop" : 1603697374074,
+        "duration" : 97102
+      }
+    }, {
+      "uid" : "83a2bd0d07269f33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603696681109,
+        "stop" : 1603696786979,
+        "duration" : 105870
+      }
+    }, {
+      "uid" : "76442571c4a30d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603695876943,
+        "stop" : 1603695988070,
+        "duration" : 111127
+      }
+    }, {
+      "uid" : "3b4482cc07804a81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603675567151,
+        "stop" : 1603675668153,
+        "duration" : 101002
+      }
+    }, {
+      "uid" : "e13e7f8444b68e03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603444363374,
+        "stop" : 1603444548601,
+        "duration" : 185227
+      }
+    }, {
+      "uid" : "b5a9d4f4de66735b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603440689124,
+        "stop" : 1603440790357,
+        "duration" : 101233
+      }
+    }, {
+      "uid" : "9d4b244b756e5d1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603437147314,
+        "stop" : 1603437245314,
+        "duration" : 98000
+      }
+    }, {
+      "uid" : "288578ae049fb02c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603436549882,
+        "stop" : 1603436647506,
+        "duration" : 97624
+      }
+    }, {
+      "uid" : "e7bc442334de3683",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603436102980,
+        "stop" : 1603436204476,
+        "duration" : 101496
+      }
+    }, {
+      "uid" : "97710ade28a04974",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603435471691,
+        "stop" : 1603435569340,
+        "duration" : 97649
+      }
+    }, {
+      "uid" : "8d8fb9ae7dfb9384",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603434812923,
+        "stop" : 1603434925281,
+        "duration" : 112358
+      }
+    }, {
+      "uid" : "9d9c755fb00eb8fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603432743841,
+        "stop" : 1603432849897,
+        "duration" : 106056
+      }
+    }, {
+      "uid" : "ccdc1e52e9b4714f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603432176003,
+        "stop" : 1603432284335,
+        "duration" : 108332
+      }
+    }, {
+      "uid" : "a770d0c0fcda1b52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603430925570,
+        "stop" : 1603431028167,
+        "duration" : 102597
+      }
+    }, {
+      "uid" : "b53593a8f027aecc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603429426123,
+        "stop" : 1603429539349,
+        "duration" : 113226
+      }
+    }, {
+      "uid" : "f74901c96c6cfbc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603422428317,
+        "stop" : 1603422530910,
+        "duration" : 102593
+      }
+    }, {
+      "uid" : "942bc8bbf9e8f9ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603421757197,
+        "stop" : 1603421854499,
+        "duration" : 97302
+      }
+    }, {
+      "uid" : "cedd2fa7bd968252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603420983861,
+        "stop" : 1603421086463,
+        "duration" : 102602
+      }
+    }, {
+      "uid" : "74f1dbb88a323df",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603355722142,
+        "stop" : 1603355793146,
+        "duration" : 71004
+      }
+    }, {
+      "uid" : "26e15905e6b93436",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603354400571,
+        "stop" : 1603354498556,
+        "duration" : 97985
+      }
+    }, {
+      "uid" : "d4c6f4d236ef0e34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603353878462,
+        "stop" : 1603353984271,
+        "duration" : 105809
+      }
+    }, {
+      "uid" : "19ac0cb0091ae5e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603352233691,
+        "stop" : 1603352336335,
+        "duration" : 102644
+      }
+    }, {
+      "uid" : "70d1fa2b4a3275b5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603351251118,
+        "stop" : 1603351272266,
+        "duration" : 21148
+      }
+    }, {
+      "uid" : "6f6c38993ee9b2bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603344281060,
+        "stop" : 1603344383572,
+        "duration" : 102512
+      }
+    }, {
+      "uid" : "5ad3798644c19a5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603342938546,
+        "stop" : 1603343036110,
+        "duration" : 97564
+      }
+    }, {
+      "uid" : "9173972a09d1bc06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603331389742,
+        "stop" : 1603331486838,
+        "duration" : 97096
+      }
+    }, {
+      "uid" : "7239013746b52e88",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603331246461,
+        "stop" : 1603331278163,
+        "duration" : 31702
+      }
+    }, {
+      "uid" : "b9cb02e8c7043444",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603331004611,
+        "stop" : 1603331047985,
+        "duration" : 43374
+      }
+    }, {
+      "uid" : "3fe697a1fdddeac9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602826401686,
+        "stop" : 1602826499168,
+        "duration" : 97482
+      }
+    }, {
+      "uid" : "1ed0d4e8342d9fe9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: failed to change window state to maximized, current state is minimized\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602825343684,
+        "stop" : 1602825353301,
+        "duration" : 9617
+      }
+    }, {
+      "uid" : "9c1826204d478c70",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <label class=\"ant-checkbox-wrapper\">...</label> is not clickable at point (1049, 315). Other element would receive the click: <div class=\"ant-spin ant-spin-spinning\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602819160662,
+        "stop" : 1602819194939,
+        "duration" : 34277
+      }
+    }, {
+      "uid" : "a8984f921b0304f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602748934792,
+        "stop" : 1602749037178,
+        "duration" : 102386
+      }
+    }, {
+      "uid" : "9ef17ff7cea5ee38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602738725908,
+        "stop" : 1602738822864,
+        "duration" : 96956
+      }
+    }, {
+      "uid" : "409b33192cd82096",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602731659395,
+        "stop" : 1602731718845,
+        "duration" : 59450
+      }
+    }, {
+      "uid" : "5c03bb3605889a72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602728444079,
+        "stop" : 1602728541930,
+        "duration" : 97851
+      }
+    }, {
+      "uid" : "56337fe4a617a2d0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602721672358,
+        "stop" : 1602721718950,
+        "duration" : 46592
+      }
+    }, {
+      "uid" : "31fb567ee00b002d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <label class=\"ant-checkbox-wrapper\">...</label> is not clickable at point (1049, 315). Other element would receive the click: <div class=\"ant-spin ant-spin-spinning\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602667972243,
+        "stop" : 1602668018661,
+        "duration" : 46418
+      }
+    }, {
+      "uid" : "572798dd2af78dc9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602667417604,
+        "stop" : 1602667464703,
+        "duration" : 47099
+      }
+    }, {
+      "uid" : "541bf6d7e3f63e38",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602666650774,
+        "stop" : 1602666697953,
+        "duration" : 47179
+      }
+    }, {
+      "uid" : "c2018d65b42c63a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602223248333,
+        "stop" : 1602223344448,
+        "duration" : 96115
+      }
+    }, {
+      "uid" : "18d27b512343af71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602222823531,
+        "stop" : 1602222926030,
+        "duration" : 102499
+      }
+    }, {
+      "uid" : "7010439dcbeec390",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602222420997,
+        "stop" : 1602222518996,
+        "duration" : 97999
+      }
+    }, {
+      "uid" : "d51aed70b5903884",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602221645285,
+        "stop" : 1602221745972,
+        "duration" : 100687
+      }
+    }, {
+      "uid" : "d432f0cb1a089cc0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602220953120,
+        "stop" : 1602221000028,
+        "duration" : 46908
+      }
+    }, {
+      "uid" : "f99cdda07358051d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602220323005,
+        "stop" : 1602220425265,
+        "duration" : 102260
+      }
+    }, {
+      "uid" : "70282accbf57b5fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602215616850,
+        "stop" : 1602215718054,
+        "duration" : 101204
+      }
+    }, {
+      "uid" : "79b4fb6209cbae05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602215207811,
+        "stop" : 1602215303909,
+        "duration" : 96098
+      }
+    }, {
+      "uid" : "d9f70e586f6d01de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602213187555,
+        "stop" : 1602213283578,
+        "duration" : 96023
+      }
+    }, {
+      "uid" : "fc10d4220cc893a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602212675519,
+        "stop" : 1602212783315,
+        "duration" : 107796
+      }
+    }, {
+      "uid" : "a28f11020b1b6563",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602211162661,
+        "stop" : 1602211260115,
+        "duration" : 97454
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=6)" ]
+  },
+  "source" : "93037caeff693420.json",
+  "parameterValues" : [ ]
+}

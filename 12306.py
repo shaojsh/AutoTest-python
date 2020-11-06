@@ -8,7 +8,7 @@ import requests
 '''
 此12306自动订票爬虫，
 仅限用于python学习与交流，请勿用于商业或非法活动！
-知乎专栏：https://zhuanlan.zhihu.com/shaw0228
+知乎专栏：https://zhuanlan.zhihu.com/p/48077823
 
 文档使用说明：
 1.请替换成自己的"用户名"与"密码"；
@@ -71,7 +71,6 @@ def query_leftTicket():
 
 
 # 用户登录
-
 def Login12306():
     # 1.checkUser--检查用户登录状态
     print("正在检查用户登录状态...")
