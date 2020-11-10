@@ -17,3 +17,8 @@ TRIVIAL = 'trivial'　　轻微缺陷　
 下载nodejs，下载anywhere 配置启动命令（bat文件做git成每天开机启动 taskschd.msc）：cmd /k "cd /d C:\Users\shaojunshuai\PycharmProjects\AutoTest-python\Auto_Test\report\reporthtml&&anywhere
 
 验证码识别：https://mp.weixin.qq.com/s?__biz=MzU2ODYzNTkwMg==&mid=2247484292&idx=1&sn=1d948f56e57a6586f11aabc0f0f6b3af&scene=19#wechat_redirect
+
+
+schtasks /create /tn oss_download /tr python C:\Users\shaojunshuai\Desktop\start.py /sc daily /st 10:06:00
+schtasks /create /tn start_up /sc daily /st 10:14:00 /tr python C:\Users\shaojunshuai\Desktop\start.py
+

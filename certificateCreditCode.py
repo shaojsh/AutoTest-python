@@ -2,12 +2,14 @@
 # 统一社会信用代码中不使用I,O,Z,S,V
 SOCIAL_CREDIT_CHECK_CODE_DICT = {
     '0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9,
-    'A': 10, 'B': 11, 'C': 12, 'D': 13, 'E': 14, 'F': 15, 'G': 16, 'H': 17, 'J': 18, 'K': 19, 'L': 20, 'M': 21, 'N': 22, 'P': 23, 'Q': 24,
+    'A': 10, 'B': 11, 'C': 12, 'D': 13, 'E': 14, 'F': 15, 'G': 16, 'H': 17, 'J': 18, 'K': 19, 'L': 20, 'M': 21, 'N': 22,
+    'P': 23, 'Q': 24,
     'R': 25, 'T': 26, 'U': 27, 'W': 28, 'X': 29, 'Y': 30}
 # GB11714-1997全国组织机构代码编制规则中代码字符集
 ORGANIZATION_CHECK_CODE_DICT = {
     '0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9,
-    'A': 10, 'B': 11, 'C': 12, 'D': 13, 'E': 14, 'F': 15, 'G': 16, 'H': 17, 'I': 18, 'J': 19, 'K': 20, 'L': 21, 'M': 22, 'N': 23, 'O': 24, 'P': 25, 'Q': 26,
+    'A': 10, 'B': 11, 'C': 12, 'D': 13, 'E': 14, 'F': 15, 'G': 16, 'H': 17, 'I': 18, 'J': 19, 'K': 20, 'L': 21, 'M': 22,
+    'N': 23, 'O': 24, 'P': 25, 'Q': 26,
     'R': 27, 'S': 28, 'T': 29, 'U': 30, 'V': 31, 'W': 32, 'X': 33, 'Y': 34, 'Z': 35}
 
 
@@ -43,7 +45,7 @@ class CreditIdentifier(object):
                 total += int(ontology_code[i]) * weighting_factor[i]
             else:
                 total += check_code_dict[ontology_code[i]
-                                         ] * weighting_factor[i]
+                         ] * weighting_factor[i]
         C9 = modulus - total % modulus
         C9 = 0 if C9 == 31 else C9
         C9 = list(check_code_dict.keys())[
@@ -53,4 +55,4 @@ class CreditIdentifier(object):
 
 if __name__ == '__main__':
     codeHelper = CreditIdentifier()
-    print (codeHelper.getSocialCreditCode('5153280000000008'))
+    print(codeHelper.getSocialCreditCode('5153280000000008'))
