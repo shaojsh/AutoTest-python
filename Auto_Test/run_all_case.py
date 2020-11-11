@@ -18,11 +18,9 @@ evn = ''
 driverPath = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test\\' + 'chromedriver.exe'
 
 print('driverPath 的路径为：'+driverPath)
-config = HandleYaml(root_dir + '\\test_data\\config.yaml')
+config = HandleYaml(root_dir + 'AutoTest-python\\test_data\\config.yaml')
 runMode = config.get_data()['configEvn']['runMode']
 evn = config.get_data()['configEvn']['evn']
-runMode = 'UI'
-evn = 'SIT'
 if evn == 'SIT':
     handleyaml = HandleYaml(root_dir + '\\test_data\\ConfigGol-SIT.yaml')
 else:
@@ -43,7 +41,7 @@ if __name__ == "__main__":
         print("开始执行脚本")
         logger.info("==================================" + time.strftime('%Y-%m-%d %H:%M:%S',
                                                                          time.localtime()) + "===================================")
-        root_dir = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test' + yamldict['test_path_list']['url_ui']
+        root_dir = os.path.dirname(os.path.abspath('.')) + '\\AutoTest-python\\Auto_Test' + yamldict['test_path_list']['url_ui']
         pytest.main([root_dir, "--alluredir",
                      "./report/reportallure/"])
         print("脚本执行完成")
