@@ -18,6 +18,7 @@ runMode = 'UI'
 evn = ''
 # 环境run取得
 config = HandleYaml(root_dir + '\\test_data\\config.yaml')
+print(config.file_path)
 runMode = config.get_data()['config']['runMode']
 evn = config.get_data()['config']['evn']
 if evn == 'SIT':
