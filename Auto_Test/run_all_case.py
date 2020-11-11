@@ -40,7 +40,7 @@ if __name__ == "__main__":
         print("开始执行脚本")
         logger.info("==================================" + time.strftime('%Y-%m-%d %H:%M:%S',
                                                                          time.localtime()) + "===================================")
-        root_dir = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test' + yamldict['test_path_list']['url_ui']
+        root_dir = os.path.dirname(os.path.abspath('.')) + '\\AutoTest-python\\Auto_Test' + yamldict['test_path_list']['url_ui']
         pytest.main([root_dir, "--alluredir",
                      "./report/reportallure/"])
         print("脚本执行完成")
