@@ -9,7 +9,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from androidBaseFlow import Template, touch
-from common.dbLink import getPhoneMessage, flushDb, getVerification, getVerification_ui
+from common.dbLink import getPhoneMessage, flushDb, getVerification
 from flow_path.path_Tripartite_interaction import path_Tripartite_interaction
 from run_all_case import yamldict, logger, runMode, mobileDriver
 from common.BaseFunction import waitUntilDisplay, waitUntilClick, waitUntilClick_xpath, scrollText, \

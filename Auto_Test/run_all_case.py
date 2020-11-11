@@ -1,7 +1,5 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 _*_
-import start
-import sys
 import time
 import os
 import sys
