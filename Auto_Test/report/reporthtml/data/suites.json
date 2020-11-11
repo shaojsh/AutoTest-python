@@ -1,12 +1,13 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
     "name" : "test_case.test_Api_demo",
     "children" : [ {
       "name" : "test_api_per",
       "children" : [ {
         "name" : "test_api_per",
-        "uid" : "4f2cf10b9d5ad850",
+        "uid" : "89d5a9d72ee41d0f",
         "parentUid" : "55f4215371e368fccc2fe6b0cc9643c4",
         "status" : "passed",
         "time" : {
@@ -27,13 +28,13 @@
       "name" : "test_login",
       "children" : [ {
         "name" : "test_companyRegister",
-        "uid" : "975246911bb09ec2",
+        "uid" : "9ee4c341ee198553",
         "parentUid" : "9a7e0e6f3e0f952f8bcc34abd5c95979",
-        "status" : "passed",
+        "status" : "broken",
         "time" : {
-          "start" : 1604459455628,
-          "stop" : 1604459472714,
-          "duration" : 17086
+          "start" : 1605074486379,
+          "stop" : 1605074486384,
+          "duration" : 5
         },
         "flaky" : false,
         "newFailed" : false,
@@ -44,13 +45,13 @@
       "name" : "test_personalInfoReg",
       "children" : [ {
         "name" : "test_infoReg",
-        "uid" : "acdcc0cd54c6bd4b",
+        "uid" : "caaf47b6b40867f0",
         "parentUid" : "5c30648b86b358f797cfae704122cc2c",
-        "status" : "passed",
+        "status" : "broken",
         "time" : {
-          "start" : 1604459472749,
-          "stop" : 1604459509952,
-          "duration" : 37203
+          "start" : 1605074486497,
+          "stop" : 1605074486530,
+          "duration" : 33
         },
         "flaky" : false,
         "newFailed" : false,
@@ -61,13 +62,13 @@
       "name" : "test_businessInfoReg",
       "children" : [ {
         "name" : "test_businessInforReg",
-        "uid" : "244e22325b8e8c7f",
+        "uid" : "dece7779f1f848d3",
         "parentUid" : "ec9023113cd731a3d98287f22b9c540f",
-        "status" : "passed",
+        "status" : "broken",
         "time" : {
-          "start" : 1604459509963,
-          "stop" : 1604459564236,
-          "duration" : 54273
+          "start" : 1605074486584,
+          "stop" : 1605074486588,
+          "duration" : 4
         },
         "flaky" : false,
         "newFailed" : false,
@@ -78,13 +79,13 @@
       "name" : "test_backStage_examine",
       "children" : [ {
         "name" : "test_backstage_examine",
-        "uid" : "be57b9fe654e551b",
+        "uid" : "5e26df81287bdba2",
         "parentUid" : "0f5bd49568a29f185b3c1e89207e891c",
-        "status" : "passed",
+        "status" : "broken",
         "time" : {
-          "start" : 1604459564247,
-          "stop" : 1604459583396,
-          "duration" : 19149
+          "start" : 1605074486660,
+          "stop" : 1605074486664,
+          "duration" : 4
         },
         "flaky" : false,
         "newFailed" : false,
@@ -95,26 +96,26 @@
       "name" : "test_backStage_authentication",
       "children" : [ {
         "name" : "test_backStageActCreate",
-        "uid" : "bb8f4b9261df2e76",
+        "uid" : "31f5355f74c0cf1d",
         "parentUid" : "fd817d8d0f4e2955a83ca99db1eb2211",
-        "status" : "passed",
+        "status" : "broken",
         "time" : {
-          "start" : 1604459583423,
-          "stop" : 1604459620678,
-          "duration" : 37255
+          "start" : 1605074486716,
+          "stop" : 1605074486717,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_backStage_authentication",
-        "uid" : "93037caeff693420",
+        "uid" : "a3e96fefdc86a79f",
         "parentUid" : "fd817d8d0f4e2955a83ca99db1eb2211",
-        "status" : "passed",
+        "status" : "broken",
         "time" : {
-          "start" : 1604459620713,
-          "stop" : 1604459728069,
-          "duration" : 107356
+          "start" : 1605074486773,
+          "stop" : 1605074486774,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
@@ -129,13 +130,13 @@
       "name" : "test_Tripartite_interaction",
       "children" : [ {
         "name" : "test_Tripartite_interaction",
-        "uid" : "731ea6000fb025d5",
+        "uid" : "7343656c46b65abc",
         "parentUid" : "d05880f1c647f41ab44d6f53210282c9",
         "status" : "broken",
         "time" : {
-          "start" : 1604459728106,
-          "stop" : 1604459812110,
-          "duration" : 84004
+          "start" : 1605074486826,
+          "stop" : 1605074486827,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
@@ -144,6 +145,5 @@
       "uid" : "d05880f1c647f41ab44d6f53210282c9"
     } ],
     "uid" : "af777a3d193f800fcd4be8051aef459c"
-  } ],
-  "name" : "suites"
+  } ]
 }

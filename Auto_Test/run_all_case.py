@@ -15,6 +15,7 @@ root_dir = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test'
 runMode = 'UI'
 evn = ''
 # 环境run取得
+driverPath = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test\\' + 'chromedriver.exe'
 config = HandleYaml(root_dir + '\\test_data\\config.yaml')
 # runMode = config.get_data()['configEvn']['runMode']
 # evn = config.get_data()['config']['evn']

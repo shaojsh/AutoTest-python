@@ -14,7 +14,7 @@ from common.BaseFunction import waitUntilDisplay, waitUntilClick, waiteForClick
 from common.dbLink import getPhoneMessage, flushDb, deleteInforMobile, getVerification
 from flow_path.path_backStage_authentication import path_backStage_authentication
 from flow_path.path_login import loginOn
-from run_all_case import yamldict, logger, runMode, mobileDriver
+from run_all_case import yamldict, logger, runMode, mobileDriver, driverPath
 
 act = yamldict['test_userlist']['company_user']
 pwd = yamldict['test_userlist']['company_user_pass']
@@ -56,7 +56,7 @@ def test_companyRegister():
         test_Assert = Assert.Assertions(def_name)
         logger.info("开始执行脚本%s:\n", def_name)
 
-        driver = webdriver.Chrome()
+        driver = webdriver.Chrome(executable_path=driverPath)
         driver.maximize_window()
         driver.get(url_ui_register)
         # db中清除已注册的账户

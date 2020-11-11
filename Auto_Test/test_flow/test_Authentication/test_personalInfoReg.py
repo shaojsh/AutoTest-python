@@ -13,7 +13,7 @@ from common.BaseFunction import waitUntilDisplay, waitUntilClick
 from common.dbLink import deletePerInforAndComInfor, getPhoneMessage, getVerification, flushDb, getVerification_ui
 from flow_path.path_login import loginOn
 from flow_path.path_persionInfoReg import path_personalInfoReg
-from run_all_case import yamldict, logger, runMode
+from run_all_case import yamldict, logger, runMode, driverPath
 from common import Assert, BaseFunction
 from test_flow.test_Authentication.test_login import login
 
@@ -37,7 +37,7 @@ def test_infoReg():
         deletePerInforAndComInfor()
         logger.info("对个人信息企业信息进行删除操作")
 
-        driver = webdriver.Chrome()
+        driver = webdriver.Chrome(executable_path=driverPath)
         driver.maximize_window()
         driver.get(url_forward)
 

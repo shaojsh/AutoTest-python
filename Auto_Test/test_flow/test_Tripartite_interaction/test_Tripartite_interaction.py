@@ -11,7 +11,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from androidBaseFlow import Template, touch
 from common.dbLink import getPhoneMessage, flushDb, getVerification
 from flow_path.path_Tripartite_interaction import path_Tripartite_interaction
-from run_all_case import yamldict, logger, runMode, mobileDriver
+from run_all_case import yamldict, logger, runMode, mobileDriver, driverPath
 from common.BaseFunction import waitUntilDisplay, waitUntilClick, waitUntilClick_xpath, scrollText, \
     waitUntilDisplay_xpath, is_not_visible, waiteForClick, dragUntilTextAppear
 from test_flow.test_Authentication.test_backStage_examine import backStageLogin
@@ -145,7 +145,7 @@ def test_Tripartite_interaction():
 
     # 前端账户授信申请
     if runMode == 'UI':
-        driver_forward = webdriver.Chrome()
+        driver_forward = webdriver.Chrome(executable_path=driverPath)
         driver_forward.maximize_window()
         driver_forward.get(url_forward)
         logger.info('前端账户登录授信申请')
@@ -205,7 +205,7 @@ def test_Tripartite_interaction():
         touch(Template(picture_dir1))
         logger.info('授信完成页面')
     # 银行授信审核
-    driver_bank = webdriver.Chrome()
+    driver_bank = webdriver.Chrome(executable_path=driverPath)
     driver_bank.maximize_window()
     driver_bank.get(url_back)
     logger.info('银行授信审核')
@@ -213,7 +213,7 @@ def test_Tripartite_interaction():
     CreditAudit_Bank(driver_bank)
 
     # 担保公司审核
-    driver_risk = webdriver.Chrome()
+    driver_risk = webdriver.Chrome(executable_path=driverPath)
     driver_risk.maximize_window()
     driver_risk.get(url_back)
     logger.info('担保公司审核')

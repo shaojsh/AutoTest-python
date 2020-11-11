@@ -1,0 +1,2594 @@
+{
+  "uid" : "dece7779f1f848d3",
+  "name" : "test_businessInforReg",
+  "fullName" : "test_flow.test_Authentication.test_businessInfoReg#test_businessInforReg",
+  "historyId" : "673c6cf796d54f5cbc2e9852ef4f69c7",
+  "time" : {
+    "start" : 1605074486584,
+    "stop" : 1605074486588,
+    "duration" : 4
+  },
+  "description" : "测试 http://10.10.128.152:10053/personal/baseinfo 企业认证",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/personal/baseinfo 企业认证</p>\n",
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: 'Auto_Testchromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+  "statusTrace" : "self = <selenium.webdriver.chrome.service.Service object at 0x000001C1F2365828>\n\n    def start(self):\n        \"\"\"\n        Starts the Service.\n    \n        :Exceptions:\n         - WebDriverException : Raised either when it can't start the service\n           or when it can't connect to the service\n        \"\"\"\n        try:\n            cmd = [self.path]\n            cmd.extend(self.command_line_args())\n            self.process = subprocess.Popen(cmd, env=self.env,\n                                            close_fds=platform.system() != 'Windows',\n                                            stdout=self.log_file,\n                                            stderr=self.log_file,\n>                                           stdin=PIPE)\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\selenium\\webdriver\\common\\service.py:76: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <subprocess.Popen object at 0x000001C1F2365780>\nargs = ['C:\\\\Users\\\\shaojunshuai\\\\PycharmProjects\\\\AutoTest-python\\\\Auto_Testchromedriver.exe', '--port=53312']\nbufsize = -1, executable = None, stdin = -1, stdout = -3, stderr = -3\npreexec_fn = None, close_fds = False, shell = False, cwd = None\nenv = environ({'ALLUSERSPROFILE': 'C:\\\\ProgramData', 'APPDATA': 'C:\\\\Users\\\\shaojunshuai\\\\AppData\\\\Roaming', 'CLASSPATH': '....indows', 'PYTEST_CURRENT_TEST': 'test_flow/test_Authentication/test_businessInfoReg.py::test_businessInforReg (call)'})\nuniversal_newlines = False, startupinfo = None, creationflags = 0\nrestore_signals = True, start_new_session = False, pass_fds = ()\n\n    def __init__(self, args, bufsize=-1, executable=None,\n                 stdin=None, stdout=None, stderr=None,\n                 preexec_fn=None, close_fds=_PLATFORM_DEFAULT_CLOSE_FDS,\n                 shell=False, cwd=None, env=None, universal_newlines=False,\n                 startupinfo=None, creationflags=0,\n                 restore_signals=True, start_new_session=False,\n                 pass_fds=(), *, encoding=None, errors=None):\n        \"\"\"Create new Popen instance.\"\"\"\n        _cleanup()\n        # Held while anything is calling waitpid before returncode has been\n        # updated to prevent clobbering returncode if wait() or poll() are\n        # called from multiple threads at once.  After acquiring the lock,\n        # code must re-check self.returncode to see if another thread just\n        # finished a waitpid() call.\n        self._waitpid_lock = threading.Lock()\n    \n        self._input = None\n        self._communication_started = False\n        if bufsize is None:\n            bufsize = -1  # Restore default\n        if not isinstance(bufsize, int):\n            raise TypeError(\"bufsize must be an integer\")\n    \n        if _mswindows:\n            if preexec_fn is not None:\n                raise ValueError(\"preexec_fn is not supported on Windows \"\n                                 \"platforms\")\n            any_stdio_set = (stdin is not None or stdout is not None or\n                             stderr is not None)\n            if close_fds is _PLATFORM_DEFAULT_CLOSE_FDS:\n                if any_stdio_set:\n                    close_fds = False\n                else:\n                    close_fds = True\n            elif close_fds and any_stdio_set:\n                raise ValueError(\n                        \"close_fds is not supported on Windows platforms\"\n                        \" if you redirect stdin/stdout/stderr\")\n        else:\n            # POSIX\n            if close_fds is _PLATFORM_DEFAULT_CLOSE_FDS:\n                close_fds = True\n            if pass_fds and not close_fds:\n                warnings.warn(\"pass_fds overriding close_fds.\", RuntimeWarning)\n                close_fds = True\n            if startupinfo is not None:\n                raise ValueError(\"startupinfo is only supported on Windows \"\n                                 \"platforms\")\n            if creationflags != 0:\n                raise ValueError(\"creationflags is only supported on Windows \"\n                                 \"platforms\")\n    \n        self.args = args\n        self.stdin = None\n        self.stdout = None\n        self.stderr = None\n        self.pid = None\n        self.returncode = None\n        self.universal_newlines = universal_newlines\n        self.encoding = encoding\n        self.errors = errors\n    \n        # Input and output objects. The general principle is like\n        # this:\n        #\n        # Parent                   Child\n        # ------                   -----\n        # p2cwrite   ---stdin--->  p2cread\n        # c2pread    <--stdout---  c2pwrite\n        # errread    <--stderr---  errwrite\n        #\n        # On POSIX, the child objects are file descriptors.  On\n        # Windows, these are Windows file handles.  The parent objects\n        # are file descriptors on both platforms.  The parent objects\n        # are -1 when not using PIPEs. The child objects are -1\n        # when not redirecting.\n    \n        (p2cread, p2cwrite,\n         c2pread, c2pwrite,\n         errread, errwrite) = self._get_handles(stdin, stdout, stderr)\n    \n        # We wrap OS handles *before* launching the child, otherwise a\n        # quickly terminating child could make our fds unwrappable\n        # (see #8458).\n    \n        if _mswindows:\n            if p2cwrite != -1:\n                p2cwrite = msvcrt.open_osfhandle(p2cwrite.Detach(), 0)\n            if c2pread != -1:\n                c2pread = msvcrt.open_osfhandle(c2pread.Detach(), 0)\n            if errread != -1:\n                errread = msvcrt.open_osfhandle(errread.Detach(), 0)\n    \n        text_mode = encoding or errors or universal_newlines\n    \n        self._closed_child_pipe_fds = False\n    \n        try:\n            if p2cwrite != -1:\n                self.stdin = io.open(p2cwrite, 'wb', bufsize)\n                if text_mode:\n                    self.stdin = io.TextIOWrapper(self.stdin, write_through=True,\n                            line_buffering=(bufsize == 1),\n                            encoding=encoding, errors=errors)\n            if c2pread != -1:\n                self.stdout = io.open(c2pread, 'rb', bufsize)\n                if text_mode:\n                    self.stdout = io.TextIOWrapper(self.stdout,\n                            encoding=encoding, errors=errors)\n            if errread != -1:\n                self.stderr = io.open(errread, 'rb', bufsize)\n                if text_mode:\n                    self.stderr = io.TextIOWrapper(self.stderr,\n                            encoding=encoding, errors=errors)\n    \n            self._execute_child(args, executable, preexec_fn, close_fds,\n                                pass_fds, cwd, env,\n                                startupinfo, creationflags, shell,\n                                p2cread, p2cwrite,\n                                c2pread, c2pwrite,\n                                errread, errwrite,\n>                               restore_signals, start_new_session)\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\subprocess.py:709: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <subprocess.Popen object at 0x000001C1F2365780>\nargs = 'C:\\\\Users\\\\shaojunshuai\\\\PycharmProjects\\\\AutoTest-python\\\\Auto_Testchromedriver.exe --port=53312'\nexecutable = None, preexec_fn = None, close_fds = False, pass_fds = ()\ncwd = None\nenv = environ({'ALLUSERSPROFILE': 'C:\\\\ProgramData', 'APPDATA': 'C:\\\\Users\\\\shaojunshuai\\\\AppData\\\\Roaming', 'CLASSPATH': '....indows', 'PYTEST_CURRENT_TEST': 'test_flow/test_Authentication/test_businessInfoReg.py::test_businessInforReg (call)'})\nstartupinfo = <subprocess.STARTUPINFO object at 0x000001C1F2365588>\ncreationflags = 0, shell = False, p2cread = Handle(1484), p2cwrite = 13\nc2pread = -1, c2pwrite = Handle(1464), errread = -1, errwrite = Handle(1212)\nunused_restore_signals = True, unused_start_new_session = False\n\n    def _execute_child(self, args, executable, preexec_fn, close_fds,\n                       pass_fds, cwd, env,\n                       startupinfo, creationflags, shell,\n                       p2cread, p2cwrite,\n                       c2pread, c2pwrite,\n                       errread, errwrite,\n                       unused_restore_signals, unused_start_new_session):\n        \"\"\"Execute program (MS Windows version)\"\"\"\n    \n        assert not pass_fds, \"pass_fds not supported on Windows.\"\n    \n        if not isinstance(args, str):\n            args = list2cmdline(args)\n    \n        # Process startup details\n        if startupinfo is None:\n            startupinfo = STARTUPINFO()\n        if -1 not in (p2cread, c2pwrite, errwrite):\n            startupinfo.dwFlags |= _winapi.STARTF_USESTDHANDLES\n            startupinfo.hStdInput = p2cread\n            startupinfo.hStdOutput = c2pwrite\n            startupinfo.hStdError = errwrite\n    \n        if shell:\n            startupinfo.dwFlags |= _winapi.STARTF_USESHOWWINDOW\n            startupinfo.wShowWindow = _winapi.SW_HIDE\n            comspec = os.environ.get(\"COMSPEC\", \"cmd.exe\")\n            args = '{} /c \"{}\"'.format (comspec, args)\n    \n        # Start the process\n        try:\n            hp, ht, pid, tid = _winapi.CreateProcess(executable, args,\n                                     # no special security\n                                     None, None,\n                                     int(not close_fds),\n                                     creationflags,\n                                     env,\n                                     os.fspath(cwd) if cwd is not None else None,\n>                                    startupinfo)\nE                                    FileNotFoundError: [WinError 2] 系统找不到指定的文件。\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\subprocess.py:997: FileNotFoundError\n\nDuring handling of the above exception, another exception occurred:\n\n    @pytest.mark.run(order=3)\n    @allure.severity(\"blocker\")\n    @allure.description(\"测试 http://10.10.128.152:10053/personal/baseinfo 企业认证\")\n    @allure.testcase(\"http://10.10.128.152:10053/personal/baseinfo\", \"企业认证 \uD83D\uDC47\")\n    def test_businessInforReg():\n        if runMode == 'UI':\n            def_name = sys._getframe().f_code.co_name\n            test_Assert = Assert.Assertions(def_name)\n            logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n>           driver = webdriver.Chrome(executable_path = driverPath)\n\ntest_flow\\test_Authentication\\test_businessInfoReg.py:40: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py:73: in __init__\n    self.service.start()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.chrome.service.Service object at 0x000001C1F2365828>\n\n    def start(self):\n        \"\"\"\n        Starts the Service.\n    \n        :Exceptions:\n         - WebDriverException : Raised either when it can't start the service\n           or when it can't connect to the service\n        \"\"\"\n        try:\n            cmd = [self.path]\n            cmd.extend(self.command_line_args())\n            self.process = subprocess.Popen(cmd, env=self.env,\n                                            close_fds=platform.system() != 'Windows',\n                                            stdout=self.log_file,\n                                            stderr=self.log_file,\n                                            stdin=PIPE)\n        except TypeError:\n            raise\n        except OSError as err:\n            if err.errno == errno.ENOENT:\n                raise WebDriverException(\n                    \"'%s' executable needs to be in PATH. %s\" % (\n>                       os.path.basename(self.path), self.start_error_message)\nE                       selenium.common.exceptions.WebDriverException: Message: 'Auto_Testchromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\selenium\\webdriver\\common\\service.py:83: WebDriverException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/personal/baseinfo 企业认证",
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: 'Auto_Testchromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+    "statusTrace" : "self = <selenium.webdriver.chrome.service.Service object at 0x000001C1F2365828>\n\n    def start(self):\n        \"\"\"\n        Starts the Service.\n    \n        :Exceptions:\n         - WebDriverException : Raised either when it can't start the service\n           or when it can't connect to the service\n        \"\"\"\n        try:\n            cmd = [self.path]\n            cmd.extend(self.command_line_args())\n            self.process = subprocess.Popen(cmd, env=self.env,\n                                            close_fds=platform.system() != 'Windows',\n                                            stdout=self.log_file,\n                                            stderr=self.log_file,\n>                                           stdin=PIPE)\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\selenium\\webdriver\\common\\service.py:76: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <subprocess.Popen object at 0x000001C1F2365780>\nargs = ['C:\\\\Users\\\\shaojunshuai\\\\PycharmProjects\\\\AutoTest-python\\\\Auto_Testchromedriver.exe', '--port=53312']\nbufsize = -1, executable = None, stdin = -1, stdout = -3, stderr = -3\npreexec_fn = None, close_fds = False, shell = False, cwd = None\nenv = environ({'ALLUSERSPROFILE': 'C:\\\\ProgramData', 'APPDATA': 'C:\\\\Users\\\\shaojunshuai\\\\AppData\\\\Roaming', 'CLASSPATH': '....indows', 'PYTEST_CURRENT_TEST': 'test_flow/test_Authentication/test_businessInfoReg.py::test_businessInforReg (call)'})\nuniversal_newlines = False, startupinfo = None, creationflags = 0\nrestore_signals = True, start_new_session = False, pass_fds = ()\n\n    def __init__(self, args, bufsize=-1, executable=None,\n                 stdin=None, stdout=None, stderr=None,\n                 preexec_fn=None, close_fds=_PLATFORM_DEFAULT_CLOSE_FDS,\n                 shell=False, cwd=None, env=None, universal_newlines=False,\n                 startupinfo=None, creationflags=0,\n                 restore_signals=True, start_new_session=False,\n                 pass_fds=(), *, encoding=None, errors=None):\n        \"\"\"Create new Popen instance.\"\"\"\n        _cleanup()\n        # Held while anything is calling waitpid before returncode has been\n        # updated to prevent clobbering returncode if wait() or poll() are\n        # called from multiple threads at once.  After acquiring the lock,\n        # code must re-check self.returncode to see if another thread just\n        # finished a waitpid() call.\n        self._waitpid_lock = threading.Lock()\n    \n        self._input = None\n        self._communication_started = False\n        if bufsize is None:\n            bufsize = -1  # Restore default\n        if not isinstance(bufsize, int):\n            raise TypeError(\"bufsize must be an integer\")\n    \n        if _mswindows:\n            if preexec_fn is not None:\n                raise ValueError(\"preexec_fn is not supported on Windows \"\n                                 \"platforms\")\n            any_stdio_set = (stdin is not None or stdout is not None or\n                             stderr is not None)\n            if close_fds is _PLATFORM_DEFAULT_CLOSE_FDS:\n                if any_stdio_set:\n                    close_fds = False\n                else:\n                    close_fds = True\n            elif close_fds and any_stdio_set:\n                raise ValueError(\n                        \"close_fds is not supported on Windows platforms\"\n                        \" if you redirect stdin/stdout/stderr\")\n        else:\n            # POSIX\n            if close_fds is _PLATFORM_DEFAULT_CLOSE_FDS:\n                close_fds = True\n            if pass_fds and not close_fds:\n                warnings.warn(\"pass_fds overriding close_fds.\", RuntimeWarning)\n                close_fds = True\n            if startupinfo is not None:\n                raise ValueError(\"startupinfo is only supported on Windows \"\n                                 \"platforms\")\n            if creationflags != 0:\n                raise ValueError(\"creationflags is only supported on Windows \"\n                                 \"platforms\")\n    \n        self.args = args\n        self.stdin = None\n        self.stdout = None\n        self.stderr = None\n        self.pid = None\n        self.returncode = None\n        self.universal_newlines = universal_newlines\n        self.encoding = encoding\n        self.errors = errors\n    \n        # Input and output objects. The general principle is like\n        # this:\n        #\n        # Parent                   Child\n        # ------                   -----\n        # p2cwrite   ---stdin--->  p2cread\n        # c2pread    <--stdout---  c2pwrite\n        # errread    <--stderr---  errwrite\n        #\n        # On POSIX, the child objects are file descriptors.  On\n        # Windows, these are Windows file handles.  The parent objects\n        # are file descriptors on both platforms.  The parent objects\n        # are -1 when not using PIPEs. The child objects are -1\n        # when not redirecting.\n    \n        (p2cread, p2cwrite,\n         c2pread, c2pwrite,\n         errread, errwrite) = self._get_handles(stdin, stdout, stderr)\n    \n        # We wrap OS handles *before* launching the child, otherwise a\n        # quickly terminating child could make our fds unwrappable\n        # (see #8458).\n    \n        if _mswindows:\n            if p2cwrite != -1:\n                p2cwrite = msvcrt.open_osfhandle(p2cwrite.Detach(), 0)\n            if c2pread != -1:\n                c2pread = msvcrt.open_osfhandle(c2pread.Detach(), 0)\n            if errread != -1:\n                errread = msvcrt.open_osfhandle(errread.Detach(), 0)\n    \n        text_mode = encoding or errors or universal_newlines\n    \n        self._closed_child_pipe_fds = False\n    \n        try:\n            if p2cwrite != -1:\n                self.stdin = io.open(p2cwrite, 'wb', bufsize)\n                if text_mode:\n                    self.stdin = io.TextIOWrapper(self.stdin, write_through=True,\n                            line_buffering=(bufsize == 1),\n                            encoding=encoding, errors=errors)\n            if c2pread != -1:\n                self.stdout = io.open(c2pread, 'rb', bufsize)\n                if text_mode:\n                    self.stdout = io.TextIOWrapper(self.stdout,\n                            encoding=encoding, errors=errors)\n            if errread != -1:\n                self.stderr = io.open(errread, 'rb', bufsize)\n                if text_mode:\n                    self.stderr = io.TextIOWrapper(self.stderr,\n                            encoding=encoding, errors=errors)\n    \n            self._execute_child(args, executable, preexec_fn, close_fds,\n                                pass_fds, cwd, env,\n                                startupinfo, creationflags, shell,\n                                p2cread, p2cwrite,\n                                c2pread, c2pwrite,\n                                errread, errwrite,\n>                               restore_signals, start_new_session)\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\subprocess.py:709: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <subprocess.Popen object at 0x000001C1F2365780>\nargs = 'C:\\\\Users\\\\shaojunshuai\\\\PycharmProjects\\\\AutoTest-python\\\\Auto_Testchromedriver.exe --port=53312'\nexecutable = None, preexec_fn = None, close_fds = False, pass_fds = ()\ncwd = None\nenv = environ({'ALLUSERSPROFILE': 'C:\\\\ProgramData', 'APPDATA': 'C:\\\\Users\\\\shaojunshuai\\\\AppData\\\\Roaming', 'CLASSPATH': '....indows', 'PYTEST_CURRENT_TEST': 'test_flow/test_Authentication/test_businessInfoReg.py::test_businessInforReg (call)'})\nstartupinfo = <subprocess.STARTUPINFO object at 0x000001C1F2365588>\ncreationflags = 0, shell = False, p2cread = Handle(1484), p2cwrite = 13\nc2pread = -1, c2pwrite = Handle(1464), errread = -1, errwrite = Handle(1212)\nunused_restore_signals = True, unused_start_new_session = False\n\n    def _execute_child(self, args, executable, preexec_fn, close_fds,\n                       pass_fds, cwd, env,\n                       startupinfo, creationflags, shell,\n                       p2cread, p2cwrite,\n                       c2pread, c2pwrite,\n                       errread, errwrite,\n                       unused_restore_signals, unused_start_new_session):\n        \"\"\"Execute program (MS Windows version)\"\"\"\n    \n        assert not pass_fds, \"pass_fds not supported on Windows.\"\n    \n        if not isinstance(args, str):\n            args = list2cmdline(args)\n    \n        # Process startup details\n        if startupinfo is None:\n            startupinfo = STARTUPINFO()\n        if -1 not in (p2cread, c2pwrite, errwrite):\n            startupinfo.dwFlags |= _winapi.STARTF_USESTDHANDLES\n            startupinfo.hStdInput = p2cread\n            startupinfo.hStdOutput = c2pwrite\n            startupinfo.hStdError = errwrite\n    \n        if shell:\n            startupinfo.dwFlags |= _winapi.STARTF_USESHOWWINDOW\n            startupinfo.wShowWindow = _winapi.SW_HIDE\n            comspec = os.environ.get(\"COMSPEC\", \"cmd.exe\")\n            args = '{} /c \"{}\"'.format (comspec, args)\n    \n        # Start the process\n        try:\n            hp, ht, pid, tid = _winapi.CreateProcess(executable, args,\n                                     # no special security\n                                     None, None,\n                                     int(not close_fds),\n                                     creationflags,\n                                     env,\n                                     os.fspath(cwd) if cwd is not None else None,\n>                                    startupinfo)\nE                                    FileNotFoundError: [WinError 2] 系统找不到指定的文件。\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\subprocess.py:997: FileNotFoundError\n\nDuring handling of the above exception, another exception occurred:\n\n    @pytest.mark.run(order=3)\n    @allure.severity(\"blocker\")\n    @allure.description(\"测试 http://10.10.128.152:10053/personal/baseinfo 企业认证\")\n    @allure.testcase(\"http://10.10.128.152:10053/personal/baseinfo\", \"企业认证 \uD83D\uDC47\")\n    def test_businessInforReg():\n        if runMode == 'UI':\n            def_name = sys._getframe().f_code.co_name\n            test_Assert = Assert.Assertions(def_name)\n            logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n>           driver = webdriver.Chrome(executable_path = driverPath)\n\ntest_flow\\test_Authentication\\test_businessInfoReg.py:40: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py:73: in __init__\n    self.service.start()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.chrome.service.Service object at 0x000001C1F2365828>\n\n    def start(self):\n        \"\"\"\n        Starts the Service.\n    \n        :Exceptions:\n         - WebDriverException : Raised either when it can't start the service\n           or when it can't connect to the service\n        \"\"\"\n        try:\n            cmd = [self.path]\n            cmd.extend(self.command_line_args())\n            self.process = subprocess.Popen(cmd, env=self.env,\n                                            close_fds=platform.system() != 'Windows',\n                                            stdout=self.log_file,\n                                            stderr=self.log_file,\n                                            stdin=PIPE)\n        except TypeError:\n            raise\n        except OSError as err:\n            if err.errno == errno.ENOENT:\n                raise WebDriverException(\n                    \"'%s' executable needs to be in PATH. %s\" % (\n>                       os.path.basename(self.path), self.start_error_message)\nE                       selenium.common.exceptions.WebDriverException: Message: 'Auto_Testchromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\selenium\\webdriver\\common\\service.py:83: WebDriverException",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "39c6dcda34afd113",
+      "name" : "log",
+      "source" : "39c6dcda34afd113.txt",
+      "type" : "text/plain",
+      "size" : 92
+    }, {
+      "uid" : "1c4701a409be2389",
+      "name" : "stderr",
+      "source" : "1c4701a409be2389.txt",
+      "type" : "text/plain",
+      "size" : 139
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_businessInfoReg"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "9632-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_businessInfoReg"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "企业认证 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/personal/baseinfo",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "328f6cae800b2d33",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'Auto_Testchromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1605074175747,
+        "stop" : 1605074175750,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "31f3dc0e07f63134",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604474655214,
+        "stop" : 1604474708533,
+        "duration" : 53319
+      }
+    }, {
+      "uid" : "fd1c83de01acbd57",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1604474451448,
+        "stop" : 1604474492182,
+        "duration" : 40734
+      }
+    }, {
+      "uid" : "d092227cde288c74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604459509963,
+        "stop" : 1604459564236,
+        "duration" : 54273
+      }
+    }, {
+      "uid" : "61cca0987f035b5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604450792668,
+        "stop" : 1604450852174,
+        "duration" : 59506
+      }
+    }, {
+      "uid" : "6010fd2304fa64bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604400712637,
+        "stop" : 1604400765809,
+        "duration" : 53172
+      }
+    }, {
+      "uid" : "1d459240bc3149c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604394117790,
+        "stop" : 1604394187292,
+        "duration" : 69502
+      }
+    }, {
+      "uid" : "d20ad4ec082479c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604371255498,
+        "stop" : 1604371327089,
+        "duration" : 71591
+      }
+    }, {
+      "uid" : "3cb9b1893a3ee50b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604366839278,
+        "stop" : 1604366897314,
+        "duration" : 58036
+      }
+    }, {
+      "uid" : "3e7ef2c72b2dbc43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604318819184,
+        "stop" : 1604318874121,
+        "duration" : 54937
+      }
+    }, {
+      "uid" : "7221ab81d9d9d50b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604311715986,
+        "stop" : 1604311769121,
+        "duration" : 53135
+      }
+    }, {
+      "uid" : "22d7675f4dc328ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604279485936,
+        "stop" : 1604279548221,
+        "duration" : 62285
+      }
+    }, {
+      "uid" : "fd2d882110aeab75",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1604279327593,
+        "stop" : 1604279345096,
+        "duration" : 17503
+      }
+    }, {
+      "uid" : "2075f03be9cf768c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1604278868135,
+        "stop" : 1604278911505,
+        "duration" : 43370
+      }
+    }, {
+      "uid" : "c12195b441cf5cc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603937876930,
+        "stop" : 1603937983891,
+        "duration" : 106961
+      }
+    }, {
+      "uid" : "1764d10ccedcc242",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603860365848,
+        "stop" : 1603860463130,
+        "duration" : 97282
+      }
+    }, {
+      "uid" : "fc323e278784eab3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603851497959,
+        "stop" : 1603851599786,
+        "duration" : 101827
+      }
+    }, {
+      "uid" : "9351317a52f56bb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603850887511,
+        "stop" : 1603850984094,
+        "duration" : 96583
+      }
+    }, {
+      "uid" : "5447e950f2f3d5fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603850082175,
+        "stop" : 1603850179103,
+        "duration" : 96928
+      }
+    }, {
+      "uid" : "3fbc2817eaeadb41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603849173187,
+        "stop" : 1603849269135,
+        "duration" : 95948
+      }
+    }, {
+      "uid" : "631da1c5c2acf151",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603847880876,
+        "stop" : 1603847982722,
+        "duration" : 101846
+      }
+    }, {
+      "uid" : "1c3df3073ddbc296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603847193256,
+        "stop" : 1603847290322,
+        "duration" : 97066
+      }
+    }, {
+      "uid" : "bacaf39b847d4060",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603846495973,
+        "stop" : 1603846593532,
+        "duration" : 97559
+      }
+    }, {
+      "uid" : "5e20ef892ff05db7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603845894800,
+        "stop" : 1603845992159,
+        "duration" : 97359
+      }
+    }, {
+      "uid" : "e5e91d114165b495",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603845327624,
+        "stop" : 1603845449209,
+        "duration" : 121585
+      }
+    }, {
+      "uid" : "ed2cfa51228eb601",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603791645021,
+        "stop" : 1603791741111,
+        "duration" : 96090
+      }
+    }, {
+      "uid" : "9157bffec04a7076",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603791041798,
+        "stop" : 1603791137664,
+        "duration" : 95866
+      }
+    }, {
+      "uid" : "c2cf3af4658a572d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603790472879,
+        "stop" : 1603790568035,
+        "duration" : 95156
+      }
+    }, {
+      "uid" : "28f743c3851ee6ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603789320456,
+        "stop" : 1603789417421,
+        "duration" : 96965
+      }
+    }, {
+      "uid" : "22752293a811ea0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603788974188,
+        "stop" : 1603789076144,
+        "duration" : 101956
+      }
+    }, {
+      "uid" : "b1ce200cc0dc522b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603788113641,
+        "stop" : 1603788216383,
+        "duration" : 102742
+      }
+    }, {
+      "uid" : "f1167cab03eb3ff0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603787237045,
+        "stop" : 1603787335257,
+        "duration" : 98212
+      }
+    }, {
+      "uid" : "d78aaacd98bb8fc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603786593645,
+        "stop" : 1603786696266,
+        "duration" : 102621
+      }
+    }, {
+      "uid" : "483eaffd6f667c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603785403647,
+        "stop" : 1603785499796,
+        "duration" : 96149
+      }
+    }, {
+      "uid" : "d9e77e1d15370524",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603784939437,
+        "stop" : 1603785035228,
+        "duration" : 95791
+      }
+    }, {
+      "uid" : "8d2521a837bd3e7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603784092589,
+        "stop" : 1603784195202,
+        "duration" : 102613
+      }
+    }, {
+      "uid" : "dc4d516e4c23a736",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603783513635,
+        "stop" : 1603783622375,
+        "duration" : 108740
+      }
+    }, {
+      "uid" : "850641d3f2590905",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603783042773,
+        "stop" : 1603783140111,
+        "duration" : 97338
+      }
+    }, {
+      "uid" : "7ff8ae042212f951",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603782528806,
+        "stop" : 1603782630873,
+        "duration" : 102067
+      }
+    }, {
+      "uid" : "af7bdf19cf4c6b1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603781815916,
+        "stop" : 1603781912852,
+        "duration" : 96936
+      }
+    }, {
+      "uid" : "44997601a42af605",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603781325436,
+        "stop" : 1603781449066,
+        "duration" : 123630
+      }
+    }, {
+      "uid" : "fe5114d8bcb19a71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603780854938,
+        "stop" : 1603780958047,
+        "duration" : 103109
+      }
+    }, {
+      "uid" : "d0e737d3b5e4b9da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603780325618,
+        "stop" : 1603780421373,
+        "duration" : 95755
+      }
+    }, {
+      "uid" : "acff6dc6051ad3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603779756289,
+        "stop" : 1603779853283,
+        "duration" : 96994
+      }
+    }, {
+      "uid" : "77574ea8475c5b99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603779088080,
+        "stop" : 1603779196594,
+        "duration" : 108514
+      }
+    }, {
+      "uid" : "149a82b6d11b86f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603777987196,
+        "stop" : 1603778084342,
+        "duration" : 97146
+      }
+    }, {
+      "uid" : "950bacf1b12ecada",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603777245610,
+        "stop" : 1603777342452,
+        "duration" : 96842
+      }
+    }, {
+      "uid" : "a79d166411bba136",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603776666012,
+        "stop" : 1603776785621,
+        "duration" : 119609
+      }
+    }, {
+      "uid" : "bf88acfb170f70af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603776104082,
+        "stop" : 1603776206455,
+        "duration" : 102373
+      }
+    }, {
+      "uid" : "ad55b995a4bce6f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603775527954,
+        "stop" : 1603775622470,
+        "duration" : 94516
+      }
+    }, {
+      "uid" : "d5111e7d85b5c61c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603774983464,
+        "stop" : 1603775088887,
+        "duration" : 105423
+      }
+    }, {
+      "uid" : "93a9b5b0c1c1f56c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603774252998,
+        "stop" : 1603774382565,
+        "duration" : 129567
+      }
+    }, {
+      "uid" : "490e2360d9657b3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603768117903,
+        "stop" : 1603768220182,
+        "duration" : 102279
+      }
+    }, {
+      "uid" : "b00c0249f18810e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603767254083,
+        "stop" : 1603767351651,
+        "duration" : 97568
+      }
+    }, {
+      "uid" : "16679261a8876b82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603766374351,
+        "stop" : 1603766471841,
+        "duration" : 97490
+      }
+    }, {
+      "uid" : "d37c0b22f62009c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603765655187,
+        "stop" : 1603765750549,
+        "duration" : 95362
+      }
+    }, {
+      "uid" : "e050b6b40295b776",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603765389445,
+        "stop" : 1603765492351,
+        "duration" : 102906
+      }
+    }, {
+      "uid" : "277227decfb7aa6e",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=企业证件照\"",
+      "time" : {
+        "start" : 1603765210659,
+        "stop" : 1603765241258,
+        "duration" : 30599
+      }
+    }, {
+      "uid" : "53eb17d75e87af4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603763937630,
+        "stop" : 1603764094500,
+        "duration" : 156870
+      }
+    }, {
+      "uid" : "31301ded60f6b0b0",
+      "status" : "broken",
+      "statusDetails" : "airtest.core.error.TargetNotFoundError: 'Picture Template(C:\\\\Users\\\\shaojunshuai\\\\PycharmProjects\\\\AutoTest-python\\\\Auto_Test\\\\test_data\\\\picture\\\\id_6.png) not found in screen'",
+      "time" : {
+        "start" : 1603763395487,
+        "stop" : 1603763512934,
+        "duration" : 117447
+      }
+    }, {
+      "uid" : "4e71d2245f12c94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603762490958,
+        "stop" : 1603762587772,
+        "duration" : 96814
+      }
+    }, {
+      "uid" : "9d345dd8942f4e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603761699581,
+        "stop" : 1603761796078,
+        "duration" : 96497
+      }
+    }, {
+      "uid" : "632adcb1df3447f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603760578408,
+        "stop" : 1603760675302,
+        "duration" : 96894
+      }
+    }, {
+      "uid" : "3762d14e1fe118a6",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*法人代表归属地's parent/\"",
+      "time" : {
+        "start" : 1603759838371,
+        "stop" : 1603759873032,
+        "duration" : 34661
+      }
+    }, {
+      "uid" : "4d74f2d9a8d1955b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603698459488,
+        "stop" : 1603698563455,
+        "duration" : 103967
+      }
+    }, {
+      "uid" : "8ec829f5d0ad7795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603698078734,
+        "stop" : 1603698183867,
+        "duration" : 105133
+      }
+    }, {
+      "uid" : "efa8c0e4c777d251",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603697113572,
+        "stop" : 1603697220923,
+        "duration" : 107351
+      }
+    }, {
+      "uid" : "c43e405c1aef89b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603696522141,
+        "stop" : 1603696625111,
+        "duration" : 102970
+      }
+    }, {
+      "uid" : "f0f4ae9fa1b0d0b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603695714718,
+        "stop" : 1603695817106,
+        "duration" : 102388
+      }
+    }, {
+      "uid" : "d52ece5e6ec32c8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603675895464,
+        "stop" : 1603675996351,
+        "duration" : 100887
+      }
+    }, {
+      "uid" : "4e137ef82becfcba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603675410209,
+        "stop" : 1603675510492,
+        "duration" : 100283
+      }
+    }, {
+      "uid" : "538efe4fd7a117e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603444201938,
+        "stop" : 1603444303444,
+        "duration" : 101506
+      }
+    }, {
+      "uid" : "a0390f8310368967",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603442788626,
+        "stop" : 1603442907171,
+        "duration" : 118545
+      }
+    }, {
+      "uid" : "2833ee774f26590f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603441885628,
+        "stop" : 1603442008439,
+        "duration" : 122811
+      }
+    }, {
+      "uid" : "b2cc95e53c5ee136",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603441389881,
+        "stop" : 1603441595410,
+        "duration" : 205529
+      }
+    }, {
+      "uid" : "b7d04919ecf488a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603440476167,
+        "stop" : 1603440632348,
+        "duration" : 156181
+      }
+    }, {
+      "uid" : "ba4cf9a0338c5776",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603437039461,
+        "stop" : 1603437091188,
+        "duration" : 51727
+      }
+    }, {
+      "uid" : "e0433d0b43f8eaab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603436438970,
+        "stop" : 1603436490064,
+        "duration" : 51094
+      }
+    }, {
+      "uid" : "ece6b24fb41365dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603435990850,
+        "stop" : 1603436046777,
+        "duration" : 55927
+      }
+    }, {
+      "uid" : "e90e993c7ffb714b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603435359707,
+        "stop" : 1603435415592,
+        "duration" : 55885
+      }
+    }, {
+      "uid" : "5854efed766be70a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603434703371,
+        "stop" : 1603434756690,
+        "duration" : 53319
+      }
+    }, {
+      "uid" : "c372efb701540fe1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603434380294,
+        "stop" : 1603434431768,
+        "duration" : 51474
+      }
+    }, {
+      "uid" : "d65382b5f7d133c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603434084635,
+        "stop" : 1603434137784,
+        "duration" : 53149
+      }
+    }, {
+      "uid" : "555fcefbfc26968b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603432636509,
+        "stop" : 1603432687561,
+        "duration" : 51052
+      }
+    }, {
+      "uid" : "371f4461fc4605b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603432067820,
+        "stop" : 1603432119765,
+        "duration" : 51945
+      }
+    }, {
+      "uid" : "e3a2afa4c921f6e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603430815182,
+        "stop" : 1603430869379,
+        "duration" : 54197
+      }
+    }, {
+      "uid" : "6aff440e018b23e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603429317736,
+        "stop" : 1603429369925,
+        "duration" : 52189
+      }
+    }, {
+      "uid" : "c3c85005b2d9ce91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603422321218,
+        "stop" : 1603422372211,
+        "duration" : 50993
+      }
+    }, {
+      "uid" : "af8123c9b0d3b60c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603421641612,
+        "stop" : 1603421696933,
+        "duration" : 55321
+      }
+    }, {
+      "uid" : "b49f60d3cc13feca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603420865238,
+        "stop" : 1603420927371,
+        "duration" : 62133
+      }
+    }, {
+      "uid" : "6c2f262c80586d10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603417447827,
+        "stop" : 1603417508381,
+        "duration" : 60554
+      }
+    }, {
+      "uid" : "222ad2f2fa4f3563",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603417283229,
+        "stop" : 1603417342481,
+        "duration" : 59252
+      }
+    }, {
+      "uid" : "eee423154f306c54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603416201159,
+        "stop" : 1603416293655,
+        "duration" : 92496
+      }
+    }, {
+      "uid" : "a9c8be7cd38d5409",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603415950539,
+        "stop" : 1603416007629,
+        "duration" : 57090
+      }
+    }, {
+      "uid" : "f0a04150436c3c79",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603415414767,
+        "stop" : 1603415444619,
+        "duration" : 29852
+      }
+    }, {
+      "uid" : "cb8136804341b9d2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603415302586,
+        "stop" : 1603415324570,
+        "duration" : 21984
+      }
+    }, {
+      "uid" : "63f7c2de39ba413a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603415265117,
+        "stop" : 1603415291343,
+        "duration" : 26226
+      }
+    }, {
+      "uid" : "9b0cca309eb6d8a9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 615). Other element would receive the click: <div class=\"formItemContent___4NmH6\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603415179388,
+        "stop" : 1603415203557,
+        "duration" : 24169
+      }
+    }, {
+      "uid" : "a434e039bec84020",
+      "status" : "broken",
+      "statusDetails" : "TypeError: waitUntilClick_xpath() missing 1 required positional argument: 'ByXpath'",
+      "time" : {
+        "start" : 1603415038741,
+        "stop" : 1603415054002,
+        "duration" : 15261
+      }
+    }, {
+      "uid" : "85f849b591c7630",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <h6 class=\"title___2ljL5\">...</h6>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603414840326,
+        "stop" : 1603414856599,
+        "duration" : 16273
+      }
+    }, {
+      "uid" : "f2c577a395709367",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <h6 class=\"title___2ljL5\">...</h6>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603414733253,
+        "stop" : 1603414749525,
+        "duration" : 16272
+      }
+    }, {
+      "uid" : "92447e2d322893a4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <h6 class=\"title___2ljL5\">...</h6>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603414597557,
+        "stop" : 1603414613608,
+        "duration" : 16051
+      }
+    }, {
+      "uid" : "44e61556228f941",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <h6 class=\"title___2ljL5\">...</h6>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603414479786,
+        "stop" : 1603414496111,
+        "duration" : 16325
+      }
+    }, {
+      "uid" : "fd950d0db494f674",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603414396496,
+        "stop" : 1603414449680,
+        "duration" : 53184
+      }
+    }, {
+      "uid" : "bc92cbe37c1e8658",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603413692681,
+        "stop" : 1603413752370,
+        "duration" : 59689
+      }
+    }, {
+      "uid" : "5136f124bddbd67e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603355608528,
+        "stop" : 1603355665694,
+        "duration" : 57166
+      }
+    }, {
+      "uid" : "8912ca1774ab2b13",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603355409884,
+        "stop" : 1603355450875,
+        "duration" : 40991
+      }
+    }, {
+      "uid" : "8bc7de16ecc3300d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603355085247,
+        "stop" : 1603355123259,
+        "duration" : 38012
+      }
+    }, {
+      "uid" : "3ca1f08e617fb3d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603354293434,
+        "stop" : 1603354344251,
+        "duration" : 50817
+      }
+    }, {
+      "uid" : "300fe0ff08747ae2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603353771633,
+        "stop" : 1603353822172,
+        "duration" : 50539
+      }
+    }, {
+      "uid" : "6cc3537c1c5d3a03",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603353664806,
+        "stop" : 1603353714841,
+        "duration" : 50035
+      }
+    }, {
+      "uid" : "43b13bd1dea7ce9f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#businessCertificate\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603353582010,
+        "stop" : 1603353596168,
+        "duration" : 14158
+      }
+    }, {
+      "uid" : "913d82abbe85f05a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603353477601,
+        "stop" : 1603353527567,
+        "duration" : 49966
+      }
+    }, {
+      "uid" : "b771dcc4526b2bd4",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'move_to_element'",
+      "time" : {
+        "start" : 1603353401513,
+        "stop" : 1603353417911,
+        "duration" : 16398
+      }
+    }, {
+      "uid" : "2dadd5dfa78b6f71",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'move_to_element'",
+      "time" : {
+        "start" : 1603353287916,
+        "stop" : 1603353304173,
+        "duration" : 16257
+      }
+    }, {
+      "uid" : "4d1c8e3bc64e4c7",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'move_to_element'",
+      "time" : {
+        "start" : 1603353243766,
+        "stop" : 1603353260177,
+        "duration" : 16411
+      }
+    }, {
+      "uid" : "3dc607c5e8e01669",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'move_to_element'",
+      "time" : {
+        "start" : 1603353167423,
+        "stop" : 1603353183928,
+        "duration" : 16505
+      }
+    }, {
+      "uid" : "b8ea42f921d3f8c4",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'move_to_element'",
+      "time" : {
+        "start" : 1603353112866,
+        "stop" : 1603353128266,
+        "duration" : 15400
+      }
+    }, {
+      "uid" : "2fd06f32982494cd",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'find_element_by_css'",
+      "time" : {
+        "start" : 1603353018397,
+        "stop" : 1603353037740,
+        "duration" : 19343
+      }
+    }, {
+      "uid" : "accb58240167262c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'find_element_by_css'",
+      "time" : {
+        "start" : 1603352794844,
+        "stop" : 1603352810111,
+        "duration" : 15267
+      }
+    }, {
+      "uid" : "2cce459a48433b40",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'find_element_by_css'",
+      "time" : {
+        "start" : 1603352729839,
+        "stop" : 1603352745117,
+        "duration" : 15278
+      }
+    }, {
+      "uid" : "42d38dda5d0dbb42",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603352125135,
+        "stop" : 1603352177414,
+        "duration" : 52279
+      }
+    }, {
+      "uid" : "d210a1854e5a03e8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603351158236,
+        "stop" : 1603351197708,
+        "duration" : 39472
+      }
+    }, {
+      "uid" : "3c31b5a778b959d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603344173315,
+        "stop" : 1603344224438,
+        "duration" : 51123
+      }
+    }, {
+      "uid" : "e16f13877a20a4fb",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#businessCertificate\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603343904506,
+        "stop" : 1603343918504,
+        "duration" : 13998
+      }
+    }, {
+      "uid" : "782b68517df212f2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603343812040,
+        "stop" : 1603343863151,
+        "duration" : 51111
+      }
+    }, {
+      "uid" : "1aa32420019b4315",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603343769901,
+        "stop" : 1603343809881,
+        "duration" : 39980
+      }
+    }, {
+      "uid" : "c7e30da4a2f525b0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603343555864,
+        "stop" : 1603343604734,
+        "duration" : 48870
+      }
+    }, {
+      "uid" : "b4c67e6a8ba10981",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'ActionChains'",
+      "time" : {
+        "start" : 1603343399862,
+        "stop" : 1603343424497,
+        "duration" : 24635
+      }
+    }, {
+      "uid" : "dc2b1ee705d327bb",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'ActionChains'",
+      "time" : {
+        "start" : 1603343354121,
+        "stop" : 1603343369418,
+        "duration" : 15297
+      }
+    }, {
+      "uid" : "b0ac30a0bd708cee",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <div class=\"ant-upload-list ant-upload-list-picture-card\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603342867408,
+        "stop" : 1603342884919,
+        "duration" : 17511
+      }
+    }, {
+      "uid" : "b727eab140821d8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603342518445,
+        "stop" : 1603342569831,
+        "duration" : 51386
+      }
+    }, {
+      "uid" : "dfdc506b0e086fe6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 914). Other element would receive the click: <div class=\"formItemContent___4NmH6\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603336408667,
+        "stop" : 1603336424006,
+        "duration" : 15339
+      }
+    }, {
+      "uid" : "3fa84a358f072312",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <div class=\"formItemContent___4NmH6\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603336278431,
+        "stop" : 1603336295423,
+        "duration" : 16992
+      }
+    }, {
+      "uid" : "e1c0d7b2672d360c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <div class=\"ant-upload-list ant-upload-list-picture-card\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603336187791,
+        "stop" : 1603336207279,
+        "duration" : 19488
+      }
+    }, {
+      "uid" : "a23d6bb443301ea5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 914). Other element would receive the click: <div class=\"formItemContent___4NmH6\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603336060084,
+        "stop" : 1603336076503,
+        "duration" : 16419
+      }
+    }, {
+      "uid" : "4c1f0b59aa391390",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603335830239,
+        "stop" : 1603335889423,
+        "duration" : 59184
+      }
+    }, {
+      "uid" : "96185b2f60109298",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <div class=\"formItemContent___4NmH6\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603335702180,
+        "stop" : 1603335717612,
+        "duration" : 15432
+      }
+    }, {
+      "uid" : "aeded907802ef806",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603330572232,
+        "stop" : 1603330625162,
+        "duration" : 52930
+      }
+    }, {
+      "uid" : "e22a8a46c7c2ca89",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 912). Other element would receive the click: <div class=\"formItemContent___4NmH6\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603330518703,
+        "stop" : 1603330533983,
+        "duration" : 15280
+      }
+    }, {
+      "uid" : "e41241651ccd9a5d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : C:\\Users\\shaojunshuai\\PycharmProjects\\AutoTest-python\\Auto_Test\\test_data\\picture\\id_3.jpg\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603330209128,
+        "stop" : 1603330227453,
+        "duration" : 18325
+      }
+    }, {
+      "uid" : "de7669e09cfa05b3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603329967149,
+        "stop" : 1603330017489,
+        "duration" : 50340
+      }
+    }, {
+      "uid" : "ad2fcbead4130a5f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603329707180,
+        "stop" : 1603329757337,
+        "duration" : 50157
+      }
+    }, {
+      "uid" : "c2786780f4afb55b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603329579784,
+        "stop" : 1603329624409,
+        "duration" : 44625
+      }
+    }, {
+      "uid" : "fbb28975d759ccad",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603329488465,
+        "stop" : 1603329512158,
+        "duration" : 23693
+      }
+    }, {
+      "uid" : "a50eb234a1893b8a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603329338891,
+        "stop" : 1603329362228,
+        "duration" : 23337
+      }
+    }, {
+      "uid" : "9c7dc7a9a34064c1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 718). Other element would receive the click: <div class=\"formItemContent___4NmH6\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603329203259,
+        "stop" : 1603329227844,
+        "duration" : 24585
+      }
+    }, {
+      "uid" : "6b9cf224a0c4ede0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1603329045491,
+        "stop" : 1603329090295,
+        "duration" : 44804
+      }
+    }, {
+      "uid" : "d97a1e60eec84b04",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'list' object has no attribute 'click'",
+      "time" : {
+        "start" : 1603328925986,
+        "stop" : 1603328940878,
+        "duration" : 14892
+      }
+    }, {
+      "uid" : "a00d0cd6c2254e29",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1603328643668,
+        "stop" : 1603328660679,
+        "duration" : 17011
+      }
+    }, {
+      "uid" : "7562f89ed2701ade",
+      "status" : "broken",
+      "statusDetails" : "TypeError: waitUntilClick_xpath() missing 1 required positional argument: 'ByXpath'",
+      "time" : {
+        "start" : 1603328557062,
+        "stop" : 1603328571430,
+        "duration" : 14368
+      }
+    }, {
+      "uid" : "224ce20250fa7e54",
+      "status" : "broken",
+      "statusDetails" : "TypeError: waitUntilClick_xpath() missing 1 required positional argument: 'ByXpath'",
+      "time" : {
+        "start" : 1603328462023,
+        "stop" : 1603328476363,
+        "duration" : 14340
+      }
+    }, {
+      "uid" : "1f5d7e6ee61cc2af",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 914). Other element would receive the click: <div class=\"formItemContent___4NmH6\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603328292646,
+        "stop" : 1603328309513,
+        "duration" : 16867
+      }
+    }, {
+      "uid" : "9a81761b81a1d368",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603328176888,
+        "stop" : 1603328215640,
+        "duration" : 38752
+      }
+    }, {
+      "uid" : "ba756342a0f4a3a8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <div class=\"ant-upload-list ant-upload-list-picture-card\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603328076765,
+        "stop" : 1603328097228,
+        "duration" : 20463
+      }
+    }, {
+      "uid" : "930e993f9e40d328",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <div class=\"ant-upload-list ant-upload-list-picture-card\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603328005744,
+        "stop" : 1603328025236,
+        "duration" : 19492
+      }
+    }, {
+      "uid" : "516d0813f1463e6b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 915). Other element would receive the click: <div class=\"ant-upload-list ant-upload-list-picture-card\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603327922127,
+        "stop" : 1603327940671,
+        "duration" : 18544
+      }
+    }, {
+      "uid" : "50ea4b6ada2da4d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (938, 912). Other element would receive the click: <div class=\"formItemContent___4NmH6\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603327863379,
+        "stop" : 1603327878727,
+        "duration" : 15348
+      }
+    }, {
+      "uid" : "4409c3a12e146872",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.content___17Zvm.contentLogin___1loWO > div > div > div > div > div > button\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1603326225393,
+        "stop" : 1603326235591,
+        "duration" : 10198
+      }
+    }, {
+      "uid" : "c6e93a75322f845c",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602836375931,
+        "stop" : 1602836382331,
+        "duration" : 6400
+      }
+    }, {
+      "uid" : "ad3c474eed6cdb4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602826287061,
+        "stop" : 1602826347564,
+        "duration" : 60503
+      }
+    }, {
+      "uid" : "7da6f013e39b3953",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602825613583,
+        "stop" : 1602825666344,
+        "duration" : 52761
+      }
+    }, {
+      "uid" : "6e71f023fcea1abd",
+      "status" : "broken",
+      "statusDetails" : "TypeError: getVerification() takes 0 positional arguments but 2 were given",
+      "time" : {
+        "start" : 1602825267715,
+        "stop" : 1602825290841,
+        "duration" : 23126
+      }
+    }, {
+      "uid" : "706888955d6d97a8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602824939090,
+        "stop" : 1602824980608,
+        "duration" : 41518
+      }
+    }, {
+      "uid" : "69e163085b3aa143",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602823974810,
+        "stop" : 1602824016371,
+        "duration" : 41561
+      }
+    }, {
+      "uid" : "57c60f2e0f850f8e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602819067132,
+        "stop" : 1602819107621,
+        "duration" : 40489
+      }
+    }, {
+      "uid" : "7554f4a00de148d4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602817805663,
+        "stop" : 1602817823241,
+        "duration" : 17578
+      }
+    }, {
+      "uid" : "35b1287eb4fe8b2d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602817616115,
+        "stop" : 1602817643514,
+        "duration" : 27399
+      }
+    }, {
+      "uid" : "37d45774ae6d3d63",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602817172712,
+        "stop" : 1602817178782,
+        "duration" : 6070
+      }
+    }, {
+      "uid" : "e03a71f4569a0bdf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602748781765,
+        "stop" : 1602748879829,
+        "duration" : 98064
+      }
+    }, {
+      "uid" : "3c57611b4479b44c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602738573738,
+        "stop" : 1602738672066,
+        "duration" : 98328
+      }
+    }, {
+      "uid" : "b4ba714b7d1b2353",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'int' object has no attribute 'decode'",
+      "time" : {
+        "start" : 1602738200495,
+        "stop" : 1602738266694,
+        "duration" : 66199
+      }
+    }, {
+      "uid" : "c0e1f18bc3ad157a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602737886343,
+        "stop" : 1602737986664,
+        "duration" : 100321
+      }
+    }, {
+      "uid" : "321dd30e31698142",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602737518662,
+        "stop" : 1602737523836,
+        "duration" : 5174
+      }
+    }, {
+      "uid" : "ea7656b1472949d6",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602731603552,
+        "stop" : 1602731608679,
+        "duration" : 5127
+      }
+    }, {
+      "uid" : "bf8964efd11bea00",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602731282193,
+        "stop" : 1602731287162,
+        "duration" : 4969
+      }
+    }, {
+      "uid" : "1055c6be4b47a473",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602728292879,
+        "stop" : 1602728389799,
+        "duration" : 96920
+      }
+    }, {
+      "uid" : "356273be347284cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602726213065,
+        "stop" : 1602726315265,
+        "duration" : 102200
+      }
+    }, {
+      "uid" : "c8a2001779239533",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602724896143,
+        "stop" : 1602724984635,
+        "duration" : 88492
+      }
+    }, {
+      "uid" : "1f4fb462095576de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602723377694,
+        "stop" : 1602723464927,
+        "duration" : 87233
+      }
+    }, {
+      "uid" : "bebfb00e4dcb3ea0",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602722773053,
+        "stop" : 1602722777487,
+        "duration" : 4434
+      }
+    }, {
+      "uid" : "4ce154c60db0d3a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602721514976,
+        "stop" : 1602721601501,
+        "duration" : 86525
+      }
+    }, {
+      "uid" : "ce70bc4a9e662a49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602667830074,
+        "stop" : 1602667915705,
+        "duration" : 85631
+      }
+    }, {
+      "uid" : "f516957a0752219c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602667300009,
+        "stop" : 1602667386515,
+        "duration" : 86506
+      }
+    }, {
+      "uid" : "7fb2d64bcd08150e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602666534702,
+        "stop" : 1602666620182,
+        "duration" : 85480
+      }
+    }, {
+      "uid" : "a26f4079d159ddd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602666017462,
+        "stop" : 1602666104223,
+        "duration" : 86761
+      }
+    }, {
+      "uid" : "d39978562d3a1b21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602663601186,
+        "stop" : 1602663605640,
+        "duration" : 4454
+      }
+    }, {
+      "uid" : "ca5ca495da325df6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602663457561,
+        "stop" : 1602663471215,
+        "duration" : 13654
+      }
+    }, {
+      "uid" : "b59f91ec5f699ad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602663165681,
+        "stop" : 1602663170293,
+        "duration" : 4612
+      }
+    }, {
+      "uid" : "dbfb018baa657b51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602663002862,
+        "stop" : 1602663076464,
+        "duration" : 73602
+      }
+    }, {
+      "uid" : "d9d8b31d2419a87c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602661692783,
+        "stop" : 1602661787904,
+        "duration" : 95121
+      }
+    }, {
+      "uid" : "74506bc5d446d5da",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"*对公银行账号\"",
+      "time" : {
+        "start" : 1602661566570,
+        "stop" : 1602661646742,
+        "duration" : 80172
+      }
+    }, {
+      "uid" : "b2a907c0881233c8",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实控人身份's parent/\"",
+      "time" : {
+        "start" : 1602661403848,
+        "stop" : 1602661449373,
+        "duration" : 45525
+      }
+    }, {
+      "uid" : "91598aca4d3caf62",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实控人身份's parent/\"",
+      "time" : {
+        "start" : 1602661290968,
+        "stop" : 1602661335502,
+        "duration" : 44534
+      }
+    }, {
+      "uid" : "e0bc1e3f8a341dcf",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602661248366,
+        "stop" : 1602661256601,
+        "duration" : 8235
+      }
+    }, {
+      "uid" : "8a884422244ac425",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602661193981,
+        "stop" : 1602661216083,
+        "duration" : 22102
+      }
+    }, {
+      "uid" : "5216fd9936c6c970",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=对公开户银行's parent/\"",
+      "time" : {
+        "start" : 1602661071551,
+        "stop" : 1602661071861,
+        "duration" : 310
+      }
+    }, {
+      "uid" : "baab85c9263e12c0",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=对公开户银行's parent/\"",
+      "time" : {
+        "start" : 1602660943248,
+        "stop" : 1602660958649,
+        "duration" : 15401
+      }
+    }, {
+      "uid" : "6961af61c127449e",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=对公开户银行's parent/\"",
+      "time" : {
+        "start" : 1602660813465,
+        "stop" : 1602660840766,
+        "duration" : 27301
+      }
+    }, {
+      "uid" : "e04f088e0d8fa24",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实控制人婚姻状况's parent/\"",
+      "time" : {
+        "start" : 1602660776865,
+        "stop" : 1602660777122,
+        "duration" : 257
+      }
+    }, {
+      "uid" : "20ec6e4fe7cf8838",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实控制人婚姻状况's parent/\"",
+      "time" : {
+        "start" : 1602660735484,
+        "stop" : 1602660735706,
+        "duration" : 222
+      }
+    }, {
+      "uid" : "e35e16de0b237417",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人婚姻状况's parent/\"",
+      "time" : {
+        "start" : 1602660622676,
+        "stop" : 1602660673944,
+        "duration" : 51268
+      }
+    }, {
+      "uid" : "f36736492de164c1",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实控人身份's parent/\"",
+      "time" : {
+        "start" : 1602660566567,
+        "stop" : 1602660593352,
+        "duration" : 26785
+      }
+    }, {
+      "uid" : "f1c3f8780794a281",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实控人身份's parent/\"",
+      "time" : {
+        "start" : 1602660542936,
+        "stop" : 1602660544888,
+        "duration" : 1952
+      }
+    }, {
+      "uid" : "17b76871cc6557ad",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实控制人身份's parent\"",
+      "time" : {
+        "start" : 1602660241883,
+        "stop" : 1602660242100,
+        "duration" : 217
+      }
+    }, {
+      "uid" : "fdd90ee273a94d5d",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实控制人身份's parent>\"",
+      "time" : {
+        "start" : 1602660195479,
+        "stop" : 1602660195751,
+        "duration" : 272
+      }
+    }, {
+      "uid" : "6870da73bbb1c67f",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实控制人身份's parent/\"",
+      "time" : {
+        "start" : 1602660083787,
+        "stop" : 1602660084064,
+        "duration" : 277
+      }
+    }, {
+      "uid" : "4fee07f14753e496",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人身份's parent/\"",
+      "time" : {
+        "start" : 1602660019171,
+        "stop" : 1602660019792,
+        "duration" : 621
+      }
+    }, {
+      "uid" : "c591535814e58f29",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人身份's parent/>\"",
+      "time" : {
+        "start" : 1602659964086,
+        "stop" : 1602659972221,
+        "duration" : 8135
+      }
+    }, {
+      "uid" : "9515642cf4c00edf",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人身份's parent/\"",
+      "time" : {
+        "start" : 1602659909469,
+        "stop" : 1602659909725,
+        "duration" : 256
+      }
+    }, {
+      "uid" : "61b3576381cf32e7",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人身份's parent/>\"",
+      "time" : {
+        "start" : 1602659821950,
+        "stop" : 1602659822145,
+        "duration" : 195
+      }
+    }, {
+      "uid" : "72b580ca2adb71a2",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人身份's parent/\"",
+      "time" : {
+        "start" : 1602659743167,
+        "stop" : 1602659743415,
+        "duration" : 248
+      }
+    }, {
+      "uid" : "8aeb03511f775c2d",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人身份's parent>\"",
+      "time" : {
+        "start" : 1602659691050,
+        "stop" : 1602659691309,
+        "duration" : 259
+      }
+    }, {
+      "uid" : "2f6d5231ee942cac",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人身份's parent/\"",
+      "time" : {
+        "start" : 1602659652961,
+        "stop" : 1602659653501,
+        "duration" : 540
+      }
+    }, {
+      "uid" : "231a3e8787362314",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人身份's parent/\"",
+      "time" : {
+        "start" : 1602659617763,
+        "stop" : 1602659618015,
+        "duration" : 252
+      }
+    }, {
+      "uid" : "10f506d00c737040",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人身份's parent/\"",
+      "time" : {
+        "start" : 1602659419001,
+        "stop" : 1602659419254,
+        "duration" : 253
+      }
+    }, {
+      "uid" : "3c34af79a84cadc3",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*实际控制人身份's parent/\"",
+      "time" : {
+        "start" : 1602659262671,
+        "stop" : 1602659340423,
+        "duration" : 77752
+      }
+    }, {
+      "uid" : "fe7d66533c74db2b",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602659191991,
+        "stop" : 1602659214661,
+        "duration" : 22670
+      }
+    }, {
+      "uid" : "17e6f9c0bf5d6e3d",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602659137073,
+        "stop" : 1602659158689,
+        "duration" : 21616
+      }
+    }, {
+      "uid" : "5cef97cde6203e3d",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=我是\"",
+      "time" : {
+        "start" : 1602658398477,
+        "stop" : 1602658401013,
+        "duration" : 2536
+      }
+    }, {
+      "uid" : "f98381c28f22c208",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602657689079,
+        "stop" : 1602657700668,
+        "duration" : 11589
+      }
+    }, {
+      "uid" : "b7073e5a6a23e383",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=邮件编码\"",
+      "time" : {
+        "start" : 1602657517669,
+        "stop" : 1602657527727,
+        "duration" : 10058
+      }
+    }, {
+      "uid" : "cf2598d73a9e1439",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"Scroll View\"",
+      "time" : {
+        "start" : 1602657438119,
+        "stop" : 1602657448308,
+        "duration" : 10189
+      }
+    }, {
+      "uid" : "2e51d297429b5435",
+      "status" : "broken",
+      "statusDetails" : "TypeError: swipe() missing 1 required positional argument: 'p1'",
+      "time" : {
+        "start" : 1602657332751,
+        "stop" : 1602657332751,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "51ed3687b5fbfceb",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602656378110,
+        "stop" : 1602656398789,
+        "duration" : 20679
+      }
+    }, {
+      "uid" : "7d1a6d3a379404fa",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602656310703,
+        "stop" : 1602656331047,
+        "duration" : 20344
+      }
+    }, {
+      "uid" : "334678aea348460c",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1602654742096,
+        "stop" : 1602654742510,
+        "duration" : 414
+      }
+    }, {
+      "uid" : "8cbdaed5b1ad3e77",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1602654716415,
+        "stop" : 1602654716858,
+        "duration" : 443
+      }
+    }, {
+      "uid" : "cd00c3cf2681f87c",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1602654601576,
+        "stop" : 1602654602004,
+        "duration" : 428
+      }
+    }, {
+      "uid" : "85664b0d37278145",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602654544150,
+        "stop" : 1602654544599,
+        "duration" : 449
+      }
+    }, {
+      "uid" : "d6286653d585adee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602654112314,
+        "stop" : 1602654143304,
+        "duration" : 30990
+      }
+    }, {
+      "uid" : "4d031f633ab5c69f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602654040397,
+        "stop" : 1602654072176,
+        "duration" : 31779
+      }
+    }, {
+      "uid" : "e9f8bd0d9a13b0ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602653885559,
+        "stop" : 1602653916228,
+        "duration" : 30669
+      }
+    }, {
+      "uid" : "ee5d89f22ff9bfe1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602653443095,
+        "stop" : 1602653477692,
+        "duration" : 34597
+      }
+    }, {
+      "uid" : "a99f562c68f3d8d3",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602652934323,
+        "stop" : 1602652953905,
+        "duration" : 19582
+      }
+    }, {
+      "uid" : "947dce54e3ff18f4",
+      "status" : "broken",
+      "statusDetails" : "ValueError: Name selector should only be string types. Got UIObjectProxy of \"text=*邮政编码's parent/[1]\"",
+      "time" : {
+        "start" : 1602651801569,
+        "stop" : 1602651819730,
+        "duration" : 18161
+      }
+    }, {
+      "uid" : "f66e2b06f526320a",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602651688638,
+        "stop" : 1602651707132,
+        "duration" : 18494
+      }
+    }, {
+      "uid" : "8ac73c2ddf687244",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'UIObjectProxy' object has no attribute 'text'",
+      "time" : {
+        "start" : 1602651305598,
+        "stop" : 1602651323765,
+        "duration" : 18167
+      }
+    }, {
+      "uid" : "f1203b45ef678ba0",
+      "status" : "broken",
+      "statusDetails" : "hrpc.exceptions.RpcRemoteException: com.netease.open.libpoco.sdk.exceptions.UnableToSetAttributeException: Unable to set attribute \"text\" of node \"android.view.accessibility.AccessibilityNodeInfo@6168d; boundsInParent: Rect(141, 12 - 342, 35); boundsInScreen: Rect(282, 385 - 684, 431); packageName: com.tencent.mm; className: android.view.View; text: ; error: ; maxTextLength: -1; contentDescription: null; viewIdResName: _n_570; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_NEXT_HTML_ELEMENT - null, AccessibilityAction: ACTION_PREVIOUS_HTML_ELEMENT - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null, AccessibilityAction: ACTION_CONTEXT_CLICK - null]\", because of \"this node is not editable\"\n\n|--   Remote Traceback   --|\n\ncom.netease.open.libpoco.sdk.exceptions.UnableToSetAttributeException: Unable to set attribute \"text\" of node \"android.view.accessibility.AccessibilityNodeInfo@6168d; boundsInParent: Rect(141, 12 - 342, 35); boundsInScreen: Rect(282, 385 - 684, 431); packageName: com.tencent.mm; className: android.view.View; text: ; error: ; maxTextLength: -1; contentDescription: null; viewIdResName: _n_570; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_NEXT_HTML_ELEMENT - null, AccessibilityAction: ACTION_PREVIOUS_HTML_ELEMENT - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null, AccessibilityAction: ACTION_CONTEXT_CLICK - null]\", because of \"this node is not editable\"\n\tat com.netease.open.libpoco.Node.setAttr(Node.java:67)\n\tat com.netease.open.libpoco.sdk.Attributor.setAttr(Attributor.java:32)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.netease.open.hrpc.backend.RpcServer.onRequest(RpcServer.java:171)\n\tat com.netease.open.hrpc.backend.RpcServer.serve(RpcServer.java:57)\n\tat fi.iki.elonen.NanoHTTPD$HTTPSession.execute(NanoHTTPD.java:840)\n\tat fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:189)\n\tat java.lang.Thread.run(Thread.java:760)\n\n\n|--   Remote Traceback end   --|",
+      "time" : {
+        "start" : 1602645203942,
+        "stop" : 1602645229491,
+        "duration" : 25549
+      }
+    }, {
+      "uid" : "979f123cc8044bdd",
+      "status" : "broken",
+      "statusDetails" : "hrpc.exceptions.RpcRemoteException: com.netease.open.libpoco.sdk.exceptions.UnableToSetAttributeException: Unable to set attribute \"text\" of node \"android.view.accessibility.AccessibilityNodeInfo@b3765; boundsInParent: Rect(141, 12 - 342, 36); boundsInScreen: Rect(282, 902 - 684, 950); packageName: com.tencent.mm; className: android.view.View; text: ; error: ; maxTextLength: -1; contentDescription: null; viewIdResName: _n_1381; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_NEXT_HTML_ELEMENT - null, AccessibilityAction: ACTION_PREVIOUS_HTML_ELEMENT - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null, AccessibilityAction: ACTION_CONTEXT_CLICK - null]\", because of \"this node is not editable\"\n\n|--   Remote Traceback   --|\n\ncom.netease.open.libpoco.sdk.exceptions.UnableToSetAttributeException: Unable to set attribute \"text\" of node \"android.view.accessibility.AccessibilityNodeInfo@b3765; boundsInParent: Rect(141, 12 - 342, 36); boundsInScreen: Rect(282, 902 - 684, 950); packageName: com.tencent.mm; className: android.view.View; text: ; error: ; maxTextLength: -1; contentDescription: null; viewIdResName: _n_1381; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_NEXT_HTML_ELEMENT - null, AccessibilityAction: ACTION_PREVIOUS_HTML_ELEMENT - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null, AccessibilityAction: ACTION_CONTEXT_CLICK - null]\", because of \"this node is not editable\"\n\tat com.netease.open.libpoco.Node.setAttr(Node.java:67)\n\tat com.netease.open.libpoco.sdk.Attributor.setAttr(Attributor.java:32)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.netease.open.hrpc.backend.RpcServer.onRequest(RpcServer.java:171)\n\tat com.netease.open.hrpc.backend.RpcServer.serve(RpcServer.java:57)\n\tat fi.iki.elonen.NanoHTTPD$HTTPSession.execute(NanoHTTPD.java:840)\n\tat fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:189)\n\tat java.lang.Thread.run(Thread.java:760)\n\n\n|--   Remote Traceback end   --|",
+      "time" : {
+        "start" : 1602644296381,
+        "stop" : 1602644296842,
+        "duration" : 461
+      }
+    }, {
+      "uid" : "ae307c0f2ce3583d",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602644095334,
+        "stop" : 1602644097103,
+        "duration" : 1769
+      }
+    }, {
+      "uid" : "20bae90d94a4ca47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602643984529,
+        "stop" : 1602643995302,
+        "duration" : 10773
+      }
+    }, {
+      "uid" : "247c0738b43b4822",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602643760612,
+        "stop" : 1602643760723,
+        "duration" : 111
+      }
+    }, {
+      "uid" : "26981e297f3ab4eb",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602643151640,
+        "stop" : 1602643151712,
+        "duration" : 72
+      }
+    }, {
+      "uid" : "ec57c6309b02f28e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602642810818,
+        "stop" : 1602642852043,
+        "duration" : 41225
+      }
+    }, {
+      "uid" : "403cca54f21224f",
+      "status" : "broken",
+      "statusDetails" : "hrpc.exceptions.RpcRemoteException: com.netease.open.libpoco.sdk.exceptions.UnableToSetAttributeException: Unable to set attribute \"text\" of node \"android.view.accessibility.AccessibilityNodeInfo@4ba16; boundsInParent: Rect(141, 12 - 342, 36); boundsInScreen: Rect(282, 902 - 684, 950); packageName: com.tencent.mm; className: android.view.View; text: ; error: ; maxTextLength: -1; contentDescription: null; viewIdResName: _n_541; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_NEXT_HTML_ELEMENT - null, AccessibilityAction: ACTION_PREVIOUS_HTML_ELEMENT - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null, AccessibilityAction: ACTION_CONTEXT_CLICK - null]\", because of \"this node is not editable\"\n\n|--   Remote Traceback   --|\n\ncom.netease.open.libpoco.sdk.exceptions.UnableToSetAttributeException: Unable to set attribute \"text\" of node \"android.view.accessibility.AccessibilityNodeInfo@4ba16; boundsInParent: Rect(141, 12 - 342, 36); boundsInScreen: Rect(282, 902 - 684, 950); packageName: com.tencent.mm; className: android.view.View; text: ; error: ; maxTextLength: -1; contentDescription: null; viewIdResName: _n_541; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_NEXT_HTML_ELEMENT - null, AccessibilityAction: ACTION_PREVIOUS_HTML_ELEMENT - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null, AccessibilityAction: ACTION_CONTEXT_CLICK - null]\", because of \"this node is not editable\"\n\tat com.netease.open.libpoco.Node.setAttr(Node.java:67)\n\tat com.netease.open.libpoco.sdk.Attributor.setAttr(Attributor.java:32)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.netease.open.hrpc.backend.RpcServer.onRequest(RpcServer.java:171)\n\tat com.netease.open.hrpc.backend.RpcServer.serve(RpcServer.java:57)\n\tat fi.iki.elonen.NanoHTTPD$HTTPSession.execute(NanoHTTPD.java:840)\n\tat fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:189)\n\tat java.lang.Thread.run(Thread.java:760)\n\n\n|--   Remote Traceback end   --|",
+      "time" : {
+        "start" : 1602642533380,
+        "stop" : 1602642537863,
+        "duration" : 4483
+      }
+    }, {
+      "uid" : "c26c2ce00fb2d1a9",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'UIObjectProxy' object has no attribute 'text'",
+      "time" : {
+        "start" : 1602642452107,
+        "stop" : 1602642459131,
+        "duration" : 7024
+      }
+    }, {
+      "uid" : "2b64ef276d26ffa5",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'UIObjectProxy' object has no attribute 'text'",
+      "time" : {
+        "start" : 1602642384674,
+        "stop" : 1602642414882,
+        "duration" : 30208
+      }
+    }, {
+      "uid" : "b144626f2c0b6b7e",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602642351510,
+        "stop" : 1602642358091,
+        "duration" : 6581
+      }
+    }, {
+      "uid" : "f6524f53cb4700dd",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602642312999,
+        "stop" : 1602642320056,
+        "duration" : 7057
+      }
+    }, {
+      "uid" : "a3cee774cb8d6cc8",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602642276155,
+        "stop" : 1602642283113,
+        "duration" : 6958
+      }
+    }, {
+      "uid" : "a61699238a448e73",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*邮政编码's parent/\"",
+      "time" : {
+        "start" : 1602642177659,
+        "stop" : 1602642197364,
+        "duration" : 19705
+      }
+    }, {
+      "uid" : "d5856aade5bf327e",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"android.widget.LinearLayout>com.tencent.mm:id/dm6/com.tencent.mm:id/f4b\"",
+      "time" : {
+        "start" : 1602641921255,
+        "stop" : 1602641936229,
+        "duration" : 14974
+      }
+    }, {
+      "uid" : "96e943269aa8aa01",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'UIObjectProxy' object has no attribute 'text'",
+      "time" : {
+        "start" : 1602641553432,
+        "stop" : 1602641560995,
+        "duration" : 7563
+      }
+    }, {
+      "uid" : "3095f76fb84fc668",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'UIObjectProxy' object has no attribute 'text'",
+      "time" : {
+        "start" : 1602641447931,
+        "stop" : 1602641453003,
+        "duration" : 5072
+      }
+    }, {
+      "uid" : "24670fa93a5d96fe",
+      "status" : "broken",
+      "statusDetails" : "hrpc.exceptions.RpcRemoteException: com.netease.open.libpoco.sdk.exceptions.UnableToSetAttributeException: Unable to set attribute \"text\" of node \"android.view.accessibility.AccessibilityNodeInfo@c4d39; boundsInParent: Rect(141, 12 - 342, 35); boundsInScreen: Rect(282, 594 - 684, 640); packageName: com.tencent.mm; className: android.view.View; text: ; error: ; maxTextLength: -1; contentDescription: null; viewIdResName: _n_676; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_NEXT_HTML_ELEMENT - null, AccessibilityAction: ACTION_PREVIOUS_HTML_ELEMENT - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null, AccessibilityAction: ACTION_CONTEXT_CLICK - null]\", because of \"this node is not editable\"\n\n|--   Remote Traceback   --|\n\ncom.netease.open.libpoco.sdk.exceptions.UnableToSetAttributeException: Unable to set attribute \"text\" of node \"android.view.accessibility.AccessibilityNodeInfo@c4d39; boundsInParent: Rect(141, 12 - 342, 35); boundsInScreen: Rect(282, 594 - 684, 640); packageName: com.tencent.mm; className: android.view.View; text: ; error: ; maxTextLength: -1; contentDescription: null; viewIdResName: _n_676; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_NEXT_HTML_ELEMENT - null, AccessibilityAction: ACTION_PREVIOUS_HTML_ELEMENT - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null, AccessibilityAction: ACTION_CONTEXT_CLICK - null]\", because of \"this node is not editable\"\n\tat com.netease.open.libpoco.Node.setAttr(Node.java:67)\n\tat com.netease.open.libpoco.sdk.Attributor.setAttr(Attributor.java:32)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.netease.open.hrpc.backend.RpcServer.onRequest(RpcServer.java:171)\n\tat com.netease.open.hrpc.backend.RpcServer.serve(RpcServer.java:57)\n\tat fi.iki.elonen.NanoHTTPD$HTTPSession.execute(NanoHTTPD.java:840)\n\tat fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:189)\n\tat java.lang.Thread.run(Thread.java:760)\n\n\n|--   Remote Traceback end   --|",
+      "time" : {
+        "start" : 1602641306528,
+        "stop" : 1602641317692,
+        "duration" : 11164
+      }
+    }, {
+      "uid" : "94b305f4926bfe0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602641177592,
+        "stop" : 1602641198782,
+        "duration" : 21190
+      }
+    }, {
+      "uid" : "18c8e6e8fd8befc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602640887230,
+        "stop" : 1602640892553,
+        "duration" : 5323
+      }
+    }, {
+      "uid" : "7482689a54335061",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602640855128,
+        "stop" : 1602640855521,
+        "duration" : 393
+      }
+    }, {
+      "uid" : "3ab3bd7100582fee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602640375450,
+        "stop" : 1602640396871,
+        "duration" : 21421
+      }
+    }, {
+      "uid" : "ef5a43ae84df0eef",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602640267450,
+        "stop" : 1602640274258,
+        "duration" : 6808
+      }
+    }, {
+      "uid" : "c929fdbfe52bba67",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=*上传营业执照's parent/[2]/\"",
+      "time" : {
+        "start" : 1602640049931,
+        "stop" : 1602640050228,
+        "duration" : 297
+      }
+    }, {
+      "uid" : "6d3ecb1afd34c926",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'int' object is not iterable",
+      "time" : {
+        "start" : 1602639714499,
+        "stop" : 1602639714634,
+        "duration" : 135
+      }
+    }, {
+      "uid" : "ea6c61fc0aa72ed7",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'int' object is not iterable",
+      "time" : {
+        "start" : 1602639655870,
+        "stop" : 1602639656041,
+        "duration" : 171
+      }
+    }, {
+      "uid" : "56315c368f20c90c",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"type=android.widget.Image/\"",
+      "time" : {
+        "start" : 1602637878529,
+        "stop" : 1602637878651,
+        "duration" : 122
+      }
+    }, {
+      "uid" : "74cc91425b90d751",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"type=android.widget.Image/\"",
+      "time" : {
+        "start" : 1602637855064,
+        "stop" : 1602637855267,
+        "duration" : 203
+      }
+    }, {
+      "uid" : "59efe59fb9ab265",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"type=android.widget.Image/\"",
+      "time" : {
+        "start" : 1602637785235,
+        "stop" : 1602637806167,
+        "duration" : 20932
+      }
+    }, {
+      "uid" : "636871319817cc09",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"android.widget.FrameLayout/android.widget.FrameLayout>android:id/content/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.FrameLayout[1]>android.view.ViewGroup/android.widget.FrameLayout>_n_5651\"",
+      "time" : {
+        "start" : 1602579836536,
+        "stop" : 1602579876212,
+        "duration" : 39676
+      }
+    }, {
+      "uid" : "68314b19d385d0fb",
+      "status" : "broken",
+      "statusDetails" : "TypeError: parent() got an unexpected keyword argument 'type'",
+      "time" : {
+        "start" : 1602579147311,
+        "stop" : 1602579156817,
+        "duration" : 9506
+      }
+    }, {
+      "uid" : "fe614fa531fd7f7",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=上传营业执照's parent/\"",
+      "time" : {
+        "start" : 1602578883748,
+        "stop" : 1602578898527,
+        "duration" : 14779
+      }
+    }, {
+      "uid" : "a26e3d8e76d326ec",
+      "status" : "broken",
+      "statusDetails" : "poco.exceptions.PocoNoSuchNodeException: Cannot find any visible node by query UIObjectProxy of \"text=上传营业执照's parent\"",
+      "time" : {
+        "start" : 1602577524662,
+        "stop" : 1602577542839,
+        "duration" : 18177
+      }
+    }, {
+      "uid" : "71267a45026f13ab",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1602577141302,
+        "stop" : 1602577166233,
+        "duration" : 24931
+      }
+    }, {
+      "uid" : "3a8009f9c2f24c21",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'is_displayed'",
+      "time" : {
+        "start" : 1602465532421,
+        "stop" : 1602465544168,
+        "duration" : 11747
+      }
+    }, {
+      "uid" : "5f0a7ab8f507e380",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602223135654,
+        "stop" : 1602223192572,
+        "duration" : 56918
+      }
+    }, {
+      "uid" : "8ec334284e915b7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602222719160,
+        "stop" : 1602222767876,
+        "duration" : 48716
+      }
+    }, {
+      "uid" : "76ceba0e6a596791",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602222316210,
+        "stop" : 1602222365502,
+        "duration" : 49292
+      }
+    }, {
+      "uid" : "834bdd75acc3e9af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602222155586,
+        "stop" : 1602222207154,
+        "duration" : 51568
+      }
+    }, {
+      "uid" : "f29cd7ecdc70b633",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602221532504,
+        "stop" : 1602221586130,
+        "duration" : 53626
+      }
+    }, {
+      "uid" : "130265ec08bb7acf",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"ant-select-item-option-content\">...</div> is not clickable at point (929, 915). Other element would receive the click: <div class=\"formItemContent___4NmH6\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602220877479,
+        "stop" : 1602220892639,
+        "duration" : 15160
+      }
+    }, {
+      "uid" : "5d0bf14d78a6c8ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602220683921,
+        "stop" : 1602220732461,
+        "duration" : 48540
+      }
+    }, {
+      "uid" : "60a02cb9849d7db3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602220218453,
+        "stop" : 1602220267454,
+        "duration" : 49001
+      }
+    }, {
+      "uid" : "e53ed41df589224a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18362 x86_64)",
+      "time" : {
+        "start" : 1602219767066,
+        "stop" : 1602219812855,
+        "duration" : 45789
+      }
+    }, {
+      "uid" : "11a3c8945d504fc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602215492437,
+        "stop" : 1602215561288,
+        "duration" : 68851
+      }
+    }, {
+      "uid" : "85137a2057b28242",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602215104175,
+        "stop" : 1602215152187,
+        "duration" : 48012
+      }
+    }, {
+      "uid" : "a0ee53ed5ec5e065",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602213082779,
+        "stop" : 1602213131831,
+        "duration" : 49052
+      }
+    }, {
+      "uid" : "c8336b4dc7243b2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602212580462,
+        "stop" : 1602212629236,
+        "duration" : 48774
+      }
+    }, {
+      "uid" : "4179d9890aa39394",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602211056473,
+        "stop" : 1602211106936,
+        "duration" : 50463
+      }
+    }, {
+      "uid" : "2405457f00de4380",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602210700479,
+        "stop" : 1602210756655,
+        "duration" : 56176
+      }
+    }, {
+      "uid" : "50bc6eb60713f51a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602210430277,
+        "stop" : 1602210480516,
+        "duration" : 50239
+      }
+    }, {
+      "uid" : "580a22cd79885019",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1602210318411,
+        "stop" : 1602210333516,
+        "duration" : 15105
+      }
+    }, {
+      "uid" : "beab23b9221397af",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1602210235375,
+        "stop" : 1602210250649,
+        "duration" : 15274
+      }
+    }, {
+      "uid" : "6e338198cfb4688c",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1602210147411,
+        "stop" : 1602210163122,
+        "duration" : 15711
+      }
+    }, {
+      "uid" : "f8697376ab1441fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601191602089,
+        "stop" : 1601191657535,
+        "duration" : 55446
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "dece7779f1f848d3.json",
+  "parameterValues" : [ ]
+}

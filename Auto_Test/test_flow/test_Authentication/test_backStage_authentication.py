@@ -12,7 +12,7 @@ from common.BaseFunction import actionChainsClick, waitUntilClick, scrollText, w
 from common.dbLink import getPhoneMessage, deleteOrgInfor, getVerification, flushDb, getVerification_ui
 from flow_path.path_Tripartite_interaction import path_Tripartite_interaction
 from flow_path.path_backStage_authentication import path_backStage_authentication
-from run_all_case import yamldict, logger
+from run_all_case import yamldict, logger, driverPath
 from test_flow.test_Authentication.test_backStage_examine import backStageLogin
 from test_flow.test_Authentication.test_login import companyPassForget
 from selenium.webdriver.support import expected_conditions as EC
@@ -172,7 +172,7 @@ def test_backStageActCreate():
     def_name = sys._getframe().f_code.co_name
     logger.info("开始执行脚本%s:\n", def_name)
 
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(executable_path=driverPath)
     driver.maximize_window()
     driver.get(url_back)
 
@@ -280,7 +280,7 @@ def test_backStage_authentication():
     def_name = sys._getframe().f_code.co_name
     logger.info("开始执行脚本%s:\n", def_name)
 
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(executable_path=driverPath)
     driver.maximize_window()
     driver.get(url_back)
     # 银行密码修改

@@ -1,0 +1,96 @@
+{
+  "uid" : "2f7d5b4c7032c02d",
+  "name" : "test_companyRegister",
+  "fullName" : "test_flow.test_Authentication.test_login#test_companyRegister",
+  "historyId" : "dd0646a5c1a798e47c4f25747509dea9",
+  "time" : {
+    "start" : 1604540839798,
+    "stop" : 1604540853516,
+    "duration" : 13718
+  },
+  "description" : "测试 http://10.10.128.152:10053/user/register 中小微企业注册流程",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/user/register 中小微企业注册流程</p>\n",
+  "status" : "broken",
+  "statusMessage" : "redis.exceptions.ResponseError: Command # 9 (GET path:plan:query:customer0kgzxfdcc-0175-756d02c9-8a8a0000-0006) of pipeline caused error: WRONGTYPE Operation against a key holding the wrong kind of value",
+  "statusTrace" : "@pytest.mark.run(order=1)\n    @allure.severity(\"blocker\")\n    @allure.description(\"测试 http://10.10.128.152:10053/user/register 中小微企业注册流程\")\n    @allure.testcase(\"http://10.10.128.152:10053/user/register\", \"注册 \uD83D\uDC47\")\n    def test_companyRegister():\n        if runMode == 'UI':\n            def_name = sys._getframe().f_code.co_name\n            test_Assert = Assert.Assertions(def_name)\n            logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n            driver = webdriver.Chrome()\n            driver.maximize_window()\n            driver.get(url_ui_register)\n            # db中清除已注册的账户\n            deleteInforMobile()\n            logger.info(\"对已注册的账户进行删除操作\")\n            sleep(1)\n            waitUntilClick(driver, loginOn.btn_agree_css.value)\n            driver.find_element_by_css_selector(loginOn.btn_agree_css.value).click()\n    \n            waitUntilDisplay(driver, loginOn.input_act_css.value)\n            driver.find_element_by_css_selector(loginOn.input_act_css.value).send_keys(act)\n            driver.find_element_by_css_selector(loginOn.input_pwd_css.value).send_keys(pwd)\n            driver.find_element_by_css_selector(loginOn.input_conPwd_css.value).send_keys(pwd)\n            waitUntilClick(driver, loginOn.btn_phoneCode_css.value)\n            sleep(2)\n            flushDb()\n            driver.find_element_by_css_selector(loginOn.btn_phoneCode_css.value).click()\n    \n            while 1:\n>               message = getPhoneMessage().get(\"regMes\")\n\ntest_flow\\test_Authentication\\test_login.py:79: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ncommon\\dbLink.py:202: in getPhoneMessage\n    for (k, v) in zip(key_list, pipe.execute()):\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\redis\\client.py:4019: in execute\n    return execute(conn, stack, raise_on_error)\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\redis\\client.py:3934: in _execute_transaction\n    self.raise_first_error(commands, response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = Pipeline<ConnectionPool<Connection<host=10.10.128.128,port=6739,db=3>>>\ncommands = [(('GET', b'order:track:0kgvxvvsj-0175-757864e2-8a8a0000-000b'), {}), (('GET', b'order:track:0kgw0dz93-0175-757864e2-8...ct:key::SimpleKey [chengtay-zcd,loan.status]'), {}), (('GET', b'token:05ee021e-aca1-4a5d-874c-555480c46c48'), {}), ...]\nresponse = [b'281192750:3680', b'281192750:3679', b'{\"@class\":\"cn.chengtay.zcd.service.debt.pojo.DebtBO\",\"amount\":[\"java.math.Big...l.Date\",1604540625699],\"expireTime\":[\"java.util.Date\",1604562225699],\"appClaims\":{\"@class\":\"java.util.HashMap\"}}', ...]\n\n    def raise_first_error(self, commands, response):\n        for i, r in enumerate(response):\n            if isinstance(r, ResponseError):\n                self.annotate_exception(r, i + 1, commands[i][0])\n>               raise r\nE               redis.exceptions.ResponseError: Command # 9 (GET path:plan:query:customer0kgzxfdcc-0175-756d02c9-8a8a0000-0006) of pipeline caused error: WRONGTYPE Operation against a key holding the wrong kind of value\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\redis\\client.py:3968: ResponseError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/user/register 中小微企业注册流程",
+    "status" : "broken",
+    "statusMessage" : "redis.exceptions.ResponseError: Command # 9 (GET path:plan:query:customer0kgzxfdcc-0175-756d02c9-8a8a0000-0006) of pipeline caused error: WRONGTYPE Operation against a key holding the wrong kind of value",
+    "statusTrace" : "@pytest.mark.run(order=1)\n    @allure.severity(\"blocker\")\n    @allure.description(\"测试 http://10.10.128.152:10053/user/register 中小微企业注册流程\")\n    @allure.testcase(\"http://10.10.128.152:10053/user/register\", \"注册 \uD83D\uDC47\")\n    def test_companyRegister():\n        if runMode == 'UI':\n            def_name = sys._getframe().f_code.co_name\n            test_Assert = Assert.Assertions(def_name)\n            logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n            driver = webdriver.Chrome()\n            driver.maximize_window()\n            driver.get(url_ui_register)\n            # db中清除已注册的账户\n            deleteInforMobile()\n            logger.info(\"对已注册的账户进行删除操作\")\n            sleep(1)\n            waitUntilClick(driver, loginOn.btn_agree_css.value)\n            driver.find_element_by_css_selector(loginOn.btn_agree_css.value).click()\n    \n            waitUntilDisplay(driver, loginOn.input_act_css.value)\n            driver.find_element_by_css_selector(loginOn.input_act_css.value).send_keys(act)\n            driver.find_element_by_css_selector(loginOn.input_pwd_css.value).send_keys(pwd)\n            driver.find_element_by_css_selector(loginOn.input_conPwd_css.value).send_keys(pwd)\n            waitUntilClick(driver, loginOn.btn_phoneCode_css.value)\n            sleep(2)\n            flushDb()\n            driver.find_element_by_css_selector(loginOn.btn_phoneCode_css.value).click()\n    \n            while 1:\n>               message = getPhoneMessage().get(\"regMes\")\n\ntest_flow\\test_Authentication\\test_login.py:79: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ncommon\\dbLink.py:202: in getPhoneMessage\n    for (k, v) in zip(key_list, pipe.execute()):\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\redis\\client.py:4019: in execute\n    return execute(conn, stack, raise_on_error)\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\redis\\client.py:3934: in _execute_transaction\n    self.raise_first_error(commands, response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = Pipeline<ConnectionPool<Connection<host=10.10.128.128,port=6739,db=3>>>\ncommands = [(('GET', b'order:track:0kgvxvvsj-0175-757864e2-8a8a0000-000b'), {}), (('GET', b'order:track:0kgw0dz93-0175-757864e2-8...ct:key::SimpleKey [chengtay-zcd,loan.status]'), {}), (('GET', b'token:05ee021e-aca1-4a5d-874c-555480c46c48'), {}), ...]\nresponse = [b'281192750:3680', b'281192750:3679', b'{\"@class\":\"cn.chengtay.zcd.service.debt.pojo.DebtBO\",\"amount\":[\"java.math.Big...l.Date\",1604540625699],\"expireTime\":[\"java.util.Date\",1604562225699],\"appClaims\":{\"@class\":\"java.util.HashMap\"}}', ...]\n\n    def raise_first_error(self, commands, response):\n        for i, r in enumerate(response):\n            if isinstance(r, ResponseError):\n                self.annotate_exception(r, i + 1, commands[i][0])\n>               raise r\nE               redis.exceptions.ResponseError: Command # 9 (GET path:plan:query:customer0kgzxfdcc-0175-756d02c9-8a8a0000-0006) of pipeline caused error: WRONGTYPE Operation against a key holding the wrong kind of value\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\redis\\client.py:3968: ResponseError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5912dfe64b33d793",
+      "name" : "log",
+      "source" : "5912dfe64b33d793.txt",
+      "type" : "text/plain",
+      "size" : 164
+    }, {
+      "uid" : "46dd01a088e7042f",
+      "name" : "stdout",
+      "source" : "46dd01a088e7042f.txt",
+      "type" : "text/plain",
+      "size" : 72
+    }, {
+      "uid" : "5fd44f6c9b272d0e",
+      "name" : "stderr",
+      "source" : "5fd44f6c9b272d0e.txt",
+      "type" : "text/plain",
+      "size" : 255
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "4576-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "注册 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/user/register",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "2f7d5b4c7032c02d.json",
+  "parameterValues" : [ ]
+}
