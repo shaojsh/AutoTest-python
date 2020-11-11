@@ -11,7 +11,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from androidBaseFlow import Template, touch
 from common.dbLink import getPhoneMessage, flushDb, getVerification
 from flow_path.path_Tripartite_interaction import path_Tripartite_interaction
-from run_all_case_local import yamldict, logger, runMode, mobileDriver, driverPath
+from run_all_case import yamldict, logger, runMode, mobileDriver, driverPath
 from common.BaseFunction import waitUntilDisplay, waitUntilClick, waitUntilClick_xpath, scrollText, \
     waitUntilDisplay_xpath, is_not_visible, waiteForClick, dragUntilTextAppear
 from test_flow.test_Authentication.test_backStage_examine import backStageLogin

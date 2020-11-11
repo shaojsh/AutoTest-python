@@ -3,7 +3,7 @@ import redis
 from common.Request import RequestsHandler
 from common.Retrun_Response import dict_style
 # db数据操作
-from run_all_case_local import yamldict, evn
+from run_all_case import yamldict, evn
 
 
 # db链接（mysql）

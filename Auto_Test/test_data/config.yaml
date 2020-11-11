@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 _*_
 configEvn:
-  evn: "SIT1"
+  evn: "SIT"
   runMode: 'UI'
 #https://sim.chengtay.com/cjt-web
 #https://sim.chengtay.com/cjt-admin
