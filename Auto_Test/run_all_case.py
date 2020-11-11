@@ -15,6 +15,11 @@ root_dir = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test'
 runMode = 'UI'
 evn = ''
 jenkins = False
+try:
+    jenkins = os.environ["jenkins"]
+    print('jenkins Run.....')
+except:
+    print('本地环境测试')
 # 环境run取得
 driverPath = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test\\' + 'chromedriver.exe'
 if not jenkins:  # 本地 获取参数
@@ -22,9 +27,10 @@ if not jenkins:  # 本地 获取参数
     runMode = config.get_data()['configEvn']['runMode']
     evn = config.get_data()['configEvn']['evn']
 else:  # 通过jenkins 获取参数
+
     runMode = os.environ["runMode"]
     evn = os.environ["evn"]
-    RunPath = evn = os.environ["RunPath"]
+    RunPath = os.environ["RunPath"]
 
 if evn == 'SIT':
     handleyaml = HandleYaml(root_dir + '\\test_data\\ConfigGol-SIT.yaml')
