@@ -56,7 +56,8 @@ def test_companyRegister():
         test_Assert = Assert.Assertions(def_name)
         logger.info("开始执行脚本%s:\n", def_name)
 
-        driver = webdriver.Chrome()
+        driver = webdriver.Chrome(
+            chrome_options=r'C:\Users\shaojunshuai\AppData\Local\Google\Chrome\Application\chromedriver.exe')
         driver.maximize_window()
         driver.get(url_ui_register)
         # db中清除已注册的账户
