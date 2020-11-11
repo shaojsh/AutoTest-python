@@ -18,8 +18,10 @@ runMode = 'UI'
 evn = ''
 # 环境run取得
 config = HandleYaml(root_dir + '\\test_data\\config.yaml')
-runMode = config.get_data()['configEvn']['runMode']
-evn = config.get_data()['config']['evn']
+# runMode = config.get_data()['configEvn']['runMode']
+# evn = config.get_data()['config']['evn']
+runMode = 'UI'
+evn = 'SIT'
 if evn == 'SIT':
     handleyaml = HandleYaml(root_dir + '\\test_data\\ConfigGol-SIT.yaml')
 else:
