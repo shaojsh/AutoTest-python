@@ -12,7 +12,7 @@ from common.BaseFunction import actionChainsClick, waitUntilClick, scrollText, w
 from common.dbLink import getPhoneMessage, deleteOrgInfor, getVerification, flushDb, getVerification_ui
 from flow_path.path_Tripartite_interaction import path_Tripartite_interaction
 from flow_path.path_backStage_authentication import path_backStage_authentication
-from run_all_case import yamldict, logger, driverPath
+from run_all_case_local import yamldict, logger, driverPath
 from test_flow.test_Authentication.test_backStage_examine import backStageLogin
 from test_flow.test_Authentication.test_login import companyPassForget
 from selenium.webdriver.support import expected_conditions as EC

@@ -14,7 +14,7 @@ from PIL import Image
 import pytesseract
 
 # 等待直到元素出现
-from run_all_case import mobileDriver
+from run_all_case_local import mobileDriver
 
 
 def waitUntilDisplay(driver, ByCss):

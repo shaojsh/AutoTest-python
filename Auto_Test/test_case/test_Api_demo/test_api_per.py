@@ -13,7 +13,7 @@ from common import Assert
 from common.Retrun_Response import dict_style
 
 from common.Yaml_Data import HandleYaml
-from run_all_case import logger
+from run_all_case_local import logger
 
 API_dir_cnf = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test'
 handleyaml = HandleYaml(API_dir_cnf + '\\test_data\\test_yaml_data.yaml')

@@ -8,7 +8,7 @@ from common.BaseFunction import waitUntilDisplay
 from common.dbLink import updateNameCompany
 from flow_path.path_backStage_authentication import path_backStage_authentication
 from flow_path.path_backstage_examine import path_backstage_examine
-from run_all_case import yamldict, logger, runMode, driverPath
+from run_all_case_local import yamldict, logger, runMode, driverPath
 from common import Assert
 
 businessName = yamldict['test_backStageUserList']['company_name']

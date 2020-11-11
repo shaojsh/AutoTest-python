@@ -13,7 +13,7 @@ from common.BaseFunction import waitUntilDisplay, waitUntilClick
 from common.dbLink import deletePerInforAndComInfor, getPhoneMessage, getVerification, flushDb, getVerification_ui
 from flow_path.path_login import loginOn
 from flow_path.path_persionInfoReg import path_personalInfoReg
-from run_all_case import yamldict, logger, runMode, driverPath
+from run_all_case_local import yamldict, logger, runMode, driverPath
 from common import Assert, BaseFunction
 from test_flow.test_Authentication.test_login import login
 

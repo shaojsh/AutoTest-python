@@ -14,7 +14,7 @@ from common.BaseFunction import waitUntilDisplay, waitUntilClick, waitUntilClick
     waiteForClick
 from common.dbLink import getVerification, updateNameCompany, getVerification_ui
 from flow_path.path_businessInfoReg import path_businessInfoReg
-from run_all_case import yamldict, logger, runMode, mobileDriver, driverPath
+from run_all_case_local import yamldict, logger, runMode, mobileDriver, driverPath
 from common import Assert
 from test_flow.test_Authentication.test_login import login
 from selenium.webdriver.common.keys import Keys

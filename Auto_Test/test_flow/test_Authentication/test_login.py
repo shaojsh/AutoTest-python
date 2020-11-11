@@ -14,7 +14,7 @@ from common.BaseFunction import waitUntilDisplay, waitUntilClick, waiteForClick
 from common.dbLink import getPhoneMessage, flushDb, deleteInforMobile, getVerification
 from flow_path.path_backStage_authentication import path_backStage_authentication
 from flow_path.path_login import loginOn
-from run_all_case import yamldict, logger, runMode, mobileDriver, driverPath
+from run_all_case_local import yamldict, logger, runMode, mobileDriver, driverPath
 
 act = yamldict['test_userlist']['company_user']
 pwd = yamldict['test_userlist']['company_user_pass']

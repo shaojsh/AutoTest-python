@@ -1,5 +1,3 @@
-#!/usr/bin/python
-# -*- coding: UTF-8 _*_
 import time
 import os
 import sys
@@ -12,15 +10,12 @@ from common import Shell
 from common.Yaml_Data import HandleYaml
 
 root_dir = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test'
-runMode = 'UI'
-evn = ''
+
 # 环境run取得
 driverPath = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test\\' + 'chromedriver.exe'
 
-print('driverPath 的路径为：'+driverPath)
-config = HandleYaml(root_dir + '\\test_data\\config.yaml')
-runMode = config.get_data()['config']['runMode']
-evn = config.get_data()['config']['evn']
+runMode = os.environ["runMode"]
+evn = os.environ["evn"]
 if evn == 'SIT':
     handleyaml = HandleYaml(root_dir + '\\test_data\\ConfigGol-SIT.yaml')
 else:
@@ -28,7 +23,7 @@ else:
 
 # handleyaml = HandleYaml(os.getcwd() + '\\..\\test_data\\ConfigGol-SIT.yaml')  # 调试db用
 
-yamldict = handleyaml.get_data()
+RunPath = evn = os.environ["RunPath"]
 
 mobileDriver = ''
 if runMode != 'UI':
@@ -41,7 +36,7 @@ if __name__ == "__main__":
         print("开始执行脚本")
         logger.info("==================================" + time.strftime('%Y-%m-%d %H:%M:%S',
                                                                          time.localtime()) + "===================================")
-        root_dir = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test' + yamldict['test_path_list']['url_ui']
+        root_dir = os.path.dirname(os.path.abspath('.')) + '\\AutoTest-python\\Auto_Test' + RunPath
         pytest.main([root_dir, "--alluredir",
                      "./report/reportallure/"])
         print("脚本执行完成")
