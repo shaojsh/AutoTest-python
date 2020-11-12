@@ -25,7 +25,7 @@ test_backStageUserList:
   rend_rule: 2
   rend_day: 2
 test_userlist:
-  company_user: '17621198933'
+  company_user: '17621198966'
   company_user_pass: '123456'
 test_db_list:
   host: '10.10.128.152'

@@ -51,28 +51,9 @@ def test_infoReg():
         test_Assert.assert_text_ui(homeText.text, '首页')
         logger.info("进入登陆页面")
 
-        # waitUntilDisplay(driver, path_personalInfoReg.txt_aut_css.value)
-        # sleep(1)
-        # titleText = driver.find_element_by_css_selector(path_personalInfoReg.txt_aut_css.value)
-        # test_Assert.assert_text_ui(titleText.text, '实名认证')
-        # logger.info("实名认证画面成功显示")
         name = yamldict['test_personalInfoRegList']['name']
         idNum = yamldict['test_personalInfoRegList']['id_card']
-        # driver.find_element_by_css_selector(path_personalInfoReg.input_name_css.value).send_keys(name)
-        # driver.find_element_by_css_selector(path_personalInfoReg.input_idNum_css.value).send_keys(idNum)
-        # BaseFunction.waitUntilClick(driver, path_personalInfoReg.btn_phoneNum_css.value)
-        # flushDb()
-        # driver.find_element_by_css_selector(path_personalInfoReg.btn_phoneNum_css.value).click()
-        #
-        # while 1:
-        #     message = getPhoneMessage().get("auMes")
-        #     if message is None:
-        #         sleep(0.5)
-        #         continue
-        #     else:
-        #         break
-        # driver.find_element_by_css_selector(path_personalInfoReg.input_phoneNum_css.value).send_keys(
-        #     message.strip().strip('"'))
+
         BaseFunction.waitUntilClick(driver, path_personalInfoReg.btn_aut_css.value)
         picture_dir = os.getcwd()
         pcture_dirOne = '\\test_data\\picture\\id_1.jpg'
