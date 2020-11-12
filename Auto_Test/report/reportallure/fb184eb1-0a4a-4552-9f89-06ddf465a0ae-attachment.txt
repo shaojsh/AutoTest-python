@@ -1,2 +1,0 @@
-[pocoservice.apk] stdout: b'\r\ncom.netease.open.pocoservice.InstrumentedTestAsLauncher:'
-[pocoservice.apk] stderr: b''

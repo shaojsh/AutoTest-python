@@ -1,1 +1,0 @@
-UIObjectProxy of "text=*我是's parent/[1]"

@@ -1,7 +1,0 @@
-Thu, 15 Oct 2020 16:03:57-run_all_case.py-test_Tripartite_interaction.py-[line:138]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
-
-Thu, 15 Oct 2020 16:05:37-run_all_case.py-test_Tripartite_interaction.py-[line:156]-INFO-[日志信息]: 授信采购信息画面
-[04:05:41][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '123456789012'
-[04:05:43][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER
-Thu, 15 Oct 2020 16:05:59-run_all_case.py-test_Tripartite_interaction.py-[line:164]-INFO-[日志信息]: 授信基本资料页面
-Thu, 15 Oct 2020 16:06:04-run_all_case.py-test_Tripartite_interaction.py-[line:167]-INFO-[日志信息]: 授信页面

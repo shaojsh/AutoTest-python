@@ -1,2 +1,0 @@
-Mon, 12 Oct 2020 17:38:44-run_all_case.py-test_login.py-[line:185]-INFO-[日志信息]: 登录页面
-Mon, 12 Oct 2020 17:38:45-run_all_case.py-test_login.py-[line:190]-INFO-[日志信息]: 安全验证页面

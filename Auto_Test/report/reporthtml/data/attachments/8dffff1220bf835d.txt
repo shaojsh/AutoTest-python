@@ -1,7 +1,0 @@
-[pocoservice.apk] stdout: b'INSTRUMENTATION_RESULT: shortMsg=Process crashed.\r\nINSTRUMENTATION_CODE: 0\r\n'
-[pocoservice.apk] stderr: b''
-still waiting for uiautomation ready.
-[pocoservice.apk] stdout: b''
-[pocoservice.apk] stderr: b''
-[pocoservice.apk] stdout: b''
-[pocoservice.apk] stderr: b''

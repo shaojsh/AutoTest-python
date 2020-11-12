@@ -1,6 +1,0 @@
-[pocoservice.apk] stdout: b'INSTRUMENTATION_RESULT: shortMsg=Process crashed.\r\nINSTRUMENTATION_CODE: 0\r\n'
-[pocoservice.apk] stderr: b''
-[pocoservice.apk] stdout: b'INSTRUMENTATION_RESULT: shortMsg=Process crashed.\r\nINSTRUMENTATION_CODE: 0\r\n'
-[pocoservice.apk] stderr: b''
-[pocoservice.apk] stdout: b'INSTRUMENTATION_RESULT: shortMsg=Process crashed.\r\nINSTRUMENTATION_CODE: 0\r\n'
-[pocoservice.apk] stderr: b''

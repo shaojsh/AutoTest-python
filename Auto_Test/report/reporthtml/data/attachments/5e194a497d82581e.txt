@@ -1,2 +1,0 @@
-Thu, 29 Oct 2020 10:07:15-run_all_case.py-test_login.py-[line:97]-INFO-[日志信息]: 小程序自动化测试开始
-[10:07:15][DEBUG]<airtest.core.android.adb> C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell monkey -p com.tencent.mm -c android.intent.category.LAUNCHER 1

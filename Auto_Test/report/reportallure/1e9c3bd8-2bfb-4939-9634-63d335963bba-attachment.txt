@@ -1,8 +1,0 @@
-Thu, 22 Oct 2020 09:51:56-run_all_case.py-test_Tripartite_interaction.py-[line:138]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
-
-Thu, 22 Oct 2020 09:52:06-run_all_case.py-test_Tripartite_interaction.py-[line:145]-INFO-[日志信息]: 前端账户登录授信申请
-Thu, 22 Oct 2020 09:52:07-run_all_case.py-test_Tripartite_interaction.py-[line:264]-INFO-[日志信息]: 进入到前端首页
-Thu, 22 Oct 2020 09:52:07-run_all_case.py-test_Tripartite_interaction.py-[line:267]-INFO-[日志信息]: 进入到前端进入产品选择首页
-Thu, 22 Oct 2020 09:52:09-run_all_case.py-test_Tripartite_interaction.py-[line:272]-INFO-[日志信息]: 进入到前端进入产品详情页
-Thu, 22 Oct 2020 09:52:09-run_all_case.py-test_Tripartite_interaction.py-[line:276]-INFO-[日志信息]: 进入到前端进入产品借款页
-Thu, 22 Oct 2020 09:52:21-run_all_case.py-test_Tripartite_interaction.py-[line:282]-INFO-[日志信息]: 进入授信采购信息页面

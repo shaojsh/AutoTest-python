@@ -1,7 +1,0 @@
-INFO     run_all_case.py:test_Tripartite_interaction.py:144 开始执行脚本test_Tripartite_interaction:
-
-INFO     run_all_case.py:test_Tripartite_interaction.py:162 授信采购信息画面
-DEBUG    airtest.core.android.adb:adb.py:144 C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell am broadcast -a ADB_INPUT_TEXT --es msg '123456789012'
-DEBUG    airtest.core.android.adb:adb.py:144 C:\Users\shaojunshuai\AppData\Local\Programs\Python\Python36\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 18f0acb7 shell input keyevent ENTER
-INFO     run_all_case.py:test_Tripartite_interaction.py:170 授信基本资料页面
-INFO     run_all_case.py:test_Tripartite_interaction.py:173 授信页面

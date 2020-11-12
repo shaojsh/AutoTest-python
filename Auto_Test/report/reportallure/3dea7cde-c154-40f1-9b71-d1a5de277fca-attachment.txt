@@ -1,6 +1,0 @@
-Thu, 15 Oct 2020 13:11:12-run_all_case.py-test_backStage_examine.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
-
-Thu, 15 Oct 2020 13:11:22-run_all_case.py-test_backStage_examine.py-[line:74]-INFO-[日志信息]: 成功登录后台系统
-Thu, 15 Oct 2020 13:11:27-test_backstage_examine-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
-Thu, 15 Oct 2020 13:11:27-run_all_case.py-test_backStage_examine.py-[line:54]-INFO-[日志信息]: 成功进入企业信息审核画面
-Thu, 15 Oct 2020 13:11:28-run_all_case.py-test_backStage_examine.py-[line:61]-INFO-[日志信息]: 企业认证通过
