@@ -1,0 +1,166 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test_flow",
+    "children" : [ {
+      "name" : "test_Authentication",
+      "children" : [ {
+        "name" : "test_login",
+        "children" : [ {
+          "name" : "test_companyRegister",
+          "uid" : "856ac7f6b6d3a457",
+          "parentUid" : "52f748462e260dd58e76f0876ce6ebf0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605157483302,
+            "stop" : 1605157500177,
+            "duration" : 16875
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "52f748462e260dd58e76f0876ce6ebf0"
+      }, {
+        "name" : "test_personalInfoReg",
+        "children" : [ {
+          "name" : "test_infoReg",
+          "uid" : "2d5dd7a35cae6743",
+          "parentUid" : "27331f685325300f09872e2bd4c8d50e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605157500188,
+            "stop" : 1605157537801,
+            "duration" : 37613
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "27331f685325300f09872e2bd4c8d50e"
+      }, {
+        "name" : "test_businessInfoReg",
+        "children" : [ {
+          "name" : "test_businessInforReg",
+          "uid" : "9c89a41b16c75ad5",
+          "parentUid" : "ae2bb0a936914ac34c2dc8b4a1bf9d3c",
+          "status" : "broken",
+          "time" : {
+            "start" : 1605157537835,
+            "stop" : 1605157591670,
+            "duration" : 53835
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ae2bb0a936914ac34c2dc8b4a1bf9d3c"
+      }, {
+        "name" : "test_backStage_examine",
+        "children" : [ {
+          "name" : "test_backstage_examine",
+          "uid" : "95220ddbf9147e45",
+          "parentUid" : "4b9d4eeb8dd63340170e27b6a8fb3bec",
+          "status" : "broken",
+          "time" : {
+            "start" : 1605157591766,
+            "stop" : 1605157605895,
+            "duration" : 14129
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4b9d4eeb8dd63340170e27b6a8fb3bec"
+      }, {
+        "name" : "test_backStage_authentication",
+        "children" : [ {
+          "name" : "test_backStageActCreate",
+          "uid" : "c2aa872abb8e4b01",
+          "parentUid" : "c163f10019ac41b74314d1d8c5868921",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605157605930,
+            "stop" : 1605157643014,
+            "duration" : 37084
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_backStage_authentication",
+          "uid" : "ef384cc4480f57da",
+          "parentUid" : "c163f10019ac41b74314d1d8c5868921",
+          "status" : "broken",
+          "time" : {
+            "start" : 1605157643088,
+            "stop" : 1605157666942,
+            "duration" : 23854
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c163f10019ac41b74314d1d8c5868921"
+      } ],
+      "uid" : "06c1cf1595a2ad8a54ad425096e174ab"
+    }, {
+      "name" : "test_Tripartite_interaction.test_Tripartite_interaction",
+      "children" : [ {
+        "name" : "test_Tripartite_interaction",
+        "uid" : "d09bf5a48aacd018",
+        "parentUid" : "4c419258d555f598b82e44e80e3b608c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1605157666993,
+          "stop" : 1605157714666,
+          "duration" : 47673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "test_Tripartite_interaction.test_Tripartite_interaction"
+    } ],
+    "uid" : "abbe29e1f773e7075f029850699092c3"
+  }, {
+    "name" : "test_case.test_Api_demo",
+    "children" : [ {
+      "name" : "test_demo",
+      "children" : [ {
+        "name" : "test_loopApiAccuracy",
+        "uid" : "ad00a66a30e3fc1e",
+        "parentUid" : "1adde1963c9e626a079d26b563132185",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605157918397,
+          "stop" : 1605157918485,
+          "duration" : 88
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1adde1963c9e626a079d26b563132185"
+    }, {
+      "name" : "test_api_per",
+      "children" : [ {
+        "name" : "test_api_per",
+        "uid" : "697028338c056d67",
+        "parentUid" : "7e2ddef2750bc525f334926b4d1b5ffd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605158131765,
+          "stop" : 1605158161769,
+          "duration" : 30004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7e2ddef2750bc525f334926b4d1b5ffd"
+    } ],
+    "uid" : "test_case.test_Api_demo"
+  } ],
+  "name" : "packages"
+}

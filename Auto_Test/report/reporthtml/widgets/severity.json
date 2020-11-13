@@ -1,0 +1,91 @@
+[ {
+  "uid" : "c2aa872abb8e4b01",
+  "name" : "test_backStageActCreate",
+  "time" : {
+    "start" : 1605157605930,
+    "stop" : 1605157643014,
+    "duration" : 37084
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "2d5dd7a35cae6743",
+  "name" : "test_infoReg",
+  "time" : {
+    "start" : 1605157500188,
+    "stop" : 1605157537801,
+    "duration" : 37613
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "856ac7f6b6d3a457",
+  "name" : "test_companyRegister",
+  "time" : {
+    "start" : 1605157483302,
+    "stop" : 1605157500177,
+    "duration" : 16875
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ef384cc4480f57da",
+  "name" : "test_backStage_authentication",
+  "time" : {
+    "start" : 1605157643088,
+    "stop" : 1605157666942,
+    "duration" : 23854
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "d09bf5a48aacd018",
+  "name" : "test_Tripartite_interaction",
+  "time" : {
+    "start" : 1605157666993,
+    "stop" : 1605157714666,
+    "duration" : 47673
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "ad00a66a30e3fc1e",
+  "name" : "test_loopApiAccuracy",
+  "time" : {
+    "start" : 1605157918397,
+    "stop" : 1605157918485,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95220ddbf9147e45",
+  "name" : "test_backstage_examine",
+  "time" : {
+    "start" : 1605157591766,
+    "stop" : 1605157605895,
+    "duration" : 14129
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "9c89a41b16c75ad5",
+  "name" : "test_businessInforReg",
+  "time" : {
+    "start" : 1605157537835,
+    "stop" : 1605157591670,
+    "duration" : 53835
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "697028338c056d67",
+  "name" : "test_api_per",
+  "time" : {
+    "start" : 1605158131765,
+    "stop" : 1605158161769,
+    "duration" : 30004
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

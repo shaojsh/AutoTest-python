@@ -1,0 +1,177 @@
+{
+  "d91e7b4392163e0b46289a9f8b97b16c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d09bf5a48aacd018",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1605157666993,
+        "stop" : 1605157714666,
+        "duration" : 47673
+      }
+    } ]
+  },
+  "fa363551da3b313dda3c470cf52ad218" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "95220ddbf9147e45",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1605157591766,
+        "stop" : 1605157605895,
+        "duration" : 14129
+      }
+    } ]
+  },
+  "f0962677001a5648110bb8450603160d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ad00a66a30e3fc1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605157918397,
+        "stop" : 1605157918485,
+        "duration" : 88
+      }
+    } ]
+  },
+  "dd0646a5c1a798e47c4f25747509dea9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "856ac7f6b6d3a457",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605157483302,
+        "stop" : 1605157500177,
+        "duration" : 16875
+      }
+    } ]
+  },
+  "673c6cf796d54f5cbc2e9852ef4f69c7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c89a41b16c75ad5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1605157537835,
+        "stop" : 1605157591670,
+        "duration" : 53835
+      }
+    } ]
+  },
+  "28dda5313ff182aeade3becf47df4372" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2d5dd7a35cae6743",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605157500188,
+        "stop" : 1605157537801,
+        "duration" : 37613
+      }
+    } ]
+  },
+  "d85ebd52118862a52004a5c4faaac530" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2aa872abb8e4b01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605157605930,
+        "stop" : 1605157643014,
+        "duration" : 37084
+      }
+    } ]
+  },
+  "9691ac6aee44b45918982a7ef3d6c630" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "697028338c056d67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605158131765,
+        "stop" : 1605158161769,
+        "duration" : 30004
+      }
+    } ]
+  },
+  "a55d1468f36f1b2cdddeddca0f290d7d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ef384cc4480f57da",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1605157643088,
+        "stop" : 1605157666942,
+        "duration" : 23854
+      }
+    } ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_businessInforReg",
+        "uid" : "9c89a41b16c75ad5",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1605157537835,
+          "stop" : 1605157591670,
+          "duration" : 53835
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "children" : [ {
+        "name" : "test_backstage_examine",
+        "uid" : "95220ddbf9147e45",
+        "parentUid" : "dd646a442f7e420aa9ed94de6fbc11ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1605157591766,
+          "stop" : 1605157605895,
+          "duration" : 14129
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dd646a442f7e420aa9ed94de6fbc11ea"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "children" : [ {
+        "name" : "test_backStage_authentication",
+        "uid" : "ef384cc4480f57da",
+        "parentUid" : "25df9cd5b1ad319248e54133880492ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1605157643088,
+          "stop" : 1605157666942,
+          "duration" : 23854
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "25df9cd5b1ad319248e54133880492ca"
+    }, {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "children" : [ {
+        "name" : "test_Tripartite_interaction",
+        "uid" : "d09bf5a48aacd018",
+        "parentUid" : "4d4d10a77c030ea67d2ee96b29279814",
+        "status" : "broken",
+        "time" : {
+          "start" : 1605157666993,
+          "stop" : 1605157714666,
+          "duration" : 47673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d4d10a77c030ea67d2ee96b29279814"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

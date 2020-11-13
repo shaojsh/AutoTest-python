@@ -35,7 +35,7 @@ def test_loopApiAccuracy():
 
 if __name__ == "__main__":
 
-    while allCnt < 28800:
+    while allCnt < 30:
         try:
             time.sleep(1)
             allCnt = allCnt + 1
