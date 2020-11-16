@@ -1,20 +1,22 @@
 # 等待元素出现
+import os
 from time import sleep
-import threading
-import time
-
-from poco.exceptions import PocoTargetTimeout
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 import selenium.webdriver.support.ui as ui
 from selenium.webdriver.support.ui import WebDriverWait
-from PIL import Image
-import pytesseract
+from aip import AipOcr
 
 # 等待直到元素出现
 from run_all_case import mobileDriver
+from faker.factory import Factory
+
+APP_ID = '22989781'
+API_KEY = 'Y4LjYlL4O6aqGe4gVw0ziE27'
+SECRET_KEY = 'Mwwa3MRGcnkoXRv7ghex99cQXmmtxyBG'
+client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
 
 
 def waitUntilDisplay(driver, ByCss):
@@ -68,25 +70,14 @@ def scrollText(driver, element, text):
             continue
 
 
-# n秒内持续调用某方法（每秒调用一次 :回调函数）
-# def fun_timer():
-#     global timer
-#     timer = threading.Timer(5.5, fun_timer)
-#     timer.start()
-#
-#
-# timer = threading.Timer(1, fun_timer)
-# timer.start()
-#
-# time.sleep(15)  # 15秒后停止定时器
-# timer.cancel()
-
-# 验证码识别（爬虫/UI自动化用 OCR识别，需要自己下载语言包支持）
+# 验证码识别（爬虫/UI自动化用 OCR识别）
 def getVerCode(imagePath):
-    captcha = Image.open(imagePath)
-    code = pytesseract.image_to_string(captcha)
-    print(code)
-    return code
+    # https://www.cnblogs.com/xiaowenshu/p/11792012.html
+    with open(imagePath, 'rb') as fp:
+        image = fp.read()
+    # """ 调用通用文字识别（高精度版） """
+    code = client.basicAccurate(image)
+    return code.get('words_result')[0].get('words')
 
 
 # 移动端 等待元素出现并点击
@@ -120,3 +111,15 @@ def dragUntilTextAppear(el, text2, text3):
             break
         else:
             continue
+
+
+# 随机得到模拟数据
+def getFakerClass():
+    # https://www.jianshu.com/p/6bd6869631d9
+    fakerInfor = Factory().create('zh_CN')
+    return fakerInfor
+
+
+if __name__ == '__main__':
+    faker = getFakerClass()
+    print(faker.ssn())

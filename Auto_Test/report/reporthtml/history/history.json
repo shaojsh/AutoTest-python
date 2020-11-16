@@ -9,33 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d09bf5a48aacd018",
+      "uid" : "fbb0cbf35031d615",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
       "time" : {
         "start" : 1605157666993,
         "stop" : 1605157714666,
         "duration" : 47673
-      }
-    } ]
-  },
-  "fa363551da3b313dda3c470cf52ad218" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "95220ddbf9147e45",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
-      "time" : {
-        "start" : 1605157591766,
-        "stop" : 1605157605895,
-        "duration" : 14129
       }
     } ]
   },
@@ -49,12 +29,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ad00a66a30e3fc1e",
+      "uid" : "c8df79f0a6a689dd",
       "status" : "passed",
       "time" : {
         "start" : 1605157918397,
         "stop" : 1605157918485,
         "duration" : 88
+      }
+    } ]
+  },
+  "fa363551da3b313dda3c470cf52ad218" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "784e37572751210a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1605157591766,
+        "stop" : 1605157605895,
+        "duration" : 14129
       }
     } ]
   },
@@ -68,7 +68,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "856ac7f6b6d3a457",
+      "uid" : "3e14081229f85d0d",
       "status" : "passed",
       "time" : {
         "start" : 1605157483302,
@@ -87,7 +87,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9c89a41b16c75ad5",
+      "uid" : "1116940e2f9ddd09",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
@@ -107,7 +107,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2d5dd7a35cae6743",
+      "uid" : "b39390f30489cd4b",
       "status" : "passed",
       "time" : {
         "start" : 1605157500188,
@@ -126,7 +126,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c2aa872abb8e4b01",
+      "uid" : "f7b2a281967be4cf",
       "status" : "passed",
       "time" : {
         "start" : 1605157605930,
@@ -145,11 +145,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "697028338c056d67",
+      "uid" : "274cc219699820e4",
       "status" : "passed",
       "time" : {
-        "start" : 1605158131765,
-        "stop" : 1605158161769,
+        "start" : 1605491340730,
+        "stop" : 1605491370734,
         "duration" : 30004
       }
     } ]
@@ -164,7 +164,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ef384cc4480f57da",
+      "uid" : "b5fb8e277b4a2e12",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
       "time" : {

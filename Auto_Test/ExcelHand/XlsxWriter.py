@@ -1,6 +1,4 @@
 # https://xlsxwriter.readthedocs.io/contents.html 使用官网
-import os
-import sys
 
 import xlrd
 import xlsxwriter
