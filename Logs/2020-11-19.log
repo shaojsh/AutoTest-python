@@ -4,3 +4,12 @@ Thu, 19 Nov 2020 17:00:12-run_all_case.py-test_login.py-[line:57]-INFO-[日志�
 Thu, 19 Nov 2020 17:03:02-run_all_case.py-run_all_case.py-[line:58]-INFO-[日志信息]: ==================================2020-11-19 17:03:02===================================
 Thu, 19 Nov 2020 17:03:03-run_all_case.py-test_login.py-[line:57]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
 
+Thu, 19 Nov 2020 17:07:00-run_all_case.py-run_all_case.py-[line:58]-INFO-[日志信息]: ==================================2020-11-19 17:07:00===================================
+Thu, 19 Nov 2020 17:07:01-run_all_case.py-test_login.py-[line:57]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Thu, 19 Nov 2020 17:07:12-run_all_case.py-test_login.py-[line:63]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Thu, 19 Nov 2020 17:07:16-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Thu, 19 Nov 2020 17:07:16-run_all_case.py-test_login.py-[line:91]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Thu, 19 Nov 2020 17:07:19-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Thu, 19 Nov 2020 17:07:19-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
