@@ -17,10 +17,9 @@ class HandleYaml:
             root_dir = os.path.dirname(os.path.abspath('.'))
             # os.path.abspath('.')表示获取当前文件所在目录；os.path.dirname表示获取文件所在父目录；所以整个就是项目的所在路径
             print(root_dir)
-            if platform.system() != 'Windows':
-                # linux路径：
-                self.file_path = root_dir + '\\Auto_Test\\test_data\\test_yaml_data.yaml'
-            else:
+            self.file_path = root_dir + '/Auto_Test/test_data/test_yaml_data.yaml'  # linux系统（jenkins构建用）
+            print('=====================path = ' + self.file_path)
+            if platform.system() == 'Windows':
                 self.file_path = root_dir + '\\Auto_Test\\test_data\\test_yaml_data.yaml'  # 获取文件所在的相对路径(相对整个项目)
 
     def get_data(self):
