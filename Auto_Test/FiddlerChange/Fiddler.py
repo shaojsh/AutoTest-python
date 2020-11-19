@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
-str_filename = "31_Full.txt"
+str_filename = "2_Full.txt"
 # save_name = "re_test.py"
 save_name = str_filename.replace("txt", "py")
 

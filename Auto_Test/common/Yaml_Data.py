@@ -6,6 +6,8 @@
 import yaml
 import os
 
+from run_all_case import jenkins
+
 
 class HandleYaml:
     def __init__(self, file_path=None):
@@ -15,7 +17,11 @@ class HandleYaml:
             root_dir = os.path.dirname(os.path.abspath('.'))
             # os.path.abspath('.')表示获取当前文件所在目录；os.path.dirname表示获取文件所在父目录；所以整个就是项目的所在路径
             print(root_dir)
-            self.file_path = root_dir + '\\Auto_Test\\test_data\\test_yaml_data.yaml'  # 获取文件所在的相对路径(相对整个项目)
+            if jenkins:
+                # 远程Jenkins路径：
+                self.file_path = root_dir + '/Auto_Test/test_data/test_yaml_data.yaml'
+            else:
+                self.file_path = root_dir + '\\Auto_Test\\test_data\\test_yaml_data.yaml'  # 获取文件所在的相对路径(相对整个项目)
             # Xiaoniu_Api_Rili\\
             # self.data = self.get_data()
 
