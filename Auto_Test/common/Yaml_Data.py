@@ -17,7 +17,7 @@ class HandleYaml:
             root_dir = os.path.dirname(os.path.abspath('.'))
             # os.path.abspath('.')表示获取当前文件所在目录；os.path.dirname表示获取文件所在父目录；所以整个就是项目的所在路径
             print(root_dir)
-            if platform.system()== 'Windows':
+            if platform.system() != 'Windows':
                 # 远程Jenkins路径：
                 self.file_path = root_dir + '/Auto_Test/test_data/test_yaml_data.yaml'
             else:
@@ -28,7 +28,9 @@ class HandleYaml:
         try:
             fp = open(self.file_path, encoding='utf-8')
         except:
-            fp = open('C:\\Users\\shaojunshuai\\PycharmProjects\\AutoTest-python\\Auto_Test\\test_data\\ConfigGol-UAT.yaml', encoding='utf-8')
+            fp = open(
+                'C:\\Users\\shaojunshuai\\PycharmProjects\\AutoTest-python\\Auto_Test\\test_data\\ConfigGol-UAT.yaml',
+                encoding='utf-8')
         data = yaml.load(fp, Loader=yaml.FullLoader)
         yaml.warnings({'YAMLLoadWarning': False})
         return data
