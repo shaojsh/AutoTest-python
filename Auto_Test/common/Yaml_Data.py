@@ -17,7 +17,7 @@ class HandleYaml:
             root_dir = os.path.dirname(os.path.abspath('.'))
             # os.path.abspath('.')表示获取当前文件所在目录；os.path.dirname表示获取文件所在父目录；所以整个就是项目的所在路径
             print(root_dir)
-            self.file_path = root_dir + '/Auto_Test/test_data/ConfigGol-SIT.yaml'  # linux系统（jenkins构建用）
+            self.file_path = root_dir + '//Auto_Test//test_data//ConfigGol-SIT.yaml'
 
     def get_data(self):
         try:
