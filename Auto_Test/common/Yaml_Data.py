@@ -6,8 +6,6 @@
 import yaml
 import os
 
-import platform
-
 
 class HandleYaml:
     def __init__(self, file_path=None):
@@ -20,12 +18,12 @@ class HandleYaml:
             self.file_path = root_dir + '//Auto_Test//test_data//ConfigGol-SIT.yaml'
 
     def get_data(self):
-        global fp
         try:
             fp = open(self.file_path, encoding='utf-8')
         except:
             print('读取配置文件异常')
-        data = yaml.load(fp, Loader=yaml.FullLoader)
+        fp2 = fp
+        data = yaml.load(fp2, Loader=yaml.FullLoader)
         yaml.warnings({'YAMLLoadWarning': False})
         return data
 #
