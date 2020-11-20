@@ -1,6 +1,6 @@
 import os
 import sys
-
+from pyvirtualdisplay import Display
 from time import sleep
 
 import allure
@@ -57,6 +57,8 @@ def test_companyRegister():
         logger.info("开始执行脚本%s:\n", def_name)
 
         if jenkins:
+            display = Display(visible=0, size=(800, 800))
+            display.start()
             chrome_option = webdriver.ChromeOptions()
             chrome_option.add_argument('--no-sandbox')  # 解决DevToolsActivePort文件不存在的报错
             chrome_option.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
