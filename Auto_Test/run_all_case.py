@@ -28,8 +28,9 @@ if not jenkins:  # 本地 获取参数
     evn = config.get_data()['configEvn']['evn']
     # 环境run取得
     driverPath = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test\\' + 'chromedriver.exe'
+if jenkins:
+    driverPath = '/var/lib/jenkins/workspace/AutoTest-python/Auto_Test/chromedriver'  # google版本：78.0.3904.70
 else:  # 通过jenkins 获取参数
-
     runMode = os.environ["runMode"]
     evn = os.environ["evn"]
     RunPath = os.environ["RunPath"]
