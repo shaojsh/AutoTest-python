@@ -37,7 +37,7 @@ def test_businessInforReg():
         test_Assert = Assert.Assertions(def_name)
         logger.info("开始执行脚本%s:\n", def_name)
 
-        driver = webdriver.Chrome(executable_path = driverPath)
+        driver = webdriver.Chrome(executable_path=driverPath)
         driver.maximize_window()
         driver.get(url_forward)
 
