@@ -17,19 +17,13 @@ class HandleYaml:
             root_dir = os.path.dirname(os.path.abspath('.'))
             # os.path.abspath('.')表示获取当前文件所在目录；os.path.dirname表示获取文件所在父目录；所以整个就是项目的所在路径
             print(root_dir)
-            self.file_path = root_dir + '/Auto_Test/test_data/test_yaml_data.yaml'  # linux系统（jenkins构建用）
-            print('=====================path = ' + self.file_path)
-            if platform.system() == 'Windows':
-                self.file_path = root_dir + '\\Auto_Test\\test_data\\test_yaml_data.yaml'  # 获取文件所在的相对路径(相对整个项目)
+            self.file_path = root_dir + '/Auto_Test/test_data/ConfigGol-SIT.yaml'  # linux系统（jenkins构建用）
 
     def get_data(self):
-        print(self.file_path)
         try:
             fp = open(self.file_path, encoding='utf-8')
         except:
-            fp = open(
-                'C:\\Users\\shaojunshuai\\PycharmProjects\\AutoTest-python\\Auto_Test\\test_data\\ConfigGol-UAT.yaml',
-                encoding='utf-8')
+            print('读取配置文件异常')
         data = yaml.load(fp, Loader=yaml.FullLoader)
         yaml.warnings({'YAMLLoadWarning': False})
         return data
