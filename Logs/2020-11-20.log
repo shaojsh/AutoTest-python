@@ -22,3 +22,63 @@ Fri, 20 Nov 2020 08:44:48-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO
 Fri, 20 Nov 2020 08:56:44-run_all_case.py-run_all_case.py-[line:62]-INFO-[日志信息]: ==================================2020-11-20 08:56:44===================================
 Fri, 20 Nov 2020 08:56:44-run_all_case.py-test_login.py-[line:57]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
 
+Fri, 20 Nov 2020 14:07:32-run_all_case.py-run_all_case.py-[line:62]-INFO-[日志信息]: ==================================2020-11-20 14:07:32===================================
+Fri, 20 Nov 2020 14:07:32-run_all_case.py-test_login.py-[line:57]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Fri, 20 Nov 2020 14:07:33-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Fri, 20 Nov 2020 14:07:33-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Fri, 20 Nov 2020 14:07:33-run_all_case.py-test_businessInfoReg.py-[line:38]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Fri, 20 Nov 2020 14:07:33-run_all_case.py-test_backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Fri, 20 Nov 2020 14:07:33-run_all_case.py-test_backStage_authentication.py-[line:173]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Fri, 20 Nov 2020 14:07:33-run_all_case.py-test_backStage_authentication.py-[line:278]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Fri, 20 Nov 2020 14:07:33-run_all_case.py-test_backStage_authentication.py-[line:281]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Fri, 20 Nov 2020 14:07:33-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Fri, 20 Nov 2020 14:08:28-run_all_case.py-run_all_case.py-[line:60]-INFO-[日志信息]: ==================================2020-11-20 14:08:28===================================
+Fri, 20 Nov 2020 14:08:28-run_all_case.py-test_login.py-[line:57]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Fri, 20 Nov 2020 14:08:28-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Fri, 20 Nov 2020 14:08:28-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Fri, 20 Nov 2020 14:08:28-run_all_case.py-test_businessInfoReg.py-[line:38]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Fri, 20 Nov 2020 14:08:29-run_all_case.py-test_backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Fri, 20 Nov 2020 14:08:29-run_all_case.py-test_backStage_authentication.py-[line:173]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Fri, 20 Nov 2020 14:08:29-run_all_case.py-test_backStage_authentication.py-[line:278]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Fri, 20 Nov 2020 14:08:29-run_all_case.py-test_backStage_authentication.py-[line:281]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Fri, 20 Nov 2020 14:08:29-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Fri, 20 Nov 2020 14:08:59-run_all_case.py-run_all_case.py-[line:60]-INFO-[日志信息]: ==================================2020-11-20 14:08:59===================================
+Fri, 20 Nov 2020 14:09:02-run_all_case.py-test_login.py-[line:57]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Fri, 20 Nov 2020 14:09:02-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Fri, 20 Nov 2020 14:09:02-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Fri, 20 Nov 2020 14:09:02-run_all_case.py-test_businessInfoReg.py-[line:38]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Fri, 20 Nov 2020 14:09:03-run_all_case.py-test_backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Fri, 20 Nov 2020 14:09:03-run_all_case.py-test_backStage_authentication.py-[line:173]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Fri, 20 Nov 2020 14:09:03-run_all_case.py-test_backStage_authentication.py-[line:278]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Fri, 20 Nov 2020 14:09:03-run_all_case.py-test_backStage_authentication.py-[line:281]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Fri, 20 Nov 2020 14:09:03-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Fri, 20 Nov 2020 14:10:18-run_all_case.py-run_all_case.py-[line:60]-INFO-[日志信息]: ==================================2020-11-20 14:10:18===================================
+Fri, 20 Nov 2020 14:10:20-run_all_case.py-test_login.py-[line:57]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Fri, 20 Nov 2020 14:11:39-run_all_case.py-run_all_case.py-[line:58]-INFO-[日志信息]: ==================================2020-11-20 14:11:39===================================
+Fri, 20 Nov 2020 14:11:40-run_all_case.py-test_login.py-[line:57]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+

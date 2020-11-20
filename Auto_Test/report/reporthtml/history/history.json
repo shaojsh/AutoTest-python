@@ -9,32 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fbb0cbf35031d615",
+      "uid" : "c516d1142309d03",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
       "time" : {
-        "start" : 1605157666993,
-        "stop" : 1605157714666,
-        "duration" : 47673
-      }
-    } ]
-  },
-  "f0962677001a5648110bb8450603160d" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c8df79f0a6a689dd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1605157918397,
-        "stop" : 1605157918485,
-        "duration" : 88
+        "start" : 1605852543473,
+        "stop" : 1605852543473,
+        "duration" : 0
       }
     } ]
   },
@@ -48,17 +29,17 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "784e37572751210a",
+      "uid" : "dd24e88426d015ae",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
       "time" : {
-        "start" : 1605157591766,
-        "stop" : 1605157605895,
-        "duration" : 14129
+        "start" : 1605852543047,
+        "stop" : 1605852543047,
+        "duration" : 0
       }
     } ]
   },
-  "dd0646a5c1a798e47c4f25747509dea9" : {
+  "f0962677001a5648110bb8450603160d" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -68,12 +49,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3e14081229f85d0d",
+      "uid" : "16b311343439b72e",
       "status" : "passed",
       "time" : {
-        "start" : 1605157483302,
-        "stop" : 1605157500177,
-        "duration" : 16875
+        "start" : 1605157918397,
+        "stop" : 1605157918485,
+        "duration" : 88
+      }
+    } ]
+  },
+  "dd0646a5c1a798e47c4f25747509dea9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "522e12a1db1eb3f2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1605852542380,
+        "stop" : 1605852542386,
+        "duration" : 6
       }
     } ]
   },
@@ -87,51 +88,53 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1116940e2f9ddd09",
+      "uid" : "38ad2b12e7a79a2",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
       "time" : {
-        "start" : 1605157537835,
-        "stop" : 1605157591670,
-        "duration" : 53835
+        "start" : 1605852542906,
+        "stop" : 1605852542906,
+        "duration" : 0
       }
     } ]
   },
   "28dda5313ff182aeade3becf47df4372" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b39390f30489cd4b",
-      "status" : "passed",
+      "uid" : "dbc9481a9833e70f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
       "time" : {
-        "start" : 1605157500188,
-        "stop" : 1605157537801,
-        "duration" : 37613
+        "start" : 1605852542625,
+        "stop" : 1605852542766,
+        "duration" : 141
       }
     } ]
   },
   "d85ebd52118862a52004a5c4faaac530" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f7b2a281967be4cf",
-      "status" : "passed",
+      "uid" : "dfe8bab403836ae0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
       "time" : {
-        "start" : 1605157605930,
-        "stop" : 1605157643014,
-        "duration" : 37084
+        "start" : 1605852543174,
+        "stop" : 1605852543174,
+        "duration" : 0
       }
     } ]
   },
@@ -145,7 +148,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "274cc219699820e4",
+      "uid" : "5e9383b706a8d473",
       "status" : "passed",
       "time" : {
         "start" : 1605491340730,
@@ -164,13 +167,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b5fb8e277b4a2e12",
+      "uid" : "7b8c674ccda8e3f0",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
       "time" : {
-        "start" : 1605157643088,
-        "stop" : 1605157666942,
-        "duration" : 23854
+        "start" : 1605852543330,
+        "stop" : 1605852543345,
+        "duration" : 15
       }
     } ]
   }
