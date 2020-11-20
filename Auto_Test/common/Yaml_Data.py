@@ -21,6 +21,7 @@ class HandleYaml:
 
     def get_data(self):
         try:
+            print('++++++++++++++++++++++++++路径为'+self.file_path)
             fp = open(self.file_path, encoding='utf-8')
         except:
             print('读取配置文件异常')
