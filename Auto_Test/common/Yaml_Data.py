@@ -19,11 +19,10 @@ class HandleYaml:
 
     def get_data(self):
         try:
-            fp = open(self.file_path, encoding='utf-8')
+            open(self.file_path, encoding='utf-8')
         except:
             print('读取配置文件异常')
-        fp2 = fp
-        data = yaml.load(fp2, Loader=yaml.FullLoader)
+        data = yaml.load(open(self.file_path, encoding='utf-8'), Loader=yaml.FullLoader)
         yaml.warnings({'YAMLLoadWarning': False})
         return data
 #
