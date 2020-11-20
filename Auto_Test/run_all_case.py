@@ -39,11 +39,11 @@ else:  # 通过jenkins 获取参数
 if evn == 'SIT':
     handleyaml = HandleYaml(root_dir + '\\test_data\\ConfigGol-SIT.yaml')
     if jenkins:  # linux 路径表示
-        handleyaml = HandleYaml(root_dir + '/test_data/ConfigGol-SIT.yaml')
+        handleyaml = '/var/lib/jenkins/workspace/AutoTest-python/Auto_Test/test_data/ConfigGol-SIT.yaml'
 else:
     handleyaml = HandleYaml(root_dir + '\\test_data\\ConfigGol-UAT.yaml')
     if jenkins:  # linux 路径表示
-        handleyaml = HandleYaml(root_dir + '/test_data/ConfigGol-SIT.yaml')
+        handleyaml = '/var/lib/jenkins/workspace/AutoTest-python/Auto_Test/test_data/ConfigGol-UAT.yaml'
 
 # handleyaml = HandleYaml(os.getcwd() + '\\..\\test_data\\ConfigGol-SIT.yaml')  # 调试db用
 
