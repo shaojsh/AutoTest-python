@@ -20,8 +20,8 @@ class HandleYaml:
             self.file_path = root_dir + '//Auto_Test//test_data//ConfigGol-SIT.yaml'
 
     def get_data(self):
+        global fp
         try:
-            print('++++++++++++++++++++++++++路径为'+self.file_path)
             fp = open(self.file_path, encoding='utf-8')
         except:
             print('读取配置文件异常')
