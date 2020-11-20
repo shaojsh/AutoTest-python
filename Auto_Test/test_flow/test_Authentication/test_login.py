@@ -14,7 +14,7 @@ from common.BaseFunction import waitUntilDisplay, waitUntilClick, waiteForClick
 from common.dbLink import getPhoneMessage, flushDb, deleteInforMobile, getVerification
 from flow_path.path_backStage_authentication import path_backStage_authentication
 from flow_path.path_login import loginOn
-from run_all_case import yamldict, logger, runMode, mobileDriver, driverPath
+from run_all_case import yamldict, logger, runMode, mobileDriver, driverPath, jenkins
 
 act = yamldict['test_userlist']['company_user']
 pwd = yamldict['test_userlist']['company_user_pass']
@@ -55,7 +55,18 @@ def test_companyRegister():
         def_name = sys._getframe().f_code.co_name
         test_Assert = Assert.Assertions(def_name)
         logger.info("开始执行脚本%s:\n", def_name)
-        driver = webdriver.Chrome(executable_path=driverPath)
+
+        if jenkins:
+            chrome_options = webdriver.ChromeOptions()
+            chrome_options.add_argument('--no-sandbox')  # 解决DevToolsActivePort文件不存在的报错
+            chrome_options.add_argument('window-size=1920x3000')  # 指定浏览器分辨率
+            chrome_options.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
+            chrome_options.add_argument('--hide-scrollbars')  # 隐藏滚动条, 应对一些特殊页面
+            chrome_options.add_argument('blink-settings=imagesEnabled=false')  # 不加载图片, 提升速度
+            chrome_options.add_argument('--headless')  # 浏览器不提供可视化页面. linux下如果系统不支持可视化不加这条会启动失败
+            driver = webdriver.Chrome(executable_path=driverPath,chrome_options = chrome_options)
+        else:
+            driver = webdriver.Chrome(executable_path=driverPath)
         driver.maximize_window()
         driver.get(url_ui_register)
         # db中清除已注册的账户
