@@ -59,9 +59,10 @@ def test_companyRegister():
             chrome_option = webdriver.ChromeOptions()
             chrome_option.add_argument('--no-sandbox')  # 解决DevToolsActivePort文件不存在的报错
             chrome_option.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
-            # chrome_option.add_argument('--hide-scrollbars')  # 隐藏滚动条, 应对一些特殊页面
-            # chrome_option.add_argument('blink-settings=imagesEnabled=false')  # 不加载图片, 提升速度
+            chrome_option.add_argument('--hide-scrollbars')  # 隐藏滚动条, 应对一些特殊页面
+            chrome_option.add_argument('blink-settings=imagesEnabled=false')  # 不加载图片, 提升速度
             chrome_option.add_argument('--headless')  # 浏览器不提供可视化页面. linux下如果系统不支持可视化不加这条会启动失败
+            chrome_option.addArguments("--disable-dev-shm-usage")
             driver = webdriver.Chrome(executable_path=driverPath, chrome_options=chrome_option)
         else:
             driver = webdriver.Chrome(executable_path=driverPath)
