@@ -13,6 +13,7 @@ from common.dbLink import getPhoneMessage, flushDb, deleteInforMobile, getVerifi
 from flow_path.path_backStage_authentication import path_backStage_authentication
 from flow_path.path_login import loginOn
 from run_all_case import yamldict, logger, runMode, mobileDriver, driverPath, jenkins
+from pyvirtualdisplay import Display
 
 act = yamldict['test_userlist']['company_user']
 pwd = yamldict['test_userlist']['company_user_pass']
@@ -55,6 +56,8 @@ def test_companyRegister():
         logger.info("开始执行脚本%s:\n", def_name)
 
         if jenkins:
+            display = Display(visible=0, size=(800, 800))
+            display.start()
             chrome_options = Options()
             chrome_options.add_argument('--no-sandbox')  # 解决DevToolsActivePort文件不存在的报错
             chrome_options.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
