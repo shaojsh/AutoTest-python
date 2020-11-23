@@ -62,7 +62,7 @@ def test_companyRegister():
             chrome_options.add_argument('--hide-scrollbars')  # 隐藏滚动条, 应对一些特殊页面
             chrome_options.add_argument('blink-settings=imagesEnabled=false')  # 不加载图片, 提升速度
             chrome_options.add_argument('--headless')  # 浏览器不提供可视化页面. linux下如果系统不支持可视化不加这条会启动失败
-            chrome_options.addArgument("--disable-dev-shm-usage")
+            chrome_options.add_argument("--disable-dev-shm-usage")
             driver = webdriver.Chrome(executable_path=driverPath, chrome_options=chrome_options)
         else:
             driver = webdriver.Chrome(executable_path=driverPath)
