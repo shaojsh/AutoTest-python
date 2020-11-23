@@ -27,7 +27,7 @@ if not jenkins:  # 本地 获取参数
     runMode = config.get_data()['configEvn']['runMode']
     evn = config.get_data()['configEvn']['evn']
 if jenkins:
-    driverPath = '/usr/bin/chromedriver'  # 谷歌六拉你去版本（linux）:78.0.3904.70
+    driverPath = '/usr/bin/chromedriver'  # 谷歌版本（linux）:78.0.3904.70
     runMode = os.environ["runMode"]
     evn = os.environ["evn"]
     RunPath = os.environ["RunPath"]
