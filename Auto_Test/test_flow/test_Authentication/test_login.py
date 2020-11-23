@@ -57,7 +57,6 @@ def test_companyRegister():
         if jenkins:
             chrome_options = webdriver.ChromeOptions()
             chrome_options.add_argument('--no-sandbox')  # 解决DevToolsActivePort文件不存在的报错
-            chrome_options.add_argument()
             chrome_options.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
             chrome_options.add_argument('--hide-scrollbars')  # 隐藏滚动条, 应对一些特殊页面
             chrome_options.add_argument('blink-settings=imagesEnabled=false')  # 不加载图片, 提升速度
