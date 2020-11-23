@@ -6,7 +6,7 @@ import allure
 import pytest
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-
+from selenium.webdriver.chrome.options import Options
 from androidBaseFlow import startWeinxin, Template, touch
 from common import Assert
 from common.BaseFunction import waitUntilDisplay, waitUntilClick, waiteForClick
@@ -56,14 +56,14 @@ def test_companyRegister():
         logger.info("开始执行脚本%s:\n", def_name)
 
         if jenkins:
-            chrome_option = webdriver.ChromeOptions()
-            chrome_option.add_argument('--no-sandbox')  # 解决DevToolsActivePort文件不存在的报错
-            chrome_option.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
-            chrome_option.add_argument('--hide-scrollbars')  # 隐藏滚动条, 应对一些特殊页面
-            chrome_option.add_argument('blink-settings=imagesEnabled=false')  # 不加载图片, 提升速度
-            chrome_option.add_argument('--headless')  # 浏览器不提供可视化页面. linux下如果系统不支持可视化不加这条会启动失败
-            chrome_option.addArguments("--disable-dev-shm-usage")
-            driver = webdriver.Chrome(executable_path=driverPath, chrome_options=chrome_option)
+            chrome_options = Options()
+            chrome_options.add_argument('--no-sandbox')  # 解决DevToolsActivePort文件不存在的报错
+            chrome_options.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
+            chrome_options.add_argument('--hide-scrollbars')  # 隐藏滚动条, 应对一些特殊页面
+            chrome_options.add_argument('blink-settings=imagesEnabled=false')  # 不加载图片, 提升速度
+            chrome_options.add_argument('--headless')  # 浏览器不提供可视化页面. linux下如果系统不支持可视化不加这条会启动失败
+            chrome_options.addArguments("--disable-dev-shm-usage")
+            driver = webdriver.Chrome(executable_path=driverPath, chrome_options=chrome_options)
         else:
             driver = webdriver.Chrome(executable_path=driverPath)
         driver.maximize_window()
