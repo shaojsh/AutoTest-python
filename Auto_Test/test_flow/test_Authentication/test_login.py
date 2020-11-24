@@ -1,7 +1,6 @@
 import os
 import sys
 from time import sleep
-from selenium.webdriver.chrome.options import Options
 import allure
 import pytest
 from selenium import webdriver
@@ -55,15 +54,12 @@ def test_companyRegister():
         logger.info("开始执行脚本%s:\n", def_name)
 
         if jenkins:
-            chrome_options = Options()
-            chrome_options.add_argument('--no-sandbox')  # 解决DevToolsActivePort文件不存在的报错
-            chrome_options.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
-            chrome_options.add_argument('--hide-scrollbars')  # 隐藏滚动条, 应对一些特殊页面
-            chrome_options.add_argument('blink-settings=imagesEnabled=false')  # 不加载图片, 提升速度
-            chrome_options.add_argument('--headless')  # 浏览器不提供可视化页面. linux下如果系统不支持可视化不加这条会启动失败
-            chrome_options.add_argument("--disable-dev-shm-usage")
-            chrome_options.add_argument('--disable-useAutomationExtension')
-            driver = webdriver.Chrome(executable_path=driverPath, options=chrome_options)
+            option = webdriver.ChromeOptions()
+            option.add_argument('headless')  # 浏览器不提供可视化页面
+            option.add_argument('no-sandbox')  # 以最高权限运行
+            option.add_argument('--start-maximized')  # 最大化运行（全屏窗口）设置元素定位比较准确
+            option.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
+            driver = webdriver.Chrome(executable_path=driverPath, options=option)
         else:
             driver = webdriver.Chrome(executable_path=driverPath)
         driver.maximize_window()
