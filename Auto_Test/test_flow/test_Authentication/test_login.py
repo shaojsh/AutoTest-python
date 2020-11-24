@@ -60,7 +60,7 @@ def test_companyRegister():
             option.add_argument('--start-maximized')  # 最大化运行（全屏窗口）设置元素定位比较准确
             option.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
             option.add_argument('--disable-dev-shm-usage')  # 不加载图片, 提升速度
-            driver = webdriver.Chrome(executable_path='/var/lib/jenkins/workspace/AutoTest-python/Auto_Test/chromedriver', options=option)
+            driver = webdriver.Chrome(options=option)
         else:
             driver = webdriver.Chrome(executable_path=driverPath)
         driver.maximize_window()
