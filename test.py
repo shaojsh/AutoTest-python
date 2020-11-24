@@ -10,7 +10,7 @@ def is_driver():
         option.add_argument('--start-maximized')  # 最大化运行（全屏窗口）设置元素定位比较准确
         option.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
         # option.add_argument('--window-size=1920,1080') # 设置浏览器分辨率（窗口大小）
-        driver = webdriver.Chrome(options=option)
+        driver = webdriver.Chrome(options=option, executable_path='/usr/bin/chromedriver')
         driver.get('https://www.baidu.com/')
         print('title：', driver.title)
         print('执行完毕：！！！')
