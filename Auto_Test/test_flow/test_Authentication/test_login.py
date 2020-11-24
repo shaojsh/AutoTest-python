@@ -54,7 +54,7 @@ def test_companyRegister():
         logger.info("开始执行脚本%s:\n", def_name)
 
         if jenkins:
-            path = r"%s/driver/chromedriver" % str(
+            path = r"%s/chromedriver" % str(
                 os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))  # 配置驱动路径
             print("path:%s" % path)
             option = webdriver.ChromeOptions()
