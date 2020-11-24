@@ -54,16 +54,13 @@ def test_companyRegister():
         logger.info("开始执行脚本%s:\n", def_name)
 
         if jenkins:
-            path = r"%s/chromedriver" % str(
-                os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))  # 配置驱动路径
-            print("path:%s" % path)
             option = webdriver.ChromeOptions()
-            option.add_argument('--headless')  # 浏览器不提供可视化页面
+            # option.add_argument('--headless')  # 浏览器不提供可视化页面
             option.add_argument('--no-sandbox')  # 以最高权限运行
-            option.add_argument('--start-maximized')  # 最大化运行（全屏窗口）设置元素定位比较准确
-            option.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
-            option.add_argument('--disable-dev-shm-usage')  # 不加载图片, 提升速度
-            driver = webdriver.Chrome(options=option)
+            # option.add_argument('--start-maximized')  # 最大化运行（全屏窗口）设置元素定位比较准确
+            # option.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
+            # option.add_argument('--disable-dev-shm-usage')  # 不加载图片, 提升速度
+            driver = webdriver.Chrome(chrome_options=option)
         else:
             driver = webdriver.Chrome(executable_path=driverPath)
         driver.maximize_window()
