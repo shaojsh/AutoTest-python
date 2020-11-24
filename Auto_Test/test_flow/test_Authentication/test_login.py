@@ -59,7 +59,7 @@ def test_companyRegister():
             option.add_argument('no-sandbox')  # 以最高权限运行
             option.add_argument('--start-maximized')  # 最大化运行（全屏窗口）设置元素定位比较准确
             option.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
-            driver = webdriver.Chrome(options=option)
+            driver = webdriver.Chrome(executable_path=driverPath, options=option)
         else:
             driver = webdriver.Chrome(executable_path=driverPath)
         driver.maximize_window()
