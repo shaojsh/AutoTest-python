@@ -66,10 +66,11 @@ def test_companyRegister():
         driver.maximize_window()
         driver.get(url_ui_register)
         # db中清除已注册的账户
-        deleteInforMobile()
-        logger.info("对已注册的账户进行删除操作")
-        sleep(1)
-        waitUntilClick(driver, loginOn.btn_agree_css.value)
+        # deleteInforMobile()
+        # logger.info("对已注册的账户进行删除操作")
+        # sleep(1)
+        # waitUntilClick(driver, loginOn.btn_agree_css.value)
+        sleep(5)
         driver.find_element_by_css_selector(loginOn.btn_agree_css.value).click()
 
         waitUntilDisplay(driver, loginOn.input_act_css.value)
