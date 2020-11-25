@@ -55,10 +55,10 @@ def test_companyRegister():
 
         if jenkins:
             option = webdriver.ChromeOptions()
-            option.add_argument('headless')  # 浏览器不提供可视化页面
+            # option.add_argument('headless')  # 浏览器不提供可视化页面
             option.add_argument('no-sandbox')  # 以最高权限运行
-            option.add_argument('--start-maximized')  # 最大化运行（全屏窗口）设置元素定位比较准确
-            option.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
+            # option.add_argument('--start-maximized')  # 最大化运行（全屏窗口）设置元素定位比较准确
+            # option.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
             # option.add_argument('--window-size=1920,1080') # 设置浏览器分辨率（窗口大小）
             driver = webdriver.Chrome(options=option)
         else:
@@ -67,9 +67,9 @@ def test_companyRegister():
         driver.get(url_ui_register)
         # db中清除已注册的账户
         # deleteInforMobile()
-        # logger.info("对已注册的账户进行删除操作")
-        # sleep(1)
-        # waitUntilClick(driver, loginOn.btn_agree_css.value)
+        logger.info("对已注册的账户进行删除操作")
+        sleep(1)
+        waitUntilClick(driver, loginOn.btn_agree_css.value)
         sleep(5)
         driver.find_element_by_css_selector(loginOn.btn_agree_css.value).click()
 
