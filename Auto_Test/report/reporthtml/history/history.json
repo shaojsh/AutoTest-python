@@ -9,33 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c516d1142309d03",
+      "uid" : "c18b6551808ba4e7",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1605852543473,
-        "stop" : 1605852543473,
-        "duration" : 0
-      }
-    } ]
-  },
-  "fa363551da3b313dda3c470cf52ad218" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "dd24e88426d015ae",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
-      "time" : {
-        "start" : 1605852543047,
-        "stop" : 1605852543047,
-        "duration" : 0
+        "start" : 1606280225174,
+        "stop" : 1606280273539,
+        "duration" : 48365
       }
     } ]
   },
@@ -49,7 +29,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "16b311343439b72e",
+      "uid" : "690baebb68b9b757",
       "status" : "passed",
       "time" : {
         "start" : 1605157918397,
@@ -58,23 +38,41 @@
       }
     } ]
   },
-  "dd0646a5c1a798e47c4f25747509dea9" : {
+  "fa363551da3b313dda3c470cf52ad218" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "522e12a1db1eb3f2",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "uid" : "2259fd002173f2eb",
+      "status" : "passed",
       "time" : {
-        "start" : 1605852542380,
-        "stop" : 1605852542386,
-        "duration" : 6
+        "start" : 1606280123021,
+        "stop" : 1606280142246,
+        "duration" : 19225
+      }
+    } ]
+  },
+  "dd0646a5c1a798e47c4f25747509dea9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "222e8f8a67934034",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606280018153,
+        "stop" : 1606280037920,
+        "duration" : 19767
       }
     } ]
   },
@@ -88,13 +86,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "38ad2b12e7a79a2",
+      "uid" : "46db846200fd6b15",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1605852542906,
-        "stop" : 1605852542906,
-        "duration" : 0
+        "start" : 1606280082528,
+        "stop" : 1606280123005,
+        "duration" : 40477
       }
     } ]
   },
@@ -108,13 +106,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dbc9481a9833e70f",
+      "uid" : "f25efb30aca9d884",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1605852542625,
-        "stop" : 1605852542766,
-        "duration" : 141
+        "start" : 1606280037920,
+        "stop" : 1606280082449,
+        "duration" : 44529
       }
     } ]
   },
@@ -128,13 +126,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dfe8bab403836ae0",
+      "uid" : "826bd6f3c836a3b7",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='root']/section/section/main/div/div/div/div[2]/table/tbody//*[text() = 'AutoTest_Bank1020']/..//*[text()= '创建账号']\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
       "time" : {
-        "start" : 1605852543174,
-        "stop" : 1605852543174,
-        "duration" : 0
+        "start" : 1606280142254,
+        "stop" : 1606280174029,
+        "duration" : 31775
       }
     } ]
   },
@@ -148,7 +146,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5e9383b706a8d473",
+      "uid" : "eebc0d96d0faec85",
       "status" : "passed",
       "time" : {
         "start" : 1605491340730,
@@ -167,13 +165,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7b8c674ccda8e3f0",
+      "uid" : "f2ed38bfdbeaf5c9",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1605852543330,
-        "stop" : 1605852543345,
-        "duration" : 15
+        "start" : 1606280178180,
+        "stop" : 1606280225144,
+        "duration" : 46964
       }
     } ]
   }
