@@ -13,7 +13,7 @@ from common.BaseFunction import waitUntilDisplay, waitUntilClick
 from common.dbLink import deletePerInforAndComInfor, getPhoneMessage, getVerification, flushDb, getVerification_ui
 from flow_path.path_login import loginOn
 from flow_path.path_persionInfoReg import path_personalInfoReg
-from run_all_case import yamldict, logger, runMode, driverPath
+from run_all_case import yamldict, logger, runMode, driverPath, jenkins
 from common import Assert, BaseFunction
 from test_flow.test_Authentication.test_login import login
 
@@ -36,8 +36,16 @@ def test_infoReg():
         # 对个人信息企业信息进行删除操作
         deletePerInforAndComInfor()
         logger.info("对个人信息企业信息进行删除操作")
-
-        driver = webdriver.Chrome(executable_path=driverPath)
+        if jenkins:
+            option = webdriver.ChromeOptions()
+            option.add_argument('headless')  # 浏览器不提供可视化页面
+            option.add_argument('no-sandbox')  # 以最高权限运行
+            option.add_argument('--start-maximized')  # 最大化运行（全屏窗口）设置元素定位比较准确
+            option.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
+            option.add_argument('--window-size=1920,1080') # 设置浏览器分辨率（窗口大小）
+            driver = webdriver.Chrome(options=option)
+        else:
+            driver = webdriver.Chrome(executable_path=driverPath)
         driver.maximize_window()
         driver.get(url_forward)
 

@@ -11,7 +11,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from androidBaseFlow import Template, touch
 from common.dbLink import getPhoneMessage, flushDb, getVerification
 from flow_path.path_Tripartite_interaction import path_Tripartite_interaction
-from run_all_case import yamldict, logger, runMode, mobileDriver, driverPath
+from run_all_case import yamldict, logger, runMode, mobileDriver, driverPath, jenkins
 from common.BaseFunction import waitUntilDisplay, waitUntilClick, waitUntilClick_xpath, scrollText, \
     waitUntilDisplay_xpath, is_not_visible, waiteForClick, dragUntilTextAppear
 from test_flow.test_Authentication.test_backStage_examine import backStageLogin
@@ -145,7 +145,16 @@ def test_Tripartite_interaction():
 
     # 前端账户授信申请
     if runMode == 'UI':
-        driver_forward = webdriver.Chrome(executable_path=driverPath)
+        if jenkins:
+            option = webdriver.ChromeOptions()
+            option.add_argument('headless')  # 浏览器不提供可视化页面
+            option.add_argument('no-sandbox')  # 以最高权限运行
+            option.add_argument('--start-maximized')  # 最大化运行（全屏窗口）设置元素定位比较准确
+            option.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
+            option.add_argument('--window-size=1920,1080') # 设置浏览器分辨率（窗口大小）
+            driver_forward = webdriver.Chrome(options=option)
+        else:
+            driver_forward = webdriver.Chrome(executable_path=driverPath)
         driver_forward.maximize_window()
         driver_forward.get(url_forward)
         logger.info('前端账户登录授信申请')
@@ -205,7 +214,16 @@ def test_Tripartite_interaction():
         touch(Template(picture_dir1))
         logger.info('授信完成页面')
     # 银行授信审核
-    driver_bank = webdriver.Chrome(executable_path=driverPath)
+    if jenkins:
+        option = webdriver.ChromeOptions()
+        option.add_argument('headless')  # 浏览器不提供可视化页面
+        option.add_argument('no-sandbox')  # 以最高权限运行
+        option.add_argument('--start-maximized')  # 最大化运行（全屏窗口）设置元素定位比较准确
+        option.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
+        option.add_argument('--window-size=1920,1080')  # 设置浏览器分辨率（窗口大小）
+        driver_bank = webdriver.Chrome(options=option)
+    else:
+        driver_bank = webdriver.Chrome(executable_path=driverPath)
     driver_bank.maximize_window()
     driver_bank.get(url_back)
     logger.info('银行授信审核')
@@ -213,7 +231,16 @@ def test_Tripartite_interaction():
     CreditAudit_Bank(driver_bank)
 
     # 担保公司审核
-    driver_risk = webdriver.Chrome(executable_path=driverPath)
+    if jenkins:
+        option = webdriver.ChromeOptions()
+        option.add_argument('headless')  # 浏览器不提供可视化页面
+        option.add_argument('no-sandbox')  # 以最高权限运行
+        option.add_argument('--start-maximized')  # 最大化运行（全屏窗口）设置元素定位比较准确
+        option.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
+        option.add_argument('--window-size=1920,1080')  # 设置浏览器分辨率（窗口大小）
+        driver_bank = webdriver.Chrome(options=option)
+    else:
+        driver_risk = webdriver.Chrome(executable_path=driverPath)
     driver_risk.maximize_window()
     driver_risk.get(url_back)
     logger.info('担保公司审核')
