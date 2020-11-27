@@ -12,8 +12,8 @@ def shout_dowm():
 
 
 # 调用后自动开机
-def start_up():
-    pass
+# def start_up():
+#     pass
 
 
 if __name__ == "__main__":
