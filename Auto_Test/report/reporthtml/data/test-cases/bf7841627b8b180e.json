@@ -1,0 +1,340 @@
+{
+  "uid" : "bf7841627b8b180e",
+  "name" : "test_companyRegister",
+  "fullName" : "test_flow.test_Authentication.test_login#test_companyRegister",
+  "historyId" : "dd0646a5c1a798e47c4f25747509dea9",
+  "time" : {
+    "start" : 1607927290023,
+    "stop" : 1607927307667,
+    "duration" : 17644
+  },
+  "description" : "测试 http://10.10.128.152:10053/user/register 中小微企业注册流程",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/user/register 中小微企业注册流程</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/user/register 中小微企业注册流程",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d8cbe3d9eec8577e",
+      "name" : "log",
+      "source" : "d8cbe3d9eec8577e.txt",
+      "type" : "text/plain",
+      "size" : 431
+    }, {
+      "uid" : "7bcdc5baf06d4b1a",
+      "name" : "stdout",
+      "source" : "7bcdc5baf06d4b1a.txt",
+      "type" : "text/plain",
+      "size" : 144
+    }, {
+      "uid" : "318a8e287d6bdfd1",
+      "name" : "stderr",
+      "source" : "318a8e287d6bdfd1.txt",
+      "type" : "text/plain",
+      "size" : 612
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "15788-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "注册 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/user/register",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "598d0ee9293e6b5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607927180653,
+        "stop" : 1607927198720,
+        "duration" : 18067
+      }
+    }, {
+      "uid" : "28cf1281eb2a1f89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607927021070,
+        "stop" : 1607927038727,
+        "duration" : 17657
+      }
+    }, {
+      "uid" : "1afe405e197a81df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607926758991,
+        "stop" : 1607926776492,
+        "duration" : 17501
+      }
+    }, {
+      "uid" : "85bb75a0df6df484",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607926553910,
+        "stop" : 1607926571415,
+        "duration" : 17505
+      }
+    }, {
+      "uid" : "6019510b3dac269b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607926417965,
+        "stop" : 1607926435626,
+        "duration" : 17661
+      }
+    }, {
+      "uid" : "cb591240c0ffe903",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607926136630,
+        "stop" : 1607926154314,
+        "duration" : 17684
+      }
+    }, {
+      "uid" : "94e9eb422bd4038c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607925997128,
+        "stop" : 1607926014776,
+        "duration" : 17648
+      }
+    }, {
+      "uid" : "70a8376eed77ccdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607911035435,
+        "stop" : 1607911052513,
+        "duration" : 17078
+      }
+    }, {
+      "uid" : "4d7159e24c6c3b22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607910666050,
+        "stop" : 1607910683179,
+        "duration" : 17129
+      }
+    }, {
+      "uid" : "84092f6725d59130",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607909093773,
+        "stop" : 1607909111536,
+        "duration" : 17763
+      }
+    }, {
+      "uid" : "4082bfb0811e4781",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607906906126,
+        "stop" : 1607906939048,
+        "duration" : 32922
+      }
+    }, {
+      "uid" : "1f3409fecf84cc95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607906752987,
+        "stop" : 1607906770652,
+        "duration" : 17665
+      }
+    }, {
+      "uid" : "1744feb9f887bf6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607906709211,
+        "stop" : 1607906726577,
+        "duration" : 17366
+      }
+    }, {
+      "uid" : "15050d2f36f40c6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607906651590,
+        "stop" : 1607906674588,
+        "duration" : 22998
+      }
+    }, {
+      "uid" : "134aab247d8001a5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <span style=\"color:#262626\">...</span>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607906125842,
+        "stop" : 1607906144940,
+        "duration" : 19098
+      }
+    }, {
+      "uid" : "d91eb2301a2b1578",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607905990953,
+        "stop" : 1607906014664,
+        "duration" : 23711
+      }
+    }, {
+      "uid" : "5931075795fc145",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606280018153,
+        "stop" : 1606280037920,
+        "duration" : 19767
+      }
+    }, {
+      "uid" : "b5b880a9b0959eb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606279960278,
+        "stop" : 1606279977934,
+        "duration" : 17656
+      }
+    }, {
+      "uid" : "24763685a437be81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606279933217,
+        "stop" : 1606279951074,
+        "duration" : 17857
+      }
+    }, {
+      "uid" : "155b773b93cb55d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606273011287,
+        "stop" : 1606273030036,
+        "duration" : 18749
+      }
+    }, {
+      "uid" : "1674c2d4fa201e9c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"btn___3JFj3 \">...</span> is not clickable at point (1109, 361). Other element would receive the click: <span style=\"color:#262626\">...</span>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1606099077115,
+        "stop" : 1606099092465,
+        "duration" : 15350
+      }
+    }, {
+      "uid" : "acf4fdd814f0bbbd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1605852542380,
+        "stop" : 1605852542386,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "adbf3d377819baf4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1605852508702,
+        "stop" : 1605852508702,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fcb8b950236ef239",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1605852452885,
+        "stop" : 1605852452885,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cb1f2e342bdf113e",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'send_keys'",
+      "time" : {
+        "start" : 1605833075170,
+        "stop" : 1605833087810,
+        "duration" : 12640
+      }
+    }, {
+      "uid" : "ee9f34ecc56c27b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605832291298,
+        "stop" : 1605832310899,
+        "duration" : 19601
+      }
+    }, {
+      "uid" : "a718317963366784",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605776821334,
+        "stop" : 1605776839299,
+        "duration" : 17965
+      }
+    }, {
+      "uid" : "944be4edb0f2188",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605491375049,
+        "stop" : 1605491393517,
+        "duration" : 18468
+      }
+    }, {
+      "uid" : "ea2ad85d66412721",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605157483302,
+        "stop" : 1605157500177,
+        "duration" : 16875
+      }
+    }, {
+      "uid" : "7eb4d3554f6da81f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605157232783,
+        "stop" : 1605157250020,
+        "duration" : 17237
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "bf7841627b8b180e.json",
+  "parameterValues" : [ ]
+}

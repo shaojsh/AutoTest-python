@@ -8,7 +8,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
-from common.BaseFunction import actionChainsClick, waitUntilClick, scrollText, waitUntilClick_xpath
+from common.BaseFunction import actionChainsClick, waitUntilClick, scrollText, waitUntilClick_xpath, waitUntilDisplay
 from common.dbLink import getPhoneMessage, deleteOrgInfor, getVerification, flushDb, getVerification_ui
 from flow_path.path_Tripartite_interaction import path_Tripartite_interaction
 from flow_path.path_backStage_authentication import path_backStage_authentication
@@ -42,7 +42,8 @@ def createProduct(driver):
     sleep(2)
     driver.find_element_by_css_selector(path_Tripartite_interaction.btn_homeBackStage_css.value).click()
     logger.info('首页')
-    sleep(1)
+    driver.refresh()
+    sleep(3)
     driver.find_elements_by_xpath(path_backStage_authentication.btn_goodList_xpath.value)[0].click()
     sleep(1)
     logger.info('产品基本信息')
@@ -52,7 +53,6 @@ def createProduct(driver):
     driver.find_element_by_css_selector(path_backStage_authentication.choose_goodType_css.value).click()
     el1 = driver.find_element_by_css_selector(path_backStage_authentication.choose_goodType_css.value)
     scrollText(driver, el1, '财金通')
-
     driver.find_element_by_css_selector(path_backStage_authentication.input_goodName_css.value).send_keys(product_name)
 
     driver.find_element_by_css_selector(path_backStage_authentication.cal_okTime.value).click()
@@ -73,13 +73,16 @@ def createProduct(driver):
     el5.send_keys(Keys.DELETE)
     el5.send_keys('1000000')
 
+    driver.find_element_by_css_selector(path_backStage_authentication.input_payWay1_css.value).click()
+    driver.find_element_by_css_selector(path_backStage_authentication.input_payWay2_css.value).click()
+
     driver.find_element_by_css_selector(path_backStage_authentication.choose_loanGetWay_css.value).click()
     el6 = driver.find_element_by_css_selector(path_backStage_authentication.choose_loanGetWay_css.value)
     scrollText(driver, el6, '按日')
 
-    # driver.find_element_by_css_selector(path_backStage_authentication.choose_rendItem_css.value).click()
-    # el7 = driver.find_element_by_css_selector(path_backStage_authentication.choose_rendItem_css.value)
-    # scrollText(driver, el7, '按日')
+    driver.find_element_by_css_selector(path_backStage_authentication.choose_rendItem_css.value).click()
+    el7 = driver.find_element_by_css_selector(path_backStage_authentication.choose_rendItem_css.value)
+    scrollText(driver, el7, '按日')
 
     if rend_rule == 1:
         rule = '算头算尾'
@@ -147,14 +150,14 @@ def createProduct(driver):
         '利率低,很nice的产品')
 
     driver.find_element_by_css_selector(path_backStage_authentication.btn_save_css.value).click()
-    waitUntilClick_xpath(driver, path_backStage_authentication.btn_next2_xpath.value)
+    waitUntilClick(driver, path_backStage_authentication.btn_next2_xpath.value)
     sleep(0.5)
-    driver.find_element_by_xpath(path_backStage_authentication.btn_next2_xpath.value).click()
+    driver.find_element_by_css_selector(path_backStage_authentication.btn_next2_xpath.value).click()
 
     logger.info('计分卡')
-    waitUntilClick_xpath(driver, path_backStage_authentication.btn_next3_xpath.value)
+    waitUntilClick(driver, path_backStage_authentication.btn_next3_xpath.value)
     sleep(0.5)
-    driver.find_element_by_xpath(path_backStage_authentication.btn_next3_xpath.value).click()
+    driver.find_element_by_css_selector(path_backStage_authentication.btn_next3_xpath.value).click()
 
     waitUntilClick(driver, path_backStage_authentication.check_content_css.value)
     sleep(0.5)
@@ -236,10 +239,8 @@ def authentication(driver, Type):
         picture_dir1)
     driver.find_element_by_css_selector(path_backStage_authentication.upload_pic2_css.value).send_keys(
         picture_dir2)
-
-    driver.find_element_by_css_selector(path_backStage_authentication.btn_submitAu_css.value).click()
     sleep(1)
-
+    driver.find_element_by_css_selector(path_backStage_authentication.btn_submitAu_css.value).click()
     # 企业信息认证
     logger.info('企业信息认证')
     waitUntilClick(driver, path_backStage_authentication.btn_goToAu_css.value)
@@ -259,8 +260,7 @@ def authentication(driver, Type):
     driver.find_element_by_css_selector(path_backStage_authentication.btn_goToAu_css.value).click()
 
     logger.info('协议内容确认页面')
-    waitUntilClick(driver, path_backStage_authentication.checkBox_agree_css.value)
-    sleep(1.5)
+    waitUntilClick(driver, '#root > div > section > section > main > div > div > div > div > div > div:nth-child(2) > div > button')
     driver.find_element_by_css_selector(path_backStage_authentication.checkBox_agree_css.value).click()
     sleep(0.5)
     driver.find_element_by_css_selector(path_backStage_authentication.btn_startAu_css.value).click()
@@ -271,8 +271,14 @@ def authentication(driver, Type):
         # 活体认证欺诈性校验（银行）
         getVerification_ui(RequestURL, company_bank)
     logger.info('二维码认证页面')
-    WebDriverWait(driver, 1200).until(
-        EC.presence_of_element_located((By.CSS_SELECTOR, path_backStage_authentication.text_au_css.value)))
+    while True:
+        try:
+            text = driver.find_element_by_css_selector(path_backStage_authentication.text_au_css.value).text
+            if text == '认证成功':
+                break
+        except:
+            sleep(0.5)
+            continue
     if Type == 0:
         driver.quit()
 
@@ -304,8 +310,6 @@ def test_backStage_authentication():
     authentication(driver_bank, 1)
     # 创建产品
     createProduct(driver_bank)
-    # backStageLogin(driver, company_bank, company_bank_pass, 0)
-    # createProduct(driver)
     driver_bank.quit()
 
 
@@ -340,7 +344,7 @@ def createInstitutions(driver, name, enterpriseType):
 
 # 创建账号
 def createAct(driver, account, name, enterpriseType):
-    xpath = "//*[@id='root']/section/section/main/div/div/div/div[2]/table/tbody//*[text() = \'" + name + "\']/..//*[text()= '创建账号']"
+    xpath = "//*[@id='root']/div/section/section/main/div/div/div/div[2]/table/tbody//*[text() = \'" + name + "\']/..//*[text()= '创建账号']"
     driver.find_element_by_xpath(xpath).click()
     sleep(1)
     if enterpriseType == 1:
@@ -349,10 +353,7 @@ def createAct(driver, account, name, enterpriseType):
         logger.info("进入担保公司创建页面")
     driver.find_element_by_css_selector(path_backStage_authentication.input_ActName_css.value).send_keys(name)
     driver.find_element_by_css_selector(path_backStage_authentication.input_PhoneNum_css.value).send_keys(account)
-    driver.find_element_by_css_selector(path_backStage_authentication.input_Email_css.value).send_keys(
+    driver.find_element_by_css_selector(path_backStage_authentication.input_Id_Card_css.value).send_keys(
         "110101199003078371")
-    # IdCard = random.randint(0, 99999999999999)
-    # driver.find_element_by_css_selector(path_backStage_authentication.input_Id_Card_css.value).send_keys(
-    #     '110101199003078371')
     driver.find_element_by_css_selector(path_backStage_authentication.btn_ActConfirm_css.value).click()
     sleep(2)

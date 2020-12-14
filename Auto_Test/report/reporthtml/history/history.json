@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c18b6551808ba4e7",
+      "uid" : "93bbf5bb58ff96b2",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
@@ -29,7 +29,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "690baebb68b9b757",
+      "uid" : "5523d298ee3de8f2",
       "status" : "passed",
       "time" : {
         "start" : 1605157918397,
@@ -48,12 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2259fd002173f2eb",
+      "uid" : "123bfa06e0f68f48",
       "status" : "passed",
       "time" : {
-        "start" : 1606280123021,
-        "stop" : 1606280142246,
-        "duration" : 19225
+        "start" : 1607928696271,
+        "stop" : 1607928715644,
+        "duration" : 19373
       }
     } ]
   },
@@ -67,72 +67,69 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "222e8f8a67934034",
+      "uid" : "bf7841627b8b180e",
       "status" : "passed",
       "time" : {
-        "start" : 1606280018153,
-        "stop" : 1606280037920,
-        "duration" : 19767
+        "start" : 1607927290023,
+        "stop" : 1607927307667,
+        "duration" : 17644
       }
     } ]
   },
   "673c6cf796d54f5cbc2e9852ef4f69c7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "46db846200fd6b15",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "uid" : "7488fcbdd2f0688b",
+      "status" : "passed",
       "time" : {
-        "start" : 1606280082528,
-        "stop" : 1606280123005,
-        "duration" : 40477
+        "start" : 1607927345167,
+        "stop" : 1607927408817,
+        "duration" : 63650
       }
     } ]
   },
   "28dda5313ff182aeade3becf47df4372" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f25efb30aca9d884",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "uid" : "74245103f378d95a",
+      "status" : "passed",
       "time" : {
-        "start" : 1606280037920,
-        "stop" : 1606280082449,
-        "duration" : 44529
+        "start" : 1607927307680,
+        "stop" : 1607927345155,
+        "duration" : 37475
       }
     } ]
   },
   "d85ebd52118862a52004a5c4faaac530" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "826bd6f3c836a3b7",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='root']/section/section/main/div/div/div/div[2]/table/tbody//*[text() = 'AutoTest_Bank1020']/..//*[text()= '创建账号']\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "uid" : "82b81455d625bc54",
+      "status" : "passed",
       "time" : {
-        "start" : 1606280142254,
-        "stop" : 1606280174029,
-        "duration" : 31775
+        "start" : 1607938219474,
+        "stop" : 1607938256837,
+        "duration" : 37363
       }
     } ]
   },
@@ -146,7 +143,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "eebc0d96d0faec85",
+      "uid" : "3068e7fd27fb08a6",
       "status" : "passed",
       "time" : {
         "start" : 1605491340730,
@@ -165,13 +162,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f2ed38bfdbeaf5c9",
+      "uid" : "9279c9a42ddb1a3d",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1606280178180,
-        "stop" : 1606280225144,
-        "duration" : 46964
+        "start" : 1607938256850,
+        "stop" : 1607938393166,
+        "duration" : 136316
       }
     } ]
   }

@@ -5,7 +5,7 @@ import allure
 import pytest
 from selenium import webdriver
 from common.BaseFunction import waitUntilDisplay
-from common.dbLink import updateNameCompany
+from common.dbLink import updateNameCompany, getPhoneMessage
 from flow_path.path_backStage_authentication import path_backStage_authentication
 from flow_path.path_backstage_examine import path_backstage_examine
 from run_all_case import yamldict, logger, runMode, driverPath, jenkins
@@ -56,7 +56,7 @@ def test_backstage_examine():
         if text == businessName:
             index = i
             break
-    bussPath = path_backstage_examine.btn_bussListName_xpath.value + '[' + str(index + 1) + ']' + '/td[7]' + '/span/a'
+    bussPath = path_backstage_examine.btn_bussListName_xpath.value + '[' + str(index + 1) + ']' + '/td[8]' + '/span/a'
     driver.find_elements_by_xpath(bussPath)[0].click()
     sleep(0.5)
     waitUntilDisplay(driver, path_backstage_examine.txt_userInfor_css.value)
@@ -65,10 +65,20 @@ def test_backstage_examine():
     logger.info('成功进入企业信息审核画面')
 
     driver.find_element_by_css_selector(path_backstage_examine.input_examine_css.value).send_keys('企业审核通过')
+
+    driver.find_element_by_css_selector(path_backstage_examine.btn_code_css.value).click()
+
+    while 1:
+        message = getPhoneMessage().get("Audit")
+        if message is None:
+            sleep(0.5)
+            continue
+        else:
+            break
+    driver.find_element_by_css_selector(path_backstage_examine.input_code_css.value).send_keys(message.strip().strip('"'))
+
     driver.find_element_by_css_selector(path_backstage_examine.btn_examinePass_css.value).click()
     sleep(1)
-    # examine_finalText = driver.find_element_by_xpath(bussPath).text
-    # test_Assert.assert_text_ui(examine_finalText, "查看详情")
     logger.info("企业认证通过")
     driver.quit()
 

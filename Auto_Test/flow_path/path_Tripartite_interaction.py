@@ -60,7 +60,7 @@ class path_Tripartite_interaction(Enum):
     btn_checkOkBank_css = 'body > div:nth-child(8) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > div > div > button.ant-btn.ant-btn-primary'  # 审核通过按钮
     btn_checkOkRiskMoney_css = 'body > div:nth-child(8) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > div > form > div:nth-child(7) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > div > div > div.ant-input-number-input-wrap > input'  # 担保费
     btn_contractNo_css = 'body > div:nth-child(6) > div > div.ant-drawer-content-wrapper > div > div > div.ant-drawer-body > div > div:nth-child(2) > div.ant-tabs-content.ant-tabs-content-animated.ant-tabs-top-content > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-spin-nested-loading > div > div > form > div:nth-child(6) > div:nth-child(2) > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > input'  # 借款担保合同编号
-    btn_homeBackStage_css = '#root > section > div.sider___ER6Fg > aside > div > div > ul > li.ant-menu-item'
+    btn_homeBackStage_css = '#root > div > section > div.sider___ER6Fg > aside > div > div > ul > li.ant-menu-item > a'
     txt_tag_css = '#root > section > section > main > div > div > div > div.bird_table___FZCrM > table > tbody > tr:nth-child(1) > td:nth-child(13) > span > a'  # 审核文本出现
 
     # 去缴费

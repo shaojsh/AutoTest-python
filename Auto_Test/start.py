@@ -8,13 +8,13 @@ import os
 
 # 调用后会自动关机
 def shout_dowm():
-    os.system('shutdown -s -f -t 10')
+    pass
+    # os.system('shutdown -s -f -t 10')
 
 
 # 调用后自动开机
 # def start_up():
 #     pass
-
 
 if __name__ == "__main__":
     shout_dowm()

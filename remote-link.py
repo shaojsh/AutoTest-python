@@ -2,6 +2,7 @@ import os
 import re
 import subprocess
 
+
 def remote_link():
     try:
         result = os.popen('adb shell ifconfig wlan0')

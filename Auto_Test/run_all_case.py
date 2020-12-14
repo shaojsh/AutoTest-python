@@ -3,8 +3,6 @@
 import time
 import os
 import sys
-from selenium import webdriver
-import androidBaseFlow
 from common.Logs import Log
 import pytest
 from common import Shell
@@ -46,6 +44,7 @@ yamldict = handleyaml.get_data()
 
 mobileDriver = ''
 if runMode != 'UI':
+    import androidBaseFlow
     mobileDriver = androidBaseFlow.poco
 file = os.path.basename(sys.argv[0])
 log = Log(file)

@@ -42,7 +42,7 @@ def test_businessInforReg():
             option.add_argument('no-sandbox')  # 以最高权限运行
             option.add_argument('--start-maximized')  # 最大化运行（全屏窗口）设置元素定位比较准确
             option.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
-            option.add_argument('--window-size=1920,1080') # 设置浏览器分辨率（窗口大小）
+            option.add_argument('--window-size=1920,1080')  # 设置浏览器分辨率（窗口大小）
             driver = webdriver.Chrome(options=option)
         else:
             driver = webdriver.Chrome(executable_path=driverPath)
@@ -62,15 +62,47 @@ def test_businessInforReg():
         waitUntilDisplay_xpath(driver, path_businessInfoReg.display_name_xpath.value)
         el.send_keys(Keys.ENTER)
         sleep(1)
-        # driver.find_element_by_css_selector(path_businessInfoReg.input_companyCode_css.value).send_keys(
-        #     "92520628MA6FK07055")
-        # driver.find_element_by_css_selector(path_businessInfoReg.input_legalPersonName_css.value).send_keys("黄小明")
-        driver.find_element_by_css_selector(path_businessInfoReg.input_legalPersonCardNo_css.value).send_keys(idNum)
-        # driver.find_element_by_css_selector(path_businessInfoReg.input_legalPersonAddress_css.value).send_keys(
-        #     "上海市浦东新区陆家嘴金砖大厦")
+
+        driver.find_element_by_css_selector(path_businessInfoReg.input_legalIdCard_css.value).send_keys(
+            idNum)
+
+        driver.find_element_by_css_selector(path_businessInfoReg.input_legalPhone_css.value).send_keys(
+            "17621198933")
+
+        while True:
+            try:
+                driver.find_element_by_css_selector(path_businessInfoReg.sel_province_css.value).click()
+                sleep(0.5)
+                driver.find_element_by_xpath("//*[text() = '河北省']").click()
+                break
+            except:
+                continue
+        sleep(0.5)
+
+        while True:
+            try:
+                driver.find_element_by_css_selector(path_businessInfoReg.sel_city_css.value).click()
+                sleep(0.5)
+                driver.find_element_by_xpath("//*[text() = '邯郸市']").click()
+                break
+            except:
+                continue
+        sleep(0.5)
+
+        while True:
+            try:
+                driver.find_element_by_css_selector(path_businessInfoReg.sel_area_css.value).click()
+                sleep(0.5)
+                driver.find_element_by_xpath("//*[text() = '复兴区']").click()
+                break
+            except:
+                continue
+        sleep(1)
+        driver.find_element_by_css_selector(path_businessInfoReg.input_contractAddress_css.value).send_keys(
+            "金砖大厦10楼")
+
         driver.find_element_by_css_selector(path_businessInfoReg.input_legalPersonPostCode_css.value).send_keys(
             "200120")
-        # driver.find_element_by_css_selector(path_businessInfoReg.input_legalPersonIndustry_css.value).send_keys("金融")
 
         picture_dir = os.getcwd() + '\\test_data\\picture\\id_3.jpg'
         driver.find_element_by_css_selector(path_businessInfoReg.upload_legalPersonCertificate_css.value).send_keys(
@@ -79,30 +111,27 @@ def test_businessInforReg():
         bankNO = random.randint(0, 99999999999999)
         driver.find_element_by_css_selector(path_businessInfoReg.upload_legalPersonBankNo_css.value).send_keys(
             str(bankNO))
-        sleep(1)
+        sleep(0.5)
         while True:
             try:
                 driver.find_element_by_css_selector(path_businessInfoReg.sel_bankName_css.value).click()
-                sleep(1)
-                driver.find_element_by_xpath(path_businessInfoReg.sel_bankName_xpath.value).click()
+                sleep(0.5)
+                driver.find_element_by_xpath("/html/body/div[6]/div/div/div/div[2]/div[1]/div/div/div[3]").click()
                 break
             except:
                 continue
-        # 操作滚动条
-        # js = "window.scrollTo(100,450);"
-        # driver.execute_script(js)
-        sleep(1)
+        sleep(0.5)
         while True:
             try:
                 # 法定代表人信息
                 driver.find_element_by_css_selector(path_businessInfoReg.sel_country_css.value).click()
                 sleep(1)
-                driver.find_element_by_xpath(path_businessInfoReg.sel_country_xpath.value).click()
+                driver.find_element_by_xpath("/html/body/div[7]/div/div/div/div[2]/div[1]/div/div/div[2]").click()
                 break
             except:
                 continue
 
-        sleep(1)
+        sleep(0.5)
         picture_dir2 = os.getcwd() + '\\test_data\\picture\\id_1.jpg'
         picture_dir3 = os.getcwd() + '\\test_data\\picture\\id_2.jpg'
         picture_dir4 = os.getcwd() + '\\test_data\\picture\\id_4.jpg'

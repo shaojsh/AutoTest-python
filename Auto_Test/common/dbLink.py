@@ -218,6 +218,8 @@ def getPhoneMessage():
             phoneMessage['AuBank'] = v
         if k == 'code:ZCDA0132:' + company_Guarantee:  # 修改密码 担保公司
             phoneMessage['AuRisk'] = v
+        if k == 'code:ENTERPRISE_AUDIT:13816391517':
+            phoneMessage['Audit'] = v
     return phoneMessage
 
 

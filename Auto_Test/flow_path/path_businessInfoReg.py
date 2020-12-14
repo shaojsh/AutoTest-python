@@ -9,15 +9,20 @@ class path_businessInfoReg(Enum):
     input_companyName_css = '#name'  # 企业名称
     display_name_xpath = '/html/body/div[2]/div/div/div/div[2]'  # 企业名字显示
     input_companyCode_css = '#socialUniformCode'  # 社会信用代码（注册号）
+    input_legalPhone_css = '#legalPhone'  # 法人手机号
+    input_legalIdCard_css = '#idCardNo'  # 法人手机号
+    sel_province_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > div > form > section:nth-child(1) > div > div:nth-child(7) > div > div.select-wrap___19ppM > div:nth-child(1) > div > div > div > div > div > span.ant-select-selection-item'
+    sel_city_css = '#contractCity'
+    sel_area_css = '#contractRegion'
     input_legalPersonName_css = '#legalName'  # 法人姓名
     input_legalPersonCardNo_css = '#idCardNo'  # 法人身份证号
     input_legalPersonAddress_css = '#address'  # 联系地址
+    input_contractAddress_css = '#contractAddress'  # 详细地址
     input_legalPersonPostCode_css = '#postCode'  # 邮政编码
     input_legalPersonIndustry_css = '#industry'  # 所属行业
     upload_legalPersonCertificate_css = '#businessCertificate'  # 营业执照
     upload_legalPersonBankNo_css = '#bankNo'  # 银行卡号
-    sel_bankName_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > div > form > section:nth-child(1) > div > div:nth-child(10) > div > div > div > div > div > div > div > span.ant-select-selection-item'  # 银行卡号
-    sel_bankName_xpath = '/html/body/div[3]/div/div/div/div[2]/div[1]/div/div/div[1]/div'  # 银行卡号
+    sel_bankName_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > div > form > section:nth-child(1) > div > div:nth-child(12) > div > div > div > div > div > div'  # 银行卡号
 
     # 法定代表人证件
     sel_country_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > div > form > section:nth-child(2) > div > div:nth-child(1) > div > div > div > div > div > div > div > span.ant-select-selection-item'  # 法定代表人归属地
@@ -36,8 +41,8 @@ class path_businessInfoReg(Enum):
 
     # 协议内容确认画面
     text_atCof_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > h6'  # 法定代表人radio
-    checkBox_agree_xpath = '//*[@id="root"]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/span'  # checkbox
-    btn_Certification_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div.footer___1JfX0 > button'  # 开始认证按钮
+    checkBox_agree_xpath = '//*[@id="root"]/div/div[2]/div/div[2]/div/div/div/div[3]/div/div/span'  # checkbox
+    btn_Certification_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div.footer___28VgI > button'  # 开始认证按钮
 
     # 企业认证中画面
     text_atMid_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div > div.statusWrap___M2YkD.proccessing___1nDUf > p.text___1dNQm'  # 企业认证中文本
