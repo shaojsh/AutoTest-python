@@ -1,0 +1,107 @@
+{
+  "uid" : "1a3e44df33315138",
+  "name" : "test_infoReg",
+  "fullName" : "test_flow.test_Authentication.test_personalInfoReg#test_infoReg",
+  "historyId" : "28dda5313ff182aeade3becf47df4372",
+  "time" : {
+    "start" : 1608021234611,
+    "stop" : 1608021272049,
+    "duration" : 37438
+  },
+  "description" : "测试 http://10.10.128.152:10053/personal/set/certification 个人实名认证",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/personal/set/certification 个人实名认证</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1608021216779,
+      "stop" : 1608021216872,
+      "duration" : 93
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/personal/set/certification 个人实名认证",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9af7ca42aa403772",
+      "name" : "log",
+      "source" : "9af7ca42aa403772.txt",
+      "type" : "text/plain",
+      "size" : 1392
+    }, {
+      "uid" : "2a7158656fbb1fb5",
+      "name" : "stdout",
+      "source" : "2a7158656fbb1fb5.txt",
+      "type" : "text/plain",
+      "size" : 386
+    }, {
+      "uid" : "58ed895402fe433c",
+      "name" : "stderr",
+      "source" : "58ed895402fe433c.txt",
+      "type" : "text/plain",
+      "size" : 1978
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_personalInfoReg"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "17324-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_personalInfoReg"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "个人实名认证 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/personal/set/certification",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "1a3e44df33315138.json",
+  "parameterValues" : [ ]
+}

@@ -41,7 +41,7 @@ class path_businessInfoReg(Enum):
 
     # 协议内容确认画面
     text_atCof_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > h6'  # 法定代表人radio
-    checkBox_agree_xpath = '//*[@id="root"]/div/div[2]/div/div[2]/div/div/div/div[3]/div/div/span'  # checkbox
+    checkBox_agree_xpath = '//*[@id="root"]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/span'  # checkbox
     btn_Certification_css = '#root > div > div.content___17Zvm > div > div.main___1rkrS > div > div > div > div.footer___28VgI > button'  # 开始认证按钮
 
     # 企业认证中画面

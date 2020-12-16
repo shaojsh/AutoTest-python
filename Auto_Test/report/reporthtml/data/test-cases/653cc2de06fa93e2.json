@@ -1,0 +1,378 @@
+{
+  "uid" : "653cc2de06fa93e2",
+  "name" : "test_backstage_examine",
+  "fullName" : "test_flow.test_Authentication.test_backStage_examine#test_backstage_examine",
+  "historyId" : "fa363551da3b313dda3c470cf52ad218",
+  "time" : {
+    "start" : 1608086122743,
+    "stop" : 1608086139665,
+    "duration" : 16922
+  },
+  "description" : "http://10.10.128.152:10052/#/enterprise/list 企业审核",
+  "descriptionHtml" : "<p>http://10.10.128.152:10052/#/enterprise/list 企业审核</p>\n",
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+  "statusTrace" : "@pytest.mark.run(order=4)\n    @allure.severity(\"blocker\")\n    @allure.description(\"http://10.10.128.152:10052/#/enterprise/list 企业审核\")\n    @allure.testcase(\"http://10.10.128.152:10052/#/enterprise/list\", \"企业审核 \uD83D\uDC47\")\n    def test_backstage_examine():\n        def_name = sys._getframe().f_code.co_name\n        test_Assert = Assert.Assertions(def_name)\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n        if jenkins:\n            option = webdriver.ChromeOptions()\n            option.add_argument('headless')  # 浏览器不提供可视化页面\n            option.add_argument('no-sandbox')  # 以最高权限运行\n            option.add_argument('--start-maximized')  # 最大化运行（全屏窗口）设置元素定位比较准确\n            option.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug\n            option.add_argument('--window-size=1920,1080')  # 设置浏览器分辨率（窗口大小）\n            driver = webdriver.Chrome(options=option)\n        else:\n            driver = webdriver.Chrome(executable_path=driverPath)\n        driver.maximize_window()\n        driver.get(url_back)\n    \n        act = yamldict['test_backStageUserList']['company_user']\n        pwd = yamldict['test_backStageUserList']['company_user_pass']\n    \n        # 登陆页面\n        backStageLogin(driver, act, pwd, 0)\n        updateNameCompany()\n        sleep(2)\n        driver.find_element_by_xpath(path_backstage_examine.btn_bussMan_xpath.value).click()\n        sleep(1)\n        driver.find_element_by_css_selector(path_backstage_examine.btn_bussList_css.value).click()\n        sleep(1)\n        elList = driver.find_elements_by_xpath(path_backstage_examine.btn_bussListName_xpath.value)\n        index = 0\n    \n        for i in range(len(elList)):\n            path = path_backstage_examine.btn_bussListName_xpath.value + '[' + str(i + 1) + ']/' + 'td' + '[' + str(1) + ']'\n            text = driver.find_element_by_xpath(path).text\n            if text == businessName:\n                index = i\n                break\n        bussPath = path_backstage_examine.btn_bussListName_xpath.value + '[' + str(index + 1) + ']' + '/td[8]' + '/span/a'\n        driver.find_elements_by_xpath(bussPath)[0].click()\n        sleep(0.5)\n        waitUntilDisplay(driver, path_backstage_examine.txt_userInfor_css.value)\n        userInforTxt = driver.find_element_by_css_selector(path_backstage_examine.txt_userInfor_css.value).text\n        test_Assert.assert_text_ui(userInforTxt, \"用户基本信息\")\n        logger.info('成功进入企业信息审核画面')\n    \n>       driver.find_element_by_css_selector(path_backstage_examine.input_examine_css.value).send_keys('企业审核通过')\n\ntest_flow\\test_Authentication\\test_backStage_examine.py:67: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py:479: in send_keys\n    'value': keys_to_typing(value)})\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py:633: in _execute\n    return self._parent.execute(command, params)\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:321: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x000002467F6C7748>\nresponse = {'sessionId': '06affc671f9e2307a5b370aaf7897266', 'status': 60, 'value': {'message': 'element not interactable\\n  (Ses...729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)'}}\n\n    def check_response(self, response):\n        \"\"\"\n        Checks that a JSON response from the WebDriver does not have an error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get('status', None)\n        if status is None or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get('value', None)\n            if value_json and isinstance(value_json, basestring):\n                import json\n                try:\n                    value = json.loads(value_json)\n                    if len(value.keys()) == 1:\n                        value = value['value']\n                    status = value.get('error', None)\n                    if status is None:\n                        status = value[\"status\"]\n                        message = value[\"value\"]\n                        if not isinstance(message, basestring):\n                            value = message\n                            message = message.get('message')\n                    else:\n                        message = value.get('message', None)\n                except ValueError:\n                    pass\n    \n        exception_class = ErrorInResponseException\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif status in ErrorCode.INVALID_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if value == '' or value is None:\n            value = response['value']\n        if isinstance(value, basestring):\n            if exception_class == ErrorInResponseException:\n                raise exception_class(response, value)\n            raise exception_class(value)\n        if message == \"\" and 'message' in value:\n            message = value['message']\n    \n        screen = None\n        if 'screen' in value:\n            screen = value['screen']\n    \n        stacktrace = None\n        if 'stackTrace' in value and value['stackTrace']:\n            stacktrace = []\n            try:\n                for frame in value['stackTrace']:\n                    line = self._value_or_default(frame, 'lineNumber', '')\n                    file = self._value_or_default(frame, 'fileName', '<anonymous>')\n                    if line:\n                        file = \"%s:%s\" % (file, line)\n                    meth = self._value_or_default(frame, 'methodName', '<anonymous>')\n                    if 'className' in frame:\n                        meth = \"%s.%s\" % (frame['className'], meth)\n                    msg = \"    at %s (%s)\"\n                    msg = msg % (meth, file)\n                    stacktrace.append(msg)\n            except TypeError:\n                pass\n        if exception_class == ErrorInResponseException:\n            raise exception_class(response, message)\n        elif exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if 'data' in value:\n                alert_text = value['data'].get('text')\n            elif 'alert' in value:\n                alert_text = value['alert'].get('text')\n            raise exception_class(message, screen, stacktrace, alert_text)\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\nE         (Session info: chrome=74.0.3729.108)\nE         (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:242: ElementNotInteractableException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1608086028226,
+      "stop" : 1608086028308,
+      "duration" : 82
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "http://10.10.128.152:10052/#/enterprise/list 企业审核",
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+    "statusTrace" : "@pytest.mark.run(order=4)\n    @allure.severity(\"blocker\")\n    @allure.description(\"http://10.10.128.152:10052/#/enterprise/list 企业审核\")\n    @allure.testcase(\"http://10.10.128.152:10052/#/enterprise/list\", \"企业审核 \uD83D\uDC47\")\n    def test_backstage_examine():\n        def_name = sys._getframe().f_code.co_name\n        test_Assert = Assert.Assertions(def_name)\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n        if jenkins:\n            option = webdriver.ChromeOptions()\n            option.add_argument('headless')  # 浏览器不提供可视化页面\n            option.add_argument('no-sandbox')  # 以最高权限运行\n            option.add_argument('--start-maximized')  # 最大化运行（全屏窗口）设置元素定位比较准确\n            option.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug\n            option.add_argument('--window-size=1920,1080')  # 设置浏览器分辨率（窗口大小）\n            driver = webdriver.Chrome(options=option)\n        else:\n            driver = webdriver.Chrome(executable_path=driverPath)\n        driver.maximize_window()\n        driver.get(url_back)\n    \n        act = yamldict['test_backStageUserList']['company_user']\n        pwd = yamldict['test_backStageUserList']['company_user_pass']\n    \n        # 登陆页面\n        backStageLogin(driver, act, pwd, 0)\n        updateNameCompany()\n        sleep(2)\n        driver.find_element_by_xpath(path_backstage_examine.btn_bussMan_xpath.value).click()\n        sleep(1)\n        driver.find_element_by_css_selector(path_backstage_examine.btn_bussList_css.value).click()\n        sleep(1)\n        elList = driver.find_elements_by_xpath(path_backstage_examine.btn_bussListName_xpath.value)\n        index = 0\n    \n        for i in range(len(elList)):\n            path = path_backstage_examine.btn_bussListName_xpath.value + '[' + str(i + 1) + ']/' + 'td' + '[' + str(1) + ']'\n            text = driver.find_element_by_xpath(path).text\n            if text == businessName:\n                index = i\n                break\n        bussPath = path_backstage_examine.btn_bussListName_xpath.value + '[' + str(index + 1) + ']' + '/td[8]' + '/span/a'\n        driver.find_elements_by_xpath(bussPath)[0].click()\n        sleep(0.5)\n        waitUntilDisplay(driver, path_backstage_examine.txt_userInfor_css.value)\n        userInforTxt = driver.find_element_by_css_selector(path_backstage_examine.txt_userInfor_css.value).text\n        test_Assert.assert_text_ui(userInforTxt, \"用户基本信息\")\n        logger.info('成功进入企业信息审核画面')\n    \n>       driver.find_element_by_css_selector(path_backstage_examine.input_examine_css.value).send_keys('企业审核通过')\n\ntest_flow\\test_Authentication\\test_backStage_examine.py:67: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py:479: in send_keys\n    'value': keys_to_typing(value)})\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py:633: in _execute\n    return self._parent.execute(command, params)\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:321: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x000002467F6C7748>\nresponse = {'sessionId': '06affc671f9e2307a5b370aaf7897266', 'status': 60, 'value': {'message': 'element not interactable\\n  (Ses...729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)'}}\n\n    def check_response(self, response):\n        \"\"\"\n        Checks that a JSON response from the WebDriver does not have an error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get('status', None)\n        if status is None or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get('value', None)\n            if value_json and isinstance(value_json, basestring):\n                import json\n                try:\n                    value = json.loads(value_json)\n                    if len(value.keys()) == 1:\n                        value = value['value']\n                    status = value.get('error', None)\n                    if status is None:\n                        status = value[\"status\"]\n                        message = value[\"value\"]\n                        if not isinstance(message, basestring):\n                            value = message\n                            message = message.get('message')\n                    else:\n                        message = value.get('message', None)\n                except ValueError:\n                    pass\n    \n        exception_class = ErrorInResponseException\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif status in ErrorCode.INVALID_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if value == '' or value is None:\n            value = response['value']\n        if isinstance(value, basestring):\n            if exception_class == ErrorInResponseException:\n                raise exception_class(response, value)\n            raise exception_class(value)\n        if message == \"\" and 'message' in value:\n            message = value['message']\n    \n        screen = None\n        if 'screen' in value:\n            screen = value['screen']\n    \n        stacktrace = None\n        if 'stackTrace' in value and value['stackTrace']:\n            stacktrace = []\n            try:\n                for frame in value['stackTrace']:\n                    line = self._value_or_default(frame, 'lineNumber', '')\n                    file = self._value_or_default(frame, 'fileName', '<anonymous>')\n                    if line:\n                        file = \"%s:%s\" % (file, line)\n                    meth = self._value_or_default(frame, 'methodName', '<anonymous>')\n                    if 'className' in frame:\n                        meth = \"%s.%s\" % (frame['className'], meth)\n                    msg = \"    at %s (%s)\"\n                    msg = msg % (meth, file)\n                    stacktrace.append(msg)\n            except TypeError:\n                pass\n        if exception_class == ErrorInResponseException:\n            raise exception_class(response, message)\n        elif exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if 'data' in value:\n                alert_text = value['data'].get('text')\n            elif 'alert' in value:\n                alert_text = value['alert'].get('text')\n            raise exception_class(message, screen, stacktrace, alert_text)\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\nE         (Session info: chrome=74.0.3729.108)\nE         (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:242: ElementNotInteractableException",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "22e55f6c9e799f99",
+      "name" : "log",
+      "source" : "22e55f6c9e799f99.txt",
+      "type" : "text/plain",
+      "size" : 414
+    }, {
+      "uid" : "fe3acf6462df83bf",
+      "name" : "stderr",
+      "source" : "fe3acf6462df83bf.txt",
+      "type" : "text/plain",
+      "size" : 595
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_backStage_examine"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "13764-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_backStage_examine"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "企业审核 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/enterprise/list",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "db308e27b5eb88f3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1608085632779,
+        "stop" : 1608085649360,
+        "duration" : 16581
+      }
+    }, {
+      "uid" : "c4fcd95003009d6f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1608082049082,
+        "stop" : 1608082065511,
+        "duration" : 16429
+      }
+    }, {
+      "uid" : "f88cf4c2303bced0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1608081837573,
+        "stop" : 1608081854015,
+        "duration" : 16442
+      }
+    }, {
+      "uid" : "aca8b3427837e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608022636817,
+        "stop" : 1608022656647,
+        "duration" : 19830
+      }
+    }, {
+      "uid" : "7df5e3143a409b88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608021330170,
+        "stop" : 1608021350153,
+        "duration" : 19983
+      }
+    }, {
+      "uid" : "cdda012789c55a0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608017346243,
+        "stop" : 1608017366295,
+        "duration" : 20052
+      }
+    }, {
+      "uid" : "158a01779b9057dc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span>...</span> is not clickable at point (76, 441). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1608017122863,
+        "stop" : 1608017142411,
+        "duration" : 19548
+      }
+    }, {
+      "uid" : "1073e8a3fb182787",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608008214252,
+        "stop" : 1608008234004,
+        "duration" : 19752
+      }
+    }, {
+      "uid" : "31762a5556fb5f17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608002247219,
+        "stop" : 1608002267139,
+        "duration" : 19920
+      }
+    }, {
+      "uid" : "a18ba1c9ea0bc964",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1608002068044,
+        "stop" : 1608002085760,
+        "duration" : 17716
+      }
+    }, {
+      "uid" : "7da60c824b46093a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1608001565940,
+        "stop" : 1608001581715,
+        "duration" : 15775
+      }
+    }, {
+      "uid" : "551be80874054b89",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607998384082,
+        "stop" : 1607998399949,
+        "duration" : 15867
+      }
+    }, {
+      "uid" : "68ddf929514df5a3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607998014034,
+        "stop" : 1607998029764,
+        "duration" : 15730
+      }
+    }, {
+      "uid" : "eb07ddfa224337af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607943190856,
+        "stop" : 1607943210710,
+        "duration" : 19854
+      }
+    }, {
+      "uid" : "74d7c3bfd1cf5234",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607940608100,
+        "stop" : 1607940627469,
+        "duration" : 19369
+      }
+    }, {
+      "uid" : "9a9bc6e7e1e8a1b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607940094396,
+        "stop" : 1607940114330,
+        "duration" : 19934
+      }
+    }, {
+      "uid" : "f4eda739f1c82800",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607939407882,
+        "stop" : 1607939427736,
+        "duration" : 19854
+      }
+    }, {
+      "uid" : "43ae99c167d60f57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607928696271,
+        "stop" : 1607928715644,
+        "duration" : 19373
+      }
+    }, {
+      "uid" : "ee11288ae30bfebc",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1607927873056,
+        "stop" : 1607927892085,
+        "duration" : 19029
+      }
+    }, {
+      "uid" : "13f5aca20d3e186f",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1607927516137,
+        "stop" : 1607927531158,
+        "duration" : 15021
+      }
+    }, {
+      "uid" : "6e4516ad6a60a18b",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1607927408853,
+        "stop" : 1607927423913,
+        "duration" : 15060
+      }
+    }, {
+      "uid" : "9926712fd95f671f",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1607926875761,
+        "stop" : 1607926894291,
+        "duration" : 18530
+      }
+    }, {
+      "uid" : "8c19918bc7ecdc7e",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1607926668615,
+        "stop" : 1607926683535,
+        "duration" : 14920
+      }
+    }, {
+      "uid" : "22331e985d55842f",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1607926529489,
+        "stop" : 1607926544635,
+        "duration" : 15146
+      }
+    }, {
+      "uid" : "d136b34d9f6a9b00",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1607926111215,
+        "stop" : 1607926126424,
+        "duration" : 15209
+      }
+    }, {
+      "uid" : "a8f705380ccb626c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606280123021,
+        "stop" : 1606280142246,
+        "duration" : 19225
+      }
+    }, {
+      "uid" : "c27dff526ccec0c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606099181866,
+        "stop" : 1606099201212,
+        "duration" : 19346
+      }
+    }, {
+      "uid" : "3b9187cecc67ebee",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1605852543047,
+        "stop" : 1605852543047,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1dd1a73d5b20569",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1605852509023,
+        "stop" : 1605852509023,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2c60aa67e228796a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1605852453343,
+        "stop" : 1605852453343,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "da225935749db3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1605157591766,
+        "stop" : 1605157605895,
+        "duration" : 14129
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=4)" ]
+  },
+  "source" : "653cc2de06fa93e2.json",
+  "parameterValues" : [ ]
+}

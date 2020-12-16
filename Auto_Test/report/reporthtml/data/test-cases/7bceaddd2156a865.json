@@ -1,0 +1,111 @@
+{
+  "uid" : "7bceaddd2156a865",
+  "name" : "test_backStage_authentication",
+  "fullName" : "test_flow.test_Authentication.test_backStage_authentication#test_backStage_authentication",
+  "historyId" : "a55d1468f36f1b2cdddeddca0f290d7d",
+  "time" : {
+    "start" : 1607931274346,
+    "stop" : 1607931358159,
+    "duration" : 83813
+  },
+  "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台账户认证",
+  "descriptionHtml" : "<p>http://10.10.128.152:10052/#/authority/mechanism 后台账户认证</p>\n",
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "@pytest.mark.run(order=6)\n    @allure.severity(\"blocker\")\n    @allure.description(\"http://10.10.128.152:10052/#/authority/mechanism 后台账户认证\")\n    @allure.testcase(\"http://10.10.128.152:10052/#/authority/mechanism\", \"后台账户认证 \uD83D\uDC47\")\n    def test_backStage_authentication():\n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        driver = webdriver.Chrome(executable_path=driverPath)\n        driver.maximize_window()\n        driver.get(url_back)\n        # 银行密码修改\n        companyPassForget(driver, company_bank, 1)\n        # 担保公司密码修改\n        companyPassForget(driver, company_Guarantee, 0)\n        # 银行认证\n>       authentication(driver, 0)\n\ntest_flow\\test_Authentication\\test_backStage_authentication.py:299: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntest_flow\\test_Authentication\\test_backStage_authentication.py:262: in authentication\n    waitUntilClick(driver, path_backStage_authentication.checkBox_agree_css.value)\ncommon\\BaseFunction.py:33: in waitUntilClick\n    WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, ByCss)))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"02c554682d7b0f4b2d57caad9c62f2d1\")>\nmethod = <selenium.webdriver.support.expected_conditions.element_to_be_clickable object at 0x00000216C99C5CF8>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1607931236787,
+      "stop" : 1607931236881,
+      "duration" : 94
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台账户认证",
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "@pytest.mark.run(order=6)\n    @allure.severity(\"blocker\")\n    @allure.description(\"http://10.10.128.152:10052/#/authority/mechanism 后台账户认证\")\n    @allure.testcase(\"http://10.10.128.152:10052/#/authority/mechanism\", \"后台账户认证 \uD83D\uDC47\")\n    def test_backStage_authentication():\n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        driver = webdriver.Chrome(executable_path=driverPath)\n        driver.maximize_window()\n        driver.get(url_back)\n        # 银行密码修改\n        companyPassForget(driver, company_bank, 1)\n        # 担保公司密码修改\n        companyPassForget(driver, company_Guarantee, 0)\n        # 银行认证\n>       authentication(driver, 0)\n\ntest_flow\\test_Authentication\\test_backStage_authentication.py:299: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntest_flow\\test_Authentication\\test_backStage_authentication.py:262: in authentication\n    waitUntilClick(driver, path_backStage_authentication.checkBox_agree_css.value)\ncommon\\BaseFunction.py:33: in waitUntilClick\n    WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, ByCss)))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"02c554682d7b0f4b2d57caad9c62f2d1\")>\nmethod = <selenium.webdriver.support.expected_conditions.element_to_be_clickable object at 0x00000216C99C5CF8>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5e105f49b22eb1a",
+      "name" : "log",
+      "source" : "5e105f49b22eb1a.txt",
+      "type" : "text/plain",
+      "size" : 790
+    }, {
+      "uid" : "827501e2fabd985e",
+      "name" : "stdout",
+      "source" : "827501e2fabd985e.txt",
+      "type" : "text/plain",
+      "size" : 360
+    }, {
+      "uid" : "7ced718d9acb9c2a",
+      "name" : "stderr",
+      "source" : "7ced718d9acb9c2a.txt",
+      "type" : "text/plain",
+      "size" : 1196
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=6)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_backStage_authentication"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "17068-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_backStage_authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "后台账户认证 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/authority/mechanism",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=6)" ]
+  },
+  "source" : "7bceaddd2156a865.json",
+  "parameterValues" : [ ]
+}

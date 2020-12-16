@@ -1,0 +1,457 @@
+{
+  "uid" : "4d7736a24e8a0a8e",
+  "name" : "test_infoReg",
+  "fullName" : "test_flow.test_Authentication.test_personalInfoReg#test_infoReg",
+  "historyId" : "28dda5313ff182aeade3becf47df4372",
+  "time" : {
+    "start" : 1608086046988,
+    "stop" : 1608086085129,
+    "duration" : 38141
+  },
+  "description" : "测试 http://10.10.128.152:10053/personal/set/certification 个人实名认证",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/personal/set/certification 个人实名认证</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1608086028226,
+      "stop" : 1608086028308,
+      "duration" : 82
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/personal/set/certification 个人实名认证",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b6a0c9e69f90f2a3",
+      "name" : "log",
+      "source" : "b6a0c9e69f90f2a3.txt",
+      "type" : "text/plain",
+      "size" : 1392
+    }, {
+      "uid" : "bda06bf821e6672c",
+      "name" : "stdout",
+      "source" : "bda06bf821e6672c.txt",
+      "type" : "text/plain",
+      "size" : 379
+    }, {
+      "uid" : "9c82e5609212f230",
+      "name" : "stderr",
+      "source" : "9c82e5609212f230.txt",
+      "type" : "text/plain",
+      "size" : 1978
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_personalInfoReg"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "13764-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_personalInfoReg"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "个人实名认证 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/personal/set/certification",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "40e3c913dd10d84d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608085553782,
+        "stop" : 1608085591927,
+        "duration" : 38145
+      }
+    }, {
+      "uid" : "caf939e90b83c332",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1608084346687,
+        "stop" : 1608084388734,
+        "duration" : 42047
+      }
+    }, {
+      "uid" : "5a42626848680b5b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1608084209497,
+        "stop" : 1608084251966,
+        "duration" : 42469
+      }
+    }, {
+      "uid" : "df5bfc8cfd098101",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608081972421,
+        "stop" : 1608082010832,
+        "duration" : 38411
+      }
+    }, {
+      "uid" : "6b82fd5c834a7ba8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608081759657,
+        "stop" : 1608081797659,
+        "duration" : 38002
+      }
+    }, {
+      "uid" : "ffe1c578a58c06bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608081561144,
+        "stop" : 1608081599806,
+        "duration" : 38662
+      }
+    }, {
+      "uid" : "3d2551f111e7965a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608081251890,
+        "stop" : 1608081293732,
+        "duration" : 41842
+      }
+    }, {
+      "uid" : "a522eb0ef2d2b1c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608022539299,
+        "stop" : 1608022579869,
+        "duration" : 40570
+      }
+    }, {
+      "uid" : "1a3e44df33315138",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608021234611,
+        "stop" : 1608021272049,
+        "duration" : 37438
+      }
+    }, {
+      "uid" : "b1b3ac2d39e3232f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1608021170661,
+        "stop" : 1608021212323,
+        "duration" : 41662
+      }
+    }, {
+      "uid" : "9f7dfc0bd780c829",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608019321350,
+        "stop" : 1608019358813,
+        "duration" : 37463
+      }
+    }, {
+      "uid" : "c141a578ae178e2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608019119231,
+        "stop" : 1608019156666,
+        "duration" : 37435
+      }
+    }, {
+      "uid" : "a9e8b189aa053f23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608018568312,
+        "stop" : 1608018608982,
+        "duration" : 40670
+      }
+    }, {
+      "uid" : "f337d07b4dec7ed3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608017233605,
+        "stop" : 1608017271131,
+        "duration" : 37526
+      }
+    }, {
+      "uid" : "bfbe9e2af4e40dc9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button class=\"btn-primary btn___17ZAt\">...</button> is not clickable at point (1053, 910). Other element would receive the click: <div class=\"ant-spin-container ant-spin-blur\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1608017171921,
+        "stop" : 1608017186619,
+        "duration" : 14698
+      }
+    }, {
+      "uid" : "6080e6f07e1e742e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button class=\"btn-primary btn___17ZAt\">...</button> is not clickable at point (1053, 910). Other element would receive the click: <div class=\"ant-spin-container ant-spin-blur\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1608017067320,
+        "stop" : 1608017082128,
+        "duration" : 14808
+      }
+    }, {
+      "uid" : "a1dbf111d8cde2dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608008115957,
+        "stop" : 1608008157255,
+        "duration" : 41298
+      }
+    }, {
+      "uid" : "1f5e9703aa9ecda5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608002145061,
+        "stop" : 1608002182998,
+        "duration" : 37937
+      }
+    }, {
+      "uid" : "6fcb4266f27959e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608002001284,
+        "stop" : 1608002038739,
+        "duration" : 37455
+      }
+    }, {
+      "uid" : "c60db56ac36a8c56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608001805175,
+        "stop" : 1608001843600,
+        "duration" : 38425
+      }
+    }, {
+      "uid" : "c48dcd33f14fef31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608001467739,
+        "stop" : 1608001508243,
+        "duration" : 40504
+      }
+    }, {
+      "uid" : "9a34dc2a67060630",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607998287555,
+        "stop" : 1607998324965,
+        "duration" : 37410
+      }
+    }, {
+      "uid" : "55ac01a5aded30f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607997917024,
+        "stop" : 1607997954330,
+        "duration" : 37306
+      }
+    }, {
+      "uid" : "b79f5a825b3826bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607943084511,
+        "stop" : 1607943126966,
+        "duration" : 42455
+      }
+    }, {
+      "uid" : "f44bb5c40f363b13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607940509771,
+        "stop" : 1607940547119,
+        "duration" : 37348
+      }
+    }, {
+      "uid" : "ebf74e77e4f32aa4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607939995882,
+        "stop" : 1607940036823,
+        "duration" : 40941
+      }
+    }, {
+      "uid" : "2bdf8de1bfd8dc3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607939299843,
+        "stop" : 1607939337369,
+        "duration" : 37526
+      }
+    }, {
+      "uid" : "ac46a1219498ea86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607927307680,
+        "stop" : 1607927345155,
+        "duration" : 37475
+      }
+    }, {
+      "uid" : "67a4cbfffdf1b297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607926776502,
+        "stop" : 1607926813975,
+        "duration" : 37473
+      }
+    }, {
+      "uid" : "7c947efe10ca0563",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607926571455,
+        "stop" : 1607926608956,
+        "duration" : 37501
+      }
+    }, {
+      "uid" : "d043ebb3ecb6bb6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607926435652,
+        "stop" : 1607926473013,
+        "duration" : 37361
+      }
+    }, {
+      "uid" : "93d6f062cdbf6b8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607926154327,
+        "stop" : 1607926191953,
+        "duration" : 37626
+      }
+    }, {
+      "uid" : "3efb2c1579cca2b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607926014799,
+        "stop" : 1607926052522,
+        "duration" : 37723
+      }
+    }, {
+      "uid" : "b62e93cd4ec63cfe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607911052523,
+        "stop" : 1607911090252,
+        "duration" : 37729
+      }
+    }, {
+      "uid" : "17e5f7deb0103bee",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button class=\"btn-primary btn___17ZAt\">...</button> is not clickable at point (1053, 910). Other element would receive the click: <div class=\"ant-spin-container ant-spin-blur\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607906014676,
+        "stop" : 1607906032835,
+        "duration" : 18159
+      }
+    }, {
+      "uid" : "7ee9a91e60729252",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1606280037920,
+        "stop" : 1606280082449,
+        "duration" : 44529
+      }
+    }, {
+      "uid" : "303dd37f6b7aae04",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1606099092668,
+        "stop" : 1606099134727,
+        "duration" : 42059
+      }
+    }, {
+      "uid" : "f211a70b7d465760",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1605852542625,
+        "stop" : 1605852542766,
+        "duration" : 141
+      }
+    }, {
+      "uid" : "7dddd22c1edd67f8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1605852508808,
+        "stop" : 1605852508918,
+        "duration" : 110
+      }
+    }, {
+      "uid" : "cd4e5428cc65e169",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1605852453002,
+        "stop" : 1605852453238,
+        "duration" : 236
+      }
+    }, {
+      "uid" : "82f8d59431dc7c1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1605832310914,
+        "stop" : 1605832347753,
+        "duration" : 36839
+      }
+    }, {
+      "uid" : "dcfa25db14cf5755",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605157500188,
+        "stop" : 1605157537801,
+        "duration" : 37613
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "4d7736a24e8a0a8e.json",
+  "parameterValues" : [ ]
+}

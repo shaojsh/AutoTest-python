@@ -1,0 +1,502 @@
+{
+  "uid" : "82c593749e5ebcce",
+  "name" : "test_backStage_authentication",
+  "fullName" : "test_flow.test_Authentication.test_backStage_authentication#test_backStage_authentication",
+  "historyId" : "a55d1468f36f1b2cdddeddca0f290d7d",
+  "time" : {
+    "start" : 1608086177734,
+    "stop" : 1608086241492,
+    "duration" : 63758
+  },
+  "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台账户认证",
+  "descriptionHtml" : "<p>http://10.10.128.152:10052/#/authority/mechanism 后台账户认证</p>\n",
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "@pytest.mark.run(order=6)\n    @allure.severity(\"blocker\")\n    @allure.description(\"http://10.10.128.152:10052/#/authority/mechanism 后台账户认证\")\n    @allure.testcase(\"http://10.10.128.152:10052/#/authority/mechanism\", \"后台账户认证 \uD83D\uDC47\")\n    def test_backStage_authentication():\n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        driver = webdriver.Chrome(executable_path=driverPath)\n        driver.maximize_window()\n        driver.get(url_back)\n        # 银行密码修改\n        companyPassForget(driver, company_bank, 1)\n        # 担保公司密码修改\n        companyPassForget(driver, company_Guarantee, 0)\n        # 银行认证\n>       authentication(driver, 0)\n\ntest_flow\\test_Authentication\\test_backStage_authentication.py:305: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntest_flow\\test_Authentication\\test_backStage_authentication.py:263: in authentication\n    waitUntilClick(driver, '#root > div > section > section > main > div > div > div > div > div > div:nth-child(2) > div > button')\ncommon\\BaseFunction.py:33: in waitUntilClick\n    WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, ByCss)))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"b4d4ad391c8598302b06dd6ad83affdb\")>\nmethod = <selenium.webdriver.support.expected_conditions.element_to_be_clickable object at 0x000002467F4C84E0>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1608086028226,
+      "stop" : 1608086028308,
+      "duration" : 82
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台账户认证",
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "@pytest.mark.run(order=6)\n    @allure.severity(\"blocker\")\n    @allure.description(\"http://10.10.128.152:10052/#/authority/mechanism 后台账户认证\")\n    @allure.testcase(\"http://10.10.128.152:10052/#/authority/mechanism\", \"后台账户认证 \uD83D\uDC47\")\n    def test_backStage_authentication():\n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        def_name = sys._getframe().f_code.co_name\n        logger.info(\"开始执行脚本%s:\\n\", def_name)\n    \n        driver = webdriver.Chrome(executable_path=driverPath)\n        driver.maximize_window()\n        driver.get(url_back)\n        # 银行密码修改\n        companyPassForget(driver, company_bank, 1)\n        # 担保公司密码修改\n        companyPassForget(driver, company_Guarantee, 0)\n        # 银行认证\n>       authentication(driver, 0)\n\ntest_flow\\test_Authentication\\test_backStage_authentication.py:305: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntest_flow\\test_Authentication\\test_backStage_authentication.py:263: in authentication\n    waitUntilClick(driver, '#root > div > section > section > main > div > div > div > div > div > div:nth-child(2) > div > button')\ncommon\\BaseFunction.py:33: in waitUntilClick\n    WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, ByCss)))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"b4d4ad391c8598302b06dd6ad83affdb\")>\nmethod = <selenium.webdriver.support.expected_conditions.element_to_be_clickable object at 0x000002467F4C84E0>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "32b3ae9fcd4a158f",
+      "name" : "log",
+      "source" : "32b3ae9fcd4a158f.txt",
+      "type" : "text/plain",
+      "size" : 790
+    }, {
+      "uid" : "1668471fdb10fb70",
+      "name" : "stdout",
+      "source" : "1668471fdb10fb70.txt",
+      "type" : "text/plain",
+      "size" : 432
+    }, {
+      "uid" : "2b32d49b4e66cbaa",
+      "name" : "stderr",
+      "source" : "2b32d49b4e66cbaa.txt",
+      "type" : "text/plain",
+      "size" : 1196
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=6)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_backStage_authentication"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "13764-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_backStage_authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "后台账户认证 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/authority/mechanism",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "c2a60b79ce7db9ac",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1608085694274,
+        "stop" : 1608085741908,
+        "duration" : 47634
+      }
+    }, {
+      "uid" : "47b77f469b3da612",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1608082103159,
+        "stop" : 1608082166736,
+        "duration" : 63577
+      }
+    }, {
+      "uid" : "5f5488c375228773",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1608081891694,
+        "stop" : 1608081922620,
+        "duration" : 30926
+      }
+    }, {
+      "uid" : "10bd72fe1088a061",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608022693952,
+        "stop" : 1608022803564,
+        "duration" : 109612
+      }
+    }, {
+      "uid" : "d6b33993c1e188ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608021387510,
+        "stop" : 1608021491462,
+        "duration" : 103952
+      }
+    }, {
+      "uid" : "a89892888c7f8489",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608017404115,
+        "stop" : 1608017509527,
+        "duration" : 105412
+      }
+    }, {
+      "uid" : "eefdce3de4212bc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608008271466,
+        "stop" : 1608008375325,
+        "duration" : 103859
+      }
+    }, {
+      "uid" : "24cc39ee8a9c30c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608002304549,
+        "stop" : 1608002409728,
+        "duration" : 105179
+      }
+    }, {
+      "uid" : "e73bc13f743fc122",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607998437463,
+        "stop" : 1607998550740,
+        "duration" : 113277
+      }
+    }, {
+      "uid" : "cf0060081caae8cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607998067127,
+        "stop" : 1607998171223,
+        "duration" : 104096
+      }
+    }, {
+      "uid" : "372ed10e8ee0d581",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607943248237,
+        "stop" : 1607943353707,
+        "duration" : 105470
+      }
+    }, {
+      "uid" : "d7c1f489ad5078f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607940151815,
+        "stop" : 1607940273174,
+        "duration" : 121359
+      }
+    }, {
+      "uid" : "de6becbdf2ea126",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607939465162,
+        "stop" : 1607939569718,
+        "duration" : 104556
+      }
+    }, {
+      "uid" : "603deddc0d7dcc52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607938455545,
+        "stop" : 1607938566759,
+        "duration" : 111214
+      }
+    }, {
+      "uid" : "9146040a61a34a0c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1607938256850,
+        "stop" : 1607938393166,
+        "duration" : 136316
+      }
+    }, {
+      "uid" : "2cab6add97642be7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1607938044011,
+        "stop" : 1607938173789,
+        "duration" : 129778
+      }
+    }, {
+      "uid" : "8b0980282793ca3a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1607937861902,
+        "stop" : 1607937992671,
+        "duration" : 130769
+      }
+    }, {
+      "uid" : "3da5bc62fed34750",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(9) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(1) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607937592696,
+        "stop" : 1607937693124,
+        "duration" : 100428
+      }
+    }, {
+      "uid" : "19eddd42eafb8411",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(10) > div > div > div > div > div.ant-calendar-date-panel\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607936793546,
+        "stop" : 1607936916558,
+        "duration" : 123012
+      }
+    }, {
+      "uid" : "225f78b5f64f0880",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"quickName___1Yuoz\">...</span> is not clickable at point (1643, 706). Other element would receive the click: <div class=\"loader___U0gXU hidden___2sYXU fullScreen___3stt8\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607936582859,
+        "stop" : 1607936675685,
+        "duration" : 92826
+      }
+    }, {
+      "uid" : "281daea99b6f1495",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > section > section > main > div > div > div > div.bird_header___1Vckx > div:nth-child(2) > div:nth-child(2) > div.ant-col.ant-col-14 > div > div > button:nth-child(1)\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607936178880,
+        "stop" : 1607936273286,
+        "duration" : 94406
+      }
+    }, {
+      "uid" : "d671aa13a0b57b8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1607934811818,
+        "stop" : 1607934968937,
+        "duration" : 157119
+      }
+    }, {
+      "uid" : "38a3e047734ff6c2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1607934054820,
+        "stop" : 1607934101715,
+        "duration" : 46895
+      }
+    }, {
+      "uid" : "fad209d28ae518a1",
+      "status" : "broken",
+      "statusDetails" : "TypeError: descriptor 'decode' requires a 'bytes' object but received a 'NoneType'",
+      "time" : {
+        "start" : 1607933762916,
+        "stop" : 1607933782028,
+        "duration" : 19112
+      }
+    }, {
+      "uid" : "2e5203add9d63966",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607933661634,
+        "stop" : 1607933718040,
+        "duration" : 56406
+      }
+    }, {
+      "uid" : "7d74b583f3720e77",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1607933410471,
+        "stop" : 1607933533840,
+        "duration" : 123369
+      }
+    }, {
+      "uid" : "8fa17b27ccee6848",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1607932768444,
+        "stop" : 1607932882186,
+        "duration" : 113742
+      }
+    }, {
+      "uid" : "8a2a7f8edc32332d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input type=\"checkbox\" class=\"ant-checkbox-input\" value=\"\"> is not clickable at point (963, 316). Other element would receive the click: <div class=\"ant-spin ant-spin-spinning\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607932377413,
+        "stop" : 1607932411429,
+        "duration" : 34016
+      }
+    }, {
+      "uid" : "8f6c5c3bfd831042",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input type=\"checkbox\" class=\"ant-checkbox-input\" value=\"\"> is not clickable at point (963, 316). Other element would receive the click: <div class=\"ant-spin ant-spin-spinning\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607932239683,
+        "stop" : 1607932273897,
+        "duration" : 34214
+      }
+    }, {
+      "uid" : "195929d2258ac16",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input type=\"checkbox\" class=\"ant-checkbox-input\" value=\"\"> is not clickable at point (963, 316). Other element would receive the click: <div class=\"ant-spin ant-spin-spinning\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607932126095,
+        "stop" : 1607932159685,
+        "duration" : 33590
+      }
+    }, {
+      "uid" : "7a6a94f17ac3c226",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span>...</span> is not clickable at point (1049, 871). Other element would receive the click: <button type=\"button\" class=\"ant-btn btnCertification___2WOBh ant-btn-primary\">...</button>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607931959665,
+        "stop" : 1607932008126,
+        "duration" : 48461
+      }
+    }, {
+      "uid" : "cd70a41128f037f7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607931609659,
+        "stop" : 1607931627248,
+        "duration" : 17589
+      }
+    }, {
+      "uid" : "7bceaddd2156a865",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1607931274346,
+        "stop" : 1607931358159,
+        "duration" : 83813
+      }
+    }, {
+      "uid" : "2bb7cdd4a4dd843",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"ant-checkbox\">...</span> is not clickable at point (963, 316). Other element would receive the click: <div class=\"ant-spin ant-spin-spinning\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607931117662,
+        "stop" : 1607931152055,
+        "duration" : 34393
+      }
+    }, {
+      "uid" : "9588c93f2eed29d1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > section > section > main > div > div > div > div > div > form > div:nth-child(3) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607930402552,
+        "stop" : 1607930433375,
+        "duration" : 30823
+      }
+    }, {
+      "uid" : "c1bbb23259ff6139",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > section > section > main > div > div > div > div > div > form > div:nth-child(4) > div:nth-child(2) > div > div > span > div > span > div.ant-upload.ant-upload-select.ant-upload-select-picture-card > span > input[type=file]\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607929977083,
+        "stop" : 1607930005663,
+        "duration" : 28580
+      }
+    }, {
+      "uid" : "ed40d35fb801639b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1607929754485,
+        "stop" : 1607929808310,
+        "duration" : 53825
+      }
+    }, {
+      "uid" : "cf7a6253558fc4ea",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607929523893,
+        "stop" : 1607929541562,
+        "duration" : 17669
+      }
+    }, {
+      "uid" : "5b5ac9e8f9e31d47",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607929059015,
+        "stop" : 1607929076630,
+        "duration" : 17615
+      }
+    }, {
+      "uid" : "159eed50caa8a7f9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1606280178180,
+        "stop" : 1606280225144,
+        "duration" : 46964
+      }
+    }, {
+      "uid" : "b44ddd32c2200b1a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1605852543330,
+        "stop" : 1605852543345,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "31c5bd2295feb2b5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1605852509117,
+        "stop" : 1605852509117,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "61348b88c171e7e2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1605852453437,
+        "stop" : 1605852453437,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "92273b720ea963ad",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div.main___3sFq0 > div > form > div:nth-child(1) > div.ant-col.ant-form-item-control-wrapper > div > span > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1605157643088,
+        "stop" : 1605157666942,
+        "duration" : 23854
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=6)" ]
+  },
+  "source" : "82c593749e5ebcce.json",
+  "parameterValues" : [ ]
+}

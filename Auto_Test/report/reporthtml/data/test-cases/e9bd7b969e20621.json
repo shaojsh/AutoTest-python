@@ -1,0 +1,96 @@
+{
+  "uid" : "e9bd7b969e20621",
+  "name" : "test_api_per",
+  "fullName" : "test_case.test_Api_demo.test_api_per#test_api_per",
+  "historyId" : "9691ac6aee44b45918982a7ef3d6c630",
+  "time" : {
+    "start" : 1605491340730,
+    "stop" : 1605491370734,
+    "duration" : 30004
+  },
+  "description" : "测试http://123.133.28.226:60011接口",
+  "descriptionHtml" : "<p>测试http://123.133.28.226:60011接口</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试http://123.133.28.226:60011接口",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2b24633a6e1c2de7",
+      "name" : "log",
+      "source" : "2b24633a6e1c2de7.txt",
+      "type" : "text/plain",
+      "size" : 71
+    }, {
+      "uid" : "bfc34dfa30ab6e65",
+      "name" : "stderr",
+      "source" : "bfc34dfa30ab6e65.txt",
+      "type" : "text/plain",
+      "size" : 5586
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.test_Api_demo"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_per"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "8240-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_Api_demo.test_api_per"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "测试用例地址 \uD83D\uDC47",
+    "url" : "http://123.133.28.226:60011",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "2bc59e4907e7d614",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605158131765,
+        "stop" : 1605158161769,
+        "duration" : 30004
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "e9bd7b969e20621.json",
+  "parameterValues" : [ ]
+}

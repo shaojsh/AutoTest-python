@@ -4,9 +4,8 @@ from time import sleep
 import random
 import allure
 import pytest
-from airtest.core.api import text, keyevent, device, swipe
+from airtest.core.api import text
 from selenium import webdriver
-from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -159,8 +158,8 @@ def test_businessInforReg():
         txt_startAuTitle = driver.find_element_by_css_selector(path_businessInfoReg.text_atCof_css.value).text
         test_Assert.assert_text_ui(txt_startAuTitle, '请确认协议内容')
         logger.info("协议确认画面正常显示")
-        waitUntilClick_xpath(driver, path_businessInfoReg.checkBox_agree_xpath.value)
-        sleep(1)
+        waitUntilClick_xpath(driver, '//*[@id="root"]/div/div[2]/div/div[2]/div/div/div/div[1]/div/button')
+        sleep(2)
         driver.find_element_by_xpath(path_businessInfoReg.checkBox_agree_xpath.value).click()
         waitUntilClick(driver, path_businessInfoReg.btn_Certification_css.value)
         driver.find_element_by_css_selector(path_businessInfoReg.btn_Certification_css.value).click()

@@ -1,0 +1,298 @@
+Wed, 16 Dec 2020 09:13:45-run_all_case.py-run_all_case.py-[line:57]-INFO-[日志信息]: ==================================2020-12-16 09:13:45===================================
+Wed, 16 Dec 2020 09:13:53-run_all_case.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 16 Dec 2020 09:14:04-run_all_case.py-test_login.py-[line:70]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 16 Dec 2020 09:14:08-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 16 Dec 2020 09:14:08-run_all_case.py-test_login.py-[line:98]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 16 Dec 2020 09:14:11-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Wed, 16 Dec 2020 09:14:11-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Wed, 16 Dec 2020 09:14:23-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 16 Dec 2020 09:14:23-run_all_case.py-test_personalInfoReg.py-[line:60]-INFO-[日志信息]: 进入登陆页面
+Wed, 16 Dec 2020 09:14:41-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Wed, 16 Dec 2020 09:14:41-run_all_case.py-test_personalInfoReg.py-[line:84]-INFO-[日志信息]: 实名认证中画面显示
+Wed, 16 Dec 2020 09:14:41-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 李涛, actul_result is 李涛
+Wed, 16 Dec 2020 09:14:41-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 410184198105155611, actul_result is 410184198105155611
+Wed, 16 Dec 2020 09:14:41-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+Wed, 16 Dec 2020 09:14:51-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 认证成功, actul_result is 认证成功
+Wed, 16 Dec 2020 09:14:51-run_all_case.py-test_personalInfoReg.py-[line:98]-INFO-[日志信息]: 实名认证成功画面显示
+Wed, 16 Dec 2020 09:14:51-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Wed, 16 Dec 2020 09:14:51-run_all_case.py-test_personalInfoReg.py-[line:103]-INFO-[日志信息]: 点击查看认证信息按钮，跳转到实名认证画面
+Wed, 16 Dec 2020 09:14:53-run_all_case.py-test_businessInfoReg.py-[line:37]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Wed, 16 Dec 2020 09:15:05-test_businessInforReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Wed, 16 Dec 2020 09:15:05-run_all_case.py-test_businessInfoReg.py-[line:56]-INFO-[日志信息]: 企业基本资料画面正常显示
+Wed, 16 Dec 2020 09:19:01-run_all_case.py-run_all_case.py-[line:57]-INFO-[日志信息]: ==================================2020-12-16 09:19:01===================================
+Wed, 16 Dec 2020 09:19:02-run_all_case.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 16 Dec 2020 09:19:13-run_all_case.py-test_login.py-[line:70]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 16 Dec 2020 09:19:17-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 16 Dec 2020 09:19:17-run_all_case.py-test_login.py-[line:98]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 16 Dec 2020 09:19:21-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Wed, 16 Dec 2020 09:19:21-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Wed, 16 Dec 2020 09:19:33-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 16 Dec 2020 09:19:33-run_all_case.py-test_personalInfoReg.py-[line:60]-INFO-[日志信息]: 进入登陆页面
+Wed, 16 Dec 2020 09:19:47-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Wed, 16 Dec 2020 09:19:47-run_all_case.py-test_personalInfoReg.py-[line:84]-INFO-[日志信息]: 实名认证中画面显示
+Wed, 16 Dec 2020 09:19:47-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 李涛, actul_result is 李涛
+Wed, 16 Dec 2020 09:19:47-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 410184198105155611, actul_result is 410184198105155611
+Wed, 16 Dec 2020 09:19:47-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+Wed, 16 Dec 2020 09:19:57-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 认证成功, actul_result is 认证成功
+Wed, 16 Dec 2020 09:19:57-run_all_case.py-test_personalInfoReg.py-[line:98]-INFO-[日志信息]: 实名认证成功画面显示
+Wed, 16 Dec 2020 09:19:57-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Wed, 16 Dec 2020 09:19:57-run_all_case.py-test_personalInfoReg.py-[line:103]-INFO-[日志信息]: 点击查看认证信息按钮，跳转到实名认证画面
+Wed, 16 Dec 2020 09:19:59-run_all_case.py-test_businessInfoReg.py-[line:37]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Wed, 16 Dec 2020 09:20:11-test_businessInforReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Wed, 16 Dec 2020 09:20:11-run_all_case.py-test_businessInfoReg.py-[line:56]-INFO-[日志信息]: 企业基本资料画面正常显示
+Wed, 16 Dec 2020 09:20:26-test_businessInforReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 请确认协议内容, actul_result is 请确认协议内容
+Wed, 16 Dec 2020 09:20:26-run_all_case.py-test_businessInfoReg.py-[line:160]-INFO-[日志信息]: 协议确认画面正常显示
+Wed, 16 Dec 2020 09:20:36-run_all_case.py-test_backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Wed, 16 Dec 2020 09:21:50-run_all_case.py-run_all_case.py-[line:57]-INFO-[日志信息]: ==================================2020-12-16 09:21:50===================================
+Wed, 16 Dec 2020 09:21:52-run_all_case.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 16 Dec 2020 09:22:02-run_all_case.py-test_login.py-[line:70]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 16 Dec 2020 09:22:19-run_all_case.py-run_all_case.py-[line:57]-INFO-[日志信息]: ==================================2020-12-16 09:22:19===================================
+Wed, 16 Dec 2020 09:22:20-run_all_case.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 16 Dec 2020 09:22:32-run_all_case.py-test_login.py-[line:70]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 16 Dec 2020 09:22:36-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 16 Dec 2020 09:22:36-run_all_case.py-test_login.py-[line:98]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 16 Dec 2020 09:22:39-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Wed, 16 Dec 2020 09:22:39-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Wed, 16 Dec 2020 09:22:51-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 16 Dec 2020 09:22:51-run_all_case.py-test_personalInfoReg.py-[line:60]-INFO-[日志信息]: 进入登陆页面
+Wed, 16 Dec 2020 09:23:05-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Wed, 16 Dec 2020 09:23:05-run_all_case.py-test_personalInfoReg.py-[line:84]-INFO-[日志信息]: 实名认证中画面显示
+Wed, 16 Dec 2020 09:23:05-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 李涛, actul_result is 李涛
+Wed, 16 Dec 2020 09:23:05-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 410184198105155611, actul_result is 410184198105155611
+Wed, 16 Dec 2020 09:23:05-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+Wed, 16 Dec 2020 09:23:15-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 认证成功, actul_result is 认证成功
+Wed, 16 Dec 2020 09:23:15-run_all_case.py-test_personalInfoReg.py-[line:98]-INFO-[日志信息]: 实名认证成功画面显示
+Wed, 16 Dec 2020 09:23:15-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Wed, 16 Dec 2020 09:23:15-run_all_case.py-test_personalInfoReg.py-[line:103]-INFO-[日志信息]: 点击查看认证信息按钮，跳转到实名认证画面
+Wed, 16 Dec 2020 09:23:17-run_all_case.py-test_businessInfoReg.py-[line:37]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Wed, 16 Dec 2020 09:23:29-test_businessInforReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Wed, 16 Dec 2020 09:23:29-run_all_case.py-test_businessInfoReg.py-[line:56]-INFO-[日志信息]: 企业基本资料画面正常显示
+Wed, 16 Dec 2020 09:23:47-test_businessInforReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 请确认协议内容, actul_result is 请确认协议内容
+Wed, 16 Dec 2020 09:23:47-run_all_case.py-test_businessInfoReg.py-[line:160]-INFO-[日志信息]: 协议确认画面正常显示
+Wed, 16 Dec 2020 09:23:57-run_all_case.py-test_backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Wed, 16 Dec 2020 09:24:08-run_all_case.py-test_backStage_examine.py-[line:95]-INFO-[日志信息]: 成功登录后台系统
+Wed, 16 Dec 2020 09:24:13-test_backstage_examine-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Wed, 16 Dec 2020 09:24:13-run_all_case.py-test_backStage_examine.py-[line:65]-INFO-[日志信息]: 成功进入企业信息审核画面
+Wed, 16 Dec 2020 09:24:14-run_all_case.py-test_backStage_authentication.py-[line:176]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 16 Dec 2020 09:24:25-run_all_case.py-test_backStage_examine.py-[line:95]-INFO-[日志信息]: 成功登录后台系统
+Wed, 16 Dec 2020 09:24:25-run_all_case.py-test_backStage_authentication.py-[line:194]-INFO-[日志信息]: 机构信息DB删除
+Wed, 16 Dec 2020 09:24:43-run_all_case.py-test_backStage_authentication.py-[line:353]-INFO-[日志信息]: 进入担保公司创建页面
+Wed, 16 Dec 2020 09:24:47-run_all_case.py-test_backStage_authentication.py-[line:351]-INFO-[日志信息]: 进入银行账户创建页面
+Wed, 16 Dec 2020 09:24:51-run_all_case.py-test_backStage_authentication.py-[line:292]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 16 Dec 2020 09:24:51-run_all_case.py-test_backStage_authentication.py-[line:295]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 16 Dec 2020 09:25:05-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 16 Dec 2020 09:25:08-run_all_case.py-test_login.py-[line:186]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 16 Dec 2020 09:25:26-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Wed, 16 Dec 2020 09:25:37-run_all_case.py-test_Tripartite_interaction.py-[line:160]-INFO-[日志信息]: 前端账户登录授信申请
+Wed, 16 Dec 2020 09:25:42-run_all_case.py-test_Tripartite_interaction.py-[line:378]-INFO-[日志信息]: 进入到前端首页
+Wed, 16 Dec 2020 09:25:42-run_all_case.py-test_Tripartite_interaction.py-[line:381]-INFO-[日志信息]: 进入到前端进入产品选择首页
+Wed, 16 Dec 2020 09:25:45-run_all_case.py-test_Tripartite_interaction.py-[line:386]-INFO-[日志信息]: 进入到前端进入产品详情页
+Wed, 16 Dec 2020 09:25:52-run_all_case.py-run_all_case.py-[line:57]-INFO-[日志信息]: ==================================2020-12-16 09:25:52===================================
+Wed, 16 Dec 2020 09:25:53-run_all_case.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 16 Dec 2020 09:26:05-run_all_case.py-test_login.py-[line:70]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 16 Dec 2020 09:26:09-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 16 Dec 2020 09:26:09-run_all_case.py-test_login.py-[line:98]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 16 Dec 2020 09:26:12-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Wed, 16 Dec 2020 09:26:12-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Wed, 16 Dec 2020 09:26:24-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 16 Dec 2020 09:26:24-run_all_case.py-test_personalInfoReg.py-[line:60]-INFO-[日志信息]: 进入登陆页面
+Wed, 16 Dec 2020 09:26:38-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Wed, 16 Dec 2020 09:26:38-run_all_case.py-test_personalInfoReg.py-[line:84]-INFO-[日志信息]: 实名认证中画面显示
+Wed, 16 Dec 2020 09:26:38-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 李涛, actul_result is 李涛
+Wed, 16 Dec 2020 09:26:38-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 410184198105155611, actul_result is 410184198105155611
+Wed, 16 Dec 2020 09:26:38-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+Wed, 16 Dec 2020 09:26:48-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 认证成功, actul_result is 认证成功
+Wed, 16 Dec 2020 09:26:48-run_all_case.py-test_personalInfoReg.py-[line:98]-INFO-[日志信息]: 实名认证成功画面显示
+Wed, 16 Dec 2020 09:26:48-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Wed, 16 Dec 2020 09:26:48-run_all_case.py-test_personalInfoReg.py-[line:103]-INFO-[日志信息]: 点击查看认证信息按钮，跳转到实名认证画面
+Wed, 16 Dec 2020 09:26:50-run_all_case.py-test_businessInfoReg.py-[line:37]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Wed, 16 Dec 2020 09:27:02-test_businessInforReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Wed, 16 Dec 2020 09:27:02-run_all_case.py-test_businessInfoReg.py-[line:56]-INFO-[日志信息]: 企业基本资料画面正常显示
+Wed, 16 Dec 2020 09:27:18-test_businessInforReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 请确认协议内容, actul_result is 请确认协议内容
+Wed, 16 Dec 2020 09:27:18-run_all_case.py-test_businessInfoReg.py-[line:160]-INFO-[日志信息]: 协议确认画面正常显示
+Wed, 16 Dec 2020 09:27:29-run_all_case.py-test_backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Wed, 16 Dec 2020 09:27:40-run_all_case.py-test_backStage_examine.py-[line:95]-INFO-[日志信息]: 成功登录后台系统
+Wed, 16 Dec 2020 09:27:45-test_backstage_examine-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Wed, 16 Dec 2020 09:27:45-run_all_case.py-test_backStage_examine.py-[line:65]-INFO-[日志信息]: 成功进入企业信息审核画面
+Wed, 16 Dec 2020 09:27:45-run_all_case.py-test_backStage_authentication.py-[line:176]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 16 Dec 2020 09:27:56-run_all_case.py-test_backStage_examine.py-[line:95]-INFO-[日志信息]: 成功登录后台系统
+Wed, 16 Dec 2020 09:27:56-run_all_case.py-test_backStage_authentication.py-[line:194]-INFO-[日志信息]: 机构信息DB删除
+Wed, 16 Dec 2020 09:28:15-run_all_case.py-test_backStage_authentication.py-[line:353]-INFO-[日志信息]: 进入担保公司创建页面
+Wed, 16 Dec 2020 09:28:18-run_all_case.py-test_backStage_authentication.py-[line:351]-INFO-[日志信息]: 进入银行账户创建页面
+Wed, 16 Dec 2020 09:28:23-run_all_case.py-test_backStage_authentication.py-[line:292]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 16 Dec 2020 09:28:23-run_all_case.py-test_backStage_authentication.py-[line:295]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 16 Dec 2020 09:28:37-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 16 Dec 2020 09:28:40-run_all_case.py-test_login.py-[line:186]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 16 Dec 2020 09:28:44-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 16 Dec 2020 09:28:46-run_all_case.py-test_login.py-[line:186]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 16 Dec 2020 09:28:47-run_all_case.py-test_backStage_examine.py-[line:95]-INFO-[日志信息]: 成功登录后台系统
+Wed, 16 Dec 2020 09:28:53-run_all_case.py-test_backStage_authentication.py-[line:245]-INFO-[日志信息]: 企业信息认证
+Wed, 16 Dec 2020 09:28:56-run_all_case.py-test_backStage_authentication.py-[line:262]-INFO-[日志信息]: 协议内容确认页面
+Wed, 16 Dec 2020 09:29:26-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Wed, 16 Dec 2020 09:29:37-run_all_case.py-test_Tripartite_interaction.py-[line:160]-INFO-[日志信息]: 前端账户登录授信申请
+Wed, 16 Dec 2020 09:29:42-run_all_case.py-test_Tripartite_interaction.py-[line:378]-INFO-[日志信息]: 进入到前端首页
+Wed, 16 Dec 2020 10:03:09-run_all_case.py-run_all_case.py-[line:57]-INFO-[日志信息]: ==================================2020-12-16 10:03:09===================================
+Wed, 16 Dec 2020 10:03:10-run_all_case.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 16 Dec 2020 10:03:22-run_all_case.py-test_login.py-[line:70]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 16 Dec 2020 10:03:26-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 16 Dec 2020 10:03:26-run_all_case.py-test_login.py-[line:98]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 16 Dec 2020 10:03:29-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Wed, 16 Dec 2020 10:03:29-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Wed, 16 Dec 2020 10:03:41-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 16 Dec 2020 10:03:41-run_all_case.py-test_personalInfoReg.py-[line:60]-INFO-[日志信息]: 进入登陆页面
+Wed, 16 Dec 2020 10:04:12-run_all_case.py-test_businessInfoReg.py-[line:37]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Wed, 16 Dec 2020 10:04:57-run_all_case.py-test_backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Wed, 16 Dec 2020 10:05:27-run_all_case.py-run_all_case.py-[line:57]-INFO-[日志信息]: ==================================2020-12-16 10:05:27===================================
+Wed, 16 Dec 2020 10:05:28-run_all_case.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 16 Dec 2020 10:05:39-run_all_case.py-test_login.py-[line:70]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 16 Dec 2020 10:05:43-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 16 Dec 2020 10:05:43-run_all_case.py-test_login.py-[line:98]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 16 Dec 2020 10:05:46-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Wed, 16 Dec 2020 10:05:46-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Wed, 16 Dec 2020 10:05:58-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 16 Dec 2020 10:05:58-run_all_case.py-test_personalInfoReg.py-[line:60]-INFO-[日志信息]: 进入登陆页面
+Wed, 16 Dec 2020 10:06:28-run_all_case.py-test_businessInfoReg.py-[line:37]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Wed, 16 Dec 2020 10:25:33-run_all_case.py-run_all_case.py-[line:57]-INFO-[日志信息]: ==================================2020-12-16 10:25:33===================================
+Wed, 16 Dec 2020 10:25:35-run_all_case.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 16 Dec 2020 10:25:46-run_all_case.py-test_login.py-[line:70]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 16 Dec 2020 10:25:50-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 16 Dec 2020 10:25:50-run_all_case.py-test_login.py-[line:98]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 16 Dec 2020 10:25:53-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Wed, 16 Dec 2020 10:25:53-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Wed, 16 Dec 2020 10:26:05-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 16 Dec 2020 10:26:05-run_all_case.py-test_personalInfoReg.py-[line:60]-INFO-[日志信息]: 进入登陆页面
+Wed, 16 Dec 2020 10:26:19-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Wed, 16 Dec 2020 10:26:19-run_all_case.py-test_personalInfoReg.py-[line:84]-INFO-[日志信息]: 实名认证中画面显示
+Wed, 16 Dec 2020 10:26:19-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 李涛, actul_result is 李涛
+Wed, 16 Dec 2020 10:26:19-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 410184198105155611, actul_result is 410184198105155611
+Wed, 16 Dec 2020 10:26:19-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+Wed, 16 Dec 2020 10:26:29-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 认证成功, actul_result is 认证成功
+Wed, 16 Dec 2020 10:26:29-run_all_case.py-test_personalInfoReg.py-[line:98]-INFO-[日志信息]: 实名认证成功画面显示
+Wed, 16 Dec 2020 10:26:29-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Wed, 16 Dec 2020 10:26:29-run_all_case.py-test_personalInfoReg.py-[line:103]-INFO-[日志信息]: 点击查看认证信息按钮，跳转到实名认证画面
+Wed, 16 Dec 2020 10:26:31-run_all_case.py-test_businessInfoReg.py-[line:37]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Wed, 16 Dec 2020 10:26:43-test_businessInforReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Wed, 16 Dec 2020 10:26:43-run_all_case.py-test_businessInfoReg.py-[line:56]-INFO-[日志信息]: 企业基本资料画面正常显示
+Wed, 16 Dec 2020 10:27:02-test_businessInforReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 请确认协议内容, actul_result is 请确认协议内容
+Wed, 16 Dec 2020 10:27:02-run_all_case.py-test_businessInfoReg.py-[line:160]-INFO-[日志信息]: 协议确认画面正常显示
+Wed, 16 Dec 2020 10:27:12-run_all_case.py-test_backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Wed, 16 Dec 2020 10:27:24-run_all_case.py-test_backStage_examine.py-[line:95]-INFO-[日志信息]: 成功登录后台系统
+Wed, 16 Dec 2020 10:27:29-test_backstage_examine-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Wed, 16 Dec 2020 10:27:29-run_all_case.py-test_backStage_examine.py-[line:65]-INFO-[日志信息]: 成功进入企业信息审核画面
+Wed, 16 Dec 2020 10:27:29-run_all_case.py-test_backStage_authentication.py-[line:176]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 16 Dec 2020 10:27:40-run_all_case.py-test_backStage_examine.py-[line:95]-INFO-[日志信息]: 成功登录后台系统
+Wed, 16 Dec 2020 10:27:40-run_all_case.py-test_backStage_authentication.py-[line:194]-INFO-[日志信息]: 机构信息DB删除
+Wed, 16 Dec 2020 10:28:14-run_all_case.py-test_backStage_authentication.py-[line:292]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 16 Dec 2020 10:28:14-run_all_case.py-test_backStage_authentication.py-[line:295]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 16 Dec 2020 10:28:28-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 16 Dec 2020 10:28:31-run_all_case.py-test_login.py-[line:186]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 16 Dec 2020 10:29:01-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Wed, 16 Dec 2020 10:29:12-run_all_case.py-test_Tripartite_interaction.py-[line:160]-INFO-[日志信息]: 前端账户登录授信申请
+Wed, 16 Dec 2020 10:29:17-run_all_case.py-test_Tripartite_interaction.py-[line:378]-INFO-[日志信息]: 进入到前端首页
+Wed, 16 Dec 2020 10:29:17-run_all_case.py-test_Tripartite_interaction.py-[line:381]-INFO-[日志信息]: 进入到前端进入产品选择首页
+Wed, 16 Dec 2020 10:29:20-run_all_case.py-test_Tripartite_interaction.py-[line:386]-INFO-[日志信息]: 进入到前端进入产品详情页
+Wed, 16 Dec 2020 10:33:15-run_all_case.py-run_all_case.py-[line:57]-INFO-[日志信息]: ==================================2020-12-16 10:33:15===================================
+Wed, 16 Dec 2020 10:33:16-run_all_case.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 16 Dec 2020 10:33:28-run_all_case.py-test_login.py-[line:70]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 16 Dec 2020 10:33:32-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 16 Dec 2020 10:33:32-run_all_case.py-test_login.py-[line:98]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 16 Dec 2020 10:33:35-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Wed, 16 Dec 2020 10:33:35-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Wed, 16 Dec 2020 10:33:47-run_all_case.py-run_all_case.py-[line:57]-INFO-[日志信息]: ==================================2020-12-16 10:33:47===================================
+Wed, 16 Dec 2020 10:33:48-run_all_case.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 16 Dec 2020 10:33:59-run_all_case.py-test_login.py-[line:70]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 16 Dec 2020 10:34:03-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 16 Dec 2020 10:34:03-run_all_case.py-test_login.py-[line:98]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 16 Dec 2020 10:34:06-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Wed, 16 Dec 2020 10:34:07-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作
+Wed, 16 Dec 2020 10:34:18-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 首页, actul_result is 首页
+Wed, 16 Dec 2020 10:34:18-run_all_case.py-test_personalInfoReg.py-[line:60]-INFO-[日志信息]: 进入登陆页面
+Wed, 16 Dec 2020 10:34:32-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 认证中, actul_result is 认证中
+Wed, 16 Dec 2020 10:34:32-run_all_case.py-test_personalInfoReg.py-[line:84]-INFO-[日志信息]: 实名认证中画面显示
+Wed, 16 Dec 2020 10:34:32-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 李涛, actul_result is 李涛
+Wed, 16 Dec 2020 10:34:32-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 410184198105155611, actul_result is 410184198105155611
+Wed, 16 Dec 2020 10:34:32-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 17621198933, actul_result is 17621198933
+Wed, 16 Dec 2020 10:34:42-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 认证成功, actul_result is 认证成功
+Wed, 16 Dec 2020 10:34:42-run_all_case.py-test_personalInfoReg.py-[line:98]-INFO-[日志信息]: 实名认证成功画面显示
+Wed, 16 Dec 2020 10:34:42-test_infoReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 实名认证, actul_result is 实名认证
+Wed, 16 Dec 2020 10:34:42-run_all_case.py-test_personalInfoReg.py-[line:103]-INFO-[日志信息]: 点击查看认证信息按钮，跳转到实名认证画面
+Wed, 16 Dec 2020 10:34:45-run_all_case.py-test_businessInfoReg.py-[line:37]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Wed, 16 Dec 2020 10:34:56-test_businessInforReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
+Wed, 16 Dec 2020 10:34:56-run_all_case.py-test_businessInfoReg.py-[line:56]-INFO-[日志信息]: 企业基本资料画面正常显示
+Wed, 16 Dec 2020 10:35:12-test_businessInforReg-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 请确认协议内容, actul_result is 请确认协议内容
+Wed, 16 Dec 2020 10:35:12-run_all_case.py-test_businessInfoReg.py-[line:160]-INFO-[日志信息]: 协议确认画面正常显示
+Wed, 16 Dec 2020 10:35:22-run_all_case.py-test_backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Wed, 16 Dec 2020 10:35:34-run_all_case.py-test_backStage_examine.py-[line:95]-INFO-[日志信息]: 成功登录后台系统
+Wed, 16 Dec 2020 10:35:39-test_backstage_examine-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
+Wed, 16 Dec 2020 10:35:39-run_all_case.py-test_backStage_examine.py-[line:65]-INFO-[日志信息]: 成功进入企业信息审核画面
+Wed, 16 Dec 2020 10:35:39-run_all_case.py-test_backStage_authentication.py-[line:176]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Wed, 16 Dec 2020 10:35:50-run_all_case.py-test_backStage_examine.py-[line:95]-INFO-[日志信息]: 成功登录后台系统
+Wed, 16 Dec 2020 10:35:51-run_all_case.py-test_backStage_authentication.py-[line:194]-INFO-[日志信息]: 机构信息DB删除
+Wed, 16 Dec 2020 10:36:09-run_all_case.py-test_backStage_authentication.py-[line:353]-INFO-[日志信息]: 进入担保公司创建页面
+Wed, 16 Dec 2020 10:36:13-run_all_case.py-test_backStage_authentication.py-[line:351]-INFO-[日志信息]: 进入银行账户创建页面
+Wed, 16 Dec 2020 10:36:17-run_all_case.py-test_backStage_authentication.py-[line:292]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 16 Dec 2020 10:36:17-run_all_case.py-test_backStage_authentication.py-[line:295]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Wed, 16 Dec 2020 10:36:32-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 16 Dec 2020 10:36:34-run_all_case.py-test_login.py-[line:186]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 16 Dec 2020 10:36:38-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码重置页面
+Wed, 16 Dec 2020 10:36:41-run_all_case.py-test_login.py-[line:186]-INFO-[日志信息]: 成功进入到密码修改完成页面
+Wed, 16 Dec 2020 10:36:42-run_all_case.py-test_backStage_examine.py-[line:95]-INFO-[日志信息]: 成功登录后台系统
+Wed, 16 Dec 2020 10:36:47-run_all_case.py-test_backStage_authentication.py-[line:245]-INFO-[日志信息]: 企业信息认证
+Wed, 16 Dec 2020 10:36:50-run_all_case.py-test_backStage_authentication.py-[line:262]-INFO-[日志信息]: 协议内容确认页面
+Wed, 16 Dec 2020 10:37:21-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Wed, 16 Dec 2020 10:43:21-run_all_case.py-run_all_case.py-[line:57]-INFO-[日志信息]: ==================================2020-12-16 10:43:21===================================
+Wed, 16 Dec 2020 10:43:22-run_all_case.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Wed, 16 Dec 2020 10:43:33-run_all_case.py-test_login.py-[line:70]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Wed, 16 Dec 2020 10:43:37-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
+Wed, 16 Dec 2020 10:43:37-run_all_case.py-test_login.py-[line:98]-INFO-[日志信息]: 注册成功，返回到登陆页面
+Wed, 16 Dec 2020 14:42:17-run_all_case.py-run_all_case.py-[line:57]-INFO-[日志信息]: ==================================2020-12-16 14:42:17===================================

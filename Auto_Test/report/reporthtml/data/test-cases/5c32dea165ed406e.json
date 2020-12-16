@@ -1,0 +1,595 @@
+{
+  "uid" : "5c32dea165ed406e",
+  "name" : "test_backStageActCreate",
+  "fullName" : "test_flow.test_Authentication.test_backStage_authentication#test_backStageActCreate",
+  "historyId" : "d85ebd52118862a52004a5c4faaac530",
+  "time" : {
+    "start" : 1608086139702,
+    "stop" : 1608086177723,
+    "duration" : 38021
+  },
+  "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台机构创建",
+  "descriptionHtml" : "<p>http://10.10.128.152:10052/#/authority/mechanism 后台机构创建</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1608086028226,
+      "stop" : 1608086028308,
+      "duration" : 82
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "http://10.10.128.152:10052/#/authority/mechanism 后台机构创建",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "45fd1c353be4550b",
+      "name" : "log",
+      "source" : "45fd1c353be4550b.txt",
+      "type" : "text/plain",
+      "size" : 453
+    }, {
+      "uid" : "4c76246544a592cb",
+      "name" : "stdout",
+      "source" : "4c76246544a592cb.txt",
+      "type" : "text/plain",
+      "size" : 933
+    }, {
+      "uid" : "288c926306a75129",
+      "name" : "stderr",
+      "source" : "288c926306a75129.txt",
+      "type" : "text/plain",
+      "size" : 679
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=5)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_backStage_authentication"
+  }, {
+    "name" : "host",
+    "value" : "A02-03-00033"
+  }, {
+    "name" : "thread",
+    "value" : "13764-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_backStage_authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "后台机构创建 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10052/#/authority/mechanism",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "3ab31e3409279d70",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1608085649396,
+        "stop" : 1608085694234,
+        "duration" : 44838
+      }
+    }, {
+      "uid" : "bd55c84b584452a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608082065546,
+        "stop" : 1608082103145,
+        "duration" : 37599
+      }
+    }, {
+      "uid" : "dc753c6eba9b7581",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608081854054,
+        "stop" : 1608081891684,
+        "duration" : 37630
+      }
+    }, {
+      "uid" : "deaf757fd50433f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608022656659,
+        "stop" : 1608022693915,
+        "duration" : 37256
+      }
+    }, {
+      "uid" : "7715381c8179c568",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608021350169,
+        "stop" : 1608021387510,
+        "duration" : 37341
+      }
+    }, {
+      "uid" : "be217944a9d799ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608017366306,
+        "stop" : 1608017404103,
+        "duration" : 37797
+      }
+    }, {
+      "uid" : "db26ac8f3e2d1683",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608008234026,
+        "stop" : 1608008271466,
+        "duration" : 37440
+      }
+    }, {
+      "uid" : "6b54df404a04092d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608002267155,
+        "stop" : 1608002304549,
+        "duration" : 37394
+      }
+    }, {
+      "uid" : "2dfdecdf7aec0074",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608001581752,
+        "stop" : 1608001619078,
+        "duration" : 37326
+      }
+    }, {
+      "uid" : "80df5e5b3ec5b0a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607998399987,
+        "stop" : 1607998437433,
+        "duration" : 37446
+      }
+    }, {
+      "uid" : "f853947c5c4adf6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607998029813,
+        "stop" : 1607998067117,
+        "duration" : 37304
+      }
+    }, {
+      "uid" : "a67b2de90293edfc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607943210722,
+        "stop" : 1607943248221,
+        "duration" : 37499
+      }
+    }, {
+      "uid" : "a5938e9aa8381f43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607940627505,
+        "stop" : 1607940665022,
+        "duration" : 37517
+      }
+    }, {
+      "uid" : "3e734d58563c9618",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607940114344,
+        "stop" : 1607940151775,
+        "duration" : 37431
+      }
+    }, {
+      "uid" : "e6c83f83f392a244",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607939427748,
+        "stop" : 1607939465123,
+        "duration" : 37375
+      }
+    }, {
+      "uid" : "28feb678832524e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607938417888,
+        "stop" : 1607938455534,
+        "duration" : 37646
+      }
+    }, {
+      "uid" : "1b4aacb95212870c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607938219474,
+        "stop" : 1607938256837,
+        "duration" : 37363
+      }
+    }, {
+      "uid" : "2c8499ff6952e881",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607938002512,
+        "stop" : 1607938043999,
+        "duration" : 41487
+      }
+    }, {
+      "uid" : "81ed4fad75695946",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607937824498,
+        "stop" : 1607937861890,
+        "duration" : 37392
+      }
+    }, {
+      "uid" : "dcb6db4912338062",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607937555267,
+        "stop" : 1607937592684,
+        "duration" : 37417
+      }
+    }, {
+      "uid" : "b4afaf2864ef0624",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607937057296,
+        "stop" : 1607937098870,
+        "duration" : 41574
+      }
+    }, {
+      "uid" : "3b8fbf48bf63fef1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607936756153,
+        "stop" : 1607936793531,
+        "duration" : 37378
+      }
+    }, {
+      "uid" : "a6195367bbaa37d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607936545168,
+        "stop" : 1607936582819,
+        "duration" : 37651
+      }
+    }, {
+      "uid" : "92d2d800460a4a60",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607936401224,
+        "stop" : 1607936418789,
+        "duration" : 17565
+      }
+    }, {
+      "uid" : "301e54ab3b10f9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607936137888,
+        "stop" : 1607936178842,
+        "duration" : 40954
+      }
+    }, {
+      "uid" : "cfbc06b180fb6979",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607934770659,
+        "stop" : 1607934811804,
+        "duration" : 41145
+      }
+    }, {
+      "uid" : "4879a359ded4d211",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li role=\"option\" unselectable=\"on\" class=\"ant-select-dropdown-menu-item\" aria-disabled=\"false\" aria-selected=\"false\" style=\"user-select: none;\">...</li> is not clickable at point (932, 762). Other element would receive the click: <div tabindex=\"-1\" class=\"ant-modal-wrap \" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\" style=\"\">...</div>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607934028029,
+        "stop" : 1607934054593,
+        "duration" : 26564
+      }
+    }, {
+      "uid" : "369b7f418a1edec3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607933851180,
+        "stop" : 1607933892327,
+        "duration" : 41147
+      }
+    }, {
+      "uid" : "d66c2f88f931ea66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607933725362,
+        "stop" : 1607933762901,
+        "duration" : 37539
+      }
+    }, {
+      "uid" : "db17f9931fe856dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607933623888,
+        "stop" : 1607933661619,
+        "duration" : 37731
+      }
+    }, {
+      "uid" : "ef9253889d2265fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607933373041,
+        "stop" : 1607933410460,
+        "duration" : 37419
+      }
+    }, {
+      "uid" : "f5f3875be329f743",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607933179022,
+        "stop" : 1607933216688,
+        "duration" : 37666
+      }
+    }, {
+      "uid" : "5422caf131c3fe5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607932730824,
+        "stop" : 1607932768433,
+        "duration" : 37609
+      }
+    }, {
+      "uid" : "1838751c2418fa0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607932558883,
+        "stop" : 1607932596440,
+        "duration" : 37557
+      }
+    }, {
+      "uid" : "37b23283614f9c89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607932340021,
+        "stop" : 1607932377375,
+        "duration" : 37354
+      }
+    }, {
+      "uid" : "422a2d68a87a1275",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(5) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > div > div > div\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607932302274,
+        "stop" : 1607932328032,
+        "duration" : 25758
+      }
+    }, {
+      "uid" : "ddd81bd8b04f13c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607932201999,
+        "stop" : 1607932239654,
+        "duration" : 37655
+      }
+    }, {
+      "uid" : "26dd1951b161071a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607932088392,
+        "stop" : 1607932126055,
+        "duration" : 37663
+      }
+    }, {
+      "uid" : "3a85a60a27f7101c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607931918116,
+        "stop" : 1607931959652,
+        "duration" : 41536
+      }
+    }, {
+      "uid" : "ab2a02e7e4090917",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607931690641,
+        "stop" : 1607931727977,
+        "duration" : 37336
+      }
+    }, {
+      "uid" : "22ba359b95ab7062",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='root']/div/section/section/main/div/div/div/div[2]/table/tbody//*[text() = 'AutoTest_Bank1020']/..//*[text()= '创建账号']\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607931577739,
+        "stop" : 1607931609406,
+        "duration" : 31667
+      }
+    }, {
+      "uid" : "cfdb810747eb8236",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607931236883,
+        "stop" : 1607931274331,
+        "duration" : 37448
+      }
+    }, {
+      "uid" : "813e68cc449fa63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607931080296,
+        "stop" : 1607931117640,
+        "duration" : 37344
+      }
+    }, {
+      "uid" : "caa1bc3845be2ab0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607930897570,
+        "stop" : 1607930938259,
+        "duration" : 40689
+      }
+    }, {
+      "uid" : "43ed39eb492c68e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607930500377,
+        "stop" : 1607930537722,
+        "duration" : 37345
+      }
+    }, {
+      "uid" : "dea51f24614630fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607930365170,
+        "stop" : 1607930402539,
+        "duration" : 37369
+      }
+    }, {
+      "uid" : "9be5b1359d3fd092",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607930076878,
+        "stop" : 1607930114614,
+        "duration" : 37736
+      }
+    }, {
+      "uid" : "3d3877bfa6eb3930",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607929935850,
+        "stop" : 1607929977058,
+        "duration" : 41208
+      }
+    }, {
+      "uid" : "3d58b2f137744ebe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607929716948,
+        "stop" : 1607929754472,
+        "duration" : 37524
+      }
+    }, {
+      "uid" : "ff6b371639bb8c00",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > section > section > main > div > div > div > div > form > div:nth-child(1) > div:nth-child(1) > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > input\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607929484461,
+        "stop" : 1607929523663,
+        "duration" : 39202
+      }
+    }, {
+      "uid" : "276ecd7bad9ff156",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='root']/section/section/main/div/div/div/div[2]/table/tbody//*[text() = 'AutoTest_Risk1020']/..//*[text()= '创建账号']\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607929030576,
+        "stop" : 1607929058911,
+        "duration" : 28335
+      }
+    }, {
+      "uid" : "2f285c9529230988",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='root']/section/section/main/div/div/div/div[2]/table/tbody//*[text() = 'AutoTest_Risk1020']/..//*[text()= '创建账号']\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1607928974761,
+        "stop" : 1607929002988,
+        "duration" : 28227
+      }
+    }, {
+      "uid" : "7232ebf5ebdfcd7a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1607928866457,
+        "stop" : 1607928943460,
+        "duration" : 77003
+      }
+    }, {
+      "uid" : "67ed800472f0f410",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1607928771012,
+        "stop" : 1607928815532,
+        "duration" : 44520
+      }
+    }, {
+      "uid" : "1a7feec7e97d4f78",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='root']/section/section/main/div/div/div/div[2]/table/tbody//*[text() = 'AutoTest_Bank1020']/..//*[text()= '创建账号']\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1606280142254,
+        "stop" : 1606280174029,
+        "duration" : 31775
+      }
+    }, {
+      "uid" : "87eacff34ca87df",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1605852543174,
+        "stop" : 1605852543174,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "72ac0340c3036c05",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1605852509070,
+        "stop" : 1605852509070,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e4303d79e924feb8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1605852453390,
+        "stop" : 1605852453390,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "11fdddd02c68c51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605157605930,
+        "stop" : 1605157643014,
+        "duration" : 37084
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=5)" ]
+  },
+  "source" : "5c32dea165ed406e.json",
+  "parameterValues" : [ ]
+}

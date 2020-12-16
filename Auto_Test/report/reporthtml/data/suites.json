@@ -1,0 +1,166 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_case.test_Api_demo",
+    "children" : [ {
+      "name" : "test_demo",
+      "children" : [ {
+        "name" : "test_loopApiAccuracy",
+        "uid" : "95f1f2c23a319537",
+        "parentUid" : "864507e959eb60a56c4938e0de94eae4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605157918397,
+          "stop" : 1605157918485,
+          "duration" : 88
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "864507e959eb60a56c4938e0de94eae4"
+    }, {
+      "name" : "test_api_per",
+      "children" : [ {
+        "name" : "test_api_per",
+        "uid" : "e9bd7b969e20621",
+        "parentUid" : "55f4215371e368fccc2fe6b0cc9643c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605491340730,
+          "stop" : 1605491370734,
+          "duration" : 30004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "55f4215371e368fccc2fe6b0cc9643c4"
+    } ],
+    "uid" : "0ce1db2e4e07a2ca035050de40f8374c"
+  }, {
+    "name" : "test_flow.test_Authentication",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "test_companyRegister",
+        "uid" : "428cc25dfba27c80",
+        "parentUid" : "9a7e0e6f3e0f952f8bcc34abd5c95979",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608086028309,
+          "stop" : 1608086046976,
+          "duration" : 18667
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a7e0e6f3e0f952f8bcc34abd5c95979"
+    }, {
+      "name" : "test_personalInfoReg",
+      "children" : [ {
+        "name" : "test_infoReg",
+        "uid" : "4d7736a24e8a0a8e",
+        "parentUid" : "5c30648b86b358f797cfae704122cc2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608086046988,
+          "stop" : 1608086085129,
+          "duration" : 38141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5c30648b86b358f797cfae704122cc2c"
+    }, {
+      "name" : "test_businessInfoReg",
+      "children" : [ {
+        "name" : "test_businessInforReg",
+        "uid" : "452fbec2fc071265",
+        "parentUid" : "ec9023113cd731a3d98287f22b9c540f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608086085140,
+          "stop" : 1608086122632,
+          "duration" : 37492
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec9023113cd731a3d98287f22b9c540f"
+    }, {
+      "name" : "test_backStage_examine",
+      "children" : [ {
+        "name" : "test_backstage_examine",
+        "uid" : "653cc2de06fa93e2",
+        "parentUid" : "0f5bd49568a29f185b3c1e89207e891c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608086122743,
+          "stop" : 1608086139665,
+          "duration" : 16922
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f5bd49568a29f185b3c1e89207e891c"
+    }, {
+      "name" : "test_backStage_authentication",
+      "children" : [ {
+        "name" : "test_backStageActCreate",
+        "uid" : "5c32dea165ed406e",
+        "parentUid" : "fd817d8d0f4e2955a83ca99db1eb2211",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608086139702,
+          "stop" : 1608086177723,
+          "duration" : 38021
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_backStage_authentication",
+        "uid" : "82c593749e5ebcce",
+        "parentUid" : "fd817d8d0f4e2955a83ca99db1eb2211",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608086177734,
+          "stop" : 1608086241492,
+          "duration" : 63758
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd817d8d0f4e2955a83ca99db1eb2211"
+    } ],
+    "uid" : "5afa34953581fdbf72cb514527388d22"
+  }, {
+    "name" : "test_flow.test_Tripartite_interaction",
+    "children" : [ {
+      "name" : "test_Tripartite_interaction",
+      "children" : [ {
+        "name" : "test_Tripartite_interaction",
+        "uid" : "6bd18f326c7e0460",
+        "parentUid" : "d05880f1c647f41ab44d6f53210282c9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608086241538,
+          "stop" : 1608086259072,
+          "duration" : 17534
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d05880f1c647f41ab44d6f53210282c9"
+    } ],
+    "uid" : "af777a3d193f800fcd4be8051aef459c"
+  } ]
+}
