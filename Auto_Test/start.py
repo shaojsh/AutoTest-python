@@ -8,6 +8,7 @@ import os
 import hashlib
 
 # 调用后会自动关机
+import re
 import time
 
 from selenium import webdriver
@@ -15,10 +16,10 @@ from selenium.webdriver.common.by import By
 
 from common.Request import RequestsHandler
 from common.Retrun_Response import dict_style
-from common.dbLink import getVerification_ui
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-import pickle as pkl
+
+from common.dbLink import getVerification_ui
 
 
 def shout_dowm():
@@ -42,31 +43,36 @@ def gettoken():
     headers = {'X-PM-API-TOKENID': token}
     url1 = 'http://124.70.221.250:8080/gpl/webservice/procurement/updatePurchaserOpinion'
     r0 = RequestsHandler().post_Req(url=url1,
-                                    params={"id": "28181123393445888", "auditOpinion": "YES", "auditRemark": "不同意",
-                                            "lockId": "28181110586138624", }, headers=headers)
+                                    params={"id": "29444836203225088", "auditOpinion": "NO", "auditRemark": "不同意",
+                                            "lockId": "28698031703252992", }, headers=headers)
     print(r0.text)
 
 
 # 生成环境日志构建
 def productError():
     option = webdriver.ChromeOptions()
-    option.add_argument("headless")
-    url = "http://10.10.128.153:5601/app/kibana#/discover?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1h,to:now))&_a=(columns:!(appname,level,message),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'4cedbc90-f8b1-11ea-8343-ed223af86c0a',key:level,negate:!f,params:(query:ERROR),type:phrase),query:(match_phrase:(level:ERROR)))),index:'4cedbc90-f8b1-11ea-8343-ed223af86c0a',interval:auto,query:(language:kuery,query:''),sort:!())"
+    # option.add_argument("headless")
+    url = "http://10.10.128.153:5601/app/kibana#/discover?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-24h,to:now))&_a=(columns:!(appname,level,message),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'4cedbc90-f8b1-11ea-8343-ed223af86c0a',key:level,negate:!f,params:(query:ERROR),type:phrase),query:(match_phrase:(level:ERROR)))),index:'4cedbc90-f8b1-11ea-8343-ed223af86c0a',interval:auto,query:(language:kuery,query:''),sort:!())"
     driver = webdriver.Chrome(executable_path='chromedriver.exe', chrome_options=option)
     driver.maximize_window()
     driver.get(url)
     WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//*[text() = 'Refresh']")))
     el = driver.find_element_by_class_name('dscResultCount')
     error_tag = el.text
-    print(error_tag)
-    driver.save_screenshot('error.png')
+    time.sleep(2)
+    html = driver.find_element_by_xpath("//*/tbody").get_attribute("outerHTML")
+    driver.save_screenshot('prdLog.png')
 
 
 # 调用后自动开机
-# def start_up():
-#     pass
+def start_up():
+    # 生产环境log日志查看 过去24小时
+    productError()
+
 
 if __name__ == "__main__":
+    # gettoken()
     # 活体认证
-    # getVerification_ui("http://10.10.128.152:10000/v1/account/login", "17621198964")
-    productError()
+    while True:
+        getVerification_ui("https://zero-api-uat.chengtay.com/v1/account/login", "17082238021")
+        continue

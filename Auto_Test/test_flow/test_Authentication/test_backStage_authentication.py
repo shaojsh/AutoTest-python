@@ -320,7 +320,9 @@ def createInstitutions(driver, name, enterpriseType):
     driver.find_element_by_css_selector(path_backStage_authentication.input_MechanismName_css.value).send_keys(
         name)
     driver.find_element_by_css_selector(path_backStage_authentication.input_MechanismSimName_css.value).send_keys(name)
-
+    picture = os.getcwd() + '\\test_data\\picture\\id_12.png'
+    driver.find_element_by_css_selector(path_backStage_authentication.image_Mechanism_css.value).send_keys(
+        picture)
     driver.find_element_by_css_selector(path_backStage_authentication.select_MechanismType_css.value).click()
     sleep(1)
     if enterpriseType == 1:
@@ -333,6 +335,10 @@ def createInstitutions(driver, name, enterpriseType):
     driver.find_element_by_xpath(path_backStage_authentication.select_StatueType_xpath.value).click()
     sleep(0.5)
     if enterpriseType == 1:
+        # 是否为总行
+        driver.find_element_by_css_selector(path_backStage_authentication.select_bank_css.value).click()
+        sleep(1)
+        driver.find_element_by_xpath(path_backStage_authentication.select_bank_xpath.value).click()
         # 添加银行账户
         driver.find_element_by_css_selector(path_backStage_authentication.select_bankAct_css.value).click()
         sleep(1)

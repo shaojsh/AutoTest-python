@@ -244,6 +244,7 @@ def getVerification():
 
 # 活体二维码码欺诈验证
 def getVerification_ui(url, act):
+    userId = ''
     r0 = RequestsHandler().post_Req(url=url, json={"userName": str(act), "password": "MTIzNDU2"}, )
     sting_response = r0.content.decode()
     json_response = dict_style(sting_response)

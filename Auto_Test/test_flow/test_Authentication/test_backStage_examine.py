@@ -45,7 +45,7 @@ def test_backstage_examine():
     sleep(2)
     driver.find_element_by_xpath(path_backstage_examine.btn_bussMan_xpath.value).click()
     sleep(1)
-    driver.find_element_by_css_selector(path_backstage_examine.btn_bussList_css.value).click()
+    driver.find_element_by_xpath(path_backstage_examine.btn_bussList_xpath.value).click()
     sleep(1)
     elList = driver.find_elements_by_xpath(path_backstage_examine.btn_bussListName_xpath.value)
     index = 0

@@ -9,33 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6bd18f326c7e0460",
+      "uid" : "ffee51ff4d96eaa1",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
       "time" : {
         "start" : 1608086241538,
         "stop" : 1608086259072,
         "duration" : 17534
-      }
-    } ]
-  },
-  "fa363551da3b313dda3c470cf52ad218" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "653cc2de06fa93e2",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
-      "time" : {
-        "start" : 1608086122743,
-        "stop" : 1608086139665,
-        "duration" : 16922
       }
     } ]
   },
@@ -49,12 +29,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "95f1f2c23a319537",
+      "uid" : "2197cf0020ae721",
       "status" : "passed",
       "time" : {
         "start" : 1605157918397,
         "stop" : 1605157918485,
         "duration" : 88
+      }
+    } ]
+  },
+  "fa363551da3b313dda3c470cf52ad218" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e7df71031521a762",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span>...</span> is not clickable at point (74, 528). Other element would receive the click: <a href=\"#!\">...</a>\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1609736989454,
+        "stop" : 1609737003360,
+        "duration" : 13906
       }
     } ]
   },
@@ -68,32 +68,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "428cc25dfba27c80",
+      "uid" : "29bb9d81e95ce096",
       "status" : "passed",
       "time" : {
-        "start" : 1608086028309,
-        "stop" : 1608086046976,
-        "duration" : 18667
+        "start" : 1609736873902,
+        "stop" : 1609736890953,
+        "duration" : 17051
       }
     } ]
   },
   "673c6cf796d54f5cbc2e9852ef4f69c7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "452fbec2fc071265",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"root\"]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/span\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
+      "uid" : "bd8ee4d8e416fbef",
+      "status" : "passed",
       "time" : {
-        "start" : 1608086085140,
-        "stop" : 1608086122632,
-        "duration" : 37492
+        "start" : 1609736931578,
+        "stop" : 1609736989441,
+        "duration" : 57863
       }
     } ]
   },
@@ -107,31 +106,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4d7736a24e8a0a8e",
+      "uid" : "fc07db8759bfdb4f",
       "status" : "passed",
       "time" : {
-        "start" : 1608086046988,
-        "stop" : 1608086085129,
-        "duration" : 38141
+        "start" : 1609736890965,
+        "stop" : 1609736931545,
+        "duration" : 40580
       }
     } ]
   },
   "d85ebd52118862a52004a5c4faaac530" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5c32dea165ed406e",
-      "status" : "passed",
+      "uid" : "eb4c13ea2362969c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[6]/div/div//*[text() = '总行']\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.18363 x86_64)",
       "time" : {
-        "start" : 1608086139702,
-        "stop" : 1608086177723,
-        "duration" : 38021
+        "start" : 1609739120525,
+        "stop" : 1609739174652,
+        "duration" : 54127
       }
     } ]
   },
@@ -145,7 +145,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e9bd7b969e20621",
+      "uid" : "b720389e7e194259",
       "status" : "passed",
       "time" : {
         "start" : 1605491340730,
@@ -164,13 +164,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "82c593749e5ebcce",
+      "uid" : "6d8b1c5aa5ad8744",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1608086177734,
-        "stop" : 1608086241492,
-        "duration" : 63758
+        "start" : 1609739174882,
+        "stop" : 1609739221970,
+        "duration" : 47088
       }
     } ]
   }

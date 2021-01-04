@@ -8,13 +8,16 @@ class path_backStage_authentication(Enum):
     btn_addMechanism_css = '#root > div > section > section > main > div > div > div > div.bird_header___1Vckx > div:nth-child(2) > div:nth-child(2) > div.ant-col.ant-col-14 > div > div > button:nth-child(1)'  # 新增按钮
     input_MechanismName_css = 'body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(1) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > input'  # 机构名称
     input_MechanismSimName_css = 'body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(2) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > input'  # 简称
-    select_MechanismType_css = 'body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(3) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > div > div > div'  # 机构类型
+    image_Mechanism_css = 'body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(3) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > div > span > div.ant-upload.ant-upload-select.ant-upload-select-picture > span > input[type=file]'  # 上传图片
+    select_MechanismType_css = 'body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(4) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > div > div > div'  # 机构类型
     select_BankType_xpath = "/html/body/div[3]/div/div//*[text() = '银行']"  # 机构类型:银行
     select_RiskType_xpath = "/html/body/div[3]/div/div//*[text() = '担保公司']"  # 机构类型:担保公司
-    select_MechanismStatue_css = 'body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(4) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > div > div > div'  # 机构状态
+    select_MechanismStatue_css = 'body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(5) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > div > div > div'  # 机构状态
     select_StatueType_xpath = "/html/body/div[4]/div/div//*[text() = '启用']"  # 启用
-    select_bankAct_css = "body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(5) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > div > div > div"  # 银行账户
-    select_bankAct_xpath = "/html/body/div[5]/div/div//*[text() = '中国邮政储蓄银行']"  # 银行账户
+    select_bank_css = "body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(6) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > div > div > div"  # 是否为总行
+    select_bank_xpath = "/html/body/div[5]/div//*[text() = '支行']"  # 银行账户
+    select_bankAct_css = "body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(7) > div > div > div.ant-col.ant-col-14.ant-form-item-control-wrapper > div > span > div > div > div"  # 银行账户
+    select_bankAct_xpath = "/html/body/div[6]/div//*[text() = '北京银行']"  # 银行账户
 
     btn_confirm_css = 'body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > div > button'  # 确认按钮
 
@@ -94,5 +97,3 @@ class path_backStage_authentication(Enum):
     check_content_css = '#root > div > section > section > main > div > div > div > div:nth-child(2) > div:nth-child(1) > ul > li > span.ant-tree-checkbox > span'  # 进件资料
 
     btn_submit_css = '#root > div > section > section > main > div > div > div > div:nth-child(2) > div:nth-child(2) > div > button:nth-child(2)'  # 提交
-
-

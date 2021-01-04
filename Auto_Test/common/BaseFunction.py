@@ -120,6 +120,17 @@ def getFakerClass():
     return fakerInfor
 
 
+# 正则表达式匹配
+def matchRe(line, start, end):
+    import re
+    rule = start + '(.*)' + end
+    matchObj0 = re.match(rule, line, re.M | re.I)
+    if matchObj0:
+        print(matchObj0.group(1))
+        return matchObj0.group(1)
+    else:
+        print("No match!!")
+
+
 if __name__ == '__main__':
-    faker = getFakerClass()
-    print(faker.ssn())
+    matchRe()
