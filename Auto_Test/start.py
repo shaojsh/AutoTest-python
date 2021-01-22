@@ -74,5 +74,5 @@ if __name__ == "__main__":
     # gettoken()
     # 活体认证
     while True:
-        getVerification_ui("https://zero-api-uat.chengtay.com/v1/account/login", "17082238021")
+        getVerification_ui("http://10.10.128.152:10000/v1/account/login", "17621198933")
         continue

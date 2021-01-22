@@ -110,13 +110,13 @@ def deleteInforMobile():
 
     Sqldata(sqlStr4, 2)
     Sqldata(sqlStr14, 2)
-    Sqldata(sqlStr15, 2)
     Sqldata(sqlStr16, 2)
     Sqldata(sqlStr17, 2)
     Sqldata(sqlStr18, 2)
     Sqldata(sqlStr19, 2)
     Sqldata(sqlStr20, 2)
     Sqldata(sqlStr21, 2)
+    Sqldata(sqlStr15, 2)
 
 
 # 更改企业名称(移动端)
@@ -208,7 +208,7 @@ def getPhoneMessage():
             phoneMessage['forgeMes'] = v
         if k == 'code:ZCDA0132:' + act:  # 个人认证
             phoneMessage['auMes'] = v
-        if k == 'code:ZCDA0131:'+ act:  # 借款管理
+        if k == 'code:ZCDA0131:' + act:  # 借款管理
             phoneMessage['loanMes'] = v
         if k == 'code:A0003:' + company_bank:  # 修改密码 银行
             phoneMessage['actBank'] = v
@@ -249,7 +249,7 @@ def getVerification_ui(url, act):
     sting_response = r0.content.decode()
     json_response = dict_style(sting_response)
     data = json_response.get('data')
-    print('token为：' + data)
+    print('token为：' + str(data))
 
     r = RedisSqldata()
     keys = r.keys()
@@ -272,7 +272,7 @@ def getVerification_ui(url, act):
     for (k, v) in zip(key_list, pipe.execute()):
         k = bytes.decode(k)
         v = bytes.decode(v)
-        if k == 'token:' + data:
+        if k == 'token:' + str(data):
             v = v.replace('null', '\"' + 'ok' + '\"')
             dic = eval(v)
             userId = dic.get('userId')

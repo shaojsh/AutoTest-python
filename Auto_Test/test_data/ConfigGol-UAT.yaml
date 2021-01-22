@@ -71,3 +71,8 @@ test_db_sqllist:
 test_personalInfoRegList:
   name: '李涛'
   id_card: '410184198105155611'
+
+
+  #银行账户  15111111111  d28wy6
+  #担保账户  15222222222  naihdy
+  #企业账户  15333333333 123456
