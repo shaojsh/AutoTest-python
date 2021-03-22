@@ -16,7 +16,7 @@ test_backStageUserList:
   company_user_pass: '123456'
   company_bank_pass: '123456'
   company_Guarantee_pass: '123456'
-  company_name: '山东艺轩建筑装饰工程有限公司'
+  company_name: '山东沁园春市政园林工程有限公司'
   autoTest_BankName: 'AutoTest_Bank1008'
   company_bank: '17082200002'
   autoTest_RiskName: 'AutoTest_Risk1008'
@@ -47,7 +47,7 @@ test_db_sqllist:
 #    sql0000002: "DELETE FROM `chengtay-zero`.zero_user where userName = {0};"
 #    sql0000003: "DELETE FROM `chengtay-zero`.zero_user_authentication where phoneNo = {0};"
     sql0000004: "SET SQL_SAFE_UPDATES = 0;"
-    sql0000005: "update `chengtay-zcd`.enterprise set name = 'oldcompanyname' where name in ('潍坊市市政工程设计研究院有限公司','山东艺轩建筑装饰工程有限公司','山东欣立得光电科技有限公司');"
+    sql0000005: "update `chengtay-zcd`.enterprise set name = 'oldcompanyname' where name in ('山东沁园春市政园林工程有限公司');"
     sql0000006: "Delete From `chengtay-zero`.zero_user where phoneNo in {0};"
     sql0000007: "Delete From `chengtay-zcd`.product_material where productid in (select id FROM `chengtay-zcd`.product where provide = {0});"
     sql0000008: "Delete FROM `chengtay-zcd`.product where provide = {0};"

@@ -7,7 +7,7 @@ test_path_list:
   url_ui2: '/test_flow/test_Authentication/test_backStage_authentication.py'
   url_ui: '/test_flow/'
   url_ui_forward: 'http://10.10.128.152:10053/user/login'
-  url_ui_back: 'http://10.10.128.152:10052/#/account/login'
+  url_ui_back: ''
   url_ui_register: 'http://10.10.128.152:10053/user/register'
   url_ui_forget: 'http://10.10.128.152:10053/user/forget'
   delete_flag: 0
@@ -16,7 +16,7 @@ test_backStageUserList:
   company_user_pass: '123456'
   company_bank_pass: '123456'
   company_Guarantee_pass: '123456'
-  company_name: '山东欣立得光电科技有限公司'
+  company_name: '潍坊升华信息网络有限公司'
   autoTest_BankName: 'AutoTest_Bank1029'
   company_bank: '17082200009'
   autoTest_RiskName: 'AutoTest_Risk1029'
@@ -47,7 +47,7 @@ test_db_sqllist:
 #    sql0000002: "DELETE FROM `chengtay-zero`.zero_user where userName = {0};"
 #    sql0000003: "DELETE FROM `chengtay-zero`.zero_user_authentication where phoneNo = {0};"
     sql0000004: "SET SQL_SAFE_UPDATES = 0;"
-    sql0000005: "update `chengtay-zcd-prd`.enterprise set name = 'oldcompanyname' where name in ('潍坊市市政工程设计研究院有限公司','山东艺轩建筑装饰工程有限公司','山东欣立得光电科技有限公司','');"
+    sql0000005: "update `chengtay-zcd-prd`.enterprise set name = 'oldcompanyname' where name in ('潍坊升华信息网络有限公司');"
     sql0000006: "Delete From `chengtay-zero-prd`.zero_user where phoneNo in {0};"
     sql0000007: "Delete From `chengtay-zcd-prd`.product_material where productid in (select id FROM `chengtay-zcd-prd`.product where provide = {0});"
     sql0000008: "Delete FROM `chengtay-zcd-prd`.product where provide = {0};"
@@ -71,3 +71,4 @@ test_db_sqllist:
 test_personalInfoRegList:
   name: '李涛'
   id_card: '410184198105155611'
+  # 515328000000000510

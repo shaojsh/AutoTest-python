@@ -123,14 +123,14 @@ def getFakerClass():
 # 正则表达式匹配
 def matchRe(line, start, end):
     import re
-    rule = start + '(.*)' + end
-    matchObj0 = re.match(rule, line, re.M | re.I)
+    rule = '(.*)' + start + '(.*)' + end + '(.*)'
+    matchObj0 = re.findall(rule, line, re.S)
     if matchObj0:
-        print(matchObj0.group(1))
-        return matchObj0.group(1)
+        print(matchObj0[0][1])
+        return matchObj0[0][1]
     else:
         print("No match!!")
 
 
 if __name__ == '__main__':
-    matchRe()
+    matchRe("asdiauszshudas123445sddsadsads", 'asdiauszshudas', 'sddsadsads')

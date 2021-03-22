@@ -18,11 +18,11 @@ def createExcel():
 
 # 读取 指定excel 信息
 def readExcel():
-    excelName = 'hello.xlsx'
+    excelName = 'chart.xlsx'
     data = xlrd.open_workbook(excelName)  # 打开fname文件
     data.sheet_names()  # 获取xls文件中所有sheet的名称
     table = data.sheet_by_index(0)  # 通过索引获取xls文件第0个sheet
-    value = table.cell_value(1, 1)  # #获取第i行中第j列的值
+    value = table.cell_value(2, 2)  # #获取第i行中第j列的值
     print(value)
 
 
@@ -57,4 +57,4 @@ def barChart():
 
 
 if __name__ == "__main__":
-    barChart()
+    readExcel()

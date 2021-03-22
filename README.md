@@ -50,3 +50,12 @@ python知识库总结：https://github.com/taizilongxu/interview_python
     2.应用于线程池
     3.应用于连接池
 14.闭包概念：在一个外函数中定义了一个内函数，内函数里运用了外函数的临时变量，并且外函数的返回值是内函数的引用。这样就构成了一个闭包
+
+15.webdriver 去除特性
+self.driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+            "source": """
+                                        Object.defineProperty(navigator, 'webdriver', {
+                                            get: () => undefined
+                                        });
+                                    """
+        })
