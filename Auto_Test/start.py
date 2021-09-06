@@ -174,8 +174,15 @@ def Novels2():
     print(html)
 
 
+def test():
+    driver = webdriver.Chrome(executable_path='chromedriver.exe')
+    driver.get('https://www.ti.com/')
+    print(driver.find_element_by_css_selector(
+        '#tiResponsiveHeader > div > div.ti_p-responsiveHeader-top-llc > div.ti_p-responsiveHeader-llc-component.mod-login > ti-login').click())
+
+
 if __name__ == "__main__":
-    Novels1()
+    test()
     # gettoken()
     # 活体认证
     # while True:
