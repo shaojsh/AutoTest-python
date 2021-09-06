@@ -34,6 +34,8 @@ def shout_dowm():
 
 # 银行token 30分钟有效期
 def gettoken():
+    # flag = 1 :财政是否同意  flag = 0 :查看绑定状态
+    flag = 1
     appid = "zcd"
     timeNow = str(time.strftime('%Y%m%d%H%M%S', time.localtime(time.time())))
     checkCode = "zcd" + timeNow + "87288aae-49e5-42e5-be97-609ae7fc35ba"
@@ -46,10 +48,20 @@ def gettoken():
     if token is None:
         print('ERROR,Token没拿到')
     headers = {'X-PM-API-TOKENID': token}
-    url1 = 'http://124.70.221.250:8080/gpl/webservice/procurement/updatePurchaserOpinion'
-    r0 = RequestsHandler().post_Req(url=url1,
-                                    params={"id": "29444836203225088", "auditOpinion": "NO", "auditRemark": "不同意",
-                                            "lockId": "28698031703252992", }, headers=headers)
+    if flag == 1:
+        url1 = 'http://124.70.221.250:8080/gpl/webservice/procurement/updatePurchaserOpinion'
+        r0 = RequestsHandler().post_Req(url=url1,
+                                        params={"id": "40039522980651008", "auditOpinion": "NO", "auditRemark": "不同意",
+                                                "lockId": "40039521349066752", }, headers=headers)
+    # # else:
+    # #     url1 = 'http://124.70.221.250:8080/gpl/webservice/procurement/querylockAccountInfo'
+    # #     r0 = RequestsHandler().post_Req(url=url1,
+    # #                                     params={"loanId": "", "id": "38239715142197248"}, headers=headers)
+    # #
+    # url1 = 'http://124.70.221.250:8080/gpl/webservice/procurement/getLoan'
+    # r0 = RequestsHandler().post_Req(url=url1,
+    #                                 params={"loanId": "", "id": "38239713886003200"}, headers=headers)
+
     print(r0.text)
 
 
@@ -81,7 +93,7 @@ def baiduWenku():
     # option.add_argument('--headless')
     option.add_argument(
         'user-agent="Mozilla/5.0 (iPod; U; CPU iPhone OS 2_1 like Mac OS X; ja-jp) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5F137 Safari/525.20"')
-    url = "https://wenku.baidu.com/view/e9dc4552a55177232f60ddccda38376bae1fe062.html?fr=search-score_2-psrec1&fixfr=wis0bMgD2qzRL%2B1FgwGT%2Bg%3D%3D"
+    url = "https://wenku.baidu.com/view/78e01f185022aaea988f0f11.html?fr=search-income11&fixfr=jvBw0mP%2BgQv3JbsgIHTq2g%3D%3D"
     driver = webdriver.Chrome(executable_path='chromedriver.exe', chrome_options=option)
     driver.get(url)
 
@@ -129,10 +141,43 @@ def picPdf(img_path, pdf_path, pdf_name):
     doc.close()
 
 
+def Novels1():
+    url = 'https://dushu.baidu.com/pc/reader?gid=4315646974&cid=10166918'
+    # 添加请求头
+    headers = {
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36'
+    }
+    get_response = requests.get(url, headers=headers)
+
+    html = get_response.text
+    # 打印 html资源
+    print(html)
+    # 1.获取 js
+    real_Url = matchRe(html, "src=\"", "\"></script>")
+
+    # 2.获取js内容
+    real_response = requests.get(real_Url, headers=headers)
+
+    # 3.被逮
+    print(real_response.text)
+
+
+def Novels2():
+    option = webdriver.ChromeOptions()
+    # option.add_argument('--headless')
+    option.add_argument(
+        'user-agent="Mozilla/5.0 (iPod; U; CPU iPhone OS 2_1 like Mac OS X; ja-jp) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5F137 Safari/525.20"')
+    url = "https://dushu.baidu.com/pc/reader?gid=4315646974&cid=10166918"
+    driver = webdriver.Chrome(executable_path='chromedriver.exe', chrome_options=option)
+    driver.get('https://dushu.baidu.com/pc/reader?gid=4315646974&cid=10166918')
+    html = driver.page_source
+    print(html)
+
+
 if __name__ == "__main__":
+    Novels1()
     # gettoken()
     # 活体认证
     # while True:
     #     getVerification_ui("http://10.10.128.152:10000/v1/account/login", "17082238021")
-    #     continue
-    baiduWenku()
+    # #     continue

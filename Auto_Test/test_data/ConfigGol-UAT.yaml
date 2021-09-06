@@ -53,7 +53,7 @@ test_db_sqllist:
     sql0000008: "Delete FROM `chengtay-zcd`.product where provide = {0};"
     sql0000009: "Delete FROM `chengtay-zcd`.mechanism where id in (select mechanismId FROM `chengtay-zcd`.enterprise_account  where phone in {0});"
     sql0000010: "Delete  FROM `chengtay-zcd`.enterprise where mechanismId in (select mechanismId FROM `chengtay-zcd`.enterprise_account where phone in {0});"
-    sql0000011: "Delete  FROM `chengtay-zcd`.enterprise_account where phone in {0};"
+    sql0000011: "Delete  FROM `chengtay-zcd`.enterprise_account where phone in  {0};"
     sql0000012: "DELETE FROM `chengtay-zcd`.enterprise where name IN {0};"
     sql0000013: "DELETE FROM `chengtay-zcd`.mechanism where name IN {0};"
     # 移动端sql
@@ -70,7 +70,7 @@ test_db_sqllist:
 
 test_personalInfoRegList:
   name: '李涛'
-  id_card: '410184198105155611'
+  id_card: '`410184198105155611`'
 
 
   #银行账户  15111111111  d28wy6
